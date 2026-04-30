@@ -1,12 +1,39 @@
 {
-  "last_updated": "2026-04-30T11:10:00.000000+00:00",
+  "last_updated": "2026-04-30T12:18:32.313177+00:00",
   "posts": [
+    {
+      "topic": "Pakistan opens land corridor into blockaded Iran",
+      "source_headline": "Pakistan opens up road trade routes into Iran amid Hormuz blockade",
+      "source_url": "https://www.aljazeera.com/news/2026/4/30/pakistan-opens-up-road-trade-routes-into-iran-amid-hormuz-blockade",
+      "x_post": "Pakistan opened 6 overland trade routes into Iran today while thousands of containers sit stranded at Karachi port under the US Hormuz blockade. Iranian FM Araghchi is back in Islamabad, his second visit this month, for talks with PM Shehbaz and army chief Asim Munir. My read: a country that controls the only functioning land corridor into a blockaded state while hosting the peace talks is not a neutral broker. It is the indispensable node.",
+      "substack_note": "My read: Pakistan opened 6 overland trade routes into Iran today while thousands of containers sit stranded at Karachi port under the US Hormuz blockade. Iranian FM Araghchi is back in Islamabad, his second visit this month, for talks with PM Shehbaz and army chief Asim Munir.\n\nI've been watching Pakistan's Middle East repositioning for two years. Fighter jets to Saudi Arabia. Nuclear peace talks hosted in Islamabad. World Bank reclassification from South Asia to MENAAP. And now the only functioning land corridor into a blockaded Iran. Individually, each looks like hedging. Together, they look like a deliberate strategy to make Pakistan's geography irreplaceable.\n\nCan Islamabad convert this window of indispensability into durable economic terms before the war ends and the moment closes?",
+      "generated_at": "2026-04-30T13:00:00+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "MENA Q1 2026 funding crashes 37% amid Iran war",
+      "source_headline": "MENA startup funding slips to $941 million in Q1 2026 amid heightened geopolitical risk",
+      "source_url": "https://www.wamda.com/2026/04/mena-startup-funding-slips-941-million-q1-2026-amid-heightened-geopolitical-risk",
+      "x_post": "MENA startup funding hit $941 million in Q1 2026, down 37% year-on-year. The monthly compression is more alarming: February fell to $327 million as the Iran conflict escalated, and March crashed to just $48 million. My read: this is what a shooting war within 800 kilometers of Dubai actually costs. Fintech captured 46% of that shrunken pool, the only sector where revenue clarity still commands conviction.",
+      "substack_note": "My take: MENA startup funding fell to $941 million in Q1 2026, down 37% year-on-year and 21% quarter-on-quarter. The monthly collapse is the real story. February closed at $326.6 million as the Iran war intensified. March closed at just $48.3 million, against a 2025 annual record of $7.5 billion.\n\nI've watched Gulf capital long enough to recognize this pattern. When the region's risk premium spikes, capital concentrates fast: 46% of Q1's shrunken pool went to fintech. Clear revenue models, working unit economics. The speculative fringe disappears first.\n\nWhat I find harder to answer is whether this is a temporary shock or a structural repricing. The cause isn't rates or tech multiples, it's an active war 800 kilometres from Dubai. How quickly does that confidence return when a ceasefire holds?",
+      "generated_at": "2026-04-30T13:00:00+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "Visa stablecoin settlement doubles to $7B run rate",
+      "source_headline": "Visa (V) expands stablecoin settlement network as volume hits $7 billion run rate",
+      "source_url": "https://www.coindesk.com/business/2026/04/29/visa-expands-stablecoin-settlement-network-as-volume-hits-usd7-billion-run-rate",
+      "x_post": "Visa's stablecoin settlement hit a $7 billion annualized run rate this week, double the $3.5 billion recorded in December. The network now covers 9 blockchains and 130 card programs across 50 countries after adding 5 chains in a single announcement. My read: Visa is not competing with stablecoin rails. It is inserting itself as the clearing layer above them, and that position is very hard to displace.",
+      "substack_note": "My read: Visa's stablecoin settlement volume hit $7 billion annualized this week, double its December 2025 rate, across 9 blockchains, 130 card programs, and 50 countries. This is live transaction volume, not a forecast.\n\nI was skeptical for a while that traditional networks would move fast enough to matter here. This week shifts my view. Visa isn't defending turf, it's occupying the clearing layer above whichever rails survive. That's a strategically different posture from what most traditional payments incumbents are doing.\n\nThe incumbents who've spent decades building enterprise trust have structural advantages the original stablecoin thesis underestimated: networks, compliance relationships, counterparty credibility.\n\nIs this Visa genuinely capturing the stablecoin era, or building one more integration layer that a truly decentralised settlement stack will eventually route around?",
+      "generated_at": "2026-04-30T13:00:00+00:00",
+      "status": "pending"
+    },
     {
       "topic": "Meta relaunches stablecoin creator payments via USDC/Stripe",
       "source_headline": "Meta (META) starts stablecoin payout to creators in Circle's USDC on Polygon, Solana via Stripe",
       "source_url": "https://www.coindesk.com/business/2026/04/29/tech-giant-meta-starts-paying-some-creators-in-stablecoin-with-stripe-s-support",
       "x_post": "Meta killed its own stablecoin project, Diem, in January 2022 rather than fight regulators for the right to issue currency. Four years later, the replacement uses USDC not Diem, Stripe not Novi, Polygon and Solana not a proprietary chain, and launches in Colombia and Philippines, two of the world's largest remittance corridors. My read: the $293 billion stablecoin market built itself in Meta's absence, and Meta just quietly re-entered as a distribution layer.",
-      "substack_note": "I keep thinking about how quietly Meta walked back into the stablecoin conversation. In January 2022, Diem was sold off and pronounced dead — a generational ambition to issue private currency, ended without a fight. Four years later, the same company is paying creators in USDC, on Polygon and Solana, through Stripe, in Colombia and the Philippines. The $293B stablecoin market grew without them, and now they are entering as plumbing, not as the protagonist. My read: this is what conceding the issuance war but winning the distribution war looks like. The interesting question is whether the next layer down — wallets, remittance UX, fiat off-ramps — is actually the higher-margin layer all along. Curious how others are reading this. Are we underestimating what 'distribution-only' fintech looks like at Meta scale?",
+      "substack_note": "I keep thinking about how quietly Meta walked back into the stablecoin conversation. In January 2022, Diem was sold off and pronounced dead \u2014 a generational ambition to issue private currency, ended without a fight. Four years later, the same company is paying creators in USDC, on Polygon and Solana, through Stripe, in Colombia and the Philippines. The $293B stablecoin market grew without them, and now they are entering as plumbing, not as the protagonist. My read: this is what conceding the issuance war but winning the distribution war looks like. The interesting question is whether the next layer down \u2014 wallets, remittance UX, fiat off-ramps \u2014 is actually the higher-margin layer all along. Curious how others are reading this. Are we underestimating what 'distribution-only' fintech looks like at Meta scale?",
       "generated_at": "2026-04-30T09:14:00+00:00",
       "status": "pending"
     }
