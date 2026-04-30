@@ -1,11 +1,16 @@
 """Content Studio — Muneeb Naseem's content engine for X / LinkedIn / Substack."""
 
+import base64
 import json
 import os
 from datetime import datetime, timezone
 
 import pandas as pd
+import requests
 import streamlit as st
+
+GITHUB_REPO         = "muneebnaseem786-stack/muneeb-content-engine"
+FEEDBACK_REPO_PATH  = "data/feedback_log.json"
 
 st.set_page_config(
     page_title="Content Studio",
@@ -56,7 +61,7 @@ feedback_data = _load_json("data/feedback_log.json",    {"feedback": []})
 
 
 def _record_feedback(post: dict, reason: str) -> None:
-    """Append a skip-reason entry and persist to disk."""
+    """Append a skip-reason entry and persist (GitHub commit + local fallback)."""
     entry = {
         "timestamp":         datetime.now(timezone.utc).isoformat(),
         "platform":          post.get("platform", ""),
@@ -68,9 +73,46 @@ def _record_feedback(post: dict, reason: str) -> None:
         "generated_at":      post.get("generated_at", ""),
     }
     feedback_data["feedback"].append(entry)
+
     os.makedirs("data", exist_ok=True)
     with open("data/feedback_log.json", "w") as f:
         json.dump(feedback_data, f, indent=2)
+
+    committed = _commit_feedback_to_github(feedback_data)
+    if not committed:
+        st.toast("⚠️ Saved locally. (GitHub commit unavailable — feedback may not survive redeploy.)", icon="⚠️")
+
+
+def _commit_feedback_to_github(payload: dict) -> bool:
+    """Push the updated feedback log to the repo via GitHub API."""
+    token = st.secrets.get("GITHUB_TOKEN", os.environ.get("GITHUB_TOKEN"))
+    if not token:
+        return False
+
+    api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{FEEDBACK_REPO_PATH}"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept":        "application/vnd.github+json",
+        "User-Agent":    "muneeb-content-engine",
+    }
+
+    try:
+        get_resp = requests.get(api_url, headers=headers, timeout=10)
+        sha      = get_resp.json().get("sha") if get_resp.status_code == 200 else None
+
+        content_b64 = base64.b64encode(json.dumps(payload, indent=2).encode("utf-8")).decode("utf-8")
+        body = {
+            "message": "chore: skip-reason feedback [skip ci]",
+            "content": content_b64,
+            "committer": {"name": "Content Studio", "email": "noreply@anthropic.com"},
+        }
+        if sha:
+            body["sha"] = sha
+
+        put_resp = requests.put(api_url, headers=headers, json=body, timeout=10)
+        return put_resp.status_code in (200, 201)
+    except requests.RequestException:
+        return False
 
 ideas         = ideas_data.get("ideas", [])
 queue_posts   = queue_data.get("posts", [])
