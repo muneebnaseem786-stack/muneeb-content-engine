@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-04-30T12:18:32.313177+00:00",
+  "last_updated": "2026-04-30T14:34:21.488794+00:00",
   "posts": [
+    {
+      "topic": "Meta routes creator payments through USDC via Stripe",
+      "source_headline": "Meta Launches USDC Stablecoin Creator Payouts on Solana and Polygon via Stripe",
+      "source_url": "https://decrypt.co/366087/meta-launches-usdc-stablecoin-creator-payouts-on-solana-and-polygon-via-stripe",
+      "x_post": "Meta just turned 3+ billion users into a live stablecoin settlement network. USDC on Solana and Polygon, routed through Stripe, paying creators in Colombia and the Philippines, two of the world's highest-fee dollar conversion corridors. My read: the 'crypto moment' everyone waited for was not a DeFi protocol. It was a payroll function quietly embedded inside a social app.",
+      "substack_note": "My take: Meta's stablecoin rollout is being framed as a crypto story. It isn't.\n\nFour years after Libra collapsed under regulatory pressure, Meta didn't launch a new coin. It plugged into Circle's USDC and Stripe's infrastructure and began paying creators in Colombia and the Philippines. Two markets where converting USD payouts to local currency routinely costs 5 to 7% per transaction.\n\nI've watched stablecoin adoption for several years, and the pattern is consistent: the breakthrough never arrives when a blockchain startup announces a product. It arrives when a 3.2 billion-user platform quietly converts its payroll function into a settlement rail.\n\nThe question I keep returning to: does Meta expand this to advertising disbursements? If brand payments follow creator payments, you have a stablecoin network processing commercial-scale volumes before most analysts notice.",
+      "generated_at": "2026-04-30T14:34:21.488757+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "UAE captures 66% of MENA's contracting Q1 2026 funding",
+      "source_headline": "MENA startup funding slips to $941 million in Q1 2026 amid heightened geopolitical risk",
+      "source_url": "https://www.wamda.com/2026/04/mena-startup-funding-slips-941-million-q1-2026-amid-heightened-geopolitical-risk",
+      "x_post": "MENA startup funding collapsed 37% year-on-year in Q1 2026 to $941 million, but the real number is UAE's capture rate: $625.8 million of that, 66% of the entire region, across just 46 deals. Saudi Arabia pulled in $156.7 million across 57 deals. My read: MENA's innovation capital is not slowing. It is concentrating. The Hormuz disruptions accelerated the flight to certainty, and UAE is where certainty lives.",
+      "substack_note": "My read: when total MENA startup funding falls 37% year-on-year, the instinct is to call it a regional slowdown. The data says something more specific.\n\nUAE raised $625.8 million in Q1 2026, capturing 66% of the region's entire $941 million. Saudi Arabia ran 57 deals but raised only $156.7 million. Egypt pulled in $86 million across 12 transactions.\n\nI'm based in the UAE, and I've seen this pattern before: when regional risk spikes, capital doesn't leave MENA. It relocates within MENA. Iran's Hormuz blockade created genuine uncertainty across seaborne logistics. Investors still wanted regional exposure. They just wanted it from a jurisdiction with regulatory clarity and no proximity to the disruption.\n\nFintech led at 46% of total funding. That's what investors trust when nervous: clear revenue models, not speculative bets.\n\nWhat does this concentration mean for founders building from Cairo or Riyadh? I'm still working through that.",
+      "generated_at": "2026-04-30T14:34:21.488757+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "World Bank moves Pakistan from South Asia into MENAAP",
+      "source_headline": "Pakistan's New Geographic Designation Brings Complications",
+      "source_url": "https://foreignpolicy.com/2026/04/29/pakistan-world-bank-imf-middle-east-saudi-arabia-india-south-asia/",
+      "x_post": "The World Bank just reclassified Pakistan from South Asia into MENAAP, a new regional group covering the Middle East, North Africa, Afghanistan, and Pakistan. MENAAP now has 813 million people; Pakistan alone is nearly 300 million, one-third of the group. My read: this is not a bureaucratic update. When the institution that sets global development benchmarks moves Pakistan into the Gulf's orbit, every sovereign wealth fund, multilateral lender, and MSCI index will follow.",
+      "substack_note": "My take: the World Bank's decision to move Pakistan into MENAAP looks like a data reorganization exercise. It isn't.\n\nMENA's population jumps from 519 million to 813 million with Pakistan included. Pakistan now anchors the new grouping at nearly one-third of total MENAAP population. The young-age dependency ratio for the region rises by 15%, which changes every development model and sovereign lending thesis for the combined bloc.\n\nI've watched Pakistan's economic center of gravity tilt toward the Gulf for years. GCC remittances, hundreds of thousands of Pakistani workers across UAE and Saudi Arabia, deepening trade ties. The World Bank just made it official in the language that multilaterals, index providers, and institutional investors actually use.\n\nOnce Bloomberg, MSCI, and the Asian Development Bank retag Pakistan, capital flows follow. Is Islamabad prepared to be benchmarked against MENA peers rather than South Asian ones?",
+      "generated_at": "2026-04-30T14:34:21.488757+00:00",
+      "status": "pending"
+    },
     {
       "topic": "Pakistan opens land corridor into blockaded Iran",
       "source_headline": "Pakistan opens up road trade routes into Iran amid Hormuz blockade",
