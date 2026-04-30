@@ -208,69 +208,83 @@ with sub_queue:
     if not pending and queue_posts:
         st.success("Queue is empty — nothing pending right now.")
     elif pending:
-        st.markdown(f"**{len(pending)} posts pending**")
+        st.markdown(f"**{len(pending)} stories pending**")
+        st.caption("Each story has both an X version (punchy) and a Substack Note (reflective). Post one, both, or skip.")
         st.divider()
 
-    platform_icon = {"X": "🐦", "substack_note": "📧"}
-
     for i, post in enumerate(pending):
-        plat       = post.get("platform", "X")
-        icon       = platform_icon.get(plat, "📝")
         topic      = post.get("topic", "")
-        content    = post.get("content", "")
         src_text   = post.get("source_headline", "")
         src_url    = post.get("source_url", "")
         ts         = post.get("generated_at", "")[:16].replace("T", " ")
         unique_key = f"{post.get('generated_at', '')}_{topic}"
 
-        with st.container(border=True):
-            st.markdown(f"**{icon} {plat}** · {topic} · _{ts} UTC_")
+        # Schema migration: paired (x_post + substack_note) is new; legacy is single (content + platform)
+        x_text       = post.get("x_post") or (post.get("content", "") if post.get("platform") == "X" else "")
+        substack_text = post.get("substack_note") or (post.get("content", "") if post.get("platform") == "substack_note" else "")
 
+        with st.container(border=True):
+            st.markdown(f"**📡 {topic}** · _{ts} UTC_")
             if src_url and src_text:
-                st.markdown(f"📰 **Source:** [{src_text}]({src_url})")
+                st.markdown(f"📰 [{src_text}]({src_url})")
             elif src_text:
                 st.caption(f"Source: {src_text}")
 
-            st.text_area("Reaction post:", content, height=110 if plat == "X" else 180, key=f"rq_{i}")
+            col_x, col_sub = st.columns(2)
 
-            col_post, col_copy, col_skip = st.columns(3)
+            with col_x:
+                if x_text:
+                    st.markdown("##### 🐦 X (punchy)")
+                    st.text_area("X post:", x_text, height=140, key=f"x_{i}", label_visibility="collapsed")
+                    intent_url = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(x_text)}"
+                    bcol1, bcol2 = st.columns(2)
+                    with bcol1:
+                        st.link_button("🚀 Post", intent_url, use_container_width=True, type="primary")
+                    with bcol2:
+                        if st.button("📋", key=f"copy_x_{i}", use_container_width=True, help="Show as copyable code"):
+                            st.session_state[f"copied_x_{i}"] = True
+                    if st.session_state.get(f"copied_x_{i}"):
+                        st.code(x_text, language=None)
 
-            if plat == "X":
-                intent_url = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(content)}"
-                with col_post:
-                    st.link_button("🚀 Post on X", intent_url, use_container_width=True, type="primary")
-            else:
-                with col_post:
-                    st.link_button("📝 Open Substack Notes", "https://substack.com/notes", use_container_width=True, type="primary")
+            with col_sub:
+                if substack_text:
+                    st.markdown("##### 📧 Substack Note (reflective)")
+                    st.text_area("Substack note:", substack_text, height=200, key=f"sub_{i}", label_visibility="collapsed")
+                    bcol3, bcol4 = st.columns(2)
+                    with bcol3:
+                        st.link_button("📝 Open", "https://substack.com/notes", use_container_width=True, type="primary")
+                    with bcol4:
+                        if st.button("📋", key=f"copy_sub_{i}", use_container_width=True, help="Show as copyable code"):
+                            st.session_state[f"copied_sub_{i}"] = True
+                    if st.session_state.get(f"copied_sub_{i}"):
+                        st.code(substack_text, language=None)
 
-            with col_copy:
-                if st.button("📋 Copy", key=f"copy_{i}", use_container_width=True):
-                    st.session_state[f"copied_{i}"] = True
-            with col_skip:
-                if st.button("❌ Skip", key=f"skip_{i}", use_container_width=True):
-                    st.session_state[f"asking_reason_{i}"] = True
-
-            if st.session_state.get(f"copied_{i}"):
-                st.code(content, language=None)
-                st.caption("Select all above to copy.")
+            st.markdown("")
+            if st.button("❌ Skip story", key=f"skip_{i}", use_container_width=True):
+                st.session_state[f"asking_reason_{i}"] = True
 
             if st.session_state.get(f"asking_reason_{i}"):
-                st.markdown("**Why skip?**")
-                st.caption("This trains the radar — telling apart bad topics from bad writing.")
-                col_topic, col_quality, col_cancel = st.columns(3)
-                with col_topic:
-                    if st.button("🚫 Topic — not for me", key=f"reason_topic_{i}", use_container_width=True):
+                st.caption("Why skip? Helps train the radar.")
+                rc1, rc2, rc3, rc4 = st.columns(4)
+                with rc1:
+                    if st.button("🚫 Topic", key=f"reason_topic_{i}", use_container_width=True, help="Story not for me"):
                         _record_feedback(post, "topic")
                         st.session_state[f"hidden_{unique_key}"] = True
                         st.session_state[f"asking_reason_{i}"] = False
                         st.rerun()
-                with col_quality:
-                    if st.button("✏️ Post — quality issue", key=f"reason_quality_{i}", use_container_width=True):
-                        _record_feedback(post, "post_quality")
+                with rc2:
+                    if st.button("✏️ X quality", key=f"reason_x_{i}", use_container_width=True, help="X post writing failed"):
+                        _record_feedback(post, "x_quality")
                         st.session_state[f"hidden_{unique_key}"] = True
                         st.session_state[f"asking_reason_{i}"] = False
                         st.rerun()
-                with col_cancel:
+                with rc3:
+                    if st.button("✏️ Substack quality", key=f"reason_sub_{i}", use_container_width=True, help="Substack note writing failed"):
+                        _record_feedback(post, "substack_quality")
+                        st.session_state[f"hidden_{unique_key}"] = True
+                        st.session_state[f"asking_reason_{i}"] = False
+                        st.rerun()
+                with rc4:
                     if st.button("← Cancel", key=f"reason_cancel_{i}", use_container_width=True):
                         st.session_state[f"asking_reason_{i}"] = False
                         st.rerun()

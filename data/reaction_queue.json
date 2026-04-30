@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-30T10:48:07.430388+00:00",
+  "last_updated": "2026-04-30T11:10:00.000000+00:00",
   "posts": [
     {
-      "platform": "X",
       "topic": "Meta relaunches stablecoin creator payments via USDC/Stripe",
       "source_headline": "Meta (META) starts stablecoin payout to creators in Circle's USDC on Polygon, Solana via Stripe",
       "source_url": "https://www.coindesk.com/business/2026/04/29/tech-giant-meta-starts-paying-some-creators-in-stablecoin-with-stripe-s-support",
-      "content": "Meta killed its own stablecoin project, Diem, in January 2022 rather than fight regulators for the right to issue currency. Four years later, the replacement uses USDC not Diem, Stripe not Novi, Polygon and Solana not a proprietary chain, and launches in Colombia and Philippines, two of the world's largest remittance corridors. My read: the $293 billion stablecoin market built itself in Meta's absence, and Meta just quietly re-entered as a distribution layer.",
+      "x_post": "Meta killed its own stablecoin project, Diem, in January 2022 rather than fight regulators for the right to issue currency. Four years later, the replacement uses USDC not Diem, Stripe not Novi, Polygon and Solana not a proprietary chain, and launches in Colombia and Philippines, two of the world's largest remittance corridors. My read: the $293 billion stablecoin market built itself in Meta's absence, and Meta just quietly re-entered as a distribution layer.",
+      "substack_note": "I keep thinking about how quietly Meta walked back into the stablecoin conversation. In January 2022, Diem was sold off and pronounced dead — a generational ambition to issue private currency, ended without a fight. Four years later, the same company is paying creators in USDC, on Polygon and Solana, through Stripe, in Colombia and the Philippines. The $293B stablecoin market grew without them, and now they are entering as plumbing, not as the protagonist. My read: this is what conceding the issuance war but winning the distribution war looks like. The interesting question is whether the next layer down — wallets, remittance UX, fiat off-ramps — is actually the higher-margin layer all along. Curious how others are reading this. Are we underestimating what 'distribution-only' fintech looks like at Meta scale?",
       "generated_at": "2026-04-30T09:14:00+00:00",
       "status": "pending"
     }
