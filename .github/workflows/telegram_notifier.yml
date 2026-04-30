@@ -1,0 +1,38 @@
+name: Telegram Notifier
+
+on:
+  schedule:
+    # 15 minutes after each Reaction Radar run, 6am-10pm UAE
+    - cron: '15 2,4,6,8,10,12,14,16,18 * * *'
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Send pending posts to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/telegram/notifier.py
+
+      - name: Commit reaction queue updates
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add data/reaction_queue.json
+          git diff --staged --quiet || git commit -m "chore: telegram notify [skip ci]"
+          git push

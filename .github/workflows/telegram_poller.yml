@@ -1,0 +1,45 @@
+name: Telegram Poller
+
+on:
+  schedule:
+    # Every 5 minutes during UAE waking hours (6am-midnight = 2am-8pm UTC)
+    - cron: '*/5 2-19 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: telegram-poller
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests tweepy
+
+      - name: Poll Telegram for callbacks
+        env:
+          TELEGRAM_BOT_TOKEN:    ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          X_API_KEY:             ${{ secrets.X_API_KEY }}
+          X_API_SECRET:          ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN:        ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python scripts/telegram/poller.py
+
+      - name: Commit data updates
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add data/reaction_queue.json data/posted_log.json data/feedback_log.json data/telegram_offset.json
+          git diff --staged --quiet || git commit -m "chore: telegram poller [skip ci]"
+          git push
