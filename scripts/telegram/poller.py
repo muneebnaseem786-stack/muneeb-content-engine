@@ -63,15 +63,10 @@ def _esc(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def _find_post(queue: dict, callback_id: str) -> dict | None:
-    target = callback_id.replace("_", ":")
+def _find_post_by_message_id(queue: dict, message_id: int) -> dict | None:
+    """Look up the post that originated a Telegram message (most reliable)."""
     for p in queue.get("posts", []):
-        if p.get("generated_at", "").startswith(target[:19]):
-            return p
-    # Fallback: match by id-as-given (callback ids have ':' replaced with '_')
-    for p in queue.get("posts", []):
-        norm = p.get("generated_at", "").replace(":", "_")[:64]
-        if norm == callback_id:
+        if p.get("telegram_message_id") == message_id:
             return p
     return None
 
@@ -150,7 +145,7 @@ def _handle_yes(callback, post, queue, chat_id, message_id):
     _log_posted(post, tweet_url)
 
 
-def _handle_skip(callback, post, chat_id, message_id, callback_id):
+def _handle_skip(callback, post, chat_id, message_id):
     _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "Why skip?"})
     _tg("editMessageText", {
         "chat_id":    chat_id,
@@ -159,9 +154,9 @@ def _handle_skip(callback, post, chat_id, message_id, callback_id):
         "parse_mode": "HTML",
         "reply_markup": {
             "inline_keyboard": [[
-                {"text": "🚫 Topic",            "callback_data": f"reason:topic:{callback_id}"},
-                {"text": "✏️ X quality",        "callback_data": f"reason:xq:{callback_id}"},
-                {"text": "✏️ Substack quality", "callback_data": f"reason:sq:{callback_id}"},
+                {"text": "🚫 Topic",            "callback_data": "reason:topic"},
+                {"text": "✏️ X quality",        "callback_data": "reason:xq"},
+                {"text": "✏️ Substack quality", "callback_data": "reason:sq"},
             ]]
         },
     })
@@ -196,24 +191,25 @@ def _process_callback(callback) -> None:
     data       = callback.get("data", "")
 
     queue = _load(QUEUE_PATH, {"posts": []})
+    post  = _find_post_by_message_id(queue, message_id)
 
-    if data.startswith("yes:"):
-        cb_id = data[4:]
-        post  = _find_post(queue, cb_id)
-        if post:
-            _handle_yes(callback, post, queue, chat_id, message_id)
+    if not post:
+        print(f"No post found for message_id={message_id}")
+        _tg("answerCallbackQuery", {
+            "callback_query_id": callback["id"],
+            "text":              "Post not found in queue",
+        })
+        return
 
-    elif data.startswith("skip:"):
-        cb_id = data[5:]
-        post  = _find_post(queue, cb_id)
-        if post:
-            _handle_skip(callback, post, chat_id, message_id, cb_id)
+    if data == "yes":
+        _handle_yes(callback, post, queue, chat_id, message_id)
+
+    elif data == "skip":
+        _handle_skip(callback, post, chat_id, message_id)
 
     elif data.startswith("reason:"):
-        _, reason, cb_id = data.split(":", 2)
-        post = _find_post(queue, cb_id)
-        if post:
-            _handle_reason(callback, post, queue, chat_id, message_id, reason)
+        reason = data.split(":", 1)[1]
+        _handle_reason(callback, post, queue, chat_id, message_id, reason)
 
     _save(QUEUE_PATH, queue)
 

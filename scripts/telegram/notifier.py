@@ -39,12 +39,10 @@ def _esc(s: str) -> str:
 
 
 def _send(post: dict) -> int | None:
-    callback_id = post.get("generated_at", "").replace(":", "_")[:64]
-
     keyboard = {
         "inline_keyboard": [[
-            {"text": "✅ Yes — post both",  "callback_data": f"yes:{callback_id}"},
-            {"text": "❌ Skip",            "callback_data": f"skip:{callback_id}"},
+            {"text": "✅ Yes — post both", "callback_data": "yes"},
+            {"text": "❌ Skip",           "callback_data": "skip"},
         ]]
     }
 
