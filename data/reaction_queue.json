@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-04-30T14:34:21.488794+00:00",
+  "last_updated": "2026-04-30T16:15:53.463325+00:00",
   "posts": [
+    {
+      "topic": "MENA Q1 VC drops 37% but fintech captures 46%",
+      "source_headline": "MENA startup funding slips to $941 million in Q1 2026 amid heightened geopolitical risk",
+      "source_url": "https://www.wamda.com/2026/04/mena-startup-funding-slips-941-million-q1-2026-amid-heightened-geopolitical-risk",
+      "x_post": "MENA venture fell 37% year-on-year in Q1 2026 to $941M, the Hormuz blockade alone killing February sentiment with the month closing at just $326.6M. But fintech captured 46% of all capital deployed, 25 startups pulling the largest share even as broader deal-making cratered. My read: geopolitical shock concentrates MENA capital, it doesn't disperse it. When macro goes sideways, smart money narrows to the one sector with clear revenue models.",
+      "substack_note": "My read: the headline number misleads.\n\nMENA startup funding hit $941M in Q1 2026, down 37% year-on-year. The Hormuz blockade hit mid-February and the back half of the quarter collapsed \u2014 February alone closed at $326.6M as the conflict deepened. UAE took $625.8M across 46 deals. Saudi Arabia managed $156.7M across 57. Egypt: $86M across 12.\n\nBut fintech captured 46% of total capital. Twenty-five startups raised more than any other sector in the region combined.\n\nI've watched this pattern repeat: when MENA macro wobbles, investors don't exit \u2014 they concentrate. Fintech wins by default because it has what most of the stack lacks: predictable unit economics and regulatory tailwind from governments that desperately need digital payments infrastructure to keep working.\n\nThe harder question isn't why fintech held up. It's what the sector looks like if this conflict runs another two quarters.",
+      "generated_at": "2026-04-30T15:10:00+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "World Bank moves Pakistan into MENA regional grouping",
+      "source_headline": "Pakistan's New Geographic Designation Brings Complications",
+      "source_url": "https://foreignpolicy.com/2026/04/29/pakistan-world-bank-imf-middle-east-saudi-arabia-india-south-asia/",
+      "x_post": "The World Bank moved Pakistan from South Asia to MENAAP. The region's population jumped from 519M to 813M, per-capita GDP fell over 30%, and Pakistan is now the demographic anchor of a bloc it was not officially part of last year. My read: this formalizes where Pakistan's capital flows have always pointed, toward Gulf debt, Gulf remittances, and Gulf sovereign risk.",
+      "substack_note": "My take: a World Bank administrative update is doing something quietly consequential.\n\nPakistan was reclassified from South Asia into MENAAP \u2014 Middle East, North Africa, Afghanistan, Pakistan \u2014 effective July 2025. MENAAP's population jumped from 519 million to 813 million overnight. Per-capita GDP fell more than 30%. Pakistan is now the largest demographic weight in a grouping it never formally belonged to.\n\nI find this interesting because it formalizes what's been economically true for years. Pakistan's remittance flows, diaspora capital, and sovereign debt structures have been Gulf-oriented for a long time. The World Bank is catching up to where the money already goes.\n\nThe complications are real: IMF programs calibrate to regional peers, development lending follows group comparisons, and trade classification shapes market access terms.\n\nWhether this opens a door to Gulf-adjacent capital flows or just inherits the region's geopolitical volatility \u2014 I'm genuinely unsure. What's your read?",
+      "generated_at": "2026-04-30T15:10:00+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "Pakistan PM contacts Iran and Saudi Arabia April 30",
+      "source_headline": "Pakistan tries to broker US-Iran deal but prospects keep slipping away",
+      "source_url": "https://www.thenationalnews.com/news/mena/2026/04/26/pakistan-trying-to-broker-us-iran-deal-but-prospects-keep-slipping-away/",
+      "x_post": "Pakistan hosted US-Iran talks on April 11-12. Trump then cancelled the follow-up, calling it 'too much work,' and Iran's position fractured. Today, Shehbaz Sharif is calling both Tehran and Riyadh simultaneously. My read: Pakistan's diplomatic window is real but closing fast, and every stalled week raises the domestic cost of being the neutral venue while Hormuz eats into the current account.",
+      "substack_note": "My take: Pakistan has found leverage \u2014 and it's not clear how long it holds.\n\nIslamabad hosted US-Iran talks on April 11-12. Trump then called the follow-up 'too much work' and cancelled the Witkoff-Kushner visit. Iran's position fractured further. Today \u2014 April 30 \u2014 PM Shehbaz Sharif is calling both Tehran and Riyadh simultaneously, trying to keep a process alive that neither principal seems fully committed to.\n\nWhat strikes me about this: the same Hormuz conflict damaging Pakistan's trade routes and current account is also what's giving Islamabad diplomatic utility. Saudi support is reportedly steadying the balance of payments. Tehran needs a back-channel. Washington needs a venue. Pakistan is absorbing both shocks while positioning itself as the honest broker.\n\nThe World Bank just formally moved Pakistan into MENAAP. The geopolitical logic was already there before the paperwork caught up.\n\nThe harder question: is Pakistan building durable diplomatic capital here, or taking on reputational risk for an outcome entirely outside its control?",
+      "generated_at": "2026-04-30T15:10:00+00:00",
+      "status": "pending"
+    },
     {
       "topic": "Meta routes creator payments through USDC via Stripe",
       "source_headline": "Meta Launches USDC Stablecoin Creator Payouts on Solana and Polygon via Stripe",
