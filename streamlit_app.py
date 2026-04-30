@@ -59,10 +59,10 @@ perf_posts    = perf_data.get("posts", [])
 pending_count = sum(1 for p in queue_posts if p.get("status") == "pending")
 
 k1, k2, k3, k4 = st.columns(4)
-with k1: st.metric("Ideas Today",         str(len(ideas)))
-with k2: st.metric("Pending Reactions",   str(pending_count))
-with k3: st.metric("Tracked Posts",       str(len(perf_posts)))
-with k4: st.metric("Total Engagement",    str(sum(p.get("metrics", {}).get("like_count", 0) for p in perf_posts)))
+with k1: st.metric("Ideas Today",       str(len(ideas)))
+with k2: st.metric("Pending Reactions", str(pending_count))
+with k3: st.metric("Tweets Tracked",    str(len(perf_posts)))
+with k4: st.metric("Total Likes (30d)", str(sum(p.get("metrics", {}).get("like_count", 0) for p in perf_posts)))
 
 st.divider()
 
@@ -185,70 +185,46 @@ with sub_queue:
 # ══════════════════════════════════════════════════════════════════════════════
 
 with sub_perf:
-    st.markdown("### Track a Post")
-    st.caption("Add posts here after publishing. X metrics auto-update nightly.")
+    st.markdown("### X Performance")
+    st.caption("Auto-fetched nightly from your X account. No manual entry — every original tweet from the last 30 days is tracked automatically.")
 
-    with st.form("track_post_form"):
-        tc1, tc2 = st.columns([3, 1])
-        with tc1:
-            url_input = st.text_input("X post URL or tweet ID", placeholder="https://x.com/MuneebNaseem/status/...")
-        with tc2:
-            platform_sel = st.selectbox("Platform", ["X", "LinkedIn", "Substack"])
-
-        topic_input  = st.text_input("Topic / pillar", placeholder="e.g. Stablecoin bifurcation")
-        format_input = st.selectbox("Format", ["Long-form post", "Thread", "Reaction post", "LinkedIn article", "Substack essay"])
-        track_btn    = st.form_submit_button("➕ Track Post", use_container_width=True)
-
-        if track_btn and url_input.strip():
-            tweet_id  = url_input.strip().split("/")[-1].split("?")[0]
-            new_entry = {
-                "id":        tweet_id,
-                "platform":  platform_sel,
-                "topic":     topic_input,
-                "format":    format_input,
-                "posted_at": datetime.now(timezone.utc).isoformat(),
-                "metrics":   {},
-            }
-            perf_posts.append(new_entry)
-            os.makedirs("data", exist_ok=True)
-            with open("data/performance_log.json", "w") as f:
-                json.dump({"posts": perf_posts}, f, indent=2)
-            st.success(f"Now tracking {tweet_id}. Metrics appear after tonight's tracker run.")
+    fetched_at = perf_data.get("fetched_at", "")[:16].replace("T", " ")
+    if perf_posts:
+        st.caption(f"Last refreshed: {fetched_at} UTC  ·  {len(perf_posts)} tweets tracked")
+    else:
+        st.info("No tweets tracked yet. The tracker runs nightly at 11pm UAE — or trigger the GitHub Actions workflow manually.")
 
     if perf_posts:
-        st.markdown("### Performance Log")
-        st.caption("Likes / Replies / Reposts / Quotes fetched nightly from X API.")
-
         rows = []
-        for p in reversed(perf_posts):
+        for p in perf_posts:
             m = p.get("metrics", {})
             rows.append({
-                "Posted":      p.get("posted_at", "")[:10],
-                "Platform":    p.get("platform", ""),
-                "Format":      p.get("format", ""),
-                "Topic":       p.get("topic", ""),
-                "Likes":       m.get("like_count", "—"),
-                "Replies":     m.get("reply_count", "—"),
-                "Reposts":     m.get("retweet_count", "—"),
-                "Quotes":      m.get("quote_count", "—"),
-                "Impressions": m.get("impression_count", "—"),
+                "Posted":  p.get("posted_at", "")[:10],
+                "Format":  p.get("format", ""),
+                "Tweet":   (p.get("text", "")[:120] + ("…" if len(p.get("text", "")) > 120 else "")),
+                "Likes":   m.get("like_count", 0),
+                "Replies": m.get("reply_count", 0),
+                "Reposts": m.get("retweet_count", 0),
+                "Quotes":  m.get("quote_count", 0),
             })
-        st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+        df_perf = pd.DataFrame(rows)
+
+        st.dataframe(df_perf, use_container_width=True, hide_index=True)
 
         if len(perf_posts) >= 3:
             st.markdown("### What's Working")
-            df_perf = pd.DataFrame(rows)
-            numeric = df_perf[df_perf["Likes"] != "—"].copy()
-            if not numeric.empty:
-                numeric["Likes"] = pd.to_numeric(numeric["Likes"])
 
-                col_fmt, col_pillar = st.columns(2)
-                with col_fmt:
-                    st.markdown("**Avg likes by format**")
-                    by_format = numeric.groupby("Format")["Likes"].mean().sort_values(ascending=False)
-                    st.bar_chart(by_format)
+            df_perf["Engagement"] = df_perf["Likes"] + df_perf["Replies"] * 2 + df_perf["Reposts"] * 3
 
-                with col_pillar:
-                    st.markdown("**Avg likes by topic**")
-                    by_topic = numeric.groupby("Topic")["Likes"].mean().sort_values(ascending=False).head(10)
-                    st.bar_chart(by_topic)
+            col_fmt, col_top = st.columns(2)
+            with col_fmt:
+                st.markdown("**Avg engagement by format**")
+                by_format = df_perf.groupby("Format")["Engagement"].mean().sort_values(ascending=False)
+                st.bar_chart(by_format)
+
+            with col_top:
+                st.markdown("**Top 5 tweets by engagement**")
+                top = df_perf.nlargest(5, "Engagement")[["Tweet", "Likes", "Replies", "Reposts"]]
+                st.dataframe(top, use_container_width=True, hide_index=True)
+
+        st.caption("Engagement = likes + 2×replies + 3×reposts. (Replies and reposts are stronger algorithm signals on X.)")

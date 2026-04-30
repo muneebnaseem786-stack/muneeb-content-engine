@@ -1,9 +1,17 @@
-"""Fetches X engagement metrics for tracked posts."""
+"""Auto-fetches X engagement metrics for the authenticated user's recent tweets.
+
+No manual tweet-ID entry required. Pulls all recent tweets from the user
+behind the OAuth credentials, fetches public metrics (likes, replies,
+reposts, quotes), and writes them to data/performance_log.json.
+"""
 
 import os
 import json
 import tweepy
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+
+LOOKBACK_DAYS = 30
+LOG_PATH      = "data/performance_log.json"
 
 
 def _get_client() -> tweepy.Client:
@@ -16,48 +24,68 @@ def _get_client() -> tweepy.Client:
     )
 
 
-def fetch_metrics(log_path: str = "data/performance_log.json") -> None:
-    """Update performance_log.json with latest X metrics for all tracked tweets."""
-    try:
-        with open(log_path) as f:
-            log = json.load(f)
-    except FileNotFoundError:
-        print(f"{log_path} not found — nothing to track")
-        return
-
-    posts = log.get("posts", [])
-    x_posts = [p for p in posts if p.get("platform") == "X" and p.get("id")]
-
-    if not x_posts:
-        print("No X posts to track")
-        return
-
+def fetch_metrics(log_path: str = LOG_PATH) -> None:
+    """Pull the authenticated user's recent tweets with engagement metrics."""
     client = _get_client()
-    tweet_ids = [p["id"] for p in x_posts]
 
-    try:
-        response = client.get_tweets(
-            ids=tweet_ids,
-            tweet_fields=["public_metrics"],
-        )
-    except Exception as e:
-        print(f"Twitter API error: {e}")
+    me = client.get_me()
+    if not me or not me.data:
+        print("ERROR: get_me() returned no user. Check OAuth credentials.")
         return
+    user_id = me.data.id
+    handle  = me.data.username
+    print(f"Authenticated as @{handle} (id={user_id})")
+
+    start_time = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
+
+    response = client.get_users_tweets(
+        id=user_id,
+        max_results=100,
+        start_time=start_time,
+        tweet_fields=["public_metrics", "created_at", "text"],
+        exclude=["retweets", "replies"],
+    )
 
     if not response.data:
-        print("No tweet data returned")
+        print(f"No tweets from @{handle} in the last {LOOKBACK_DAYS} days.")
+        _write_log(log_path, [])
         return
 
-    metrics_by_id = {str(t.id): t.public_metrics for t in response.data}
+    posts = []
+    for tweet in response.data:
+        text = tweet.text or ""
+        posts.append({
+            "id":                 str(tweet.id),
+            "url":                f"https://x.com/{handle}/status/{tweet.id}",
+            "platform":           "X",
+            "text":               text,
+            "format":             _classify_format(text),
+            "posted_at":          tweet.created_at.isoformat(),
+            "metrics":            dict(tweet.public_metrics or {}),
+            "metrics_updated_at": datetime.now(timezone.utc).isoformat(),
+        })
 
-    for post in posts:
-        tweet_id = str(post.get("id", ""))
-        if tweet_id in metrics_by_id:
-            post["metrics"] = metrics_by_id[tweet_id]
-            post["metrics_updated_at"] = datetime.now(timezone.utc).isoformat()
+    posts.sort(key=lambda p: p["posted_at"], reverse=True)
+    _write_log(log_path, posts)
+    print(f"Saved metrics for {len(posts)} tweets to {log_path}")
 
-    log["posts"] = posts
-    with open(log_path, "w") as f:
-        json.dump(log, f, indent=2)
 
-    print(f"Updated metrics for {len(metrics_by_id)} tweets")
+def _classify_format(text: str) -> str:
+    """Crude heuristic for analytics buckets."""
+    if "1/" in text or "🧵" in text:
+        return "Thread"
+    word_count = len(text.split())
+    if word_count <= 40:
+        return "Reaction post"
+    if word_count <= 120:
+        return "Single tweet"
+    return "Long-form post"
+
+
+def _write_log(path: str, posts: list[dict]) -> None:
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w") as f:
+        json.dump({
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+            "posts":      posts,
+        }, f, indent=2)
