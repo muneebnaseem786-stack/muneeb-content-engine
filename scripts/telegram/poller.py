@@ -201,14 +201,17 @@ def _process_callback(callback) -> None:
         })
         return
 
-    if data == "yes":
+    # Accept new format ("yes") and legacy format ("yes:abc") — message_id is the real key
+    if data == "yes" or data.startswith("yes:"):
         _handle_yes(callback, post, queue, chat_id, message_id)
 
-    elif data == "skip":
+    elif data == "skip" or data.startswith("skip:"):
         _handle_skip(callback, post, chat_id, message_id)
 
     elif data.startswith("reason:"):
-        reason = data.split(":", 1)[1]
+        # New format: "reason:xq". Legacy format: "reason:xq:cb_id"
+        parts  = data.split(":")
+        reason = parts[1] if len(parts) >= 2 else ""
         _handle_reason(callback, post, queue, chat_id, message_id, reason)
 
     _save(QUEUE_PATH, queue)
