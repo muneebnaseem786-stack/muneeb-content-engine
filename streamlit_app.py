@@ -52,6 +52,25 @@ def _load_json(path: str, default: dict) -> dict:
 ideas_data    = _load_json("data/content_ideas.json",   {"ideas": [], "generated_at": ""})
 queue_data    = _load_json("data/reaction_queue.json",  {"posts": [], "last_updated": ""})
 perf_data     = _load_json("data/performance_log.json", {"posts": []})
+feedback_data = _load_json("data/feedback_log.json",    {"feedback": []})
+
+
+def _record_feedback(post: dict, reason: str) -> None:
+    """Append a skip-reason entry and persist to disk."""
+    entry = {
+        "timestamp":         datetime.now(timezone.utc).isoformat(),
+        "platform":          post.get("platform", ""),
+        "topic":             post.get("topic", ""),
+        "source_headline":   post.get("source_headline", ""),
+        "source_url":        post.get("source_url", ""),
+        "post_preview":      (post.get("content", "")[:200]),
+        "reason":            reason,   # "topic" | "post_quality"
+        "generated_at":      post.get("generated_at", ""),
+    }
+    feedback_data["feedback"].append(entry)
+    os.makedirs("data", exist_ok=True)
+    with open("data/feedback_log.json", "w") as f:
+        json.dump(feedback_data, f, indent=2)
 
 ideas         = ideas_data.get("ideas", [])
 queue_posts   = queue_data.get("posts", [])
@@ -187,12 +206,62 @@ with sub_queue:
                     st.session_state[f"copied_{i}"] = True
             with col_skip:
                 if st.button("❌ Skip", key=f"skip_{i}", use_container_width=True):
-                    st.session_state[f"hidden_{unique_key}"] = True
-                    st.rerun()
+                    st.session_state[f"asking_reason_{i}"] = True
 
             if st.session_state.get(f"copied_{i}"):
                 st.code(content, language=None)
                 st.caption("Select all above to copy.")
+
+            if st.session_state.get(f"asking_reason_{i}"):
+                st.markdown("**Why skip?**")
+                st.caption("This trains the radar — telling apart bad topics from bad writing.")
+                col_topic, col_quality, col_cancel = st.columns(3)
+                with col_topic:
+                    if st.button("🚫 Topic — not for me", key=f"reason_topic_{i}", use_container_width=True):
+                        _record_feedback(post, "topic")
+                        st.session_state[f"hidden_{unique_key}"] = True
+                        st.session_state[f"asking_reason_{i}"] = False
+                        st.rerun()
+                with col_quality:
+                    if st.button("✏️ Post — quality issue", key=f"reason_quality_{i}", use_container_width=True):
+                        _record_feedback(post, "post_quality")
+                        st.session_state[f"hidden_{unique_key}"] = True
+                        st.session_state[f"asking_reason_{i}"] = False
+                        st.rerun()
+                with col_cancel:
+                    if st.button("← Cancel", key=f"reason_cancel_{i}", use_container_width=True):
+                        st.session_state[f"asking_reason_{i}"] = False
+                        st.rerun()
+
+    # ── FEEDBACK INSIGHTS ─────────────────────────────────────────────────
+    feedback_log = feedback_data.get("feedback", [])
+    if feedback_log:
+        st.divider()
+        with st.expander(f"📊 Feedback Insights ({len(feedback_log)} skips logged)"):
+            df_fb = pd.DataFrame(feedback_log)
+
+            f1, f2 = st.columns(2)
+            with f1:
+                st.markdown("**Skip reasons**")
+                reason_counts = df_fb["reason"].value_counts()
+                reason_counts.index = reason_counts.index.map(
+                    {"topic": "🚫 Topic not for me", "post_quality": "✏️ Post quality"}
+                )
+                st.bar_chart(reason_counts)
+
+            with f2:
+                st.markdown("**Most-skipped topics**")
+                top_topics = df_fb["topic"].value_counts().head(8)
+                st.dataframe(
+                    top_topics.reset_index().rename(columns={"index": "Topic", "count": "Skips"}),
+                    use_container_width=True,
+                    hide_index=True,
+                )
+
+            st.caption(
+                "Topic skips = the radar is reading your interests wrong. "
+                "Quality skips = the radar's writing needs better prompting."
+            )
 
 # ══════════════════════════════════════════════════════════════════════════════
 # PERFORMANCE
