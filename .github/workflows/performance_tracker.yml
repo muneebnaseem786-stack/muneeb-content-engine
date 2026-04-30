@@ -1,0 +1,38 @@
+name: Performance Tracker
+
+on:
+  schedule:
+    - cron: '0 19 * * *'   # 11pm UAE (UTC+4) = 7pm UTC
+  workflow_dispatch:
+
+jobs:
+  track-performance:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch X metrics
+        env:
+          X_API_KEY:            ${{ secrets.X_API_KEY }}
+          X_API_SECRET:         ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN:       ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python -m scripts.content.run_performance_tracker
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/performance_log.json
+          git diff --staged --quiet || git commit -m "chore: performance metrics update [skip ci]"
+          git push
