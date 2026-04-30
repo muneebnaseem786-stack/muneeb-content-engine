@@ -131,8 +131,10 @@ with sub_ideas:
 # ══════════════════════════════════════════════════════════════════════════════
 
 with sub_queue:
+    import urllib.parse
+
     st.markdown("### Reaction Queue")
-    st.caption("Updated every 2 hours, 6am–10pm UAE. Quick-take posts ready to copy and publish.")
+    st.caption("Updated every 2 hours, 6am–10pm UAE. Review the source, decide if you like the take, post in one click.")
 
     last_upd = queue_data.get("last_updated", "")[:16].replace("T", " ")
     if queue_posts:
@@ -140,7 +142,7 @@ with sub_queue:
     else:
         st.info("No reaction posts yet. The radar runs every 2 hours during UAE business hours.")
 
-    pending = [p for p in queue_posts if p.get("status") == "pending"]
+    pending = [p for p in queue_posts if p.get("status") == "pending" and not st.session_state.get(f"hidden_{p.get('generated_at', '')}_{p.get('topic', '')}")]
 
     if not pending and queue_posts:
         st.success("Queue is empty — nothing pending right now.")
@@ -151,34 +153,46 @@ with sub_queue:
     platform_icon = {"X": "🐦", "substack_note": "📧"}
 
     for i, post in enumerate(pending):
-        plat    = post.get("platform", "X")
-        icon    = platform_icon.get(plat, "📝")
-        topic   = post.get("topic", "")
-        content = post.get("content", "")
-        src     = post.get("source_headline", "")
-        ts      = post.get("generated_at", "")[:16].replace("T", " ")
+        plat       = post.get("platform", "X")
+        icon       = platform_icon.get(plat, "📝")
+        topic      = post.get("topic", "")
+        content    = post.get("content", "")
+        src_text   = post.get("source_headline", "")
+        src_url    = post.get("source_url", "")
+        ts         = post.get("generated_at", "")[:16].replace("T", " ")
+        unique_key = f"{post.get('generated_at', '')}_{topic}"
 
-        st.markdown(f"**{icon} {plat}** · {topic} · _{ts} UTC_")
-        if src:
-            st.caption(f"Source: {src}")
+        with st.container(border=True):
+            st.markdown(f"**{icon} {plat}** · {topic} · _{ts} UTC_")
 
-        st.text_area("", content, height=110 if plat == "X" else 180, key=f"rq_{i}")
+            if src_url and src_text:
+                st.markdown(f"📰 **Source:** [{src_text}]({src_url})")
+            elif src_text:
+                st.caption(f"Source: {src_text}")
 
-        col_a, col_b = st.columns(2)
-        with col_a:
-            if st.button("✅ Copy & Mark Done", key=f"done_{i}", use_container_width=True):
-                st.session_state[f"copied_{i}"] = True
-        with col_b:
-            if st.button("❌ Skip", key=f"skip_{i}", use_container_width=True):
-                st.session_state[f"skipped_{i}"] = True
+            st.text_area("Reaction post:", content, height=110 if plat == "X" else 180, key=f"rq_{i}")
 
-        if st.session_state.get(f"copied_{i}"):
-            st.code(content, language=None)
-            st.caption("Text above is easy to select — copy then post.")
-        if st.session_state.get(f"skipped_{i}"):
-            st.caption("Skipped.")
+            col_post, col_copy, col_skip = st.columns(3)
 
-        st.divider()
+            if plat == "X":
+                intent_url = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(content)}"
+                with col_post:
+                    st.link_button("🚀 Post on X", intent_url, use_container_width=True, type="primary")
+            else:
+                with col_post:
+                    st.link_button("📝 Open Substack Notes", "https://substack.com/notes", use_container_width=True, type="primary")
+
+            with col_copy:
+                if st.button("📋 Copy", key=f"copy_{i}", use_container_width=True):
+                    st.session_state[f"copied_{i}"] = True
+            with col_skip:
+                if st.button("❌ Skip", key=f"skip_{i}", use_container_width=True):
+                    st.session_state[f"hidden_{unique_key}"] = True
+                    st.rerun()
+
+            if st.session_state.get(f"copied_{i}"):
+                st.code(content, language=None)
+                st.caption("Select all above to copy.")
 
 # ══════════════════════════════════════════════════════════════════════════════
 # PERFORMANCE
