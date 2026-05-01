@@ -17,7 +17,8 @@
       "x_post": "Meta just turned 3+ billion users into a live stablecoin settlement network. USDC on Solana and Polygon, routed through Stripe, paying creators in Colombia and the Philippines, two of the world's highest-fee dollar conversion corridors. My read: the 'crypto moment' everyone waited for was not a DeFi protocol. It was a payroll function quietly embedded inside a social app.",
       "substack_note": "My take: Meta's stablecoin rollout is being framed as a crypto story. It isn't.\n\nFour years after Libra collapsed under regulatory pressure, Meta didn't launch a new coin. It plugged into Circle's USDC and Stripe's infrastructure and began paying creators in Colombia and the Philippines. Two markets where converting USD payouts to local currency routinely costs 5 to 7% per transaction.\n\nI've watched stablecoin adoption for several years, and the pattern is consistent: the breakthrough never arrives when a blockchain startup announces a product. It arrives when a 3.2 billion-user platform quietly converts its payroll function into a settlement rail.\n\nThe question I keep returning to: does Meta expand this to advertising disbursements? If brand payments follow creator payments, you have a stablecoin network processing commercial-scale volumes before most analysts notice.",
       "generated_at": "2026-04-30T14:34:21.488757+00:00",
-      "status": "pending"
+      "status": "pending",
+      "telegram_message_id": 30
     },
     {
       "topic": "UAE captures 66% of MENA's contracting Q1 2026 funding",
@@ -58,7 +59,8 @@
       "x_post": "MENA startup funding hit $941 million in Q1 2026, down 37% year-on-year. The monthly compression is more alarming: February fell to $327 million as the Iran conflict escalated, and March crashed to just $48 million. My read: this is what a shooting war within 800 kilometers of Dubai actually costs. Fintech captured 46% of that shrunken pool, the only sector where revenue clarity still commands conviction.",
       "substack_note": "My take: MENA startup funding fell to $941 million in Q1 2026, down 37% year-on-year and 21% quarter-on-quarter. The monthly collapse is the real story. February closed at $326.6 million as the Iran war intensified. March closed at just $48.3 million, against a 2025 annual record of $7.5 billion.\n\nI've watched Gulf capital long enough to recognize this pattern. When the region's risk premium spikes, capital concentrates fast: 46% of Q1's shrunken pool went to fintech. Clear revenue models, working unit economics. The speculative fringe disappears first.\n\nWhat I find harder to answer is whether this is a temporary shock or a structural repricing. The cause isn't rates or tech multiples, it's an active war 800 kilometres from Dubai. How quickly does that confidence return when a ceasefire holds?",
       "generated_at": "2026-04-30T13:00:00+00:00",
-      "status": "pending"
+      "status": "pending",
+      "telegram_message_id": 31
     },
     {
       "topic": "Visa stablecoin settlement doubles to $7B run rate",
@@ -67,8 +69,10 @@
       "x_post": "Visa's stablecoin settlement hit a $7 billion annualized run rate this week, double the $3.5 billion recorded in December. The network now covers 9 blockchains and 130 card programs across 50 countries after adding 5 chains in a single announcement. My read: Visa is not competing with stablecoin rails. It is inserting itself as the clearing layer above them, and that position is very hard to displace.",
       "substack_note": "My read: Visa's stablecoin settlement volume hit $7 billion annualized this week, double its December 2025 rate, across 9 blockchains, 130 card programs, and 50 countries. This is live transaction volume, not a forecast.\n\nI was skeptical for a while that traditional networks would move fast enough to matter here. This week shifts my view. Visa isn't defending turf, it's occupying the clearing layer above whichever rails survive. That's a strategically different posture from what most traditional payments incumbents are doing.\n\nThe incumbents who've spent decades building enterprise trust have structural advantages the original stablecoin thesis underestimated: networks, compliance relationships, counterparty credibility.\n\nIs this Visa genuinely capturing the stablecoin era, or building one more integration layer that a truly decentralised settlement stack will eventually route around?",
       "generated_at": "2026-04-30T13:00:00+00:00",
-      "status": "pending",
-      "telegram_message_id": 22
+      "status": "skipped_with_reason",
+      "telegram_message_id": 33,
+      "skipped_at": "2026-05-01T07:22:12.650415+00:00",
+      "feedback_text": "Don\u2019t want to report or comment on what Visa is doing since I work there and not an official spokesperson"
     },
     {
       "topic": "Meta relaunches stablecoin creator payments via USDC/Stripe",

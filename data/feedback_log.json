@@ -1,1 +1,15 @@
-{"feedback": []}
+{
+  "feedback": [
+    {
+      "timestamp": "2026-05-01T07:22:12.648764+00:00",
+      "topic": "Visa stablecoin settlement doubles to $7B run rate",
+      "source_headline": "Visa (V) expands stablecoin settlement network as volume hits $7 billion run rate",
+      "source_url": "https://www.coindesk.com/business/2026/04/29/visa-expands-stablecoin-settlement-network-as-volume-hits-usd7-billion-run-rate",
+      "post_preview": "Visa's stablecoin settlement hit a $7 billion annualized run rate this week, double the $3.5 billion recorded in December. The network now covers 9 blockchains and 130 card programs across 50 countrie",
+      "reason": "free_form",
+      "generated_at": "2026-04-30T13:00:00+00:00",
+      "via": "telegram",
+      "free_form_text": "Don\u2019t want to report or comment on what Visa is doing since I work there and not an official spokesperson"
+    }
+  ]
+}
