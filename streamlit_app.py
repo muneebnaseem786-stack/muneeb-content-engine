@@ -45,6 +45,9 @@ with st.sidebar:
     st.caption("Routines:")
     st.markdown("- [Daily Ideas](https://claude.ai/code/routines/trig_013MbtySdMYJ5e5JifZbrS6n)")
     st.markdown("- [Reaction Radar](https://claude.ai/code/routines/trig_01EsQ85PvcfKUhcehMrWqb4D)")
+    st.markdown("- 📚 [Idea Jury](https://claude.ai/code/routines/trig_01FoNHhnmGUSywkgugm4622g) (run after regenerate)")
+    st.markdown("- 📚 [Hook Jury](https://claude.ai/code/routines/trig_01YCZqF39J6SxdtQV7ckXJgY) (run after picking idea)")
+    st.markdown("- 📚 [Article Jury](https://claude.ai/code/routines/trig_01Bdwkj6uYcHchPrR93zvcdE) (run after picking hook)")
 
 # ── Header KPIs ───────────────────────────────────────────────────────────────
 
@@ -406,6 +409,10 @@ with sub_articles:
 
     elif stage == "ideas_running":
         st.warning("⏳ Stage 1 running — generating 5 article ideas. Refresh in a few minutes.")
+        st.markdown("If this looks stuck, click **Run now** on the [Idea Jury routine](https://claude.ai/code/routines/trig_01FoNHhnmGUSywkgugm4622g).")
+
+    elif stage == "regenerate_ideas":
+        st.warning("🔄 Regeneration queued. Click **Run now** on the [Idea Jury routine](https://claude.ai/code/routines/trig_01FoNHhnmGUSywkgugm4622g) to fire fresh ideas in ~30s.")
 
     elif stage == "ideas_awaiting_pick":
         st.markdown("#### 🗳️ Stage 1 — Pick the strongest idea")
@@ -451,7 +458,7 @@ with sub_articles:
                         st.error("Saved locally, but GitHub commit failed.")
 
     elif stage == "hooks_running":
-        st.warning("⏳ Stage 2 running — drafting 5 hooks for your picked idea. Refresh in a few minutes.")
+        st.warning("⏳ Stage 2 queued. Click **Run now** on the [Hook Jury routine](https://claude.ai/code/routines/trig_01YCZqF39J6SxdtQV7ckXJgY) to draft 3 hooks in ~30s. Refresh this page after.")
 
     elif stage == "hooks_awaiting_pick":
         # Show the picked idea as context
@@ -490,7 +497,7 @@ with sub_articles:
                         st.error("Saved locally, but GitHub commit failed.")
 
     elif stage == "article_running":
-        st.warning("⏳ Stage 3 running — drafting 5 full articles, the agent will self-pick the strongest. Refresh in 10–15 minutes.")
+        st.warning("⏳ Stage 3 queued. Click **Run now** on the [Article Jury routine](https://claude.ai/code/routines/trig_01Bdwkj6uYcHchPrR93zvcdE) to draft 5 full articles + auto-pick the winner. Takes ~10–15 minutes. Refresh this page after.")
 
     elif stage == "done":
         st.success("✅ Final article ready! See below in the articles list.")
