@@ -15,10 +15,12 @@ from datetime import datetime, timezone
 BOT_TOKEN        = os.environ["TELEGRAM_BOT_TOKEN"]
 QUEUE_PATH       = "data/reaction_queue.json"
 REPLY_QUEUE_PATH = "data/reply_queue.json"
+IDEAS_PATH       = "data/content_ideas.json"
 OFFSET_PATH      = "data/telegram_offset.json"
 POSTED_LOG_PATH  = "data/posted_log.json"
 FEEDBACK_PATH    = "data/feedback_log.json"
 LESSONS_PATH     = "data/lessons_learned.md"
+DASHBOARD_URL    = "https://muneeb-content.streamlit.app"
 API              = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 
@@ -64,8 +66,16 @@ def _find_reply_by_message_id(reply_queue: dict, message_id: int) -> dict | None
     return None
 
 
+def _find_idea_by_message_id(ideas_data: dict, message_id: int) -> dict | None:
+    """Look up the Daily Idea that originated a Telegram message."""
+    for i in ideas_data.get("ideas", []):
+        if i.get("telegram_message_id") == message_id:
+            return i
+    return None
+
+
 def _find_anywhere_by_message_id(message_id: int) -> tuple[dict | None, str]:
-    """Returns (item, kind) where kind ∈ {'reaction', 'reply', ''}."""
+    """Returns (item, kind) where kind ∈ {'reaction', 'reply', 'idea', ''}."""
     rq = _load(QUEUE_PATH, {"posts": []})
     p  = _find_post_by_message_id(rq, message_id)
     if p:
@@ -74,6 +84,10 @@ def _find_anywhere_by_message_id(message_id: int) -> tuple[dict | None, str]:
     r    = _find_reply_by_message_id(repq, message_id)
     if r:
         return r, "reply"
+    idata = _load(IDEAS_PATH, {"ideas": []})
+    i    = _find_idea_by_message_id(idata, message_id)
+    if i:
+        return i, "idea"
     return None, ""
 
 
@@ -262,6 +276,114 @@ def _handle_reply_yes(callback, reply, chat_id, message_id):
     reply["approved_at"] = datetime.now(timezone.utc).isoformat()
 
 
+def _handle_idea_x(callback, idea, chat_id, message_id):
+    """Show the X long-form post with one-tap publish via intent URL."""
+    import urllib.parse
+    pack    = idea.get("content_pack", {})
+    x_text  = pack.get("x_longform", "")
+    if not x_text:
+        _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "No X post"})
+        return
+
+    intent_url = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(x_text)}"
+    _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "🐦 X post"})
+    _tg("sendMessage", {
+        "chat_id":    chat_id,
+        "text":       (
+            f"🐦 <b>X long-form</b> for: <i>{_esc(idea.get('title',''))}</i>\n\n"
+            f"<pre>{_esc(x_text)}</pre>"
+        ),
+        "parse_mode": "HTML",
+        "reply_markup": {
+            "inline_keyboard": [[
+                {"text": "🚀 Post on X", "url": intent_url},
+                {"text": "📋 Copy",      "copy_text": {"text": x_text}},
+            ]]
+        },
+    })
+
+
+def _handle_idea_thread(callback, idea, chat_id, message_id):
+    """Show the X thread tweet-by-tweet with copy buttons."""
+    import urllib.parse
+    pack   = idea.get("content_pack", {})
+    thread = pack.get("x_thread", [])
+    if not thread:
+        _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "No thread"})
+        return
+
+    _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "🧵 Thread"})
+
+    # First tweet — gets the publish button (intent URL)
+    first = thread[0]
+    intent_url = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(first)}"
+    _tg("sendMessage", {
+        "chat_id":    chat_id,
+        "text":       f"🧵 <b>Thread for</b>: <i>{_esc(idea.get('title',''))}</i>\n\n"
+                       f"<b>Tweet 1/{len(thread)}:</b>\n<pre>{_esc(first)}</pre>",
+        "parse_mode": "HTML",
+        "reply_markup": {
+            "inline_keyboard": [[
+                {"text": "🚀 Post first tweet", "url": intent_url},
+                {"text": "📋 Copy",             "copy_text": {"text": first}},
+            ]]
+        },
+    })
+
+    # Remaining tweets — just copy buttons (user replies to their previous tweet manually)
+    for i, tweet in enumerate(thread[1:], start=2):
+        _tg("sendMessage", {
+            "chat_id":    chat_id,
+            "text":       f"<b>Tweet {i}/{len(thread)}:</b>\n<pre>{_esc(tweet)}</pre>",
+            "parse_mode": "HTML",
+            "reply_markup": {
+                "inline_keyboard": [[
+                    {"text": "📋 Copy", "copy_text": {"text": tweet}},
+                ]]
+            },
+        })
+
+
+def _handle_idea_substack(callback, idea, chat_id, message_id):
+    """Substack drafts are too long for Telegram — point to dashboard."""
+    pack = idea.get("content_pack", {})
+    sub  = pack.get("substack_draft", "")
+    if not sub:
+        _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "No draft"})
+        return
+
+    _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "📧 Substack"})
+    _tg("sendMessage", {
+        "chat_id":    chat_id,
+        "text":       (
+            f"📧 <b>Substack draft outline</b> for: <i>{_esc(idea.get('title',''))}</i>\n\n"
+            f"Drafts are long. Open the dashboard to expand into a full essay:\n"
+            f"<a href=\"{DASHBOARD_URL}\">{DASHBOARD_URL}</a>\n\n"
+            f"<i>Outline preview:</i>\n<pre>{_esc(sub[:800])}{('...' if len(sub) > 800 else '')}</pre>"
+        ),
+        "parse_mode": "HTML",
+        "reply_markup": {
+            "inline_keyboard": [[
+                {"text": "📝 Open dashboard", "url": DASHBOARD_URL},
+            ]]
+        },
+    })
+
+
+def _handle_idea_skip(callback, idea, chat_id, message_id):
+    idea["awaiting_reason_at"] = datetime.now(timezone.utc).isoformat()
+    _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "Why skip?"})
+    _tg("editMessageText", {
+        "chat_id":    chat_id,
+        "message_id": message_id,
+        "text":       (
+            f"❌ Skipping idea: <b>{_esc(idea.get('title',''))}</b>\n\n"
+            f"<b>Tell me why</b> — type a reply in plain English (the radar will learn from it)."
+        ),
+        "parse_mode": "HTML",
+    })
+
+
 def _handle_reply_skip(callback, reply, chat_id, message_id):
     reply["awaiting_reason_at"] = datetime.now(timezone.utc).isoformat()
     _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "Why skip?"})
@@ -294,8 +416,9 @@ def _process_message(message) -> bool:
 
     chat_id = message["chat"]["id"]
 
-    queue = _load(QUEUE_PATH,       {"posts":   []})
-    repq  = _load(REPLY_QUEUE_PATH, {"replies": []})
+    queue  = _load(QUEUE_PATH,       {"posts":   []})
+    repq   = _load(REPLY_QUEUE_PATH, {"replies": []})
+    idata  = _load(IDEAS_PATH,       {"ideas":   []})
 
     item   = None
     kind   = ""
@@ -311,6 +434,10 @@ def _process_message(message) -> bool:
             item = _find_reply_by_message_id(repq, target_msg_id)
             if item:
                 kind = "reply"
+            else:
+                item = _find_idea_by_message_id(idata, target_msg_id)
+                if item:
+                    kind = "idea"
 
     # Attribution rule 2: most recent item awaiting_reason_at (within 30 min)
     if not item:
@@ -321,6 +448,9 @@ def _process_message(message) -> bool:
         for r in repq.get("replies", []):
             if r.get("awaiting_reason_at"):
                 candidates.append(("reply", r))
+        for i in idata.get("ideas", []):
+            if i.get("awaiting_reason_at"):
+                candidates.append(("idea", i))
         if candidates:
             most_recent_kind, most_recent = max(
                 candidates, key=lambda kp: kp[1].get("awaiting_reason_at")
@@ -338,7 +468,7 @@ def _process_message(message) -> bool:
     # Build a normalized post-shaped dict for feedback/lesson logging
     if kind == "reaction":
         feedback_post = item
-    else:
+    elif kind == "reply":
         feedback_post = {
             "topic":           f"Reply to {item.get('tweet_author','')}",
             "source_headline": item.get("tweet_text", "")[:100],
@@ -346,6 +476,17 @@ def _process_message(message) -> bool:
             "x_post":          item.get("reply_text", ""),
             "substack_note":   "",
             "pillar":          "reply_radar",
+            "generated_at":    item.get("generated_at"),
+        }
+    else:  # idea
+        pack = item.get("content_pack", {})
+        feedback_post = {
+            "topic":           item.get("title", ""),
+            "source_headline": item.get("trend", ""),
+            "source_url":      "",
+            "x_post":          pack.get("x_longform", "")[:200],
+            "substack_note":   pack.get("substack_draft", "")[:200],
+            "pillar":          item.get("pillar", "daily_idea"),
             "generated_at":    item.get("generated_at"),
         }
 
@@ -360,9 +501,12 @@ def _process_message(message) -> bool:
     if kind == "reaction":
         _save(QUEUE_PATH, queue)
         topic_label = item.get("topic", "")
-    else:
+    elif kind == "reply":
         _save(REPLY_QUEUE_PATH, repq)
         topic_label = f"reply to {item.get('tweet_author','')}"
+    else:
+        _save(IDEAS_PATH, idata)
+        topic_label = item.get("title", "")
 
     _tg("sendMessage", {
         "chat_id":    chat_id,
@@ -406,6 +550,21 @@ def _process_callback(callback) -> None:
             _handle_reason(callback, item, queue, chat_id, message_id, reason)
 
         _save(QUEUE_PATH, queue)
+
+    elif kind == "idea":
+        idata = _load(IDEAS_PATH, {"ideas": []})
+        item  = _find_idea_by_message_id(idata, message_id)
+
+        if data == "idea_x":
+            _handle_idea_x(callback, item, chat_id, message_id)
+        elif data == "idea_thread":
+            _handle_idea_thread(callback, item, chat_id, message_id)
+        elif data == "idea_substack":
+            _handle_idea_substack(callback, item, chat_id, message_id)
+        elif data == "skip" or data.startswith("skip:"):
+            _handle_idea_skip(callback, item, chat_id, message_id)
+
+        _save(IDEAS_PATH, idata)
 
     elif kind == "reply":
         repq = _load(REPLY_QUEUE_PATH, {"replies": []})

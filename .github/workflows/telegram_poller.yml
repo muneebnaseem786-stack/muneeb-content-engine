@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/reaction_queue.json data/reply_queue.json data/posted_log.json data/feedback_log.json data/telegram_offset.json data/lessons_learned.md
+          git add data/reaction_queue.json data/reply_queue.json data/content_ideas.json data/substack_articles.json data/linkedin_posts.json data/posted_log.json data/feedback_log.json data/telegram_offset.json data/lessons_learned.md
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0

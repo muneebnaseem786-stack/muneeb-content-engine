@@ -1,7 +1,9 @@
-"""Sends pending paired reactions AND reply opportunities to Telegram.
+"""Sends pending content to Telegram across 4 channels:
 
-Reactions (data/reaction_queue.json) → 1 message with X+Substack pair + Yes/Skip
-Replies (data/reply_queue.json)      → 2 messages (tweet context + suggested reply with buttons)
+- Reactions     (reaction_queue.json) → paired X+Substack quick takes + Yes/Skip
+- Replies       (reply_queue.json)    → tweet context + suggested reply + Yes/Skip
+- Daily Ideas   (content_ideas.json)  → idea card with format buttons + Skip
+- Long-form     (substack_articles.json, linkedin_posts.json) → notification + dashboard link
 """
 
 import os
@@ -9,11 +11,15 @@ import json
 import requests
 from datetime import datetime, timezone
 
-BOT_TOKEN        = os.environ["TELEGRAM_BOT_TOKEN"]
-CHAT_ID          = os.environ["TELEGRAM_CHAT_ID"]
-QUEUE_PATH       = "data/reaction_queue.json"
-REPLY_QUEUE_PATH = "data/reply_queue.json"
-API              = f"https://api.telegram.org/bot{BOT_TOKEN}"
+BOT_TOKEN              = os.environ["TELEGRAM_BOT_TOKEN"]
+CHAT_ID                = os.environ["TELEGRAM_CHAT_ID"]
+QUEUE_PATH             = "data/reaction_queue.json"
+REPLY_QUEUE_PATH       = "data/reply_queue.json"
+IDEAS_PATH             = "data/content_ideas.json"
+SUBSTACK_PATH          = "data/substack_articles.json"
+LINKEDIN_PATH          = "data/linkedin_posts.json"
+DASHBOARD_URL          = "https://muneeb-content.streamlit.app"
+API                    = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 
 def _esc(s: str) -> str:
@@ -106,6 +112,85 @@ def _send_reply(reply: dict) -> int | None:
     return None
 
 
+# ── DAILY IDEAS (new) ────────────────────────────────────────────────────────
+
+def _send_idea(idea: dict) -> int | None:
+    """Send a Daily Idea as a card with format-drill-down buttons."""
+    title    = idea.get("title", "")
+    angle    = idea.get("angle", "")
+    urgency  = idea.get("urgency", "timely")
+    pillar   = idea.get("pillar", "")
+
+    icon = {"breaking": "🔴", "timely": "🟡", "evergreen": "🟢"}.get(urgency, "🟡")
+    text = (
+        f"💡 <b>Daily Idea</b> {icon}\n\n"
+        f"<b>{_esc(title)}</b>\n\n"
+        f"<i>Angle:</i> {_esc(angle)}\n"
+        f"<i>Pillar:</i> {_esc(pillar)}  ·  <i>Urgency:</i> {_esc(urgency)}\n\n"
+        f"Tap a format below to view + publish."
+    )
+
+    pack = idea.get("content_pack", {})
+    has_x      = bool(pack.get("x_longform"))
+    has_thread = bool(pack.get("x_thread"))
+    has_sub    = bool(pack.get("substack_draft"))
+
+    row1 = []
+    if has_x:      row1.append({"text": "🐦 X post",      "callback_data": "idea_x"})
+    if has_thread: row1.append({"text": "🧵 X thread",    "callback_data": "idea_thread"})
+    row2 = []
+    if has_sub:    row2.append({"text": "📧 Substack draft", "callback_data": "idea_substack"})
+    row2.append({"text": "❌ Skip", "callback_data": "skip"})
+
+    keyboard = {"inline_keyboard": [r for r in [row1, row2] if r]}
+
+    resp = requests.post(f"{API}/sendMessage", json={
+        "chat_id":     CHAT_ID,
+        "text":        text,
+        "parse_mode":  "HTML",
+        "reply_markup": keyboard,
+    }, timeout=15)
+    if resp.status_code == 200:
+        return resp.json()["result"]["message_id"]
+    print(f"sendMessage(idea) failed [{resp.status_code}]: {resp.text}")
+    return None
+
+
+# ── LONG-FORM NOTIFICATIONS (new) ────────────────────────────────────────────
+
+def _send_long_form_notification(kind: str, title: str, dashboard_anchor: str) -> int | None:
+    """Send a 'X is ready, review on dashboard' notification."""
+    icon, label = {
+        "substack_article": ("📚", "Substack article"),
+        "linkedin_post":    ("💼", "LinkedIn post"),
+    }.get(kind, ("📝", "Long-form post"))
+
+    text = (
+        f"{icon} <b>{label} ready</b>\n\n"
+        f"<b>{_esc(title)}</b>\n\n"
+        f"Review the full draft and copy from the dashboard:\n"
+        f"<a href=\"{DASHBOARD_URL}\">{DASHBOARD_URL}</a>"
+    )
+
+    keyboard = {
+        "inline_keyboard": [[
+            {"text": f"{icon} Open dashboard", "url": DASHBOARD_URL},
+        ]]
+    }
+
+    resp = requests.post(f"{API}/sendMessage", json={
+        "chat_id":     CHAT_ID,
+        "text":        text,
+        "parse_mode":  "HTML",
+        "reply_markup": keyboard,
+        "disable_web_page_preview": True,
+    }, timeout=15)
+    if resp.status_code == 200:
+        return resp.json()["result"]["message_id"]
+    print(f"sendMessage(long-form) failed [{resp.status_code}]: {resp.text}")
+    return None
+
+
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def notify_pending() -> None:
@@ -150,7 +235,71 @@ def notify_pending() -> None:
     except FileNotFoundError:
         print(f"{REPLY_QUEUE_PATH} not found")
 
-    print(f"Sent {sent_total} reactions + {reply_sent} reply opportunities")
+    # Daily Ideas
+    idea_sent = 0
+    try:
+        with open(IDEAS_PATH) as f:
+            ideas_data = json.load(f)
+        for idea in ideas_data.get("ideas", []):
+            if idea.get("status") == "skipped" or idea.get("telegram_message_id"):
+                continue
+            mid = _send_idea(idea)
+            if mid:
+                idea["telegram_message_id"] = mid
+                idea["sent_to_telegram_at"] = datetime.now(timezone.utc).isoformat()
+                idea.setdefault("status", "pending")
+                idea_sent += 1
+        if idea_sent:
+            ideas_data["last_updated"] = datetime.now(timezone.utc).isoformat()
+            with open(IDEAS_PATH, "w") as f:
+                json.dump(ideas_data, f, indent=2)
+    except FileNotFoundError:
+        print(f"{IDEAS_PATH} not found")
+
+    # Substack articles
+    article_sent = 0
+    try:
+        with open(SUBSTACK_PATH) as f:
+            arts = json.load(f)
+        for art in arts.get("articles", []):
+            if art.get("telegram_notified_at"):
+                continue
+            mid = _send_long_form_notification("substack_article", art.get("title", ""), "substack")
+            if mid:
+                art["telegram_notified_at"] = datetime.now(timezone.utc).isoformat()
+                art["telegram_message_id"]  = mid
+                article_sent += 1
+        if article_sent:
+            arts["last_updated"] = datetime.now(timezone.utc).isoformat()
+            with open(SUBSTACK_PATH, "w") as f:
+                json.dump(arts, f, indent=2)
+    except FileNotFoundError:
+        print(f"{SUBSTACK_PATH} not found")
+
+    # LinkedIn posts
+    li_sent = 0
+    try:
+        with open(LINKEDIN_PATH) as f:
+            lis = json.load(f)
+        for li in lis.get("posts", []):
+            if li.get("telegram_notified_at"):
+                continue
+            mid = _send_long_form_notification("linkedin_post", li.get("title", ""), "linkedin")
+            if mid:
+                li["telegram_notified_at"] = datetime.now(timezone.utc).isoformat()
+                li["telegram_message_id"]  = mid
+                li_sent += 1
+        if li_sent:
+            lis["last_updated"] = datetime.now(timezone.utc).isoformat()
+            with open(LINKEDIN_PATH, "w") as f:
+                json.dump(lis, f, indent=2)
+    except FileNotFoundError:
+        print(f"{LINKEDIN_PATH} not found")
+
+    print(
+        f"Sent {sent_total} reactions + {reply_sent} replies + {idea_sent} ideas + "
+        f"{article_sent} articles + {li_sent} LinkedIn posts"
+    )
 
 
 if __name__ == "__main__":
