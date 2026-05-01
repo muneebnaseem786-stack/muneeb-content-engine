@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-05-01T02:13:21.636750+00:00",
+  "last_updated": "2026-05-01T04:29:48.110822+00:00",
   "posts": [
+    {
+      "topic": "CLARITY Act markup targets mid-May amid bank pushback",
+      "source_headline": "CLARITY Act Breakthrough: Senator Tillis Backs Markup and Says Stablecoin Disputes Are Resolved",
+      "source_url": "https://coinpedia.org/news/clarity-act-breakthrough-senator-tillis-backs-markup-and-says-stablecoin-disputes-are-resolved/amp/",
+      "x_post": "U.S. banks are lobbying to delay the CLARITY Act even as Senator Tillis locks in a mid-May markup date. The stablecoin yield standoff is resolved: passive rewards banned, activity-based rewards tied to payments and transfers kept. DeFi provisions still contested. My read: $317 billion in stablecoin supply accumulated without asking banks for permission. The bill dying in committee will not change that.",
+      "substack_note": "My read: The CLARITY Act finally has a markup date. Week of May 11, pending Senator Tillis's committee schedule. The stablecoin yield compromise took three months to reach: passive holding rewards banned, activity-based rewards tied to payments and transfers permitted.\n\nNow the loudest lobby for delay is U.S. banks.\n\nI find this strange. The GENIUS Act already created a federal stablecoin framework last July. $317 billion in stablecoin supply circulates today. Visa settled $4.6 billion on its network this quarter alone. The banks are not blocking a future \u2014 they are trying to slow a present they did not build.\n\nThe real constraint is temporal. If the bill does not clear committee before Congress shifts to campaign season, it dies with this session. That window is roughly eight weeks.\n\nIf the CLARITY Act fails, does stablecoin expansion accelerate offshore, or does it simply wait for the next political cycle?",
+      "generated_at": "2026-05-01T07:02:00+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "Coinbase CUSHY tokenizes stablecoin credit for institutions",
+      "source_headline": "Coinbase's asset manager to offer stablecoin credit fund with tokenized share class",
+      "source_url": "https://www.coindesk.com/business/2026/04/30/coinbase-s-asset-manager-to-offer-stablecoin-credit-fund-with-tokenized-share-class",
+      "x_post": "Northern Trust is now administering a fund that settles on Solana. Coinbase's CUSHY, a tokenized stablecoin credit fund for institutions, delivers yield from onchain lending across Ethereum, Solana, and Base, with shares usable as DeFi collateral around the clock. Invesco, $2 trillion under management, adopted the same Superstate FundOS infrastructure. My read: TradFi is not adopting DeFi selectively. It is adopting the rails and calling it a credit strategy.",
+      "substack_note": "My take: I have watched the 'institutional DeFi' narrative for years. Mostly it was slideware. CUSHY, Coinbase's tokenized stablecoin credit fund announced April 30, feels structurally different.\n\nNorthern Trust is administering a fund that trades 24/7 on Solana. That is not a crypto headline. It is a custody desk decision. Invesco, $2 trillion AUM, adopted the same Superstate FundOS infrastructure. Yield comes from three sources: asset-based lending to crypto-native and traditional borrowers, digital credit instruments, and tokenization incentives.\n\nThat last source is temporary. Tokenization incentives will not last. But the first two are real credit exposure with real counterparties.\n\nFor MENA investors, Gulf sovereign wealth is already circling digital assets. The question is whether regional allocators reach this fund class before the Western first-mover window closes.\n\nIs CUSHY the product that finally makes institutional stablecoin yield legible to a traditional LP in Abu Dhabi or Riyadh?",
+      "generated_at": "2026-05-01T07:02:00+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "Rain buys Arabic crypto media to own MENA conversion funnel",
+      "source_headline": "Abu Dhabi's Rain Financial acquires Saudi-based Digital Ma'arefa",
+      "source_url": "https://www.zawya.com/en/business/m-a/abu-dhabis-rain-financial-acquires-saudi-based-digital-maarefa-q41n154n",
+      "x_post": "Rain, the Gulf's first licensed crypto exchange with $11 billion in total trading volume, acquired Digital Ma'arefa, the Arabic-language financial media network with 1 million followers. Deal closed March 30. The move is not about content. My read: the exchange that controls what one million Arabic-speaking investors read before they trade owns the conversion funnel at every step.",
+      "substack_note": "My take: Rain is MENA's first regulated crypto exchange. Two million users. $11 billion in lifetime trading volume. Licensed in Bahrain, approved by ADGM.\n\nOn March 30, they acquired Digital Ma'arefa, the Arabic-language financial media company behind Finance Memo and Crypto Memo, with one million followers built over five years. Abdullah Mashat, the brand's most trusted voice, joins as Managing Director.\n\nI have watched how Arabic-speaking investors navigate financial media for years. Trust is scarce. English-language crypto content rarely translates culturally. What Rain bought is not a newsletter. It is the decision environment that precedes a trade.\n\nThe expansion roadmap names Turkey and Pakistan as next markets. That combination \u2014 Bahrain headquarters, ADGM approval, Saudi media, Pakistan ambition \u2014 maps almost exactly to where remittance-to-investment conversion is most underserved.\n\nWhat does vertical integration from information to custody look like at real scale in Arabic?",
+      "generated_at": "2026-05-01T07:02:00+00:00",
+      "status": "pending"
+    },
     {
       "topic": "Visa stablecoin settlement hits $7B across nine blockchains",
       "source_headline": "Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement",
