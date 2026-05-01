@@ -131,11 +131,12 @@ def _send_idea(idea: dict) -> int | None:
     pack       = idea.get("content_pack", {})
     x_text     = pack.get("x_longform", "")
     thread     = pack.get("x_thread", []) or []
+    sub_text   = pack.get("substack_draft", "")
     has_x      = bool(x_text)
     has_thread = bool(thread)
-    has_sub    = bool(pack.get("substack_draft"))
+    has_sub    = bool(sub_text)
 
-    # Build the card body — show the X text inline so user can review before tapping
+    # Build the card body — show all content inline so user can review + long-press to copy
     body_parts = [
         f"💡 <b>Daily Idea</b> {icon}",
         "",
@@ -148,9 +149,11 @@ def _send_idea(idea: dict) -> int | None:
         body_parts += ["", "<b>🐦 X post:</b>", f"<pre>{_esc(x_text)}</pre>"]
     if has_thread:
         body_parts += ["", f"<b>🧵 Thread ({len(thread)} tweets) — tap below to start.</b>"]
+    if has_sub:
+        body_parts += ["", "<b>📧 Substack draft sent below ⬇️</b>"]
     text = "\n".join(body_parts)
 
-    # Direct URL buttons — instant, no callback hop
+    # Main card — direct URL buttons, instant
     rows = []
     if has_x:
         intent_url = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(x_text)}"
@@ -158,23 +161,48 @@ def _send_idea(idea: dict) -> int | None:
     if has_thread:
         first_intent = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(thread[0])}"
         rows.append([{"text": "🧵 Post first thread tweet", "url": first_intent}])
-    if has_sub:
-        rows.append([{"text": "📧 Open Substack draft", "url": DASHBOARD_URL}])
     rows.append([{"text": "❌ Skip", "callback_data": "skip"}])
-
-    keyboard = {"inline_keyboard": rows}
 
     resp = requests.post(f"{API}/sendMessage", json={
         "chat_id":     CHAT_ID,
         "text":        text,
         "parse_mode":  "HTML",
-        "reply_markup": keyboard,
+        "reply_markup": {"inline_keyboard": rows},
         "disable_web_page_preview": True,
     }, timeout=15)
-    if resp.status_code == 200:
-        return resp.json()["result"]["message_id"]
-    print(f"sendMessage(idea) failed [{resp.status_code}]: {resp.text}")
-    return None
+    if resp.status_code != 200:
+        print(f"sendMessage(idea) failed [{resp.status_code}]: {resp.text}")
+        return None
+    main_msg_id = resp.json()["result"]["message_id"]
+
+    # Follow-up: substack draft in its own message (4096-char limit per message).
+    # Long drafts get split into chunks; first chunk gets the "Open Substack Notes" button.
+    if has_sub:
+        MAX = 3500  # leaves room for HTML wrapper
+        chunks = [sub_text[i:i+MAX] for i in range(0, len(sub_text), MAX)]
+        for idx, chunk in enumerate(chunks):
+            label = "" if len(chunks) == 1 else f" ({idx+1}/{len(chunks)})"
+            body = (
+                f"📧 <b>Substack draft{label}:</b>\n\n"
+                f"<pre>{_esc(chunk)}</pre>"
+            )
+            payload = {
+                "chat_id":    CHAT_ID,
+                "text":       body,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": True,
+                "reply_to_message_id": main_msg_id,
+            }
+            # Open-Substack button only on the last chunk so user has full text first
+            if idx == len(chunks) - 1:
+                payload["reply_markup"] = {"inline_keyboard": [[
+                    {"text": "📝 Open Substack Notes", "url": "https://substack.com/notes"},
+                ]]}
+            r = requests.post(f"{API}/sendMessage", json=payload, timeout=15)
+            if r.status_code != 200:
+                print(f"sendMessage(idea-substack chunk {idx+1}) failed [{r.status_code}]: {r.text}")
+
+    return main_msg_id
 
 
 # ── LONG-FORM NOTIFICATIONS (new) ────────────────────────────────────────────
