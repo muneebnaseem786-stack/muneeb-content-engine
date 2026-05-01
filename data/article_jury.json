@@ -1,6 +1,6 @@
 {
   "current_article": {
-    "stage": "hooks_running",
+    "stage": "hooks_awaiting_pick",
     "started_at": "2026-05-01T13:49:53Z",
     "previous_ideas": [],
     "candidates": {
@@ -61,7 +61,20 @@
           ]
         }
       ],
-      "hooks": [],
+      "hooks": [
+        {
+          "persona": "cycle_anchor",
+          "text": "The enterprise software sell-off cycle is roughly four months old now. But the speed of it has been disorienting. In January and February alone, the sector shed an estimated two trillion dollars in market capitalisation, with the median EV/Revenue multiple for public SaaS companies falling to 3.4x by March, down from above 10x at the 2021 peak. B2B software stocks dropped roughly 20% across the first quarter of 2026. The specific fear driving all of this is seat compression: if a company can deploy AI agents to do the same work that once required fifty human employees, it no longer needs to pay for fifty software seats. It buys one enterprise license, or maybe ten, and the revenue line for every incumbent SaaS vendor quietly collapses.\n\nIn this noise, one question keeps coming back to me. Not whether seat compression is real, because I think it is, but whether 2026 is actually the year it shows up in reported revenue. Most enterprise contracts run two to three years. The average SaaS contract length is now 22.3 months, and 74% of companies above five billion dollars in revenue bundle their software into multi-year capital expenditure plans. Those contracts are only now beginning to turn over at scale. What the market appears to have done is price in a structural shift that will not land in income statements until 2027 or 2028 at the earliest. This is my attempt to make sense of whether investors are early, or a full cycle too early."
+        },
+        {
+          "persona": "curiosity_led",
+          "text": "Most people including myself read the SaaS sell-off of early 2026 as evidence that AI is already eating software revenue. The logic is clean: AI agents replace human workers, those workers no longer need individual software seats, vendors collect less money, stocks fall. The wipeout of an estimated one to two trillion dollars in enterprise software market capitalisation across January and February made this story feel almost self-evident.\n\nThe more I tried to stress-test the timeline, the less comfortable I became. The average enterprise SaaS contract now runs 22.3 months. Three quarters of companies above five billion dollars in revenue bundle software into multi-year capital expenditure plans. That means the contracts signed in 2023 and 2024, when AI agents were mostly demonstrations rather than deployed infrastructure, are only beginning to come up for renewal. The actual seat compression, where a CFO looks at a renewal quote and cuts the headcount from 500 to 50, would show up in reported revenue starting in 2027 or 2028, not in the quarterly filings of 2026. My short answer is that the direction of the seat compression thesis is probably right, and the timing is probably wrong by about two years. In markets, being two years early is almost the same as being wrong entirely, which is what makes this one worth thinking through carefully."
+        },
+        {
+          "persona": "pattern_lived",
+          "text": "Most people treat the collapse in SaaS valuations as a new kind of problem, one created specifically by large language models and autonomous agents doing white-collar work at scale. I do not think it is entirely new. I think it follows the same pattern we already lived through when cloud computing disrupted on-premises enterprise software in the 2010s, just moving faster and hitting at the revenue model rather than the delivery model. Back then, analysts correctly identified that the shift was structural and inevitable. Many of them got the timing wrong by three to five years, and the investors who shorted the incumbents earliest either ran out of patience or capital before the thesis actually landed.\n\nThe median EV/Revenue multiple for public SaaS companies is now 3.4x, down from above 10x at the 2021 peak. B2B software stocks dropped roughly 20% in the first quarter of 2026. The specific fear is seat compression: AI agents displacing human workers who were each paying for a software seat. It is a reasonable fear. What I keep returning to is a timing question. Enterprise contracts run two to three years on average. The 74% of large companies that bundle software into multi-year capital expenditure plans are still sitting inside contracts they signed before autonomous agents were deployed at any meaningful scale. The actual compression will begin appearing in income statements in 2027 or 2028. The question is whether the market has priced in a 2026 problem or a 2027 one. That distinction is the entire trade."
+        }
+      ],
       "articles": []
     },
     "picked": {
