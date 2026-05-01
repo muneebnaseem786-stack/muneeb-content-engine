@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-04-30T18:56:26.513230+00:00",
+  "last_updated": "2026-05-01T02:13:21.636750+00:00",
   "posts": [
+    {
+      "topic": "Visa stablecoin settlement hits $7B across nine blockchains",
+      "source_headline": "Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement",
+      "source_url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html",
+      "x_post": "Visa's annualized stablecoin settlement run rate hit $7B on April 29, up 50% in one quarter, now across nine blockchains. 130+ card programs live in 50+ countries. My read: Visa is treating stablecoins as permanent settlement infrastructure, not a pilot. The rail is being built while the train is already moving.",
+      "substack_note": "There's a data point in Visa's April 29 announcement that deserves more attention than the blockchain count.\n\n$7 billion annualized settlement run rate, up 50% in a single quarter, across nine blockchains, with 130+ card programs in 50+ countries. That is not a pilot. Pilots don't grow 50% per quarter.\n\nI've been watching this space closely. The interesting part isn't the volume. It's that Visa \u2014 a company built entirely on owning the settlement layer \u2014 is accelerating stablecoin adoption rather than resisting it. They're becoming the brand on top of a permissionless rail.\n\nMy read: the network that once extracted margin from correspondent banking is now racing to own programmable settlement before someone else does. Whether that's strategy or an existential hedge is genuinely unclear to me.\n\nWhat changes when the settlement layer is permissionless but Visa's name is still on the card?",
+      "generated_at": "2026-05-01T07:00:00+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "World Bank reclassifies Pakistan from South Asia to MENAAP",
+      "source_headline": "Pakistan's New Geographic Designation Brings Complications",
+      "source_url": "https://foreignpolicy.com/2026/04/29/pakistan-world-bank-imf-middle-east-saudi-arabia-india-south-asia/",
+      "x_post": "The World Bank reclassified Pakistan from South Asia to MENAAP, effective fiscal year 2026, moving $20 billion in programming with it. My read: this is not symbolic. ADB, MSCI, Bloomberg, and the Islamic Development Bank tend to follow the World Bank's lead. When the data taxonomy shifts, lending frameworks, sector benchmarks, and investment mandates follow.",
+      "substack_note": "There's a story buried in the World Bank's April 2026 metadata update that most outlets treated as bureaucratic housekeeping.\n\nPakistan has been moved from the South Asia regional group to MENAAP, a new designation covering Middle East, North Africa, Afghanistan, and Pakistan. Effective fiscal year 2026.\n\nI find this genuinely consequential, and not for symbolic reasons. World Bank regions are not just labels. They carry vice presidencies, country directors, sector teams, regional trust funds, and lending architecture. When Pakistan moves into MENAAP, $20 billion in World Bank programming gets redesigned around Gulf-style development playbooks rather than South Asian ones.\n\nThe second-order effect is what matters: ADB, MSCI, Bloomberg, and the Islamic Development Bank typically follow the World Bank's categorization. Pakistan's startup ecosystem already has one foot in Dubai. This accelerates the other.\n\nWhether this deepens Pakistan's strategic access to Gulf capital, or just deepens dependency on Gulf capital cycles, is the question I can't answer sitting in the UAE.",
+      "generated_at": "2026-05-01T07:00:00+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "MENA fintech captures 46% of Q1 2026 funding despite 37% drop",
+      "source_headline": "Middle East Fintech Investors Pivot To Resilient Local Infrastructure Amid Regional Turmoil: Analysis",
+      "source_url": "https://www.crowdfundinsider.com/2026/04/271811-middle-east-fintech-investors-pivot-to-resilient-local-infrastructure-amid-regional-turmoil-analysis/",
+      "x_post": "MENA startup funding fell to $941M in Q1 2026, down 37% year-on-year. Fintech captured 46% of every dollar deployed. My read: when Gulf capital gets nervous, it does not exit fintech. It consolidates inside it.",
+      "substack_note": "The Q1 2026 MENA funding numbers tell two stories that most coverage is conflating.\n\nStory one: $941 million in total startup funding, down 37% year-on-year. Geopolitical stress around the Strait of Hormuz is eroding investor confidence. That part is accurate.\n\nStory two: fintech captured 46% of every dollar deployed in the region. Not despite the turmoil. Because of it.\n\nI've been thinking about why this pattern holds. When regional instability rises, remittance volumes increase and demand for local financial infrastructure deepens. Investors who understand this lean in rather than pull back.\n\nFintech in MENA right now is not a growth bet. It is an infrastructure bet.\n\nMy hypothesis: the next wave of MENA fintech winners will be built on deals made during this quiet quarter, not the loud years. Capital concentrated under pressure finds the strongest structures.\n\nWhat does the next dominant MENA fintech category look like?",
+      "generated_at": "2026-05-01T07:00:00+00:00",
+      "status": "pending"
+    },
     {
       "topic": "Trump hears Iran strike options as diplomat track fails",
       "source_headline": "Scoop: Commanders to brief Trump on new Iran military options Thursday",
