@@ -24,15 +24,11 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests tweepy
+        run: pip install requests
 
       - name: Poll Telegram for callbacks
         env:
-          TELEGRAM_BOT_TOKEN:    ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          X_API_KEY:             ${{ secrets.X_API_KEY }}
-          X_API_SECRET:          ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN:        ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: python scripts/telegram/poller.py
 
       - name: Commit data updates

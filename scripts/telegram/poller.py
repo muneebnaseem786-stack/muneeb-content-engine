@@ -1,13 +1,15 @@
 """Polls Telegram for callback queries (button taps) and processes them.
 
-On Yes  → posts X version via tweepy, sends Substack text + open link.
+On Yes  → sends X intent URL (one-tap publish) + Substack text + open link.
 On Skip → asks reason, then logs feedback.
+
+No paid X API write access required — uses twitter.com/intent/tweet for posting.
+Performance tracker auto-fetches the user's recent tweets afterward.
 """
 
 import os
 import json
 import requests
-import tweepy
 from datetime import datetime, timezone
 
 BOT_TOKEN        = os.environ["TELEGRAM_BOT_TOKEN"]
@@ -33,25 +35,6 @@ def _save(path: str, data) -> None:
         json.dump(data, f, indent=2)
 
 
-def _x_client() -> tweepy.Client:
-    return tweepy.Client(
-        consumer_key=os.environ["X_API_KEY"],
-        consumer_secret=os.environ["X_API_SECRET"],
-        access_token=os.environ["X_ACCESS_TOKEN"],
-        access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"],
-    )
-
-
-def _post_to_x(text: str) -> str | None:
-    try:
-        resp     = _x_client().create_tweet(text=text)
-        tweet_id = resp.data["id"]
-        return f"https://x.com/MuneebNaseem/status/{tweet_id}"
-    except Exception as e:
-        print(f"X post failed: {e}")
-        return None
-
-
 def _tg(method: str, body: dict) -> dict:
     resp = requests.post(f"{API}/{method}", json=body, timeout=15)
     if resp.status_code != 200:
@@ -71,15 +54,15 @@ def _find_post_by_message_id(queue: dict, message_id: int) -> dict | None:
     return None
 
 
-def _log_posted(post: dict, tweet_url: str) -> None:
+def _log_approved(post: dict) -> None:
     log = _load(POSTED_LOG_PATH, {"posted": []})
     log["posted"].append({
         "topic":          post.get("topic"),
         "source_url":     post.get("source_url"),
-        "tweet_url":      tweet_url,
         "x_text":         post.get("x_post"),
         "substack_text":  post.get("substack_note"),
-        "posted_at":      datetime.now(timezone.utc).isoformat(),
+        "approved_at":    datetime.now(timezone.utc).isoformat(),
+        "via":            "telegram_intent_url",
     })
     _save(POSTED_LOG_PATH, log)
 
@@ -102,35 +85,41 @@ def _log_feedback(post: dict, reason: str) -> None:
 # ── callback handlers ────────────────────────────────────────────────────────
 
 def _handle_yes(callback, post, queue, chat_id, message_id):
-    tweet_url = _post_to_x(post["x_post"])
+    import urllib.parse
 
-    if not tweet_url:
-        _tg("answerCallbackQuery", {
-            "callback_query_id": callback["id"],
-            "text":              "❌ X post failed — see workflow logs",
-            "show_alert":        True,
-        })
-        return
+    x_text        = post.get("x_post", "")
+    substack_text = post.get("substack_note", "")
+    intent_url    = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(x_text)}"
 
-    _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "✅ Posted to X!"})
+    _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "✅ Approved!"})
 
-    # Edit the original message: replace buttons with status
+    # Edit the original message: confirm approval
     _tg("editMessageText", {
         "chat_id":    chat_id,
         "message_id": message_id,
         "text":       (
-            f"✅ <b>Posted to X</b>: <a href=\"{tweet_url}\">{tweet_url}</a>\n\n"
-            f"📡 <b>{_esc(post.get('topic',''))}</b>\n\n"
-            f"📧 Substack note sent below — tap to copy and post."
+            f"✅ <b>Approved</b>: {_esc(post.get('topic',''))}\n\n"
+            f"X tweet and Substack note are below. Tap each to publish."
         ),
         "parse_mode": "HTML",
-        "disable_web_page_preview": False,
     })
 
-    # Follow-up: substack note in copyable code block + open link
+    # Follow-up 1: X tweet with intent URL button (one-tap publish)
     _tg("sendMessage", {
         "chat_id":    chat_id,
-        "text":       f"📧 <b>Substack note (tap to copy):</b>\n\n<pre>{_esc(post['substack_note'])}</pre>",
+        "text":       f"🐦 <b>X tweet — tap to publish:</b>\n\n<pre>{_esc(x_text)}</pre>",
+        "parse_mode": "HTML",
+        "reply_markup": {
+            "inline_keyboard": [[
+                {"text": "🚀 Post on X", "url": intent_url}
+            ]]
+        },
+    })
+
+    # Follow-up 2: Substack note in copyable code block + open link
+    _tg("sendMessage", {
+        "chat_id":    chat_id,
+        "text":       f"📧 <b>Substack note — tap to copy, then publish:</b>\n\n<pre>{_esc(substack_text)}</pre>",
         "parse_mode": "HTML",
         "reply_markup": {
             "inline_keyboard": [[
@@ -139,10 +128,9 @@ def _handle_yes(callback, post, queue, chat_id, message_id):
         },
     })
 
-    post["status"]      = "posted"
-    post["tweet_url"]   = tweet_url
-    post["posted_at"]   = datetime.now(timezone.utc).isoformat()
-    _log_posted(post, tweet_url)
+    post["status"]      = "approved"
+    post["approved_at"] = datetime.now(timezone.utc).isoformat()
+    _log_approved(post)
 
 
 def _handle_skip(callback, post, chat_id, message_id):
