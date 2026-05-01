@@ -1,6 +1,6 @@
 {
   "current_article": {
-    "stage": "ideas_awaiting_pick",
+    "stage": "hooks_running",
     "started_at": "2026-05-01T13:49:53Z",
     "previous_ideas": [],
     "candidates": {
@@ -65,12 +65,12 @@
       "articles": []
     },
     "picked": {
-      "idea_index": null,
+      "idea_index": 0,
       "hook_index": null,
       "hook_text": null,
       "article_index": null
     },
-    "last_notified_stage": "ideas_awaiting_pick"
+    "last_notified_stage": null
   },
   "history": []
 }
