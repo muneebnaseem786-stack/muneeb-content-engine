@@ -83,7 +83,7 @@
       "hook_text": null,
       "article_index": null
     },
-    "last_notified_stage": null
+    "last_notified_stage": "hooks_awaiting_pick"
   },
   "history": []
 }
