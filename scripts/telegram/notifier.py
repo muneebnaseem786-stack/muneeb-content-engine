@@ -175,32 +175,32 @@ def _send_idea(idea: dict) -> int | None:
         return None
     main_msg_id = resp.json()["result"]["message_id"]
 
-    # Follow-up: substack draft in its own message (4096-char limit per message).
-    # Long drafts get split into chunks; first chunk gets the "Open Substack Notes" button.
+    # Follow-up: substack draft as raw text (no header, no HTML) so long-press
+    # copies ONLY the draft. Long drafts get split across multiple messages.
+    # Last message has a small header line + Open Substack Notes button.
     if has_sub:
-        MAX = 3500  # leaves room for HTML wrapper
+        MAX = 4000  # plain text, no HTML overhead
         chunks = [sub_text[i:i+MAX] for i in range(0, len(sub_text), MAX)]
         for idx, chunk in enumerate(chunks):
-            label = "" if len(chunks) == 1 else f" ({idx+1}/{len(chunks)})"
-            body = (
-                f"📧 <b>Substack draft{label}:</b>\n\n"
-                f"<pre>{_esc(chunk)}</pre>"
-            )
             payload = {
                 "chat_id":    CHAT_ID,
-                "text":       body,
-                "parse_mode": "HTML",
+                "text":       chunk,  # raw text — long-press copies just this
                 "disable_web_page_preview": True,
                 "reply_to_message_id": main_msg_id,
             }
-            # Open-Substack button only on the last chunk so user has full text first
-            if idx == len(chunks) - 1:
-                payload["reply_markup"] = {"inline_keyboard": [[
-                    {"text": "📝 Open Substack Notes", "url": "https://substack.com/notes"},
-                ]]}
             r = requests.post(f"{API}/sendMessage", json=payload, timeout=15)
             if r.status_code != 200:
                 print(f"sendMessage(idea-substack chunk {idx+1}) failed [{r.status_code}]: {r.text}")
+
+        # Footer message with the Open Substack button
+        requests.post(f"{API}/sendMessage", json={
+            "chat_id":    CHAT_ID,
+            "text":       "📧 Long-press the draft above to copy, then tap below to open Substack.",
+            "reply_markup": {"inline_keyboard": [[
+                {"text": "📝 Open Substack Notes", "url": "https://substack.com/notes"},
+            ]]},
+            "reply_to_message_id": main_msg_id,
+        }, timeout=15)
 
     return main_msg_id
 
