@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 
 BOT_TOKEN        = os.environ["TELEGRAM_BOT_TOKEN"]
 QUEUE_PATH       = "data/reaction_queue.json"
+REPLY_QUEUE_PATH = "data/reply_queue.json"
 OFFSET_PATH      = "data/telegram_offset.json"
 POSTED_LOG_PATH  = "data/posted_log.json"
 FEEDBACK_PATH    = "data/feedback_log.json"
@@ -48,11 +49,32 @@ def _esc(s: str) -> str:
 
 
 def _find_post_by_message_id(queue: dict, message_id: int) -> dict | None:
-    """Look up the post that originated a Telegram message (most reliable)."""
+    """Look up the reaction post that originated a Telegram message."""
     for p in queue.get("posts", []):
         if p.get("telegram_message_id") == message_id:
             return p
     return None
+
+
+def _find_reply_by_message_id(reply_queue: dict, message_id: int) -> dict | None:
+    """Look up the reply opportunity that originated a Telegram message."""
+    for r in reply_queue.get("replies", []):
+        if r.get("telegram_message_id") == message_id:
+            return r
+    return None
+
+
+def _find_anywhere_by_message_id(message_id: int) -> tuple[dict | None, str]:
+    """Returns (item, kind) where kind ∈ {'reaction', 'reply', ''}."""
+    rq = _load(QUEUE_PATH, {"posts": []})
+    p  = _find_post_by_message_id(rq, message_id)
+    if p:
+        return p, "reaction"
+    repq = _load(REPLY_QUEUE_PATH, {"replies": []})
+    r    = _find_reply_by_message_id(repq, message_id)
+    if r:
+        return r, "reply"
+    return None, ""
 
 
 def _log_approved(post: dict) -> None:
@@ -204,51 +226,150 @@ def _handle_reason(callback, post, queue, chat_id, message_id, reason):
     })
 
 
+def _handle_reply_yes(callback, reply, chat_id, message_id):
+    """Handle Yes on a reply opportunity → send X intent URL with in_reply_to."""
+    import urllib.parse
+
+    tweet_id   = reply.get("tweet_id", "")
+    reply_text = reply.get("reply_text", "")
+    author     = reply.get("tweet_author", "")
+
+    intent_url = (
+        f"https://twitter.com/intent/tweet"
+        f"?in_reply_to={urllib.parse.quote(str(tweet_id))}"
+        f"&text={urllib.parse.quote(reply_text)}"
+    )
+
+    _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "✅ Approved!"})
+
+    _tg("editMessageText", {
+        "chat_id":    chat_id,
+        "message_id": message_id,
+        "text":       (
+            f"✅ <b>Reply approved</b> to {_esc(author)}\n\n"
+            f"<pre>{_esc(reply_text)}</pre>\n\n"
+            f"Tap below to publish — X opens the reply composer pre-loaded."
+        ),
+        "parse_mode": "HTML",
+        "reply_markup": {
+            "inline_keyboard": [[
+                {"text": "🚀 Reply on X", "url": intent_url}
+            ]]
+        },
+    })
+
+    reply["status"]      = "approved"
+    reply["approved_at"] = datetime.now(timezone.utc).isoformat()
+
+
+def _handle_reply_skip(callback, reply, chat_id, message_id):
+    reply["awaiting_reason_at"] = datetime.now(timezone.utc).isoformat()
+    _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "Why skip?"})
+    _tg("editMessageText", {
+        "chat_id":    chat_id,
+        "message_id": message_id,
+        "text":       (
+            f"❌ Skipping reply to <b>{_esc(reply.get('tweet_author',''))}</b>\n\n"
+            f"<b>Tell me why</b> — just type a reply in the chat (plain English) "
+            f"and the reply radar will learn from it.\n\n"
+            f"Or tap a quick category below."
+        ),
+        "parse_mode": "HTML",
+        "reply_markup": {
+            "inline_keyboard": [[
+                {"text": "🚫 Bad target",  "callback_data": "reason:topic"},
+                {"text": "✏️ Bad reply",   "callback_data": "reason:xq"},
+            ]]
+        },
+    })
+
+
 # ── main ─────────────────────────────────────────────────────────────────────
 
 def _process_message(message) -> bool:
-    """Process a free-form text message as feedback. Returns True if attributed to a post."""
+    """Process a free-form text message as feedback. Returns True if attributed."""
     text = (message.get("text") or "").strip()
     if not text or text.startswith("/"):
         return False
 
     chat_id = message["chat"]["id"]
-    queue   = _load(QUEUE_PATH, {"posts": []})
-    post    = None
+
+    queue = _load(QUEUE_PATH,       {"posts":   []})
+    repq  = _load(REPLY_QUEUE_PATH, {"replies": []})
+
+    item   = None
+    kind   = ""
 
     # Attribution rule 1: explicit reply_to_message
     reply_to = message.get("reply_to_message") or {}
-    if reply_to.get("message_id"):
-        post = _find_post_by_message_id(queue, reply_to["message_id"])
+    target_msg_id = reply_to.get("message_id") if reply_to else None
+    if target_msg_id:
+        item = _find_post_by_message_id(queue, target_msg_id)
+        if item:
+            kind = "reaction"
+        else:
+            item = _find_reply_by_message_id(repq, target_msg_id)
+            if item:
+                kind = "reply"
 
-    # Attribution rule 2: most recent post awaiting_reason_at (within 30 min window)
-    if not post:
-        candidates = [p for p in queue.get("posts", []) if p.get("awaiting_reason_at")]
+    # Attribution rule 2: most recent item awaiting_reason_at (within 30 min)
+    if not item:
+        candidates = []
+        for p in queue.get("posts", []):
+            if p.get("awaiting_reason_at"):
+                candidates.append(("reaction", p))
+        for r in repq.get("replies", []):
+            if r.get("awaiting_reason_at"):
+                candidates.append(("reply", r))
         if candidates:
-            most_recent = max(candidates, key=lambda p: p.get("awaiting_reason_at"))
-            ts = datetime.fromisoformat(most_recent["awaiting_reason_at"].replace("Z", "+00:00"))
+            most_recent_kind, most_recent = max(
+                candidates, key=lambda kp: kp[1].get("awaiting_reason_at")
+            )
+            ts = datetime.fromisoformat(
+                most_recent["awaiting_reason_at"].replace("Z", "+00:00")
+            )
             if (datetime.now(timezone.utc) - ts).total_seconds() < 1800:
-                post = most_recent
+                item = most_recent
+                kind = most_recent_kind
 
-    if not post:
-        # Not a feedback message we can attribute. Ignore silently.
+    if not item:
         return False
 
-    _log_feedback(post, "free_form", free_form_text=text)
-    _append_lesson(post, text)
+    # Build a normalized post-shaped dict for feedback/lesson logging
+    if kind == "reaction":
+        feedback_post = item
+    else:
+        feedback_post = {
+            "topic":           f"Reply to {item.get('tweet_author','')}",
+            "source_headline": item.get("tweet_text", "")[:100],
+            "source_url":      item.get("tweet_url", ""),
+            "x_post":          item.get("reply_text", ""),
+            "substack_note":   "",
+            "pillar":          "reply_radar",
+            "generated_at":    item.get("generated_at"),
+        }
 
-    post["status"]        = "skipped_with_reason"
-    post["skipped_at"]    = datetime.now(timezone.utc).isoformat()
-    post["feedback_text"] = text
-    post.pop("awaiting_reason_at", None)
-    _save(QUEUE_PATH, queue)
+    _log_feedback(feedback_post, "free_form", free_form_text=text)
+    _append_lesson(feedback_post, text)
+
+    item["status"]        = "skipped_with_reason"
+    item["skipped_at"]    = datetime.now(timezone.utc).isoformat()
+    item["feedback_text"] = text
+    item.pop("awaiting_reason_at", None)
+
+    if kind == "reaction":
+        _save(QUEUE_PATH, queue)
+        topic_label = item.get("topic", "")
+    else:
+        _save(REPLY_QUEUE_PATH, repq)
+        topic_label = f"reply to {item.get('tweet_author','')}"
 
     _tg("sendMessage", {
         "chat_id":    chat_id,
         "text":       (
-            f"✅ Logged feedback for <b>{_esc(post.get('topic',''))}</b>:\n\n"
+            f"✅ Logged feedback for <b>{_esc(topic_label)}</b>:\n\n"
             f"<i>{_esc(text)}</i>\n\n"
-            f"This rule is now in <code>lessons_learned.md</code> and will inform every future radar run."
+            f"This rule is now in <code>lessons_learned.md</code> and will inform every future run."
         ),
         "parse_mode": "HTML",
     })
@@ -260,31 +381,65 @@ def _process_callback(callback) -> None:
     message_id = callback["message"]["message_id"]
     data       = callback.get("data", "")
 
-    queue = _load(QUEUE_PATH, {"posts": []})
-    post  = _find_post_by_message_id(queue, message_id)
+    item, kind = _find_anywhere_by_message_id(message_id)
 
-    if not post:
-        print(f"No post found for message_id={message_id}")
+    if not item:
+        print(f"No reaction or reply found for message_id={message_id}")
         _tg("answerCallbackQuery", {
             "callback_query_id": callback["id"],
-            "text":              "Post not found in queue",
+            "text":              "Item not found in queue",
         })
         return
 
-    # Accept new format ("yes") and legacy format ("yes:abc") — message_id is the real key
-    if data == "yes" or data.startswith("yes:"):
-        _handle_yes(callback, post, queue, chat_id, message_id)
+    if kind == "reaction":
+        queue = _load(QUEUE_PATH, {"posts": []})
+        # Re-find inside this queue dict (to mutate-and-save the right object)
+        item  = _find_post_by_message_id(queue, message_id)
 
-    elif data == "skip" or data.startswith("skip:"):
-        _handle_skip(callback, post, chat_id, message_id)
+        if data == "yes" or data.startswith("yes:"):
+            _handle_yes(callback, item, queue, chat_id, message_id)
+        elif data == "skip" or data.startswith("skip:"):
+            _handle_skip(callback, item, chat_id, message_id)
+        elif data.startswith("reason:"):
+            parts  = data.split(":")
+            reason = parts[1] if len(parts) >= 2 else ""
+            _handle_reason(callback, item, queue, chat_id, message_id, reason)
 
-    elif data.startswith("reason:"):
-        # New format: "reason:xq". Legacy format: "reason:xq:cb_id"
-        parts  = data.split(":")
-        reason = parts[1] if len(parts) >= 2 else ""
-        _handle_reason(callback, post, queue, chat_id, message_id, reason)
+        _save(QUEUE_PATH, queue)
 
-    _save(QUEUE_PATH, queue)
+    elif kind == "reply":
+        repq = _load(REPLY_QUEUE_PATH, {"replies": []})
+        item = _find_reply_by_message_id(repq, message_id)
+
+        if data == "yes" or data.startswith("yes:"):
+            _handle_reply_yes(callback, item, chat_id, message_id)
+        elif data == "skip" or data.startswith("skip:"):
+            _handle_reply_skip(callback, item, chat_id, message_id)
+        elif data.startswith("reason:"):
+            parts  = data.split(":")
+            reason = parts[1] if len(parts) >= 2 else ""
+            label_map = {"topic": "Bad target", "xq": "Bad reply"}
+            _log_feedback({
+                "topic":           f"Reply to {item.get('tweet_author','')}",
+                "source_url":      item.get("tweet_url", ""),
+                "x_post":          item.get("reply_text", ""),
+                "substack_note":   "",
+                "generated_at":    item.get("generated_at"),
+            }, reason)
+            item["status"]     = f"skipped_{reason}"
+            item["skipped_at"] = datetime.now(timezone.utc).isoformat()
+            _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "Logged"})
+            _tg("editMessageText", {
+                "chat_id":    chat_id,
+                "message_id": message_id,
+                "text":       (
+                    f"❌ Skipped reply to <b>{_esc(item.get('tweet_author',''))}</b>\n\n"
+                    f"Reason: {label_map.get(reason, reason)}"
+                ),
+                "parse_mode": "HTML",
+            })
+
+        _save(REPLY_QUEUE_PATH, repq)
 
 
 def poll() -> None:

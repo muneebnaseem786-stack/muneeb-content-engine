@@ -10,6 +10,13 @@
       "generated_at": "2026-04-30T13:00:00+00:00",
       "via": "telegram",
       "free_form_text": "Don\u2019t want to report or comment on what Visa is doing since I work there and not an official spokesperson"
+    },
+    {
+      "timestamp": "2026-05-01T07:44:03Z",
+      "topic": "__GLOBAL_RULE__",
+      "reason": "free_form",
+      "free_form_text": "Replies and tweets should NEVER START with \"My take\". This phrase is overused. Other openers OK.",
+      "via": "telegram"
     }
   ]
 }
