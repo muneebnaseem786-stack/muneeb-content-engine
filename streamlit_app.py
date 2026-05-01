@@ -409,20 +409,36 @@ with sub_articles:
 
     elif stage == "ideas_awaiting_pick":
         st.markdown("#### 🗳️ Stage 1 — Pick the strongest idea")
-        st.caption("5 distinct personas have proposed an article topic. Pick one to advance to hooks.")
+        st.caption("5 personas have proposed an article topic with a one-paragraph thesis. Pick one — or regenerate the whole batch with fresh topics.")
+
+        # Regenerate-the-batch button
+        if st.button("🔄 Regenerate all 5 ideas with fresh topics", use_container_width=False, help="Triggers the idea jury to pick 5 different topics"):
+            ideas_list_now = cands.get("ideas", []) or []
+            cur_art["previous_ideas"]      = ideas_list_now
+            cur_art["candidates"]["ideas"] = []
+            cur_art["stage"]               = "regenerate_ideas"
+            cur_art["last_notified_stage"] = None
+            jury_data["current_article"]  = cur_art
+            if _save_jury_pick(jury_data):
+                st.toast("🔄 Regenerating — new ideas in ~1 hour.", icon="🔄")
+                st.rerun()
+            else:
+                st.error("Could not commit regenerate request to GitHub.")
+
+        st.markdown("")
         ideas_list = cands.get("ideas", []) or []
         for idx, idea in enumerate(ideas_list):
-            persona  = idea.get("persona", "")
-            label    = PERSONA_LABEL.get(persona, persona)
-            title    = idea.get("title", "Untitled")
-            angle    = idea.get("angle", "")
-            why_now  = idea.get("why_now", "")
-            evidence = idea.get("evidence_preview", "")
+            persona = idea.get("persona", "")
+            label   = PERSONA_LABEL.get(persona, persona)
+            title   = idea.get("title", "Untitled")
+            thesis  = idea.get("thesis", "") or idea.get("angle", "")  # back-compat
+            srcs    = idea.get("source_urls", []) or []
             with st.container(border=True):
                 st.markdown(f"**{label}**  ·  *{title}*")
-                if angle:    st.markdown(f"**Angle:** {angle}")
-                if why_now:  st.markdown(f"**Why now:** {why_now}")
-                if evidence: st.caption(f"Evidence preview: {evidence}")
+                st.markdown(thesis)
+                if srcs:
+                    src_md = "  ·  ".join(f"[src{i+1}]({u})" for i, u in enumerate(srcs[:5]))
+                    st.caption(src_md)
                 if st.button("✅ Pick this idea", key=f"pick_idea_{idx}", use_container_width=True, type="primary"):
                     cur_art["picked"]["idea_index"] = idx
                     cur_art["stage"]                = "hooks_running"
@@ -432,7 +448,7 @@ with sub_articles:
                         st.toast(f"✅ Picked: {title}", icon="✅")
                         st.rerun()
                     else:
-                        st.error("Saved locally, but GitHub commit failed. Pick may not survive redeploy.")
+                        st.error("Saved locally, but GitHub commit failed.")
 
     elif stage == "hooks_running":
         st.warning("⏳ Stage 2 running — drafting 5 hooks for your picked idea. Refresh in a few minutes.")
@@ -446,7 +462,7 @@ with sub_articles:
             st.success(f"📌 Picked idea: **{picked_idea.get('title','')}** · *{picked_idea.get('angle','')}*")
 
         st.markdown("#### 🗳️ Stage 2 — Pick the strongest hook")
-        st.caption("5 hook openings for your picked idea. Pick one and the full article runs next.")
+        st.caption("5 hook openings for your picked idea. You can edit the text before picking — the article will be written from your edited version.")
         hooks_list = cands.get("hooks", []) or []
         for idx, hook in enumerate(hooks_list):
             persona = hook.get("persona", "")
@@ -454,15 +470,21 @@ with sub_articles:
             text    = hook.get("text", "")
             with st.container(border=True):
                 st.markdown(f"**{label}**")
-                st.text_area("Hook:", text, height=180, key=f"hook_view_{idx}", label_visibility="collapsed")
-                st.caption(f"{len(text.split())} words")
+                edited = st.text_area(
+                    "Hook (edit if you want, then pick):",
+                    text,
+                    height=220,
+                    key=f"hook_edit_{idx}",
+                )
+                st.caption(f"{len(edited.split())} words")
                 if st.button("✅ Pick this hook", key=f"pick_hook_{idx}", use_container_width=True, type="primary"):
                     cur_art["picked"]["hook_index"] = idx
+                    cur_art["picked"]["hook_text"]  = edited
                     cur_art["stage"]                = "article_running"
                     cur_art["last_notified_stage"]  = None
                     jury_data["current_article"]    = cur_art
                     if _save_jury_pick(jury_data):
-                        st.toast("✅ Hook picked. Final article is being drafted.", icon="✅")
+                        st.toast("✅ Hook picked. Final article being drafted.", icon="✅")
                         st.rerun()
                     else:
                         st.error("Saved locally, but GitHub commit failed.")
