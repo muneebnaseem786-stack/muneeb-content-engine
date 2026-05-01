@@ -116,15 +116,17 @@ def _handle_yes(callback, post, queue, chat_id, message_id):
         },
     })
 
-    # Follow-up 2: Substack note in copyable code block + open link
+    # Follow-up 2: Substack note with Copy button + Open link
+    # Substack has no public "compose" URL — copy_text + open is the cleanest flow
     _tg("sendMessage", {
         "chat_id":    chat_id,
-        "text":       f"📧 <b>Substack note — tap to copy, then publish:</b>\n\n<pre>{_esc(substack_text)}</pre>",
+        "text":       f"📧 <b>Substack note:</b>\n\n<pre>{_esc(substack_text)}</pre>",
         "parse_mode": "HTML",
         "reply_markup": {
-            "inline_keyboard": [[
-                {"text": "📝 Open Substack Notes", "url": "https://substack.com/notes"}
-            ]]
+            "inline_keyboard": [
+                [{"text": "📋 Copy note",            "copy_text": {"text": substack_text}}],
+                [{"text": "📝 Open Substack Notes",  "url": "https://substack.com/notes"}],
+            ]
         },
     })
 
