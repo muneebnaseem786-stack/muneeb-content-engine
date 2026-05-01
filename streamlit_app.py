@@ -11,6 +11,7 @@ import streamlit as st
 
 GITHUB_REPO         = "muneebnaseem786-stack/muneeb-content-engine"
 FEEDBACK_REPO_PATH  = "data/feedback_log.json"
+JURY_REPO_PATH      = "data/article_jury.json"
 
 st.set_page_config(
     page_title="Content Studio",
@@ -113,6 +114,47 @@ def _commit_feedback_to_github(payload: dict) -> bool:
         return put_resp.status_code in (200, 201)
     except requests.RequestException:
         return False
+
+
+def _commit_article_jury_to_github(payload: dict) -> bool:
+    """Push article_jury.json updates (e.g. user pick) back to the repo."""
+    token = st.secrets.get("GITHUB_TOKEN", os.environ.get("GITHUB_TOKEN"))
+    if not token:
+        return False
+
+    api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{JURY_REPO_PATH}"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept":        "application/vnd.github+json",
+        "User-Agent":    "muneeb-content-engine",
+    }
+
+    try:
+        get_resp = requests.get(api_url, headers=headers, timeout=10)
+        sha      = get_resp.json().get("sha") if get_resp.status_code == 200 else None
+
+        content_b64 = base64.b64encode(json.dumps(payload, indent=2).encode("utf-8")).decode("utf-8")
+        body = {
+            "message":   "chore: article jury pick [skip ci]",
+            "content":   content_b64,
+            "committer": {"name": "Content Studio", "email": "noreply@anthropic.com"},
+        }
+        if sha:
+            body["sha"] = sha
+
+        put_resp = requests.put(api_url, headers=headers, json=body, timeout=10)
+        return put_resp.status_code in (200, 201)
+    except requests.RequestException:
+        return False
+
+
+def _save_jury_pick(jury: dict) -> bool:
+    """Persist jury state locally and to GitHub. Returns True on full success."""
+    os.makedirs("data", exist_ok=True)
+    with open("data/article_jury.json", "w") as f:
+        json.dump(jury, f, indent=2)
+    return _commit_article_jury_to_github(jury)
+
 
 ideas         = ideas_data.get("ideas", [])
 queue_posts   = queue_data.get("posts", [])
@@ -331,8 +373,109 @@ with sub_queue:
 
 with sub_articles:
     st.markdown("### Substack Articles")
-    st.caption("Long-form essays generated every 4 days. Review, copy, and paste into Substack.")
+    st.caption("Long-form essays generated every 4 days via a 3-stage jury. Pick the strongest idea, hook, and let the agent draft.")
 
+    # ── Article Jury ─────────────────────────────────────────────────────────
+    jury_data = _load_json("data/article_jury.json", {
+        "current_article": {"stage": "idle", "candidates": {"ideas": [], "hooks": [], "articles": []}, "picked": {}},
+        "history": [],
+    })
+    cur_art   = jury_data.get("current_article", {})
+    stage     = cur_art.get("stage", "idle")
+    cands     = cur_art.get("stage", "")  # placeholder
+    cands     = cur_art.get("candidates", {})
+    picked    = cur_art.get("picked", {}) or {}
+
+    PERSONA_LABEL = {
+        # Stage 1
+        "contrarian":           "🔄 Contrarian",
+        "data_density":         "📊 Data-density hunter",
+        "explainer":            "🔎 Explainer",
+        "structural":           "🧱 Structural thinker",
+        "cross_domain":         "🔀 Cross-domain",
+        # Stage 2
+        "cycle_anchor":         "🔁 Cycle-anchor",
+        "curiosity_led":        "🧭 Curiosity-led",
+        "pattern_lived":        "🪞 Pattern-already-lived",
+        "number_driven":        "🔢 Number-driven",
+        "mechanism_tease":      "🔩 Mechanism-tease",
+    }
+
+    if stage == "idle":
+        st.info("Article jury is idle. Next jury starts when the cadence allows (every 4 days). Trigger manually from the routines link in the sidebar to start now.")
+
+    elif stage == "ideas_running":
+        st.warning("⏳ Stage 1 running — generating 5 article ideas. Refresh in a few minutes.")
+
+    elif stage == "ideas_awaiting_pick":
+        st.markdown("#### 🗳️ Stage 1 — Pick the strongest idea")
+        st.caption("5 distinct personas have proposed an article topic. Pick one to advance to hooks.")
+        ideas_list = cands.get("ideas", []) or []
+        for idx, idea in enumerate(ideas_list):
+            persona  = idea.get("persona", "")
+            label    = PERSONA_LABEL.get(persona, persona)
+            title    = idea.get("title", "Untitled")
+            angle    = idea.get("angle", "")
+            why_now  = idea.get("why_now", "")
+            evidence = idea.get("evidence_preview", "")
+            with st.container(border=True):
+                st.markdown(f"**{label}**  ·  *{title}*")
+                if angle:    st.markdown(f"**Angle:** {angle}")
+                if why_now:  st.markdown(f"**Why now:** {why_now}")
+                if evidence: st.caption(f"Evidence preview: {evidence}")
+                if st.button("✅ Pick this idea", key=f"pick_idea_{idx}", use_container_width=True, type="primary"):
+                    cur_art["picked"]["idea_index"] = idx
+                    cur_art["stage"]                = "hooks_running"
+                    cur_art["last_notified_stage"]  = None
+                    jury_data["current_article"]    = cur_art
+                    if _save_jury_pick(jury_data):
+                        st.toast(f"✅ Picked: {title}", icon="✅")
+                        st.rerun()
+                    else:
+                        st.error("Saved locally, but GitHub commit failed. Pick may not survive redeploy.")
+
+    elif stage == "hooks_running":
+        st.warning("⏳ Stage 2 running — drafting 5 hooks for your picked idea. Refresh in a few minutes.")
+
+    elif stage == "hooks_awaiting_pick":
+        # Show the picked idea as context
+        idea_idx = (picked or {}).get("idea_index")
+        ideas_list = cands.get("ideas", []) or []
+        if isinstance(idea_idx, int) and 0 <= idea_idx < len(ideas_list):
+            picked_idea = ideas_list[idea_idx]
+            st.success(f"📌 Picked idea: **{picked_idea.get('title','')}** · *{picked_idea.get('angle','')}*")
+
+        st.markdown("#### 🗳️ Stage 2 — Pick the strongest hook")
+        st.caption("5 hook openings for your picked idea. Pick one and the full article runs next.")
+        hooks_list = cands.get("hooks", []) or []
+        for idx, hook in enumerate(hooks_list):
+            persona = hook.get("persona", "")
+            label   = PERSONA_LABEL.get(persona, persona)
+            text    = hook.get("text", "")
+            with st.container(border=True):
+                st.markdown(f"**{label}**")
+                st.text_area("Hook:", text, height=180, key=f"hook_view_{idx}", label_visibility="collapsed")
+                st.caption(f"{len(text.split())} words")
+                if st.button("✅ Pick this hook", key=f"pick_hook_{idx}", use_container_width=True, type="primary"):
+                    cur_art["picked"]["hook_index"] = idx
+                    cur_art["stage"]                = "article_running"
+                    cur_art["last_notified_stage"]  = None
+                    jury_data["current_article"]    = cur_art
+                    if _save_jury_pick(jury_data):
+                        st.toast("✅ Hook picked. Final article is being drafted.", icon="✅")
+                        st.rerun()
+                    else:
+                        st.error("Saved locally, but GitHub commit failed.")
+
+    elif stage == "article_running":
+        st.warning("⏳ Stage 3 running — drafting 5 full articles, the agent will self-pick the strongest. Refresh in 10–15 minutes.")
+
+    elif stage == "done":
+        st.success("✅ Final article ready! See below in the articles list.")
+
+    st.divider()
+
+    # ── Existing articles list ──────────────────────────────────────────────
     articles_data = _load_json("data/substack_articles.json", {"articles": [], "last_updated": ""})
     articles      = articles_data.get("articles", [])
 

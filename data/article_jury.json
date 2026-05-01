@@ -1,0 +1,18 @@
+{
+  "current_article": {
+    "stage": "idle",
+    "started_at": null,
+    "candidates": {
+      "ideas": [],
+      "hooks": [],
+      "articles": []
+    },
+    "picked": {
+      "idea_index": null,
+      "hook_index": null,
+      "article_index": null
+    },
+    "last_notified_stage": null
+  },
+  "history": []
+}

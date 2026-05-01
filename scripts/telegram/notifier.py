@@ -18,6 +18,7 @@ REPLY_QUEUE_PATH       = "data/reply_queue.json"
 IDEAS_PATH             = "data/content_ideas.json"
 SUBSTACK_PATH          = "data/substack_articles.json"
 LINKEDIN_PATH          = "data/linkedin_posts.json"
+ARTICLE_JURY_PATH      = "data/article_jury.json"
 DASHBOARD_URL          = "https://muneeb-content.streamlit.app"
 API                    = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
@@ -240,6 +241,46 @@ def _send_long_form_notification(kind: str, title: str, dashboard_anchor: str) -
     return None
 
 
+# ── ARTICLE JURY ─────────────────────────────────────────────────────────────
+
+JURY_STAGE_MESSAGES = {
+    "ideas_awaiting_pick": (
+        "📚 <b>Article jury</b> — 5 ideas ready.\n\n"
+        "Pick the strongest one on the dashboard. The next stage runs after you pick."
+    ),
+    "hooks_awaiting_pick": (
+        "📚 <b>Article jury</b> — 5 hooks ready for your picked idea.\n\n"
+        "Pick the strongest hook on the dashboard. The full article runs next."
+    ),
+    "done": (
+        "📚 <b>Article jury</b> — final article ready.\n\n"
+        "Review and copy from the dashboard."
+    ),
+}
+
+
+def _send_jury_stage_notification(stage: str) -> bool:
+    body = JURY_STAGE_MESSAGES.get(stage)
+    if not body:
+        return False
+    text = (
+        f"{body}\n\n<a href=\"{DASHBOARD_URL}\">{DASHBOARD_URL}</a>"
+    )
+    resp = requests.post(f"{API}/sendMessage", json={
+        "chat_id":     CHAT_ID,
+        "text":        text,
+        "parse_mode":  "HTML",
+        "disable_web_page_preview": True,
+        "reply_markup": {"inline_keyboard": [[
+            {"text": "📚 Open dashboard", "url": DASHBOARD_URL},
+        ]]},
+    }, timeout=15)
+    if resp.status_code == 200:
+        return True
+    print(f"sendMessage(jury) failed [{resp.status_code}]: {resp.text}")
+    return False
+
+
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def notify_pending() -> None:
@@ -345,9 +386,27 @@ def notify_pending() -> None:
     except FileNotFoundError:
         print(f"{LINKEDIN_PATH} not found")
 
+    # Article jury — fire on every state transition into a notify-worthy stage
+    jury_sent = 0
+    try:
+        with open(ARTICLE_JURY_PATH) as f:
+            jury = json.load(f)
+        cur   = jury.get("current_article", {})
+        stage = cur.get("stage")
+        last  = cur.get("last_notified_stage")
+        if stage in JURY_STAGE_MESSAGES and stage != last:
+            if _send_jury_stage_notification(stage):
+                cur["last_notified_stage"] = stage
+                jury["current_article"] = cur
+                with open(ARTICLE_JURY_PATH, "w") as f:
+                    json.dump(jury, f, indent=2)
+                jury_sent = 1
+    except FileNotFoundError:
+        print(f"{ARTICLE_JURY_PATH} not found")
+
     print(
         f"Sent {sent_total} reactions + {reply_sent} replies + {idea_sent} ideas + "
-        f"{article_sent} articles + {li_sent} LinkedIn posts"
+        f"{article_sent} articles + {li_sent} LinkedIn posts + {jury_sent} jury notifications"
     )
 
 
