@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T11:41:24.054641+00:00",
+  "last_updated": "2026-05-01T13:53:18.601601+00:00",
   "replies": [
     {
       "tweet_url": "https://x.com/eglyman/status/2044071117803888918",
@@ -9,7 +9,9 @@
       "reply_text": "My read: for companies running treasury across Gulf corridors, this matters beyond wire speed. Every GCC cross-border hop today requires pre-funded accounts per jurisdiction, correspondent banking fees, and 2-5 day settlement windows. The UAE-Pakistan remittance corridor alone routes roughly $18B annually through a stack built to add friction at every step.",
       "reply_angle": "extends with MENA-specific corridor data; reframes the 'no intermediary' claim as most impactful where correspondent banking chains are longest",
       "generated_at": "2026-05-01T11:41:24.054641+00:00",
-      "status": "pending"
+      "status": "pending",
+      "telegram_message_id": 100,
+      "sent_to_telegram_at": "2026-05-01T13:53:16.075402+00:00"
     },
     {
       "tweet_url": "https://x.com/NetPakistan/status/2046195084757246043",
@@ -19,7 +21,9 @@
       "reply_text": "My hypothesis: calling this 'purely administrative' undersells what capital flows have signaled for years. Pakistan receives roughly $34B in annual remittances, with over half routed through Gulf corridors. The World Bank formalized what the money already decided.",
       "reply_angle": "counters the 'administrative' framing with remittance flow data to show the reclassification trails economic reality by a decade",
       "generated_at": "2026-05-01T11:41:24.054641+00:00",
-      "status": "pending"
+      "status": "pending",
+      "telegram_message_id": 102,
+      "sent_to_telegram_at": "2026-05-01T13:53:18.601584+00:00"
     },
     {
       "tweet_url": "https://x.com/MENAUnleashed/status/2049144970649448577",
