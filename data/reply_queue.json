@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T09:45:47.557496+00:00",
+  "last_updated": "2026-05-01T10:57:34.984461+00:00",
   "replies": [
     {
       "tweet_url": "https://x.com/MENAUnleashed/status/2049144970649448577",
@@ -9,7 +9,9 @@
       "reply_text": "My read: right about the mechanism, wrong about the consequence. ADNOC's current capacity is 4.8M bpd against an OPEC ceiling of 3.4M, and that 1.4M bpd overhang is now free. The real story is whether Saudi Arabia defends price floor or market share when UAE floods supply.",
       "reply_angle": "counters 'doesn't matter' argument with production math, reframes as Saudi forced-choice story between price floor and volume",
       "generated_at": "2026-05-01T07:30:00+00:00",
-      "status": "pending"
+      "status": "pending",
+      "telegram_message_id": 47,
+      "sent_to_telegram_at": "2026-05-01T10:57:32.980192+00:00"
     },
     {
       "tweet_url": "https://x.com/JavierBlas/status/2049143936489329081",
@@ -19,7 +21,9 @@
       "reply_text": "My read: the production case was always there, 4.8M capacity vs 3.4M quota for years. The Iran war didn't create the motive, it removed the diplomatic cost of acting on it. OPEC members do not attack each other's refineries in peacetime.",
       "reply_angle": "extends Blas's production argument while adding the diplomatic-cost mechanism explaining why the war was catalytic, not coincidental",
       "generated_at": "2026-05-01T07:30:00+00:00",
-      "status": "pending"
+      "status": "pending",
+      "telegram_message_id": 49,
+      "sent_to_telegram_at": "2026-05-01T10:57:34.984434+00:00"
     }
   ]
 }

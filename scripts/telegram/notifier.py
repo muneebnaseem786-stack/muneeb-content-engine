@@ -115,40 +115,61 @@ def _send_reply(reply: dict) -> int | None:
 # ── DAILY IDEAS (new) ────────────────────────────────────────────────────────
 
 def _send_idea(idea: dict) -> int | None:
-    """Send a Daily Idea as a card with format-drill-down buttons."""
+    """Send a Daily Idea card. The X post button is a direct URL — one tap opens
+    X composer with the text pre-loaded, no server round-trip. Same pattern as
+    the F&R distribution bot.
+    """
+    import urllib.parse
+
     title    = idea.get("title", "")
     angle    = idea.get("angle", "")
     urgency  = idea.get("urgency", "timely")
     pillar   = idea.get("pillar", "")
 
     icon = {"breaking": "🔴", "timely": "🟡", "evergreen": "🟢"}.get(urgency, "🟡")
-    text = (
-        f"💡 <b>Daily Idea</b> {icon}\n\n"
-        f"<b>{_esc(title)}</b>\n\n"
-        f"<i>Angle:</i> {_esc(angle)}\n"
-        f"<i>Pillar:</i> {_esc(pillar)}  ·  <i>Urgency:</i> {_esc(urgency)}\n\n"
-        f"Tap a format below to view + publish."
-    )
 
-    pack = idea.get("content_pack", {})
-    has_x      = bool(pack.get("x_longform"))
-    has_thread = bool(pack.get("x_thread"))
+    pack       = idea.get("content_pack", {})
+    x_text     = pack.get("x_longform", "")
+    thread     = pack.get("x_thread", []) or []
+    has_x      = bool(x_text)
+    has_thread = bool(thread)
     has_sub    = bool(pack.get("substack_draft"))
 
-    row1 = []
-    if has_x:      row1.append({"text": "🐦 X post",      "callback_data": "idea_x"})
-    if has_thread: row1.append({"text": "🧵 X thread",    "callback_data": "idea_thread"})
-    row2 = []
-    if has_sub:    row2.append({"text": "📧 Substack draft", "callback_data": "idea_substack"})
-    row2.append({"text": "❌ Skip", "callback_data": "skip"})
+    # Build the card body — show the X text inline so user can review before tapping
+    body_parts = [
+        f"💡 <b>Daily Idea</b> {icon}",
+        "",
+        f"<b>{_esc(title)}</b>",
+        "",
+        f"<i>Angle:</i> {_esc(angle)}",
+        f"<i>Pillar:</i> {_esc(pillar)}  ·  <i>Urgency:</i> {_esc(urgency)}",
+    ]
+    if has_x:
+        body_parts += ["", "<b>🐦 X post:</b>", f"<pre>{_esc(x_text)}</pre>"]
+    if has_thread:
+        body_parts += ["", f"<b>🧵 Thread ({len(thread)} tweets) — tap below to start.</b>"]
+    text = "\n".join(body_parts)
 
-    keyboard = {"inline_keyboard": [r for r in [row1, row2] if r]}
+    # Direct URL buttons — instant, no callback hop
+    rows = []
+    if has_x:
+        intent_url = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(x_text)}"
+        rows.append([{"text": "🚀 Post on X", "url": intent_url}])
+    if has_thread:
+        first_intent = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(thread[0])}"
+        rows.append([{"text": "🧵 Post first thread tweet", "url": first_intent}])
+    if has_sub:
+        rows.append([{"text": "📧 Open Substack draft", "url": DASHBOARD_URL}])
+    rows.append([{"text": "❌ Skip", "callback_data": "skip"}])
+
+    keyboard = {"inline_keyboard": rows}
 
     resp = requests.post(f"{API}/sendMessage", json={
         "chat_id":     CHAT_ID,
         "text":        text,
         "parse_mode":  "HTML",
         "reply_markup": keyboard,
+        "disable_web_page_preview": True,
     }, timeout=15)
     if resp.status_code == 200:
         return resp.json()["result"]["message_id"]
