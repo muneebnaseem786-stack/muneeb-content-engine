@@ -3,3 +3,5 @@ __pycache__/
 .venv/
 .env
 .DS_Store
+scripts/telegram/.wrangler/
+scripts/telegram/node_modules/
