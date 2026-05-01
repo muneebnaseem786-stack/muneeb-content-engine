@@ -129,7 +129,13 @@ st.divider()
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 
-sub_ideas, sub_queue, sub_perf = st.tabs(["💡 Ideas", "⚡ Reaction Queue", "📈 Performance"])
+sub_ideas, sub_queue, sub_articles, sub_linkedin, sub_perf = st.tabs([
+    "💡 Ideas",
+    "⚡ Reaction Queue",
+    "📚 Substack Articles",
+    "💼 LinkedIn Posts",
+    "📈 Performance",
+])
 
 # ══════════════════════════════════════════════════════════════════════════════
 # IDEAS (Form 1)
@@ -318,6 +324,68 @@ with sub_queue:
                 "Topic skips = the radar is reading your interests wrong. "
                 "Quality skips = the radar's writing needs better prompting."
             )
+
+# ══════════════════════════════════════════════════════════════════════════════
+# SUBSTACK ARTICLES
+# ══════════════════════════════════════════════════════════════════════════════
+
+with sub_articles:
+    st.markdown("### Substack Articles")
+    st.caption("Long-form essays generated every 4 days. Review, copy, and paste into Substack.")
+
+    articles_data = _load_json("data/substack_articles.json", {"articles": [], "last_updated": ""})
+    articles      = articles_data.get("articles", [])
+
+    if not articles:
+        st.info("No articles yet. The Substack Article agent runs every 4 days at 8am UAE.")
+    else:
+        st.caption(f"Last updated: {articles_data.get('last_updated','')[:16].replace('T',' ')} UTC · {len(articles)} articles")
+
+    for i, art in enumerate(articles):
+        title    = art.get("title", "Untitled")
+        subtitle = art.get("subtitle", "")
+        body     = art.get("body", "")
+        wc       = art.get("word_count", len(body.split()))
+        gen_at   = art.get("generated_at", "")[:10]
+        pillar   = art.get("pillar", "")
+
+        with st.expander(f"📚 {title}  ·  {gen_at}  ·  {wc} words", expanded=(i == 0)):
+            st.markdown(f"**Subtitle:** {subtitle}")
+            st.markdown(f"**Pillar:** `{pillar}`")
+            st.text_area("Full essay (copy):", body, height=500, key=f"art_{i}")
+            st.caption(f"{wc} words · paste into Substack and publish")
+
+# ══════════════════════════════════════════════════════════════════════════════
+# LINKEDIN POSTS
+# ══════════════════════════════════════════════════════════════════════════════
+
+with sub_linkedin:
+    st.markdown("### LinkedIn Posts")
+    st.caption("Generated every 4 days, plus paired cross-posts with every 3rd Substack article.")
+
+    li_data  = _load_json("data/linkedin_posts.json", {"posts": [], "last_updated": ""})
+    li_posts = li_data.get("posts", [])
+
+    if not li_posts:
+        st.info("No LinkedIn posts yet. The LinkedIn Post agent runs every 4 days.")
+    else:
+        st.caption(f"Last updated: {li_data.get('last_updated','')[:16].replace('T',' ')} UTC · {len(li_posts)} posts")
+
+    for i, lp in enumerate(li_posts):
+        title       = lp.get("title", "Untitled")
+        body        = lp.get("body", "")
+        gen_at      = lp.get("generated_at", "")[:10]
+        pillar      = lp.get("pillar", "")
+        is_crosspost = lp.get("cross_post", False)
+        paired      = lp.get("paired_substack_article", "")
+
+        badge = "🔗 Cross-post" if is_crosspost else "✨ Original"
+        with st.expander(f"💼 {title}  ·  {gen_at}  ·  {badge}", expanded=(i == 0)):
+            st.markdown(f"**Pillar:** `{pillar}`")
+            if paired:
+                st.caption(f"Paired with Substack article: *{paired}*")
+            st.text_area("LinkedIn post (copy):", body, height=300, key=f"li_{i}")
+            st.link_button("💼 Open LinkedIn", "https://www.linkedin.com/feed/", use_container_width=False)
 
 # ══════════════════════════════════════════════════════════════════════════════
 # PERFORMANCE
