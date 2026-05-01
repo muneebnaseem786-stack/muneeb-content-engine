@@ -1,10 +1,8 @@
-name: Telegram Poller
+name: Telegram Webhook
 
 on:
-  schedule:
-    # Hourly safety net during UAE waking hours (6am-midnight = 2am-8pm UTC).
-    # Webhook (telegram_webhook.yml) handles instant delivery; this catches anything missed.
-    - cron: '0 2-19 * * *'
+  repository_dispatch:
+    types: [telegram_update]
   workflow_dispatch:
 
 concurrency:
@@ -41,7 +39,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "chore: telegram poller [skip ci]"
-          # Pull with autostash in case remote moved while we were running
+          git commit -m "chore: telegram webhook [skip ci]"
           git pull --rebase --autostash || true
           git push

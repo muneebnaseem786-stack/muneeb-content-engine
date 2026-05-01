@@ -287,19 +287,20 @@ def _handle_idea_x(callback, idea, chat_id, message_id):
 
     intent_url = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(x_text)}"
     _tg("answerCallbackQuery", {"callback_query_id": callback["id"], "text": "🐦 X post"})
+    # Telegram copy_text button has a 256-char limit. Long-form X posts exceed that,
+    # so omit the copy button when over the limit — the <pre> block is tap-to-copy on mobile.
+    row = [{"text": "🚀 Post on X", "url": intent_url}]
+    if len(x_text) <= 256:
+        row.append({"text": "📋 Copy", "copy_text": {"text": x_text}})
     _tg("sendMessage", {
         "chat_id":    chat_id,
         "text":       (
             f"🐦 <b>X long-form</b> for: <i>{_esc(idea.get('title',''))}</i>\n\n"
-            f"<pre>{_esc(x_text)}</pre>"
+            f"<pre>{_esc(x_text)}</pre>\n\n"
+            f"<i>Tip: long-press the text above to copy.</i>"
         ),
         "parse_mode": "HTML",
-        "reply_markup": {
-            "inline_keyboard": [[
-                {"text": "🚀 Post on X", "url": intent_url},
-                {"text": "📋 Copy",      "copy_text": {"text": x_text}},
-            ]]
-        },
+        "reply_markup": {"inline_keyboard": [row]},
     })
 
 
@@ -317,31 +318,32 @@ def _handle_idea_thread(callback, idea, chat_id, message_id):
     # First tweet — gets the publish button (intent URL)
     first = thread[0]
     intent_url = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(first)}"
+    row = [{"text": "🚀 Post first tweet", "url": intent_url}]
+    if len(first) <= 256:
+        row.append({"text": "📋 Copy", "copy_text": {"text": first}})
     _tg("sendMessage", {
         "chat_id":    chat_id,
         "text":       f"🧵 <b>Thread for</b>: <i>{_esc(idea.get('title',''))}</i>\n\n"
                        f"<b>Tweet 1/{len(thread)}:</b>\n<pre>{_esc(first)}</pre>",
         "parse_mode": "HTML",
-        "reply_markup": {
-            "inline_keyboard": [[
-                {"text": "🚀 Post first tweet", "url": intent_url},
-                {"text": "📋 Copy",             "copy_text": {"text": first}},
-            ]]
-        },
+        "reply_markup": {"inline_keyboard": [row]},
     })
 
     # Remaining tweets — just copy buttons (user replies to their previous tweet manually)
     for i, tweet in enumerate(thread[1:], start=2):
-        _tg("sendMessage", {
+        markup = None
+        if len(tweet) <= 256:
+            markup = {"inline_keyboard": [[
+                {"text": "📋 Copy", "copy_text": {"text": tweet}},
+            ]]}
+        body = {
             "chat_id":    chat_id,
             "text":       f"<b>Tweet {i}/{len(thread)}:</b>\n<pre>{_esc(tweet)}</pre>",
             "parse_mode": "HTML",
-            "reply_markup": {
-                "inline_keyboard": [[
-                    {"text": "📋 Copy", "copy_text": {"text": tweet}},
-                ]]
-            },
-        })
+        }
+        if markup:
+            body["reply_markup"] = markup
+        _tg("sendMessage", body)
 
 
 def _handle_idea_substack(callback, idea, chat_id, message_id):
