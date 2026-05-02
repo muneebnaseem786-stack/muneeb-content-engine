@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T02:17:18.610673+00:00",
+  "last_updated": "2026-05-02T08:12:07.932868+00:00",
   "posts": [
     {
       "topic": "GENIUS Act yield ban draws Consensys objection",
@@ -8,7 +8,9 @@
       "x_post": "The GENIUS Act bans stablecoin issuers from paying a single basis point of yield. Consensys filed formal objections today, calling the rule too broad. My read: this was not an oversight. Banks spent two years lobbying for that line, and the $273B stablecoin market will grow exactly as they intended: as payment rails, not savings products.",
       "substack_note": "My read: the most important clause in the GENIUS Act has nothing to do with reserves or redemption windows.\n\nThe FDIC's implementation framework looks sensible on the surface: 1:1 reserve backing, a 40% concentration cap at any single institution, two-day redemption for holders. Clean, conservative rules for a $273B market.\n\nBut buried inside is the yield ban: stablecoin issuers cannot pay interest to holders. No basis points. No yield-sharing. Stablecoins are legally permitted as payment rails. They are not permitted to compete with bank deposits.\n\nConsensys filed formal objections today, arguing the restriction is too broad and will inhibit DeFi participation and multi-brand models. I think they're right. I also think they'll lose.\n\nThis line was not drawn by accident. What changes when regulators revisit it?",
       "generated_at": "2026-05-02T02:17:18.610673+00:00",
-      "status": "pending"
+      "status": "pending",
+      "telegram_message_id": 108,
+      "sent_to_telegram_at": "2026-05-02T08:12:07.932820+00:00"
     },
     {
       "topic": "Pakistan brokers ceasefire as War Powers deadline hits",

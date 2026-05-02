@@ -22,7 +22,10 @@
           "The classification 'South Asia's problem country' just ended. What replaces it is not determined yet. But the playbook has changed."
         ],
         "substack_draft": "My read: the World Bank reclassifying Pakistan from South Asia to MENA feels, on the surface, like a filing cabinet reorganization. But I've been watching how institutional frameworks shape on-the-ground outcomes long enough to know that vice presidencies matter. When Pakistan moves into MENAAP, the $40 billion World Bank program running through 2035 moves with it. Country directors change. Regional trust funds change. The comparison economies Pakistan gets benchmarked against shift from India and Bangladesh to Egypt, Jordan, and Morocco.\n\nThat last part may be the most consequential. South Asia's development playbook centers on poverty reduction and incremental trade integration. The MENA playbook is built around state-led capital deployment, sovereign wealth vehicles, and economic diversification. These are not the same manual. Pakistan's policymakers are now handed the second one.\n\nThe remittance flows were already pointing this direction. More than half of Pakistan's $38.3 billion in FY2025 remittances originated from GCC states. The economic center of gravity has been Middle Eastern for years before this reclassification.\n\nWhether this produces better outcomes for ordinary Pakistanis, or just shifts which elites get which phone calls from Washington, is genuinely unclear to me. What is not unclear: the frameworks have changed, and frameworks shape what gets built."
-      }
+      },
+      "telegram_message_id": 109,
+      "sent_to_telegram_at": "2026-05-02T08:12:09.460224+00:00",
+      "status": "pending"
     },
     {
       "title": "The Seat Model Didn't Die Because AI Is Good. It Died Because Customers Are.",
@@ -44,7 +47,10 @@
           "My honest takeaway: the question is not whether SaaS survives AI. It is whether the pricing architecture survives. The product may be fine. The business model is the problem."
         ],
         "substack_draft": "Something about the SaaS collapse in 2026 keeps getting misframed. The popular story is that AI is replacing software products. The accurate story is that AI is replacing the humans using them.\n\nAtlassian's first-ever enterprise seat count decline this year is the clearest example I've seen. Nobody switched away from Jira. The teams using Jira just got smaller, because AI agents absorbed the tasks those seats were paying for. Revenue fell as if they'd lost the customer. The customer never left.\n\nI find this distinction important because it changes what survives. The tools that win aren't necessarily the ones that build the best AI features. They're the ones that invent a pricing model that doesn't depend on headcount. Software forward P/E multiples have fallen from an average of 84.1x in 2020-22 to 22.7x today, below the S&P 500 for the first time in history. The market isn't just pricing in AI risk. It's repricing the business model itself.\n\nThe real question I keep returning to: what does an enterprise software company look like when the unit of production is no longer a person? Salesforce's per-conversation Agentforce pricing is the most visible experiment. Whether outcome-based models can sustain the margins that made SaaS the best business in technology history is genuinely unclear to me."
-      }
+      },
+      "telegram_message_id": 112,
+      "sent_to_telegram_at": "2026-05-02T08:12:10.997201+00:00",
+      "status": "pending"
     },
     {
       "title": "Stablecoins Just Went Mainstream. Nobody Holding Crypto Required.",
@@ -65,7 +71,11 @@
           "My read: the stablecoin era arrived the same way the internet arrived in banking. Not through a consumer app but through back-end infrastructure that made consumer apps possible."
         ],
         "substack_draft": "My take: the dominant stablecoin narrative is about consumers \u2014 how many wallets exist, who holds USDC, whether normies are using crypto. I think the actual inflection just happened on the other side of that transaction.\n\nCircle launched CPN Managed Payments earlier this month. Banks and PSPs now access stablecoin-speed settlement without ever holding a digital asset. Circle manages the full stack \u2014 minting, burning, compliance, blockchain routing \u2014 while the counterparty works entirely in fiat. The stablecoin rails are invisible to the end user and, increasingly, to the institution using them.\n\nUSDC has now supported $70 trillion in cumulative onchain settlement. Onchain volume was $12 trillion in Q4 2025 alone. The early partners \u2014 Thunes and Worldline \u2014 are not crypto-native. Thunes covers emerging market payment corridors. Worldline handles European banking. These are the people running SWIFT and SEPA today.\n\nThis is what infrastructure-layer adoption looks like. The same way most people sent email without knowing what TCP/IP was, most people will receive payments settled on stablecoin rails without ever holding a token. Whether the abstraction layer stays with Circle or gets commoditized by the rails themselves is the question I don't have an answer to yet."
-      }
+      },
+      "telegram_message_id": 115,
+      "sent_to_telegram_at": "2026-05-02T08:12:12.542594+00:00",
+      "status": "pending"
     }
-  ]
+  ],
+  "last_updated": "2026-05-02T08:12:12.542606+00:00"
 }
