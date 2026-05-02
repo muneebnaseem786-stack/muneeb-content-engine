@@ -162,7 +162,7 @@ def _send_idea(idea: dict) -> int | None:
     if has_thread:
         first_intent = f"https://twitter.com/intent/tweet?text={urllib.parse.quote(thread[0])}"
         rows.append([{"text": "🧵 Post first thread tweet", "url": first_intent}])
-    rows.append([{"text": "❌ Skip", "callback_data": "skip"}])
+    # No Skip callback button. Reply to this message with feedback text to skip + train.
 
     resp = requests.post(f"{API}/sendMessage", json={
         "chat_id":     CHAT_ID,
