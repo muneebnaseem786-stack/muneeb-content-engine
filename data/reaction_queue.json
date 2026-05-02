@@ -1,6 +1,15 @@
 {
-  "last_updated": "2026-05-02T11:11:34.499619+00:00",
+  "last_updated": "2026-05-02T12:33:42.735104+00:00",
   "posts": [
+    {
+      "topic": "UAE bans WhatsApp for all regulated financial services",
+      "source_headline": "UAE Central Bank bans WhatsApp, Messaging Apps for Banks and Financial Customer Communications Over Security Risks",
+      "source_url": "https://gulfnews.com/business/banking/uae-central-bank-bans-whatsapp-messaging-apps-in-financial-customer-communications-1.500522809",
+      "x_post": "The UAE Central Bank just banned WhatsApp for banking. From May 1, every licensed financial institution in the country, including banks, insurers, and exchange houses, is prohibited from using instant messaging apps for customer transactions, OTPs, or data sharing. Fraud and data residency are cited. My read: the region's most progressive fintech regulator just drew a hard line between consumer-grade apps and regulated financial infrastructure, and that line was overdue.",
+      "substack_note": "My take: the UAE's WhatsApp banking ban reveals a structural tension Gulf fintech has been postponing.\n\nFrom May 1, the Central Bank of UAE has banned all licensed financial institutions\u2014banks, insurers, exchange houses\u2014from using WhatsApp or any instant messaging platform for customer communication. No transactions. No OTPs. No data sharing. The directive cites rising fraud, impersonation attacks, and data residency concerns: WhatsApp routes data outside UAE borders.\n\nThe paradox is real. The same jurisdiction that built VARA, approved the UAE's first regulated stablecoin, and attracted every global crypto firm is now drawing a hard line between consumer apps and regulated financial rails. I\u2019ve watched UAE fintech earn its progressive reputation over years\u2014this isn\u2019t a retreat. It\u2019s a signal that informal channels have exhausted their regulatory runway.\n\nHow many exchange houses built their entire customer relationship on WhatsApp?",
+      "generated_at": "2026-05-02T10:00:00+00:00",
+      "status": "pending"
+    },
     {
       "topic": "UAE declares Iran untrustworthy over Hormuz strait",
       "source_headline": "UAE Says Iran Cannot Be Trusted Over Hormuz, Peace Efforts at an Impasse",
