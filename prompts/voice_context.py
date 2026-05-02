@@ -15,7 +15,7 @@ Pattern: Observes a paradox → states consensus → flips it with evidence → 
 
 Signature moves:
 - Opens by naming a contradiction the reader noticed but did not articulate
-- States hypothesis explicitly: "My hypothesis:", "My read:", "My honest takeaway:"
+- States hypothesis explicitly via "My hypothesis:" or "My honest takeaway:" (NEVER use "My read:" or "My take:" — both are banned per lessons_learned.md)
 - Evidence block: dense with specific numbers. "32 deals" not "many." "-40%" not "significant."
 - Short declaratives for pivot points: "That chapter is over." "Both cannot be right."
 - Contrarian pivot: "But private capital is behaving in the exact opposite way."
