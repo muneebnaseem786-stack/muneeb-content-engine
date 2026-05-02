@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-02T15:07:56.853166+00:00",
+  "last_updated": "2026-05-02T18:12:35.772210+00:00",
   "posts": [
+    {
+      "topic": "a16z: stablecoin label becoming obsolete infrastructure",
+      "source_headline": "Why 'stablecoins' won't age well",
+      "source_url": "https://a16zcrypto.com/posts/article/why-stablecoins-wont-age-well",
+      "x_post": "a16z argues 'stablecoin' is a label that served its era. Stability is now the floor, not the defining feature. My read: the categorization battle ahead is regulatory. The moment these are licensed as payment infrastructure rather than crypto assets, Stripe, Western Union, and Mastercard hold different competitive positions than Circle and Tether.",
+      "substack_note": "My read: a16z published a clean framing this week \u2014 the term 'stablecoin' will not age well, the same way 'horsepower' gave way once steam engines became ubiquitous. The original problem was stability. In 2026, that's the floor, not the selling point.\n\nI've been watching this shift coming. USDC and USDPT are not 'stable' assets \u2014 they are programmable settlement rails that happen to be stable. Western Union is targeting May for its USDPT launch specifically to replace SWIFT settlement, not to launch a crypto product.\n\nThe label change matters most for regulation and competition. How regulators categorize these \u2014 'crypto asset' versus 'payment infrastructure' \u2014 changes the licensing requirements, acceptable risk framework, and who qualifies to issue them. That reclassification is the quiet fight of 2026, and I don't think it's priced in yet. Which category wins, and who decides?",
+      "generated_at": "2026-05-02T18:12:35.772210+00:00",
+      "status": "pending"
+    },
+    {
+      "topic": "Pakistan mediates Iran-US talks; Trump rejects new proposal",
+      "source_headline": "Iran offers new proposal amid stalled US peace talks",
+      "source_url": "https://kashmirreader.com/2026/05/02/iran-offers-new-proposal-amid-stalled-us-peace-talks/",
+      "x_post": "Iran handed its second peace proposal to US mediators through Pakistan on May 1. Trump called it insufficient. Oil prices dipped. My read: the Strait of Hormuz bottleneck and the peace table both run through Islamabad now, and nobody priced in Pakistan holding that position 18 months ago.",
+      "substack_note": "My read: the fact that Iran is submitting peace proposals through Islamabad \u2014 not Geneva, not Doha, not Beijing \u2014 is the geopolitical story I keep coming back to.\n\nIran delivered its second formal proposal to Pakistani mediators on May 1. Trump said he was not satisfied. The Strait of Hormuz remains closed, with Gulf shipping routes still disrupted. MENA startup funding in March collapsed to $48.3 million \u2014 an 85% drop month-on-month \u2014 as investors repriced risk across the region.\n\nI've been watching Pakistan's diplomatic capital compound since the 2025 India ceasefire freed up its political bandwidth. That pivot was underappreciated. Islamabad is now central to three interdependent outcomes: a US-Iran deal, Hormuz reopening, and Gulf investor confidence recovering.\n\nThe open question: can Pakistan convert this mediator role into durable economic positioning, or does the leverage disappear once a deal is struck?",
+      "generated_at": "2026-05-02T18:12:35.772210+00:00",
+      "status": "pending"
+    },
     {
       "topic": "UAE demands $3.45B back from Pakistan after Iran mediation",
       "source_headline": "UAE pulls US$3.5 billion from Pakistan after Iran war mediation",
