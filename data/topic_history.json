@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-02T22:51:11.157134+00:00",
+  "last_updated": "2026-05-03T20:37:24.257147+00:00",
   "topics": [
+    {
+      "topic": "The Internet Just Got Its First Non-Human Customers",
+      "source_url": "https://blog.cloudflare.com/agents-stripe-projects/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-03T20:37:24.257147+00:00"
+    },
+    {
+      "topic": "The $5 Trillion AI Chip Trade Has One Single-Point-of-Failure",
+      "source_url": "https://siliconangle.com/2026/04/28/chip-stocks-drop-report-openai-missed-chatgpt-growth-targets/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-03T20:37:24.257147+00:00"
+    },
+    {
+      "topic": "Capital Discipline Is an AI Strategy",
+      "source_url": "https://sherwood.news/tech/apple-is-the-only-big-tech-company-whose-capex-declined-last-quarter/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-03T20:37:24.257147+00:00"
+    },
     {
       "topic": "Pakistan's Most Productive Economic Unit Is Not a Factory. It's a Worker in Dubai.",
       "source_url": "https://www.techjuice.pk/pakistans-remittances-to-hit-record-41-billion-in-2026/amp/",
