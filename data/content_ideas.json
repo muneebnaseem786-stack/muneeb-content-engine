@@ -24,7 +24,10 @@
           "The Pentagon blacklist is the most unexpected enterprise sales credential in the AI industry right now."
         ],
         "substack_draft": "The supply chain risk designation has been applied to Huawei, DJI, and ZTE. Until this week, never to an American company. That designation is doing all the work in this story.\n\nAnthropic refused to let Claude be used for autonomous weapons and mass domestic surveillance. The Pentagon demanded terms covering 'all lawful purposes.' Anthropic said no. A federal judge later wrote that the government's response appeared 'designed to punish Anthropic' for publicly criticizing the contracting terms. The seven other companies took the contracts.\n\nThe coverage framed this as Anthropic losing. That might be right for government contracts. I keep thinking about the other purchase decision, the one that happens in a European bank's compliance committee or a MENA wealth fund's AI vendor review. The first question in those rooms is always about guardrails and accountability. Anthropic now has a publicly documented, court-tested record of enforcing those guardrails under legal pressure from the US government.\n\nWhether that translates into enterprise wins depends on whether compliance officers read court filings, which most do not. I am genuinely unsure whether the brand signal reaches the buyers who would value it most."
-      }
+      },
+      "telegram_message_id": 155,
+      "sent_to_telegram_at": "2026-05-04T10:27:15.019699+00:00",
+      "status": "pending"
     },
     {
       "title": "Google Cloud Is Turning Away Revenue. That Ends the AI Demand Debate.",
@@ -72,7 +75,11 @@
           "A $1 trillion valuation prices OpenAI as the default AI layer of the internet. Defaults live in distribution. That's exactly the ground OpenAI doesn't control."
         ],
         "substack_draft": "Most people treat OpenAI's loss story as a growth story. The more I read about it, the more I think it is a timing story.\n\nOpenAI missed multiple internal revenue targets this quarter, per CNBC's reporting. The company projects $14 billion in losses in 2026 on $25 billion in revenue. Every piece of coverage reaches for the Amazon parallel: Amazon lost money for seven years and won. But Amazon was supply-constrained, building physical fulfillment infrastructure that competitors could not easily replicate. OpenAI is losing money to fund compute and model weights, neither of which has a meaningful replication barrier anymore.\n\nThe real constraint is distribution. ChatGPT is the world's most-used consumer AI product. That is a real asset. But Microsoft is putting Copilot in every Office document. Google is putting Gemini in every Android keyboard. Meta is putting AI assistants in every WhatsApp chat. OpenAI's consumer moat depends on users opening a separate tab on purpose.\n\nPitchBook called this 'The IPO That Cannot Afford to Wait.' I think they are right, though I am not sure the window is as long as even the bears assume."
-      }
+      },
+      "telegram_message_id": 158,
+      "sent_to_telegram_at": "2026-05-04T10:27:16.330912+00:00",
+      "status": "pending"
     }
-  ]
+  ],
+  "last_updated": "2026-05-04T10:27:16.330927+00:00"
 }
