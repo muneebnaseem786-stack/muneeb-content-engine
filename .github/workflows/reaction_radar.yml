@@ -1,0 +1,54 @@
+name: Reaction Radar
+
+on:
+  schedule:
+    # 8am UAE / 1pm UAE / 8pm UAE (UTC+4) = 4am / 9am / 4pm UTC
+    - cron: '0 4,9,16 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (fetch + dedup only, no LLM/Telegram)'
+        required: false
+        default: 'false'
+
+jobs:
+  reaction-radar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Reaction Radar
+        env:
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python -m scripts.content.reaction_radar --dry-run
+          else
+            python -m scripts.content.reaction_radar
+          fi
+
+      - name: Commit queue + lessons updates
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/reaction_queue.json data/lessons_learned.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: reaction radar [skip ci]"
+          git pull --rebase --autostash || true
+          git push

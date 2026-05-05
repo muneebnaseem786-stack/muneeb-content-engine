@@ -1,0 +1,88 @@
+{
+  "_comment": "Reaction Radar source list. Edit freely — handles must match X usernames exactly (no @, case-sensitive only where it matters for the URL).",
+  "_last_updated": "2026-05-05",
+
+  "x_accounts": [
+    {"handle": "aakashgupta",       "tier": 1, "note": "primary reference — sharp PM-style reactions"},
+    {"handle": "packym",            "tier": 1, "note": "Packy McCormick, Not Boring"},
+    {"handle": "awilkinson",        "tier": 1, "note": "Andrew Wilkinson, Tiny"},
+    {"handle": "patrick_oshag",     "tier": 1, "note": "Patrick O'Shaughnessy"},
+    {"handle": "naval",             "tier": 1, "note": "Naval Ravikant"},
+    {"handle": "balajis",           "tier": 1, "note": "Balaji Srinivasan"},
+    {"handle": "paulg",             "tier": 1, "note": "Paul Graham"},
+    {"handle": "sama",              "tier": 1, "note": "Sam Altman"},
+    {"handle": "jasonlk",           "tier": 1, "note": "Jason Lemkin"},
+    {"handle": "jposhaughnessy",    "tier": 1, "note": "Jim O'Shaughnessy"},
+    {"handle": "ShaanVP",           "tier": 1, "note": "Shaan Puri, My First Million"},
+    {"handle": "garrytan",          "tier": 1, "note": "Garry Tan, YC"},
+    {"handle": "pmarca",            "tier": 1, "note": "Marc Andreessen"},
+
+    {"handle": "marcrubinstein",    "tier": 2, "note": "Net Interest"},
+    {"handle": "M_C_Klein",         "tier": 2, "note": "Matt Klein, The Overshoot"},
+    {"handle": "byrnehobart",       "tier": 2, "note": "The Diff"},
+    {"handle": "cdixon",            "tier": 2, "note": "Chris Dixon, a16z"},
+    {"handle": "bgurley",           "tier": 2, "note": "Bill Gurley"},
+    {"handle": "TheStalwart",       "tier": 2, "note": "Joe Weisenthal, Bloomberg"},
+    {"handle": "tracyalloway",      "tier": 2, "note": "Tracy Alloway, Bloomberg Odd Lots"},
+    {"handle": "dampedspring",      "tier": 2, "note": "Andy Constan, Damped Spring"},
+    {"handle": "lisaabramowicz1",   "tier": 2, "note": "Lisa Abramowicz, Bloomberg"},
+    {"handle": "EricNewcomer",      "tier": 2, "note": "VC newsletter"},
+    {"handle": "morganhousel",      "tier": 2, "note": "Morgan Housel"},
+    {"handle": "matt_levine",       "tier": 2, "note": "Matt Levine, Bloomberg Money Stuff"},
+
+    {"handle": "epolynya",          "tier": 3, "note": "Polynya, crypto/L2"},
+    {"handle": "jchervinsky",       "tier": 3, "note": "Jake Chervinsky, regulatory"},
+    {"handle": "nlw",               "tier": 3, "note": "Nathaniel Whittemore, Breakdown"},
+    {"handle": "VitalikButerin",    "tier": 3, "note": "Vitalik"},
+    {"handle": "iampaulgrewal",     "tier": 3, "note": "Paul Grewal, Coinbase legal"},
+
+    {"handle": "FrankKaneDubai",    "tier": 4, "note": "Gulf business journalist"},
+    {"handle": "WBasha",            "tier": 4, "note": "Wamda founder"},
+    {"handle": "robinbrooksiif",    "tier": 4, "note": "Robin Brooks, IIF"},
+    {"handle": "OmarAlUbaydli",     "tier": 4, "note": "Bahrain economist"},
+    {"handle": "TimAshUKR",         "tier": 4, "note": "EM macro"},
+
+    {"handle": "stratechery",       "tier": 5, "note": "Ben Thompson"},
+    {"handle": "benedictevans",     "tier": 5, "note": "Ben Evans"},
+    {"handle": "karpathy",          "tier": 5, "note": "Andrej Karpathy"},
+    {"handle": "miramurati",        "tier": 5, "note": "Mira Murati"},
+    {"handle": "sundarpichai",      "tier": 5, "note": "Sundar Pichai"},
+    {"handle": "rauchg",            "tier": 5, "note": "Guillermo Rauch, Vercel"},
+    {"handle": "natfriedman",       "tier": 5, "note": "Nat Friedman"},
+    {"handle": "patrickc",          "tier": 5, "note": "Patrick Collison, Stripe"},
+    {"handle": "collision",         "tier": 5, "note": "John Collison, Stripe"},
+    {"handle": "elonmusk",          "tier": 5, "note": "Elon"},
+    {"handle": "ben_horowitz",      "tier": 5, "note": "Ben Horowitz"},
+    {"handle": "TylerCowen",        "tier": 5, "note": "Marginal Revolution"},
+    {"handle": "noahpinion",        "tier": 5, "note": "Noah Smith"},
+    {"handle": "profgalloway",      "tier": 5, "note": "Scott Galloway"}
+  ],
+
+  "rss_news": [
+    {"name": "FT Alphaville",       "url": "https://www.ft.com/alphaville?format=rss",                  "weight": 1.0},
+    {"name": "Bloomberg Markets",   "url": "https://feeds.bloomberg.com/markets/news.rss",             "weight": 1.0},
+    {"name": "Stratechery",         "url": "https://stratechery.com/feed/",                            "weight": 1.0},
+    {"name": "The Information",     "url": "https://www.theinformation.com/feed",                      "weight": 1.0},
+    {"name": "Coindesk",            "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",          "weight": 0.7},
+    {"name": "TechCrunch",          "url": "https://techcrunch.com/feed/",                             "weight": 0.7},
+    {"name": "HN Frontpage",        "url": "https://hnrss.org/frontpage",                              "weight": 0.6},
+    {"name": "Reuters MENA",        "url": "https://www.reuters.com/world/middle-east/rss",            "weight": 0.7},
+    {"name": "Pitchbook News",      "url": "https://pitchbook.com/news/articles.rss",                  "weight": 0.6}
+  ],
+
+  "config": {
+    "x_lookback_hours": 24,
+    "rss_lookback_hours": 6,
+    "min_post_chars": 80,
+    "max_posts_per_account": 2,
+    "candidates_to_score": 25,
+    "score_threshold": 4.0,
+    "dedup_window_days": 14,
+    "nitter_instances": [
+      "nitter.poast.org",
+      "nitter.privacydev.net",
+      "nitter.net",
+      "nitter.it"
+    ]
+  }
+}

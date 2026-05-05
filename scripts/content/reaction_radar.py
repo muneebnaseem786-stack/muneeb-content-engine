@@ -1,0 +1,318 @@
+"""Reaction Radar — generate one Muneeb-voice X reaction per run.
+
+Pipeline:
+  1. Load curated source list (data/reaction_sources.json).
+  2. Fetch recent posts from ~50 X accounts via Nitter profile RSS (24h lookback).
+  3. Fall back to RSS news headlines if X yield is low (6h lookback).
+  4. Drop candidates already in reaction_queue.json within dedup window.
+  5. LLM scores all candidates 1–5 on (reframe potential, anchor, shelf life).
+  6. Top candidate (avg ≥ 4.0) → generate full long-form reaction + Substack Note.
+  7. Append to data/reaction_queue.json with status="auto_sent".
+  8. Send 2 messages to Telegram: context (source URL + headline), then raw X text.
+  9. Substack Note follows as a separate raw text message.
+
+No buttons. No approval flow. Reply to any of the bot's messages with free-form
+feedback — scripts/telegram/poller.py picks it up via attribution rule 1
+(reply_to_message) and writes to data/lessons_learned.md.
+
+Usage:
+  python -m scripts.content.reaction_radar           # full run
+  python -m scripts.content.reaction_radar --dry-run # fetch + score only, no LLM gen, no Telegram, no queue write
+"""
+
+import argparse
+import json
+import os
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+import requests
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(REPO_ROOT))
+
+from scripts.content.sources import (  # noqa: E402
+    fetch_x_accounts,
+    fetch_rss_news,
+    filter_already_reacted,
+)
+
+
+# ── Paths ────────────────────────────────────────────────────────────────────
+
+SOURCES_PATH    = REPO_ROOT / "data" / "reaction_sources.json"
+QUEUE_PATH      = REPO_ROOT / "data" / "reaction_queue.json"
+LESSONS_PATH    = REPO_ROOT / "data" / "lessons_learned.md"
+PROMPT_PATH     = REPO_ROOT / "prompts" / "reaction_radar_prompt.txt"
+
+
+# ── Telegram (no buttons, F&R Reply Radar pattern) ───────────────────────────
+
+def _tg_token() -> str:
+    return os.environ["TELEGRAM_BOT_TOKEN"]
+
+
+def _tg_chat_id() -> str:
+    return os.environ["TELEGRAM_CHAT_ID"]
+
+
+def _tg_send(text: str, parse_mode: str | None = None) -> int | None:
+    """Send a Telegram message and return its message_id (or None on error)."""
+    body = {"chat_id": _tg_chat_id(), "text": text, "disable_web_page_preview": False}
+    if parse_mode:
+        body["parse_mode"] = parse_mode
+    try:
+        resp = requests.post(
+            f"https://api.telegram.org/bot{_tg_token()}/sendMessage",
+            json=body,
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            return resp.json()["result"]["message_id"]
+        print(f"[reaction-radar] Telegram send failed [{resp.status_code}]: {resp.text}")
+    except Exception as e:
+        print(f"[reaction-radar] Telegram send error: {e}")
+    return None
+
+
+def send_reaction_to_telegram(post: dict) -> int | None:
+    """Send 3 Telegram messages:
+      1. Context (topic + source URL + headline)
+      2. Raw X long-form text (copy-pasteable)
+      3. Raw Substack Note text (copy-pasteable)
+    Returns the message_id of message 1 (used for feedback attribution).
+    """
+    topic = post.get("topic", "")
+    src_url = post.get("source_url", "")
+    src_headline = post.get("source_headline", "")
+    src_label = post.get("source", "")
+    x_text = post.get("x_post", "")
+    sub_text = post.get("substack_note", "")
+
+    # Message 1: context (this is the message_id we attribute feedback to)
+    ctx = f"📡 {topic}\n\n{src_label} · {src_headline}\n{src_url}\n\n💡 Reply to ANY of these messages with feedback. It updates lessons_learned.md."
+    main_id = _tg_send(ctx)
+
+    # Message 2: raw X text — long-press to copy on mobile
+    if x_text:
+        _tg_send(x_text)
+
+    # Message 3: raw Substack Note text
+    if sub_text:
+        _tg_send(sub_text)
+
+    return main_id
+
+
+# ── LLM ──────────────────────────────────────────────────────────────────────
+
+def call_claude_for_reaction(prompt: str) -> str:
+    """Call Anthropic API for scoring + generation. Returns raw text response."""
+    try:
+        from anthropic import Anthropic
+    except ImportError as e:
+        raise RuntimeError(
+            "anthropic SDK not installed. Add `anthropic` to requirements.txt"
+        ) from e
+
+    client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    msg = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=4096,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return msg.content[0].text
+
+
+def parse_json_response(text: str) -> dict:
+    """LLM sometimes wraps JSON in ```json fences. Strip if present."""
+    t = text.strip()
+    if t.startswith("```"):
+        # drop first fence line and trailing fence
+        lines = t.splitlines()
+        if lines[0].startswith("```"):
+            lines = lines[1:]
+        if lines and lines[-1].strip() == "```":
+            lines = lines[:-1]
+        t = "\n".join(lines)
+    return json.loads(t)
+
+
+# ── Pipeline ─────────────────────────────────────────────────────────────────
+
+def load_sources() -> dict:
+    with open(SOURCES_PATH) as f:
+        return json.load(f)
+
+
+def load_lessons() -> str:
+    try:
+        with open(LESSONS_PATH) as f:
+            return f.read()
+    except FileNotFoundError:
+        return ""
+
+
+def load_queue() -> dict:
+    try:
+        with open(QUEUE_PATH) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"posts": [], "last_updated": ""}
+
+
+def save_queue(queue: dict) -> None:
+    queue["last_updated"] = datetime.now(timezone.utc).isoformat()
+    with open(QUEUE_PATH, "w") as f:
+        json.dump(queue, f, indent=2)
+
+
+def candidates_block(candidates: list[dict]) -> str:
+    """Render candidates for the LLM prompt."""
+    lines = []
+    for i, c in enumerate(candidates):
+        kind = c.get("source", "")
+        if kind.startswith("x:"):
+            lines.append(
+                f"[{i}] X · @{c.get('handle','')}\n"
+                f"  url: {c.get('url','')}\n"
+                f"  text: {c.get('text','')}"
+            )
+        else:
+            lines.append(
+                f"[{i}] {kind}\n"
+                f"  headline: {c.get('headline','')}\n"
+                f"  url: {c.get('url','')}\n"
+                f"  summary: {c.get('summary','')}"
+            )
+    return "\n\n".join(lines) if lines else "(no candidates)"
+
+
+def normalize_candidate_for_queue(c: dict, llm_topic: str) -> dict:
+    """Turn a raw X-post or news-headline candidate into the queue schema."""
+    if c.get("source", "").startswith("x:"):
+        return {
+            "topic": llm_topic,
+            "source": c.get("source", ""),
+            "source_url": c.get("url", ""),
+            "source_headline": c.get("text", "")[:160],
+            "source_handle": c.get("handle", ""),
+        }
+    return {
+        "topic": llm_topic,
+        "source": c.get("source", ""),
+        "source_url": c.get("url", ""),
+        "source_headline": c.get("headline", ""),
+        "source_handle": "",
+    }
+
+
+def run(dry_run: bool = False) -> None:
+    sources = load_sources()
+    cfg = sources.get("config", {})
+    nitter = cfg.get("nitter_instances", [])
+
+    print("[reaction-radar] Fetching X accounts...")
+    x_candidates = fetch_x_accounts(
+        sources.get("x_accounts", []),
+        nitter_instances=nitter,
+        max_posts_per_account=cfg.get("max_posts_per_account", 2),
+        min_chars=cfg.get("min_post_chars", 80),
+        lookback_hours=cfg.get("x_lookback_hours", 24),
+    )
+    print(f"[reaction-radar] X candidates: {len(x_candidates)}")
+
+    rss_candidates = []
+    if len(x_candidates) < 10:
+        print("[reaction-radar] X yield low; pulling RSS news...")
+        rss_candidates = fetch_rss_news(
+            sources.get("rss_news", []),
+            lookback_hours=cfg.get("rss_lookback_hours", 6),
+            max_per_feed=5,
+        )
+        print(f"[reaction-radar] RSS candidates: {len(rss_candidates)}")
+
+    all_candidates = x_candidates + rss_candidates
+
+    queue = load_queue()
+    all_candidates = filter_already_reacted(
+        all_candidates, queue, dedup_window_days=cfg.get("dedup_window_days", 14)
+    )
+    print(f"[reaction-radar] After dedup: {len(all_candidates)}")
+
+    if not all_candidates:
+        print("[reaction-radar] No candidates after dedup. Exiting.")
+        return
+
+    # Cap candidates passed to LLM (cost control)
+    limit = cfg.get("candidates_to_score", 25)
+    all_candidates = all_candidates[:limit]
+
+    if dry_run:
+        print("[reaction-radar] --dry-run → skipping LLM + Telegram + queue write")
+        print(f"[reaction-radar] Would score {len(all_candidates)} candidates:")
+        for i, c in enumerate(all_candidates):
+            label = c.get("handle") or c.get("source", "?")
+            preview = (c.get("text") or c.get("headline") or "")[:80]
+            print(f"  [{i}] @{label}: {preview}")
+        return
+
+    # Build prompt
+    with open(PROMPT_PATH) as f:
+        template = f.read()
+    prompt = template.format(
+        lessons_learned=load_lessons() or "(no lessons yet)",
+        candidate_count=len(all_candidates),
+        candidates_block=candidates_block(all_candidates),
+    )
+
+    print("[reaction-radar] Calling Claude for scoring + generation...")
+    raw = call_claude_for_reaction(prompt)
+    try:
+        result = parse_json_response(raw)
+    except json.JSONDecodeError as e:
+        print(f"[reaction-radar] LLM returned invalid JSON: {e}")
+        print(f"[reaction-radar] Raw response (first 500 chars): {raw[:500]}")
+        return
+
+    winner_idx = result.get("winning_index", -1)
+    if winner_idx < 0 or winner_idx >= len(all_candidates):
+        reason = result.get("skip_reason", "no winner")
+        print(f"[reaction-radar] Skipping run: {reason}")
+        return
+
+    winner = all_candidates[winner_idx]
+    queue_entry = normalize_candidate_for_queue(winner, result.get("topic", ""))
+    queue_entry.update({
+        "x_post": result.get("x_post", ""),
+        "substack_note": result.get("substack_note", ""),
+        "soft_ban_flags": result.get("soft_ban_flags", []),
+        "scores": result.get("scores", []),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "status": "auto_sent",
+    })
+
+    msg_id = send_reaction_to_telegram(queue_entry)
+    if msg_id:
+        queue_entry["telegram_message_id"] = msg_id
+        queue_entry["sent_to_telegram_at"] = datetime.now(timezone.utc).isoformat()
+
+    queue.setdefault("posts", []).insert(0, queue_entry)
+    save_queue(queue)
+
+    print(f"[reaction-radar] Done. Topic: {queue_entry.get('topic','')}")
+    print(f"[reaction-radar] Source: {queue_entry.get('source_url','')}")
+    print(f"[reaction-radar] Telegram message_id: {msg_id}")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Fetch + dedup only. No LLM, no Telegram, no queue write.")
+    args = parser.parse_args()
+    run(dry_run=args.dry_run)
+
+
+if __name__ == "__main__":
+    main()

@@ -495,10 +495,21 @@ def _process_message(message) -> bool:
     _log_feedback(feedback_post, "free_form", free_form_text=text)
     _append_lesson(feedback_post, text)
 
-    item["status"]        = "skipped_with_reason"
-    item["skipped_at"]    = datetime.now(timezone.utc).isoformat()
-    item["feedback_text"] = text
-    item.pop("awaiting_reason_at", None)
+    # Reaction Radar uses status="auto_sent" (fire-and-forget). Free-form feedback
+    # on those should NOT mark the item as skipped — Muneeb may still post the
+    # tweet AND give feedback for next time. Only flip status if it was pending.
+    prior_status = item.get("status", "")
+    if prior_status in ("auto_sent",):
+        # Append feedback without overwriting status
+        item.setdefault("feedback_history", []).append({
+            "text":         text,
+            "received_at":  datetime.now(timezone.utc).isoformat(),
+        })
+    else:
+        item["status"]        = "skipped_with_reason"
+        item["skipped_at"]    = datetime.now(timezone.utc).isoformat()
+        item["feedback_text"] = text
+        item.pop("awaiting_reason_at", None)
 
     if kind == "reaction":
         _save(QUEUE_PATH, queue)
