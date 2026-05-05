@@ -78,9 +78,9 @@ def _tg_send(text: str, parse_mode: str | None = None) -> int | None:
 
 def send_reaction_to_telegram(post: dict) -> int | None:
     """Send 3 Telegram messages:
-      1. Context (topic + source URL + headline)
-      2. Raw X long-form text (copy-pasteable)
-      3. Raw Substack Note text (copy-pasteable)
+      1. Quote-tweet prompt: source URL first, then context (open URL, click QT)
+      2. Raw X long-form text (paste into QT composer)
+      3. Raw Substack Note text (separate copy-pasteable)
     Returns the message_id of message 1 (used for feedback attribution).
     """
     topic = post.get("topic", "")
@@ -90,11 +90,19 @@ def send_reaction_to_telegram(post: dict) -> int | None:
     x_text = post.get("x_post", "")
     sub_text = post.get("substack_note", "")
 
-    # Message 1: context (this is the message_id we attribute feedback to)
-    ctx = f"📡 {topic}\n\n{src_label} · {src_headline}\n{src_url}\n\n💡 Reply to ANY of these messages with feedback. It updates lessons_learned.md."
-    main_id = _tg_send(ctx)
+    # Message 1: source URL first (tap once to open, then click QT on X)
+    ctx_lines = [
+        "🔁 Quote-tweet this:",
+        src_url,
+        "",
+        f"📡 {topic}",
+        f"{src_label} · {src_headline}",
+        "",
+        "💡 Reply to ANY message below with feedback. It updates lessons_learned.md.",
+    ]
+    main_id = _tg_send("\n".join(ctx_lines))
 
-    # Message 2: raw X text — long-press to copy on mobile
+    # Message 2: raw X text — long-press to copy on mobile, paste into QT composer
     if x_text:
         _tg_send(x_text)
 
