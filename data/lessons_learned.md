@@ -15,13 +15,29 @@ When applying lessons, prioritize the most recent entries and look for patterns 
 **Pillar:** all  ·  **Source:** user_feedback
 
 ## 2026-05-02 22:00 UTC — Global rule (Substack Notes + X)
-**Feedback:** Stop using "My read:" and "My take:" entirely as opening constructions. Both are overused. Use observational openers ("X is roughly Y years old now…", "Most people think of X as Y…", "[Concrete stat]. That is the number I keep coming back to."), or contrarian framings ("Most people treat X as Y. I do not think it is."), or just dive straight into the thesis.
+**Feedback:** Stop using "My read:" and "My take:" entirely as opening constructions. Both are overused. Use observational openers ("X is roughly Y years old now…", "Most people think of X as Y…", "[Concrete stat]. That is the number I keep coming back to."), or dive straight into the thesis.
 **Pillar:** all  ·  **Source:** user_feedback
 
 ## 2026-05-02 22:00 UTC — X long-form structure
-**Feedback:** Sentence 1 of an X long-form post MUST be the contrarian/structural THESIS (the take), NOT an anchor stat. The stat goes in sentences 2-3. Currently agents are opening with stats which makes the post read like news reporting, not analysis. Akash style: thesis first ("The GENIUS Act isn't a compliance story. It is the moment stablecoins formally became part of US financial architecture."), then anchor stat ("Stablecoin transfer volume hit $27.6T in 2024…"), then mechanism.
+**Feedback:** Sentence 1 of an X long-form post MUST be the contrarian/structural THESIS, NOT an anchor stat. The stat goes in sentences 2-3. Akash style: thesis first, then anchor stat ("Stablecoin transfer volume hit $27.6T in 2024…"), then mechanism. Thesis must be affirmative — no negation framing (see 2026-05-05 hard ban).
 **Pillar:** all  ·  **Source:** user_feedback
 
 ## 2026-05-02 22:00 UTC — Tone (X and Substack)
-**Feedback:** Posts are reading like news reporting ("Saudi Arabia hit 85% digital payment penetration. It exceeded Vision 2030 targets…"). This is the wrong default. The default opening should be a contrarian or structural TAKE that reframes the news, not a recitation of what happened. Reader should not need to be told what the story is — they should be told what the story actually means.
+**Feedback:** Posts are reading like news reporting ("Saudi Arabia hit 85% digital payment penetration. It exceeded Vision 2030 targets…"). The default opening should be a contrarian or structural TAKE that reframes the news, not a recitation of what happened. Reader should be told what the story actually means.
 **Pillar:** all  ·  **Source:** user_feedback
+
+## 2026-05-05 — Global rule (all platforms) — Banned LLM Signatures
+**Hard ban — regenerate:**
+1. Negation framing: "not X, it is Y" → lead affirmative
+2. Decorative tricolons → use one, two, or four
+3. Stacked abstract nouns ("activation layer," "decisioning infrastructure") → use verbs
+4. Meta-narration ("What I find interesting...") → state the claim
+5. "The moment of X" / "Y of Z" gravitas phrasing → use specifics
+
+**Soft ban — flag in output with `[soft-ban: <which>]` footer if unavoidable:**
+6. Closing aphorism → land a verdict or prediction
+7. "It is X. It is Y." stacked declaratives → break the rhythm
+8. Hedge sandwich → commit or cut
+
+**Principle:** Lead affirmative. Use verbs, not nominalizations. Trust the reader.
+**Pillar:** all  ·  **Source:** user_feedback (Adyen/Talon.One drafts)
