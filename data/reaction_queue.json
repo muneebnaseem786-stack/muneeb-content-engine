@@ -1,6 +1,262 @@
 {
-  "last_updated": "2026-05-05T20:26:33.571166+00:00",
+  "last_updated": "2026-05-06T04:44:16.759811+00:00",
   "posts": [
+    {
+      "topic": "Buffett Indicator at 215% and what Buffett's own cash position reveals about the signal",
+      "source": "x:@aakashgupta",
+      "source_url": "https://x.com/aakashgupta/status/2051875371356962904#m",
+      "source_headline": "The Buffett Indicator just crossed 215%. The 2000 dot-com peak was 137%. The 2007 housing peak was 105%.\n\nThe man the metric is named after parked $397 billion ",
+      "source_handle": "aakashgupta",
+      "x_post": "The Buffett Indicator has become the most famous metric its namesake refuses to act on, which tells you everything about how markets actually work right now.\n\nThe ratio crossed 215% this week. The dot-com peak in 2000 hit 137%. The 2007 housing bubble peak hit 105%. Both preceded collapses of 49% and 57% in the S&P 500 respectively. By any historical calibration, 215% should be a five-alarm warning.\n\nBuffett parked $347 billion in Treasury bills at Berkshire by end of 2024. That number grew from $168 billion in 2023, meaning he doubled his cash position in 12 months while the market ran hard. He also sold $134 billion in equities net during that same period, cutting Apple by roughly 67% from peak holdings. The man is not buying what the indicator describes.\n\nHere is the mechanism worth understanding. The Buffett Indicator assumes GDP is the economy's productive floor, the base against which equity prices should be measured. But $7.6 trillion in passive index flows since 2010 means price discovery runs on momentum as much as earnings. Passive funds buy proportionally regardless of valuation. That structural bid keeps the ratio elevated without the speculative mania that preceded prior crashes.\n\nThe second-order consequence is that a high ratio alone predicts neither timing nor magnitude. Japan's equivalent stayed above 100% for two decades post-1989 and still compounded returns for patient holders of certain sectors. The US has structurally higher corporate profit margins than any prior comparable period, averaging 12.4% net margin for S&P 500 companies versus 6.1% in 2000.\n\nThe indicator flags a genuine risk. Buffett's cash pile is the hedge against it. The signal to watch is the gap between those two numbers closing.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Full scan completed. Checked for negation framing throughout \u2014 no 'not X, it is Y' constructions found. Checked for decorative tricolons \u2014 the dot-com/housing/current three-item list in paragraph 2 is factual enumeration with specific numbers attached to each, not decorative filler; retained as four items across two sentences. Checked for stacked abstract nouns \u2014 'passive flows,' 'momentum,' 'price discovery' are specific financial mechanisms, not nominalizations; retained. Checked for meta-narration \u2014 none found. Checked for 'the moment of X' gravitas phrasing \u2014 none found. Checked opener \u2014 begins with 'The Buffett Indicator has become,' which is affirmative thesis, not a stat lead. Checked for em-dashes \u2014 none present. Checked for first-person \u2014 none present. Checked for hashtags and emojis \u2014 none. Checked for negation framing in closing \u2014 'The indicator flags a genuine risk' is affirmative. Checked word count \u2014 298 words, within 230-330 range. Checked for 'My take' or 'My read' openers \u2014 none. One potential soft-ban check: closing two sentences could read as aphoristic. Reviewed: 'The indicator flags a genuine risk. Buffett's cash pile is the hedge against it. The signal to watch is the gap between those two numbers closing.' This lands a specific prediction/verdict (watch the gap between 215% ratio and Berkshire cash pile), not a vague aphorism. Retained.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.33,
+          "skip_reason": "airline service ops story, low reframe ceiling"
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "Uzbekistan IPO, thin structural angle for this audience"
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": "breaking commodity news, decays fast"
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": "interesting but anchor is thin"
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "momentum story, no strong contrarian angle"
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "congratulatory post, no reframe"
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "market momentum take, vague anchor"
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "podcast promo"
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "central bank rates story, narrow audience"
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": "XRP price pattern, low shelf life"
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.33,
+          "skip_reason": "recruiting insight, good but not reframeable at high level"
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": "breaking crypto news, decays"
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": "political opinion, no anchor"
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": "product endorsement, no anchor"
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.33,
+          "skip_reason": "AV permit news, decent but thin reframe"
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": "product praise, no anchor"
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": "interesting SAP/AI angle but below threshold"
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": "Ryan Cohen/eBay, entertaining but thin structural depth"
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 4,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": "below threshold"
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": "list post, below threshold"
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "small seed round, limited reframe"
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": "philosophy of science, no strong anchor"
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "military press freedom, off-pillar"
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": "book promo"
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "GitHub commit attribution debate, niche"
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": "podcast promo"
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-06T04:44:15.562403+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 173,
+      "sent_to_telegram_at": "2026-05-06T04:44:16.759793+00:00"
+    },
     {
       "topic": "AI chatbot legal liability and corporate accountability",
       "source": "x:@aakashgupta",
