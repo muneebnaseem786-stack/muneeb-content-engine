@@ -77,10 +77,9 @@ def _tg_send(text: str, parse_mode: str | None = None) -> int | None:
 
 
 def send_reaction_to_telegram(post: dict) -> int | None:
-    """Send 3 Telegram messages:
+    """Send 2 Telegram messages:
       1. Quote-tweet prompt: source URL first, then context (open URL, click QT)
       2. Raw X long-form text (paste into QT composer)
-      3. Raw Substack Note text (separate copy-pasteable)
     Returns the message_id of message 1 (used for feedback attribution).
     """
     topic = post.get("topic", "")
@@ -88,7 +87,6 @@ def send_reaction_to_telegram(post: dict) -> int | None:
     src_headline = post.get("source_headline", "")
     src_label = post.get("source", "")
     x_text = post.get("x_post", "")
-    sub_text = post.get("substack_note", "")
 
     # Message 1: source URL first (tap once to open, then click QT on X)
     ctx_lines = [
@@ -98,17 +96,13 @@ def send_reaction_to_telegram(post: dict) -> int | None:
         f"📡 {topic}",
         f"{src_label} · {src_headline}",
         "",
-        "💡 Reply to ANY message below with feedback. It updates lessons_learned.md.",
+        "💡 Reply with feedback to update lessons_learned.md.",
     ]
     main_id = _tg_send("\n".join(ctx_lines))
 
     # Message 2: raw X text — long-press to copy on mobile, paste into QT composer
     if x_text:
         _tg_send(x_text)
-
-    # Message 3: raw Substack Note text
-    if sub_text:
-        _tg_send(sub_text)
 
     return main_id
 
@@ -231,17 +225,23 @@ def run(dry_run: bool = False) -> None:
     )
     print(f"[reaction-radar] X candidates: {len(x_candidates)}")
 
-    rss_candidates = []
-    if len(x_candidates) < 10:
-        print("[reaction-radar] X yield low; pulling RSS news...")
-        rss_candidates = fetch_rss_news(
-            sources.get("rss_news", []),
-            lookback_hours=cfg.get("rss_lookback_hours", 6),
-            max_per_feed=5,
-        )
-        print(f"[reaction-radar] RSS candidates: {len(rss_candidates)}")
+    print("[reaction-radar] Fetching RSS news (parallel signal, not fallback)...")
+    rss_candidates = fetch_rss_news(
+        sources.get("rss_news", []),
+        lookback_hours=cfg.get("rss_lookback_hours", 6),
+        max_per_feed=5,
+    )
+    print(f"[reaction-radar] RSS candidates: {len(rss_candidates)}")
 
-    all_candidates = x_candidates + rss_candidates
+    # Interleave X and RSS so the candidate slice (capped at candidates_to_score)
+    # reflects both signal layers, not just whichever came first.
+    all_candidates = []
+    max_len = max(len(x_candidates), len(rss_candidates))
+    for i in range(max_len):
+        if i < len(x_candidates):
+            all_candidates.append(x_candidates[i])
+        if i < len(rss_candidates):
+            all_candidates.append(rss_candidates[i])
 
     queue = load_queue()
     all_candidates = filter_already_reacted(
@@ -294,8 +294,8 @@ def run(dry_run: bool = False) -> None:
     queue_entry = normalize_candidate_for_queue(winner, result.get("topic", ""))
     queue_entry.update({
         "x_post": result.get("x_post", ""),
-        "substack_note": result.get("substack_note", ""),
         "soft_ban_flags": result.get("soft_ban_flags", []),
+        "self_review_pass": result.get("self_review_pass", ""),
         "scores": result.get("scores", []),
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "status": "auto_sent",

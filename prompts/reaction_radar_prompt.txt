@@ -28,11 +28,26 @@ Structure (six-move compressed):
 5. **Implication** — what this tells you about the system, market, or what happens next.
 6. **Reframing close** — one sentence. Recategorize the story, compress the thesis, or force a model update.
 
-Then a paired Substack Note: 100–250 words covering the same insight with first-person 'I' allowed (Substack voice). Same structural argument, looser register.
+NO Substack Note. Output the X post only.
 
 ---
 
-## STEP 3 — HARD RULES
+## STEP 3 — SELF-REVIEW PASS (mandatory before returning JSON)
+
+After drafting your X post, re-read it word by word. Scan for every banned pattern below. For each Tier 1 hit, REGENERATE the offending sentence(s) using the affirmative restatement. Repeat until zero Tier 1 violations remain. Track Tier 2 violations in `soft_ban_flags`.
+
+Specifically check for these failure modes:
+- "X does not Y. Z does not Y. W does Y." → restate as "X does A. Z does B. W does Y." (each clause states what the subject DOES, not what it doesn't do)
+- "is not the point. The point is..." → cut both halves, just state the point directly
+- "What I find interesting is..." → cut entirely
+- Three-item parallel lists used decoratively → use one, two, or four
+- "the moment of [abstract noun]" → name the specific event/action
+
+If you cannot eliminate a Tier 1 violation, set `winning_index: -1` and `skip_reason: "could not generate clean output"`. Better to skip a slot than to ship LLM-tell prose.
+
+---
+
+## STEP 4 — HARD RULES
 
 The output is rejected and must be regenerated if any of these appear.
 
@@ -94,7 +109,7 @@ Return strict JSON. NO markdown fences, NO preamble.
   "winning_index": 0,
   "topic": "short topic label, e.g. 'Disney sequel trilogy merchandise economics'",
   "x_post": "the 230-330 word X long-form reaction",
-  "substack_note": "the 100-250 word Substack note version",
+  "self_review_pass": "describe what you scanned for and any patterns you regenerated, e.g. 'Caught negation tricolon in para 4, rewrote as affirmative restatement.'",
   "soft_ban_flags": []
 }}
 ```
