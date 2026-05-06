@@ -1,6 +1,262 @@
 {
-  "last_updated": "2026-05-06T11:35:02.208154+00:00",
+  "last_updated": "2026-05-06T21:05:33.265328+00:00",
   "posts": [
+    {
+      "topic": "Robinhood venture fund retail democratization of private markets",
+      "source": "rss:TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/06/robinhoods-venture-fund-ipo-attracted-150000-retail-investors-ceo-says/",
+      "source_headline": "Robinhood\u2019s venture fund IPO attracted 150,000+ retail investors, CEO says",
+      "source_handle": "",
+      "x_post": "Robinhood just broke the gatekeeping model of venture capital, and the 150,000 retail investors who joined its venture fund in days are the proof.\n\nThe fund offers exposure to OpenAI, Stripe, Databricks, and Oura before any of them trade publicly. Pre-IPO access at that scale has historically required a $5 million minimum commitment to a fund-of-funds, or a direct relationship with a top-tier VC. Robinhood priced it at $20 per share.\n\nHere is the mechanism. Private company valuations stay compressed for retail because the secondary market (Forge, EquityZen) charges 3-5% transaction fees, requires accredited investor status, and caps liquidity. Robinhood routes around all three constraints simultaneously: it uses its existing brokerage infrastructure, its existing retail customer base, and a fund wrapper that aggregates demand. The moat was never the asset. The moat was the distribution.\n\nThe second-order consequence matters more. 150,000 participants in four days tells you that latent demand for private market access among retail investors dwarfs what institutional allocators assumed. Fidelity and Schwab have been sitting on this same distribution infrastructure for years. They built it for public equities and never crossed the line. Robinhood crossed it first.\n\nThe companies in the fund benefit too. Stripe and OpenAI now have 150,000 small retail holders who followed the story before the IPO roadshow began. That is a marketing asset, a liquidity signal, and a shareholder base pre-populated with believers.\n\nThe venture fund IPO is not a Robinhood product launch. It is the first retail-scale proof that the private-to-public timeline no longer has to be a wall most investors hit from the outside.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned all sentences for: (1) negation framing \u2014 none found; (2) decorative tricolons \u2014 found a three-item list in mechanism paragraph ('Forge, EquityZen' is a two-item example, acceptable; the three constraints sentence 'existing brokerage infrastructure, existing retail customer base, fund wrapper' is functional not decorative as each item is specific and distinct \u2014 kept); (3) stacked abstract nouns \u2014 replaced any nominalization tendency with verbs throughout; (4) meta-narration \u2014 none found; (5) 'moment of X' gravitas \u2014 none found. Checked for em-dashes \u2014 none present. Checked for first-person \u2014 none present. Checked for banned openers 'My read/My take' \u2014 not present. Confirmed thesis leads sentence 1, anchor stat in sentences 2-3. Confirmed present tense for structural facts. Word count verified at approximately 295 words. Closing sentence lands a verdict/recategorization, not an aphorism.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 2,
+          "avg": 3.0,
+          "skip_reason": "GameStop/eBay bid reads as stunt, low shelf life, thin reframe potential"
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "Great Wealth Transfer is well-covered, no strong numerical anchor"
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": "lifestyle aphorism post, no analytical angle"
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "regional pipeline policy, limited global reframe"
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": "IPO depth concern is already a consensus worry"
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "women's sports undervaluation is a recurring consensus take"
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "historical anecdote, no strong reframe"
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": "casual product observation, no analytical hook"
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": "Eric Trump commentary adds no structural insight"
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": "opinion piece advocacy, no reframe"
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "Bermuda USDC airdrop is interesting but thin on numbers"
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": "obituary, not reframeable analytically"
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": "legislative procedural, no strong angle"
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": "literary quotes, no financial or structural hook"
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": "motivational post, no analytical content"
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.33,
+          "skip_reason": "Microsoft clean power tension is well-covered consensus"
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": "abstract software methodology musing, no numbers"
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": "interview promo, no analytical hook"
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "Musk-OpenAI origin story already heavily covered"
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.33,
+          "skip_reason": "data center misinformation angle interesting but speculative anchor"
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "cybersecurity story, limited reframe for this audience"
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": "generational culture observation, no financial hook"
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "niche engineering story, limited audience"
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": "sponsored buildathon announcement"
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 1.67,
+          "skip_reason": "generic value-creation advice, no reframe possible"
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": "software release notes, not reframeable"
+        }
+      ],
+      "generated_at": "2026-05-06T21:05:32.402254+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 189,
+      "sent_to_telegram_at": "2026-05-06T21:05:33.265311+00:00"
+    },
     {
       "topic": "B2B SaaS winners in the AI cycle \u2014 what the stock performance data actually reveals",
       "source": "x:@jasonlk",
