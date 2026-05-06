@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-05T03:18:00.172662+00:00",
+  "last_updated": "2026-05-06T03:16:44.809567+00:00",
   "topics": [
+    {
+      "topic": "Anthropic Built the Most Capable Hacking Model Ever. Then Refused to Sell It.",
+      "source_url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-06T03:16:44.809567+00:00"
+    },
+    {
+      "topic": "OpenAI's CFO Doesn't Think the Company Is Ready for an IPO",
+      "source_url": "https://www.techtimes.com/articles/316323/20260504/openai-ipo-delay-2027-sarah-friar-flags-600-billion-risk-sam-altman-pushes-2026-listing.htm",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-06T03:16:44.809567+00:00"
+    },
+    {
+      "topic": "The AI Earnings Supercycle Was Partly a Mark-Up",
+      "source_url": "https://fortune.com/2026/04/30/google-amazon-ai-profits-anthropic-stake-bubble-earnings-2026/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-06T03:16:44.809567+00:00"
+    },
     {
       "topic": "Paytm Had 300 Million Users. It Still Didn't Have a Product.",
       "source_url": "https://www.businesstoday.in/latest/corporate/story/rbi-cancels-paytm-payments-bank-licence-cites-regulatory-violations-depositor-risks-527391-2026-04-24",
