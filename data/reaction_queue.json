@@ -1,6 +1,262 @@
 {
-  "last_updated": "2026-05-06T04:44:16.759811+00:00",
+  "last_updated": "2026-05-06T05:44:23.674417+00:00",
   "posts": [
+    {
+      "topic": "AI driving enterprise-only YC batch \u2014 structural signal for consumer AI economics",
+      "source": "x:@patrick_oshag",
+      "source_url": "https://x.com/patrick_oshag/status/2051791984478814652#m",
+      "source_headline": "Brian sits on the board of Y Combinator. He said the last batch had 175 companies and only 16 of them weren't enterprise. \n\n\"Here are the reasons I think it's h",
+      "source_handle": "patrick_oshag",
+      "x_post": "The most honest data point on consumer AI economics right now is a YC batch. Of 175 companies in the most recent cohort, only 16 built for consumers. That is a 91% enterprise skew inside the accelerator that historically launched Dropbox, Airbnb, and Reddit, all consumer-first. This is a structural verdict on where the money goes when founders do the math. The unit economics of consumer AI are genuinely broken at the moment. Subscription tiers for a product like ChatGPT compress quickly toward a local revenue maximum because the same users who pay $20/month for Plus would pay $200 for the same output embedded in a workflow they already fund through their employer. Enterprises pay per seat, per token, and per integration without the churn rate that plagues direct-to-consumer apps. Founders at YC read this signal faster than VCs publish it. Brian Chesky himself called out that there is no consumer business model for AI he has seen that scales past a local maximum. The second-order consequence is a talent concentration effect. The 16 consumer-focused companies in that batch will recruit from the same pool as the 159 enterprise ones, at lower expected revenue multiples. That means consumer AI as a category runs lean or runs out of runway before it finds distribution. The parallel to 2012 mobile is instructive. Enterprise dominated early SaaS on mobile too, until one consumer behavior, photo sharing, unlocked a new monetization surface. The category that unlocks consumer AI monetization has not shipped yet. Until it does, every YC batch will look like this one.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Full word-by-word scan completed. Checked for negation framing ('not X, it is Y') \u2014 none found. Checked for decorative tricolons \u2014 the Dropbox/Airbnb/Reddit reference is a three-item list but used as evidentiary examples with specifics attached, not decorative filler; regenerated to confirm each item carries distinct descriptive weight ('all consumer-first'). Checked for stacked abstract nouns \u2014 none found, all claims use active verbs. Checked for meta-narration ('What I find interesting...') \u2014 none. Checked for 'the moment of X' gravitas phrasing \u2014 none. Checked for em-dashes \u2014 none. Checked for first-person pronouns \u2014 none. Checked for hashtags and emojis \u2014 none. Checked for banned openers ('My read:', 'My take:', 'I think...', 'We are seeing...') \u2014 none. Confirmed lead sentence is thesis-first, anchor stat follows in sentences 2-3. Confirmed present tense for structural/established facts. Word count: 297. No Tier 1 violations found.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": "routine commodity pricing move, limited reframe potential"
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "hedging story with no concrete anchor, low reframe ceiling"
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": "interesting construction tech angle but anchor is weak and take is not contrarian enough"
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": "short-squeeze mechanic is well-understood, limited structural reframe"
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": "a16z crypto raise is notable but the reframe angle is thin"
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": "breaking geopolitical news, decays fast"
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "podcast promo content, no structural insight"
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": "FX intervention story, consensus framing already established"
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": "niche legal story, limited structural resonance"
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.33,
+          "skip_reason": "good talent insight but not contrarian enough relative to existing discourse"
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": "crypto price pattern story, low shelf life"
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": "opinion piece, no anchor, no structural claim"
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": "founder product endorsement, no structural angle"
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": "duplicate of candidate 13, lower text richness"
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": "product announcement reaction, no structural reframe"
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "permit milestone, limited reframe potential"
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 4,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": "interesting but anchor is thin and eBay-Ryan Cohen angle is well-covered"
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": "SAP acquisition story, moderate reframe ceiling"
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": "hardware spec story, structural angle exists but thin for long-form"
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": "epistemology take, interesting but no dense anchor available"
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": "press freedom story, outside core domain"
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": "book promotion, no substance"
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 4,
+          "anchor_score": 3,
+          "shelf_life_score": 5,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "podcast promo, no structural hook"
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "hardware product launch, limited reframe"
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": "local SF politics, limited generalist audience"
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 4,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": "interesting ethics and labor angle but anchor is weak"
+        }
+      ],
+      "generated_at": "2026-05-06T05:44:22.613699+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 175,
+      "sent_to_telegram_at": "2026-05-06T05:44:23.674399+00:00"
+    },
     {
       "topic": "Buffett Indicator at 215% and what Buffett's own cash position reveals about the signal",
       "source": "x:@aakashgupta",
