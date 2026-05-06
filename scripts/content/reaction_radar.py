@@ -36,6 +36,7 @@ from scripts.content.sources import (  # noqa: E402
     fetch_x_accounts,
     fetch_rss_news,
     filter_already_reacted,
+    filter_recent_authors,
 )
 
 
@@ -247,7 +248,12 @@ def run(dry_run: bool = False) -> None:
     all_candidates = filter_already_reacted(
         all_candidates, queue, dedup_window_days=cfg.get("dedup_window_days", 14)
     )
-    print(f"[reaction-radar] After dedup: {len(all_candidates)}")
+    print(f"[reaction-radar] After URL dedup: {len(all_candidates)}")
+
+    all_candidates = filter_recent_authors(
+        all_candidates, queue, cooldown_days=cfg.get("author_cooldown_days", 5)
+    )
+    print(f"[reaction-radar] After author cooldown: {len(all_candidates)}")
 
     if not all_candidates:
         print("[reaction-radar] No candidates after dedup. Exiting.")

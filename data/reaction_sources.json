@@ -243,6 +243,7 @@
     "candidates_to_score": 30,
     "score_threshold": 4.0,
     "dedup_window_days": 14,
+    "author_cooldown_days": 5,
     "nitter_instances": [
       "nitter.poast.org",
       "nitter.privacydev.net",

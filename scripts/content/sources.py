@@ -208,3 +208,42 @@ def filter_already_reacted(
             seen_urls.add(url)
 
     return [c for c in candidates if (c.get("url") or "") not in seen_urls]
+
+
+def filter_recent_authors(
+    candidates: list[dict],
+    queue: dict,
+    cooldown_days: int = 5,
+) -> list[dict]:
+    """Drop X candidates whose @handle was QT'd within the cooldown window.
+
+    Only applies to X-account candidates (source starts with 'x:'). RSS news
+    candidates are not affected — those are story-level, not handle-level.
+    """
+    cutoff = datetime.now(timezone.utc) - timedelta(days=cooldown_days)
+    cooldown_handles: set[str] = set()
+    for p in queue.get("posts", []):
+        gen = p.get("generated_at", "")
+        handle = (p.get("source_handle") or "").lower()
+        if not gen or not handle:
+            continue
+        try:
+            dt = datetime.fromisoformat(gen.replace("Z", "+00:00"))
+        except Exception:
+            continue
+        if dt < cutoff:
+            continue
+        cooldown_handles.add(handle)
+
+    out = []
+    dropped = 0
+    for c in candidates:
+        is_x = (c.get("source") or "").startswith("x:")
+        handle = (c.get("handle") or "").lower()
+        if is_x and handle in cooldown_handles:
+            dropped += 1
+            continue
+        out.append(c)
+    if dropped:
+        print(f"[sources] cooldown: dropped {dropped} X candidates from {len(cooldown_handles)} recent authors")
+    return out
