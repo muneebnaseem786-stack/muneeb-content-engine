@@ -24,7 +24,10 @@
           "Cisco at $555B in March 2000. The AI cloud businesses are real. The $45B in mark-ups repeats only if Anthropic keeps raising at higher valuations. When that stops, the operating lines carry the story alone."
         ],
         "substack_draft": "$45 billion. That number is doing all the work in this story.\n\nAlphabet and Amazon reported their best quarters in recent history last week. The coverage credited AI monetization, cloud momentum, and the hyperscaler thesis being vindicated. What sat inside both earnings releases, and what most coverage understated: roughly $45 billion of those combined profits came from marking up their Anthropic stakes after the company's latest funding round. Neither has sold a share. The cash never moved.\n\nThis is how private equity inflates reported earnings. A portfolio company raises at a higher valuation, the existing investor marks the position up, and the gain flows through the income statement. What is new is the scale and visibility. That accounting mechanism now runs inside two of the most widely read quarterly earnings events on Earth.\n\nThe underlying businesses are genuinely strong. AWS grew 28%. Google Cloud is capacity-constrained. I would not argue those trends are fabricated. What I am less certain about is whether most investors pricing Alphabet and Amazon stock on these results understood they were partly pricing an unrealized gain on a private stake neither company can easily exit. The AI earnings supercycle and the paper wealth cycle are running in parallel this quarter. I am not yet sure how long they stay correlated, or what happens to the headline earnings story when Anthropic stops raising at higher valuations."
-      }
+      },
+      "telegram_message_id": 177,
+      "sent_to_telegram_at": "2026-05-06T10:29:54.546815+00:00",
+      "status": "pending"
     },
     {
       "title": "OpenAI's CFO Doesn't Think the Company Is Ready for an IPO",
@@ -48,7 +51,10 @@
           "The 2026 IPO will happen if the market is willing. Whether it should and whether it will are two different questions."
         ],
         "substack_draft": "Most people I talk to treat the OpenAI IPO as a timing question. The more I read about the Friar-Altman divide, the more I think it is a capital structure question.\n\nSam Altman wants to list in Q4 2026. CFO Sarah Friar is pushing for 2027, citing $600 billion in forward infrastructure commitments and questions about whether the company's financial reporting systems are ready for public scrutiny. The number that stopped me is the ratio. OpenAI has $25 billion in annualized revenue and $600 billion in committed spending ahead. That is 24x. Public markets have priced technology companies at very high revenue multiples before. They have rarely if ever priced a business where forward capital commitments outrun current revenue by 24x and the path to closing that gap runs through a product category still defining which revenue stream will be primary.\n\nI am not arguing OpenAI should not go public. I am genuinely uncertain what the right public market framework is for a business with this revenue trajectory, this capex structure, and this many unresolved questions about where the core margin story lives. Friar guided Square through its IPO. She has seen what happens when those questions are answered before the S-1 opens, and what happens when they are not."
-      }
+      },
+      "telegram_message_id": 180,
+      "sent_to_telegram_at": "2026-05-06T10:29:55.954973+00:00",
+      "status": "pending"
     },
     {
       "title": "Anthropic Built the Most Capable Hacking Model Ever. Then Refused to Sell It.",
@@ -70,7 +76,11 @@
           "When the model finds zero-days faster than elite human hackers, the lab ships a defensive program. The next lab to hit this capability threshold will face the same choice."
         ],
         "substack_draft": "Every major AI lab operates on the same basic product logic: build the most capable model possible, then sell access to it. Capability creates the moat. Revenue validates the bet. The loop is self-reinforcing.\n\nAnthropic built Mythos. It found zero-day vulnerabilities autonomously across every major operating system and browser. It fully exploited a 17-year-old remote code execution vulnerability in FreeBSD with no human in the loop, writing a 20-gadget ROP chain to gain root access. Then Anthropic decided not to sell it. Project Glasswing uses Mythos to harden critical infrastructure, committing $100 million in usage credits to defenders. The model does not have a pricing tier.\n\nThis is the first time I can recall a frontier AI capability being deliberately withheld from commercial release on the grounds that releasing it broadly would be net harmful. I find myself uncertain about what this precedent means over a longer horizon. If Mythos-class offense capability eventually arrives at labs with fewer constraints on deployment, the window Anthropic is trying to use for defense narrows considerably. The question I keep returning to is whether restraint at the frontier is a durable strategy, or a head start that closes once the capability spreads."
-      }
+      },
+      "telegram_message_id": 183,
+      "sent_to_telegram_at": "2026-05-06T10:29:57.309213+00:00",
+      "status": "pending"
     }
-  ]
+  ],
+  "last_updated": "2026-05-06T10:29:57.309231+00:00"
 }
