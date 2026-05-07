@@ -130,11 +130,11 @@ def _send_substack_reply(item: dict) -> int | None:
     a_icon    = "🔁" if action == "RESTACK" else "💬"
     t_icon    = "📝" if c_type == "article" else "📌"
 
+    title_link = f'<a href="{url}">{_esc(title)}</a>' if url else _esc(title)
     msg1 = (
         f"{a_icon} <b>Substack {action}</b> — {_esc(pub_name)}\n\n"
-        f"{t_icon} <b>{_esc(title)}</b>\n\n"
-        f"<i>{_esc(excerpt)}</i>\n\n"
-        f'🔗 <a href="{url}">Open on Substack</a>'
+        f"{t_icon} {title_link}\n\n"
+        f"<i>{_esc(excerpt)}</i>"
     )
     requests.post(f"{API}/sendMessage", json={
         "chat_id":    CHAT_ID,
@@ -151,7 +151,8 @@ def _send_substack_reply(item: dict) -> int | None:
         label   = "💬 <b>Reply</b> (paste into Substack comments):"
 
     msg2 = f"{label}\n\n<pre>{_esc(content)}</pre>"
-    keyboard = {"inline_keyboard": [[{"text": "Open on Substack", "url": url}]]} if url else None
+    btn_label = f"{'📝 Read article' if c_type == 'article' else '📌 Read note'} → {pub_name}"
+    keyboard = {"inline_keyboard": [[{"text": btn_label, "url": url}]]} if url else None
 
     payload = {
         "chat_id":    CHAT_ID,

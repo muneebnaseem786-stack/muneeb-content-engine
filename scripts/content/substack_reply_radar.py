@@ -248,12 +248,18 @@ def _tg_chat_id() -> str:
     return os.environ["TELEGRAM_CHAT_ID"]
 
 
-def _tg_send(text: str, reply_markup: dict | None = None) -> int | None:
+def _esc(s: str) -> str:
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def _tg_send(text: str, reply_markup: dict | None = None, parse_mode: str = "") -> int | None:
     body = {
         "chat_id": _tg_chat_id(),
         "text": text,
-        "disable_web_page_preview": False,
+        "disable_web_page_preview": True,
     }
+    if parse_mode:
+        body["parse_mode"] = parse_mode
     if reply_markup:
         body["reply_markup"] = reply_markup
     try:
@@ -272,8 +278,8 @@ def _tg_send(text: str, reply_markup: dict | None = None) -> int | None:
 
 def send_suggestion_to_telegram(result: dict, idx: int, total: int) -> int | None:
     """Send 2 Telegram messages per suggestion:
-      1. Context: publication, title, excerpt, link, action type
-      2. Raw content: restack comment or reply text (long-press to copy)
+      1. Context: publication, title as clickable link, excerpt, action type
+      2. Raw content: restack comment or reply text (long-press to copy) + direct link button
     Returns message_id of message 1."""
     action      = result.get("action", "REPLY")
     pub_name    = result.get("publication_name", "")
@@ -284,28 +290,28 @@ def send_suggestion_to_telegram(result: dict, idx: int, total: int) -> int | Non
     action_icon = "🔁" if action == "RESTACK" else "💬"
     type_icon   = "📝" if c_type == "article" else "📌"
 
-    ctx_lines = [
-        f"{action_icon} Substack {action} {idx}/{total} — {pub_name}",
-        "",
-        f"{type_icon} {title}",
-        f'"{excerpt}"',
-        "",
-        f"🔗 {url}",
-        "",
-        f"Action: {action}  ·  Reply with feedback to train the radar.",
-    ]
-    ctx_id = _tg_send("\n".join(ctx_lines))
+    # Title as a clickable hyperlink to the specific article/note
+    title_link = f'<a href="{url}">{_esc(title)}</a>' if url else _esc(title)
 
-    # Message 2: raw content (copy-paste ready)
+    ctx = (
+        f"{action_icon} <b>Substack {action} {idx}/{total}</b> — {_esc(pub_name)}\n\n"
+        f"{type_icon} {title_link}\n\n"
+        f"<i>{_esc(excerpt)}</i>\n\n"
+        f"Reply with feedback to train the radar."
+    )
+    ctx_id = _tg_send(ctx, parse_mode="HTML")
+
+    # Message 2: raw content (long-press to copy) + button linking directly to the article/note
     if action == "RESTACK":
         content_text = result.get("restack_comment", "")
-        label = "🔁 Restack comment (add this when you restack):"
+        label = "🔁 <b>Restack comment</b> (add when you restack):"
     else:
         content_text = result.get("reply_text", "")
-        label = "💬 Reply (paste into the Substack comments):"
+        label = "💬 <b>Reply</b> (paste into Substack comments):"
 
-    open_btn = {"inline_keyboard": [[{"text": f"Open on Substack", "url": url}]]} if url else None
-    _tg_send(f"{label}\n\n{content_text}", reply_markup=open_btn)
+    btn_label = f"{'📝 Read article' if c_type == 'article' else '📌 Read note'} → {_esc(pub_name)}"
+    open_btn = {"inline_keyboard": [[{"text": btn_label, "url": url}]]} if url else None
+    _tg_send(f"{label}\n\n{_esc(content_text)}", reply_markup=open_btn, parse_mode="HTML")
 
     return ctx_id
 
