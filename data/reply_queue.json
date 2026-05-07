@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-07T11:12:29.348404+00:00",
+  "last_updated": "2026-05-07T14:04:22.876698+00:00",
   "replies": [
+    {
+      "tweet_id": "2052064785521398040",
+      "tweet_url": "https://x.com/nlw/status/2052064785521398040#m",
+      "tweet_author": "nlw",
+      "tweet_text": "DAMN this is pretty seismic.\n\n\nClaude (@claudeai)\n\nWe\u2019ve agreed to a partnership with @SpaceX that will substantially increase our compute capacity.\n\nThis, along with our other recent compute deals, means that we\u2019ve been able to increase our usage limits for Claude Code and the Claude API.\n\n\n\n\u2014 https://nitter.net/claudeai/status/2052060691893227611#m",
+      "reply_text": "**Step 1 \u2014 What is OP actually claiming?**\nAnthropic partnering with SpaceX for compute is seismic, implying this infrastructure deal materially shifts the AI capability/access landscape.\n\n**Step 2 \u2014 Topic fit gate**\nAI strategy, enterprise software, competitive moats. Passes.\n\n**Step 3 \u2014 Style fit gate**\nHot take on a major AI infrastructure deal. Works well.\n\n**Step 4 \u2014 Generate**\n\nThe real story: Anthropic just decoupled from the AWS/Azure oligopoly for compute. Every enterprise AI vendor now has to ask who their SpaceX is.\n\n---\n\nSelf-review: Directly engages the seismic infrastructure partnership claim. No banned patterns. No em-dashes. No first-person. Under 240 characters. Leads affirmative.\n\nThe real story: Anthropic just decoupled from the AWS/Azure oligopoly for compute. Every enterprise AI vendor now has to ask who their SpaceX is.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-07T14:04:22.876698+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 213,
+      "sent_to_telegram_at": "2026-05-07T14:04:22.876698+00:00"
+    },
+    {
+      "tweet_id": "2052387117938917736",
+      "tweet_url": "https://x.com/KobeissiLetter/status/2052387117938917736#m",
+      "tweet_author": "KobeissiLetter",
+      "tweet_text": "The bond market is under serious pressure.\n\nThe 10Y Treasury yield now exceeds the S&P 500\u2019s earnings yield by ~90 basis points, the 2nd-largest negative spread in 24 years.\n\nOver the last 5 years, the difference in yield has dropped -680 basis points.\n\nThe S&P 500 equity risk premium has been negative since mid-2024, except for a brief jump in April 2025.\n\nThis means that, in theory, less risky 10-year Treasuries are now offering a higher yield than the S&P 500.\n\nIn other words, investors are p",
+      "reply_text": "**Step 1 \u2014 What is OP actually claiming?**\nThe S&P 500's earnings yield has fallen below the 10-year Treasury yield by ~90bps (the 2nd-largest negative spread in 24 years), meaning equities are no longer compensating investors for taking on more risk than Treasuries \u2014 the equity risk premium has turned negative.\n\n**Step 2 \u2014 Topic fit gate:** Macro, markets, monetary policy. Clear fit.\n\n**Step 3 \u2014 Style fit gate:** The post is data-dense and forward-looking. A sharper question that opens an unaddressed dimension (named actors/mechanisms) would add genuine value here. Gate passes.\n\n**Step 4 \u2014 Generate:**\n\nThe OP addresses the spread but not *who* is actually absorbing this pricing. The unaddressed dimension: foreign sovereign buyers (Japan, China) have been reducing Treasury holdings, so who is clearing the market at these yields, and does that actor's identity change the read on duration risk?\n\n---\n\nWith Japan's life insurers cutting duration exposure and China trimming holdings since 2022, does the residual bid from domestic money-market funds at the short end mask who is actually absorbing 10Y supply, and at what capitulation yield?\n\n*(238 characters)*\n\nWith Japan's life insurers cutting duration exposure and China trimming holdings since 2022, does the residual bid from domestic money-market funds at the short end mask who is actually absorbing 10Y supply, and at what capitulation yield?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-07T14:04:22.876698+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 211,
+      "sent_to_telegram_at": "2026-05-07T14:04:22.876698+00:00"
+    },
     {
       "tweet_id": "2052088323548885209",
       "tweet_url": "https://x.com/fchollet/status/2052088323548885209#m",
