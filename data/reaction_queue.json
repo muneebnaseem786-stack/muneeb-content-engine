@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T21:05:33.265328+00:00",
+  "last_updated": "2026-05-07T10:40:39.019583+00:00",
   "posts": [
     {
       "topic": "Robinhood venture fund retail democratization of private markets",
@@ -255,7 +255,11 @@
       "generated_at": "2026-05-06T21:05:32.402254+00:00",
       "status": "auto_sent",
       "telegram_message_id": 189,
-      "sent_to_telegram_at": "2026-05-06T21:05:33.265311+00:00"
+      "sent_to_telegram_at": "2026-05-06T21:05:33.265311+00:00",
+      "posted_tweet_id": "2052226441212039465",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2052226441212039465",
+      "posted_at": "2026-05-07T03:18:06+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "B2B SaaS winners in the AI cycle \u2014 what the stock performance data actually reveals",
@@ -511,7 +515,11 @@
       "generated_at": "2026-05-06T11:35:01.515182+00:00",
       "status": "auto_sent",
       "telegram_message_id": 186,
-      "sent_to_telegram_at": "2026-05-06T11:35:02.208134+00:00"
+      "sent_to_telegram_at": "2026-05-06T11:35:02.208134+00:00",
+      "posted_tweet_id": "2051990220028154354",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2051990220028154354",
+      "posted_at": "2026-05-06T11:39:27+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "AI driving enterprise-only YC batch \u2014 structural signal for consumer AI economics",
@@ -767,7 +775,11 @@
       "generated_at": "2026-05-06T05:44:22.613699+00:00",
       "status": "auto_sent",
       "telegram_message_id": 175,
-      "sent_to_telegram_at": "2026-05-06T05:44:23.674399+00:00"
+      "sent_to_telegram_at": "2026-05-06T05:44:23.674399+00:00",
+      "posted_tweet_id": "2051903030887383078",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2051903030887383078",
+      "posted_at": "2026-05-06T05:52:59+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Buffett Indicator at 215% and what Buffett's own cash position reveals about the signal",
@@ -1023,7 +1035,11 @@
       "generated_at": "2026-05-06T04:44:15.562403+00:00",
       "status": "auto_sent",
       "telegram_message_id": 173,
-      "sent_to_telegram_at": "2026-05-06T04:44:16.759793+00:00"
+      "sent_to_telegram_at": "2026-05-06T04:44:16.759793+00:00",
+      "posted_tweet_id": "2051886172872282181",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2051886172872282181",
+      "posted_at": "2026-05-06T04:46:00+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "AI chatbot legal liability and corporate accountability",
@@ -1279,7 +1295,11 @@
       "generated_at": "2026-05-05T20:26:31.829823+00:00",
       "status": "auto_sent",
       "telegram_message_id": 170,
-      "sent_to_telegram_at": "2026-05-05T20:26:33.571149+00:00"
+      "sent_to_telegram_at": "2026-05-05T20:26:33.571149+00:00",
+      "posted_tweet_id": "2051883003891327241",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2051883003891327241",
+      "posted_at": "2026-05-06T04:33:24+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Anthropic named AI agents as a B2B sales strategy \u2014 shifting budget ownership from IT to finance",
