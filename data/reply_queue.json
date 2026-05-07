@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-05-07T14:17:44.652255+00:00",
+  "last_updated": "2026-05-07T20:52:00.702327+00:00",
   "replies": [
+    {
+      "tweet_id": "2052222531143082429",
+      "tweet_url": "https://x.com/RushDoshi/status/2052222531143082429#m",
+      "tweet_author": "RushDoshi",
+      "tweet_text": "This scoop from @Lingling_Wei says the US and China are considering an AI dialogue or crisis hotline. \n\nHere's what I told her, drawing from past experience. \n\nDialogue is absolutely essential, but we need to level-set expectations based on the track record: \n\n1) We negotiated an AI dialogue in 2023, but the PRC  tried to extract concessions on unrelated issues to even hold it; when we held the dialogue, they didn't send the right folks.\n\n2) We do have crisis comms lines, but the PRC has not pic",
+      "reply_text": "The hotline is theater. China treats every dialogue channel as a bargaining chip, not a safety valve. Geneva 1955, INCSEA 1972 \u2014 they only work when both sides want to avoid accidents more than they want leverage.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-07T20:52:00.702327+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 227,
+      "sent_to_telegram_at": "2026-05-07T20:52:00.702327+00:00"
+    },
+    {
+      "tweet_id": "2052422157310083493",
+      "tweet_url": "https://x.com/AndrewYNg/status/2052422157310083493#m",
+      "tweet_author": "AndrewYNg",
+      "tweet_text": "New course: Build agents that respond to users with not only plaintext, but custom UIs like charts, forms, and whiteboards, generated on demand and displayed right in the chat. This short course is built in partnership with  @CopilotKit and taught by @ataiiam, co-founder of CopilotKit.\n\nYou'll learn three approaches: Your agent can pick from custom components you build, like charts and forms. It can compose new layouts from a set of building blocks you provide, like rows, cards, and text. Or it ",
+      "reply_text": "74% of enterprise chat interfaces still render plaintext only. Generative UI closes that gap faster than any prompt optimization, which is why this architecture matters more than the model underneath it.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-07T20:52:00.702327+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 225,
+      "sent_to_telegram_at": "2026-05-07T20:52:00.702327+00:00"
+    },
+    {
+      "tweet_id": "2052453925677146591",
+      "tweet_url": "https://x.com/matt_levine/status/2052453925677146591#m",
+      "tweet_author": "matt_levine",
+      "tweet_text": "This newsletter is confused and worried at the same time. bloomberg.com/opinion/newsle\u2026",
+      "reply_text": "Confused and worried is the honest register here. But which mechanism is doing more work: the ambiguity in the rule itself, or the market's assumption that the Fed will eventually bail out whichever actor misprices it first?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-07T20:52:00.702327+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 223,
+      "sent_to_telegram_at": "2026-05-07T20:52:00.702327+00:00"
+    },
     {
       "tweet_id": "2052043494567432558",
       "tweet_url": "https://x.com/stuartbuck1/status/2052043494567432558#m",
