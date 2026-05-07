@@ -282,69 +282,6 @@ def fetch_my_recent_posts(
     return out
 
 
-def fetch_tweet_engagement_via_nitter(
-    handle: str,
-    tweet_id: str,
-    nitter_instances: list[str],
-) -> dict | None:
-    """Scrape engagement counts for a specific tweet from Nitter.
-
-    Nitter renders likes/retweets/replies/quotes as visible numbers on each
-    tweet's page. Used because X API free tier no longer exposes tweet
-    metrics for ANY endpoint (confirmed 2026-05-07 via 401 on get_tweet).
-
-    Returns a metrics dict with keys matching X API public_metrics shape:
-    {like_count, reply_count, retweet_count, quote_count, bookmark_count}
-    Bookmark count is unavailable from Nitter — set to 0.
-
-    Returns None if all instances fail.
-    """
-    for instance in nitter_instances:
-        try:
-            url = f"https://{instance}/{handle}/status/{tweet_id}"
-            resp = requests.get(url, timeout=TIMEOUT, headers=HEADERS)
-            if resp.status_code != 200:
-                continue
-            html = resp.text
-
-            # Nitter renders engagement stats in a div with class "tweet-stats"
-            # containing icon-spans for comments / retweets / quotes / likes.
-            # Each stat is in a <span class="tweet-stat"><div class="icon-container">
-            # <span class="icon-{name}"></span> NUMBER </div></span>
-            # We extract by matching the icon class and capturing the trailing number.
-            def _extract(icon_name: str) -> int:
-                pattern = rf'icon-{icon_name}[^<]*</span>\s*([\d,\.KkMm]+)'
-                m = re.search(pattern, html)
-                if not m:
-                    return 0
-                raw = m.group(1).replace(",", "").strip()
-                try:
-                    if raw.lower().endswith("k"):
-                        return int(float(raw[:-1]) * 1000)
-                    if raw.lower().endswith("m"):
-                        return int(float(raw[:-1]) * 1_000_000)
-                    return int(float(raw))
-                except (ValueError, TypeError):
-                    return 0
-
-            metrics = {
-                "reply_count":    _extract("comment"),
-                "retweet_count":  _extract("retweet"),
-                "quote_count":    _extract("quote"),
-                "like_count":     _extract("heart"),
-                "bookmark_count": 0,  # Nitter doesn't expose this
-            }
-            # Sanity check — if all zeros, the page may not have rendered;
-            # try next instance.
-            if any(v > 0 for v in metrics.values()):
-                return metrics
-        except Exception as e:
-            print(f"[sources] Nitter engagement {instance}/{tweet_id} error: {e}")
-            continue
-    # All instances tried — return zeros so we still record an attempt
-    return {"reply_count": 0, "retweet_count": 0, "quote_count": 0, "like_count": 0, "bookmark_count": 0}
-
-
 def filter_recent_authors(
     candidates: list[dict],
     queue: dict,
