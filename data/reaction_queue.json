@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07T10:40:39.019583+00:00",
+  "last_updated": "2026-05-07T10:49:33.549907+00:00",
   "posts": [
     {
       "topic": "Robinhood venture fund retail democratization of private markets",
@@ -259,7 +259,16 @@
       "posted_tweet_id": "2052226441212039465",
       "posted_tweet_url": "https://x.com/MuneebNaseem/status/2052226441212039465",
       "posted_at": "2026-05-07T03:18:06+00:00",
-      "attribution_method": "nitter_auto"
+      "attribution_method": "nitter_auto",
+      "engagement_metrics": {
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0,
+        "like_count": 0,
+        "bookmark_count": 0
+      },
+      "engagement_score": 0.0,
+      "metrics_updated_at": "2026-05-07T10:49:12.222145+00:00"
     },
     {
       "topic": "B2B SaaS winners in the AI cycle \u2014 what the stock performance data actually reveals",
@@ -519,7 +528,16 @@
       "posted_tweet_id": "2051990220028154354",
       "posted_tweet_url": "https://x.com/MuneebNaseem/status/2051990220028154354",
       "posted_at": "2026-05-06T11:39:27+00:00",
-      "attribution_method": "nitter_auto"
+      "attribution_method": "nitter_auto",
+      "engagement_metrics": {
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0,
+        "like_count": 0,
+        "bookmark_count": 0
+      },
+      "engagement_score": 0.0,
+      "metrics_updated_at": "2026-05-07T10:49:12.222145+00:00"
     },
     {
       "topic": "AI driving enterprise-only YC batch \u2014 structural signal for consumer AI economics",
@@ -779,7 +797,16 @@
       "posted_tweet_id": "2051903030887383078",
       "posted_tweet_url": "https://x.com/MuneebNaseem/status/2051903030887383078",
       "posted_at": "2026-05-06T05:52:59+00:00",
-      "attribution_method": "nitter_auto"
+      "attribution_method": "nitter_auto",
+      "engagement_metrics": {
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0,
+        "like_count": 0,
+        "bookmark_count": 0
+      },
+      "engagement_score": 0.0,
+      "metrics_updated_at": "2026-05-07T10:49:12.222145+00:00"
     },
     {
       "topic": "Buffett Indicator at 215% and what Buffett's own cash position reveals about the signal",
@@ -1039,7 +1066,16 @@
       "posted_tweet_id": "2051886172872282181",
       "posted_tweet_url": "https://x.com/MuneebNaseem/status/2051886172872282181",
       "posted_at": "2026-05-06T04:46:00+00:00",
-      "attribution_method": "nitter_auto"
+      "attribution_method": "nitter_auto",
+      "engagement_metrics": {
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0,
+        "like_count": 0,
+        "bookmark_count": 0
+      },
+      "engagement_score": 0.0,
+      "metrics_updated_at": "2026-05-07T10:49:12.222145+00:00"
     },
     {
       "topic": "AI chatbot legal liability and corporate accountability",
@@ -1299,7 +1335,16 @@
       "posted_tweet_id": "2051883003891327241",
       "posted_tweet_url": "https://x.com/MuneebNaseem/status/2051883003891327241",
       "posted_at": "2026-05-06T04:33:24+00:00",
-      "attribution_method": "nitter_auto"
+      "attribution_method": "nitter_auto",
+      "engagement_metrics": {
+        "reply_count": 0,
+        "retweet_count": 0,
+        "quote_count": 0,
+        "like_count": 0,
+        "bookmark_count": 0
+      },
+      "engagement_score": 0.0,
+      "metrics_updated_at": "2026-05-07T10:49:12.222145+00:00"
     },
     {
       "topic": "Anthropic named AI agents as a B2B sales strategy \u2014 shifting budget ownership from IT to finance",
