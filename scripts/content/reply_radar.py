@@ -70,12 +70,15 @@ REPLY_STYLES = [
     {
         "name": "historical_parallel",
         "instructions": (
-            "Drop a specific historical parallel. Name a year, person, or "
-            "amount the original post did not mention. Present tense for "
-            "historical events. Sounds like someone who reads primary sources, "
-            "not a textbook. End on a flat statement that lands."
+            "Drop a specific historical parallel from POST-2000 finance/markets/macro. "
+            "Recent events only — SVB, Credit Suisse, Bear Stearns, Lehman, "
+            "2008 GFC, Argentina default, Greek crisis, COVID-era stimulus, "
+            "2022 stablecoin depeg, FTX collapse, Silicon Valley Bank, Signature, "
+            "First Republic. Name a year/quarter, name the actor, name the amount. "
+            "Present tense. Skip 19th/early-20th century examples — that's F&R's lane, "
+            "not Muneeb's. End on a flat statement that lands."
         ),
-        "example": "1873. Jay Cooke's bank fails on a Thursday. Same week, the NYSE shuts for ten days. Nobody calls it a panic until the railroads stop paying.",
+        "example": "March 2023. SVB deposit run takes 36 hours. Credit Suisse rolled into UBS the same weekend. The era of orderly resolutions ended that month.",
     },
     {
         "name": "reframe",
@@ -333,6 +336,8 @@ def run(dry_run: bool = False) -> None:
     new_authors: list[str] = []
     now_iso = datetime.now(timezone.utc).isoformat()
 
+    sent_count = 0
+    skipped_count = 0
     for i, (post, style) in enumerate(zip(selected, styles), 1):
         print(f"[reply-radar] {i}/{len(selected)} @{post['handle']} · {style['name']}")
         try:
@@ -343,7 +348,22 @@ def run(dry_run: bool = False) -> None:
             print(f"[reply-radar] LLM error: {e}")
             continue
 
-        msg_id = send_suggestion_to_telegram(post, reply_text, style["name"], i, len(selected))
+        # SKIP gate — agent declined topic/style mismatch
+        if reply_text.strip().upper().startswith("REPLY: SKIP") or reply_text.strip().upper().startswith("SKIP"):
+            skipped_count += 1
+            reason = ""
+            for line in reply_text.splitlines():
+                low = line.strip().lower()
+                if low.startswith("reason:"):
+                    reason = line.split(":", 1)[1].strip()
+                    break
+            print(f"  ⊘ Skipped: {reason or '(no reason)'}")
+            # Do NOT cooldown skipped authors — give them a chance on a fresher post
+            continue
+
+        # Sent path
+        sent_count += 1
+        msg_id = send_suggestion_to_telegram(post, reply_text, style["name"], sent_count, SUGGESTIONS_PER_RUN)
 
         # Extract tweet_id from URL for queue entry
         import re
@@ -367,7 +387,7 @@ def run(dry_run: bool = False) -> None:
     queue["last_updated"] = now_iso
     _save_json(QUEUE_PATH, queue)
     save_recent_authors(recent, new_authors)
-    print(f"[reply-radar] Done. Sent {len(new_authors)} suggestions.")
+    print(f"[reply-radar] Done. Sent {sent_count}, skipped {skipped_count} on quality gates.")
 
 
 def main() -> None:
