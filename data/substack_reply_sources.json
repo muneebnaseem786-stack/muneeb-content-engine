@@ -1,0 +1,190 @@
+{
+  "_comment": "Curated Substack publications for the Substack Reply Radar. Each entry has a handle (substack subdomain), RSS feed URL, tier (1=core, 2=secondary), and content pillars. The radar fetches articles via RSS and attempts Notes via unofficial API.",
+  "publications": [
+    {
+      "name": "Net Interest",
+      "handle": "netinterest",
+      "feed_url": "https://netinterest.substack.com/feed",
+      "tier": 1,
+      "pillars": ["fintech", "banking", "private_markets"]
+    },
+    {
+      "name": "Not Boring",
+      "handle": "notboring",
+      "feed_url": "https://www.notboring.co/feed",
+      "tier": 1,
+      "pillars": ["tech_strategy", "private_markets", "ai"]
+    },
+    {
+      "name": "The Generalist",
+      "handle": "thegeneralist",
+      "feed_url": "https://thegeneralist.substack.com/feed",
+      "tier": 1,
+      "pillars": ["tech_strategy", "private_markets"]
+    },
+    {
+      "name": "Fintech Blueprint",
+      "handle": "fintechblueprint",
+      "feed_url": "https://fintechblueprint.substack.com/feed",
+      "tier": 1,
+      "pillars": ["fintech", "crypto", "payments"]
+    },
+    {
+      "name": "Doomberg",
+      "handle": "doomberg",
+      "feed_url": "https://doomberg.substack.com/feed",
+      "tier": 1,
+      "pillars": ["macro", "commodities", "energy"]
+    },
+    {
+      "name": "Fintech Takes",
+      "handle": "fintechgtakes",
+      "feed_url": "https://fintechgtakes.substack.com/feed",
+      "tier": 1,
+      "pillars": ["fintech", "payments", "regulation"]
+    },
+    {
+      "name": "Import AI",
+      "handle": "importai",
+      "feed_url": "https://importai.substack.com/feed",
+      "tier": 2,
+      "pillars": ["ai", "enterprise_tech"]
+    },
+    {
+      "name": "Exponential View",
+      "handle": "exponentialview",
+      "feed_url": "https://www.exponentialview.co/feed",
+      "tier": 2,
+      "pillars": ["ai", "enterprise_tech", "macro"]
+    },
+    {
+      "name": "Big Technology",
+      "handle": "bigtechnology",
+      "feed_url": "https://bigtechnology.substack.com/feed",
+      "tier": 2,
+      "pillars": ["ai", "tech_strategy"]
+    },
+    {
+      "name": "One Useful Thing",
+      "handle": "oneusefulthing",
+      "feed_url": "https://www.oneusefulthing.org/feed",
+      "tier": 2,
+      "pillars": ["ai", "enterprise_tech"]
+    },
+    {
+      "name": "Lenny's Newsletter",
+      "handle": "lennysnewsletter",
+      "feed_url": "https://www.lennysnewsletter.com/feed",
+      "tier": 2,
+      "pillars": ["saas", "enterprise_tech"]
+    },
+    {
+      "name": "Bankless",
+      "handle": "bankless",
+      "feed_url": "https://bankless.substack.com/feed",
+      "tier": 2,
+      "pillars": ["crypto", "payments", "defi"]
+    },
+    {
+      "name": "Slow Boring",
+      "handle": "slowboring",
+      "feed_url": "https://www.slowboring.com/feed",
+      "tier": 2,
+      "pillars": ["macro", "policy"]
+    },
+    {
+      "name": "Tom Tunguz",
+      "handle": "tomtunguz",
+      "feed_url": "https://tomtunguz.substack.com/feed",
+      "tier": 2,
+      "pillars": ["saas", "private_markets", "ai"]
+    },
+    {
+      "name": "Platformer",
+      "handle": "platformer",
+      "feed_url": "https://www.platformer.news/feed",
+      "tier": 2,
+      "pillars": ["tech_strategy", "ai"]
+    },
+    {
+      "name": "The Diff",
+      "handle": "thediff",
+      "feed_url": "https://www.thediff.co/feed",
+      "tier": 1,
+      "pillars": ["macro", "private_markets", "fintech"]
+    },
+    {
+      "name": "Money Stuff (Matt Levine via Bloomberg)",
+      "handle": "moneystuff",
+      "feed_url": "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine.rss",
+      "tier": 1,
+      "pillars": ["fintech", "markets", "private_markets"]
+    },
+    {
+      "name": "Unchained Crypto",
+      "handle": "unchainedcrypto",
+      "feed_url": "https://unchainedcrypto.substack.com/feed",
+      "tier": 2,
+      "pillars": ["crypto", "payments", "stablecoins"]
+    },
+    {
+      "name": "Galaxy Research",
+      "handle": "galaxyresearch",
+      "feed_url": "https://www.galaxy.com/research/feed/",
+      "tier": 2,
+      "pillars": ["crypto", "stablecoins", "payments"]
+    },
+    {
+      "name": "Dirt",
+      "handle": "dirtmedia",
+      "feed_url": "https://dirt.substack.com/feed",
+      "tier": 3,
+      "pillars": ["tech_culture"]
+    },
+    {
+      "name": "Robin Wigglesworth (Alphaville)",
+      "handle": "robinwigglesworth",
+      "feed_url": "https://robinwigglesworth.substack.com/feed",
+      "tier": 2,
+      "pillars": ["macro", "markets", "private_markets"]
+    },
+    {
+      "name": "Tanvir Ahmed",
+      "handle": "tanvirahmed",
+      "feed_url": "https://tanvirahmed.substack.com/feed",
+      "tier": 1,
+      "pillars": ["fintech", "mena", "pakistan"]
+    },
+    {
+      "name": "The Capital Letter",
+      "handle": "capitalletterfinance",
+      "feed_url": "https://capitalletterfinance.substack.com/feed",
+      "tier": 2,
+      "pillars": ["private_markets", "fintech"]
+    },
+    {
+      "name": "Bessemer Venture",
+      "handle": "bvp",
+      "feed_url": "https://www.bvp.com/atlas/rss.xml",
+      "tier": 2,
+      "pillars": ["saas", "private_markets", "ai"]
+    },
+    {
+      "name": "a16z Future",
+      "handle": "future",
+      "feed_url": "https://a16z.com/feed/",
+      "tier": 2,
+      "pillars": ["tech_strategy", "ai", "fintech", "crypto"]
+    }
+  ],
+  "config": {
+    "article_lookback_hours": 48,
+    "note_lookback_hours": 24,
+    "min_text_chars": 100,
+    "candidates_to_score": 20,
+    "score_threshold": 4.0,
+    "dedup_window_days": 14,
+    "publication_cooldown_days": 5,
+    "suggestions_per_run": 2
+  }
+}

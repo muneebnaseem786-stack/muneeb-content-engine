@@ -13,12 +13,13 @@ from datetime import datetime, timezone
 
 BOT_TOKEN              = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID                = os.environ["TELEGRAM_CHAT_ID"]
-QUEUE_PATH             = "data/reaction_queue.json"
-REPLY_QUEUE_PATH       = "data/reply_queue.json"
-IDEAS_PATH             = "data/content_ideas.json"
-SUBSTACK_PATH          = "data/substack_articles.json"
-LINKEDIN_PATH          = "data/linkedin_posts.json"
-ARTICLE_JURY_PATH      = "data/article_jury.json"
+QUEUE_PATH                  = "data/reaction_queue.json"
+REPLY_QUEUE_PATH            = "data/reply_queue.json"
+SUBSTACK_REPLY_QUEUE_PATH   = "data/substack_reply_queue.json"
+IDEAS_PATH                  = "data/content_ideas.json"
+SUBSTACK_PATH               = "data/substack_articles.json"
+LINKEDIN_PATH               = "data/linkedin_posts.json"
+ARTICLE_JURY_PATH           = "data/article_jury.json"
 DASHBOARD_URL          = "https://muneeb-content.streamlit.app"
 API                    = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
@@ -110,6 +111,60 @@ def _send_reply(reply: dict) -> int | None:
     if resp.status_code == 200:
         return resp.json()["result"]["message_id"]
     print(f"sendMessage(reply) failed [{resp.status_code}]: {resp.text}")
+    return None
+
+
+# ── SUBSTACK REPLY RADAR (new) ───────────────────────────────────────────────
+
+def _send_substack_reply(item: dict) -> int | None:
+    """Send a Substack Reply Radar suggestion as 2 messages.
+      1. Context: publication, title, excerpt, URL, action type
+      2. Raw content: restack comment or reply text + Open on Substack button
+    Returns msg_id of message 1."""
+    action    = item.get("action", "REPLY")
+    pub_name  = item.get("publication_name", "")
+    title     = item.get("content_title", "")
+    excerpt   = (item.get("content_excerpt", "") or "")[:300]
+    url       = item.get("content_url", "")
+    c_type    = item.get("content_type", "article")
+    a_icon    = "🔁" if action == "RESTACK" else "💬"
+    t_icon    = "📝" if c_type == "article" else "📌"
+
+    msg1 = (
+        f"{a_icon} <b>Substack {action}</b> — {_esc(pub_name)}\n\n"
+        f"{t_icon} <b>{_esc(title)}</b>\n\n"
+        f"<i>{_esc(excerpt)}</i>\n\n"
+        f'🔗 <a href="{url}">Open on Substack</a>'
+    )
+    requests.post(f"{API}/sendMessage", json={
+        "chat_id":    CHAT_ID,
+        "text":       msg1,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": False,
+    }, timeout=15)
+
+    if action == "RESTACK":
+        content = item.get("restack_comment", "")
+        label   = "🔁 <b>Restack comment</b> (add when you restack):"
+    else:
+        content = item.get("reply_text", "")
+        label   = "💬 <b>Reply</b> (paste into Substack comments):"
+
+    msg2 = f"{label}\n\n<pre>{_esc(content)}</pre>"
+    keyboard = {"inline_keyboard": [[{"text": "Open on Substack", "url": url}]]} if url else None
+
+    payload = {
+        "chat_id":    CHAT_ID,
+        "text":       msg2,
+        "parse_mode": "HTML",
+    }
+    if keyboard:
+        payload["reply_markup"] = keyboard
+
+    resp = requests.post(f"{API}/sendMessage", json=payload, timeout=15)
+    if resp.status_code == 200:
+        return resp.json()["result"]["message_id"]
+    print(f"sendMessage(substack-reply) failed [{resp.status_code}]: {resp.text}")
     return None
 
 
@@ -325,6 +380,26 @@ def notify_pending() -> None:
     except FileNotFoundError:
         print(f"{REPLY_QUEUE_PATH} not found")
 
+    # Substack Reply Radar
+    substack_reply_sent = 0
+    try:
+        with open(SUBSTACK_REPLY_QUEUE_PATH) as f:
+            srq = json.load(f)
+        for item in srq.get("items", []):
+            if item.get("status") != "pending" or item.get("telegram_message_id"):
+                continue
+            mid = _send_substack_reply(item)
+            if mid:
+                item["telegram_message_id"] = mid
+                item["sent_to_telegram_at"] = datetime.now(timezone.utc).isoformat()
+                substack_reply_sent += 1
+        if substack_reply_sent:
+            srq["last_updated"] = datetime.now(timezone.utc).isoformat()
+            with open(SUBSTACK_REPLY_QUEUE_PATH, "w") as f:
+                json.dump(srq, f, indent=2)
+    except FileNotFoundError:
+        print(f"{SUBSTACK_REPLY_QUEUE_PATH} not found")
+
     # Daily Ideas
     idea_sent = 0
     try:
@@ -405,8 +480,8 @@ def notify_pending() -> None:
         print(f"{ARTICLE_JURY_PATH} not found")
 
     print(
-        f"Sent {sent_total} reactions + {reply_sent} replies + {idea_sent} ideas + "
-        f"{article_sent} articles + {li_sent} LinkedIn posts + {jury_sent} jury notifications"
+        f"Sent {sent_total} reactions + {reply_sent} replies + {substack_reply_sent} substack-replies + "
+        f"{idea_sent} ideas + {article_sent} articles + {li_sent} LinkedIn posts + {jury_sent} jury notifications"
     )
 
 
