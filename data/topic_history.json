@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-06T03:16:44.809567+00:00",
+  "last_updated": "2026-05-07T03:20:54.651392+00:00",
   "topics": [
+    {
+      "topic": "Export Controls Didn't Delay China. They Funded the Other Lane.",
+      "source_url": "https://www.computerworld.com/article/4116792/chinese-ai-firm-trains-state-of-the-art-model-entirely-on-huawei-chips-2.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-07T03:20:54.651392+00:00"
+    },
+    {
+      "topic": "Software Never Traded Cheap. Until Now.",
+      "source_url": "https://www.saastr.com/the-saas-rout-of-2026-is-even-worse-than-you-think-for-the-first-time-ever-software-now-trades-at-a-discount-to-the-sp-500/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-07T03:20:54.651392+00:00"
+    },
+    {
+      "topic": "The AI Lab That's Funding Its Own Landlord",
+      "source_url": "https://www.androidheadlines.com/2026/05/anthropic-google-200-billion-ai-infrastructure-deal.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-07T03:20:54.651392+00:00"
+    },
     {
       "topic": "Anthropic Built the Most Capable Hacking Model Ever. Then Refused to Sell It.",
       "source_url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
