@@ -1,37 +1,41 @@
 """Auto-attribute Reaction Radar reactions to posted X tweets via Nitter,
-then refresh engagement metrics via X API free tier.
+then scrape engagement counts via Nitter (no X API).
 
-Pipeline (revised 2026-05-07 — fully automated, no manual URL paste):
+Pipeline (revised 2026-05-07 — fully free, fully automated):
 
-  1. Nitter profile RSS scrape of @MuneebNaseem (last 7 days). Gets tweet IDs
-     and text. No X API needed for this step — Nitter is free and we already
-     use it for the 189-account source list.
+  1. Nitter profile RSS scrape of @MuneebNaseem (last 7 days). Gets tweet
+     IDs and text.
 
   2. Fuzzy-match each Nitter-fetched tweet against unmatched auto_sent
      reactions in data/reaction_queue.json (50-char normalized fingerprint
      on x_post text). When matched, write posted_tweet_id back into the
      queue entry.
 
-  3. For each queue entry with posted_tweet_id and stale/missing metrics,
-     call client.get_tweet(id) (X API free tier, rate-limited but workable
-     at our volume) to fetch fresh public_metrics.
+  3. For each queue entry with posted_tweet_id within the 30-day refresh
+     window, scrape engagement counts from the tweet's Nitter page
+     (likes / replies / retweets / quotes — bookmark unavailable).
 
-  4. Compute engagement_score = 1×likes + 2×replies + 3×reposts + 5×quotes
-     + 0.5×bookmarks. Quotes weighted highest because a QT-of-our-post = a
-     fresh take from someone with their own audience extending us.
+  4. Compute engagement_score = 1×likes + 2×replies + 3×reposts + 5×quotes.
+     Quotes weighted highest because a QT-of-our-post = a fresh take from
+     someone with their own audience extending us.
 
   5. Refresh metrics daily (nightly cron) for any tweet posted within the
      last 30 days. Older tweets effectively freeze.
 
-Manual fallback: poller.py also detects pasted x.com URLs in Telegram replies
-and writes posted_tweet_id directly. Used if Nitter scrape misses an edit
-or there's an attribution gap.
+X API tier changes (2026-05-07): free tier no longer exposes ANY tweet
+read endpoints (confirmed 401 on both get_users_tweets and get_tweet).
+Only POST tweet and users/me remain free. We bypass X API entirely for
+metrics.
+
+Manual fallback: poller.py also detects pasted x.com URLs in Telegram
+replies and writes posted_tweet_id directly. Used if Nitter scrape misses
+an edit or there's an attribution gap.
 """
 
 import os
 import re
+import time
 import json
-import tweepy
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -43,16 +47,16 @@ SOURCES_PATH  = "data/reaction_sources.json"
 REFRESH_LOOKBACK_DAYS = 30
 
 # How far back to scrape my own profile via Nitter for auto-attribution.
-# Longer than source-account fetch window so missed days can backfill.
 NITTER_LOOKBACK_DAYS = 7
 
 # Match window for fuzzy attribution between scraped tweets and queued reactions.
-# 50 chars covers the load-bearing thesis sentence — distinctive across reactions,
-# tolerates light edits to the QT text.
 ATTRIBUTION_MATCH_CHARS = 50
 
 # My X handle. Hardcoded since this script is single-user.
 MY_HANDLE = "MuneebNaseem"
+
+# Sleep between Nitter engagement fetches to be polite.
+NITTER_FETCH_SLEEP = 1.0
 
 ENGAGEMENT_WEIGHTS = {
     "like_count":     1.0,
@@ -61,16 +65,6 @@ ENGAGEMENT_WEIGHTS = {
     "quote_count":    5.0,
     "bookmark_count": 0.5,
 }
-
-
-def _get_client() -> tweepy.Client:
-    return tweepy.Client(
-        consumer_key=os.environ["X_API_KEY"],
-        consumer_secret=os.environ["X_API_SECRET"],
-        access_token=os.environ["X_ACCESS_TOKEN"],
-        access_token_secret=os.environ["X_ACCESS_TOKEN_SECRET"],
-        wait_on_rate_limit=True,
-    )
 
 
 def _normalize(s: str, n: int = ATTRIBUTION_MATCH_CHARS) -> str:
@@ -105,10 +99,7 @@ def _load_nitter_instances() -> list[str]:
 
 def _auto_attribute_via_nitter(queue: dict) -> int:
     """Scrape my own recent X posts via Nitter, fuzzy-match against unmatched
-    auto_sent reactions, write posted_tweet_id when matched. Returns count
-    of new attributions.
-    """
-    # Late import to avoid Tweepy/Nitter dep coupling at module load
+    auto_sent reactions, write posted_tweet_id when matched."""
     from scripts.content.sources import fetch_my_recent_posts
 
     instances = _load_nitter_instances()
@@ -131,7 +122,6 @@ def _auto_attribute_via_nitter(queue: dict) -> int:
         print("  No unmatched reactions in queue.")
         return 0
 
-    # Build normalized fingerprints for each unmatched reaction
     candidates = [
         (entry, _normalize(entry.get("x_post", "")))
         for entry in unmatched
@@ -139,7 +129,6 @@ def _auto_attribute_via_nitter(queue: dict) -> int:
     candidates = [(e, fp) for (e, fp) in candidates if fp]
 
     new_matches = 0
-    now_iso = datetime.now(timezone.utc).isoformat()
 
     for tweet in my_posts:
         tweet_norm = _normalize(tweet["text"])
@@ -147,14 +136,12 @@ def _auto_attribute_via_nitter(queue: dict) -> int:
             continue
         for entry, fp in candidates:
             if entry.get("posted_tweet_id"):
-                continue  # already matched in this pass
-            # Match if tweet leading chars equal fingerprint OR fingerprint
-            # appears within first 200 chars (handles QT prefix).
+                continue
             if (tweet_norm[:ATTRIBUTION_MATCH_CHARS] == fp
                 or fp in tweet_norm[:200]):
-                entry["posted_tweet_id"]  = tweet["tweet_id"]
-                entry["posted_tweet_url"] = tweet["url"]
-                entry["posted_at"]        = tweet["published_at"]
+                entry["posted_tweet_id"]    = tweet["tweet_id"]
+                entry["posted_tweet_url"]   = tweet["url"]
+                entry["posted_at"]          = tweet["published_at"]
                 entry["attribution_method"] = "nitter_auto"
                 new_matches += 1
                 print(f"  ✓ Matched: '{tweet_norm[:60]}...' → reaction msg #{entry.get('telegram_message_id')}")
@@ -164,15 +151,18 @@ def _auto_attribute_via_nitter(queue: dict) -> int:
     return new_matches
 
 
-def _refresh_engagement_via_api(client: tweepy.Client, queue: dict) -> tuple[int, int]:
-    """For each queue entry with posted_tweet_id within lookback, call
-    client.get_tweet(id) for fresh metrics. Returns (refreshed, errors).
+def _refresh_engagement_via_nitter(queue: dict) -> tuple[int, int]:
+    """For each queue entry with posted_tweet_id within lookback, scrape
+    engagement counts from the tweet's Nitter page. Returns (refreshed, errors).
     """
+    from scripts.content.sources import fetch_tweet_engagement_via_nitter
+
+    instances = _load_nitter_instances()
     targets = [
         p for p in queue.get("posts", [])
         if p.get("posted_tweet_id") and _is_within_lookback(p.get("posted_at"))
     ]
-    print(f"Refreshing engagement for {len(targets)} attributed reaction(s)...")
+    print(f"Refreshing engagement for {len(targets)} attributed reaction(s) via Nitter...")
 
     refreshed = 0
     errors = 0
@@ -182,43 +172,33 @@ def _refresh_engagement_via_api(client: tweepy.Client, queue: dict) -> tuple[int
     for idx, entry in enumerate(targets, 1):
         tweet_id = entry["posted_tweet_id"]
         try:
-            response = client.get_tweet(
-                id=tweet_id,
-                tweet_fields=["public_metrics", "created_at", "text"],
+            metrics = fetch_tweet_engagement_via_nitter(
+                handle=MY_HANDLE,
+                tweet_id=tweet_id,
+                nitter_instances=instances,
             )
-            if not response or not response.data:
-                print(f"  [{idx}/{len(targets)}] {tweet_id}: no data returned")
+            if metrics is None:
+                print(f"  [{idx}/{len(targets)}] {tweet_id}: all Nitter instances failed")
                 errors += 1
                 continue
-            tweet = response.data
-            metrics = dict(tweet.public_metrics or {})
 
             entry["engagement_metrics"]   = metrics
             entry["engagement_score"]     = _engagement_score(metrics)
             entry["metrics_updated_at"]   = now_iso
-            if not entry.get("posted_at") and tweet.created_at:
-                entry["posted_at"] = tweet.created_at.isoformat()
 
             fetched_summaries.append({
-                "id":          str(tweet.id),
-                "url":         entry.get("posted_tweet_url",""),
-                "platform":    "X",
-                "text":        (tweet.text or "")[:280],
-                "topic":       entry.get("topic", ""),
-                "posted_at":   entry.get("posted_at"),
-                "metrics":     metrics,
+                "id":              str(tweet_id),
+                "url":             entry.get("posted_tweet_url", ""),
+                "topic":           entry.get("topic", ""),
+                "posted_at":       entry.get("posted_at"),
+                "metrics":         metrics,
                 "engagement_score": entry["engagement_score"],
                 "metrics_updated_at": now_iso,
             })
             score = entry["engagement_score"]
-            print(f"  [{idx}/{len(targets)}] {tweet_id}: score {score:.1f} | likes {metrics.get('like_count',0)} | quotes {metrics.get('quote_count',0)}")
+            print(f"  [{idx}/{len(targets)}] {tweet_id}: score {score:.1f} | likes {metrics.get('like_count',0)} | replies {metrics.get('reply_count',0)} | RTs {metrics.get('retweet_count',0)} | QTs {metrics.get('quote_count',0)}")
             refreshed += 1
-        except tweepy.errors.NotFound:
-            print(f"  [{idx}/{len(targets)}] {tweet_id}: tweet not found (deleted?)")
-            errors += 1
-        except tweepy.errors.TooManyRequests:
-            print(f"  [{idx}/{len(targets)}] {tweet_id}: rate limited; bailing on remainder")
-            break
+            time.sleep(NITTER_FETCH_SLEEP)
         except Exception as e:
             print(f"  [{idx}/{len(targets)}] {tweet_id}: {type(e).__name__}: {e}")
             errors += 1
@@ -229,12 +209,7 @@ def _refresh_engagement_via_api(client: tweepy.Client, queue: dict) -> tuple[int
 
 
 def fetch_metrics(log_path: str = LOG_PATH) -> None:
-    client = _get_client()
-    me = client.get_me()
-    if not me or not me.data:
-        print("ERROR: get_me() returned no user. Check OAuth credentials.")
-        return
-    print(f"Authenticated as @{me.data.username}")
+    print(f"Performance tracker — Nitter-only mode (X API free tier blocks tweet reads)")
 
     try:
         with open(QUEUE_PATH) as f:
@@ -243,11 +218,8 @@ def fetch_metrics(log_path: str = LOG_PATH) -> None:
         print(f"Could not load {QUEUE_PATH}; nothing to track.")
         return
 
-    # Step 1: auto-attribute via Nitter scraping of my own profile
     new_attribs = _auto_attribute_via_nitter(queue)
-
-    # Step 2: refresh engagement metrics via X API for attributed entries
-    refreshed, errors = _refresh_engagement_via_api(client, queue)
+    refreshed, errors = _refresh_engagement_via_nitter(queue)
 
     queue["last_updated"] = datetime.now(timezone.utc).isoformat()
     with open(QUEUE_PATH, "w") as f:
