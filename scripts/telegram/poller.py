@@ -410,8 +410,22 @@ def _handle_reply_skip(callback, reply, chat_id, message_id):
 
 # ── main ─────────────────────────────────────────────────────────────────────
 
+_TWEET_URL_RE = __import__("re").compile(
+    r"https?://(?:www\.)?(?:x\.com|twitter\.com)/[^/\s]+/status/(\d+)",
+    __import__("re").IGNORECASE,
+)
+
+
+def _extract_tweet_id(text: str) -> str | None:
+    """Return tweet ID if text contains an x.com or twitter.com /status/<id> URL."""
+    match = _TWEET_URL_RE.search(text or "")
+    return match.group(1) if match else None
+
+
 def _process_message(message) -> bool:
-    """Process a free-form text message as feedback. Returns True if attributed."""
+    """Process a free-form text message as feedback OR a posted-tweet URL.
+    Returns True if attributed to any item (reaction / reply / idea).
+    """
     text = (message.get("text") or "").strip()
     if not text or text.startswith("/"):
         return False
@@ -491,6 +505,25 @@ def _process_message(message) -> bool:
             "pillar":          item.get("pillar", "daily_idea"),
             "generated_at":    item.get("generated_at"),
         }
+
+    # If this is a posted-tweet URL, attribute it to the queued reaction so the
+    # performance tracker can fetch metrics by ID (free-tier endpoint).
+    tweet_id = _extract_tweet_id(text)
+    if tweet_id and kind == "reaction":
+        item["posted_tweet_id"]  = tweet_id
+        item["posted_tweet_url"] = f"https://x.com/{message.get('from',{}).get('username','i')}/status/{tweet_id}"
+        item["posted_at"]        = datetime.now(timezone.utc).isoformat()
+        _save(QUEUE_PATH, queue)
+        _tg("sendMessage", {
+            "chat_id":    chat_id,
+            "text":       (
+                f"✅ Tweet ID logged for <b>{_esc(item.get('topic',''))}</b>: "
+                f"<code>{tweet_id}</code>\n\n"
+                f"Engagement metrics will populate on the next 11pm UAE tracker run."
+            ),
+            "parse_mode": "HTML",
+        })
+        return True
 
     _log_feedback(feedback_post, "free_form", free_form_text=text)
     _append_lesson(feedback_post, text)
