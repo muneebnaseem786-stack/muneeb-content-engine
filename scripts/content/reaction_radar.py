@@ -97,8 +97,7 @@ def send_reaction_to_telegram(post: dict) -> int | None:
         f"📡 {topic}",
         f"{src_label} · {src_headline}",
         "",
-        "📌 After posting, reply here with the X URL to track engagement.",
-        "💡 Reply with text feedback to update lessons_learned.md.",
+        "💡 Reply here with feedback to update lessons_learned.md.",
     ]
     main_id = _tg_send("\n".join(ctx_lines))
 

@@ -210,6 +210,78 @@ def filter_already_reacted(
     return [c for c in candidates if (c.get("url") or "") not in seen_urls]
 
 
+def fetch_my_recent_posts(
+    handle: str,
+    nitter_instances: list[str],
+    lookback_days: int = 7,
+    max_posts: int = 30,
+    min_chars: int = 40,
+) -> list[dict]:
+    """Pull the user's OWN recent X posts via Nitter profile RSS.
+
+    Used by performance_tracker for auto-attribution — fuzzy-match these
+    against unmatched auto_sent reactions in the queue. No X API needed
+    for this step; X API only used for engagement metrics on matched IDs.
+
+    Returns list of {handle, text, url, tweet_id, published_at} dicts.
+    Drops retweets and replies. Lookback longer than source-account fetcher
+    (default 7 days vs 24h) so missed attribution can backfill.
+    """
+    cutoff = datetime.now(timezone.utc) - timedelta(days=lookback_days)
+    out = []
+
+    for instance in nitter_instances:
+        try:
+            url = f"https://{instance}/{handle}/rss"
+            resp = requests.get(url, timeout=TIMEOUT, headers=HEADERS)
+            if resp.status_code != 200:
+                continue
+            root = ET.fromstring(resp.content)
+            channel = root.find("channel")
+            if channel is None:
+                continue
+
+            for item in channel.findall("item"):
+                if len(out) >= max_posts:
+                    break
+                title = item.findtext("title", "") or ""
+                link = item.findtext("link", "") or ""
+                desc = item.findtext("description", "") or ""
+                pub = _parse_rss_date(item.findtext("pubDate", ""))
+
+                if pub and pub < cutoff:
+                    continue
+                if "RT by" in title or title.startswith("R to "):
+                    continue
+
+                text = _strip_html(desc) or title
+                if len(text) < min_chars:
+                    continue
+
+                x_url = link.replace(f"https://{instance}/", "https://x.com/")
+                # Tweet ID is the last numeric segment in the URL,
+                # possibly followed by #m or other fragment
+                tweet_id_match = re.search(r"/status/(\d+)", x_url)
+                if not tweet_id_match:
+                    continue
+                tweet_id = tweet_id_match.group(1)
+
+                out.append({
+                    "handle":       handle,
+                    "tweet_id":     tweet_id,
+                    "text":         text[:500],
+                    "url":          f"https://x.com/{handle}/status/{tweet_id}",
+                    "published_at": pub.isoformat() if pub else None,
+                })
+
+            if out:
+                return out
+        except Exception as e:
+            print(f"[sources] Nitter {instance}/{handle} error: {e}")
+            continue
+    return out
+
+
 def filter_recent_authors(
     candidates: list[dict],
     queue: dict,
