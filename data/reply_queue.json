@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-05-02T19:43:40.987241+00:00",
+  "last_updated": "2026-05-07T11:12:29.348404+00:00",
   "replies": [
+    {
+      "tweet_id": "2052088323548885209",
+      "tweet_url": "https://x.com/fchollet/status/2052088323548885209#m",
+      "tweet_author": "fchollet",
+      "tweet_text": "Complexity is not an intrinsic property of a problem. It's a property of the relationship between a problem and an observer. Once you know the shape of the problem it is no longer complex.",
+      "reply_text": "Credit scoring proves this. FICO looked like black magic until lenders mapped the seven variables. Complexity dissolved, margin compressed, the edge moved upstream.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-07T11:12:29.348404+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 206,
+      "sent_to_telegram_at": "2026-05-07T11:12:29.348404+00:00"
+    },
+    {
+      "tweet_id": "2052006655303340447",
+      "tweet_url": "https://x.com/SahilBloom/status/2052006655303340447#m",
+      "tweet_author": "sahilbloom",
+      "tweet_text": "Money advice nobody told you: The only way to make a lot of money is to create a lot of value. No one hands out money. No one is going to pay you just because they like you or think you're cool. That's not the way the world works. Money earned is a direct byproduct of value created. Create value, receive value. If money is the goal, value has to be the focus. This isn't just some vague idea: The only way to get rich is to create an enormous amount of value for others, and capture a small portion",
+      "reply_text": "The capture rate is the part that breaks the model for most people. Uber created enormous value and ran at a loss for a decade. Where does the value-to-money conversion actually happen, and who controls that lever?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-07T11:12:29.348404+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 204,
+      "sent_to_telegram_at": "2026-05-07T11:12:29.348404+00:00"
+    },
+    {
+      "tweet_id": "2052332991930589450",
+      "tweet_url": "https://x.com/mattyglesias/status/2052332991930589450#m",
+      "tweet_author": "MattYglesias",
+      "tweet_text": "When I was a teenager, I consumed a lot of pro-rioting content without it ever really occurring to me that someone would take this seriously as a program of action. \n\nslowboring.com/p/political-c\u2026",
+      "reply_text": "Weimar Germany, 1919. Ernst Toller writes plays glorifying the Munich soviet uprising. Years later he admits the romanticization outpaced any real theory of what came next. The aesthetic and the program were never the same document.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-07T11:12:29.348404+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 202,
+      "sent_to_telegram_at": "2026-05-07T11:12:29.348404+00:00"
+    },
     {
       "tweet_url": "https://x.com/DerekJGrossman/status/2049560290879234427",
       "tweet_id": "2049560290879234427",
