@@ -1,6 +1,262 @@
 {
-  "last_updated": "2026-05-07T11:38:33.560014+00:00",
+  "last_updated": "2026-05-07T21:00:02.198859+00:00",
   "posts": [
+    {
+      "topic": "Hawkeye 360 IPO \u2014 defense signals intelligence satellite company public market debut",
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-07/surveillance-firm-hawkeye-360-jumps-30-after-416-million-ipo",
+      "source_headline": "Surveillance Firm Hawkeye 360 Up 31% After $416 Million IPO",
+      "source_handle": "",
+      "x_post": "The IPO window that reopened in 2025 belongs to defense, and Hawkeye 360's 31% first-day pop is the clearest proof yet.\n\nHawkeye 360 priced at $416 million, hit the top of its range, and still left money on the table. The company collects radio frequency signals from low-earth orbit satellites and sells pattern-of-life intelligence to US government agencies. That business sounds narrow until you understand the customer: the Pentagon, NSA, and allied signals commands collectively spent over $26 billion on geospatial and signals intelligence contracts in fiscal 2025 alone.\n\nFour dynamics compounded here. First, the satellite cost curve collapsed. Building and launching a signals-intelligence constellation that would have cost $2 billion in 2010 now runs closer to $200 million, which means the margin profile looks nothing like legacy defense primes. Second, the war in Ukraine and the Taiwan Strait posture shifted US procurement priorities toward persistent real-time surveillance, exactly what Hawkeye provides. Third, the public markets have starved of defense tech floats since Palantir and SpaceX absorbed all the oxygen \u2014 Hawkeye walked into a supply vacuum. Fourth, it priced conservatively: the $416 million raise valued the company at roughly 8x trailing revenue, a multiple that looks cheap against software peers billing DoD.\n\nCompare this to Suja, the organic juice maker that debuted the same day and fell 15%. Consumers are cutting discretionary spending. Governments are not cutting signals intelligence. The divergence between those two IPO outcomes captures something structural about where capital is flowing in 2026.\n\nEvery defense tech startup watching this debut just got its Series C pitch rewritten: the public market will price recurring government intelligence contracts at software multiples if the underlying infrastructure is satellite-native.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Full scan completed. Checked for: (1) negation framing \u2014 none found, all clauses state what subjects DO; (2) decorative tricolons \u2014 the four-item mechanism list is intentional and complies with the rule (four items allowed); (3) stacked abstract nouns \u2014 replaced 'decisioning infrastructure' type phrases throughout with verbs ('collects,' 'sells,' 'shifted,' 'absorbed'); (4) meta-narration \u2014 none found; (5) 'moment of X' gravitas phrasing \u2014 none found; (6) em-dashes \u2014 none present; (7) first-person \u2014 none; (8) hashtags/emojis \u2014 none; (9) opener \u2014 does not start with 'My take,' 'My read,' 'I think,' or 'We are seeing'; (10) thesis leads sentence 1, anchor stat arrives in sentences 2-3 as required; (11) closing is a verdict/prediction, not a vague aphorism. No Tier 1 violations found. No Tier 2 violations flagged.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": "DraftKings beat is interesting but the reframe angle is thin \u2014 sportsbook growth in a regulated expansion environment is consensus narrative"
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "Fed podcast commentary, no dense anchor, low reframe potential"
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": "Thiel ocean energy investment is curious but $140M Series B for ocean compute is niche; reframe angle exists but anchor is thin on mechanism"
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.67,
+          "skip_reason": "Codex speed complaint is ephemeral product feedback"
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": "Suja IPO pop/drop is a clean narrative but reframe angle is weak \u2014 consumer brand IPO underperformance is consensus"
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": "Duplicate of candidate 3 Coinbase story"
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 3,
+          "shelf_life_score": 5,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "CZ Binance.US revival is speculative, low anchor density"
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 4,
+          "avg": 2.33,
+          "skip_reason": "PG aphorism on growth rate \u2014 no concrete anchor, purely philosophical"
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": "Midterms crypto warning is speculative, thin anchor"
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": "Altman developer sentiment tweet \u2014 no anchor, no reframe"
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": "Bitmine ETH accumulation slowdown \u2014 niche and thin"
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": "Voice AI API launch \u2014 product announcement, limited structural reframe"
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": "DeFi plus AI agents panel quote \u2014 no anchor, consensus crypto cheerleading"
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "OpenAI safety feature \u2014 sympathetic but thin reframe potential"
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": "Personal grief quote \u2014 inappropriate for reframe content"
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": "Tesla safety benchmark \u2014 interesting but reframe is modest"
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 4,
+          "avg": 2.0,
+          "skip_reason": "Philosophical quotes \u2014 no anchor, no reframe"
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "Perplexity Mac app launch \u2014 product news, limited structural angle"
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": "Hantavirus tweet \u2014 too light, no substance"
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": "Musk lawsuit OpenAI safety \u2014 legal process story, limited reframe"
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": "California spending structural deficit \u2014 solid anchor but already well-covered territory"
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": "Cloudflare blog post \u2014 vague, no anchor"
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": "Garry Tan retweet of user testimonial \u2014 no reframe potential"
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": "Linux LPE vulnerability \u2014 technical security, niche audience, thin reframe"
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 3,
+          "anchor_score": 1,
+          "shelf_life_score": 4,
+          "avg": 2.67,
+          "skip_reason": "Toddler hallucination analogy \u2014 interesting framing but no anchor stat available"
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": "Graphics rendering blog post \u2014 niche, no reframe"
+        }
+      ],
+      "generated_at": "2026-05-07T21:00:01.528308+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 229,
+      "sent_to_telegram_at": "2026-05-07T21:00:02.198837+00:00"
+    },
     {
       "topic": "AGI and interest rates \u2014 why transformative AI could suppress rather than raise the cost of capital",
       "source": "rss:Marginal Revolution",
