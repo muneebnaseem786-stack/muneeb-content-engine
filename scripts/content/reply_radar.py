@@ -222,16 +222,13 @@ def send_suggestion_to_telegram(
 
 def call_claude_for_reply(prompt: str) -> str:
     try:
-        from anthropic import Anthropic
+        import google.generativeai as genai
     except ImportError as e:
-        raise RuntimeError("anthropic SDK not installed.") from e
-    client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=512,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return msg.content[0].text.strip().strip('"')
+        raise RuntimeError("google-generativeai SDK not installed.") from e
+    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+    model = genai.GenerativeModel("gemini-2.0-flash")
+    response = model.generate_content(prompt)
+    return response.text.strip().strip('"')
 
 
 def generate_reply(original_post: str, author: str, style: dict, lessons: str) -> str:

@@ -111,21 +111,18 @@ def send_reaction_to_telegram(post: dict) -> int | None:
 # ── LLM ──────────────────────────────────────────────────────────────────────
 
 def call_claude_for_reaction(prompt: str) -> str:
-    """Call Anthropic API for scoring + generation. Returns raw text response."""
+    """Call Gemini API for scoring + generation. Returns raw text response."""
     try:
-        from anthropic import Anthropic
+        import google.generativeai as genai
     except ImportError as e:
         raise RuntimeError(
-            "anthropic SDK not installed. Add `anthropic` to requirements.txt"
+            "google-generativeai SDK not installed. Add `google-generativeai` to requirements.txt"
         ) from e
 
-    client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=4096,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return msg.content[0].text
+    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+    model = genai.GenerativeModel("gemini-2.0-flash")
+    response = model.generate_content(prompt)
+    return response.text
 
 
 def parse_json_response(text: str) -> dict:
