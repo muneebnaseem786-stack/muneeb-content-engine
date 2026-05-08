@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-05-07T20:52:00.702327+00:00",
+  "last_updated": "2026-05-08T10:08:57.855942+00:00",
   "replies": [
+    {
+      "tweet_id": "2052583008113250637",
+      "tweet_url": "https://x.com/Trace_Cohen/status/2052583008113250637#m",
+      "tweet_author": "trace_cohen",
+      "tweet_text": "Most businesses, not just large corporations, are not built for the current AI world.\n\nThe challenge is not only the legacy tech stack. It is the entire operating model around it.\n\nTheir products were designed around human workflows. Their pricing models were built around seats and labor. Their org charts were optimized for coordination and approvals, not autonomous systems and real-time execution.\n\nEven the incentives are misaligned.\n\nExecutives still think in annual planning cycles. Middle man",
+      "reply_text": "Curious where the real lag shows up: when a mid-market CFO finally kills the annual planning cycle, does the org chart actually rewire, or does the same approval logic just get renamed and survive inside the new tooling?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-08T10:08:57.855942+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 241,
+      "sent_to_telegram_at": "2026-05-08T10:08:57.855942+00:00"
+    },
     {
       "tweet_id": "2052222531143082429",
       "tweet_url": "https://x.com/RushDoshi/status/2052222531143082429#m",
