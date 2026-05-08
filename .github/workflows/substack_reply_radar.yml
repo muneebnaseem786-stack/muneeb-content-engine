@@ -10,21 +10,21 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install anthropic requests feedparser
+        run: pip install google-generativeai requests feedparser
 
       - name: Run Substack Reply Radar
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m scripts.content.substack_reply_radar
@@ -35,4 +35,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/substack_reply_queue.json data/.substack_reply_cooldown.json || true
           git diff --cached --quiet || git commit -m "chore: substack reply radar run $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git pull --rebase --autostash || true
           git push

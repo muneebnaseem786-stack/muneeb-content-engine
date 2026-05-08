@@ -320,16 +320,13 @@ def send_suggestion_to_telegram(result: dict, idx: int, total: int) -> int | Non
 
 def call_claude(prompt: str) -> str:
     try:
-        from anthropic import Anthropic
+        import google.generativeai as genai
     except ImportError as e:
-        raise RuntimeError("anthropic SDK not installed.") from e
-    client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=1024,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return msg.content[0].text.strip()
+        raise RuntimeError("google-generativeai SDK not installed.") from e
+    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+    model = genai.GenerativeModel("gemini-2.0-flash")
+    response = model.generate_content(prompt)
+    return response.text.strip()
 
 
 def build_candidates_block(candidates: list[dict]) -> str:
@@ -344,6 +341,35 @@ def build_candidates_block(candidates: list[dict]) -> str:
     return "\n".join(lines)
 
 
+def _extract_json(raw: str) -> dict:
+    """Extract the first top-level JSON object from raw LLM output.
+    Handles preamble text and markdown fences that Gemini sometimes emits."""
+    raw = raw.strip()
+    # Try stripping markdown fences first
+    if "```" in raw:
+        parts = raw.split("```")
+        for part in parts:
+            part = part.strip()
+            if part.startswith("json"):
+                part = part[4:].strip()
+            if part.startswith("{"):
+                raw = part
+                break
+    # Find outermost {...} — tolerates any preamble text before the JSON
+    start = raw.find("{")
+    if start == -1:
+        raise ValueError(f"No JSON object found in LLM response:\n{raw[:500]}")
+    depth = 0
+    for i, ch in enumerate(raw[start:], start):
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return json.loads(raw[start : i + 1])
+    raise ValueError(f"Unclosed JSON object in LLM response:\n{raw[:500]}")
+
+
 def run_llm(candidates: list[dict], lessons: str) -> dict:
     template = PROMPT_PATH.read_text(encoding="utf-8")
     prompt = template.format(
@@ -352,14 +378,12 @@ def run_llm(candidates: list[dict], lessons: str) -> dict:
         candidates_block=build_candidates_block(candidates),
     )
     raw = call_claude(prompt)
-    # Strip any accidental markdown fences
-    raw = raw.strip()
-    if raw.startswith("```"):
-        raw = raw.split("```", 2)[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-        raw = raw.rsplit("```", 1)[0].strip()
-    return json.loads(raw)
+    try:
+        return _extract_json(raw)
+    except (ValueError, json.JSONDecodeError) as e:
+        print(f"[substack-radar] JSON parse error: {e}")
+        print(f"[substack-radar] Raw LLM response (first 1000 chars):\n{raw[:1000]}")
+        raise
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -446,6 +470,7 @@ def run(dry_run: bool = False) -> None:
             result = run_llm(remaining, lessons)
         except Exception as e:
             print(f"[substack-radar] LLM error: {e}")
+            _tg_send(f"🔴 Substack Radar — LLM error\n{str(e)[:300]}")
             break
 
         winning_index = result.get("winning_index", -1)
@@ -496,6 +521,12 @@ def run(dry_run: bool = False) -> None:
 
         save_cooldown(cooldown, winner["publication_handle"])
         print(f"[substack-radar] {suggestions_sent}/{suggestions_cap} — {action} for {winner['publication_name']}")
+
+    if suggestions_sent == 0:
+        _tg_send(
+            f"📚 Substack Radar — {uae.strftime('%d %b %H:%M UAE')}\n"
+            f"⚪ No suggestions this run — {len(candidates)} candidates scored, none met threshold ({score_threshold})"
+        )
 
     queue["last_updated"] = now_iso
     _save_json(QUEUE_PATH, queue)
