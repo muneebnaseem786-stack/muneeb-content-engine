@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-07T03:20:54.651392+00:00",
+  "last_updated": "2026-05-08T03:18:09.090357+00:00",
   "topics": [
+    {
+      "topic": "The Market Just Drew a Line Through Magnificent Seven AI Spending",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/big-tech-earnings-show-split-130007908.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-08T03:18:09.090357+00:00"
+    },
+    {
+      "topic": "Meta's Bond Buyers and Equity Holders Read the Same Earnings Report and Reached Opposite Conclusions",
+      "source_url": "https://finance.yahoo.com/sectors/technology/article/meta-stock-sinks-after-q1-earnings-as-company-raises-2026-ai-spending-forecast-to-125-billion-145-billion-160136308.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-08T03:18:09.090357+00:00"
+    },
+    {
+      "topic": "Two Frontier AI Labs Just Discovered the Model Isn't the Product",
+      "source_url": "https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-08T03:18:09.090357+00:00"
+    },
     {
       "topic": "Export Controls Didn't Delay China. They Funded the Other Lane.",
       "source_url": "https://www.computerworld.com/article/4116792/chinese-ai-firm-trains-state-of-the-art-model-entirely-on-huawei-chips-2.html",
