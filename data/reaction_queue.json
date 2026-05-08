@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T09:10:24.344937+00:00",
+  "last_updated": "2026-05-08T22:16:13.493084+00:00",
   "posts": [
     {
       "topic": "Novo Nordisk Ozempic India price cut and GLP-1 market dynamics",
@@ -255,7 +255,11 @@
       "generated_at": "2026-05-08T09:10:23.500660+00:00",
       "status": "auto_sent",
       "telegram_message_id": 238,
-      "sent_to_telegram_at": "2026-05-08T09:10:24.344926+00:00"
+      "sent_to_telegram_at": "2026-05-08T09:10:24.344926+00:00",
+      "posted_tweet_id": "2052679404812480758",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2052679404812480758",
+      "posted_at": "2026-05-08T09:18:01+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Hawkeye 360 IPO \u2014 defense signals intelligence satellite company public market debut",
