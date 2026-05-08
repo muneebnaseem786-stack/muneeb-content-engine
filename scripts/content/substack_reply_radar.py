@@ -320,16 +320,23 @@ def send_suggestion_to_telegram(result: dict, idx: int, total: int) -> int | Non
 
 def call_claude(prompt: str) -> str:
     try:
-        from anthropic import Anthropic
+        import google.generativeai as genai
     except ImportError as e:
-        raise RuntimeError("anthropic SDK not installed.") from e
-    client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    msg = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=2048,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return msg.content[0].text.strip()
+        raise RuntimeError("google-generativeai SDK not installed.") from e
+    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+    model = genai.GenerativeModel("gemini-2.0-flash")
+    # Retry up to 3 times on 429 rate-limit errors (60s apart)
+    for attempt in range(3):
+        try:
+            response = model.generate_content(prompt)
+            return response.text.strip()
+        except Exception as e:
+            if "429" in str(e) and attempt < 2:
+                wait = 60 * (attempt + 1)
+                print(f"[substack-radar] 429 rate limit, retrying in {wait}s (attempt {attempt + 1}/3)")
+                time.sleep(wait)
+                continue
+            raise
 
 
 def build_candidates_block(candidates: list[dict]) -> str:
