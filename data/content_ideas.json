@@ -48,7 +48,10 @@
           "Equity markets grade capex on quarters. Bond markets grade it on decades. Meta just chose its audience."
         ],
         "substack_draft": "Meta raised $25 billion in bonds the same day its equity fell 8%. That number is doing most of the work in this story.\n\nThe earnings were clean. Revenue beat, EPS beat. The market sold off because Meta raised its capex guide to $125-145 billion and investors want proof that the spending is already returning. Bond buyers accepted the paper anyway, oversubscribed, at investment-grade rates. Two markets, one report, opposite conclusions.\n\nThe more I look at it, the less this reads as confusion. Bond markets price creditworthiness over 10 to 30 year horizons. The same infrastructure spend that looks uncertain on a quarterly earnings call looks like a depreciating asset on a 20-year credit model. AI data centers, it turns out, sit alongside pipelines and power grids in the bond market's capital category: long-duration, real, and eventually productive. Bond markets have a century of pricing exactly that.\n\nWhat I am less certain about is the implication that follows. If bond markets absorb AI capex at investment-grade rates, the binding constraint on hyperscaler spending is no longer capital availability. It becomes execution: can Meta actually deploy $145 billion in a year into infrastructure that starts returning revenue in time to satisfy equity holders? That is a harder question than whether the debt can be issued."
-      }
+      },
+      "telegram_message_id": 232,
+      "sent_to_telegram_at": "2026-05-08T07:10:45.523749+00:00",
+      "status": "pending"
     },
     {
       "title": "The Market Just Drew a Line Through Magnificent Seven AI Spending",
@@ -70,7 +73,11 @@
           "Same category. Different proof."
         ],
         "substack_draft": "The conventional narrative about the Magnificent Seven has treated them as a single trade for most of the past three years. Same AI tailwind, same regulatory exposure, same analyst community. The assumption has been that the group rises and falls roughly together.\n\nThis quarter challenged that assumption.\n\nAlphabet is up 23% year-to-date, the best performing of the group. Google Cloud's operating income tripled in a year. The performance obligations backlog nearly doubled. The AI spending that Google has been doing for years is already visible in the income statement. Meta the same week: beat on revenue, beat on EPS, down 8%. Amazon and Microsoft also slipped. All of them are spending heavily on AI. Only one showed the return already inflecting.\n\nI do not think the Mag 7 consensus trade ever made complete sense as a unit. It always grouped six genuinely different business models by market cap and AI adjacency. Google owns the model, the chip, and the cloud. When Anthropic and Meta both pay Google Cloud, Google collects on both sides of the AI trade. That structural position does not exist for any other hyperscaler.\n\nI am not sure the performance split closes anytime soon. The AI infrastructure capex cycle takes two to three years to show in revenue. Every company still in the spending phase is asking the market for trust on a time horizon that equity investors are unwilling to grant. Google ran out of that phase. Everyone else is still in it."
-      }
+      },
+      "telegram_message_id": 235,
+      "sent_to_telegram_at": "2026-05-08T07:10:47.135557+00:00",
+      "status": "pending"
     }
-  ]
+  ],
+  "last_updated": "2026-05-08T07:10:47.135570+00:00"
 }
