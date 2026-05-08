@@ -182,7 +182,7 @@
     "note_lookback_hours": 24,
     "min_text_chars": 100,
     "candidates_to_score": 20,
-    "score_threshold": 4.0,
+    "score_threshold": 3.0,
     "dedup_window_days": 14,
     "publication_cooldown_days": 5,
     "suggestions_per_run": 2
