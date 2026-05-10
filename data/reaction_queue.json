@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T20:00:18.595495+00:00",
+  "last_updated": "2026-05-10T21:35:43.903735+00:00",
   "posts": [
     {
       "topic": "Agentic commerce and crypto rails",
@@ -255,7 +255,11 @@
       "generated_at": "2026-05-10T20:00:17.569740+00:00",
       "status": "auto_sent",
       "telegram_message_id": 310,
-      "sent_to_telegram_at": "2026-05-10T20:00:18.595477+00:00"
+      "sent_to_telegram_at": "2026-05-10T20:00:18.595477+00:00",
+      "posted_tweet_id": "2053566058620182537",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2053566058620182537",
+      "posted_at": "2026-05-10T20:01:16+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "oil market disruption",
@@ -511,7 +515,11 @@
       "generated_at": "2026-05-10T11:01:13.136989+00:00",
       "status": "auto_sent",
       "telegram_message_id": 308,
-      "sent_to_telegram_at": "2026-05-10T11:01:14.084532+00:00"
+      "sent_to_telegram_at": "2026-05-10T11:01:14.084532+00:00",
+      "posted_tweet_id": "2053438714836378074",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2053438714836378074",
+      "posted_at": "2026-05-10T11:35:15+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Overreaching and uninformed demands",
