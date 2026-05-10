@@ -24,6 +24,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -121,8 +122,17 @@ def call_claude_for_reaction(prompt: str) -> str:
 
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
     model = genai.GenerativeModel("gemini-2.0-flash")
-    response = model.generate_content(prompt)
-    return response.text
+    for attempt in range(3):
+        try:
+            response = model.generate_content(prompt)
+            return response.text
+        except Exception as e:
+            if "429" in str(e) and attempt < 2:
+                wait = 60 * (attempt + 1)
+                print(f"[reaction-radar] 429 rate limit, retrying in {wait}s (attempt {attempt + 1}/3)")
+                time.sleep(wait)
+                continue
+            raise
 
 
 def parse_json_response(text: str) -> dict:
@@ -279,7 +289,12 @@ def run(dry_run: bool = False) -> None:
     )
 
     print("[reaction-radar] Calling Claude for scoring + generation...")
-    raw = call_claude_for_reaction(prompt)
+    try:
+        raw = call_claude_for_reaction(prompt)
+    except Exception as e:
+        print(f"[reaction-radar] LLM error: {e}")
+        _tg_send(f"🔴 Reaction Radar — LLM error\n{str(e)[:300]}")
+        return
     try:
         result = parse_json_response(raw)
     except json.JSONDecodeError as e:
