@@ -162,14 +162,14 @@ def _call_gemini(prompt: str) -> str:
 
 
 def call_claude_for_reaction(prompt: str) -> str:
-    """Call LLM for scoring + generation. Groq primary (more reliable free tier),
-    Gemini fallback. Returns raw text response."""
-    if os.environ.get("GROQ_API_KEY"):
+    """Call LLM for scoring + generation. Gemini primary (better quality on these
+    nuanced prompts), Groq fallback when Gemini 429s. Returns raw text response."""
+    if os.environ.get("GEMINI_API_KEY"):
         try:
-            return _call_groq(prompt)
+            return _call_gemini(prompt)
         except Exception as e:
-            print(f"[reaction-radar] Groq failed: {e}, falling back to Gemini")
-    return _call_gemini(prompt)
+            print(f"[reaction-radar] Gemini failed: {e}, falling back to Groq")
+    return _call_groq(prompt)
 
 
 def parse_json_response(text: str) -> dict:
