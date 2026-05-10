@@ -220,15 +220,66 @@ def send_suggestion_to_telegram(
 
 # ── LLM ──────────────────────────────────────────────────────────────────────
 
-def call_claude_for_reply(prompt: str) -> str:
-    try:
-        import google.generativeai as genai
-    except ImportError as e:
-        raise RuntimeError("google-generativeai SDK not installed.") from e
+def _call_groq(prompt: str, max_tokens: int = 1024) -> str:
+    """Call Groq Llama 3.3 70B (free tier, 1000 RPD). Raises on failure."""
+    import time
+    api_key = os.environ["GROQ_API_KEY"]
+    last_error = None
+    for attempt in range(3):
+        try:
+            resp = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {api_key}"},
+                json={
+                    "model": "llama-3.3-70b-versatile",
+                    "messages": [{"role": "user", "content": prompt}],
+                    "max_tokens": max_tokens,
+                    "temperature": 0.8,
+                },
+                timeout=60,
+            )
+            if resp.status_code == 429 and attempt < 2:
+                wait = 30 * (attempt + 1)
+                print(f"[reply-radar] Groq 429, retrying in {wait}s (attempt {attempt + 1}/3)")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            return resp.json()["choices"][0]["message"]["content"].strip().strip('"')
+        except Exception as e:
+            last_error = e
+            if attempt < 2:
+                time.sleep(5)
+                continue
+    raise last_error or RuntimeError("Groq call failed")
+
+
+def _call_gemini(prompt: str) -> str:
+    """Call Gemini 2.0 Flash. Raises on failure."""
+    import time
+    import google.generativeai as genai
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
     model = genai.GenerativeModel("gemini-2.0-flash")
-    response = model.generate_content(prompt)
-    return response.text.strip().strip('"')
+    for attempt in range(3):
+        try:
+            response = model.generate_content(prompt)
+            return response.text.strip().strip('"')
+        except Exception as e:
+            if "429" in str(e) and attempt < 2:
+                wait = 60 * (attempt + 1)
+                print(f"[reply-radar] Gemini 429, retrying in {wait}s (attempt {attempt + 1}/3)")
+                time.sleep(wait)
+                continue
+            raise
+
+
+def call_claude_for_reply(prompt: str) -> str:
+    """Call LLM. Groq primary (more reliable free tier), Gemini fallback."""
+    if os.environ.get("GROQ_API_KEY"):
+        try:
+            return _call_groq(prompt)
+        except Exception as e:
+            print(f"[reply-radar] Groq failed: {e}, falling back to Gemini")
+    return _call_gemini(prompt)
 
 
 def generate_reply(original_post: str, author: str, style: dict, lessons: str) -> str:

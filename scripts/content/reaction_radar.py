@@ -111,15 +111,41 @@ def send_reaction_to_telegram(post: dict) -> int | None:
 
 # ── LLM ──────────────────────────────────────────────────────────────────────
 
-def call_claude_for_reaction(prompt: str) -> str:
-    """Call Gemini API for scoring + generation. Returns raw text response."""
-    try:
-        import google.generativeai as genai
-    except ImportError as e:
-        raise RuntimeError(
-            "google-generativeai SDK not installed. Add `google-generativeai` to requirements.txt"
-        ) from e
+def _call_groq(prompt: str, max_tokens: int = 4096) -> str:
+    """Call Groq Llama 3.3 70B (free tier, 1000 RPD). Raises on failure."""
+    api_key = os.environ["GROQ_API_KEY"]
+    last_error = None
+    for attempt in range(3):
+        try:
+            resp = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {api_key}"},
+                json={
+                    "model": "llama-3.3-70b-versatile",
+                    "messages": [{"role": "user", "content": prompt}],
+                    "max_tokens": max_tokens,
+                    "temperature": 0.7,
+                },
+                timeout=90,
+            )
+            if resp.status_code == 429 and attempt < 2:
+                wait = 30 * (attempt + 1)
+                print(f"[reaction-radar] Groq 429, retrying in {wait}s (attempt {attempt + 1}/3)")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            return resp.json()["choices"][0]["message"]["content"]
+        except Exception as e:
+            last_error = e
+            if attempt < 2:
+                time.sleep(5)
+                continue
+    raise last_error or RuntimeError("Groq call failed")
 
+
+def _call_gemini(prompt: str) -> str:
+    """Call Gemini 2.0 Flash. Raises on failure."""
+    import google.generativeai as genai
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
     model = genai.GenerativeModel("gemini-2.0-flash")
     for attempt in range(3):
@@ -129,10 +155,21 @@ def call_claude_for_reaction(prompt: str) -> str:
         except Exception as e:
             if "429" in str(e) and attempt < 2:
                 wait = 60 * (attempt + 1)
-                print(f"[reaction-radar] 429 rate limit, retrying in {wait}s (attempt {attempt + 1}/3)")
+                print(f"[reaction-radar] Gemini 429, retrying in {wait}s (attempt {attempt + 1}/3)")
                 time.sleep(wait)
                 continue
             raise
+
+
+def call_claude_for_reaction(prompt: str) -> str:
+    """Call LLM for scoring + generation. Groq primary (more reliable free tier),
+    Gemini fallback. Returns raw text response."""
+    if os.environ.get("GROQ_API_KEY"):
+        try:
+            return _call_groq(prompt)
+        except Exception as e:
+            print(f"[reaction-radar] Groq failed: {e}, falling back to Gemini")
+    return _call_gemini(prompt)
 
 
 def parse_json_response(text: str) -> dict:
