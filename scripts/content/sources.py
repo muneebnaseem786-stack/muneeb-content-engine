@@ -198,7 +198,23 @@ def fetch_rss_news(
 
             headline = (entry.get("title") or "").strip()
             link = (entry.get("link") or "").strip()
-            summary = _strip_html(entry.get("summary") or "")[:400]
+            raw_summary = entry.get("summary") or ""
+            summary = _strip_html(raw_summary)[:400]
+
+            # Try multiple places where RSS feeds put images
+            image_url = None
+            if hasattr(entry, "media_content") and entry.media_content:
+                image_url = entry.media_content[0].get("url")
+            elif hasattr(entry, "media_thumbnail") and entry.media_thumbnail:
+                image_url = entry.media_thumbnail[0].get("url")
+            elif hasattr(entry, "enclosures") and entry.enclosures:
+                for enc in entry.enclosures:
+                    enc_type = enc.get("type", "")
+                    if enc_type.startswith("image/"):
+                        image_url = enc.get("href") or enc.get("url")
+                        break
+            if not image_url and raw_summary:
+                image_url = _extract_image_url(raw_summary)
 
             if not headline or not link:
                 continue
@@ -207,6 +223,7 @@ def fetch_rss_news(
                 "source": f"rss:{name}",
                 "headline": headline,
                 "url": link,
+                "image_url": image_url,
                 "published_at": pub.isoformat() if pub else None,
                 "summary": summary,
             })
