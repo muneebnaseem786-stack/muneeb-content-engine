@@ -117,7 +117,7 @@ def send_markets_post_to_telegram(post: dict) -> int | None:
 
 # ── LLM ───────────────────────────────────────────────────────────────────────
 
-def _call_groq(prompt: str, max_tokens: int = 8192) -> str:
+def _call_groq(prompt: str, max_tokens: int = 4096) -> str:
     api_key = os.environ["GROQ_API_KEY"]
     last_error = None
     for attempt in range(3):

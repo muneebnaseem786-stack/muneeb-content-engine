@@ -79,7 +79,7 @@
     "rss_lookback_hours": 6,
     "min_post_chars": 60,
     "max_posts_per_account": 2,
-    "candidates_to_score": 40,
+    "candidates_to_score": 20,
     "score_threshold": 3.5,
     "max_winners_per_run": 3,
     "dedup_window_days": 7,
