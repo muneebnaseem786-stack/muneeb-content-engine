@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-05-10T20:04:38.405342+00:00",
+  "last_updated": "2026-05-11T14:09:44.034878+00:00",
   "replies": [
+    {
+      "tweet_id": "2053529689122328947",
+      "tweet_url": "https://x.com/simonw/status/2053529689122328947#m",
+      "tweet_author": "simonw",
+      "tweet_text": "Shopify's River agent system lives in Slack and can only be used in public so that other employees can learn from what you do with it\n\nReminds me of how Midjourney's Discord-only launch helped people figure out the weird &amp; complex craft of image prompting by watching each other\n\n\ntobi lutke (@tobi)\n\nx.com/i/article/205273853311\u2026\n\n\n\n\u2014 https://nitter.net/tobi/status/2053121182044451016#m",
+      "reply_text": "85% of Fortune 500 companies use Slack for internal comms. That's the same demographic Shopify is targeting with River.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-11T14:09:44.034878+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 355,
+      "sent_to_telegram_at": "2026-05-11T14:09:44.034878+00:00"
+    },
+    {
+      "tweet_id": "2053777147378954547",
+      "tweet_url": "https://x.com/danshipper/status/2053777147378954547#m",
+      "tweet_author": "danshipper",
+      "tweet_text": "blocked and reported for being a gigantic asshole who is also, unfortunately, correct about this\n\n\nTheo - t3.gg (@theo)\n\nBuddy you\u2019re getting under 4k views. Those numbers aren\u2019t statistically significant.\n\n\n\n\n\n\u2014 https://nitter.net/theo/status/2053706610686791985#m",
+      "reply_text": "Q1 2023, Silicon Valley Bank's collapse takes 36 hours, Credit Suisse is rolled into UBS, and the era of orderly resolutions ends.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-11T14:09:44.034878+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 351,
+      "sent_to_telegram_at": "2026-05-11T14:09:44.034878+00:00"
+    },
+    {
+      "tweet_id": "2053813656710787335",
+      "tweet_url": "https://x.com/saifedean/status/2053813656710787335#m",
+      "tweet_author": "saifedean",
+      "tweet_text": "Get top bitcoin books in high quality long-lasting hardcover, audiobook, or ebook with worldwide delivery and seamless checkout via Bitcoin (on-chain &amp; Lightning) or fiat. Enjoy a 10% discount when paying with bitcoin.\nbit.ly/46zZ5fx",
+      "reply_text": "Do bitcoin payments for your books settle on-chain or via Lightning for the 10% discount?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-11T14:09:44.034878+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 349,
+      "sent_to_telegram_at": "2026-05-11T14:09:44.034878+00:00"
+    },
     {
       "tweet_id": "2053506836825772047",
       "tweet_url": "https://x.com/bramk/status/2053506836825772047#m",
