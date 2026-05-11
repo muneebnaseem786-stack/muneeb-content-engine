@@ -1,6 +1,141 @@
 {
   "posts": [
     {
+      "source": "x:@dampedspring",
+      "source_url": "https://x.com/dampedspring/status/2053586865819705844#m",
+      "source_headline": "Before you post about the internet boom as being different because companies weren't making money.  Could you please look at \n\nTelcos \nHardware\nSoftware (msft) ",
+      "source_handle": "dampedspring",
+      "image_url": null,
+      "topic": "Internet Boom",
+      "format": "single_tweet",
+      "x_post": "The internet boom of the 90s wasn't just about hype; many companies were making real money. Telcos, hardware, and software companies were raking it in, and their success laid the foundation for the tech industry we know today.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Checked for opinion, banned patterns, and soft ban flags. Regenerated sentence to focus on the key point.",
+      "scores": [
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-11T06:10:13.621567+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 331,
+      "sent_to_telegram_at": "2026-05-11T06:10:14.301508+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-11/emerging-stocks-set-to-close-at-record-high-on-tech-bets",
+      "source_headline": "Emerging Stocks Set to Close at Record High on Tech Bets",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Emerging Stocks",
+      "format": "single_tweet",
+      "x_post": "Emerging-market equities are at a record high, driven by AI trades. But beneath the surface, the story is more complex. Investors are betting on a tech-driven future, but the real question is whether this trend can sustain itself.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Checked for opinion, banned patterns, and soft ban flags. Added a layer of complexity to the take.",
+      "scores": [
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-11T06:10:11.957138+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 329,
+      "sent_to_telegram_at": "2026-05-11T06:10:12.621411+00:00"
+    },
+    {
+      "source": "x:@RyanDetrick",
+      "source_url": "https://x.com/RyanDetrick/status/2053581310287880590#m",
+      "source_headline": "Telecom has been on fire lately, then you look at a longer-term chart and realize it is just now breaking out above the 2000 peak. \n\nOne could argue this rally ",
+      "source_handle": "RyanDetrick",
+      "image_url": "https://pbs.twimg.com/media/HH_JC66WYAEthp6.png",
+      "topic": "Telecom Rally",
+      "format": "single_tweet",
+      "x_post": "The telecom rally has legs, with the sector breaking out above its 2000 peak. This isn't just a short-term move, but a sign of a larger trend. 20-year chart patterns don't lie, and this one suggests the rally could continue.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Checked for opinion, banned patterns, and soft ban flags. Regenerated sentence to lead with a stronger take.",
+      "scores": [
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-11T06:10:09.573443+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 326,
+      "sent_to_telegram_at": "2026-05-11T06:10:10.956975+00:00"
+    },
+    {
       "source": "x:@TaviCosta",
       "source_url": "https://x.com/TaviCosta/status/2053604996315279415#m",
       "source_headline": "The recent behavior of the US dollar is increasingly consistent with a market anticipating intervention in the rates market ahead.\n\nLower rates and a weaker dol",
@@ -592,5 +727,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-05-11T05:52:18.203570+00:00"
+  "last_updated": "2026-05-11T06:10:15.301661+00:00"
 }
