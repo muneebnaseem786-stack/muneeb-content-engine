@@ -22,6 +22,35 @@ def _strip_html(s: str) -> str:
     return re.sub(r"<[^>]+>", "", s).strip()
 
 
+def _extract_image_url(html_description: str) -> str | None:
+    """Pull first image URL from Nitter RSS description HTML.
+    Converts Nitter proxy URL to direct pbs.twimg.com URL when possible.
+    Telegram sendPhoto needs a publicly fetchable URL.
+    """
+    if not html_description:
+        return None
+    m = re.search(r'<img[^>]+src="([^"]+)"', html_description, re.IGNORECASE)
+    if not m:
+        return None
+    url = m.group(1)
+    # Skip emojis and avatars
+    if "/emoji/" in url or "/avatars/" in url:
+        return None
+    # Convert Nitter proxy URL to direct pbs.twimg.com URL
+    # Patterns:
+    #   https://nitter.X/pic/orig/media%2FXXX.jpg -> https://pbs.twimg.com/media/XXX.jpg
+    #   https://nitter.X/pic/media%2FXXX.jpg      -> https://pbs.twimg.com/media/XXX.jpg
+    from urllib.parse import unquote
+    pic_match = re.search(r'/pic/(?:orig/)?(.+)$', url)
+    if pic_match:
+        path = unquote(pic_match.group(1))
+        if path.startswith("media/"):
+            return f"https://pbs.twimg.com/{path}"
+        if path.startswith("pbs.twimg.com/"):
+            return f"https://{path}"
+    return url  # fall back to raw URL
+
+
 def _parse_rss_date(s: str) -> datetime | None:
     if not s:
         return None
@@ -73,6 +102,7 @@ def fetch_nitter_profile(
                 if "RT by" in title or title.startswith("R to "):
                     continue
 
+                image_url = _extract_image_url(desc)
                 text = _strip_html(desc) or title
                 if len(text) < min_chars:
                     continue
@@ -82,6 +112,7 @@ def fetch_nitter_profile(
                     "handle": handle,
                     "text": text[:500],
                     "url": x_url,
+                    "image_url": image_url,
                     "published_at": pub.isoformat() if pub else None,
                     "source": f"x:@{handle}",
                 })

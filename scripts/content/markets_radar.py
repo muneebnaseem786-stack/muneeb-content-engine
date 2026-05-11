@@ -82,6 +82,23 @@ def _tg_send(text: str, parse_mode: str | None = None) -> int | None:
     return None
 
 
+def _tg_send_photo(photo_url: str, caption: str = "") -> int | None:
+    """Send a photo via URL. Telegram's servers fetch the image."""
+    body = {"chat_id": _tg_chat_id(), "photo": photo_url, "caption": caption}
+    try:
+        resp = requests.post(
+            f"https://api.telegram.org/bot{_tg_token()}/sendPhoto",
+            json=body,
+            timeout=20,
+        )
+        if resp.status_code == 200:
+            return resp.json()["result"]["message_id"]
+        print(f"[markets-radar] Telegram photo send failed [{resp.status_code}]: {resp.text[:200]}")
+    except Exception as e:
+        print(f"[markets-radar] Telegram photo send error: {e}")
+    return None
+
+
 def send_markets_post_to_telegram(post: dict) -> int | None:
     """Send 2 Telegram messages per post:
       1. Context: event label + source URL (open to verify; this is an original post, not a QT)
@@ -111,6 +128,10 @@ def send_markets_post_to_telegram(post: dict) -> int | None:
 
     if x_text:
         _tg_send(x_text)
+
+    image_url = post.get("image_url")
+    if image_url:
+        _tg_send_photo(image_url, caption="📷 Source chart/image — attach to your post if relevant")
 
     return main_id
 
@@ -232,12 +253,14 @@ def normalize_candidate(c: dict) -> dict:
             "source_url": c.get("url", ""),
             "source_headline": c.get("text", "")[:160],
             "source_handle": c.get("handle", ""),
+            "image_url": c.get("image_url"),
         }
     return {
         "source": c.get("source", ""),
         "source_url": c.get("url", ""),
         "source_headline": c.get("headline", ""),
         "source_handle": "",
+        "image_url": c.get("image_url"),
     }
 
 
