@@ -147,7 +147,7 @@ def _call_gemini(prompt: str) -> str:
     """Call Gemini 2.0 Flash. Raises on failure."""
     import google.generativeai as genai
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemini-2.5-pro")
     for attempt in range(3):
         try:
             response = model.generate_content(prompt)
