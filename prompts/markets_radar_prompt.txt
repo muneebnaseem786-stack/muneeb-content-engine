@@ -32,6 +32,57 @@ Why this works:
 
 ---
 
+## WHAT GOOD LOOKS LIKE — STUDY THESE BEFORE YOU WRITE
+
+These are real high-engagement market commentary posts. They each use ONE strong move. Internalize the patterns. Your output should feel like these, not like a press release.
+
+### Pattern A — The Reframing Analogy (Weniger move)
+
+> "Microsoft having capital expenditures equal to 37% of its revenues would have been unthinkable a decade ago. This is supposed to be a software company, but these are numbers you see for an industrial company, or an oil & gas play, or a railroad, or something like that."
+
+What it does:
+- One specific number (37% capex/revenue)
+- Reframes the company by analogy to a different category (railroad / oil & gas)
+- Forces the reader to update their mental model of what Microsoft is
+- 2 sentences. No prediction needed. The reframe IS the take.
+
+### Pattern B — The Comparison Move (Negligible Capital style)
+
+> "*OPENAI EMPLOYEES COLLECTIVELY MADE $6.6B IN THE SHARE SALE: WSJ. Nothing wrong with taking some chips off the table but a bit weird to see this much selling ahead of the IPO which is expected later this year. Anthropic employees in contrast were making headlines for not being allowed to sell..."
+
+What it does:
+- News fact
+- Direct opinion stated casually ("a bit weird")
+- Comparison to a peer that behaves differently (Anthropic restricting sales)
+- The contrast IS the commentary — it raises a question about OpenAI's signaling without saying "this is bearish"
+
+### Pattern C — The Historical Comparison (Cointelegraph style)
+
+> "Overseas investors are pouring into US stocks at a record pace, with equity allocations hitting 63%. This doubled the post-2008 levels and surpassed even the Dot-Com Bubble peak."
+
+What it does:
+- One specific stat (63%)
+- Anchors against two historical reference points (2008, Dot-Com peak)
+- The historical comparison IS the warning — no need to say "this is dangerous"
+- 2 sentences. The reader draws the conclusion.
+
+### What these all share
+- A specific, surprising number
+- ONE strong move: reframe / comparison / historical comp
+- Conversational, not corporate
+- Short. 2-3 sentences usually.
+- Trust the reader to draw the conclusion when the comparison is clean enough
+
+### What they DO NOT do
+- They do not write three balanced sentences each doing a different "job"
+- They do not say "this matters because"
+- They do not predict the future in every post
+- They do not summarize the news
+
+You can pick a different move than these three (contrarian thesis, second-order consequence, divergence between two data series). But the post must use ONE move with conviction, not three half-moves.
+
+---
+
 ## THREE ABSOLUTE RULES — IF VIOLATED, REGENERATE
 
 ### RULE 1 — NO NEGATION FRAMING. EVER.
@@ -114,15 +165,27 @@ If fewer than 3 candidates qualify, return however many do. If none qualify, ret
 
 ## STEP 3 — GENERATE
 
-### Single Tweet Structure (MANDATORY)
-Three sentences, in this order:
-1. **The non-obvious claim.** What is most of the market missing, mispricing, or getting wrong about this event? State your position. The sentence must be debatable — a reasonable analyst could disagree with it. Never a fact, never a restatement of the headline.
-2. **The evidence the reader probably doesn't have.** A specific number, structural fact, historical comp, or counter-data point. Must support sentence 1 directly. "Up 4%" is not evidence — that's the headline. Evidence is "3M bpd spare capacity" or "every prior Hormuz scare since 2019 reversed within two weeks."
-3. **The prediction or trade implication.** What happens next? With a timeline if possible. "This rally fades by month-end." "Margins compress in Q3." "The next data point that matters is the September FOMC." Never a generic "investors should watch" or "consumers will pay more" — those are not predictions, they are obvious consequences.
+### Single Tweet Structure
 
-Each sentence must do something distinct. If sentences 1 and 3 say the same thing in different words, you have written reporting, not commentary.
+2 to 4 sentences. Pick ONE move from these and execute it cleanly:
 
-Never lead with the data point. Never close with a rhetorical question. Never include a sentence whose content is "this matters" or "this is significant" — show, don't tell.
+**Move 1 — Reframing analogy.** State a specific number, then reframe what kind of thing this actually is by comparison to a different category. (See Pattern A above.) Example: a company's metric makes it look like an industrial/utility/oil play, not what its label says.
+
+**Move 2 — Comparison to a peer or alternative.** State the action or number, then point to what a peer or counterparty is doing differently. The contrast carries the take. (See Pattern B.)
+
+**Move 3 — Historical comparison.** State the current number, then anchor it against historical reference points that change the reader's read of it. (See Pattern C.)
+
+**Move 4 — Contrarian thesis with evidence.** State what the market is mispricing, give one specific data point most readers don't have, optionally close with a prediction. (See the oil example above.)
+
+**Move 5 — Divergence between two data series.** Two metrics that should track each other are diverging. State both, name what one is telling you the other is missing.
+
+Whatever move you pick, the post must:
+- Lead with the take, the reframe, or the number that earns the take. Never lead with the headline.
+- Contain at least one specific number or named comparison (no "many," "significant," "a lot").
+- Not say "this matters because" or "the implications are" — show through the comparison, don't tell.
+- Trust the reader. If your comparison is clean, you do not need a fourth sentence explaining it.
+
+Length: shorter usually wins. 2-3 sentences is the norm. 4 only if a fourth genuinely adds something.
 
 ### Long-Form Structure (when used)
 1. Lead — affirmative thesis that reframes the event
@@ -145,8 +208,8 @@ Include MENA, Gulf sovereign capital, or private market angle ONLY if it is load
 Run these checks in order on every generated post:
 
 1. **Reuters Test (CRITICAL).** Read each sentence in isolation. For each sentence, ask: could Reuters/AP/Bloomberg have written this exact sentence as a news wire? If ANY sentence passes the Reuters Test, regenerate the entire post. This is the most common failure mode and the hardest to catch — be ruthless.
-2. **Sentence-distinctness test.** Check that each sentence does a different job (claim / evidence / prediction). If two sentences could be merged, the post is reporting, not commentary. Regenerate.
-3. **Debatability test.** Could a reasonable analyst disagree with sentence 1? If sentence 1 is a fact ("oil jumped 4%") rather than a position ("the rally fades"), regenerate.
+2. **One-move test.** Identify which of the 5 moves (reframe / comparison / historical comp / contrarian thesis / divergence) the post is executing. If you cannot name the move in 5 seconds, the post has no move and is reporting. Regenerate.
+3. **Specific number test.** Does the post contain at least one specific number or named comparison? "37%", "3M bpd", "$6.6B", "doubled post-2008 levels" all qualify. "Many," "significant," "a lot" do not. If no specific anchor, regenerate.
 4. **Negation scan.** Search for: not just / isn't / wasn't just / not only / "not X, but Y." If found, rewrite affirmatively.
 5. **Hedge scan.** Search for: could / may / might / potentially / arguably / perhaps / suggests / possibly / will likely. Cut or commit.
 6. **First-person check.** No "I", "we", "my" in the X body.
