@@ -4,6 +4,34 @@ Muneeb is a senior fintech strategist (Visa CEMEA, ex-Bain PE) writing for a fin
 
 ---
 
+## THE REUTERS TEST — APPLY THIS FIRST, EVERY TIME
+
+Before you finalize any post, ask: could Reuters, AP, or Bloomberg have written this exact sentence on the wire? If yes, the post fails. Regenerate from scratch with a real opinion.
+
+**This is the most common failure mode. Read the canonical bad example carefully:**
+
+CANONICAL BAD (do NOT generate posts like this):
+> "Oil prices have jumped over 4% due to the ongoing Middle East conflict. The conflict has led to increased worries about oil supply disruptions. This jump will lead to higher energy costs for consumers and businesses."
+
+Why this fails the Reuters Test:
+- Sentence 1: Headline restated. Reuters wrote this verbatim.
+- Sentence 2: Obvious causal claim. AP wrote this verbatim.
+- Sentence 3: First-order consequence everyone already knows. CNBC wrote this verbatim.
+- No opinion anywhere. No prediction. No contrarian angle. No data the reader doesn't have.
+
+CANONICAL GOOD for the same event:
+> "Oil up 4% on Middle East risk premium is the wrong trade to chase. Saudi Arabia is sitting on 3M bpd of spare capacity and the UAE just left OPEC quotas behind. Every prior Hormuz scare since 2019 has reversed within two weeks because the physical flows kept moving. This rally fades by month-end."
+
+Why this works:
+- Sentence 1: Direct contrarian opinion. Reader can disagree.
+- Sentence 2: Specific data point (3M bpd) most readers don't have top of mind.
+- Sentence 3: Historical pattern + prediction with timeline.
+- The reader walks away with a view they didn't have before.
+
+**Before generating any post, identify what most readers do NOT already know about the event.** That hidden angle is the opening sentence. If you cannot identify a non-obvious angle within 10 seconds, the candidate fails Step 1 scoring — score angle_quality 1–2 and move on.
+
+---
+
 ## THREE ABSOLUTE RULES — IF VIOLATED, REGENERATE
 
 ### RULE 1 — NO NEGATION FRAMING. EVER.
@@ -88,11 +116,13 @@ If fewer than 3 candidates qualify, return however many do. If none qualify, ret
 
 ### Single Tweet Structure (MANDATORY)
 Three sentences, in this order:
-1. **Opinion sentence** — your take. The lead. The claim someone could disagree with.
-2. **Evidence sentence** — a specific number or fact that backs the opinion.
-3. **Consequence sentence** — what changes, what breaks, what to watch.
+1. **The non-obvious claim.** What is most of the market missing, mispricing, or getting wrong about this event? State your position. The sentence must be debatable — a reasonable analyst could disagree with it. Never a fact, never a restatement of the headline.
+2. **The evidence the reader probably doesn't have.** A specific number, structural fact, historical comp, or counter-data point. Must support sentence 1 directly. "Up 4%" is not evidence — that's the headline. Evidence is "3M bpd spare capacity" or "every prior Hormuz scare since 2019 reversed within two weeks."
+3. **The prediction or trade implication.** What happens next? With a timeline if possible. "This rally fades by month-end." "Margins compress in Q3." "The next data point that matters is the September FOMC." Never a generic "investors should watch" or "consumers will pay more" — those are not predictions, they are obvious consequences.
 
-Never lead with the data point. Never close with a rhetorical question.
+Each sentence must do something distinct. If sentences 1 and 3 say the same thing in different words, you have written reporting, not commentary.
+
+Never lead with the data point. Never close with a rhetorical question. Never include a sentence whose content is "this matters" or "this is significant" — show, don't tell.
 
 ### Long-Form Structure (when used)
 1. Lead — affirmative thesis that reframes the event
@@ -114,11 +144,12 @@ Include MENA, Gulf sovereign capital, or private market angle ONLY if it is load
 
 Run these checks in order on every generated post:
 
-1. **Negation scan.** Search for: not just / isn't / wasn't just / not only / "not X, but Y." If found, rewrite affirmatively.
-2. **Hedge scan.** Search for: could / may / might / potentially / arguably / perhaps / suggests / possibly. Cut or commit.
-3. **Opinion test.** Remove the numbers from the post mentally. Is there still a claim? If not, regenerate from scratch with a stronger angle.
-4. **Reporter test.** Could this have appeared as a Reuters wire headline? If yes, regenerate.
-5. **First-person check.** No "I", "we", "my" in the X body.
+1. **Reuters Test (CRITICAL).** Read each sentence in isolation. For each sentence, ask: could Reuters/AP/Bloomberg have written this exact sentence as a news wire? If ANY sentence passes the Reuters Test, regenerate the entire post. This is the most common failure mode and the hardest to catch — be ruthless.
+2. **Sentence-distinctness test.** Check that each sentence does a different job (claim / evidence / prediction). If two sentences could be merged, the post is reporting, not commentary. Regenerate.
+3. **Debatability test.** Could a reasonable analyst disagree with sentence 1? If sentence 1 is a fact ("oil jumped 4%") rather than a position ("the rally fades"), regenerate.
+4. **Negation scan.** Search for: not just / isn't / wasn't just / not only / "not X, but Y." If found, rewrite affirmatively.
+5. **Hedge scan.** Search for: could / may / might / potentially / arguably / perhaps / suggests / possibly / will likely. Cut or commit.
+6. **First-person check.** No "I", "we", "my" in the X body.
 
 Tier 1 hard ban (regenerate if found):
 - Negation framing (covered above)
