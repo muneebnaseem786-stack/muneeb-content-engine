@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T21:20:11.077659+00:00",
+  "last_updated": "2026-05-12T22:47:41.409293+00:00",
   "posts": [
     {
       "topic": "Ethereum Foundation's new Clear Signing standard",
@@ -503,7 +503,11 @@
       "generated_at": "2026-05-12T11:45:27.995017+00:00",
       "status": "auto_sent",
       "telegram_message_id": 376,
-      "sent_to_telegram_at": "2026-05-12T11:45:29.038967+00:00"
+      "sent_to_telegram_at": "2026-05-12T11:45:29.038967+00:00",
+      "posted_tweet_id": "2054209945831354505",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2054209945831354505",
+      "posted_at": "2026-05-12T14:39:51+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Investment in Venezuela",
