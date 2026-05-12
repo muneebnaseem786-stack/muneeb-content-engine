@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-05-11T21:50:49.247141+00:00",
+  "last_updated": "2026-05-12T12:23:49.618564+00:00",
   "replies": [
+    {
+      "tweet_id": "2054028745678409736",
+      "tweet_url": "https://x.com/elidourado/status/2054028745678409736#m",
+      "tweet_author": "elidourado",
+      "tweet_text": "Me (gently): You know that you can be a little vindictive at times\u2026\n\nHer: I prefer \u201cjustice oriented.\u201d",
+      "reply_text": "Do you apply the same \"justice oriented\" label to institutional actors, like corporations or governments, when they exact vengeance?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-12T12:23:49.618564+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 385,
+      "sent_to_telegram_at": "2026-05-12T12:23:49.618564+00:00"
+    },
+    {
+      "tweet_id": "2053904661422227807",
+      "tweet_url": "https://x.com/tylercowen/status/2053904661422227807#m",
+      "tweet_author": "TylerCowen",
+      "tweet_text": "Xavier, Nick, and Tristan of Queens College podcast with me, mostly fresh material: outrageousfortune.ca/p/nick-\u2026",
+      "reply_text": "From the bondholder's side, this podcast likely signals a buying opportunity in peripheral debt, given the fresh perspectives discussed.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-12T12:23:49.618564+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 382,
+      "sent_to_telegram_at": "2026-05-12T12:23:49.618564+00:00"
+    },
+    {
+      "tweet_id": "2053869102133805495",
+      "tweet_url": "https://x.com/TuurDemeester/status/2053869102133805495#m",
+      "tweet_author": "TuurDemeester",
+      "tweet_text": "As much as I dislike it for any kind of research, ChatGPT 5.5 is amazing with images. Here's the prompt I use to colorize old photographs: \n\n\"You are a world renowned art restorer specialized in 19th century photographs and architecture. Complete and restore this photo to what the sight would have been originally, based on this photo, and then apply modern coloring. make the result look like a pulitzer prize winning photo. Zoom out 5% also.\"",
+      "reply_text": "Generative models like ChatGPT are being used for creative tasks, but their lack of real-world experience limits their ability to truly restore historical context.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-12T12:23:49.618564+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 379,
+      "sent_to_telegram_at": "2026-05-12T12:23:49.618564+00:00"
+    },
     {
       "tweet_id": "2053865152739492109",
       "tweet_url": "https://x.com/charliebilello/status/2053865152739492109#m",
