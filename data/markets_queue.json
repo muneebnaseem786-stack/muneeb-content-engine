@@ -1,6 +1,141 @@
 {
   "posts": [
     {
+      "source": "x:@biancoresearch",
+      "source_url": "https://x.com/biancoresearch/status/2054240196007207259#m",
+      "source_headline": "Kevin Warsh has to be confirmed to two posts, Fed Governor and then Fed Chairman. (The Chairman has to be a Fed Governor).\n\nJust now:\n\n*SENATE CONFIRMS WARSH TO",
+      "source_handle": "biancoresearch",
+      "image_url": null,
+      "topic": "Kevin Warsh Fed Chairman",
+      "format": "single_tweet",
+      "x_post": "Kevin Warsh's confirmation as Fed Governor is just the beginning. His expected confirmation as Fed Chairman tomorrow will mark the end of the Stephen Miran era and a new era of monetary policy. The market is not pricing in the implications of this shift.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negations and hedges, none found. The post contains a specific event and executes a contrarian thesis move. The opinion test result shows the post has a clear, disagreeable claim.",
+      "scores": [
+        {
+          "candidate_index": 3,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-12T19:26:08.186573+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 391,
+      "sent_to_telegram_at": "2026-05-12T19:26:08.861610+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-12/india-books-phosphate-fertilizer-at-40-above-pre-war-prices",
+      "source_headline": "India Books Phosphate Fertilizer at 40% Above Pre-War Prices",
+      "source_handle": "",
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ioYMsyEuP.nI/v1/1200x-1.jpg",
+      "topic": "India Phosphate Fertilizer",
+      "format": "single_tweet",
+      "x_post": "India booking phosphate fertilizer at 40% above pre-war prices is a sign of a deeper supply chain issue. This price spike will have a second-order consequence on global food prices, and the market is underestimating the impact.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negations and hedges, none found. The post contains a specific number (40%) and executes a historical comparison move. The opinion test result shows the post has a clear, disagreeable claim.",
+      "scores": [
+        {
+          "candidate_index": 3,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-12T19:26:06.180341+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 389,
+      "sent_to_telegram_at": "2026-05-12T19:26:07.186375+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-12/us-power-prices-climb-61-faster-than-inflation-as-demand-surges",
+      "source_headline": "US Power Prices Climb 61% Faster Than Inflation as Demand Surges",
+      "source_handle": "",
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iU7EO2CAsXiY/v1/1200x-1.jpg",
+      "topic": "US Power Prices",
+      "format": "single_tweet",
+      "x_post": "US power prices climbing 61% faster than inflation is the canary in the coal mine for the entire economy. This surge will force a defensive rotation into dividend yield stocks, and the market is already two months ahead of the narrative.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negations and hedges, none found. The post contains a specific number (61%) and executes a contrarian thesis move. The opinion test result shows the post has a clear, disagreeable claim.",
+      "scores": [
+        {
+          "candidate_index": 3,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-12T19:26:04.053092+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 387,
+      "sent_to_telegram_at": "2026-05-12T19:26:05.180149+00:00"
+    },
+    {
       "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/05/11/oil-price-today-brent-wti-iran-war-trump.html",
       "source_headline": "Oil jumps over 4% as Netanyahu and Trump remarks stoke worries of prolonged Middle East conflict",
@@ -1294,5 +1429,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-05-11T06:33:11.116631+00:00"
+  "last_updated": "2026-05-12T19:26:09.861794+00:00"
 }
