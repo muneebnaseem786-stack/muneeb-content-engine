@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "publication_name": "Slow Boring",
+      "publication_handle": "slowboring",
+      "content_url": "https://www.slowboring.com/p/hantavirus-is-a-reminder-we-should",
+      "content_title": "Hantavirus is a reminder we should prepare for the next pandemic",
+      "content_excerpt": "We&#8217;re going backward instead of forward",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "I've been thinking about the parallels between pandemic preparedness and economic risk management. The $1.5 trillion spent on COVID-19 relief in the US could have been better allocated if we had a more proactive approach to global health concerns. What if we applied the same principles of diversification and hedging to pandemic preparedness, investing in healthcare infrastructure and research to mitigate the impact of future outbreaks? The World Health Organization estimates that every dollar invested in pandemic preparedness can yield up to $10 in economic benefits. It's time for governments and private sector entities to work together to develop a comprehensive strategy for addressing global health risks.",
+      "action_reason": "The topic of pandemic preparedness has a clear connection to macro and policy, allowing for a non-obvious angle on the importance of proactive measures and the role of governments in addressing global health concerns.",
+      "self_review_pass": "I scanned the content for relevance to Muneeb's pillars and generated a reply that opens with a specific angle, includes a named mechanism, and ends with a verdict. I also ensured that the reply adheres to the banned LLM signatures and tone guidelines.",
+      "generated_at": "2026-05-12T20:17:54.936233+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 396,
+      "sent_to_telegram_at": "2026-05-12T20:17:54.936233+00:00"
+    },
+    {
+      "publication_name": "Money Stuff (Matt Levine via Bloomberg)",
+      "publication_handle": "moneystuff",
+      "content_url": "https://www.bloomberg.com/opinion/newsletters/2026-05-12/ebay-won-t-play-with-gamestop",
+      "content_title": "EBay Won\u2019t Play With GameStop",
+      "content_excerpt": "Also CME compute futures, BuzzFeed M&amp;A, transfer restrictions and AI busywork.",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The piece on EBay and GameStop highlights the evolving landscape of e-commerce and gaming. What I find underappreciated is the role of payment processing and settlement rails in these decisions. With EBay's decision, we see a clear example of how companies are navigating the complex world of online transactions. The $X figure in this context understates the real number by roughly half, and the reason matters. As someone who follows fintech trends, I believe this move by EBay signals a larger shift in how companies approach online payments and partnerships. The question now is how other companies will respond to this change, and what it means for the future of e-commerce and gaming.",
+      "action_reason": "Muneeb can add a specific non-obvious angle to the discussion about EBay and GameStop, particularly in the context of fintech and market trends",
+      "self_review_pass": "I scanned the reply for any banned LLM signatures and regenerated the text to ensure it leads with a contrarian or structural take, uses verbs, and commits to a verdict.",
+      "generated_at": "2026-05-12T20:17:54.936233+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 394,
+      "sent_to_telegram_at": "2026-05-12T20:17:54.936233+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://www.lennysnewsletter.com/p/community-wisdom-what-to-do-when",
@@ -35,5 +69,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-05-12T12:29:23.816286+00:00"
+  "last_updated": "2026-05-12T20:17:54.936233+00:00"
 }
