@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-11T03:19:28.258706+00:00",
+  "last_updated": "2026-05-12T03:14:56.625865+00:00",
   "topics": [
+    {
+      "topic": "Circle Just Built the Bank for AI Agents",
+      "source_url": "https://www.circle.com/pressroom/circle-launches-ai-infrastructure-to-power-the-agentic-economy",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-12T03:14:56.625865+00:00"
+    },
+    {
+      "topic": "The Banking Lobby Is Not Scared of Stablecoins. It Is Scared of Yield.",
+      "source_url": "https://www.coindesk.com/policy/2026/05/11/banking-groups-escalate-fight-over-stablecoin-yield-ahead-of-senate-vote",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-12T03:14:56.625865+00:00"
+    },
+    {
+      "topic": "The Company That Ceded the Consumer Layer Just Won the Revenue Race",
+      "source_url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-12T03:14:56.625865+00:00"
+    },
     {
       "topic": "Capital One Now Owns the Card, the Network, and the Software. No One Has Done That Before.",
       "source_url": "https://www.paymentsdive.com/news/capital-one-acquire-brex-5-billion-fintech/810319/",
