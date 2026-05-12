@@ -1,6 +1,30 @@
 {
-  "last_updated": "2026-05-12T12:23:49.618564+00:00",
+  "last_updated": "2026-05-12T21:50:50.800855+00:00",
   "replies": [
+    {
+      "tweet_id": "2054245955848016141",
+      "tweet_url": "https://x.com/rauchg/status/2054245955848016141#m",
+      "tweet_author": "rauchg",
+      "tweet_text": "Cool\n\n\nsarah (@sarahfim)\n\nDespite being told no, I'm open-sourcing TrustClaw.\n\nYou can now deploy a production-ready personal agent service with over 1000+ app integrations in a single command, straight to @vercel with npx @composio/trustclaw deploy\n\nI was inspired by @openclaw to build a simple web app where anyone could create their own 24/7 personal assistant and connect it to Gmail, Google Calendar, Notion, Slack, GitHub, HubSpot, Linear\u2026 well everything, and securely through OAuth/sandbox e",
+      "reply_text": "You're open-sourcing a personal agent service with 1000+ app integrations, but that just means more attack surfaces for hackers.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-12T21:50:50.800855+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 403,
+      "sent_to_telegram_at": "2026-05-12T21:50:50.800855+00:00"
+    },
+    {
+      "tweet_id": "2054010069621055738",
+      "tweet_url": "https://x.com/patrick_oshag/status/2054010069621055738#m",
+      "tweet_author": "patrick_oshag",
+      "tweet_text": "Colossus (@colossusmag)\n\nScott Wu is the co-founder of Cognition AI, one of the fastest-growing companies in history. He\u2019s also the greatest competitive programmer the US has ever produced. You may have seen him doing impossible card tricks and mental math.\n\nYou\u2019ve never seen him asked about weed, Michael Jordan, cancer, and human consciousness over a punnet of strawberries. That is what Colossus editor-in-chief Jeremy Stern did on a recent visit to San Francisco.\n\nFor those less familiar with @",
+      "reply_text": "Q2 2023. Credit Suisse is taken over by UBS. You're seeing founders like Scott Wu navigate similar systemic risks.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-12T21:50:50.800855+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 401,
+      "sent_to_telegram_at": "2026-05-12T21:50:50.800855+00:00"
+    },
     {
       "tweet_id": "2054028745678409736",
       "tweet_url": "https://x.com/elidourado/status/2054028745678409736#m",
