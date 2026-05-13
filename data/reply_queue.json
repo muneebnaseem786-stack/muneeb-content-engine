@@ -1,6 +1,42 @@
 {
-  "last_updated": "2026-05-13T12:28:39.932387+00:00",
+  "last_updated": "2026-05-13T21:56:47.187993+00:00",
   "replies": [
+    {
+      "tweet_id": "2054627102922797323",
+      "tweet_url": "https://x.com/sama/status/2054627102922797323#m",
+      "tweet_author": "sama",
+      "tweet_text": "i get some anxiety not using the smartest-available model/settings.\n\nbut sometimes i dont mind if it's really slow.\n\ni wonder if we should focus more on a price/speed tradeoff relative to a price/intelligence tradeoff.",
+      "reply_text": "You're optimizing for price over intelligence because slow systems can still be secure.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-13T21:56:47.187993+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 433,
+      "sent_to_telegram_at": "2026-05-13T21:56:47.187993+00:00"
+    },
+    {
+      "tweet_id": "2054501917473312802",
+      "tweet_url": "https://x.com/stratechery/status/2054501917473312802#m",
+      "tweet_author": "stratechery",
+      "tweet_text": "5-13-2026 ($)         \n\n\u2022The Deployment Company\n\u2022Back to the 70s\n\u2022Apple and Intel\n\nstratechery.com/2026/the-dep\u2026",
+      "reply_text": "Q1 2023, Silicon Valley Bank's collapse takes 36 hours, a timeline that dictates the pace of modern financial contagion.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-13T21:56:47.187993+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 431,
+      "sent_to_telegram_at": "2026-05-13T21:56:47.187993+00:00"
+    },
+    {
+      "tweet_id": "2054647760255898014",
+      "tweet_url": "https://x.com/TonyRobbins/status/2054647760255898014#m",
+      "tweet_author": "tonyrobbins",
+      "tweet_text": "Visited @Figure_robot's campus last month, an AI Robotics company building the world's first commercially viable autonomous humanoid robot.\n\nCongrats to @adcock_brett and the team \u2014 and proud to be part of this journey alongside @DakinSloss and @PrimeMoversLab. \n\nHere\u2019s a look inside the lab \u2014 watch live \ud83d\udc47\n\n\nFigure (@Figure_robot)\n\nWatch a team of humanoid robots running a full 8-hr shift at human performance levels. This is fully autonomous running Helix-02 nitter.net/i/broadcasts/1dJrPEVbZ\u2026\n\n\n",
+      "reply_text": "$10B is the estimated annual cost savings from autonomous warehouse labor. That matters for Figure's humanoid robot commercialization timeline.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-13T21:56:47.187993+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 429,
+      "sent_to_telegram_at": "2026-05-13T21:56:47.187993+00:00"
+    },
     {
       "tweet_id": "2054362400116097071",
       "tweet_url": "https://x.com/auren/status/2054362400116097071#m",
