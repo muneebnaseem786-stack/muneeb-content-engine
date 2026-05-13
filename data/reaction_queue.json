@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-13T12:06:10.970176+00:00",
+  "last_updated": "2026-05-13T21:25:59.929172+00:00",
   "posts": [
+    {
+      "topic": "Anthropic's business model",
+      "source": "x:@patrick_oshag",
+      "source_url": "https://x.com/patrick_oshag/status/2054610200137543917#m",
+      "source_headline": "500% NDR at Anthropic is the stat of the year for me\u2026\n\nI asked Krishna what questions he'd ask the model companies if he were an investor. His three:\u2028\n\n1) What ",
+      "source_handle": "patrick_oshag",
+      "x_post": "Anthropic's 500% net dollar retention is a clear indication that their AI model is not just a novelty, but a vital tool for businesses. With $7.4 billion in annualized revenue, the company is poised to become a leader in the AI industry. This is due in part to their focus on building a platform that allows customers to deploy AI at scale, rather than just testing it. As a result, nine of the Fortune 10 are already customers, and the company is seeing significant returns on investment. The key to Anthropic's success lies in their ability to provide a platform that is both powerful and easy to use, allowing businesses to integrate AI into their operations seamlessly. As the demand for AI continues to grow, Anthropic is well-positioned to capitalize on this trend and become a major player in the industry.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. Regenerated several sentences to ensure affirmative restatement and concrete anchors.",
+      "scores": [
+        {
+          "candidate_index": 6,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-13T21:25:59.187989+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 426,
+      "sent_to_telegram_at": "2026-05-13T21:25:59.929155+00:00"
+    },
     {
       "topic": "AI deployment",
       "source": "rss:Stratechery",
