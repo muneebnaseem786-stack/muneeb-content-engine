@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T21:25:59.929172+00:00",
+  "last_updated": "2026-05-13T22:50:57.550890+00:00",
   "posts": [
     {
       "topic": "Anthropic's business model",
@@ -295,7 +295,11 @@
       "generated_at": "2026-05-13T12:06:09.806191+00:00",
       "status": "auto_sent",
       "telegram_message_id": 414,
-      "sent_to_telegram_at": "2026-05-13T12:06:10.970159+00:00"
+      "sent_to_telegram_at": "2026-05-13T12:06:10.970159+00:00",
+      "posted_tweet_id": "2054591764141580531",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2054591764141580531",
+      "posted_at": "2026-05-13T15:57:03+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Ethereum Foundation's new Clear Signing standard",
