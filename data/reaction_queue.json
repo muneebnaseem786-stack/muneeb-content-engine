@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T21:08:55.286149+00:00",
+  "last_updated": "2026-05-14T22:40:21.911855+00:00",
   "posts": [
     {
       "topic": "Cerebras IPO and AI inference demand",
@@ -551,7 +551,11 @@
       "generated_at": "2026-05-13T21:25:59.187989+00:00",
       "status": "auto_sent",
       "telegram_message_id": 426,
-      "sent_to_telegram_at": "2026-05-13T21:25:59.929155+00:00"
+      "sent_to_telegram_at": "2026-05-13T21:25:59.929155+00:00",
+      "posted_tweet_id": "2054972719654134231",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2054972719654134231",
+      "posted_at": "2026-05-14T17:10:50+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "AI deployment",
