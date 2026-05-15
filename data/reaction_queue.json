@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T20:51:06.879985+00:00",
+  "last_updated": "2026-05-15T22:14:00.187717+00:00",
   "posts": [
     {
       "topic": "Argentina oil project",
@@ -329,7 +329,11 @@
         "verdict_reason": "The reaction contains a banned LLM signature, specifically the phrase 'navigate the complexities'."
       },
       "telegram_message_id": 480,
-      "sent_to_telegram_at": "2026-05-15T11:48:04.146003+00:00"
+      "sent_to_telegram_at": "2026-05-15T11:48:04.146003+00:00",
+      "posted_tweet_id": "2055273984091185231",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2055273984091185231",
+      "posted_at": "2026-05-15T13:07:57+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "India's RBI bond market targets",
@@ -593,7 +597,11 @@
         "verdict_reason": "The reaction directly engages with the source's central claim and maintains Muneeb's analytical voice without any compliance issues."
       },
       "telegram_message_id": 469,
-      "sent_to_telegram_at": "2026-05-15T05:48:05.894946+00:00"
+      "sent_to_telegram_at": "2026-05-15T05:48:05.894946+00:00",
+      "posted_tweet_id": "2055190298238788030",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2055190298238788030",
+      "posted_at": "2026-05-15T07:35:25+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Cerebras IPO and AI inference demand",
@@ -849,7 +857,11 @@
       "generated_at": "2026-05-14T21:08:54.440512+00:00",
       "status": "auto_sent",
       "telegram_message_id": 458,
-      "sent_to_telegram_at": "2026-05-14T21:08:55.286128+00:00"
+      "sent_to_telegram_at": "2026-05-14T21:08:55.286128+00:00",
+      "posted_tweet_id": "2055189795387871557",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2055189795387871557",
+      "posted_at": "2026-05-15T07:33:25+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Amazon's AI success",
