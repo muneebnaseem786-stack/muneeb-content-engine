@@ -37,6 +37,8 @@ import feedparser
 REPO_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO_ROOT))
 
+from scripts.content.jury import judge, format_verdict_card  # noqa: E402
+
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 
@@ -45,6 +47,7 @@ QUEUE_PATH    = REPO_ROOT / "data" / "substack_reply_queue.json"
 COOLDOWN_PATH = REPO_ROOT / "data" / ".substack_reply_cooldown.json"
 LESSONS_PATH  = REPO_ROOT / "data" / "lessons_learned.md"
 PROMPT_PATH   = REPO_ROOT / "prompts" / "substack_reply_radar_prompt.txt"
+JURY_PATH     = REPO_ROOT / "prompts" / "jury_substack_reply.txt"
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -276,9 +279,9 @@ def _tg_send(text: str, reply_markup: dict | None = None, parse_mode: str = "") 
     return None
 
 
-def send_suggestion_to_telegram(result: dict, idx: int, total: int) -> int | None:
+def send_suggestion_to_telegram(result: dict, idx: int, total: int, jury_card: str = "") -> int | None:
     """Send 2 Telegram messages per suggestion:
-      1. Context: publication, title as clickable link, excerpt, action type
+      1. Context: publication, title as clickable link, excerpt, action type (+ jury card)
       2. Raw content: restack comment or reply text (long-press to copy) + direct link button
     Returns message_id of message 1."""
     action      = result.get("action", "REPLY")
@@ -297,8 +300,10 @@ def send_suggestion_to_telegram(result: dict, idx: int, total: int) -> int | Non
         f"{action_icon} <b>Substack {action} {idx}/{total}</b> — {_esc(pub_name)}\n\n"
         f"{type_icon} {title_link}\n\n"
         f"<i>{_esc(excerpt)}</i>\n\n"
-        f"Reply with feedback to train the radar."
     )
+    if jury_card:
+        ctx += f"{_esc(jury_card)}\n\n"
+    ctx += "Reply with feedback to train the radar."
     ctx_id = _tg_send(ctx, parse_mode="HTML")
 
     # Message 2: raw content (long-press to copy) + button linking directly to the article/note
@@ -548,8 +553,33 @@ def run(dry_run: bool = False) -> None:
         result["content_excerpt"]    = winner["content_excerpt"]
         result["content_type"]       = winner["content_type"]
 
+        # Editorial jury — score relevance / voice / compliance
+        generated_text = restack_comment if action == "RESTACK" else reply_text
+        action_label = "Restack comment" if action == "RESTACK" else "Reply text"
+        verdict = judge(
+            JURY_PATH,
+            publication_name=winner["publication_name"],
+            content_type=winner["content_type"],
+            content_title=winner["content_title"],
+            content_url=winner["content_url"],
+            content_excerpt=winner["content_excerpt"],
+            action=action,
+            action_label=action_label,
+            generated_content=generated_text,
+        )
+        print(f"[substack-radar] Jury: {verdict.get('verdict')} ({verdict.get('verdict_reason','')[:100]})")
+
+        if verdict.get("verdict") == "REJECT":
+            print(f"[substack-radar] Jury REJECT for {winner['publication_name']} — violations: {verdict.get('violations')}")
+            # Cooldown the publication so we don't immediately pick it again
+            save_cooldown(cooldown, winner["publication_handle"])
+            continue
+
         suggestions_sent += 1
-        msg_id = send_suggestion_to_telegram(result, suggestions_sent, suggestions_cap)
+        msg_id = send_suggestion_to_telegram(
+            result, suggestions_sent, suggestions_cap,
+            jury_card=format_verdict_card(verdict),
+        )
 
         queue.setdefault("items", []).insert(0, {
             "publication_name":   winner["publication_name"],
@@ -565,6 +595,7 @@ def run(dry_run: bool = False) -> None:
             "self_review_pass":   result.get("self_review_pass", ""),
             "generated_at":       now_iso,
             "status":             "auto_sent",
+            "jury":               verdict,
             "telegram_message_id": msg_id,
             "sent_to_telegram_at": now_iso,
         })

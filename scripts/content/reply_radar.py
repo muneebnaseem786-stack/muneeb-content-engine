@@ -39,6 +39,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO_ROOT))
 
 from scripts.content.sources import fetch_nitter_profile  # noqa: E402
+from scripts.content.jury import judge, format_verdict_card  # noqa: E402
 
 
 # ── Paths ────────────────────────────────────────────────────────────────────
@@ -48,6 +49,7 @@ QUEUE_PATH         = REPO_ROOT / "data" / "reply_queue.json"
 LESSONS_PATH       = REPO_ROOT / "data" / "lessons_learned.md"
 PROMPT_PATH        = REPO_ROOT / "prompts" / "reply_radar_prompt.txt"
 COOLDOWN_PATH      = REPO_ROOT / "data" / ".recent_reply_authors.json"
+JURY_PATH          = REPO_ROOT / "prompts" / "jury_reply.txt"
 
 COOLDOWN_DAYS      = 14
 SUGGESTIONS_PER_RUN = 3
@@ -191,9 +193,10 @@ def _tg_send(text: str) -> int | None:
 
 def send_suggestion_to_telegram(
     post: dict, reply_text: str, style_name: str, idx: int, total: int,
+    jury_card: str = "",
 ) -> int | None:
     """Send 2 messages per suggestion:
-      1. Context: index + author + style + tweet text + URL
+      1. Context: index + author + style + tweet text + URL (+ jury card)
       2. Raw reply text (long-press to copy on mobile, paste into X reply box)
     Returns the message_id of message 1 (used for feedback attribution).
     """
@@ -207,9 +210,10 @@ def send_suggestion_to_telegram(
         f'"{text}"',
         "",
         f"🔗 {url}",
-        "",
-        "💡 Reply with feedback to update lessons_learned.md.",
     ]
+    if jury_card:
+        ctx_lines += ["", jury_card]
+    ctx_lines += ["", "💡 Reply with feedback to update lessons_learned.md."]
     ctx_id = _tg_send("\n".join(ctx_lines))
 
     if reply_text:
@@ -410,9 +414,29 @@ def run(dry_run: bool = False) -> None:
             # Do NOT cooldown skipped authors — give them a chance on a fresher post
             continue
 
+        # Editorial jury — score relevance / voice / compliance
+        verdict = judge(
+            JURY_PATH,
+            tweet_author=post.get("handle", ""),
+            tweet_url=post.get("url", ""),
+            tweet_text=post.get("text", ""),
+            style_name=style["name"],
+            style_instructions=style.get("instructions", ""),
+            generated_content=reply_text,
+        )
+        print(f"  Jury: {verdict.get('verdict')} ({verdict.get('verdict_reason','')[:100]})")
+
+        if verdict.get("verdict") == "REJECT":
+            skipped_count += 1
+            print(f"  ⊘ Jury REJECT — violations: {verdict.get('violations')}")
+            continue
+
         # Sent path
         sent_count += 1
-        msg_id = send_suggestion_to_telegram(post, reply_text, style["name"], sent_count, SUGGESTIONS_PER_RUN)
+        msg_id = send_suggestion_to_telegram(
+            post, reply_text, style["name"], sent_count, SUGGESTIONS_PER_RUN,
+            jury_card=format_verdict_card(verdict),
+        )
 
         # Extract tweet_id from URL for queue entry
         import re
@@ -428,6 +452,7 @@ def run(dry_run: bool = False) -> None:
             "reply_style":         style["name"],
             "generated_at":        now_iso,
             "status":              "auto_sent",
+            "jury":                verdict,
             "telegram_message_id": msg_id,
             "sent_to_telegram_at": now_iso,
         })

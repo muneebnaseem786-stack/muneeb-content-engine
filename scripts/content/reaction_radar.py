@@ -39,6 +39,7 @@ from scripts.content.sources import (  # noqa: E402
     filter_already_reacted,
     filter_recent_authors,
 )
+from scripts.content.jury import judge, format_verdict_card  # noqa: E402
 
 
 # ── Paths ────────────────────────────────────────────────────────────────────
@@ -47,6 +48,7 @@ SOURCES_PATH    = REPO_ROOT / "data" / "reaction_sources.json"
 QUEUE_PATH      = REPO_ROOT / "data" / "reaction_queue.json"
 LESSONS_PATH    = REPO_ROOT / "data" / "lessons_learned.md"
 PROMPT_PATH     = REPO_ROOT / "prompts" / "reaction_radar_prompt.txt"
+JURY_PATH       = REPO_ROOT / "prompts" / "jury_reaction.txt"
 
 
 # ── Telegram (no buttons, F&R Reply Radar pattern) ───────────────────────────
@@ -78,7 +80,7 @@ def _tg_send(text: str, parse_mode: str | None = None) -> int | None:
     return None
 
 
-def send_reaction_to_telegram(post: dict) -> int | None:
+def send_reaction_to_telegram(post: dict, jury_card: str = "") -> int | None:
     """Send 2 Telegram messages:
       1. Quote-tweet prompt: source URL first, then context (open URL, click QT)
       2. Raw X long-form text (paste into QT composer)
@@ -97,9 +99,10 @@ def send_reaction_to_telegram(post: dict) -> int | None:
         "",
         f"📡 {topic}",
         f"{src_label} · {src_headline}",
-        "",
-        "💡 Reply here with feedback to update lessons_learned.md.",
     ]
+    if jury_card:
+        ctx_lines += ["", jury_card]
+    ctx_lines += ["", "💡 Reply here with feedback to update lessons_learned.md."]
     main_id = _tg_send("\n".join(ctx_lines))
 
     # Message 2: raw X text — long-press to copy on mobile, paste into QT composer
@@ -356,7 +359,32 @@ def run(dry_run: bool = False) -> None:
         "status": "auto_sent",
     })
 
-    msg_id = send_reaction_to_telegram(queue_entry)
+    # Editorial jury — score relevance / voice / compliance before shipping
+    verdict = judge(
+        JURY_PATH,
+        source_label=queue_entry.get("source", ""),
+        source_url=queue_entry.get("source_url", ""),
+        source_text=queue_entry.get("source_headline", ""),
+        generated_content=queue_entry.get("x_post", ""),
+    )
+    queue_entry["jury"] = verdict
+    print(f"[reaction-radar] Jury: {verdict.get('verdict')} ({verdict.get('verdict_reason','')[:120]})")
+
+    if verdict.get("verdict") == "REJECT":
+        print(f"[reaction-radar] Jury REJECT — dropping candidate. Violations: {verdict.get('violations')}")
+        queue_entry["status"] = "jury_rejected"
+        queue.setdefault("posts", []).insert(0, queue_entry)
+        save_queue(queue)
+        _tg_send(
+            f"🔴 Reaction Radar — jury rejected this run\n"
+            f"Topic: {queue_entry.get('topic','')}\n"
+            f"Source: {queue_entry.get('source_url','')}\n"
+            f"Reason: {verdict.get('verdict_reason','')}\n"
+            f"Violations: {'; '.join(verdict.get('violations', [])[:3])}"
+        )
+        return
+
+    msg_id = send_reaction_to_telegram(queue_entry, jury_card=format_verdict_card(verdict))
     if msg_id:
         queue_entry["telegram_message_id"] = msg_id
         queue_entry["sent_to_telegram_at"] = datetime.now(timezone.utc).isoformat()
