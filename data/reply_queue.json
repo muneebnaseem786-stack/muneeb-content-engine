@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-05-15T12:15:31.102514+00:00",
+  "last_updated": "2026-05-15T20:43:32.413866+00:00",
   "replies": [
+    {
+      "tweet_id": "2055384351307858390",
+      "tweet_url": "https://x.com/garrytan/status/2055384351307858390#m",
+      "tweet_author": "garrytan",
+      "tweet_text": "It's time to vote in California elections and here is my voter guide. \n\nThere are a lot of things to get right here. Please tell your friends this is one resource they can use and trust.\n\n\nGarry's List (@garryslist)\n\nIt's here: the Garry's List Action Voter Guide: garrysguide.org/elections\n\nWe pulled together endorsements from the organizations already doing the work \u2014 housing groups, labor, civic reformers, the people with skin in the game \u2014 and put them in one place. Transparent. Sourced. Sear",
+      "reply_text": "From the bondholder's side, endorsements from housing groups and labor unions indicate a favorable duration mismatch in California's fiscal landscape.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-15T20:43:32.413866+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 512,
+      "sent_to_telegram_at": "2026-05-15T20:43:32.413866+00:00"
+    },
     {
       "tweet_id": "2054942168654000554",
       "tweet_url": "https://x.com/jchervinsky/status/2054942168654000554#m",
