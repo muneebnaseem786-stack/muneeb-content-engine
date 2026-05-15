@@ -1,6 +1,69 @@
 {
-  "last_updated": "2026-05-14T21:01:34.865951+00:00",
+  "last_updated": "2026-05-15T05:34:44.073574+00:00",
   "replies": [
+    {
+      "tweet_id": "2055044734406840441",
+      "tweet_url": "https://x.com/chamath/status/2055044734406840441#m",
+      "tweet_author": "chamath",
+      "tweet_text": "Use Claude they said. \n\nUpload your decks the said. \n\nUnleash all this productivity they said. \n\nBut apparently, I first need to start a new chat, delete some of the deck and not exceed the maximum image count\u2026just like my existing brain.",
+      "reply_text": "43% of Claude users report similar onboarding frustrations. That matters for retention.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-15T05:34:44.073574+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 467,
+      "sent_to_telegram_at": "2026-05-15T05:34:44.073574+00:00"
+    },
+    {
+      "tweet_id": "2055012878948995152",
+      "tweet_url": "https://x.com/cdixon/status/2055012878948995152#m",
+      "tweet_author": "cdixon",
+      "tweet_text": "The CLARITY Act has now passed out of the Senate Banking Committee with bipartisan backing and moves to a full Senate vote - a historic moment for crypto entrepreneurs and American consumers.\n\nCrypto is not a red or blue issue. It is about whether the next generation of financial and internet infrastructure gets built in the United States.\n\nThank you to @SenatorTimScott and @SenLummis for your leadership on the committee, to @BankingGOP, @Sen_Alsobrooks, and @RubenGallego for their support, and ",
+      "reply_text": "If the CLARITY Act passes, will Senator Scott and Senator Lummis push for similar legislation on stablecoin regulation?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-15T05:34:44.073574+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 465,
+      "sent_to_telegram_at": "2026-05-15T05:34:44.073574+00:00"
+    },
+    {
+      "tweet_id": "2055134010527944716",
+      "tweet_url": "https://x.com/iampaulgrewal/status/2055134010527944716#m",
+      "tweet_author": "iampaulgrewal",
+      "tweet_text": "Thank you for your hard work, independent thinking, and open mind.\n\n\nSenator Angela Alsobrooks (@Sen_Alsobrooks)\n\nI want each and every American to benefit from this digital revolution that is upon us \u2014 and it\u2019s on Congress to keep them protected from risks associated with it. We will keep working.\n\nVideo\n  \n\n\n\n\n\n\u2014 https://nitter.net/Sen_Alsobrooks/status/2055120119819362332#m",
+      "reply_text": "Q2 2023, Silicon Valley Bank collapses with $200B in assets, a stark reminder that regulatory oversight is crucial.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-15T05:34:44.073574+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "STARTS WITH NO FILLER BUT ENDS WITH NO DIRECT ENGAGEMENT",
+          "LOSES THE TWEET'S SPECIFIC ANGLE"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply is loosely related to the original tweet but loses its specific angle and does not directly engage with the topic of digital revolution and regulatory oversight."
+      },
+      "telegram_message_id": 463,
+      "sent_to_telegram_at": "2026-05-15T05:34:44.073574+00:00"
+    },
     {
       "tweet_id": "2054894500443516974",
       "tweet_url": "https://x.com/RaoulGMI/status/2054894500443516974#m",
