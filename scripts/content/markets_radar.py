@@ -147,10 +147,11 @@ def _call_groq(prompt: str, max_tokens: int = 4096) -> str:
                 "https://api.groq.com/openai/v1/chat/completions",
                 headers={"Authorization": f"Bearer {api_key}"},
                 json={
-                    "model": "llama-3.3-70b-versatile",
+                    "model": "moonshotai/kimi-k2-instruct",
                     "messages": [{"role": "user", "content": prompt}],
                     "max_tokens": max_tokens,
                     "temperature": 0.7,
+                    "response_format": {"type": "json_object"},
                 },
                 timeout=90,
             )
@@ -172,7 +173,7 @@ def _call_groq(prompt: str, max_tokens: int = 4096) -> str:
 def _call_gemini(prompt: str) -> str:
     import google.generativeai as genai
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.5-pro")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     for attempt in range(3):
         try:
             response = model.generate_content(prompt)
