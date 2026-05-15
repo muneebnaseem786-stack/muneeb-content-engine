@@ -100,13 +100,6 @@
       "pillars": ["saas", "private_markets", "ai"]
     },
     {
-      "name": "Platformer",
-      "handle": "platformer",
-      "feed_url": "https://www.platformer.news/feed",
-      "tier": 2,
-      "pillars": ["tech_strategy", "ai"]
-    },
-    {
       "name": "The Diff",
       "handle": "thediff",
       "feed_url": "https://www.thediff.co/feed",
@@ -114,25 +107,11 @@
       "pillars": ["macro", "private_markets", "fintech"]
     },
     {
-      "name": "Money Stuff (Matt Levine via Bloomberg)",
-      "handle": "moneystuff",
-      "feed_url": "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine.rss",
-      "tier": 1,
-      "pillars": ["fintech", "markets", "private_markets"]
-    },
-    {
       "name": "Unchained Crypto",
       "handle": "unchainedcrypto",
       "feed_url": "https://unchainedcrypto.substack.com/feed",
       "tier": 2,
       "pillars": ["crypto", "payments", "stablecoins"]
-    },
-    {
-      "name": "Galaxy Research",
-      "handle": "galaxyresearch",
-      "feed_url": "https://www.galaxy.com/research/feed/",
-      "tier": 2,
-      "pillars": ["crypto", "stablecoins", "payments"]
     },
     {
       "name": "Dirt",
@@ -161,20 +140,6 @@
       "feed_url": "https://capitalletterfinance.substack.com/feed",
       "tier": 2,
       "pillars": ["private_markets", "fintech"]
-    },
-    {
-      "name": "Bessemer Venture",
-      "handle": "bvp",
-      "feed_url": "https://www.bvp.com/atlas/rss.xml",
-      "tier": 2,
-      "pillars": ["saas", "private_markets", "ai"]
-    },
-    {
-      "name": "a16z Future",
-      "handle": "future",
-      "feed_url": "https://a16z.com/feed/",
-      "tier": 2,
-      "pillars": ["tech_strategy", "ai", "fintech", "crypto"]
     }
   ],
   "config": {

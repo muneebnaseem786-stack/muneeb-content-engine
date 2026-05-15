@@ -126,6 +126,32 @@ def load_seen_urls(dedup_days: int) -> set[str]:
     return seen
 
 
+# ── URL canonicalization ──────────────────────────────────────────────────────
+
+def to_substack_canonical(url: str, handle: str) -> str:
+    """Rewrite a custom-domain Substack URL to the canonical handle.substack.com form.
+    The Substack mobile/web app reliably opens substack.com URLs for restack/comment;
+    custom-domain URLs (slowboring.com, lennysnewsletter.com, etc.) often do not.
+    Already-canonical URLs are returned unchanged.
+    """
+    if not url or not handle:
+        return url
+    try:
+        from urllib.parse import urlparse
+        parsed = urlparse(url)
+        netloc = parsed.netloc.lower()
+        # Already on a substack.com subdomain
+        if netloc.endswith(".substack.com") or netloc == "substack.com":
+            return url
+        # Custom domain → map path onto the publication's substack.com canonical
+        path = parsed.path or "/"
+        if not path.startswith("/p/") and not path.startswith("/note/"):
+            return url  # not an article path — leave alone
+        return f"https://{handle}.substack.com{path}"
+    except Exception:
+        return url
+
+
 # ── Article fetching (RSS) ────────────────────────────────────────────────────
 
 def fetch_articles(pub: dict, lookback_hours: int, min_chars: int) -> list[dict]:
@@ -169,7 +195,8 @@ def fetch_articles(pub: dict, lookback_hours: int, min_chars: int) -> list[dict]
             "publication_handle": pub["handle"],
             "content_type":       "article",
             "content_title":      title,
-            "content_url":        link,
+            "content_url":        to_substack_canonical(link, pub["handle"]),
+            "content_url_native": link,
             "content_excerpt":    summary[:400],
             "text_for_scoring":   text[:800],
             "published_at":       pub_date.isoformat() if pub_date else "",
