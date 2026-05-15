@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-15T05:34:44.073574+00:00",
+  "last_updated": "2026-05-15T12:15:31.102514+00:00",
   "replies": [
+    {
+      "tweet_id": "2054942168654000554",
+      "tweet_url": "https://x.com/jchervinsky/status/2054942168654000554#m",
+      "tweet_author": "jchervinsky",
+      "tweet_text": "Welcome @coinbase and @circle to the Hyperliquid ecosystem!\n\n\njeff.hl (@chameleon_jeff)\n\nExcited to see everyone come together for this historic moment. AQAv2 brings the protocol-aligned stablecoin model that @Nativemarkets trail-blazed to USDC with @Coinbase and @Circle's commitment to Hyperliquid. The community no longer has to choose between liquidity and alignment.\n\nOur industry will face adversity as we continue to grow. It gives me hope seeing titans of the industry come together to build ",
+      "reply_text": "How will @Coinbase and @Circle balance their USDC commitments with Hyperliquid's protocol-aligned stablecoin model?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-15T12:15:31.102514+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 496,
+      "sent_to_telegram_at": "2026-05-15T12:15:31.102514+00:00"
+    },
+    {
+      "tweet_id": "2055059442182275134",
+      "tweet_url": "https://x.com/robinhanson/status/2055059442182275134#m",
+      "tweet_author": "robinhanson",
+      "tweet_text": "\"the next populist wave likely to wash over the American landscape: the regulation of artificial intelligence\" \n\"Likely\"? Show me some betting market odds. \nnationalreview.com/magazine/\u2026",
+      "reply_text": "Q4 2022. FTX collapses with $8B in liabilities. Regulatory scrutiny of AI will follow a similar trajectory.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-15T12:15:31.102514+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned historical_parallel style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 493,
+      "sent_to_telegram_at": "2026-05-15T12:15:31.102514+00:00"
+    },
+    {
+      "tweet_id": "2055218330735083593",
+      "tweet_url": "https://x.com/paulg/status/2055218330735083593#m",
+      "tweet_author": "paulg",
+      "tweet_text": "At one point my son and his friend kept looking for shortcuts to getting rich. Over and over I told them the way to do it is just to make something people want. If this is what I tell my own kids about getting rich, why won't politicians believe this is how a lot of people do it?",
+      "reply_text": "85% of startups fail due to poor market fit. That is the threshold you are trying to overcome.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-15T12:15:31.102514+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is relevant, matches the voice and style, and complies with all requirements."
+      },
+      "telegram_message_id": 491,
+      "sent_to_telegram_at": "2026-05-15T12:15:31.102514+00:00"
+    },
     {
       "tweet_id": "2055044734406840441",
       "tweet_url": "https://x.com/chamath/status/2055044734406840441#m",
