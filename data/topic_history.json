@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-15T03:17:32.944734+00:00",
+  "last_updated": "2026-05-16T03:18:32.012433+00:00",
   "topics": [
+    {
+      "topic": "Apple Is the Platform Tax on the AI Race",
+      "source_url": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-16T03:18:32.012433+00:00"
+    },
+    {
+      "topic": "The CLARITY Act Is the Crypto Industry Choosing Its Regulator",
+      "source_url": "https://www.cnbc.com/2026/05/14/clarity-act-congress-crypto-senate.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-16T03:18:32.012433+00:00"
+    },
+    {
+      "topic": "Cerebras Hit $95 Billion on Day One. 86% of Its Revenue Is One Country.",
+      "source_url": "https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-16T03:18:32.012433+00:00"
+    },
     {
       "topic": "FIS Just Closed Its TSYS Deal. The $40B Reshuffling of Payment Rails Is Done.",
       "source_url": "https://www.fisglobal.com/about-us/media-room/press-release/2026/fis-completes-strategic-acquisition-of-global-payments-issuer-solutions-business",
