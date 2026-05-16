@@ -24,7 +24,10 @@
           "The first Nasdaq instrument tracking UAE sovereign AI spend is interesting. Investors should know that is what they bought."
         ],
         "substack_draft": "86 percent. That number is doing all the work in the Cerebras IPO story.\n\nWall Street is writing about the 68% first-day pop, the $95 billion market cap, the $20 billion OpenAI compute deal. Those numbers are real. But the one buried in the S-1 is the one I keep coming back to: 86% of Cerebras revenue comes from UAE entities. One customer geography. One sovereign AI buildout. One political context.\n\nThe company raised $5.55 billion on the premise of being the NVIDIA alternative for the AI era. The Wafer Scale Engine is genuinely differentiated. I do not doubt the product. What I am less certain about is whether 186 times trailing revenue is what you pay for a company where nearly all of the revenue sits inside one government's AI strategy. G42 is not a commercial customer making SaaS subscription decisions. It is an arm of Abu Dhabi's economic strategy. Sovereign capital is the most cyclical capital there is. It follows geopolitical logic more than commercial logic.\n\nThe UAE Stargate campus is real and the commitment seems durable. But the question worth sitting with is this: what does Cerebras revenue look like if UAE priorities shift, or if G42 builds out its own inference infrastructure the way hyperscalers built away from NVIDIA? I am not sure whether $95 billion at 186x revenue prices that risk correctly. I am genuinely unsure whether the first week of trading is even the right moment to ask."
-      }
+      },
+      "telegram_message_id": 538,
+      "sent_to_telegram_at": "2026-05-16T08:29:23.794788+00:00",
+      "status": "pending"
     },
     {
       "title": "The CLARITY Act Is the Crypto Industry Choosing Its Regulator",
@@ -48,7 +51,10 @@
           "Clarity in regulation is not the same as favorable regulation. The industry is about to learn the difference."
         ],
         "substack_draft": "Most people treat the crypto regulation debate as a fight between the industry and federal regulators. I think it has always been something narrower: a fight about which regulator the industry gets.\n\nThe Senate Banking Committee voted 15-9 this week to advance the CLARITY Act. The headline is that the CFTC receives exclusive jurisdiction over digital commodity spot markets. The framing is regulatory clarity after years of SEC overreach. What is less discussed is that the crypto industry lobbied specifically for CFTC oversight because the CFTC it knew was small, historically derivative-focused, and had roughly a sixth of the SEC's enforcement budget and staff.\n\nThat CFTC does not survive the CLARITY Act intact. You cannot hand an agency exclusive authority over a $3 trillion asset class and expect it to stay the same size. Congress either funds it to match the mandate, which produces the kind of large enforcement-first regulator the industry spent four years fighting, or leaves it underfunded, which creates the fraud-to-backlash cycle that ends in something worse.\n\nI find myself genuinely uncertain about which outcome the industry should prefer. An underfunded CFTC builds the political case for the overreaction it was supposed to prevent. A well-resourced CFTC is a well-resourced regulator, which is what the industry said it did not want. The industry chose its referee. I am not yet sure it understood what referees become when they are handed a mandate this large."
-      }
+      },
+      "telegram_message_id": 541,
+      "sent_to_telegram_at": "2026-05-16T08:29:25.344444+00:00",
+      "status": "pending"
     },
     {
       "title": "Apple Is the Platform Tax on the AI Race",
@@ -70,7 +76,11 @@
           "Controlling the interface beats winning the capability race. Apple ran this experiment with search. It is running it again."
         ],
         "substack_draft": "Most people think of Apple's AI lag as a strategic mistake. The more I look at the WWDC setup, the more it looks like patience that turned into leverage.\n\nPer Bloomberg's reporting this week, Apple plans to let iPhone users choose between Gemini, ChatGPT, and Claude as the AI backing Siri. That means OpenAI, Google, and Anthropic each signed deals to run on Apple's platform, paying distribution concessions for access to 2.3 billion active devices. Apple spent no dollars training a frontier model. The labs spent tens of billions doing it. Apple now holds distribution rights to all of them.\n\nGoogle paid Apple $20 billion in 2022 just to be the default search engine on iPhones. The AI era negotiation is structurally the same, except now there are three bidders and Apple's bargaining position is stronger for it. This is not scrambling to catch up. This is the App Store model applied to the model layer.\n\nWhat I am genuinely uncertain about is the durability. Anthropic is raising at a $950 billion valuation and OpenAI sits at $825 billion. At some point, companies that large will consider whether owning the device is worth more than paying rent to the one that does. But that question is years away. For now, Apple collects from all sides of the capability race without having entered it, and I am not yet sure whether that makes the model race less interesting or more."
-      }
+      },
+      "telegram_message_id": 544,
+      "sent_to_telegram_at": "2026-05-16T08:29:26.719646+00:00",
+      "status": "pending"
     }
-  ]
+  ],
+  "last_updated": "2026-05-16T08:29:26.719662+00:00"
 }
