@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-15T20:43:32.413866+00:00",
+  "last_updated": "2026-05-16T10:04:27.215378+00:00",
   "replies": [
+    {
+      "tweet_id": "2055450863930339601",
+      "tweet_url": "https://x.com/sweatystartup/status/2055450863930339601#m",
+      "tweet_author": "sweatystartup",
+      "tweet_text": "If a food can\u2019t be grown within a few hundred miles of your home, you shouldnt consume it.\n\nFruit should rot it if spends a month in transit. It doesn\u2019t because of herbicides, fungicides, dips, wax and sanitizer.\n\n\nKevin \u2192 Plant Daddy (@KevinEspiritu)\n\nOn a pure input-output basis, bananas seem like a WORSE deal than most crops we consider \"expensive\" and yet they cost ~$0.50/lb...how?\n\nA single banana plant needs roughly 10 gallons of water per day and only produces ONE bunch before it's done. ",
+      "reply_text": "Bananas are cheap because they're a loss leader for supermarkets, not due to farming efficiency.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-16T10:04:27.215378+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 582,
+      "sent_to_telegram_at": "2026-05-16T10:04:27.215378+00:00"
+    },
+    {
+      "tweet_id": "2055494400252481687",
+      "tweet_url": "https://x.com/swyx/status/2055494400252481687#m",
+      "tweet_author": "swyx",
+      "tweet_text": "gotta say Codex is completely unrecognizable from 3 months ago. guys went extreme founder mode on this thing\n\n@gabrielchua was demoing this and i was like \u201cyou guys have agentic excel on mac\u201d\n\n\n\n\nswyx \ud83c\uddf8\ud83c\uddec AIE Singapore! (@swyx)\n\nand @thsottiaux casually dropping some hints on the Codex roadmap in his keynote!\n\nnitter.net/angadsg/status/2055464\u2026\n\n\n\n\n\n\u2014 https://nitter.net/swyx/status/2055467498888118647#m",
+      "reply_text": "From the enterprise software side, Codex's rapid progress looks like a deliberate attempt to capture the low-code market, making Excel on Mac a baseline feature to expand its user base.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-16T10:04:27.215378+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 580,
+      "sent_to_telegram_at": "2026-05-16T10:04:27.215378+00:00"
+    },
     {
       "tweet_id": "2055384351307858390",
       "tweet_url": "https://x.com/garrytan/status/2055384351307858390#m",
