@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-05-16T10:04:27.215378+00:00",
+  "last_updated": "2026-05-16T20:07:51.006243+00:00",
   "replies": [
+    {
+      "tweet_id": "2055715814830166095",
+      "tweet_url": "https://x.com/DavidSacks/status/2055715814830166095#m",
+      "tweet_author": "DavidSacks",
+      "tweet_text": "Was thinking about getting a $40k Royal Oak. Will get this for $400 instead. 99% savings \u2014 thanks AP!\n\nVideo",
+      "reply_text": "$1.1M is the estimated annual production cost of a Royal Oak. That savings matters.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-16T20:07:51.006243+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 598,
+      "sent_to_telegram_at": "2026-05-16T20:07:51.006243+00:00"
+    },
     {
       "tweet_id": "2055450863930339601",
       "tweet_url": "https://x.com/sweatystartup/status/2055450863930339601#m",
