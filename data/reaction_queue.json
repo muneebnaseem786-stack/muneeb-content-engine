@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T20:11:04.676399+00:00",
+  "last_updated": "2026-05-17T22:10:40.444554+00:00",
   "posts": [
     {
       "topic": "Zcash coinholder polling",
@@ -527,7 +527,11 @@
         "verdict_reason": "The reaction directly reframes the source's central claim and maintains an analytical tone consistent with Muneeb's voice."
       },
       "telegram_message_id": 618,
-      "sent_to_telegram_at": "2026-05-17T10:23:32.828717+00:00"
+      "sent_to_telegram_at": "2026-05-17T10:23:32.828717+00:00",
+      "posted_tweet_id": "2056037192351563912",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2056037192351563912",
+      "posted_at": "2026-05-17T15:40:40+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Public BDCs",
