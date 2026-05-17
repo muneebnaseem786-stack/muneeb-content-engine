@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-16T03:18:32.012433+00:00",
+  "last_updated": "2026-05-17T03:20:56.737634+00:00",
   "topics": [
+    {
+      "topic": "The World's Largest Staffing Firm Just Bet on Replacing Its Own Business",
+      "source_url": "https://www.prnewswire.com/news-releases/the-adecco-group-to-scale-agentic-ai-at-speed-with-unlimited-agentforce-license-agreement-302711588.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-17T03:20:56.737634+00:00"
+    },
+    {
+      "topic": "ServiceNow Made AI Free. Salesforce Charges Per Click. One of Them Is Right.",
+      "source_url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-moves-beyond-the-sidecar-AI-era-giving-customers-a-complete-AI-native-experience-across-all-products-and-packages/default.aspx",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-17T03:20:56.737634+00:00"
+    },
+    {
+      "topic": "Anthropic's Near-Trillion Valuation Is a Verdict on B2B Architecture",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-17T03:20:56.737634+00:00"
+    },
     {
       "topic": "Apple Is the Platform Tax on the AI Race",
       "source_url": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
