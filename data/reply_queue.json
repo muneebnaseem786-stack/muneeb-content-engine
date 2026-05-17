@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-17T10:14:00.754185+00:00",
+  "last_updated": "2026-05-17T20:10:42.757586+00:00",
   "replies": [
+    {
+      "tweet_id": "2056102829291618592",
+      "tweet_url": "https://x.com/dwarkesh_sp/status/2056102829291618592#m",
+      "tweet_author": "dwarkesh_sp",
+      "tweet_text": "In the past, when the federal government lacked capacity for some job, the president would just find someone in the private sector who could do it and make them a colonel.\n\n@patio11 told me that just reviving this old strategy could have meaningfully improved state capacity during covid.\n\nIt's such a simple idea, and it's been done before. But we just didn't do it in the pandemic.\n\nHow many other fixes this cheap are just sitting unused by government?\n\nVideo",
+      "reply_text": "If the US had temporarily deputized private sector experts as colonels during Covid, would that have streamlined FDA approval for therapeutics?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-17T20:10:42.757586+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 637,
+      "sent_to_telegram_at": "2026-05-17T20:10:42.757586+00:00"
+    },
+    {
+      "tweet_id": "2055784320955289921",
+      "tweet_url": "https://x.com/joulee/status/2055784320955289921#m",
+      "tweet_author": "joulee",
+      "tweet_text": "friend: \"i have 2 tkts to BTS tonight, want them?\"\n\nhusband: \"wow sure thank you. What do I owe you?\"\n\nfriend: \"nothing, you've already given me a great gift: you've spared me the hassle of having to sell them.\"\n\nThe most gentlemanly response to 'what do i owe you' i have ever heard \ud83c\udfa9 thank you~",
+      "reply_text": "Q2 2023, Credit Suisse takes a $3.5B writedown. The gentleman's response is a financial courtesy, not a business transaction.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-17T20:10:42.757586+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply is loosely related to the original tweet but loses its specific angle, requiring revision to better engage with the original content."
+      },
+      "telegram_message_id": 635,
+      "sent_to_telegram_at": "2026-05-17T20:10:42.757586+00:00"
+    },
     {
       "tweet_id": "2055833995984707844",
       "tweet_url": "https://x.com/RyanDetrick/status/2055833995984707844#m",
