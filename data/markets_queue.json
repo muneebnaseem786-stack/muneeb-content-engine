@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "rss:r/SecurityAnalysis",
+      "source_url": "https://www.reddit.com/r/SecurityAnalysis/comments/1te5vbj/how_ai_startups_hallucinate_their_revenue_metrics/",
+      "source_headline": "How AI Startups Hallucinate Their Revenue Metrics",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "AI Startup Revenue Metrics",
+      "format": "single_tweet",
+      "x_post": "The practice of AI startups 'hallucinating' revenue by using cARR over actual ARR echoes dot-com era pro forma accounting. Investors are valuing future 'contracted' revenue above realized cash flow. This creates unsustainable valuations for companies operating on paper promises, not genuine customer payments.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed. The post starts with an opinionated comparison. One-move test: Reframing analogy (dot-com era accounting) and divergence (cARR vs. ARR, paper promises vs. cash flow). Specific number test: 'cARR' and 'ARR' are specific metrics. Negation scan: No negations found. Hedge scan: No hedges found. First-person check: No first-person pronouns. Opinion test: Clear opinion on valuation practices.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-17T10:16:29.255802+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 614,
+      "sent_to_telegram_at": "2026-05-17T10:16:30.344233+00:00"
+    },
+    {
+      "source": "rss:r/Economics",
+      "source_url": "https://www.reddit.com/r/Economics/comments/1tew90f/traders_now_see_next_fed_interest_rate_move_as_a/",
+      "source_headline": "Traders now see next Fed interest rate move as a hike following inflation surge",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Fed Rate Hike Repricing",
+      "format": "single_tweet",
+      "x_post": "Traders pricing a Fed hike is the market admitting last quarter's 50 bps of rate cut expectations were a fantasy. This reverses months of 'higher for longer' consensus, replacing it with persistent inflation and continued policy tightening. Short duration is the only conviction left.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed. The post opens with a direct, arguable claim. One-move test: Contrarian thesis (market mispriced, now correcting) and Second-order consequence (short duration only conviction). Specific number test: '50 bps' qualifies. Negation scan: No negations found. Hedge scan: No hedges found. First-person check: No first-person pronouns. Opinion test: Clear opinion on market mispricing and strategy.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-17T10:16:27.232786+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 612,
+      "sent_to_telegram_at": "2026-05-17T10:16:28.255649+00:00"
+    },
+    {
+      "source": "rss:r/Economics",
+      "source_url": "https://www.reddit.com/r/Economics/comments/1tfhec6/trump_confirms_beijing_rejects_nvidia_h200/",
+      "source_headline": "Trump Confirms Beijing Rejects Nvidia H200 Purchases; Jensen Huang's Last-Minute Trip Yields No Breakthrough",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "US-China AI Chip Split",
+      "format": "single_tweet",
+      "x_post": "Beijing's rejection of Nvidia H200 purchases is the definitive signal: AI chip supply chains are bifurcating. China now prioritizes domestic innovation, ensuring an independent AI hardware ecosystem emerges by 2026. This creates a parallel market, accelerating global competition for every Western chipmaker.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed. The post leads with a strong opinion/interpretation. One-move test: Contrarian thesis (not just NVDA sales, but systemic bifurcation) and Second-order consequence (new competition, parallel market). Specific number test: '2026' qualifies. Negation scan: No negations found. Hedge scan: No hedges found. First-person check: No first-person pronouns. Opinion test: Clear opinion on market realignment and future competition.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "did not meet minimum score thresholds"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-17T10:16:25.098236+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 610,
+      "sent_to_telegram_at": "2026-05-17T10:16:26.232631+00:00"
+    },
+    {
       "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/05/16/uae-decision-to-leave-opec-was-not-a-political-move.html",
       "source_headline": "UAE says its decision to leave OPEC was a strategic economic move, not a political one",
@@ -3805,5 +4399,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-05-16T16:15:16.521147+00:00"
+  "last_updated": "2026-05-17T10:16:31.344381+00:00"
 }
