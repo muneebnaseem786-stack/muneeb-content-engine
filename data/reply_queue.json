@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-18T16:41:05.863407+00:00",
+  "last_updated": "2026-05-18T20:58:39.718664+00:00",
   "replies": [
+    {
+      "tweet_id": "2056408737456283902",
+      "tweet_url": "https://x.com/jposhaughnessy/status/2056408737456283902#m",
+      "tweet_author": "jposhaughnessy",
+      "tweet_text": "\u201cThe missing part is semiotics, where you would be able to connect and change the meaning of a specific word, not just in context, but globally.\u201d\n~@0x77dev\n\n\nInfinite Loops \ud83c\udf99 (@InfiniteL88ps)\n\nSymbolic: images, words.\nSemantic: understanding them in context.\nSemiotic: changing meaning across the whole system.\n\nMykhailo Marynenko (@0x77dev) on the missing piece of AI.\n\nVideo\n  \n\n\n\n\n\n\u2014 https://nitter.net/InfiniteL88ps/status/2056402115338125786#m",
+      "reply_text": "Semiotics won't change the system, it just reveals the existing power dynamics that shape meaning.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-18T20:58:39.718664+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply is relevant and compliant, but the voice match is not perfect, so it needs revision to better sound like Muneeb."
+      },
+      "telegram_message_id": 671,
+      "sent_to_telegram_at": "2026-05-18T20:58:39.718664+00:00"
+    },
+    {
+      "tweet_id": "2056369275267387589",
+      "tweet_url": "https://x.com/AnshelPfeffer/status/2056369275267387589#m",
+      "tweet_author": "AnshelPfeffer",
+      "tweet_text": "Is Binyamin Netanyahu facing his last stand? (from @TheEconomist) economist.com/middle-east-an\u2026",
+      "reply_text": "If Netanyahu loses power, does the Abraham Accords' momentum slow down or accelerate under a new Israeli government?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-18T20:58:39.718664+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 669,
+      "sent_to_telegram_at": "2026-05-18T20:58:39.718664+00:00"
+    },
     {
       "tweet_id": "2056324181654933613",
       "tweet_url": "https://x.com/DiMartinoBooth/status/2056324181654933613#m",
