@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-17T20:10:42.757586+00:00",
+  "last_updated": "2026-05-18T16:41:05.863407+00:00",
   "replies": [
+    {
+      "tweet_id": "2056324181654933613",
+      "tweet_url": "https://x.com/DiMartinoBooth/status/2056324181654933613#m",
+      "tweet_author": "DiMartinoBooth",
+      "tweet_text": "\ud83d\udc47\ud83d\udc47\ud83d\udc47\n\n\nTracy Shuchart (\ud835\udc9e\ud835\udcbd\ud835\udcbe ) (@chigrl)\n\nA pullback in these stocks will have a disproportionate impact on the broader index&gt; \n\nShares of chipmakers are increasingly dominating the S&P 500 Index, powering stocks to record highs while stirring concerns over the rally\u2019s durability\n\nChip stocks now make up 18% of the S&P 500, a more than-two-decade high (Bloomberg)\n\n\n\n\n\n\u2014 https://nitter.net/chigrl/status/2056323516564148470#m",
+      "reply_text": "Does a chip stock pullback impact the S&P 500's sector rotation, given their 18% weighting?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-18T16:41:05.863407+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 666,
+      "sent_to_telegram_at": "2026-05-18T16:41:05.863407+00:00"
+    },
+    {
+      "tweet_id": "2056408807983722877",
+      "tweet_url": "https://x.com/Noahpinion/status/2056408807983722877#m",
+      "tweet_author": "noahpinion",
+      "tweet_text": "Thread.\n\nIt's the phones.\n\n\nMoshe Hazan (@MosheHazan6)\n\n1/The FT chart by @jburnmurdoch on smartphones and fertility made me think Israel is an unusually clean place to look at this hypothesis. Three groups, varying along smartphone exposure \u00d7 social conservatism, all inside one country. \ud83e\uddf5\n\n\n\n\u2014 https://nitter.net/MosheHazan6/status/2056209004108611787#m",
+      "reply_text": "75% of Israeli women aged 20-24 own smartphones. That demographic shift matters.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-18T16:41:05.863407+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 662,
+      "sent_to_telegram_at": "2026-05-18T16:41:05.863407+00:00"
+    },
+    {
+      "tweet_id": "2056376638632235143",
+      "tweet_url": "https://x.com/jbarro/status/2056376638632235143#m",
+      "tweet_author": "jbarro",
+      "tweet_text": "this is a tautology\n\n\nMatthew Chayes (@chayesmatthew)\n\n\"As for the quote unquote, arcane work rules, penalty claims are there because the carrier violated a rule. \u2029If you violate a rule, you have to pay the claim, hence the penalty claim.\u201d\n\n\n\n\u2014 https://nitter.net/chayesmatthew/status/2056363377518133461#m",
+      "reply_text": "From the carrier's perspective, penalty claims are a cost of doing business, factored into their pricing and risk management strategies.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-18T16:41:05.863407+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with a voice that sounds like Muneeb."
+      },
+      "telegram_message_id": 658,
+      "sent_to_telegram_at": "2026-05-18T16:41:05.863407+00:00"
+    },
     {
       "tweet_id": "2056102829291618592",
       "tweet_url": "https://x.com/dwarkesh_sp/status/2056102829291618592#m",
