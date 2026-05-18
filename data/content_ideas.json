@@ -24,7 +24,10 @@
           "Wednesday's number will be big. The forward guidance for Rubin is the trade."
         ],
         "substack_draft": "The NVIDIA beat-and-fall cycle is roughly six quarters old now, and I keep returning to the same question: how does a company beat revenue estimates every single quarter and still watch its stock fall four times in five?\n\nThe simple answer is that the market stopped pricing the quarter and started pricing the ceiling. NVIDIA's AI accelerator market share fell from above 90% in 2024 to roughly 68% in early 2026. Intel, which most analysts wrote off as irrelevant to the AI infrastructure build, is up more than 240% year-to-date. AMD up 66%. NVIDIA up 15%. That divergence does not happen in a vacuum.\n\nThe structural reason matters more than the multiple. NVIDIA's five biggest customers are also running the most serious programs to replace NVIDIA's chips. Microsoft Maia. Meta MTIA. AWS Trainium. Google TPU. None of these match Blackwell today. But they do not need to. They need to be good enough, at lower cost, inside infrastructure the hyperscaler already controls. That is a different threshold than outcompeting a benchmark.\n\nNVIDIA reports Q1 FY2027 on Wednesday. Analysts expect $78.8 billion in revenue. The beat is probably coming. Whether the forward guidance for Rubin changes the ceiling story is what I am genuinely uncertain about."
-      }
+      },
+      "telegram_message_id": 639,
+      "sent_to_telegram_at": "2026-05-18T14:42:21.585705+00:00",
+      "status": "pending"
     },
     {
       "title": "Microsoft's $190 Billion AI Number Is Doing Misleading Work",
@@ -48,7 +51,10 @@
           "The infrastructure shortage is not going away. The price tag just got honest."
         ],
         "substack_draft": "$190 billion. That number is doing all the work in most AI investment thesis documents right now.\n\nHere is something Amy Hood, Microsoft's CFO, told investors on the Q3 earnings call: $25 billion of that $190 billion is explained by rising chip and memory prices, not new AI demand. Per The Register, memory costs have more than tripled since autumn 2025. Strip out the inflation component and Microsoft's genuine demand signal is closer to $165 billion. Meta made a similar attribution in its own capex guidance, citing higher component pricing, particularly memory, as a driver of the revised forecast.\n\nThe combined Big 4 figure circulating in research notes, $725 billion in 2026, includes this inflation layer across every major hyperscaler. It represents a 77% increase over last year. Some of that is real infrastructure expansion. Some of it is paying three times more for the same memory.\n\nThe harder part to reconcile: Microsoft still expects to remain capacity-constrained on GPUs, CPUs, and storage through at least 2026. Genuine demand exceeds even the inflated budget. The $190 billion number is simultaneously overstating AI investment and understating AI demand, for opposite reasons, at the same time. I am not sure what the right adjustment is. But the next time someone cites the $725 billion figure as evidence of AI investment scale, it is worth asking how much of it is a price hike."
-      }
+      },
+      "telegram_message_id": 642,
+      "sent_to_telegram_at": "2026-05-18T14:42:22.799869+00:00",
+      "status": "pending"
     },
     {
       "title": "Intel Just Became NVIDIA's Chip Maker",
@@ -72,7 +78,11 @@
           "The turnaround was not about making better chips. It was about becoming a factory worth trusting."
         ],
         "substack_draft": "Most people, including me, assumed 2026 would be the year NVIDIA consolidated its AI chip dominance. Intel is up 225% year-to-date and just hit a 26-year stock high.\n\nThat gap took me a while to process. Intel was the company everyone wrote off. It missed the AI training wave, lost data center share to AMD for years, and spent enough time failing on advanced process nodes to become a cautionary tale. And now it is the foundry NVIDIA and Apple both chose.\n\nNVIDIA committed $5 billion to Intel's manufacturing services as part of a TSMC diversification strategy. Apple reached a preliminary deal to manufacture on Intel's 18A process. These are not small bets from companies with alternatives. They are the two most consequential hardware sourcing decisions in the industry this year, and both landed at a company that was structurally broken two years ago.\n\nIntel's turnaround is not a product story. It is a trust story. The foundry business had to prove it could hit process nodes on time and yield well enough for customers who had options. NVIDIA and Apple are those customers. If the next two years of execution hold, the 225% move looks like early innings."
-      }
+      },
+      "telegram_message_id": 645,
+      "sent_to_telegram_at": "2026-05-18T14:42:24.008464+00:00",
+      "status": "pending"
     }
-  ]
+  ],
+  "last_updated": "2026-05-18T14:42:24.008482+00:00"
 }
