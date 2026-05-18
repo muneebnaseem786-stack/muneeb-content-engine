@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18T16:48:45.978210+00:00",
+  "last_updated": "2026-05-18T22:16:41.179839+00:00",
   "posts": [
     {
       "topic": "NextEra acquisition of Dominion Energy",
@@ -527,7 +527,11 @@
         "verdict_reason": "The reaction post meets all the criteria, engaging directly with the source's central claim and maintaining Muneeb's analytical and specific voice without any compliance issues."
       },
       "telegram_message_id": 633,
-      "sent_to_telegram_at": "2026-05-17T20:11:04.676383+00:00"
+      "sent_to_telegram_at": "2026-05-17T20:11:04.676383+00:00",
+      "posted_tweet_id": "2056441252942614944",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2056441252942614944",
+      "posted_at": "2026-05-18T18:26:16+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Financial Decision Making",
