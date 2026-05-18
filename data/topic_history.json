@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-17T03:20:56.737634+00:00",
+  "last_updated": "2026-05-18T03:16:02.141215+00:00",
   "topics": [
+    {
+      "topic": "Intel Just Became NVIDIA's Chip Maker",
+      "source_url": "https://www.cnbc.com/2026/05/08/wall-street-ai-chip-love-moves-from-nvidia-to-intel-amd-and-micron.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-18T03:16:02.141215+00:00"
+    },
+    {
+      "topic": "Microsoft's $190 Billion AI Number Is Doing Misleading Work",
+      "source_url": "https://www.theregister.com/2026/04/30/microsoft_q3_2026/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-18T03:16:02.141215+00:00"
+    },
+    {
+      "topic": "NVIDIA Will Beat Wednesday. The Ceiling Is What Matters.",
+      "source_url": "https://finance.yahoo.com/news/nvidia-reports-fiscal-2027-q1-193600054.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-18T03:16:02.141215+00:00"
+    },
     {
       "topic": "The World's Largest Staffing Firm Just Bet on Replacing Its Own Business",
       "source_url": "https://www.prnewswire.com/news-releases/the-adecco-group-to-scale-agentic-ai-at-speed-with-unlimited-agentforce-license-agreement-302711588.html",
