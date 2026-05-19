@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-19T21:20:28.750539+00:00",
+  "last_updated": "2026-05-19T22:52:27.574613+00:00",
   "posts": [
     {
       "topic": "SoftBank's bet on OpenAI",
@@ -519,7 +519,11 @@
         "verdict_reason": "The reaction directly reframes the source's central claim and maintains an analytical tone consistent with Muneeb's voice."
       },
       "telegram_message_id": 689,
-      "sent_to_telegram_at": "2026-05-19T14:26:33.623372+00:00"
+      "sent_to_telegram_at": "2026-05-19T14:26:33.623372+00:00",
+      "posted_tweet_id": "2056768743506878617",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2056768743506878617",
+      "posted_at": "2026-05-19T16:07:36+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "NextEra acquisition of Dominion Energy",
