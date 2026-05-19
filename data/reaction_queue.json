@@ -1,6 +1,270 @@
 {
-  "last_updated": "2026-05-18T22:16:41.179839+00:00",
+  "last_updated": "2026-05-19T14:26:33.623390+00:00",
   "posts": [
+    {
+      "topic": "Viktor AI tool",
+      "source": "x:@ShaanVP",
+      "source_url": "https://x.com/ShaanVP/status/2056727723339583529#m",
+      "source_headline": "Viktor is the most useful ai tool I\u2019ve used since Claude \n\nUnbelievably good. \n\ncold called the founder and invested 2 days after using it level good\n\n\nFryd Wia",
+      "source_handle": "ShaanVP",
+      "x_post": "Viktor is the most useful AI tool since Claude, with $75M in Series A funding and a $15M annualized revenue run rate in just 10 weeks. This achievement is not just about the funding, but about the impact it has on real businesses. For instance, small companies are saving millions of dollars and sourcing hundreds of thousands in new revenue. The key to Viktor's success lies in its ability to become an AI coworker, 10x'ing the productivity of businesses. With its impressive growth and potential, Viktor is an example of how AI can transform industries and create new opportunities. The fact that it has achieved this in such a short time frame is a testament to the power of AI in driving business success.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. Regenerated sentences to ensure affirmative framing and verb usage.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-19T14:26:02.051717+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly reframes the source's central claim and maintains an analytical tone consistent with Muneeb's voice."
+      },
+      "telegram_message_id": 689,
+      "sent_to_telegram_at": "2026-05-19T14:26:33.623372+00:00"
+    },
     {
       "topic": "NextEra acquisition of Dominion Energy",
       "source": "rss:Bloomberg Markets",
