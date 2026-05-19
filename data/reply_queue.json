@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-19T16:39:58.286803+00:00",
+  "last_updated": "2026-05-19T21:57:38.816653+00:00",
   "replies": [
+    {
+      "tweet_id": "2056827606906139064",
+      "tweet_url": "https://x.com/aakashgupta/status/2056827606906139064#m",
+      "tweet_author": "aakashgupta",
+      "tweet_text": "Every PM team has a backlog graveyard. Tickets approved 12, 18, 24 months ago that passed every prioritization framework and then got buried because something more urgent showed up every single sprint.\n\nThe backlog is a losers bracket. Once a ticket falls below the sprint cut line twice, its probability of getting built approaches zero. Engineers stop reading below capacity. PMs stop advocating. The ticket stays approved and stays dead.\n\nAndre Albuquerque's Monday morning move for builder PMs is",
+      "reply_text": "Do product teams use a different prioritization framework for tickets that have fallen below the sprint cut line twice, or are they abandoned altogether?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-19T21:57:38.816653+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 710,
+      "sent_to_telegram_at": "2026-05-19T21:57:38.816653+00:00"
+    },
+    {
+      "tweet_id": "2056834895284977860",
+      "tweet_url": "https://x.com/ianbremmer/status/2056834895284977860#m",
+      "tweet_author": "IanBremmer",
+      "tweet_text": "the latest in president trump\u2019s effort to place himself above the interests of the country. \n\nhard to imagine any other president attempting this, but easier now that trump has done it.",
+      "reply_text": "43% of presidential impeachment attempts have failed in the US. That historical precedent matters here.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-19T21:57:38.816653+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 708,
+      "sent_to_telegram_at": "2026-05-19T21:57:38.816653+00:00"
+    },
     {
       "tweet_id": "2056768987351195997",
       "tweet_url": "https://x.com/ShaanVP/status/2056768987351195997#m",
