@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "x:@TheStalwart",
+      "source_url": "https://x.com/TheStalwart/status/2056775803644362906#m",
+      "source_headline": "Why exactly did the Arizona grads boo Eric Schmidt? The temptation is to frame it as part of a generational anxiety towards AI.\n\nBut I wonder if the real reason",
+      "source_handle": "TheStalwart",
+      "image_url": null,
+      "topic": "Generational AI Perception",
+      "format": "single_tweet",
+      "x_post": "Arizona grads booing Eric Schmidt redefines AI's social capital. The market's AI hype cycle is officially 'boomer coded behavior' to the next generation, signaling a harder sell for broad adoption beyond enterprise solutions.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Pass (contains strong opinions like 'redefines AI's social capital', 'officially boomer coded behavior', 'harder sell'). One-move test: Reframing analogy. Specific number test: 'boomer coded behavior' as a specific named comparison. Negation scan: 'not just generational anxiety' rephrased. Hedge scan: None. First-person check: None. Opinion test: Pass.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg < 3.5"
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 0,
+          "angle_quality": 0,
+          "timeliness": 0,
+          "avg": 0.0,
+          "compliance_drop": true,
+          "skip_reason": "mentions Mastercard, a direct competitor of Muneeb's employer"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg < 3.5"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        }
+      ],
+      "generated_at": "2026-05-19T16:42:02.351423+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 697,
+      "sent_to_telegram_at": "2026-05-19T16:42:03.412358+00:00"
+    },
+    {
+      "source": "x:@DiMartinoBooth",
+      "source_url": "https://x.com/DiMartinoBooth/status/2056748519546036677#m",
+      "source_headline": "Blame this on? Because this defies @federalreserve \"low hire, low fire\" narrative &amp; has squat to do w/migration.\n\n@ChallengerGray sees teen hiring of 790k i",
+      "source_handle": "DiMartinoBooth",
+      "image_url": null,
+      "topic": "Youth Labor Market Weakness",
+      "format": "single_tweet",
+      "x_post": "Teen summer hiring hitting 790k, the lowest since 1948, obliterates the Fed's 'low hire, low fire' narrative. The labor market is weaker than headlines suggest, revealing a structural youth employment crisis quietly brewing below the surface.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Pass (contains strong opinions like 'obliterates the Fed's narrative', 'weaker than headlines suggest'). One-move test: Historical comparison and contrarian thesis. Specific number test: 790k, 1948. Negation scan: 'not a strong labor market' rephrased to 'labor market is weaker'. Hedge scan: None. First-person check: None. Opinion test: Pass.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg < 3.5"
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 0,
+          "angle_quality": 0,
+          "timeliness": 0,
+          "avg": 0.0,
+          "compliance_drop": true,
+          "skip_reason": "mentions Mastercard, a direct competitor of Muneeb's employer"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg < 3.5"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        }
+      ],
+      "generated_at": "2026-05-19T16:42:00.284175+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 695,
+      "sent_to_telegram_at": "2026-05-19T16:42:01.351284+00:00"
+    },
+    {
+      "source": "x:@KobeissiLetter",
+      "source_url": "https://x.com/KobeissiLetter/status/2056765531957481557#m",
+      "source_headline": "Bond markets are flashing red.\n\nToday, the US 30Y Note Yield officially hit its highest level since July 2007, at 5.19%.\n\nThis will soon become Americans\u2019 bigge",
+      "source_handle": "KobeissiLetter",
+      "image_url": "https://pbs.twimg.com/media/HIsYagAXUAEPoUj.jpg",
+      "topic": "Long-Term Treasury Yields Spike",
+      "format": "single_tweet",
+      "x_post": "The 30Y Treasury yield blasting past 5.19% to July 2007 highs signals a permanent regime shift. The market now prices a Fed that holds high rates and has a 37% chance of hiking next year. This is the bond market ending the 'soft landing' fantasy; rates remain elevated.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Pass (contains strong opinions like 'signals a permanent regime shift', 'ending the soft landing fantasy'). One-move test: Contrarian thesis with historical comparison. Specific number test: 5.19%, July 2007, 37%. Negation scan: 'isn't cutting rates' rephrased to 'holds high rates'. Hedge scan: None. First-person check: None. Opinion test: Pass.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg < 3.5"
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 0,
+          "angle_quality": 0,
+          "timeliness": 0,
+          "avg": 0.0,
+          "compliance_drop": true,
+          "skip_reason": "mentions Mastercard, a direct competitor of Muneeb's employer"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg < 3.5"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        }
+      ],
+      "generated_at": "2026-05-19T16:41:57.598822+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 692,
+      "sent_to_telegram_at": "2026-05-19T16:41:59.284030+00:00"
+    },
+    {
       "source": "x:@biancoresearch",
       "source_url": "https://x.com/biancoresearch/status/2056360303411990664#m",
       "source_headline": "So, in the two hours before the NYSE was set to open lower, crude oil was moving higher...\n\n\nFirst Squawk (@FirstSquawk)\n\nUS HAS ACCEPTED THE LIFTING OF IRAN'S ",
@@ -5587,5 +6181,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-05-18T16:42:28.021648+00:00"
+  "last_updated": "2026-05-19T16:42:04.412489+00:00"
 }
