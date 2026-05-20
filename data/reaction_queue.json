@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T22:25:33.839620+00:00",
+  "last_updated": "2026-05-20T23:50:41.730471+00:00",
   "posts": [
     {
       "topic": "SpaceX IPO",
@@ -311,7 +311,11 @@
         "verdict_reason": "The reaction directly reframes the source's central claim and maintains an analytical tone consistent with Muneeb's voice."
       },
       "telegram_message_id": 721,
-      "sent_to_telegram_at": "2026-05-20T12:54:56.226454+00:00"
+      "sent_to_telegram_at": "2026-05-20T12:54:56.226454+00:00",
+      "posted_tweet_id": "2057091044748247461",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2057091044748247461",
+      "posted_at": "2026-05-20T13:28:18+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "SoftBank's bet on OpenAI",
