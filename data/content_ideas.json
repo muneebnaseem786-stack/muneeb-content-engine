@@ -24,7 +24,10 @@
           "The model that is good enough to do research gets the researcher. The model that gets the researcher becomes good enough for the next researcher. The loop is live."
         ],
         "substack_draft": "The AI lab talent war is roughly two years old as a named phenomenon, and the dominant frame is compensation. Who paid more. Which lab made the better offer. That frame made sense when the difference between labs was about resources.\n\nKarpathy's move to Anthropic this week sits in a different category. His stated mandate is to use Claude to accelerate Claude's own pretraining. The product becomes a research instrument for the next version of itself.\n\nHis last public statement before joining called current AI agents \"slop.\" That is not a gentle critique. That is a standards assessment from someone who spent years building the course materials most AI engineers trained on. He joined the lab where the model clears a threshold he himself described as not yet reached by the industry, which means he believes one specific model crossed it.\n\nI am not yet sure whether this marks a structural shift in how AI research works or whether it is one prominent researcher's bet. But if the model that can assist its own development attracts the researchers who can accelerate that development, the compounding math runs through whichever lab has the best model at each iteration. Talent markets usually favor resources. This one may start favoring model quality instead. Whether it holds depends on how fast Claude can improve when Claude is doing some of the research, and I do not think anyone knows the answer yet."
-      }
+      },
+      "telegram_message_id": 712,
+      "sent_to_telegram_at": "2026-05-20T12:09:49.539531+00:00",
+      "status": "pending"
     },
     {
       "title": "David Marcus Has Tried to Fix Global Payments Three Times. The Third Time Has the Law Behind It.",
@@ -48,7 +51,10 @@
           "Libra was early. Lightspark is on time."
         ],
         "substack_draft": "Most people treat the failure of Meta's Libra as a story about regulatory overreach killing innovation. That framing is mostly wrong.\n\nDavid Marcus spent four years building Libra at Meta: a stablecoin payment network designed to move money globally outside correspondent banking. Congress killed it in 2019. The hearings were less about whether the architecture worked and more about whether Meta specifically should be trusted to run global monetary infrastructure. The architecture worked. The political moment did not.\n\nThis week, Marcus launched Grid Global Accounts at Lightspark, his startup. API-based dollar accounts settling over Bitcoin and stablecoin rails. Payments in 65 countries, 24 hours a day. No SWIFT. No ACH. Same architecture as Libra, different legal era. The GENIUS Act, signed last July, created the first federal framework for payment stablecoins in the US. That is the legal floor that did not exist in 2019.\n\nI am curious whether the real lesson here is about timing versus architecture, or whether it is about who owns the political capital to build regulatory frameworks in fintech. Marcus had the right technology and could not force the legislation. The legislation appeared anyway, built by different hands, and he was positioned to use it. I am not sure that sequence was inevitable, and I am not sure it always works out this way for founders who are early to the right idea."
-      }
+      },
+      "telegram_message_id": 715,
+      "sent_to_telegram_at": "2026-05-20T12:09:50.642851+00:00",
+      "status": "pending"
     },
     {
       "title": "The US Government Just Gave the Five Largest AI Labs a Regulatory Moat",
@@ -71,7 +77,11 @@
           "Five labs are cleared. The sixth has to negotiate before it ships. That is not just an AI safety policy. It is a market structure policy that also improves AI safety."
         ],
         "substack_draft": "40 unreleased AI models have now been reviewed by the US government before public launch. That number is doing all the work in this story.\n\nCAISI, the Commerce Department's AI safety bureau, finalized pre-deployment evaluation agreements with all five US frontier AI labs this month. Google DeepMind, Microsoft, and xAI joined OpenAI and Anthropic, which had signed earlier. The White House is now weighing making the evaluations mandatory. Per Axios, the framing they are using internally is the FDA.\n\nThe safety rationale is legitimate. Evaluating AI systems for cyber, biosecurity, and chemical-weapons capabilities before public launch addresses real risks. But the FDA parallel is instructive in ways the White House may not fully intend. FDA approval did not make pharmaceutical safety stronger by eliminating oligopoly. It made pharmaceutical oligopoly durable by creating a compliance baseline that large incumbents absorbed and new entrants could not replicate.\n\nI do not know yet whether mandatory pre-deployment AI evaluation would consolidate the frontier lab market in the same way, or whether the market is already concentrated enough that the effect would be marginal. The five labs that signed up already represent most of commercially relevant frontier AI. The more interesting question is what happens when a sixth lab tries to launch in the US and finds that the compliance baseline was built for incumbents."
-      }
+      },
+      "telegram_message_id": 718,
+      "sent_to_telegram_at": "2026-05-20T12:09:51.716587+00:00",
+      "status": "pending"
     }
-  ]
+  ],
+  "last_updated": "2026-05-20T12:09:51.716607+00:00"
 }
