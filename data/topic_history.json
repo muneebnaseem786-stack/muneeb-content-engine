@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-19T03:12:30.308321+00:00",
+  "last_updated": "2026-05-20T03:12:26.567308+00:00",
   "topics": [
+    {
+      "topic": "The US Government Just Gave the Five Largest AI Labs a Regulatory Moat",
+      "source_url": "https://www.axios.com/2026/05/05/us-frontier-ai-testing-white-house-pivots-safety",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-20T03:12:26.567308+00:00"
+    },
+    {
+      "topic": "David Marcus Has Tried to Fix Global Payments Three Times. The Third Time Has the Law Behind It.",
+      "source_url": "https://www.financemagnates.com/fintech/payments/ex-paypal-chief-david-marcus-launches-stablecoin-platform-to-take-on-traditional-banking-rails/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-20T03:12:26.567308+00:00"
+    },
+    {
+      "topic": "Anthropic Hired the Researcher to Run the Loop Where the Model Builds Itself",
+      "source_url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-20T03:12:26.567308+00:00"
+    },
     {
       "topic": "Schwab Just Made Coinbase's Business Model a Structural Problem",
       "source_url": "https://www.coindesk.com/business/2026/05/13/charles-schwab-begins-rollout-of-spot-crypto-trading-for-retail",
