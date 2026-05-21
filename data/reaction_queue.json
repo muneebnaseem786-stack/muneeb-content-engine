@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T22:05:28.959452+00:00",
+  "last_updated": "2026-05-21T22:55:54.892314+00:00",
   "posts": [
     {
       "topic": "frontier tokens",
@@ -527,7 +527,11 @@
         "verdict_reason": "The reaction directly reframes the source's central claim and sounds like Muneeb's hand-written take, with no compliance issues."
       },
       "telegram_message_id": 753,
-      "sent_to_telegram_at": "2026-05-21T14:37:30.441664+00:00"
+      "sent_to_telegram_at": "2026-05-21T14:37:30.441664+00:00",
+      "posted_tweet_id": "2057486441295605896",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2057486441295605896",
+      "posted_at": "2026-05-21T15:39:28+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "SpaceX IPO",
