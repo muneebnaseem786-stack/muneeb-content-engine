@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/05/21/oil-price-today-iran-war-strait-hormuz-trump.html",
+      "source_headline": "Oil prices jump more than 3% after Iran supreme leader says uranium must remain in country",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Oil Price Jump",
+      "format": "single_tweet",
+      "x_post": "Oil up >3% on Iran's uranium stance is the wrong trade to chase. Headline risk premium always fades when physical flows stay stable. Global spare capacity remains significant, with OPEC+ still sitting on over 5M bpd. This rally retraces 50% by next week.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed, post states a direct contrarian opinion and specific predictions. One-move test: Contrarian thesis with historical comparison/prediction. Specific number test: '>3%', '5M bpd', '50%'. Negation scan: None. Hedge scan: None. First-person check: None. Tier 1 hard ban: None. Tier 2 soft ban: None. Opinion Test: Passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "avg < 3.5"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        }
+      ],
+      "generated_at": "2026-05-21T16:26:48.319153+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 763,
+      "sent_to_telegram_at": "2026-05-21T16:26:49.246645+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/05/21/spacex-starlink-growth-profit-nasdaq-ipo.html",
+      "source_headline": "SpaceX is heavily reliant on Starlink for growth and profit as it marches toward Nasdaq listing",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "SpaceX Starlink Reliance",
+      "format": "single_tweet",
+      "x_post": "SpaceX's IPO prospectus redefines the company: Starlink drives its growth and future profit. The market sees rockets, but the filings show a global telecom infrastructure play building a network. The valuation shift for a capital-intensive internet provider, not pure space tech, presents a real challenge.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed, post reframes the company's identity and expresses an opinion on its valuation. One-move test: Reframing analogy. Specific number test: 'growth and future profit' (qualitative quantification from 'heavily reliant' in source). Negation scan: None. Hedge scan: None. First-person check: None. Tier 1 hard ban: None. Tier 2 soft ban: None. Opinion Test: Passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "avg < 3.5"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        }
+      ],
+      "generated_at": "2026-05-21T16:26:46.367372+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 761,
+      "sent_to_telegram_at": "2026-05-21T16:26:47.318973+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-21/fed-s-barkin-says-repeated-supply-shocks-test-inflation-anchor",
+      "source_headline": "Fed\u2019s Barkin Says Repeated Supply Shocks Test Inflation Anchor",
+      "source_handle": "",
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iDRnqBQxPvT8/v1/1200x-1.jpg",
+      "topic": "Fed Inflation Anchor",
+      "format": "single_tweet",
+      "x_post": "Fed's Barkin openly questioning the inflation anchor is the quiet signal the market is ignoring. Expecting a 'look through' after multiple supply shocks makes the 2% target a hope, not a given. The bond market still buys the Fed's story, but the cracks show in every new producer print above 4%.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed, post expresses interpretation and opinion not wire news. One-move test: Contrarian thesis. Specific number test: '2% target', '4%'. Negation scan: None. Hedge scan: None. First-person check: None. Tier 1 hard ban: None. Tier 2 soft ban: None. Opinion Test: Passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "avg < 3.5"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality < 3"
+        }
+      ],
+      "generated_at": "2026-05-21T16:26:43.874464+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 759,
+      "sent_to_telegram_at": "2026-05-21T16:26:45.367226+00:00"
+    },
+    {
       "source": "rss:Bloomberg Markets",
       "source_url": "https://www.bloomberg.com/news/articles/2026-05-20/bitcoin-grows-more-dependent-on-michael-saylor-s-buying-machine",
       "source_headline": "Bitcoin Grows More Dependent on Michael Saylor\u2019s Buying Machine",
@@ -6775,5 +7369,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-05-20T16:39:05.390591+00:00"
+  "last_updated": "2026-05-21T16:26:50.246779+00:00"
 }
