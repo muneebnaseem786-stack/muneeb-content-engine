@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-20T03:12:26.567308+00:00",
+  "last_updated": "2026-05-21T03:18:48.043494+00:00",
   "topics": [
+    {
+      "topic": "NVIDIA Beat Its Own Record. The Stock Fell Anyway.",
+      "source_url": "https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-21T03:18:48.043494+00:00"
+    },
+    {
+      "topic": "Bullish Bought the Database That Says Who Owns What in Public Markets",
+      "source_url": "https://www.coindesk.com/business/2026/05/05/crypto-platform-bullish-to-buy-equiniti-for-usd4-25-billion-building-tokenized-securities-infrastructure",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-21T03:18:48.043494+00:00"
+    },
+    {
+      "topic": "OpenAI's S-1 Will Price the AGI Thesis for the First Time",
+      "source_url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-21T03:18:48.043494+00:00"
+    },
     {
       "topic": "The US Government Just Gave the Five Largest AI Labs a Regulatory Moat",
       "source_url": "https://www.axios.com/2026/05/05/us-frontier-ai-testing-white-house-pivots-safety",
