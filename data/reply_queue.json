@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-20T22:18:39.997916+00:00",
+  "last_updated": "2026-05-21T16:25:18.493118+00:00",
   "replies": [
+    {
+      "tweet_id": "2057221377195729393",
+      "tweet_url": "https://x.com/TaviCosta/status/2057221377195729393#m",
+      "tweet_author": "TaviCosta",
+      "tweet_text": "Gold miners are now doing more share buybacks than at any other point in history. \n\nWe have never seen anything remotely close to the scale of what is happening today.\n\nThis is a direct consequence of the extraordinary profitability the sector is generating at current metal prices.\n\nopen.substack.com/pub/tavico\u2026",
+      "reply_text": "Gold miners buying back shares at this rate is a classic sign of a sector topping out, you're seeing peak profitability.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-21T16:25:18.493118+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 769,
+      "sent_to_telegram_at": "2026-05-21T16:25:18.493118+00:00"
+    },
+    {
+      "tweet_id": "2057481844032000253",
+      "tweet_url": "https://x.com/KobeissiLetter/status/2057481844032000253#m",
+      "tweet_author": "KobeissiLetter",
+      "tweet_text": "Global investors are cashing out of South Korean stocks:\n\nForeign investors have sold -$22 billion of South Korean stocks so far in May, on track for the largest monthly outflow on record.\n\nYear-to-date, overseas investors have offloaded ~$60 billion in KOSPI stocks, on pace for the largest annual sale on record.\n\nMost of the sales have been concentrated in Samsung and SK Hynix stocks, with ~$20 billion sold in SK Hynix alone year-to-date, including ~$12 billion so far in May.\n\nSince November 20",
+      "reply_text": "$43 billion is the annual record for foreign investor outflows from KOSPI stocks set in 2008. That record is about to be broken.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-21T16:25:18.493118+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 767,
+      "sent_to_telegram_at": "2026-05-21T16:25:18.493118+00:00"
+    },
+    {
+      "tweet_id": "2057278474054721762",
+      "tweet_url": "https://x.com/nlw/status/2057278474054721762#m",
+      "tweet_author": "nlw",
+      "tweet_text": "Proposal to formally adopt \u201cAlmonds\u201d as the key unit of AI efficiency.\n\n\nEthan Mollick (@emollick)\n\nIf this is true, using the best public estimates we have of LLM resource use, solving this Erdos problem took 0.6\u20136.3 kWh of electricity and about 3\u201331 liters of water.\n\nSo that is less than three almonds worth of water and the electricity equivalent of 2-20 miles of EV driving.\n\n\n\n\u2014 https://nitter.net/emollick/status/2057271533358162270#m",
+      "reply_text": "From the grid operator's side, this looks like a minimal draw on resources, roughly 2-20 miles of EV driving worth of electricity.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-21T16:25:18.493118+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply is relevant and compliant, but the voice match is not perfect, so it needs revision to better sound like Muneeb."
+      },
+      "telegram_message_id": 765,
+      "sent_to_telegram_at": "2026-05-21T16:25:18.493118+00:00"
+    },
     {
       "tweet_id": "2057129659075018987",
       "tweet_url": "https://x.com/fortelabs/status/2057129659075018987#m",
