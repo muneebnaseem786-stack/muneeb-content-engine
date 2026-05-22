@@ -1,6 +1,62 @@
 {
-  "last_updated": "2026-05-21T22:55:54.892314+00:00",
+  "last_updated": "2026-05-22T12:49:10.468091+00:00",
   "posts": [
+    {
+      "topic": "Lilly's strategic move",
+      "source": "x:@aakashgupta",
+      "source_url": "https://x.com/aakashgupta/status/2057738996667838950#m",
+      "source_headline": "Lilly just proved it can make its own $36.5 billion per year drug obsolete. And that's the entire strategy.\n\nTirzepatide (Zepbound/Mounjaro) became the world's ",
+      "source_handle": "aakashgupta",
+      "x_post": "Lilly is intentionally making its own $36.5 billion per year drug obsolete, and that is the key to its strategy. With tirzepatide, the company has created a best-selling drug that has surpassed Keytruda in sales, reaching $10.1 billion in a single quarter. However, by releasing data that makes tirzepatide the mid-tier option, Lilly is essentially creating space for its next-generation treatments. The pharmacology behind this move is what makes it so effective, as semaglutide hits one receptor, suppressing appetite and slowing gastric emptying. This calculated move allows Lilly to maintain its dominance in the obesity market, owning over 60% of the US market share. By making its own drug obsolete, Lilly is ensuring its continued success and paving the way for future innovations.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and 'the moment of' phrasing. Regenerated sentence structures to lead with affirmative statements and use verbs instead of nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 2,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-22T12:49:09.176276+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly reframes the source's central claim and maintains an analytical tone consistent with Muneeb's voice."
+      },
+      "telegram_message_id": 784,
+      "sent_to_telegram_at": "2026-05-22T12:49:10.468074+00:00"
+    },
     {
       "topic": "frontier tokens",
       "source": "x:@patrick_oshag",
