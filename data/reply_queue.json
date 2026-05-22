@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-21T22:48:12.030562+00:00",
+  "last_updated": "2026-05-22T13:41:02.256921+00:00",
   "replies": [
+    {
+      "tweet_id": "2057783239796732393",
+      "tweet_url": "https://x.com/mattyglesias/status/2057783239796732393#m",
+      "tweet_author": "MattYglesias",
+      "tweet_text": "Yglesias (2012), many people are saying it was a very influential book. \n\nslowboring.com/p/ideas-are-s\u2026",
+      "reply_text": "From the central bank's perspective, influential books often serve to validate existing monetary policies, reinforcing their duration mismatch strategies in the periphery.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-22T13:41:02.256921+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 797,
+      "sent_to_telegram_at": "2026-05-22T13:41:02.256921+00:00"
+    },
+    {
+      "tweet_id": "2057509801937305659",
+      "tweet_url": "https://x.com/BretWeinstein/status/2057509801937305659#m",
+      "tweet_author": "BretWeinstein",
+      "tweet_text": "Laura Delano is doing heroic work helping people safely wean themselves off SSRIs. The risks and damage from these drugs touches us all, and the work she and @SecKennedy are doing will likely stand as one of the most important accomplishments of the medical freedom movement.\n\n\nSecretary Kennedy (@SecKennedy)\n\n.@LauraDelano spent years on multiple psychiatric medications while her condition continued to worsen.\n\nIn this episode, we discuss overmedicalization, recovery, and the need for a more hon",
+      "reply_text": "22M people in the US are on SSRIs. That's a massive market ripe for disruption.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-22T13:41:02.256921+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, providing a jaw-dropping specific number that recontextualizes the original post."
+      },
+      "telegram_message_id": 795,
+      "sent_to_telegram_at": "2026-05-22T13:41:02.256921+00:00"
+    },
     {
       "tweet_id": "2057571670974480763",
       "tweet_url": "https://x.com/RaniaKhalek/status/2057571670974480763#m",
