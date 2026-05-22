@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-22T13:41:02.256921+00:00",
+  "last_updated": "2026-05-22T21:02:51.157389+00:00",
   "replies": [
+    {
+      "tweet_id": "2057874309729640588",
+      "tweet_url": "https://x.com/StevenLevy/status/2057874309729640588#m",
+      "tweet_author": "StevenLevy",
+      "tweet_text": "The good news: Google's upgraded AI search is better than the (less useful than they used to be) 10 Blue Links.  Not so good: One more traffic-sucking blow for websites and online publications. wired.com/story/even-if-you-\u2026",
+      "reply_text": "Q2 2023, Silicon Valley Bank's collapse took 36 hours, a stark reminder that traffic disruptions can have far-reaching effects, you're seeing this play out with Google's AI search.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-22T21:02:51.157389+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 811,
+      "sent_to_telegram_at": "2026-05-22T21:02:51.157389+00:00"
+    },
+    {
+      "tweet_id": "2057907324380217821",
+      "tweet_url": "https://x.com/AndrewYNg/status/2057907324380217821#m",
+      "tweet_author": "AndrewYNg",
+      "tweet_text": "The new White House policy requiring green card applicants to apply from outside the US is a capricious attack on legal immigration. It will hurt families, leave us with fewer doctors, teachers and scientists, and hurt American competitiveness in AI.",
+      "reply_text": "From the White House's perspective, this policy shift may reduce the strain on domestic resources and infrastructure, allowing for more targeted allocation of services and benefits to existing citizens and residents.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-22T21:02:51.157389+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 809,
+      "sent_to_telegram_at": "2026-05-22T21:02:51.157389+00:00"
+    },
+    {
+      "tweet_id": "2057908458461229517",
+      "tweet_url": "https://x.com/kentcdodds/status/2057908458461229517#m",
+      "tweet_author": "kentcdodds",
+      "tweet_text": "Remix Jam 2026! remix.run/jam/2026\n\nLast year was historic. This year is gonna rock! \ud83e\udd18",
+      "reply_text": "Remix Jam's hype is a distraction from the real issue: lack of institutional adoption.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-22T21:02:51.157389+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 805,
+      "sent_to_telegram_at": "2026-05-22T21:02:51.157389+00:00"
+    },
     {
       "tweet_id": "2057783239796732393",
       "tweet_url": "https://x.com/mattyglesias/status/2057783239796732393#m",
