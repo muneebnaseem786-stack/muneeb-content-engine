@@ -1,6 +1,68 @@
 {
-  "last_updated": "2026-05-23T10:18:39.910694+00:00",
+  "last_updated": "2026-05-23T20:13:06.362752+00:00",
   "replies": [
+    {
+      "tweet_id": "2057979614115307712",
+      "tweet_url": "https://x.com/ylecun/status/2057979614115307712#m",
+      "tweet_author": "ylecun",
+      "tweet_text": "Why?\n\n\nThe Wall Street Journal (@WSJ)\n\nMost green-card applicants will need to go abroad to apply for permanent residency at an American consulate, rather than filing from within the U.S. as they do now, the Trump administration announced Friday. on.wsj.com/4v2Fqkr\n\n\n\n\n\u2014 https://nitter.net/WSJ/status/2057896877496905919#m",
+      "reply_text": "This policy change will incentivize more applicants to explore alternative immigration routes.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-23T20:13:06.362752+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and like Muneeb."
+      },
+      "telegram_message_id": 858,
+      "sent_to_telegram_at": "2026-05-23T20:13:06.362752+00:00"
+    },
+    {
+      "tweet_id": "2058175588318216606",
+      "tweet_url": "https://x.com/LynAldenContact/status/2058175588318216606#m",
+      "tweet_author": "LynAldenContact",
+      "tweet_text": "Great news, the link is working again! You can get the audiobook on Amazon or Audible:\n\n\nLyn Alden (@LynAldenContact)\n\nThe audiobook of The Stolguard Incident is now available!\n\nDual-narrated by the fantastic Carla and Walker, we went all-out on the production for this:\namazon.com/dp/B0H29Y33PQ\n\n\n\n\n\n\u2014 https://nitter.net/LynAldenContact/status/2057075933668905338#m",
+      "reply_text": "Do audiobooks like The Stolguard Incident on Audible affect publishing industry revenue streams as much as e-book sales do?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-23T20:13:06.362752+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 856,
+      "sent_to_telegram_at": "2026-05-23T20:13:06.362752+00:00"
+    },
+    {
+      "tweet_id": "2058136912733552702",
+      "tweet_url": "https://x.com/balajis/status/2058136912733552702#m",
+      "tweet_author": "balajis",
+      "tweet_text": "The digital divide has reversed.\nDigital is cheap, ubiquitous, often fake.\nPhysical is the premium product now.",
+      "reply_text": "Q4 2022. FTX collapse takes $8B in assets. The era of unregulated crypto exchanges ended that quarter.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-23T20:13:06.362752+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "ENDS WITH A QUESTION when style is NOT 'sharper_question'"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply does not land on a flat statement as required by the historical_parallel style."
+      },
+      "telegram_message_id": 854,
+      "sent_to_telegram_at": "2026-05-23T20:13:06.362752+00:00"
+    },
     {
       "tweet_id": "2057887831079473646",
       "tweet_url": "https://x.com/JonErlichman/status/2057887831079473646#m",
