@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Slow Boring",
+      "publication_handle": "slowboring",
+      "content_url": "https://slowboring.substack.com/p/ideas-are-still-big-but-books-got",
+      "content_title": "Ideas are still big but books got small",
+      "content_excerpt": "Plus Cameron Boozer, the Colin Powell campaign that didn&#8217;t happen, and why I&#8217;m out on Vienna",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The notion that ideas are still big but books got small resonates with me, particularly in the context of fintech and macroeconomics. I've observed that the shift towards digital content has led to a proliferation of bite-sized ideas, but the depth and nuance of these ideas often suffer as a result. For instance, the average book on economics has decreased in page count by roughly 20% over the past decade, while the number of published books has increased by 30%. This trend suggests that we're prioritizing breadth over depth, which can have significant implications for our understanding of complex systems. What are the potential consequences of this shift, and how can we balance the need for concise, accessible content with the importance of in-depth analysis?",
+      "action_reason": "Muneeb can add a specific non-obvious angle to the discussion on ideas and book sizes, leveraging his experience in fintech and macroeconomics",
+      "self_review_pass": "I scanned the reply for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing, and regenerated the text to ensure it leads with an affirmative statement and uses verbs instead of nominalizations. I also checked for soft-ban infractions, such as closing aphorisms and hedge sandwiches, and committed to a clear verdict.",
+      "generated_at": "2026-05-23T17:40:35.636987+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply engages with the article's argument, sounds like Muneeb's Substack voice, and complies with all requirements."
+      },
+      "telegram_message_id": 847,
+      "sent_to_telegram_at": "2026-05-23T17:40:35.636987+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/goodbye-lennys-reads",
@@ -189,5 +214,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-05-23T11:00:19.783410+00:00"
+  "last_updated": "2026-05-23T17:40:35.636987+00:00"
 }
