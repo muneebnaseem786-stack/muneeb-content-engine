@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "x:@KobeissiLetter",
+      "source_url": "https://x.com/KobeissiLetter/status/2057975546408001622#m",
+      "source_headline": "BREAKING: President Trump is preparing for a \u201cfresh round\u201d of US Military strikes on Iran, per CBS News.\n\nPresident Trump and some members of the US Military an",
+      "source_handle": "KobeissiLetter",
+      "image_url": null,
+      "topic": "US Military Strikes Iran",
+      "format": "single_tweet",
+      "x_post": "Renewed US military strikes on Iran spark an immediate oil risk premium, but history shows these fades quickly. Despite headlines, prior escalations since 2019 failed to disrupt physical crude flows materially. Brent trades back under $80 within two weeks; don't chase the spike.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed, 'history shows these fades quickly' and 'don't chase the spike' are explicit opinions. One-move test: Contrarian thesis + Historical comparison + Prediction. Specific number test: 'since 2019', '$80', 'two weeks' included. Negation scan: No negations found. Hedge scan: No hedges found. First-person check: No first-person. Opinion Test: Clear opinion that the risk premium will 'fade quickly' and a specific price prediction.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        }
+      ],
+      "generated_at": "2026-05-23T10:20:24.152369+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 826,
+      "sent_to_telegram_at": "2026-05-23T10:20:25.330624+00:00"
+    },
+    {
+      "source": "x:@KobeissiLetter",
+      "source_url": "https://x.com/KobeissiLetter/status/2057966717138276612#m",
+      "source_headline": "The AI Revolution is transforming South Korea's economy:\n\nSouth Korea's exports surged +52.6% YoY in the first 20 days of May, the strongest reading on record.\n",
+      "source_handle": "KobeissiLetter",
+      "image_url": "https://pbs.twimg.com/media/HI77D-2WYAAhc_5.jpg",
+      "topic": "South Korea Exports & AI",
+      "format": "single_tweet",
+      "x_post": "South Korea's +52.6% export surge signals extreme concentration risk. Semiconductors, up +202.1%, drive almost all the gains, making Korea's economy effectively a leveraged long bet on AI. When the AI cycle cools, so does Seoul's trade surplus.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed, 'signals extreme concentration risk' and 'leveraged long bet' are clear opinions. One-move test: Reframing analogy (economy as an AI bet) + Consequence. Specific number test: '+52.6%', '+202.1%' included. Negation scan: No negations found. Hedge scan: No hedges found. First-person check: No first-person. Opinion Test: Clear opinion about 'extreme concentration risk' and an explicit prediction about the AI cycle.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        }
+      ],
+      "generated_at": "2026-05-23T10:20:21.493062+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 823,
+      "sent_to_telegram_at": "2026-05-23T10:20:23.152197+00:00"
+    },
+    {
+      "source": "x:@TheStalwart",
+      "source_url": "https://x.com/TheStalwart/status/2058023620606107679#m",
+      "source_headline": "Extremely thorough and clear piece about AI adoption in the legal industry, and what the actual barriers and challenges are. Way more writing about AI should be",
+      "source_handle": "TheStalwart",
+      "image_url": "https://pbs.twimg.com/media/HII2Gy5XsAAvzcP.png",
+      "topic": "AI Adoption in Legal",
+      "format": "single_tweet",
+      "x_post": "Legal industry's 79% AI adoption is an illusion. Firms are merely \"exposing\" attorneys to tools, not truly integrating AI into workflows. This gap guarantees efficiency gains remain marginal, missing the structural re-architecture necessary for real productivity.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed, no sentence could be from a wire. One-move test: Divergence + Consequence. Specific number test: '79%' included. Negation scan: 'illusion' is an affirmative opinion. Hedge scan: No hedges found. First-person check: No first-person. Opinion Test: Clear opinion that adoption is 'an illusion' and gains will be 'marginal'.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality below 3"
+        }
+      ],
+      "generated_at": "2026-05-23T10:20:18.439763+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 820,
+      "sent_to_telegram_at": "2026-05-23T10:20:20.492924+00:00"
+    },
+    {
       "source": "rss:Bloomberg Markets",
       "source_url": "https://www.bloomberg.com/news/articles/2026-05-22/djibouti-says-dangote-ethiopia-to-build-pipelines-to-its-port",
       "source_headline": "Djibouti Says Dangote, Ethiopia to Build Pipelines to Its Port",
@@ -7963,5 +8557,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-05-22T13:43:28.007531+00:00"
+  "last_updated": "2026-05-23T10:20:26.330778+00:00"
 }
