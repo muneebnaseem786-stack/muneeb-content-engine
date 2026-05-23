@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23T20:11:21.555649+00:00",
+  "last_updated": "2026-05-23T22:10:28.946925+00:00",
   "posts": [
     {
       "topic": "digital divide reversal",
@@ -799,7 +799,11 @@
         "verdict_reason": "The reaction lacks a specific anchor and primarily restates the source without adding a unique take or reframe."
       },
       "telegram_message_id": 807,
-      "sent_to_telegram_at": "2026-05-22T21:08:44.624243+00:00"
+      "sent_to_telegram_at": "2026-05-22T21:08:44.624243+00:00",
+      "posted_tweet_id": "2058094540863463868",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2058094540863463868",
+      "posted_at": "2026-05-23T07:55:50+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Lilly's strategic move",
