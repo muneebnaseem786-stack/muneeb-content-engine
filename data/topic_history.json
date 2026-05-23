@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-22T03:22:49.177572+00:00",
+  "last_updated": "2026-05-23T03:20:18.602192+00:00",
   "topics": [
+    {
+      "topic": "The Administration That Killed Biden's AI Safety Order Is Writing Its Own",
+      "source_url": "https://www.nextgov.com/artificial-intelligence/2026/05/anticipated-executive-order-could-give-nsa-role-voluntary-ai-model-testing/413663/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-23T03:20:18.602192+00:00"
+    },
+    {
+      "topic": "PE Bought $657 Billion of Per-Seat Software. AI Agents Don't Pay Per Seat.",
+      "source_url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/3/software-debt-sell-off-signals-cyclical-turn-for-private-equity-and-credit-99811235",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-23T03:20:18.602192+00:00"
+    },
+    {
+      "topic": "The xAI Trial Produced OpenAI's Best Marketing Material",
+      "source_url": "https://technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-23T03:20:18.602192+00:00"
+    },
     {
       "topic": "PE Spent $27 Billion on the Exact Layer of Software AI Agents Need.",
       "source_url": "https://www.thomabravo.com/press-releases/thoma-bravo-completes-acquisition-of-dayforce",
