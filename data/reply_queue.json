@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-05-22T21:02:51.157389+00:00",
+  "last_updated": "2026-05-23T10:18:39.910694+00:00",
   "replies": [
+    {
+      "tweet_id": "2057887831079473646",
+      "tweet_url": "https://x.com/JonErlichman/status/2057887831079473646#m",
+      "tweet_author": "JonErlichman",
+      "tweet_text": "On this day in 2010: 10,000 Bitcoin were used to buy two pizzas.\n\nToday, they\u2019d be worth $765 million.",
+      "reply_text": "$765 million is the current value of 10,000 Bitcoin used to buy two pizzas in 2010, highlighting the massive appreciation of Bitcoin.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-23T10:18:39.910694+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 3,
+        "compliance": "FAIL",
+        "violations": [
+          "REPEATS THE TWEET BACK"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply does not add significant new information beyond what is already stated in the original tweet."
+      },
+      "telegram_message_id": 834,
+      "sent_to_telegram_at": "2026-05-23T10:18:39.910694+00:00"
+    },
+    {
+      "tweet_id": "2057984411342430356",
+      "tweet_url": "https://x.com/jdcmedlock/status/2057984411342430356#m",
+      "tweet_author": "jdcmedlock",
+      "tweet_text": "We need single payer GLP-1s\n\n\nThe Wall Street Journal (@WSJ)\n\nThe world\u2019s most popular weight-loss and diabetes drugs are linked to a powerful new possible benefit: better outcomes for cancer patients. on.wsj.com/3RBfcXO\n\n\n\n\n\u2014 https://nitter.net/WSJ/status/2057567909858115992#m",
+      "reply_text": "Q2 2023, Silicon Valley Bank's collapse accelerates the shift to single-payer systems, a trend that now benefits cancer patients.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-23T10:18:39.910694+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "REPEATS THE TWEET BACK"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply loosely relates to the original tweet but fails to add significant new insight, instead paraphrasing the connection between a financial event and a medical benefit."
+      },
+      "telegram_message_id": 830,
+      "sent_to_telegram_at": "2026-05-23T10:18:39.910694+00:00"
+    },
+    {
+      "tweet_id": "2058002507570598046",
+      "tweet_url": "https://x.com/TrungTPhan/status/2058002507570598046#m",
+      "tweet_author": "trungtphan",
+      "tweet_text": "you vs. the guy she told you not to worry about\n\n\n\n\nTrung Phan (@TrungTPhan)\n\nEnhanced Games athlete in photo is James \u201cThe Missile\u201d Magnussen.\n\nAustralian swimmer with an Olympic silver medal. Said he\u2019d \u201cjuice to the gills\u201d if offered $1m to break 50m freestyle record of 20.88.\n\nEnhanced Games agreed. This vid of him is most viewed on its YouTube channel and top comment is incredible: \u201cyou can see his back from his front\u201d.\n\nAbsolute tank. 6\u20196 and will weigh ~250lbs for the swim.\n\nFor the inaugu",
+      "reply_text": "You're celebrating a swimmer willing to cheat for $1m, that's the real commentary on sports ethics.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-23T10:18:39.910694+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and analytical like Muneeb."
+      },
+      "telegram_message_id": 828,
+      "sent_to_telegram_at": "2026-05-23T10:18:39.910694+00:00"
+    },
     {
       "tweet_id": "2057874309729640588",
       "tweet_url": "https://x.com/StevenLevy/status/2057874309729640588#m",
