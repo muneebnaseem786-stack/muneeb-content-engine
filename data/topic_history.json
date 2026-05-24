@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-23T03:20:18.602192+00:00",
+  "last_updated": "2026-05-24T03:13:29.812504+00:00",
   "topics": [
+    {
+      "topic": "Apple Paid $1 Billion to Not Compete in AI",
+      "source_url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-24T03:13:29.812504+00:00"
+    },
+    {
+      "topic": "Modal Runs the Plumbing Every AI Company Rents",
+      "source_url": "https://siliconangle.com/2026/05/21/serverless-ai-infrastructure-startup-modal-labs-seals-355m-funding-round/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-24T03:13:29.812504+00:00"
+    },
+    {
+      "topic": "The Only Tech IPO Where Growth Makes the Math Worse",
+      "source_url": "https://www.wheresyoured.at/news-openai-had-a-negative-122-operating-margin-in-q1-2026-and-chatgpt-growth-has-stalled/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-24T03:13:29.812504+00:00"
+    },
     {
       "topic": "The Administration That Killed Biden's AI Safety Order Is Writing Its Own",
       "source_url": "https://www.nextgov.com/artificial-intelligence/2026/05/anticipated-executive-order-could-give-nsa-role-voluntary-ai-model-testing/413663/",
