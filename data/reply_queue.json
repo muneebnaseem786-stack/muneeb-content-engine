@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-24T10:52:20.342202+00:00",
+  "last_updated": "2026-05-24T20:16:56.174468+00:00",
   "replies": [
+    {
+      "tweet_id": "2058610237603508522",
+      "tweet_url": "https://x.com/elonmusk/status/2058610237603508522#m",
+      "tweet_author": "elonmusk",
+      "tweet_text": "Restore Britain\n\n\nBasil the Great (@BasilTheGreat)\n\nRobert Jenrick admits Reform UK will NOT deport foreign nationals living in social housing\n\nTrevor Phillips showed him Restore Britain's deportation plans and was clear \"YOU DON'T AGREE WITH RESTORE'S POLICIES\"\n\nThere are approx. half a MILLION social homes currently occupied by foreign nationals in the UK\n\nDeport them all and give those homes to British people\n\nReform are just weak sauce\n\nIt's time to Restore Britain\n\nVideo\n  \n\n\n\n\n\n\u2014 https://n",
+      "reply_text": "Deporting foreign nationals won't fix UK's social housing crisis, it's a supply issue.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-24T20:16:56.174468+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 900,
+      "sent_to_telegram_at": "2026-05-24T20:16:56.174468+00:00"
+    },
+    {
+      "tweet_id": "2058632343888228572",
+      "tweet_url": "https://x.com/bgurley/status/2058632343888228572#m",
+      "tweet_author": "bgurley",
+      "tweet_text": "Important watch. Thomas Kane at Harvard is doing amazing work collecting annual data that can help drive improvement in US K-12 education. Many problems. Some bright spots.\n\n\nPBS News (@NewsHour)\n\nAs the school year comes to a close, a new analysis shines a harsh spotlight on what's being called a \"learning recession\" among American students. It's a problem that started long before the pandemic, according to the latest National Education Scorecard \u2014 an annual deep dive into data about kids in gr",
+      "reply_text": "From the bondholder's side, this learning recession is a durable credit story.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-24T20:16:56.174468+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 898,
+      "sent_to_telegram_at": "2026-05-24T20:16:56.174468+00:00"
+    },
+    {
+      "tweet_id": "2058433856735502453",
+      "tweet_url": "https://x.com/pmarca/status/2058433856735502453#m",
+      "tweet_author": "pmarca",
+      "tweet_text": "\u201cMake matters of competence trivial.\u201d\n\n\nMontagnard (@blancmontagnard)\n\nAI does not need to be agentic to transform civilization completely; it just needs to be able to make matters of competence trivial.\n\n\n\n\u2014 https://nitter.net/blancmontagnard/status/2058420456244613505#m",
+      "reply_text": "If AI makes competence trivial, does that accelerate skill obsolescence for white-collar workers in the UAE?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-24T20:16:56.174468+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 896,
+      "sent_to_telegram_at": "2026-05-24T20:16:56.174468+00:00"
+    },
     {
       "tweet_id": "2058331750263341078",
       "tweet_url": "https://x.com/patrickc/status/2058331750263341078#m",
