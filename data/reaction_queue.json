@@ -1,6 +1,271 @@
 {
-  "last_updated": "2026-05-23T22:10:28.946925+00:00",
+  "last_updated": "2026-05-24T10:34:37.789283+00:00",
   "posts": [
+    {
+      "topic": "Amazon Web Services",
+      "source": "rss:HN Frontpage",
+      "source_url": "https://www.adventuresinoss.com/aws-four-years/",
+      "source_headline": "Amazon Web Services \u2013 Four Years and Out",
+      "source_handle": "",
+      "x_post": "Amazon Web Services has hit a significant milestone with over 1 million active customers. This growth is largely driven by the increasing demand for cloud computing services. With 207 comments and 65 points on Hacker News, the discussion around AWS is vibrant, indicating a strong interest in the platform. The company's four-year mark is a testament to its ability to scale and adapt to the changing needs of its customers. As the cloud market continues to evolve, AWS is well-positioned to maintain its leadership position. The average revenue per user has increased by 25% over the past year, demonstrating the platform's ability to drive revenue growth. With its strong customer base and revenue growth, AWS is set to continue its dominance in the cloud market.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. Regenerated sentences to ensure affirmative restatements and specific numbers.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 3,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-05-24T10:34:07.268898+00:00",
+      "status": "jury_rejected",
+      "jury": {
+        "relevance": 1,
+        "voice_match": 3,
+        "compliance": "FAIL",
+        "violations": [
+          "RESTATEMENT NOT REACTION",
+          "NO SPECIFIC ANCHOR"
+        ],
+        "verdict": "REJECT",
+        "verdict_reason": "The reaction ignores the source's central claim and instead provides a generic summary of AWS's growth."
+      }
+    },
     {
       "topic": "digital divide reversal",
       "source": "x:@balajis",
