@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/ev-575",
+      "content_title": "\ud83d\udd2e Exponential View #575: AI\u2019s math breakthrough and its creative limits",
+      "content_excerpt": "&#8220;Humans were not put on this earth to maintain Excel models.&#8221;",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "I've been thinking about the implications of AI's math breakthrough on the fintech industry in MENA. With the region's growing focus on digital payments and settlements, AI-powered math models could significantly enhance the security and efficiency of transactions. For instance, AI-driven models can detect anomalies in payment patterns, reducing the risk of fraud and improving overall customer experience. However, what I find underappreciated is the potential for AI to unlock new business models in the region, such as AI-powered lending platforms that can provide more accurate credit assessments. The $1.5 billion in funding raised by MENA-based fintech startups in 2022 is a testament to the region's growth potential. As AI continues to advance, I predict we'll see more innovative applications of AI in fintech, leading to increased investment and adoption in the region.",
+      "action_reason": "Muneeb can add a specific non-obvious angle to the discussion on AI's math breakthrough and its creative limits",
+      "self_review_pass": "I scanned the reply for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing, and regenerated the text to lead with an affirmative statement and use verbs instead of nominalizations.",
+      "generated_at": "2026-05-24T11:01:18.677298+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is highly relevant to the article, matches Muneeb's Substack voice, and complies with all the requirements."
+      },
+      "telegram_message_id": 885,
+      "sent_to_telegram_at": "2026-05-24T11:01:18.677298+00:00"
+    },
+    {
       "publication_name": "Slow Boring",
       "publication_handle": "slowboring",
       "content_url": "https://slowboring.substack.com/p/ideas-are-still-big-but-books-got",
@@ -214,5 +239,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-05-23T17:40:35.636987+00:00"
+  "last_updated": "2026-05-24T11:01:18.677298+00:00"
 }
