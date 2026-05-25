@@ -1,6 +1,48 @@
 {
-  "last_updated": "2026-05-24T20:16:56.174468+00:00",
+  "last_updated": "2026-05-25T16:03:21.873897+00:00",
   "replies": [
+    {
+      "tweet_id": "2058877314004627690",
+      "tweet_url": "https://x.com/simonw/status/2058877314004627690#m",
+      "tweet_author": "simonw",
+      "tweet_text": "Given how much of the original \"bottle of water per generated email\" water estimate came from guesses at the architecture of GPT-4, it would be very much in @OpenAI's interest to publish the architecture of that now-retired, three year old model\n\n\nAndy Masley (@AndyMasley)\n\nblog.andymasley.com/p/i-migh\u2026\n\n\n\n\n\u2014 https://nitter.net/AndyMasley/status/2058862527400788273#m",
+      "reply_text": "OpenAI has no reason to disclose GPT-4's architecture now, it's a sunk cost.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-25T16:03:21.873897+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 929,
+      "sent_to_telegram_at": "2026-05-25T16:03:21.873897+00:00"
+    },
+    {
+      "tweet_id": "2058583593102844111",
+      "tweet_url": "https://x.com/VitalikButerin/status/2058583593102844111#m",
+      "tweet_author": "VitalikButerin",
+      "tweet_text": "Some of my perspective on where the @ethereumfndn is going.\n\nFirst of all, this is only my own view. The board is not just me, and I have no extra special powers on the board that the other board members do not. @aerugoettinea is the one executing much of this transition. My input has been largely on technical questions. The board is in the process of expanding, and my own power within the org will continue to decrease, which is honestly what I want.\n\nThe 2025 era brought many important improvem",
+      "reply_text": "From the Ethereum Foundation's perspective, decreased centralization is a deliberate design choice, implying that the board's expansion and Vitalik's decreasing power are intended to further decentralize the organization.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-25T16:03:21.873897+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "REPEATS THE TWEET BACK"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply does not add significant new insights beyond paraphrasing the original tweet."
+      },
+      "telegram_message_id": 927,
+      "sent_to_telegram_at": "2026-05-25T16:03:21.873897+00:00"
+    },
     {
       "tweet_id": "2058610237603508522",
       "tweet_url": "https://x.com/elonmusk/status/2058610237603508522#m",
