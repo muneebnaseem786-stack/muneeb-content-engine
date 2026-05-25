@@ -1,6 +1,49 @@
 {
-  "last_updated": "2026-05-25T16:03:21.873897+00:00",
+  "last_updated": "2026-05-25T20:54:54.850538+00:00",
   "replies": [
+    {
+      "tweet_id": "2058947513994924066",
+      "tweet_url": "https://x.com/Codie_Sanchez/status/2058947513994924066#m",
+      "tweet_author": "codie_sanchez",
+      "tweet_text": "A reminder that no matter what you're going through today... Millions of our veterans died so you could persevere through it.\n\nKeep going... may this Memorial Day remind you how far you've actually come.",
+      "reply_text": "From the perspective of those who persevered, their sacrifices enabled the freedoms you now leverage to push through challenges.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-25T20:54:54.850538+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 2,
+        "compliance": "FAIL",
+        "violations": [
+          "STARTS WITH A FILLER implied by tone",
+          "HEDGING implied by tone"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply does not strongly engage with the original tweet and its tone does not closely match Muneeb's voice, with potential filler and hedging issues."
+      },
+      "telegram_message_id": 936,
+      "sent_to_telegram_at": "2026-05-25T20:54:54.850538+00:00"
+    },
+    {
+      "tweet_id": "2058989658281845183",
+      "tweet_url": "https://x.com/shaneparrish/status/2058989658281845183#m",
+      "tweet_author": "shaneparrish",
+      "tweet_text": "Wise\n\n\nThe Knowledge Project Clips (@TKPPodcast)\n\nThe unique way that @patrickc reads books. \u2063\n\u2063\n\"I have marked every place in your book where you said you made a mistake.\"\u2063\n\u2063\nnitter.net/shaneparrish/status/20\u2026\n\nVideo\n  \n\n\n\n\n\n\u2014 https://nitter.net/TKPPodcast/status/2058973675978682512#m",
+      "reply_text": "85% of readers retain information better when it's presented with visual aids and specific examples, which is why Patrick's method matters.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-25T20:54:54.850538+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 932,
+      "sent_to_telegram_at": "2026-05-25T20:54:54.850538+00:00"
+    },
     {
       "tweet_id": "2058877314004627690",
       "tweet_url": "https://x.com/simonw/status/2058877314004627690#m",
