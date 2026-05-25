@@ -1,0 +1,42 @@
+name: eToro Sunday Prep
+
+on:
+  schedule:
+    # 8:05am UAE Sun (UTC+4) = 4:05am UTC Sun. Off-:00 minute to avoid the
+    # global cron fleet pile-up that bunches on minute 0.
+    - cron: '5 4 * * 0'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (build prompt only, no LLM/Telegram/commit)'
+        required: false
+        default: 'false'
+
+jobs:
+  sunday-prep:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Sunday Prep
+        env:
+          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY:       ${{ secrets.GROQ_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python -m scripts.content.etoro_sunday_prep --dry-run
+          else
+            python -m scripts.content.etoro_sunday_prep
+          fi
