@@ -1,0 +1,42 @@
+name: eToro Portfolio Alert
+
+on:
+  schedule:
+    # 8:01am UAE Mon-Sat = 4:01am UTC Mon-Sat. Off-:00 minute. Skips Sunday
+    # because the Sunday Week Ahead post covers that day.
+    - cron: '1 4 * * 1-6'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (build prompt only, no LLM/Telegram/commit)'
+        required: false
+        default: 'false'
+
+jobs:
+  portfolio-alert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Portfolio Alert
+        env:
+          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY:       ${{ secrets.GROQ_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python -m scripts.content.etoro_portfolio_alert --dry-run
+          else
+            python -m scripts.content.etoro_portfolio_alert
+          fi

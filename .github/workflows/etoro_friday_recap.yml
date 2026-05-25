@@ -1,0 +1,41 @@
+name: eToro Friday Recap
+
+on:
+  schedule:
+    # 9:09am UAE Sat = 5:09am UTC Sat. Off-:00 minute.
+    - cron: '9 5 * * 6'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (build prompt only, no LLM/Telegram/commit)'
+        required: false
+        default: 'false'
+
+jobs:
+  friday-recap:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Friday Recap
+        env:
+          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY:       ${{ secrets.GROQ_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python -m scripts.content.etoro_friday_recap --dry-run
+          else
+            python -m scripts.content.etoro_friday_recap
+          fi
