@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-24T03:13:29.812504+00:00",
+  "last_updated": "2026-05-25T03:14:11.201670+00:00",
   "topics": [
+    {
+      "topic": "AMD Didn't Win the Chip Market. It Bought In.",
+      "source_url": "https://www.servethehome.com/amd-and-meta-announce-a-massive-6gw-deal/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-25T03:14:11.201670+00:00"
+    },
+    {
+      "topic": "SoFi Built the Stack Its Competitors Have to Rent",
+      "source_url": "https://www.pymnts.com/acquisitions/2026/sofi-bolsters-enterprise-fintech-ecosystem-with-peach-finance-acquisition/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-25T03:14:11.201670+00:00"
+    },
+    {
+      "topic": "Google's Agent Is Already In 3 Billion Inboxes",
+      "source_url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-25T03:14:11.201670+00:00"
+    },
     {
       "topic": "Apple Paid $1 Billion to Not Compete in AI",
       "source_url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
