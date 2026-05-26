@@ -147,7 +147,7 @@ def _call_groq(prompt: str, max_tokens: int = 4096) -> str:
                 "https://api.groq.com/openai/v1/chat/completions",
                 headers={"Authorization": f"Bearer {api_key}"},
                 json={
-                    "model": "moonshotai/kimi-k2-instruct-0905",
+                    "model": "llama-3.3-70b-versatile",
                     "messages": [{"role": "user", "content": prompt}],
                     "max_tokens": max_tokens,
                     "temperature": 0.7,

@@ -123,24 +123,30 @@ def _tg_post(text: str) -> bool:
 # ── LLM ───────────────────────────────────────────────────────────────────────
 
 def _call_gemini(prompt: str, grounded: bool = False) -> str:
-    """Gemini 2.5 Flash. If grounded=True, enable Google Search grounding so the
-    model has access to fresh web content."""
-    import google.generativeai as genai
+    """Gemini 2.5 Flash via the new google-genai SDK. If grounded=True, enables
+    Google Search grounding so the model has access to fresh web content."""
+    from google import genai
+    from google.genai import types
 
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
-    tools = None
+    config = None
     if grounded:
-        # Gemini 2.x uses "google_search"; the older "google_search_retrieval"
-        # name is 1.5-only and silently 404s/400s on 2.5-flash.
-        tools = "google_search"
-
-    model = genai.GenerativeModel("gemini-2.5-flash", tools=tools)
+        # Gemini 2.x grounding: pass a Tool object with GoogleSearch, not a
+        # bare string. The legacy google-generativeai SDK only accepts
+        # "code_execution" as a string tool; everything else must be a Tool.
+        config = types.GenerateContentConfig(
+            tools=[types.Tool(google_search=types.GoogleSearch())]
+        )
 
     last_error: Exception | None = None
     for attempt in range(3):
         try:
-            response = model.generate_content(prompt)
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt,
+                config=config,
+            )
             return response.text
         except Exception as e:
             last_error = e
@@ -156,7 +162,7 @@ def _call_gemini(prompt: str, grounded: bool = False) -> str:
 
 
 def _call_groq(prompt: str, max_tokens: int = 4096) -> str:
-    """Groq Kimi K2 fallback. No grounding -- relies on context in prompt."""
+    """Groq Llama 3.3 70B fallback. No grounding -- relies on context in prompt."""
     api_key = os.environ["GROQ_API_KEY"]
     last_error: Exception | None = None
     for attempt in range(3):
@@ -165,7 +171,7 @@ def _call_groq(prompt: str, max_tokens: int = 4096) -> str:
                 "https://api.groq.com/openai/v1/chat/completions",
                 headers={"Authorization": f"Bearer {api_key}"},
                 json={
-                    "model": "moonshotai/kimi-k2-instruct-0905",
+                    "model": "llama-3.3-70b-versatile",
                     "messages": [{"role": "user", "content": prompt}],
                     "max_tokens": max_tokens,
                     "temperature": 0.6,
