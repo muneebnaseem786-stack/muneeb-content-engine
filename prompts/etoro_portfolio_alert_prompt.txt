@@ -16,7 +16,7 @@ Your job: deliver exactly 2 fully drafted, ready-to-post eToro posts in voice, b
    Skip: sympathy moves without name-specific catalyst, routine PT tweaks, press releases without substance, anything in the "Recent Material News" log in portfolio.md.
 
 2. Filters in order:
-   a. **Anti-repeat:** EXCLUDE any ticker that appeared in yesterday's Option 1 or Option 2. Yesterday's excluded tickers: {excluded_tickers}
+   a. **Anti-repeat:** EXCLUDE any ticker that appeared as an Option in the last 3 daily archive files. Excluded tickers: {excluded_tickers}
    b. **Within-run dedup:** The two picks must be different tickers.
    c. **Material catalyst rule:** Each pick must have a real 24h catalyst with thesis impact. Do NOT fabricate. If only 1 holding genuinely qualifies, deliver 1 option. If 0 qualify, deliver 0 (see quiet-day handling below).
 
