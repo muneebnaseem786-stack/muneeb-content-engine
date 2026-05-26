@@ -140,7 +140,9 @@ def _call_gemini(prompt: str, grounded: bool = False) -> str:
         )
 
     last_error: Exception | None = None
-    for attempt in range(3):
+    transient_markers = ("429", "500", "502", "503", "504", "UNAVAILABLE", "RESOURCE_EXHAUSTED")
+    backoffs = [5, 15, 30, 60, 120]  # ~4 min total budget for high-demand spikes
+    for attempt in range(len(backoffs) + 1):
         try:
             response = client.models.generate_content(
                 model="gemini-2.5-flash",
@@ -150,14 +152,14 @@ def _call_gemini(prompt: str, grounded: bool = False) -> str:
             return response.text
         except Exception as e:
             last_error = e
-            if "429" in str(e) and attempt < 2:
-                wait = 60 * (attempt + 1)
-                print(f"[etoro] Gemini 429, retry in {wait}s ({attempt + 1}/3)")
+            err = str(e)
+            transient = any(m in err for m in transient_markers)
+            if attempt < len(backoffs) and transient:
+                wait = backoffs[attempt]
+                print(f"[etoro] Gemini transient ({err[:120]}), retry {attempt + 1}/{len(backoffs)} in {wait}s")
                 time.sleep(wait)
                 continue
-            if attempt < 2:
-                time.sleep(5)
-                continue
+            raise
     raise last_error or RuntimeError("Gemini call failed")
 
 
