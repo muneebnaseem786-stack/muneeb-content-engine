@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-25T03:14:11.201670+00:00",
+  "last_updated": "2026-05-26T03:18:17.779434+00:00",
   "topics": [
+    {
+      "topic": "Alphabet Raised More Capex Than Meta. Alphabet Rose. Meta Fell.",
+      "source_url": "https://finance.yahoo.com/sectors/technology/articles/alphabet-q1-2026-earnings-google-202101883.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-26T03:18:17.779434+00:00"
+    },
+    {
+      "topic": "AI Agents Are the Fastest-Growing Payment Segment. They Can't Open a Bank Account.",
+      "source_url": "https://www.coindesk.com/business/2026/05/21/crypto-rails-are-becoming-the-default-payment-layer-for-ai-agents-report-says",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-26T03:18:17.779434+00:00"
+    },
+    {
+      "topic": "SAP Just Bought the AI Story Nobody Was Telling",
+      "source_url": "https://news.sap.com/2026/05/sap-to-acquire-prior-labs-establish-frontier-ai-lab-europe/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-26T03:18:17.779434+00:00"
+    },
     {
       "topic": "AMD Didn't Win the Chip Market. It Bought In.",
       "source_url": "https://www.servethehome.com/amd-and-meta-announce-a-massive-6gw-deal/",
