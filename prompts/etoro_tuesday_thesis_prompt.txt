@@ -22,8 +22,13 @@ Your job:
 
 {platform}
 
+## Published posts (recent — DO NOT REHASH the lead topics)
+
+{published_log}
+
 # Drafting rules
 
+- **DO NOT REHASH.** Read the Published posts section above. If the topic locked by today's cadence slot was already covered in the most recent 1-2 entries (e.g. the same name was led in the Sunday Week Ahead two days ago), find a fresh angle: a newer datapoint, a different pillar of the thesis, or a deeper take. Do not re-state ground already covered.
 - Open with "Dear investors," then a blank line.
 - Next line is content-first, never a meta-intro. Forbidden: "A note on...", "Just a quick update on...", "I wanted to share my thoughts on...".
 - Paragraph prose, 2-4 sentences per paragraph. Longer paragraphs only when listing three pillars or similar structured content.

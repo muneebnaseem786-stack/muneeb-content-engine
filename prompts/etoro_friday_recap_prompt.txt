@@ -19,8 +19,13 @@ Your job:
 
 {platform}
 
+## Published posts (recent — DO NOT REHASH the lead topics)
+
+{published_log}
+
 # Drafting rules
 
+- **DO NOT REHASH.** Read the Published posts section above. The EOW recap is the first post of the new weekly cycle, so the prior week's Tuesday thesis and Sunday Week Ahead are already on the feed. If those covered a topic (e.g. a position thesis, a named catalyst), do not re-state them in the recap. The recap is for what actually happened in the week's market action and the portfolio's specific moves.
 - Open with "Dear investors," then a blank line.
 - Vary the opening: e.g. "The week ended with...", "$SPX500 closed the week at...", "We finished the week...". Do NOT use "A note on...".
 - Brief recap of week's market action (index moves, dominant themes).

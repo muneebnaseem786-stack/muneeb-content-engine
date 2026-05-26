@@ -32,6 +32,7 @@ def build_prompt() -> tuple[str, str]:
         portfolio=brain["portfolio"],
         voice=brain["voice"],
         platform=brain["platform"],
+        published_log=brain["published_log"],
     )
     return prompt, today_iso
 

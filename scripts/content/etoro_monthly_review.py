@@ -76,6 +76,7 @@ def build_prompt() -> tuple[str, str, str]:
         voice=brain["voice"],
         platform=brain["platform"],
         archive_context=archive_context,
+        published_log=brain["published_log"],
     )
     return prompt, today_iso, review_yyyymm
 

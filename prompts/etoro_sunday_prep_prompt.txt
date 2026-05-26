@@ -19,8 +19,13 @@ Your job:
 
 {platform}
 
+## Published posts (recent — DO NOT REHASH the lead topics)
+
+{published_log}
+
 # Drafting rules
 
+- **DO NOT REHASH.** Read the Published posts section above. If the most recent 1-2 entries already led on a topic (e.g. the Saturday EOW recap led on $NVDA earnings), the Sunday Week Ahead must pivot the angle forward. Lead on what is NEW since the last post: upcoming catalysts, fresh datapoints, or genuinely-new threads (a new position move, a fresh news item that landed after the last post).
 - Open with "Dear investors," then a blank line.
 - The next sentence carries content. Do NOT open with "A note on...", "Just a quick update on...", "I wanted to share my thoughts on...". Vary the lead: e.g. "We start the week following...", "The week ahead brings...", "$NVDA's print on [day] is the dominant scheduled event...".
 - Connect upcoming events to portfolio positioning using cluster framing (AI compute ~49%, crypto ~32%, China ~5%).

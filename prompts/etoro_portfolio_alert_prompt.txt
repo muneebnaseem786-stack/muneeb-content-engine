@@ -47,6 +47,12 @@ Your job: deliver exactly 2 fully drafted, ready-to-post eToro posts in voice, b
 
 {platform}
 
+## Published posts (recent — DO NOT REHASH the lead topics)
+
+The daily radar generates options that the user may post in addition to the scheduled-cadence posts (Sunday Week Ahead, Tuesday thesis, Friday recap). To avoid sending the user a draft on a topic already covered in the last 1-2 published posts below, EXCLUDE any holding whose thesis-relevant catalyst was already the lead in those entries. Treat this as an additional filter alongside the anti-repeat ticker exclusion.
+
+{published_log}
+
 # Output format — strict
 
 Return PLAIN MARKDOWN. NO outer code fence around the whole output. Section headers must be H2 (`## `). For each Option section, the post draft MUST be inside a fenced code block whose OPENING fence is exactly three backticks followed by the word `post` and a newline, and whose CLOSING fence is exactly three backticks on their own line. The relay parser regex looks for ```post\n...\n``` and will skip the draft otherwise.
