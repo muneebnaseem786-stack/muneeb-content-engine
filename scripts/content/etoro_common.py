@@ -31,11 +31,23 @@ ARCHIVE_DIR = ETORO_DATA / "archive"
 # ── Brain context ─────────────────────────────────────────────────────────────
 
 def load_brain() -> dict:
-    """Read the three eToro brain files and return them keyed for prompt use."""
+    """Read the eToro brain files and return them keyed for prompt use.
+
+    `published_log` is the rolling log of the last 4-6 actually-posted eToro
+    posts (full text). Every routine should consume it to avoid rehashing
+    what was already led. Falls back to a short stub if the file is missing.
+    """
+    published_log_path = ETORO_DATA / "published_log.md"
+    published_log = (
+        published_log_path.read_text(encoding="utf-8")
+        if published_log_path.exists()
+        else "(no published log yet — first runs cannot rehash anything)"
+    )
     return {
         "portfolio": (ETORO_DATA / "portfolio.md").read_text(encoding="utf-8"),
         "voice": (ETORO_DATA / "voice.md").read_text(encoding="utf-8"),
         "platform": (ETORO_DATA / "platform.md").read_text(encoding="utf-8"),
+        "published_log": published_log,
     }
 
 
@@ -119,8 +131,9 @@ def _call_gemini(prompt: str, grounded: bool = False) -> str:
 
     tools = None
     if grounded:
-        # google-generativeai >= 0.8 supports the simple string form.
-        tools = "google_search_retrieval"
+        # Gemini 2.x uses "google_search"; the older "google_search_retrieval"
+        # name is 1.5-only and silently 404s/400s on 2.5-flash.
+        tools = "google_search"
 
     model = genai.GenerativeModel("gemini-2.5-flash", tools=tools)
 
@@ -152,7 +165,7 @@ def _call_groq(prompt: str, max_tokens: int = 4096) -> str:
                 "https://api.groq.com/openai/v1/chat/completions",
                 headers={"Authorization": f"Bearer {api_key}"},
                 json={
-                    "model": "moonshotai/kimi-k2-instruct",
+                    "model": "moonshotai/kimi-k2-instruct-0905",
                     "messages": [{"role": "user", "content": prompt}],
                     "max_tokens": max_tokens,
                     "temperature": 0.6,
