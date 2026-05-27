@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-26T03:18:17.779434+00:00",
+  "last_updated": "2026-05-27T03:22:55.226503+00:00",
   "topics": [
+    {
+      "topic": "Circle Just Built the Payment Layer for a Non-Human Economy",
+      "source_url": "https://www.circle.com/blog/introducing-circle-agent-stack-financial-infrastructure-for-the-agentic-economy",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-27T03:22:55.226503+00:00"
+    },
+    {
+      "topic": "Anthropic Beat OpenAI to Profitability With a Command-Line Tool",
+      "source_url": "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-27T03:22:55.226503+00:00"
+    },
+    {
+      "topic": "SpaceX Filed for a $2 Trillion IPO. The S-1 Describes a Satellite ISP.",
+      "source_url": "https://www.cnbc.com/2026/05/21/spacex-starlink-growth-profit-nasdaq-ipo.html",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-27T03:22:55.226503+00:00"
+    },
     {
       "topic": "Alphabet Raised More Capex Than Meta. Alphabet Rose. Meta Fell.",
       "source_url": "https://finance.yahoo.com/sectors/technology/articles/alphabet-q1-2026-earnings-google-202101883.html",
