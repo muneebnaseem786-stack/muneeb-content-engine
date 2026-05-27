@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-05-27T16:53:45.882540+00:00",
+  "last_updated": "2026-05-27T22:52:40.239621+00:00",
   "replies": [
+    {
+      "tweet_id": "2059682459499774029",
+      "tweet_url": "https://x.com/danshipper/status/2059682459499774029#m",
+      "tweet_author": "danshipper",
+      "tweet_text": "AI is accelerating the pace of change, and therefore is increasing the value of human judgement\n\n- AI can execute repetitive tasks once we've created a stable frame telling it what matters\n- The world is always changing, and AI is driving a lot of it\u2014which increases the decay of stable frames\n- Human judgment is required to notice when the situation has changed and reframing the work around it\n\nVideo",
+      "reply_text": "AI's role is to augment human judgment, not replace it, as it can't adapt to changing situations without human reframing.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-27T22:52:40.239621+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding confident and analytical like Muneeb."
+      },
+      "telegram_message_id": 1009,
+      "sent_to_telegram_at": "2026-05-27T22:52:40.239621+00:00"
+    },
+    {
+      "tweet_id": "2059575342051070397",
+      "tweet_url": "https://x.com/stratechery/status/2059575342051070397#m",
+      "tweet_author": "stratechery",
+      "tweet_text": "The SpaceX IPO and Data Centers in Space\n\nThere isn't a financial model that justifies the SpaceX IPO, but data centers in space are plausible, and that might be enough.\n\nstratechery.com/2026/the-spa\u2026",
+      "reply_text": "$12.5B is the annual revenue of cloud providers that could be disrupted by space-based data centers, which might justify the valuation.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-27T22:52:40.239621+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 1007,
+      "sent_to_telegram_at": "2026-05-27T22:52:40.239621+00:00"
+    },
     {
       "tweet_id": "2059382568240488777",
       "tweet_url": "https://x.com/elidourado/status/2059382568240488777#m",
