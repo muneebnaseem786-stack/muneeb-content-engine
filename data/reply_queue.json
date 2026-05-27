@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-26T18:20:23.511683+00:00",
+  "last_updated": "2026-05-27T16:53:45.882540+00:00",
   "replies": [
+    {
+      "tweet_id": "2059382568240488777",
+      "tweet_url": "https://x.com/elidourado/status/2059382568240488777#m",
+      "tweet_author": "elidourado",
+      "tweet_text": "Great video on Terran Robotics. If you love cheap and abundant housing, adobe construction, and/or robots, this one is for you. piped.video/watch?v=lBMx-LFY\u2026",
+      "reply_text": "How will Terran Robotics' adobe construction method scale with labor costs and regulatory approvals in the UAE?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-27T16:53:45.882540+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 997,
+      "sent_to_telegram_at": "2026-05-27T16:53:45.882540+00:00"
+    },
+    {
+      "tweet_id": "2059336678863516091",
+      "tweet_url": "https://x.com/matt_levine/status/2059336678863516091#m",
+      "tweet_author": "matt_levine",
+      "tweet_text": "This is the most reader-favourable newsletter structure ever brought to the US public markets at this scale. bloomberg.com/opinion/newsle\u2026",
+      "reply_text": "From the bondholder's side, this structure looks optimal, allowing for a more efficient allocation of risk.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-27T16:53:45.882540+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 993,
+      "sent_to_telegram_at": "2026-05-27T16:53:45.882540+00:00"
+    },
+    {
+      "tweet_id": "2059612059554181439",
+      "tweet_url": "https://x.com/SahilBloom/status/2059612059554181439#m",
+      "tweet_author": "sahilbloom",
+      "tweet_text": "I'm convinced that the single greatest challenge for any ambitious person is eliminating the guilt associated with free time and rest.",
+      "reply_text": "Q2 2023. Silicon Valley Bank fails. The era of guilt-free rest for founders ended that quarter.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-27T16:53:45.882540+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, while also sounding like Muneeb."
+      },
+      "telegram_message_id": 982,
+      "sent_to_telegram_at": "2026-05-27T16:53:45.882540+00:00"
+    },
     {
       "tweet_id": "2059108059436421383",
       "tweet_url": "https://x.com/hubermanlab/status/2059108059436421383#m",
