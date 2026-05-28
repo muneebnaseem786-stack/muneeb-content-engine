@@ -101,6 +101,13 @@ No formal sign-off. End with the last substantive sentence (typically the forwar
 - "This is not financial advice" disclaimers (eToro handles compliance)
 - Subtweets of other Popular Investors
 
+### Tone refinements (29 May 2026, from the user's edits to auto-drafted posts)
+
+- **Rhetorical flourishes and editorial closers.** Cut lines like "the moat is doing exactly what we want it to do", "handed the thesis a clear datapoint", or "the open question is adoption, and that is what closes the gap on our cost basis". State the point plainly: "this significantly reinforced our thesis", "the company can push prices into strong demand and keep every customer". No clever metaphor, no analyst flourish.
+- **Repeating a drawdown.** Acknowledge a losing position once, qualitatively ("I know it has been a frustrating hold"), then move on. Do not circle back to "drawdown", "cost basis", or "closing the gap" again in the same post.
+- **Exact P/L percentages in daily news-reaction posts.** Lead with the catalyst. Position size (as a percent of the portfolio) is enough context. Name the qualitative posture (a strong performer, a frustrating hold) and leave out the precise +/- on cost, unless the P/L is itself the point of the post (for example justifying a trim, as in the $AMD post). This refines, and does not override, the Performance Disclosure section above, which governs recaps, reviews, and thesis posts.
+- **Padding.** Tighter wins. The shape is: acknowledge, report the catalyst, one line of interpretation, forward-looking close. If a sentence is not carrying weight, cut it.
+
 ## Opening Patterns That Work (varied, not formulaic)
 
 The opening line (after "Hi Everyone,") should carry the topic, not announce that a topic is coming. Mix among:
@@ -167,6 +174,8 @@ Hi Everyone,
 ```
 
 ## Last Updated
+
+29 May 2026: alert-post tone pass after the user edited the auto-drafted $TSM and $HOOD posts before publishing. Folded into "What This Voice Avoids": cut rhetorical flourishes and editorial closers, acknowledge a drawdown once then move on, omit exact P/L percentages in daily news-reaction posts (position size is enough), tighter overall. The catalyst-reporting paragraphs and the forward-looking closes were kept verbatim, so those land correctly.
 
 26 May 2026 (corrected, later): pronoun rule fixed. Earlier rewrite incorrectly dropped "we / our portfolio" entirely; corrected back to dual pronoun use: "we / our portfolio" for portfolio actions (opens, adds, trims, ownership, future moves) + "I" for personal beliefs, views, principles, judgments. The user's $SIVE post demonstrated this split exactly. Salutation ("Hi Everyone,"), no-sign-off, and personal-vs-reporting register split at paragraph level all still stand.
 
