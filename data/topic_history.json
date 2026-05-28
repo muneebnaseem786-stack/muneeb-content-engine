@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-27T03:22:55.226503+00:00",
+  "last_updated": "2026-05-28T03:24:46.867720+00:00",
   "topics": [
+    {
+      "topic": "Baidu's AI Revenue Crossed 50%. Zero NVIDIA Chips.",
+      "source_url": "https://www.alphapilot.tech/discover/baidu-q1-2026-ai-revenue-surpasses-50-as-cloud-and-ernie-5-1-drive-growth",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-28T03:24:46.867720+00:00"
+    },
+    {
+      "topic": "Tech Buyouts Collapsed 82% in Two Months. The DCF Model Broke.",
+      "source_url": "https://www.axios.com/2026/05/20/tech-private-equity-frozen",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-28T03:24:46.867720+00:00"
+    },
+    {
+      "topic": "Every Model Lab Is Now a Supplier to OpenRouter",
+      "source_url": "https://www.businesswire.com/news/home/20260526953416/en/OpenRouter-Raises-$113-Million-CapitalG-led-Series-B-as-Weekly-Volume-Explodes-to-25T-Tokens",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-28T03:24:46.867720+00:00"
+    },
     {
       "topic": "Circle Just Built the Payment Layer for a Non-Human Economy",
       "source_url": "https://www.circle.com/blog/introducing-circle-agent-stack-financial-infrastructure-for-the-agentic-economy",
