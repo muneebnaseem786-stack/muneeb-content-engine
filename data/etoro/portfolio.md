@@ -50,6 +50,9 @@
 - **Big tech non-AI-primary:** ~5% — NFLX, TSLA, SPOT
 - **Tail bets / thematic:** ~3% — EOSE, SOFI, TE, ONDS, OPEN
 
+## Position Changes (Week of 25-29 May 2026)
+- **$SIVE NEW POSITION.** Starter position opened in $SIVE (Sivers Semiconductors, Nasdaq Stockholm First North). Small Swedish-listed semiconductor with two divisions: Sivers Photonics (indium phosphide laser sources into AI optical transceivers) and Sivers Wireless (mmWave RFICs for 5G fixed wireless, LEO satcom, defence radar). Position lives in the small-cap / thematic tail bracket alongside EOSE, SOFI, TE, ONDS, OPEN. Exact position % to be captured at next automated portfolio snapshot. Thesis published 26 May 2026 (see `published_log.md`). Size-up trigger: design-win-to-revenue prints in either segment plus a clean breakout in price structure.
+
 ## Position Changes (Week of 18-22 May 2026)
 - **$TSLA ADDED (final size-up).** Invested allocation up from 3.09% to 3.85%; value share up from 2.86% to 3.48%. P/L moved from +17.56% to +14.35% on cost basis. Position is now at intended conviction weight. **No further $TSLA adds planned.** The earlier "size up below $405" accumulation plan is retired (see updated $TSLA Position Stance below).
 - **$PLTR LIMIT ORDER UNFILLED.** Working bid in the $128 to $130 zone per locked plan. Stock firmed to ~$137 on Mon Cisco software read-across. Position remains 9.86% invested / 6.87% value, P/L -11.92% (recovered from -16.04% the prior week as the cluster firmed). Existing weight unchanged.
@@ -105,7 +108,7 @@ Robotaxi headlines (Austin low-speed crashes, Dallas routing issues) will contin
 Teased follow-ups: PLTR thesis, ETH thesis, Q2 earnings outlook.
 
 ## Voice
-All eToro posts follow [voice/etoro-voice.md](../voice/etoro-voice.md) — calm, institutional, "Dear investors," fund-manager register. NOT the X/FinTwit voice. Pillar 4 (macro repurpose from X) requires real rewriting, not copy-paste.
+All eToro posts follow [voice.md](voice.md) — approachable Popular Investor voice with "Hi Everyone," salutation, no formal sign-off, dual register (personal for actions/views, neutral reporting for market events), and dual pronouns in personal segments ("we / our portfolio" for portfolio actions and ownership; "I" for personal beliefs, views, principles, judgments). Plain conversational language for personal segments, no institutional jargon. Older "Dear investors," / fund-manager register retired 26 May 2026. NOT the X/FinTwit voice. Pillar 4 (macro repurpose from X) requires real rewriting, not copy-paste.
 
 ## 6-Week Baseline Cadence (Sun / Tue / Fri)
 
@@ -175,6 +178,8 @@ For context on the next Sunday scan + upcoming posts:
 Telegram delivery is live for all five tasks via `content-engine/scripts/content/etoro_telegram_relay.py` (Muneeb content bot, not F&R bot). Relay reads TELEGRAM_BOT_TOKEN from `content-engine/.env` and pushes the 2-message pattern (context + tap-to-copy draft) per file prefix.
 
 ## Last Updated
+26 May 2026: new $SIVE starter position (Sivers Semiconductors, Swedish small cap) logged in Position Changes section. Two divisions: Sivers Photonics (indium phosphide lasers for AI optical interconnects) + Sivers Wireless (mmWave for 5G/LEO satcom/defence). Thesis post published with significant voice deviations from locked voice.md ("Hi Everyone," salutation instead of "Dear investors,", no "Thanks," sign-off, first-person "I" voice in philosophy paragraphs). Holdings table not refreshed yet; awaiting next automated snapshot for exact position %. Voice.md update pending user confirmation.
+
 25 May 2026 (later): $TSLA stance updated per user direction. Retired the "size up below $405" accumulation plan. New stance is bullish, holding at current weight, no further adds planned. Position is sized to conviction, not hedged against execution risk. Resolves the flag-for-review noted in the earlier 25 May entry on the above-$405 add. Position Theses section updated accordingly.
 
 25 May 2026: refreshed full 30-position snapshot from eToro platform readout. Key shifts vs 15 May baseline: AMD compounded further to +165.71% (largest position at 13.25%), GOOG dipped to +105.21%, ETH drawdown deepened to -21.60% (now 12.74% invested / 7.90% value, still the largest cost-basis position), PLTR firmed to -11.92% from -16.04%. NVDA post-earnings settled at +40.34%. $TSLA add executed this week (3.09% → 3.85% invested) above the locked $405 threshold; flag for review. Full 30 positions now visible (previously top 22 disclosed); the 8 newly-shown smaller positions include TE, SPOT, ONDS, META, AAPL, OPEN, FUTU, BMNR. Cash balance 0.95% (fully invested).

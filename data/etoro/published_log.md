@@ -6,6 +6,35 @@ Maintenance: when a new post is published, a new entry is prepended. The log kee
 
 ---
 
+## 2026-05-26 (Position Thesis, $SIVE starter + 3-principle portfolio framework)
+
+> Hi Everyone,
+>
+> $SIVE (Sivers Semiconductors) is a small Swedish-listed semiconductor company sitting in two markets the broader AI compute thesis has not yet priced through to the components layer. We have opened a starter position.
+>
+> The bull case runs on two divisions. Sivers Photonics makes indium phosphide laser sources that feed into high-speed optical transceivers, the modules wiring GPUs together inside AI data centres. Every step up the bandwidth curve (800G, 1.6T, and the co-packaged optics roadmap behind it) raises laser content per port and pulls in suppliers outside the incumbent stack. Design wins here translate to multi-year revenue tied to the optical interconnect leg of the same AI compute buildout we already own through $AMD, $TSM, and $NVDA.
+>
+> Sivers Wireless makes mmWave semiconductors for 5G fixed wireless, satellite communications, and defence radar. LEO constellation buildouts across Starlink, Kuiper, OneWeb, and several European programmes are a multi-year demand cycle that is just beginning to translate into RFIC and antenna array orders further down the supply chain.
+>
+> $SIVE has already had a strong run, but the gains so far are modest relative to the multi-year buildouts the company is positioned to capture. AI optical interconnect demand and LEO satellite communications are both early in their compounding curves, and the market has yet to price $SIVE as a structural beneficiary of either, let alone both.
+>
+> We will size $SIVE up on prints that show design-win conversion to commercial revenue in either segment, accompanied by a clean breakout in price structure.
+>
+> The portfolio is built around three principles.
+>
+> Large blue chips with durable cash flows and clear multi-year horizons are the core holdings. Small caps are capped at a small fraction of the portfolio. The expectation on those is deliberately asymmetric: many will go nowhere, the rare one compounds into a multi-bagger, and the position size keeps the damage contained to the slot if a thesis fails.
+>
+> I start every position small and build it up over time as I gain more conviction on the thesis and build confidence through quarterly results and other data points. I build conviction over several quarters before sizing up the position to its intended weight.
+>
+> I complement fundamental analysis with technicals which tells me when the market is willing to price the potential of the company. If you dont look at technicals, even strong thesis at the wrong entry can sit as dead money for years while everything else compounds.
+
+**Topics led:** $SIVE (Sivers Semiconductors) starter position thesis, two-division bull case (Sivers Photonics indium phosphide lasers for AI optical interconnects + Sivers Wireless mmWave for 5G/LEO satcom/defence radar), "run-up but multi-year potential unpriced" upside framing, 3-principle portfolio construction framework (blue-chip core + small-cap edges with asymmetric expectation, start-small build-conviction sizing discipline, fundamental + technical layered).
+**Forward commitment:** Size $SIVE up on design-win-to-revenue prints in either segment plus a clean breakout in price structure.
+**Voice notes:** Significant deviation from locked etoro voice. Salutation "Hi Everyone," (vs. locked "Dear investors,"). "Thanks," sign-off dropped entirely. Philosophy paragraphs use first-person "I" rather than the "we / our portfolio" pattern. If this is the new house style, voice.md + all five scheduled automations need updating. Pending user confirmation before changing the locked voice file.
+**New holding logged:** $SIVE added to the portfolio at starter size. Sits in the small-cap / thematic tail bracket alongside EOSE, SOFI, TE, ONDS, OPEN. Exact position % to be captured at next portfolio snapshot.
+
+---
+
 ## 2026-05-26 (Tuesday Strategy/Framework, "Sell in May" pushback)
 
 > Dear investors,
