@@ -313,11 +313,7 @@ def relay_tuesday_thesis(text: str) -> None:
 
 def relay_portfolio_alert(text: str) -> None:
     """Daily radar handler matching etoro_telegram_relay.relay_portfolio_alert."""
-    stripped = text.strip().lower()
-    if not stripped:
-        return
-    empty_signals = ["no material news", "nothing to report", "no items today"]
-    if any(s in stripped for s in empty_signals):
+    if not text.strip():
         return
 
     summary = extract_section(text, "Summary").strip()
@@ -327,8 +323,15 @@ def relay_portfolio_alert(text: str) -> None:
         flags=re.DOTALL | re.MULTILINE,
     )
 
+    # Quiet-day suppression applies ONLY when there are no draft options. The
+    # per-ticker Triage lines ("$X: No material news found.") would otherwise
+    # match here and silently kill an alert that has real drafts, so test the
+    # Summary/body, never the full document.
+    empty_signals = ["no material news", "nothing to report", "no items today"]
     if not options:
-        body = summary or text.strip()
+        body = (summary or text).strip()
+        if not body or any(s in body.lower() for s in empty_signals):
+            return
         tg_send("<b>eToro Portfolio Radar</b>\n\n<pre>" + _esc(body) + "</pre>")
         return
 
