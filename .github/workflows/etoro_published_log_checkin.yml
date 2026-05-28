@@ -1,0 +1,39 @@
+name: eToro Published Log Check-in
+
+on:
+  schedule:
+    # 10pm UAE = 6pm UTC, every day. End-of-day nudge listing today's routine
+    # drafts so the user can confirm in chat which were actually posted, keeping
+    # published_log.md accurate. No reply automation - manual update via chat.
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (print message, no Telegram send)'
+        required: false
+        default: 'false'
+
+jobs:
+  checkin:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Published Log Check-in
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python -m scripts.content.etoro_published_log_checkin --dry-run
+          else
+            python -m scripts.content.etoro_published_log_checkin
+          fi
