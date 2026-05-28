@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-27T22:52:40.239621+00:00",
+  "last_updated": "2026-05-28T17:49:54.294297+00:00",
   "replies": [
+    {
+      "tweet_id": "2060029284190687252",
+      "tweet_url": "https://x.com/bramk/status/2060029284190687252#m",
+      "tweet_author": "bramk",
+      "tweet_text": "If you need government regulation before you adopt Bitcoin you don\u2019t understand why it exists.",
+      "reply_text": "Does Bitcoin's existence imply that governments will eventually integrate it into their regulatory frameworks, or will it always operate outside of traditional governance structures?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-28T17:49:54.294297+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1040,
+      "sent_to_telegram_at": "2026-05-28T17:49:54.294297+00:00"
+    },
+    {
+      "tweet_id": "2059786798075945313",
+      "tweet_url": "https://x.com/jonwu_/status/2059786798075945313#m",
+      "tweet_author": "JonWu_",
+      "tweet_text": "~1 week into letting it rip on twitter:\n\n1. this is fun\n\n2. distribution is more bimodal than i thought. the vast majority of tweets are &lt;10k views, &lt;100 likes, &lt;10 comments, but 1 or 2 this week really ran\n\n3. it's easy to tell when something's going to run\n\n4. the joy of creation is highly correlated with performance on X. you can't instrumentalize twitter as a means, you have to see joy in the act itself\n\n5. \"relatability\" might be more powerful than credibility. it's very different ",
+      "reply_text": "You're mistaking relatability for credibility, which is why your top tweets feel shallow.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-28T17:49:54.294297+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding confident and like Muneeb wrote it."
+      },
+      "telegram_message_id": 1034,
+      "sent_to_telegram_at": "2026-05-28T17:49:54.294297+00:00"
+    },
+    {
+      "tweet_id": "2059747146308763712",
+      "tweet_url": "https://x.com/MichaelKantro/status/2059747146308763712#m",
+      "tweet_author": "MichaelKantro",
+      "tweet_text": "Watch Michael Kantrowitz on 10-year treasury yield persistence - Making Money with Charles Payne | FOX One fox.com/watch/clip/fmc-x82ac\u2026",
+      "reply_text": "From the central bank's perspective, a persistent 10-year treasury yield suggests they're achieving their desired monetary policy goals.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-28T17:49:54.294297+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1030,
+      "sent_to_telegram_at": "2026-05-28T17:49:54.294297+00:00"
+    },
     {
       "tweet_id": "2059682459499774029",
       "tweet_url": "https://x.com/danshipper/status/2059682459499774029#m",
