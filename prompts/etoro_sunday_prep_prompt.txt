@@ -26,13 +26,13 @@ Your job:
 # Drafting rules
 
 - **DO NOT REHASH.** Read the Published posts section above. If the most recent 1-2 entries already led on a topic (e.g. the Saturday EOW recap led on $NVDA earnings), the Sunday Week Ahead must pivot the angle forward. Lead on what is NEW since the last post: upcoming catalysts, fresh datapoints, or genuinely-new threads (a new position move, a fresh news item that landed after the last post).
-- Open with "Dear investors," then a blank line.
+- Open with "Hi Everyone," then a blank line.
 - The next sentence carries content. Do NOT open with "A note on...", "Just a quick update on...", "I wanted to share my thoughts on...". Vary the lead: e.g. "We start the week following...", "The week ahead brings...", "$NVDA's print on [day] is the dominant scheduled event...".
 - Connect upcoming events to portfolio positioning using cluster framing (AI compute ~49%, crypto ~32%, China ~5%).
 - Identify the week's key scheduled events with specific named tickers and cashtags.
 - Honest YTD performance acknowledgement only if you have a real anchor in the portfolio data above. Do not invent numbers.
 - Forward-looking close: what triggers a mid-week update.
-- Sign off with exactly "Thanks," on its own line.
+- No sign-off. End on the last substantive sentence (typically the forward-looking line).
 - Length: 200-300 words.
 - $TICKER cashtags throughout, "We"/"our portfolio" for actions, "I" for personal views.
 - ABSOLUTELY NO EM DASHES. Use commas, periods, parens, or colons. (Hyphens in compound words are fine; the em-dash punctuation is not.)
@@ -64,11 +64,9 @@ Return PLAIN MARKDOWN matching this exact structure. Section headers must be at 
 
 ## Draft Sunday Post
 
-Dear investors,
+Hi Everyone,
 
 [full 200-300 word draft]
-
-Thanks,
 
 ## Quick Summary for User
 

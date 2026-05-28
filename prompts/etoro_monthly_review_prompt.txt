@@ -29,12 +29,12 @@ Your job:
 # Drafting rules
 
 - **DO NOT REHASH.** Read the Published posts section above. The monthly review synthesizes the month, but specific framings already published (specific position thesis takes, specific catalyst readings) should be referenced as context rather than re-stated. Lead the monthly review on the synthesis layer the weekly posts could not provide: full-month cluster behaviour, positioning evolution, next-month setup.
-- Open with "Dear investors," then a blank line.
+- Open with "Hi Everyone," then a blank line.
 - Vary the opening: e.g. "{review_month_name} closed with...", "Markets ended {review_month_name} with...", "It was a [adjective] month for risk assets...". Do NOT use "A note on...".
 - Five-part structure: market context → cluster behaviour → specific names → positioning changes → forward look. Use paragraph prose, NOT bullets (this is market commentary, not a memo).
 - Honest about wins AND losses. Manage copier psychology where the month was difficult.
 - Forward-looking close.
-- Sign off with exactly "Thanks," on its own line.
+- No sign-off. End on the last substantive sentence (typically the forward-looking line).
 - Length: 400-600 words.
 - $TICKER cashtags throughout. "We"/"our portfolio" for actions, "I" for views.
 - ABSOLUTELY NO EM DASHES. Use commas, periods, parens, colons.
@@ -69,11 +69,9 @@ Return PLAIN MARKDOWN matching this exact structure. No outer code fence.
 
 ## Draft Monthly Review Post
 
-Dear investors,
+Hi Everyone,
 
 [full 400-600 word draft]
-
-Thanks,
 
 ## Notes for User
 - Positioning changes during the month: [list, flag [USER CONFIRM] if uncertain]

@@ -26,13 +26,13 @@ Your job:
 # Drafting rules
 
 - **DO NOT REHASH.** Read the Published posts section above. The EOW recap is the first post of the new weekly cycle, so the prior week's Tuesday thesis and Sunday Week Ahead are already on the feed. If those covered a topic (e.g. a position thesis, a named catalyst), do not re-state them in the recap. The recap is for what actually happened in the week's market action and the portfolio's specific moves.
-- Open with "Dear investors," then a blank line.
+- Open with "Hi Everyone," then a blank line.
 - Vary the opening: e.g. "The week ended with...", "$SPX500 closed the week at...", "We finished the week...". Do NOT use "A note on...".
 - Brief recap of week's market action (index moves, dominant themes).
 - What happened in our portfolio specifically (cluster moves, named tickers with $TICKER cashtags).
 - Honest YTD framing only if you have a real anchor; otherwise omit.
 - Forward look on what to watch next week.
-- Sign off with exactly "Thanks," on its own line.
+- No sign-off. End on the last substantive sentence (typically the forward-looking line).
 - Length: 200-300 words.
 - "We"/"our portfolio" for actions, "I" for views.
 - ABSOLUTELY NO EM DASHES. Use commas, periods, parens, colons.
@@ -62,11 +62,9 @@ Return PLAIN MARKDOWN matching this exact structure. No code fence around the wh
 
 ## Draft Saturday Post
 
-Dear investors,
+Hi Everyone,
 
 [full 200-300 word draft]
-
-Thanks,
 
 ## Notes for User
 - Placeholders to confirm before posting: [list any spots where the user needs to plug in actual P/L numbers]

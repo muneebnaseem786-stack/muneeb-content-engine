@@ -24,11 +24,11 @@ Your job: deliver exactly 2 fully drafted, ready-to-post eToro posts in voice, b
 
 # Drafting rules (each post)
 
-- Open with "Dear investors," then a blank line.
+- Open with "Hi Everyone," then a blank line.
 - 200-350 words, paragraph prose (no bullets).
 - $TICKER cashtags. Position size + P/L disclosed honestly from the Holdings table.
 - Forward-looking close (what we expect / what would change positioning).
-- Sign off with exactly "Thanks," on its own line.
+- No sign-off. End on the last substantive sentence (typically the forward-looking line).
 - ABSOLUTELY NO EM DASHES. Use commas, periods, parens, colons.
 - No formulaic opening ("A note on...", "Just a quick update on...").
 - No emojis, no FinTwit slang, no specific price predictions.
