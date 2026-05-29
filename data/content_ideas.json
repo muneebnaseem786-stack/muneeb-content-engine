@@ -23,7 +23,10 @@
           "The constraint is the product."
         ],
         "substack_draft": "Most people including myself think of Islamic banking as a compliance exercise. You take a standard banking product, add a Shariah board to sign off on the structure, and call it done. The more I read about Fasset, the more I realized that framing gets the causality completely backwards.\n\nFasset is a stablecoin-powered Islamic bank. It raised $51 million this month, processes $32 billion in annualized volume across 125 countries, and serves markets that conventional banking either ignores or overcharges. The founding constraint, that Islamic finance prohibits riba, the taking of interest, meant the team could not build around the interest-bearing deposit model that every Western neobank uses. So they built around stablecoin settlement instead. Value moves from sender to receiver without a yield component to strip out or explain away.\n\nWhat strikes me is that this is not just a compliance workaround. It is structurally simpler. The product does not need to explain APY to a farmer in Islamabad or a remittance sender in Jakarta. It moves dollars cheaply and reliably. That is the entire value proposition.\n\nI am genuinely uncertain whether this scales to a full-service bank or whether it stays a payment infrastructure play. But the constraint that looked like a limitation built exactly the right foundation for the moment stablecoins went mainstream in emerging market payments."
-      }
+      },
+      "telegram_message_id": 1043,
+      "sent_to_telegram_at": "2026-05-29T06:34:13.824801+00:00",
+      "status": "pending"
     },
     {
       "id": 1,
@@ -47,7 +50,10 @@
           "That division holds as long as the FDE stays in the technical lane. When the FDE starts running the change management meeting, the consulting firms already modeled the outcome. They funded both sides of the trade."
         ],
         "substack_draft": "The consulting industry is roughly 50 years into its current form, and the standard joke has always been that consultants arrive after the crisis, charge for the diagnosis, and leave before implementation fails. OpenAI launched DeployCo this month, a $4 billion subsidiary whose explicit job is to embed engineers inside enterprise clients and rebuild workflows around AI. McKinsey and Bain invested in it. The same firms DeployCo is designed to displace.\n\nI have been trying to figure out whether this is a capitulation or a hedge. McKinsey knows that the billable hour on strategy decks is under pressure. It also knows that C-suite relationships take years to build and a Forward Deployed Engineer cannot develop them in a six-month engagement. So they funded the technical arm and kept the relationship layer for themselves.\n\nThe bet works if the FDE and the consultant stay in their respective lanes. It starts to break down if the FDE, after six months embedded inside an organization, begins getting pulled into the meetings McKinsey used to own exclusively. I am not yet sure which way the incentive structure pushes over a three-to-five-year engagement, but the dynamic seems inevitable.\n\nWhat I keep returning to is that the consulting firms saw this clearly enough to fund it before it launched. That is either the most sophisticated hedge I have watched in professional services or the beginning of a very slow and very polite merger."
-      }
+      },
+      "telegram_message_id": 1046,
+      "sent_to_telegram_at": "2026-05-29T06:34:15.058791+00:00",
+      "status": "pending"
     },
     {
       "id": 2,
@@ -75,5 +81,6 @@
         "substack_draft": "Most people treat the Anthropic vs OpenAI story as a new problem. I do not think it is. It is the same pattern that played out between Amazon and Google in cloud computing, and between Microsoft and IBM before that. The company that builds the unglamorous infrastructure layer quietly wins while the market watches the brand with the better demo.\n\nAnthropic crossed $45 billion in annualized revenue this month. OpenAI is at $33 billion. A year ago Anthropic was at $1 billion. The number that struck me most is the training cost comparison: OpenAI is projected to spend $125 billion a year on model training by 2030. Anthropic's number is around $30 billion. The cheaper model house is generating more revenue.\n\nThe reason is the customer mix. Anthropic built enterprise first. Enterprise buyers pay per API call on production workflows: compliance checks, trade reconciliation, client onboarding pipelines running 24 hours a day. Consumer buyers pay $20 a month. The economics are not comparable.\n\nThe question I cannot fully answer is whether OpenAI's 500 million weekly active users become the enterprise pipeline or a ceiling. The consumer base is an extraordinary distribution asset. Whether it converts to enterprise cash flows at a rate that closes the gap, I am genuinely not sure. But right now the gap is moving in the wrong direction for OpenAI, and the trajectory that produced $45 billion from $87 million in 18 months does not suggest it is about to slow."
       }
     }
-  ]
+  ],
+  "last_updated": "2026-05-29T06:34:15.380904+00:00"
 }
