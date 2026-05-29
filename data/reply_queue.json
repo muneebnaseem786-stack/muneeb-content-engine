@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-28T17:49:54.294297+00:00",
+  "last_updated": "2026-05-29T17:52:20.366519+00:00",
   "replies": [
+    {
+      "tweet_id": "2060388118226755859",
+      "tweet_url": "https://x.com/EricNewcomer/status/2060388118226755859#m",
+      "tweet_author": "EricNewcomer",
+      "tweet_text": "Booming AI Revenues Boost Inference Startups to Decacorn Status newcomer.co/p/booming-ai-rev\u2026",
+      "reply_text": "Booming AI revenues won't save inference startups from valuation compression.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-29T17:52:20.366519+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice."
+      },
+      "telegram_message_id": 1068,
+      "sent_to_telegram_at": "2026-05-29T17:52:20.366519+00:00"
+    },
+    {
+      "tweet_id": "2060300150732407253",
+      "tweet_url": "https://x.com/naval/status/2060300150732407253#m",
+      "tweet_author": "naval",
+      "tweet_text": "You aren\u2019t starting a company. You\u2019re laying bricks in the foundation of a skyscraper.",
+      "reply_text": "Q4 2022. FTX collapses with $8B in liabilities. You're laying bricks in a foundation that may not withstand the next crisis.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-29T17:52:20.366519+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb, with no compliance issues."
+      },
+      "telegram_message_id": 1064,
+      "sent_to_telegram_at": "2026-05-29T17:52:20.366519+00:00"
+    },
+    {
+      "tweet_id": "2060382726092419462",
+      "tweet_url": "https://x.com/geoffreylitt/status/2060382726092419462#m",
+      "tweet_author": "geoffreylitt",
+      "tweet_text": "There is a truly unbelievable amount of noise and churn in the AI world.\n\nMy hope for this new podcast is that we can bring a calm perspective to the AI hype topic du jour, grounded in the long history of computing.\n\n\nGeoffrey Litt (@geoffreylitt)\n\n@mschoening and I are starting a podcast where we nerd out about human-AI collaboration and malleable software.\n\nIn this episode: is HTML actually better than Markdown? and an alternative to Software Factories...\n\nWatch on YT: piped.video/KB9lRdM5eO0?",
+      "reply_text": "From the software engineering side, the HTML vs Markdown debate is about maintainability, not hype.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-29T17:52:20.366519+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 1055,
+      "sent_to_telegram_at": "2026-05-29T17:52:20.366519+00:00"
+    },
     {
       "tweet_id": "2060029284190687252",
       "tweet_url": "https://x.com/bramk/status/2060029284190687252#m",
