@@ -2,6 +2,600 @@
   "posts": [
     {
       "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/05/29/mercedes-benz-ban-congressional-bill-china-ownership.html",
+      "source_headline": "Mercedes-Benz may be shut out of U.S. market under bill aimed at Chinese automaker ownership",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Mercedes-Benz US Ban Risk",
+      "format": "single_tweet",
+      "x_post": "Mercedes-Benz faces a US ban because its largest single shareholder is Chinese state-owned BAIC. This redefines 'foreign' for global brands. The market must now price ownership structure over brand origin, turning a German icon into a trade war casualty.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed. The post expresses an opinion on the implications and reframing. One-move test: Reframing Analogy (German icon -> trade war casualty due to ownership) identified. Specific number test: 'largest single shareholder is Chinese state-owned BAIC' is specific. Negation scan: No negation framing found. Hedge scan: No hedging language found. Opinion test: Passed, clearly states a shift in how market prices brand origin and ownership.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg score too low"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "duplicate or angle_quality too low"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg score too low"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": "avg score too low"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 2,
+          "avg": 2,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        }
+      ],
+      "generated_at": "2026-05-29T17:56:03.724149+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1061,
+      "sent_to_telegram_at": "2026-05-29T17:56:04.640539+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2026-05-29/boe-s-bailey-sees-signs-of-strains-in-private-credit-video",
+      "source_headline": "BOE's Bailey Sees 'Signs of Strains' in Private Credit",
+      "source_handle": "",
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/igKJ0JfJIzpM/v3/1200x-1.jpg",
+      "topic": "Private Credit Strains",
+      "format": "single_tweet",
+      "x_post": "BOE Governor Bailey's 'signs of strains' in private credit signals the first tremor in the market's darling asset class. Private credit funds have promised uncorrelated returns. Liquidity risk always surfaces when the capital markets stress test hits.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed. The language is interpretive and opinionated. One-move test: Contrarian Thesis (against 'darling' narrative) and implicit Comparison (promised vs. actual risk). Specific number test: No explicit number, but 'private credit funds' is a named asset class and 'first tremor' provides scale. Negation scan: No negation framing found. Hedge scan: No hedging language found. Opinion test: Passed, clearly highlights a looming risk in private credit.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg score too low"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "duplicate or angle_quality too low"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg score too low"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": "avg score too low"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 2,
+          "avg": 2,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        }
+      ],
+      "generated_at": "2026-05-29T17:56:01.254400+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1059,
+      "sent_to_telegram_at": "2026-05-29T17:56:02.723986+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+      "source_headline": "Dell stock skyrockets 32%, heads for best day ever as AI server revenue soars",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Dell AI Server Growth",
+      "format": "single_tweet",
+      "x_post": "Dell's 757% AI server revenue growth catapulted the stock 32%. This growth is a hardware infrastructure play. Valuing Dell like a software company, when its economics are closer to late-90s telecom equipment providers, means the market is mispricing capital intensity risk.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Passed. The post's claim is an opinion/reframe, not a restatement of news. One-move test: Reframing Analogy and Historical Comparison identified. Specific number test: 757% and 32% included. Negation scan: 'not a software company' was rephrased to 'Valuing Dell like a software company'. Hedge scan: No hedging language found. Opinion test: Passed, clearly states market is mispricing capital intensity risk.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg score too low"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "duplicate or angle_quality too low"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "avg score too low"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": "avg score too low"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 2,
+          "avg": 2,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        }
+      ],
+      "generated_at": "2026-05-29T17:55:59.118825+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1057,
+      "sent_to_telegram_at": "2026-05-29T17:56:00.254244+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/05/28/oil-prices-us-strikes-in-iran-revive-strait-of-hormuz-turmoil-fears.html",
       "source_headline": "Oil prices turn lower as U.S.-Iran ceasefire extension awaits Trump approval",
       "source_handle": "",
@@ -12715,5 +13309,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-05-28T17:52:39.597897+00:00"
+  "last_updated": "2026-05-29T17:56:05.640685+00:00"
 }
