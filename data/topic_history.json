@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-28T03:24:46.867720+00:00",
+  "last_updated": "2026-05-29T03:22:24.376891+00:00",
   "topics": [
+    {
+      "topic": "The Company Spending 4x Less Just Became the AI Revenue Leader",
+      "source_url": "https://www.saastr.com/anthropic-just-passed-openai-in-revenue-while-spending-4x-less-to-train-their-models/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-29T03:22:24.376891+00:00"
+    },
+    {
+      "topic": "OpenAI Built a Consulting Firm. Its First Investors Are McKinsey and Bain.",
+      "source_url": "https://www.eweek.com/news/openai-deployco-enterprise-ai-consulting/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-29T03:22:24.376891+00:00"
+    },
+    {
+      "topic": "The Shariah Rule That Accidentally Optimized for Stablecoins",
+      "source_url": "https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-29T03:22:24.376891+00:00"
+    },
     {
       "topic": "Baidu's AI Revenue Crossed 50%. Zero NVIDIA Chips.",
       "source_url": "https://www.alphapilot.tech/discover/baidu-q1-2026-ai-revenue-surpasses-50-as-cloud-and-ernie-5-1-drive-growth",
