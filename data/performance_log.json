@@ -1,9 +1,10 @@
 {
-  "fetched_at": "2026-05-28T23:52:21.084188+00:00",
+  "fetched_at": "2026-05-29T21:11:04.749422+00:00",
   "mode": "attribution_only",
-  "total_auto_sent": 42,
-  "attributed": 24,
+  "total_auto_sent": 44,
+  "attributed": 25,
   "attributed_ids": [
+    "2060408033004663192",
     "2058094540863463868",
     "2057486441295605896",
     "2057091044748247461",
