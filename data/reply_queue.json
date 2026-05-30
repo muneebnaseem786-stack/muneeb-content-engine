@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-30T11:11:17.408880+00:00",
+  "last_updated": "2026-05-30T17:55:36.182311+00:00",
   "replies": [
+    {
+      "tweet_id": "2060467855154368979",
+      "tweet_url": "https://x.com/jaltucher/status/2060467855154368979#m",
+      "tweet_author": "jaltucher",
+      "tweet_text": "For chessplayers who want to train against blunders. I made an app: BlunderTrainer.com. \n\n- shows you positions and you have to answer: Blunder or Good Move? Then shows you correct moves if its a bunder. \n- load up blunders from your own games. \n- study Magnus's blunders. \n- links to computer to study each position. \n\nCheck it out and tell me what you think. #chesspunks",
+      "reply_text": "Q1 2023. Silicon Valley Bank fails with $209B in assets. You're training against blunders in a controlled environment, a luxury most bankers don't have.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-30T17:55:36.182311+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1125,
+      "sent_to_telegram_at": "2026-05-30T17:55:36.182311+00:00"
+    },
+    {
+      "tweet_id": "2060723599070142655",
+      "tweet_url": "https://x.com/jchervinsky/status/2060723599070142655#m",
+      "tweet_author": "jchervinsky",
+      "tweet_text": "Have you noticed every crypto company has a Hyperliquid expert?\n\nNot by design; just because someone somewhere in the org structure figured out early that HL is special and wouldn\u2019t shut up about it until the company made it part of their business.\n\nYou know at least one, right?",
+      "reply_text": "Does Hyperliquid's adoption across crypto companies follow a similar pattern to PayPal's early integration with online marketplaces?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-05-30T17:55:36.182311+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1123,
+      "sent_to_telegram_at": "2026-05-30T17:55:36.182311+00:00"
+    },
+    {
+      "tweet_id": "2060658915273314553",
+      "tweet_url": "https://x.com/azeem/status/2060658915273314553#m",
+      "tweet_author": "azeem",
+      "tweet_text": "You won\u2019t get ROI from AI by giving everyone a chatbot and leaving the company unchanged.\n\n\nAzeem Azhar (@azeem)\n\nA general-purpose technology can sit inside firms for ages before we see the results. It happened with electricity, it\u2019s happening with AI.\n\n\n\n\n\n\u2014 https://nitter.net/azeem/status/2060000498913247688#m",
+      "reply_text": "85% of Fortune 500 companies that adopted AI saw no revenue growth. That's the hurdle to clear.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-30T17:55:36.182311+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 1121,
+      "sent_to_telegram_at": "2026-05-30T17:55:36.182311+00:00"
+    },
     {
       "tweet_id": "2060360592012001339",
       "tweet_url": "https://x.com/RushDoshi/status/2060360592012001339#m",
