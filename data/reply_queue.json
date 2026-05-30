@@ -1,6 +1,68 @@
 {
-  "last_updated": "2026-05-29T17:52:20.366519+00:00",
+  "last_updated": "2026-05-30T07:34:54.344387+00:00",
   "replies": [
+    {
+      "tweet_id": "2060494932327186751",
+      "tweet_url": "https://x.com/chamath/status/2060494932327186751#m",
+      "tweet_author": "chamath",
+      "tweet_text": "Pod!!!! Absolute banger with @bgurley\n\n\nThe All-In Podcast (@theallinpod)\n\nPOD UP! \ud83d\udea8\n\nSacks is BACK...\n\nand the legendary Bill Gurley fills in for Friedberg!\n\n-- Pope Leo vs AI\n\n-- Anthropic's Digital God\n\n-- Open Source Under Attack?\n\n-- The Great AI Jobs Debate\n\n++ Much More!\n\n(0:00) @bgurley joins the show!\n\n(6:00) Making yourself valuable in the age of AI, first class of \"AI Natives\"\n\n(17:37) Reacting to Pope Leo's AI encyclical: Who guards the guardians?\n\n(26:54) Anthropic's Digital God: Do",
+      "reply_text": "From the central bank's perspective, Anthropic's Digital God poses a systemic risk management challenge, not a theological one.",
+      "reply_style": "reframe",
+      "generated_at": "2026-05-30T07:34:54.344387+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 1099,
+      "sent_to_telegram_at": "2026-05-30T07:34:54.344387+00:00"
+    },
+    {
+      "tweet_id": "2060452826652811327",
+      "tweet_url": "https://x.com/auren/status/2060452826652811327#m",
+      "tweet_author": "auren",
+      "tweet_text": "was talking with a very senior software engineer at Microsoft. told me he almost never works more than 4 hours a day ... and says that is true of his coworkers\n\ncan't believe this is still a thing.  are we still in 2021? \nis this kind of coasting is not happening at Nvidia",
+      "reply_text": "Q2 2023, Credit Suisse's collapse accelerates, Silicon Valley Bank fails the same weekend, and the era of orderly resolutions ends, you're seeing a similar complacency.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-30T07:34:54.344387+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "ENDS WITH A QUESTION when style is NOT 'sharper_question'"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply does not land on a flat statement as required by the historical_parallel style."
+      },
+      "telegram_message_id": 1090,
+      "sent_to_telegram_at": "2026-05-30T07:34:54.344387+00:00"
+    },
+    {
+      "tweet_id": "2060457271503765909",
+      "tweet_url": "https://x.com/patrick_oshag/status/2060457271503765909#m",
+      "tweet_author": "patrick_oshag",
+      "tweet_text": "\"The one thing money doesn't buy you is friends that believed in you when you had nothing.\" \n\n@GavinSBaker told Dan this, paraphrasing @PalmerLuckey \n\nIt was Dan's answer to the kindest thing:\n\n\"Before I started at Jefferies, I had about a 6 or 9 month period where I wasn't working. \n\nMy friend Carter let me sleep on his couch. \n\nWhen I got my job at Jefferies, I suggested to him a bunch of different distressed debt situations. \n\nHe trusted me with a few hundred thousand dollars of his money. It",
+      "reply_text": "Money can't buy loyalty, but it can rent it, and that's exactly what's happening here.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-30T07:34:54.344387+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding confident and like Muneeb."
+      },
+      "telegram_message_id": 1088,
+      "sent_to_telegram_at": "2026-05-30T07:34:54.344387+00:00"
+    },
     {
       "tweet_id": "2060388118226755859",
       "tweet_url": "https://x.com/EricNewcomer/status/2060388118226755859#m",
