@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30T17:27:20.205952+00:00",
+  "last_updated": "2026-05-30T20:12:16.177637+00:00",
   "posts": [
     {
       "topic": "perseverance in achieving goals",
@@ -797,7 +797,11 @@
         "verdict_reason": "The reaction primarily restates the source without adding a significant take or reframe."
       },
       "telegram_message_id": 1085,
-      "sent_to_telegram_at": "2026-05-30T07:03:30.997179+00:00"
+      "sent_to_telegram_at": "2026-05-30T07:03:30.997179+00:00",
+      "posted_tweet_id": "2060685558964539625",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2060685558964539625",
+      "posted_at": "2026-05-30T11:31:37+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "SaaS stocks",
