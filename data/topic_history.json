@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-05-29T03:22:24.376891+00:00",
+  "last_updated": "2026-05-30T03:23:37.267753+00:00",
   "topics": [
+    {
+      "topic": "Brex Sold for $5 Billion. Distribution Just Named Its Price for Technology.",
+      "source_url": "https://news.crunchbase.com/ma/capital-one-acquisition-fintech-startup-brex/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-30T03:23:37.267753+00:00"
+    },
+    {
+      "topic": "A $29M Startup Just Put a Price Tag on the Transformer's Biggest Flaw",
+      "source_url": "https://venturebeat.com/technology/miami-startup-subquadratic-claims-1-000x-ai-efficiency-gain-with-subq-model-researchers-demand-independent-proof",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-30T03:23:37.267753+00:00"
+    },
+    {
+      "topic": "OpenAI Shipped an Overnight Employee and Called It a Coding Tool",
+      "source_url": "https://www.macrumors.com/2026/05/22/codex-use-mac-apps-when-locked/",
+      "agent": "daily_ideas",
+      "posted_at": "2026-05-30T03:23:37.267753+00:00"
+    },
     {
       "topic": "The Company Spending 4x Less Just Became the AI Revenue Leader",
       "source_url": "https://www.saastr.com/anthropic-just-passed-openai-in-revenue-while-spending-4x-less-to-train-their-models/",
