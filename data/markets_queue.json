@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "x:@PauloMacro",
+      "source_url": "https://x.com/PauloMacro/status/2060569034844708923#m",
+      "source_headline": "I\u2019m sure you are all as shocked as @edzitron is\n\n\nFlorian Kronawitter (@fkronawitter1)\n\nJPM on '27 data center build out:\n\n\"The latest analysis based on satelli",
+      "source_handle": "PauloMacro",
+      "image_url": null,
+      "topic": "Data Center Bottleneck",
+      "format": "single_tweet",
+      "x_post": "Over 60% of 2027 data center capacity lacks any construction start, per JPM satellite analysis. The AI bottleneck moves beyond chip supply to physical infrastructure itself. This forces a sharp re-evaluation of 2027 growth projections currently driving tech valuations.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Pass (data presented as evidence for opinion). One-move test: Contrarian thesis (real bottleneck) + second-order consequence. Specific number test: Pass (60%, 2027). Negation scan: Pass (no negations). Hedge scan: Pass (no hedging language). First-person check: Pass (no first-person). Tier 1/2 bans: Pass.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 2,
+          "angle_quality": 3,
+          "timeliness": 2,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "not a recent news event, more of a thematic discussion"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": "average score too low (3.0 < 3.5)"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        }
+      ],
+      "generated_at": "2026-05-30T07:43:23.894381+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1097,
+      "sent_to_telegram_at": "2026-05-30T07:43:24.549627+00:00"
+    },
+    {
+      "source": "x:@modestproposal1",
+      "source_url": "https://x.com/modestproposal1/status/2060462876175876325#m",
+      "source_headline": "In the last 5 years, SMH and IGV have had a 5 percentage point or more daily spread 20 times. 13 of those are YTD. You can almost literally see when Claude Code",
+      "source_handle": "modestproposal1",
+      "image_url": "https://pbs.twimg.com/media/HJg7n-VXIAIF3IV.png",
+      "topic": "SMH/IGV Spread & AI",
+      "format": "single_tweet",
+      "x_post": "The SMH-IGV 5%+ daily spread, seen 13 times YTD compared to 20 over 5 years, marks peak AI concentration. Claude Code's acceleration drives capital directly into tangible compute, sharply distinguishing hardware from broad software bets. The market chooses specific AI enablers.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Pass (opinionated, specific data, clear take). One-move test: Divergence between two data series with a specific cause. Specific number test: Pass (5% spread, 13 times YTD, 20 over 5 years). Negation scan: Pass (no negations). Hedge scan: Pass (no hedging language). First-person check: Pass (no first-person). Tier 1/2 bans: Pass.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 2,
+          "angle_quality": 3,
+          "timeliness": 2,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "not a recent news event, more of a thematic discussion"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": "average score too low (3.0 < 3.5)"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        }
+      ],
+      "generated_at": "2026-05-30T07:43:21.322216+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1094,
+      "sent_to_telegram_at": "2026-05-30T07:43:22.894222+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-30/minimax-plans-china-ipo-as-it-eyes-local-rivals-like-deepseek",
+      "source_headline": "MiniMax Plans China IPO as It Eyes Local Rivals Like DeepSeek",
+      "source_handle": "",
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyLadGWAcwPU/v0/1200x-1.jpg",
+      "topic": "China AI IPO",
+      "format": "single_tweet",
+      "x_post": "MiniMax's domestic IPO confirms China's AI capital markets are building their own gravitational pull. Local rivals like DeepSeek compete for domestic capital rather than global VC money. China's AI sector is structurally decoupling, creating its own distinct valuation and funding narrative.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Pass (opinionated, not wire-like). One-move test: Comparison (China's capital market vs. implied global/US model). Specific number test: Pass (named peer DeepSeek, comparison of capital flows). Negation scan: Pass (no 'not just', 'isn't', 'not X but Y'). Hedge scan: Pass (no hedging language). First-person check: Pass (no first-person). Tier 1/2 bans: Pass.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 2,
+          "angle_quality": 3,
+          "timeliness": 2,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "not a recent news event, more of a thematic discussion"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": "average score too low (3.0 < 3.5)"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1,
+          "compliance_drop": false,
+          "skip_reason": "not market news"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 2,
+          "compliance_drop": false,
+          "skip_reason": "angle_quality too low"
+        }
+      ],
+      "generated_at": "2026-05-30T07:43:19.246851+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1092,
+      "sent_to_telegram_at": "2026-05-30T07:43:20.322048+00:00"
+    },
+    {
       "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/05/29/mercedes-benz-ban-congressional-bill-china-ownership.html",
       "source_headline": "Mercedes-Benz may be shut out of U.S. market under bill aimed at Chinese automaker ownership",
@@ -13309,5 +13903,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-05-29T17:56:05.640685+00:00"
+  "last_updated": "2026-05-30T07:43:25.549785+00:00"
 }
