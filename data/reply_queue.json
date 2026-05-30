@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-05-30T07:34:54.344387+00:00",
+  "last_updated": "2026-05-30T11:11:17.408880+00:00",
   "replies": [
+    {
+      "tweet_id": "2060360592012001339",
+      "tweet_url": "https://x.com/RushDoshi/status/2060360592012001339#m",
+      "tweet_author": "RushDoshi",
+      "tweet_text": "Michael, I\u2019m not sure why you assume bad faith. This is what we not only think, but what we heard from Asian allies when in Tokyo the day after the summit.\n\nThe truth is the President\u2019s words have done real damage. Our article is in response to that damage, not the cause of it.\n\n\nMichael Lucci (@Michael7ucci)\n\nWriting to state quickly that I believe this @CFR_org  article is a bad faith argument by @RushDoshi and @DavidMSacks1 based upon a least charitable interpretation of *rhetoric* while igno",
+      "reply_text": "Q2 2023, Credit Suisse's collapse accelerates, UBS absorbs it. You're seeing similar rapid damage control now.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-05-30T11:11:17.408880+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply is loosely related to the original tweet but loses its specific angle, thus requiring revision to better address the claim."
+      },
+      "telegram_message_id": 1110,
+      "sent_to_telegram_at": "2026-05-30T11:11:17.408880+00:00"
+    },
+    {
+      "tweet_id": "2060528993187856408",
+      "tweet_url": "https://x.com/TFTC21/status/2060528993187856408#m",
+      "tweet_author": "TFTC21",
+      "tweet_text": "A guy installed a fridge-sized Nvidia GPU box on his house that runs AI workloads 24/7. \n\nThe program is real but the viral $2,500/month payout claims are exaggerated. \n\nActual compensation is utility bill savings, not passive income.\n\nVideo",
+      "reply_text": "385,000 households in the US already use distributed computing for similar workloads. This matters because it recontextualizes the scalability of such operations.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-05-30T11:11:17.408880+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is relevant, matches the assigned style, and complies with all rules."
+      },
+      "telegram_message_id": 1108,
+      "sent_to_telegram_at": "2026-05-30T11:11:17.408880+00:00"
+    },
+    {
+      "tweet_id": "2060407724916035601",
+      "tweet_url": "https://x.com/charliebilello/status/2060407724916035601#m",
+      "tweet_author": "charliebilello",
+      "tweet_text": "2026 Returns:\nUS Technology ETF $XLK: +33%\nChina Internet ETF $KWEB: -21%\n\nWho's winning the AI race?",
+      "reply_text": "China's internet ecosystem is more resilient than its stock price suggests.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-05-30T11:11:17.408880+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice."
+      },
+      "telegram_message_id": 1106,
+      "sent_to_telegram_at": "2026-05-30T11:11:17.408880+00:00"
+    },
     {
       "tweet_id": "2060494932327186751",
       "tweet_url": "https://x.com/chamath/status/2060494932327186751#m",
