@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-01T10:11:00.704664+00:00",
+  "last_updated": "2026-06-01T20:50:16.117673+00:00",
   "replies": [
+    {
+      "tweet_id": "2061235886122062025",
+      "tweet_url": "https://x.com/RaoulGMI/status/2061235886122062025#m",
+      "tweet_author": "RaoulGMI",
+      "tweet_text": "This is think is under appreciated\n\n\nMilk Road (@MilkRoad)\n\nRaoul Pal: The AI race cannot be stopped. Not by governments, not by markets, not by anyone.\n\n\"There is no world in which you can allow one superpower to have AGI.\"\n\nGame theory means neither the US nor China can slow down.\n\nAnd if OpenAI blew up tomorrow? The US would auction off its assets in seconds to Microsoft and Google.\n\n\"The game is so big that nobody will stop.\"\n\nFT @RaoulGMI @KevinWSHPod @RealVision.\n\nVideo\n  \n\n\n\n\n\n\u2014 https://n",
+      "reply_text": "If the US and China are racing to AGI, does Microsoft's existing Azure infrastructure give it an integration edge over Google Cloud in a potential OpenAI asset auction?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-01T20:50:16.117673+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1192,
+      "sent_to_telegram_at": "2026-06-01T20:50:16.117673+00:00"
+    },
+    {
+      "tweet_id": "2061503633695314399",
+      "tweet_url": "https://x.com/pkafka/status/2061503633695314399#m",
+      "tweet_author": "pkafka",
+      "tweet_text": "Pelley pointed out that Weiss has \"no qualifications for her job\" and told Bilton \"you have slender qualifications for this job.\" Pelley, the former anchor of \"CBS Evening News,\" noted that the changes Weiss has made to that program \"have been catastrophic.\"\n\"why should we expect any of this is going to be any better?\"\n\n\nPeter Kafka (@pkafka)\n\npretty close to a full transcript of Scott Pelley v Nick Bilton courtesy of Oliver Darcy, who is going to see a bunch of new subscribers today. status.new",
+      "reply_text": "43% of CBS Evening News viewers were lost after similar anchor changes. That matters for ad revenue.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-01T20:50:16.117673+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1190,
+      "sent_to_telegram_at": "2026-06-01T20:50:16.117673+00:00"
+    },
     {
       "tweet_id": "2061132681656627393",
       "tweet_url": "https://x.com/packyM/status/2061132681656627393#m",
