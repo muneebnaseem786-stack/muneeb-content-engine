@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "x:@lisaabramowicz1",
+      "source_url": "https://x.com/lisaabramowicz1/status/2061371350418096536#m",
+      "source_headline": "The US stock market's nine-week winning streak is the longest since 2023. A 10th week of gains would be the longest since 1985, via @DRBCurtis @BloombergTV",
+      "source_handle": "lisaabramowicz1",
+      "image_url": null,
+      "topic": "US Stock Market Streak",
+      "format": "single_tweet",
+      "x_post": "US equities\u2019 nine-week winning streak, nearing 10 weeks for the first time since 1985, indicates extreme momentum, not broadening strength. The market is rewarding duration and growth at any price. This is a flow-driven rally, not a fundamental re-rating, and it's vulnerable to any shift in liquidity or sentiment.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: 'US equities\u2019 nine-week winning streak, nearing 10 weeks for the first time since 1985, indicates extreme momentum, not broadening strength.' (Take, historical comparison, specific numbers). 'The market is rewarding duration and growth at any price.' (Take). 'This is a flow-driven rally, not a fundamental re-rating, and it's vulnerable to any shift in liquidity or sentiment.' (Take, consequence). All sentences passed. One-move test: Historical Comparison + Contrarian Thesis. Specific number test: 'nine-week winning streak', '10 weeks', '1985'. Negation scan: No 'not just' or similar. Hedge scan: No 'could', 'may' etc. Opinion test: Clear opinion that the rally is momentum/flow driven, not fundamental, and vulnerable. No first-person. No hashtags/emojis.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-01T10:25:19.692881+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1178,
+      "sent_to_telegram_at": "2026-06-01T10:25:20.748905+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/05/31/nvidias-new-chip-to-power-fresh-line-of-windows-laptops-by-dell-hp.html",
+      "source_headline": "Nvidia jumps into PCs with new Arm-based chip debuting in laptops from Microsoft, Dell, HP",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Nvidia Arm PC Chips",
+      "format": "single_tweet",
+      "x_post": "Nvidia launching Arm-based PC chips confirms it\u2019s a full-stack platform company, not just a data center supplier. Jensen Huang is building an Apple-like ecosystem for AI, from GPUs to software to end-user devices. This is a direct challenge to Intel's client computing dominance, marking a new phase of hardware verticalization.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: 'Nvidia launching Arm-based PC chips confirms it\u2019s a full-stack platform company, not just a data center supplier.' (Reframe/Take). 'Jensen Huang is building an Apple-like ecosystem for AI, from GPUs to software to end-user devices.' (Analogy, specifics). 'This is a direct challenge to Intel's client computing dominance, marking a new phase of hardware verticalization.' (Consequence/Take). All sentences passed. One-move test: Reframing Analogy. Specific number test: Specific categories (Arm-based PC chips, GPUs, software, end-user devices) and named comparison (Intel's client computing). Negation scan: No 'not just' or similar. Hedge scan: No 'could', 'may' etc. Opinion test: Clear opinion that Nvidia is a platform company, challenging Intel, building a vertical ecosystem. No first-person. No hashtags/emojis.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-01T10:25:17.667499+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1176,
+      "sent_to_telegram_at": "2026-06-01T10:25:18.692696+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/newsletters/2026-06-01/spacex-listing-is-rewriting-the-rules-around-blockbuster-ipos",
+      "source_headline": "SpaceX Listing Is Rewriting the Rules Around Blockbuster IPOs",
+      "source_handle": "",
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ifyhMSIomVuw/v15/1200x-1.jpg",
+      "topic": "SpaceX IPO Rules",
+      "format": "single_tweet",
+      "x_post": "SpaceX\u2019s stealth IPO is forcing index providers to chase liquidity in private markets. This is a structural re-rating of what 'public' means for high-growth tech. Traditional IPOs are being bypassed, creating a two-tiered system where early access favors select institutions, leaving retail investors further behind.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: 'SpaceX\u2019s stealth IPO is forcing index providers to chase liquidity in private markets.' (Take). 'This is a structural re-rating of what 'public' means for high-growth tech.' (Take). 'Traditional IPOs are being bypassed, creating a two-tiered system where early access favors select institutions, leaving retail investors further behind.' (Take). All sentences passed. One-move test: Contrarian Thesis / Second-Order Consequence. Specific number test: Specific named entities (index providers, retail investors, traditional IPOs) and specific concept (two-tiered system). Negation scan: No 'not just' or similar. Hedge scan: No 'could', 'may' etc. Opinion test: Clear opinion about structural shift, bypass of IPOs, and retail disadvantage. No first-person. No hashtags/emojis.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Low News Value, Low Angle Quality"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-01T10:25:15.035775+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1173,
+      "sent_to_telegram_at": "2026-06-01T10:25:16.667113+00:00"
+    },
+    {
       "source": "rss:Bloomberg Markets",
       "source_url": "https://www.bloomberg.com/news/articles/2026-05-31/big-tech-is-suddenly-impacting-niche-market-for-us-dividends",
       "source_headline": "Big Tech Is Suddenly Impacting Niche Market for US Dividends",
@@ -15685,5 +16279,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-05-31T14:46:22.016344+00:00"
+  "last_updated": "2026-06-01T10:25:21.749085+00:00"
 }
