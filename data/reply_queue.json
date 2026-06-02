@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-02T09:00:47.881052+00:00",
+  "last_updated": "2026-06-02T13:46:46.007249+00:00",
   "replies": [
+    {
+      "tweet_id": "2061562575322492937",
+      "tweet_url": "https://x.com/sama/status/2061562575322492937#m",
+      "tweet_author": "sama",
+      "tweet_text": "The OpenAI Foundation is doing a lot of wonderful things.\n\nHelping society become resilient to AI is going to be incredibly important. Much more to come here!\n\n\nThe OpenAI Foundation (@FoundationOAI)\n\nAI is advancing quickly. Society\u2019s ability to manage its risks must advance just as fast.\n\nToday we\u2019re sharing our vision for AI Resilience, with more than $130M in initial grants underway across bio-resilience, cyber-resilience, AI model safety, and AI\u2019s impact on young people: openaifoundation.or",
+      "reply_text": "$130M is roughly 0.02% of OpenAI's valuation. That matters because it indicates a cautious approach to AI resilience grants.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-02T13:46:46.007249+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1224,
+      "sent_to_telegram_at": "2026-06-02T13:46:46.007249+00:00"
+    },
     {
       "tweet_id": "2061440156197069271",
       "tweet_url": "https://x.com/DiMartinoBooth/status/2061440156197069271#m",
