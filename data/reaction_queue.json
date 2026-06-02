@@ -1,6 +1,86 @@
 {
-  "last_updated": "2026-06-01T22:13:36.152228+00:00",
+  "last_updated": "2026-06-02T08:54:02.936394+00:00",
   "posts": [
+    {
+      "topic": "live events and experiences",
+      "source": "x:@patrick_oshag",
+      "source_url": "https://x.com/patrick_oshag/status/2061587157056467405#m",
+      "source_headline": "Ari's bet on live sports and events has been so right\n\nIn a world of a 4-day work week and infinite content, the demand for live is only going up\n\nKnicks Finals",
+      "source_handle": "patrick_oshag",
+      "x_post": "The value of live events and experiences is increasing rapidly, with demand driven by a desire for unique and immersive interactions. Ari Emanuel's bet on live sports and events has been particularly prescient, with Knicks Finals tickets reaching all-time highs and US Open tennis tickets breaking last year's records. The limit of what people will pay for premium experiences has essentially no ceiling, and this trend is likely to continue as people seek out new and exciting ways to engage with the world around them. With the rise of infinite content and a 4-day work week, the demand for live experiences is only going to grow, making it an increasingly important sector for investors and entrepreneurs to watch. As the market for live events continues to evolve, it will be interesting to see how companies adapt to meet the changing needs of consumers and capitalize on this growing trend. The future of live events is bright, and those who are able to innovate and provide unique experiences will be well-positioned for success.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing. Regenerated sentences to lead with affirmative statements and use verbs instead of nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 4,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-02T08:53:31.323544+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "REVISE",
+        "verdict_reason": "The reaction is highly relevant and compliant, but the voice match is not perfect, lacking a bit of Muneeb's distinct analytical tone."
+      },
+      "telegram_message_id": 1200,
+      "sent_to_telegram_at": "2026-06-02T08:54:02.936376+00:00"
+    },
     {
       "topic": "AI-generated code",
       "source": "x:@aakashgupta",
