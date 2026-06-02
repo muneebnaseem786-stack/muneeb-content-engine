@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-02T13:46:46.007249+00:00",
+  "last_updated": "2026-06-02T19:59:37.202310+00:00",
   "replies": [
+    {
+      "tweet_id": "2061896326473003291",
+      "tweet_url": "https://x.com/Noahpinion/status/2061896326473003291#m",
+      "tweet_author": "noahpinion",
+      "tweet_text": "The unmistakable sign of a nation in decline.\n\n\nKevin Kelly (@kevin2kelly)\n\n\"The new American dream, for some of its citizens, is to no longer live there.\" Good article with lots of news and stats. Record rate of Americans leaving US for various reasons. wsj.com/us-news/americans-le\u2026\n\n\n\n\n\u2014 https://nitter.net/kevin2kelly/status/2061668297511506353#m",
+      "reply_text": "For the US, a record number of citizens leaving is someone else's capital inflow.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-02T19:59:37.202310+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1241,
+      "sent_to_telegram_at": "2026-06-02T19:59:37.202310+00:00"
+    },
     {
       "tweet_id": "2061562575322492937",
       "tweet_url": "https://x.com/sama/status/2061562575322492937#m",
