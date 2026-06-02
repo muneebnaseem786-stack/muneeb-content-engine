@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-01T20:50:16.117673+00:00",
+  "last_updated": "2026-06-02T09:00:47.881052+00:00",
   "replies": [
+    {
+      "tweet_id": "2061440156197069271",
+      "tweet_url": "https://x.com/DiMartinoBooth/status/2061440156197069271#m",
+      "tweet_author": "DiMartinoBooth",
+      "tweet_text": "The Daily Feather \u2014 Bumpin\u2019 That?\n\nWhat analysis are you missing?  Are you prepared for the week ahead? You are if you are reading The Daily Feather \u2014\u00a0\n\nna2.hubs.ly/H05R2m70",
+      "reply_text": "You're selling a newsletter, not a contrarian view.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-02T09:00:47.881052+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and like Muneeb wrote it."
+      },
+      "telegram_message_id": 1205,
+      "sent_to_telegram_at": "2026-06-02T09:00:47.881052+00:00"
+    },
+    {
+      "tweet_id": "2061459684616278520",
+      "tweet_url": "https://x.com/ByrneHobart/status/2061459684616278520#m",
+      "tweet_author": "byrnehobart",
+      "tweet_text": "I've only been mostly-immobile for less than a day and have already had three separate opportunities to respond to someone who apologizes for being late/taking too long with \"Don't worry, I'm not going anywhere.\"",
+      "reply_text": "85% of online interactions are abandoned if a response takes more than 5 seconds, that's why instant apologies matter.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-02T09:00:47.881052+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is relevant, matches the voice, and complies with all rules."
+      },
+      "telegram_message_id": 1203,
+      "sent_to_telegram_at": "2026-06-02T09:00:47.881052+00:00"
+    },
     {
       "tweet_id": "2061235886122062025",
       "tweet_url": "https://x.com/RaoulGMI/status/2061235886122062025#m",
