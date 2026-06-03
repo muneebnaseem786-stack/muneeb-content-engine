@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-03T14:21:06.001627+00:00",
+  "last_updated": "2026-06-03T20:13:04.269644+00:00",
   "replies": [
+    {
+      "tweet_id": "2061916603303022838",
+      "tweet_url": "https://x.com/iampaulgrewal/status/2061916603303022838#m",
+      "tweet_author": "iampaulgrewal",
+      "tweet_text": "Step. By. Step. We. Are. Getting. Closer.  \n\nThis is what legislating looks like.\n\n\nBitcoin Magazine (@BitcoinMagazine)\n\nNEW: \ud83c\uddfa\ud83c\uddf8 The Clarity Act has now been placed on the Senate Legislative Calendar \ud83d\udc40\n\nLet's get this landmark legislation approved \ud83d\udc4f\n\n\n\n\n\n\u2014 https://nitter.net/BitcoinMagazine/status/2061857154907140106#m",
+      "reply_text": "From the BIS side, delayed legislative clarity is a feature, not a bug, allowing them to test bitcoin's resilience.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-03T20:13:04.269644+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1282,
+      "sent_to_telegram_at": "2026-06-03T20:13:04.269644+00:00"
+    },
     {
       "tweet_id": "2061885682206048320",
       "tweet_url": "https://x.com/dwarkesh_sp/status/2061885682206048320#m",
