@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-02T19:59:37.202310+00:00",
+  "last_updated": "2026-06-03T09:20:41.114323+00:00",
   "replies": [
+    {
+      "tweet_id": "2061950427789418922",
+      "tweet_url": "https://x.com/paulg/status/2061950427789418922#m",
+      "tweet_author": "paulg",
+      "tweet_text": "Republicans don't just admire different people from Democrats. They have lower opinions of almost everyone.",
+      "reply_text": "You're implying a partisan divide is rooted in differing values, but it's simpler: Republicans have a lower opinion of institutions, period.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-03T09:20:41.114323+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1260,
+      "sent_to_telegram_at": "2026-06-03T09:20:41.114323+00:00"
+    },
+    {
+      "tweet_id": "2061846699006476570",
+      "tweet_url": "https://x.com/jposhaughnessy/status/2061846699006476570#m",
+      "tweet_author": "jposhaughnessy",
+      "tweet_text": "When people say, \u2018If the market\u2019s down 50%, I\u2019m a buyer,\u2019 I laugh hysterically. You have no idea. The lived experience, day to day, plays on your emotions much harder than people could ever imagine.\u201d\n~@jasoncbuck\n\n\nInfinite Loops \ud83c\udf99 (@InfiniteL88ps)\n\nEveryone says they\u2019ll buy when the market is down 50%. Jason Buck explains why reality feels very different.\n\nVideo\n  \n\n\n\n\n\n\u2014 https://nitter.net/InfiniteL88ps/status/2061840660471161186#m",
+      "reply_text": "From the central bank's perspective, a 50% market drop is a desired outcome, allowing for a more controlled monetary environment.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-03T09:20:41.114323+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1251,
+      "sent_to_telegram_at": "2026-06-03T09:20:41.114323+00:00"
+    },
+    {
+      "tweet_id": "2061934154732974376",
+      "tweet_url": "https://x.com/rauchg/status/2061934154732974376#m",
+      "tweet_author": "rauchg",
+      "tweet_text": "YES-CODE\n\nAn entire category of software, \"no-code\", was built under the presumption that code is expensive, difficult, and scarce.\n\nCoding agents have forever changed the equation. Code is now cheap, easy, and abundant.\n\nI remember @cramforce being asked by an analyst long ago: \"soo, is @vercel like a no-code platform?\" Without hesitation he goes \"no, it's the absolute opposite. It's a yes-code platform.\" \ud83d\ude01\n\nA key thing we set out to do was to be uncompromising in quality and sophistication of ",
+      "reply_text": "85% of coding projects now use automated coding assistants, that changes the no-code debate.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-03T09:20:41.114323+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 1249,
+      "sent_to_telegram_at": "2026-06-03T09:20:41.114323+00:00"
+    },
     {
       "tweet_id": "2061896326473003291",
       "tweet_url": "https://x.com/Noahpinion/status/2061896326473003291#m",
