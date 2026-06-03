@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "x:@MichaelKantro",
+      "source_url": "https://x.com/MichaelKantro/status/2062159254379729365#m",
+      "source_headline": "Definition of a stock pickers market. This tends to happen when market multiples plateau, they were rising for much of 23-H125. AI themes and higher rates expla",
+      "source_handle": "MichaelKantro",
+      "image_url": "https://pbs.twimg.com/media/HJ4iLOiXQAAg7vx.png",
+      "topic": "S&P 500 Dispersion",
+      "format": "single_tweet",
+      "x_post": "S&P 500 stock dispersion is near record levels, a setup precisely mirrored just before the 2025 \"Liberation Day\" ~20% sell-off. This market marks a clear warning: sector-specific pain will soon become broad-market repricing, far from a benign stock picker's playground.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Pass (opinionated, warning). One-move test: Historical Comparison. Specific number test: ~20%. Negation scan: Regenerated to remove 'isn't a benign' for affirmative framing. Hedge scan: No. First-person check: No. Opinion test: Pass (clear warning about broad repricing).",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Angle quality not strong enough for a provocative take"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Niche event, angle not broad enough for general finance audience"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 3,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "Angle quality below 3"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "Not a primary market event, commentary on a crypto claim"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "Commentary on economic data, not a direct market event"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "Vague opinion, no specific data"
+        }
+      ],
+      "generated_at": "2026-06-03T18:02:40.808178+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1273,
+      "sent_to_telegram_at": "2026-06-03T18:02:42.711362+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-03/vanguard-s-voo-hits-1-trillion-of-assets-in-etf-industry-first",
+      "source_headline": "Vanguard\u2019s VOO Hits $1 Trillion of Assets in ETF Industry First",
+      "source_handle": "",
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iZQjtT4dvuiI/v2/1200x-1.png",
+      "topic": "VOO AUM Milestone",
+      "format": "single_tweet",
+      "x_post": "VOO hitting $1 trillion in AUM signals peak passive concentration. This level of indexed exposure (85% of US equity) means capital allocation is becoming increasingly blind, amplifying systemic risk. Isolated corporate events now trigger market-wide tremors.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Pass (opinionated, claims market risk). One-move test: Contrarian Thesis/Divergence. Specific number test: $1 trillion, 85%. Negation scan: Regenerated to remove 'not market breadth' for affirmative framing. Hedge scan: No. First-person check: No. Opinion test: Pass (clear claim on systemic risk amplification).",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Angle quality not strong enough for a provocative take"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Niche event, angle not broad enough for general finance audience"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 3,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "Angle quality below 3"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "Not a primary market event, commentary on a crypto claim"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "Commentary on economic data, not a direct market event"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "Vague opinion, no specific data"
+        }
+      ],
+      "generated_at": "2026-06-03T18:02:38.141813+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1270,
+      "sent_to_telegram_at": "2026-06-03T18:02:39.808044+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+      "source_headline": "SpaceX targets fixed $135 IPO roadshow price at $1.75 trillion valuation, source says",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "SpaceX Valuation",
+      "format": "single_tweet",
+      "x_post": "SpaceX's $1.75 trillion valuation, surpassing Tesla's $1.6 trillion, completely reframes growth capital allocation. The market now values multi-decade 'deep tech' infrastructure plays over mass-market consumer tech. This signals a fundamental shift in future-facing bets.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Reuters Test: Pass (opinionated, not wire news). One-move test: Reframing Analogy/Comparison. Specific number test: $1.75T, $1.6T. Negation scan: No. Hedge scan: No. First-person check: No. Opinion test: Pass (clear claim about market shift).",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Angle quality not strong enough for a provocative take"
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 3,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": "Niche event, angle not broad enough for general finance audience"
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 3,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": "Average score below 3.5"
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": "Angle quality below 3"
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "Not a primary market event, commentary on a crypto claim"
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "Commentary on economic data, not a direct market event"
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 1,
+          "avg": 1.0,
+          "compliance_drop": false,
+          "skip_reason": "Not market news"
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": "Vague opinion, no specific data"
+        }
+      ],
+      "generated_at": "2026-06-03T18:02:36.021610+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1268,
+      "sent_to_telegram_at": "2026-06-03T18:02:37.141662+00:00"
+    },
+    {
       "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/06/03/oecd-warns-of-global-slowdown-as-iran-war-stymies-growth-prospects-.html",
       "source_headline": "OECD warns of global slowdown as U.S.-Iran war stymies economic growth prospects",
@@ -18655,5 +19249,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-06-03T09:27:11.146614+00:00"
+  "last_updated": "2026-06-03T18:02:43.711536+00:00"
 }
