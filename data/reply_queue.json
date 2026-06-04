@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-03T20:13:04.269644+00:00",
+  "last_updated": "2026-06-04T08:43:07.435514+00:00",
   "replies": [
+    {
+      "tweet_id": "2062307513572188325",
+      "tweet_url": "https://x.com/lisaabramowicz1/status/2062307513572188325#m",
+      "tweet_author": "lisaabramowicz1",
+      "tweet_text": "\u201cThis is historically a tough time to be in credit,\u201d since stocks often do better w/higher inflation: GoldenTree's Tananbaum. Still, he said, \u201cwe certainly are seeing better value in private credit today than we have seen in the last 24-36 months.\u201d piped.video/kSdSWfZf-lo?si=Vki7\u2026",
+      "reply_text": "Does GoldenTree's bullishness on private credit imply a rotation out of public debt markets, given Tananbaum's historical performance in distressed assets?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-04T08:43:07.435514+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1295,
+      "sent_to_telegram_at": "2026-06-04T08:43:07.435514+00:00"
+    },
+    {
+      "tweet_id": "2062397630253068521",
+      "tweet_url": "https://x.com/sweatystartup/status/2062397630253068521#m",
+      "tweet_author": "sweatystartup",
+      "tweet_text": "The next 5 years in real estate will be insanely good. \n\nSo much opportunity ahead of us.",
+      "reply_text": "Q2 2023, Silicon Valley Bank fails with $200B in assets. The era of asset price inflation ended that quarter.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-04T08:43:07.435514+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet's claim about the future of real estate and presents a historical parallel in a style consistent with Muneeb's voice."
+      },
+      "telegram_message_id": 1293,
+      "sent_to_telegram_at": "2026-06-04T08:43:07.435514+00:00"
+    },
+    {
+      "tweet_id": "2062244343575187571",
+      "tweet_url": "https://x.com/lennysan/status/2062244343575187571#m",
+      "tweet_author": "lennysan",
+      "tweet_text": "We have a winner of the Lenny's Newsletter x @Replit buildathon \ud83c\udfc6\n\nCongratulations @andrey_esipov on your mind-blowing project, Operators.\n\nY'all need to check this out: operators--andreyyesipov.rep\u2026\n\nOperators is a Street Fighter II-inspired fighting game where every fighter is an operator from Lenny's Podcast. Every special move maps to a framework that the operator talks about on the show, linked to the episode and timestamp it came from.\n\nSo much craft and personality went into this project.",
+      "reply_text": "Operators is a novelty, not a scalable game model, and that's what matters for fintech investment.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-04T08:43:07.435514+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and like Muneeb wrote it."
+      },
+      "telegram_message_id": 1291,
+      "sent_to_telegram_at": "2026-06-04T08:43:07.435514+00:00"
+    },
     {
       "tweet_id": "2061916603303022838",
       "tweet_url": "https://x.com/iampaulgrewal/status/2061916603303022838#m",
