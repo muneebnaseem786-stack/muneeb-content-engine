@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-04T08:43:07.435514+00:00",
+  "last_updated": "2026-06-04T12:37:54.880364+00:00",
   "replies": [
+    {
+      "tweet_id": "2062231320768737496",
+      "tweet_url": "https://x.com/ericbahn/status/2062231320768737496#m",
+      "tweet_author": "EricBahn",
+      "tweet_text": "Amazing milestone, congrats to Team @joinforage on the successful Series B! Absolutely proud that @HustleFundVC has been part of this journey early on. I grew up near many food-insecure communities, and this team is doing a lot of good to make healthy nutrition options accessible to all. Go team!\n\n\nOfek Lavian (@OfekLavian)\n\nWe just raised $40M to solve America\u2019s affordability crisis.\n\nGroceries are the #1 financial stressor in America. Food prices are up 30% since the pandemic. For the 100 mill",
+      "reply_text": "Q2 2023, Silicon Valley Bank fails with $200B in assets, Forage's $40M raise signals a shift towards affordable nutrition.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-04T12:37:54.880364+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 1309,
+      "sent_to_telegram_at": "2026-06-04T12:37:54.880364+00:00"
+    },
+    {
+      "tweet_id": "2062241713398149524",
+      "tweet_url": "https://x.com/demishassabis/status/2062241713398149524#m",
+      "tweet_author": "demishassabis",
+      "tweet_text": "Celebrating the milestone of a massive 150+ million downloads of Gemma 4 with the release of the new Gemma 4 12B model! It's incredibly powerful for such a small model and it\u2019s tiny enough to run locally on a laptop with just 16GB VRAM. Apache 2.0 license - happy building!\n\n\nGoogle Gemma (@googlegemma)\n\nMeet Gemma 4 12B!\n\nA unified, encoder-free multimodal model designed to bring high-performance intelligence directly to your laptop, and released under an Apache 2.0 license.\n\nBridging the gap be",
+      "reply_text": "Gemma 4's local run capability is a Trojan horse for Google to harvest laptop user data.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-04T12:37:54.880364+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and like Muneeb's voice."
+      },
+      "telegram_message_id": 1307,
+      "sent_to_telegram_at": "2026-06-04T12:37:54.880364+00:00"
+    },
     {
       "tweet_id": "2062307513572188325",
       "tweet_url": "https://x.com/lisaabramowicz1/status/2062307513572188325#m",
