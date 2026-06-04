@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-04T12:37:54.880364+00:00",
+  "last_updated": "2026-06-04T19:11:48.478868+00:00",
   "replies": [
+    {
+      "tweet_id": "2062586877169823931",
+      "tweet_url": "https://x.com/saifedean/status/2062586877169823931#m",
+      "tweet_author": "saifedean",
+      "tweet_text": "The USS Liberty attack was how Israel formalized its occupation of the US by making it clear to the US military that its civilian leadership would support Israel murdering them.\n\nThis is the third rail of US politics &amp; @RepThomasMassie is a hero for bringing it up in Congress.\n\n\nThomas Massie (@RepThomasMassie)\n\nOn June 8, 2026, I\u2019ll speak on the floor of the House to honor and memorialize the brave crew of the \ud83c\uddfa\ud83c\uddf8 USS Liberty who died and were wounded in an unprovoked attack by \ud83c\uddee\ud83c\uddf1 Israel on ",
+      "reply_text": "From Israel's perspective, the USS Liberty incident demonstrates a calculated risk, showcasing the limits of US support in the face of strategic interests.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-04T19:11:48.478868+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply is relevant and compliant, but the voice match is not a perfect 5, so it requires revision to better sound like Muneeb."
+      },
+      "telegram_message_id": 1321,
+      "sent_to_telegram_at": "2026-06-04T19:11:48.478868+00:00"
+    },
     {
       "tweet_id": "2062231320768737496",
       "tweet_url": "https://x.com/ericbahn/status/2062231320768737496#m",
