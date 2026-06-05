@@ -224,7 +224,7 @@ def send_suggestion_to_telegram(
 
 # ── LLM ──────────────────────────────────────────────────────────────────────
 # Unified provider chain lives in llm.py. See chain order + quotas there.
-from llm import call_llm as _call_llm  # noqa: E402
+from .llm import call_llm as _call_llm  # noqa: E402
 
 
 def call_claude_for_reply(prompt: str) -> str:

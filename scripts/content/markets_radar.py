@@ -138,7 +138,7 @@ def send_markets_post_to_telegram(post: dict) -> int | None:
 
 # ── LLM ───────────────────────────────────────────────────────────────────────
 # Unified provider chain lives in llm.py. See chain order + quotas there.
-from llm import call_llm, parse_json_response  # noqa: E402
+from .llm import call_llm, parse_json_response  # noqa: E402
 
 
 # ── Queue helpers ─────────────────────────────────────────────────────────────

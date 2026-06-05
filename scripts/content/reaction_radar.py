@@ -114,7 +114,7 @@ def send_reaction_to_telegram(post: dict, jury_card: str = "") -> int | None:
 
 # ── LLM ──────────────────────────────────────────────────────────────────────
 # Unified provider chain lives in llm.py. See chain order + quotas there.
-from llm import call_claude_for_reaction, parse_json_response  # noqa: E402
+from .llm import call_claude_for_reaction, parse_json_response  # noqa: E402
 
 
 # ── Pipeline ─────────────────────────────────────────────────────────────────
