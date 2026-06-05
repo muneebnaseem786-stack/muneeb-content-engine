@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T18:10:26.415544+00:00",
+  "last_updated": "2026-06-05T20:50:49.184892+00:00",
   "posts": [
     {
       "topic": "AI-powered app development",
@@ -332,7 +332,11 @@
         "verdict_reason": "The reaction, while relevant, fails to add a significant take or reframe beyond the source and lacks a direct engagement with the source's central claim."
       },
       "telegram_message_id": 1342,
-      "sent_to_telegram_at": "2026-06-05T12:23:52.231544+00:00"
+      "sent_to_telegram_at": "2026-06-05T12:23:52.231544+00:00",
+      "posted_tweet_id": "2062945361472487576",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2062945361472487576",
+      "posted_at": "2026-06-05T17:11:16+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "Polaris fusion breakthrough",
