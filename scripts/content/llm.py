@@ -2,11 +2,17 @@
 Unified LLM caller for all content pipelines.
 
 Provider chain (free tier):
-    1. Kimi K2          via Groq          (moonshotai/kimi-k2-instruct, 30 RPM / 1000 RPD)
-    2. Llama 3.3 70B    via Groq          (llama-3.3-70b-versatile,    30 RPM / 1000 RPD)
+    1. GPT-OSS 120B     via Groq          (openai/gpt-oss-120b, 30 RPM / 1000 RPD)
+    2. Llama 3.3 70B    via Groq          (llama-3.3-70b-versatile, 30 RPM / 1000 RPD)
     3. Gemini 2.5 Flash via Google        (~250 RPD free)
-    4. Kimi K2.6        via OpenRouter    (moonshotai/kimi-k2.6:free,  20 RPM / 50 RPD)
+    4. Kimi K2.6        via OpenRouter    (moonshotai/kimi-k2.6:free, 20 RPM / 50 RPD)
     5. Nemotron 550B    via OpenRouter    (nvidia/nemotron-3-ultra-550b-a55b:free)
+
+Why GPT-OSS 120B primary: Groq's designated replacement for Kimi K2 after
+Moonshot's K2 line was deprecated on Groq on 2026-03-23. 120B total / ~5.1B
+active MoE, matches OpenAI o4-mini on reasoning benchmarks, stronger
+instruction following than Llama 3.3 70B, cleaner creative-writing prose
+than Gemini 2.5 Flash (which ships banned LLM-tell patterns).
 
 Public API:
     call_llm(prompt, max_tokens=4096, temperature=0.7, system=None) -> str
@@ -27,7 +33,7 @@ from typing import Optional
 
 # ── Models ─────────────────────────────────────────────────────────────────────
 
-GROQ_PRIMARY = "moonshotai/kimi-k2-instruct"
+GROQ_PRIMARY = "openai/gpt-oss-120b"
 GROQ_FALLBACK = "llama-3.3-70b-versatile"
 GEMINI_MODEL = "gemini-2.5-flash"
 OPENROUTER_PRIMARY = "moonshotai/kimi-k2.6:free"
@@ -176,7 +182,7 @@ def call_llm(prompt: str, max_tokens: int = 4096, temperature: float = 0.7,
     → OpenRouter Kimi K2.6 → OpenRouter Nemotron 550B. First success wins.
     """
     chain = [
-        ("groq:kimi-k2", lambda: _call_groq(GROQ_PRIMARY, prompt, max_tokens, temperature, system)),
+        ("groq:gpt-oss-120b", lambda: _call_groq(GROQ_PRIMARY, prompt, max_tokens, temperature, system)),
         ("groq:llama-3.3", lambda: _call_groq(GROQ_FALLBACK, prompt, max_tokens, temperature, system)),
         ("gemini:2.5-flash", lambda: _call_gemini(prompt, max_tokens, system)),
         ("openrouter:kimi-k2.6", lambda: _call_openrouter(OPENROUTER_PRIMARY, prompt, max_tokens, temperature, system)),
