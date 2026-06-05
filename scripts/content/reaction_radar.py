@@ -113,80 +113,8 @@ def send_reaction_to_telegram(post: dict, jury_card: str = "") -> int | None:
 
 
 # ── LLM ──────────────────────────────────────────────────────────────────────
-
-def _call_groq(prompt: str, max_tokens: int = 4096) -> str:
-    """Call Groq Llama 3.3 70B (free tier, 1000 RPD). Raises on failure."""
-    api_key = os.environ["GROQ_API_KEY"]
-    last_error = None
-    for attempt in range(3):
-        try:
-            resp = requests.post(
-                "https://api.groq.com/openai/v1/chat/completions",
-                headers={"Authorization": f"Bearer {api_key}"},
-                json={
-                    "model": "llama-3.3-70b-versatile",
-                    "messages": [{"role": "user", "content": prompt}],
-                    "max_tokens": max_tokens,
-                    "temperature": 0.7,
-                },
-                timeout=90,
-            )
-            if resp.status_code == 429 and attempt < 2:
-                wait = 30 * (attempt + 1)
-                print(f"[reaction-radar] Groq 429, retrying in {wait}s (attempt {attempt + 1}/3)")
-                time.sleep(wait)
-                continue
-            resp.raise_for_status()
-            return resp.json()["choices"][0]["message"]["content"]
-        except Exception as e:
-            last_error = e
-            if attempt < 2:
-                time.sleep(5)
-                continue
-    raise last_error or RuntimeError("Groq call failed")
-
-
-def _call_gemini(prompt: str) -> str:
-    """Call Gemini 2.0 Flash. Raises on failure."""
-    import google.generativeai as genai
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.5-pro")
-    for attempt in range(3):
-        try:
-            response = model.generate_content(prompt)
-            return response.text
-        except Exception as e:
-            if "429" in str(e) and attempt < 2:
-                wait = 60 * (attempt + 1)
-                print(f"[reaction-radar] Gemini 429, retrying in {wait}s (attempt {attempt + 1}/3)")
-                time.sleep(wait)
-                continue
-            raise
-
-
-def call_claude_for_reaction(prompt: str) -> str:
-    """Call LLM for scoring + generation. Gemini primary (better quality on these
-    nuanced prompts), Groq fallback when Gemini 429s. Returns raw text response."""
-    if os.environ.get("GEMINI_API_KEY"):
-        try:
-            return _call_gemini(prompt)
-        except Exception as e:
-            print(f"[reaction-radar] Gemini failed: {e}, falling back to Groq")
-    return _call_groq(prompt)
-
-
-def parse_json_response(text: str) -> dict:
-    """LLM sometimes wraps JSON in ```json fences. Strip if present."""
-    t = text.strip()
-    if t.startswith("```"):
-        # drop first fence line and trailing fence
-        lines = t.splitlines()
-        if lines[0].startswith("```"):
-            lines = lines[1:]
-        if lines and lines[-1].strip() == "```":
-            lines = lines[:-1]
-        t = "\n".join(lines)
-    return json.loads(t)
+# Unified provider chain lives in llm.py. See chain order + quotas there.
+from llm import call_claude_for_reaction, parse_json_response  # noqa: E402
 
 
 # ── Pipeline ─────────────────────────────────────────────────────────────────
