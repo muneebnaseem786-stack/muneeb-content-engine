@@ -18,6 +18,43 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; ReactionRadar/1.0)"}
 TIMEOUT = 8
 
 
+# Skip tweets that aren't analytical posts — testimonials, thank-yous,
+# announcements, retweets of personal congratulations. Neither Reply Radar
+# nor Reaction Radar has anything to add to "Grateful for subscriber feedback".
+# Catches the @saxena_puru-style failure mode before any LLM is called.
+_NON_ANALYTICAL_OPENERS = re.compile(
+    r"^(grateful|thank(s|ful)?|honored|honoured|congrat|shoutout|shout out|"
+    r"happy to (announce|share)|proud to|excited to (announce|share)|"
+    r"just shipped|launching|introducing|today we|today i|so honored|"
+    r"big news|wow,?|wow!|amazing,?|lfg|let'?s go|🙏|much love|"
+    r"thrilled to|delighted to|thank you to|appreciate )",
+    re.IGNORECASE,
+)
+_TESTIMONIAL_MARKERS = re.compile(
+    r"(🙏|❤️|grateful for|so grateful|adding value|adding so much value|"
+    r"thank.{0,15}for the kind words|honored to|congratulations to|"
+    r"happy birthday|happy anniversary)",
+    re.IGNORECASE,
+)
+
+
+def _has_analytical_claim(text: str) -> bool:
+    """Cheap pre-filter: does the post look like it has something analytical to
+    engage with? Drops testimonials, thank-yous, personal announcements, pure
+    promo. Returns False = skip this post (no useful reply will land)."""
+    t = (text or "").strip()
+    if not t:
+        return False
+    if _NON_ANALYTICAL_OPENERS.match(t):
+        return False
+    if _TESTIMONIAL_MARKERS.search(t[:120]):
+        return False
+    words_excl_urls = re.sub(r"https?://\S+", "", t).split()
+    if len(words_excl_urls) < 8:
+        return False
+    return True
+
+
 def _strip_html(s: str) -> str:
     return re.sub(r"<[^>]+>", "", s).strip()
 
@@ -105,6 +142,8 @@ def fetch_nitter_profile(
                 image_url = _extract_image_url(desc)
                 text = _strip_html(desc) or title
                 if len(text) < min_chars:
+                    continue
+                if not _has_analytical_claim(text):
                     continue
 
                 x_url = link.replace(f"https://{instance}/", "https://x.com/")

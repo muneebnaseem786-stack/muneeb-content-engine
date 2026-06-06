@@ -228,8 +228,13 @@ from .llm import call_llm as _call_llm  # noqa: E402
 
 
 def call_claude_for_reply(prompt: str) -> str:
-    """Reply Radar wrapper. Strips wrapping quotes models sometimes add."""
-    return _call_llm(prompt, max_tokens=1024, temperature=0.8).strip().strip('"')
+    """Reply Radar wrapper. Strips wrapping quotes models sometimes add.
+
+    max_tokens=2000: the prompt has explicit 'think to yourself' / 'self-review'
+    steps that trigger CoT on gpt-oss-120b. 1024 was tight — reasoning ate the
+    budget and content came back empty. llm.py raises on empty so chain falls
+    through, but we want primary to succeed."""
+    return _call_llm(prompt, max_tokens=2000, temperature=0.8).strip().strip('"')
 
 
 def generate_reply(original_post: str, author: str, style: dict, lessons: str) -> str:
