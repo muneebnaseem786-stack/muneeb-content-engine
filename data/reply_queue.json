@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-06T11:14:36.344762+00:00",
+  "last_updated": "2026-06-06T18:00:29.955713+00:00",
   "replies": [
+    {
+      "tweet_id": "2063261964344885445",
+      "tweet_url": "https://x.com/BretWeinstein/status/2063261964344885445#m",
+      "tweet_author": "BretWeinstein",
+      "tweet_text": "A concise summary of the Iran peace actions to date: \ud83d\ude81\n\n\nMurray Rothbard (@MurraySuggests)\n\nThe Iranian navy, which has been destroyed eight times, has apparently closed the Strait of Hormuz again, because the United States, for the seventh time, won the war that wasn\u2019t a war, so now the United States has to open the Strait of Hormuz that was already open before the not-war began.\n\nThe not-war began because Iran had uranium that was totally, completely, beautifully obliterated, so they can\u2019t bui",
+      "reply_text": "You call the Hormuz shut\u2011down a sideshow, yet the $12\u202fbn plunge in Gulf shipping insurance premiums is the market\u2019s true alarm bell.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-06T18:00:29.955713+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 1391,
+      "sent_to_telegram_at": "2026-06-06T18:00:29.955713+00:00"
+    },
+    {
+      "tweet_id": "2063316915842359473",
+      "tweet_url": "https://x.com/JonErlichman/status/2063316915842359473#m",
+      "tweet_author": "JonErlichman",
+      "tweet_text": "There were 97 years between the first phone call and cell phone call.\n\nAnd 34 years between the first cell phone call and the iPhone.",
+      "reply_text": "Mobile data traffic surged 300% in the three years after the iPhone debut, proving the network impact of consumer adoption.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-06T18:00:29.955713+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1389,
+      "sent_to_telegram_at": "2026-06-06T18:00:29.955713+00:00"
+    },
     {
       "tweet_id": "2062981307446239268",
       "tweet_url": "https://x.com/DavidSacks/status/2062981307446239268#m",
