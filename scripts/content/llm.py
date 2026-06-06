@@ -82,7 +82,20 @@ def _call_groq(model: str, prompt: str, max_tokens: int, temperature: float,
                 time.sleep(wait)
                 continue
             resp.raise_for_status()
-            return resp.json()["choices"][0]["message"]["content"]
+            data = resp.json()
+            content = data["choices"][0]["message"]["content"]
+            # gpt-oss-120b is a reasoning model: when CoT eats max_tokens, content
+            # comes back empty (reasoning_content has the thinking). Surface that
+            # specifically so callers can retry with a bigger budget.
+            if not content or not content.strip():
+                msg = data["choices"][0].get("message", {})
+                finish = data["choices"][0].get("finish_reason", "?")
+                has_reasoning = bool(msg.get("reasoning") or msg.get("reasoning_content"))
+                raise RuntimeError(
+                    f"Groq {model} returned empty content "
+                    f"(finish_reason={finish}, has_reasoning={has_reasoning})"
+                )
+            return content
         except Exception as e:
             last_error = e
             if attempt < 2:
