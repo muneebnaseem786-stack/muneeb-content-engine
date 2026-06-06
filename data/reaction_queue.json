@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-06T17:29:26.053760+00:00",
+  "last_updated": "2026-06-06T20:15:29.060395+00:00",
   "posts": [
     {
       "topic": "Satoshi-era bitcoin lawsuit",
@@ -793,7 +793,11 @@
         "verdict_reason": "The reaction contains a banned LLM signature, which needs to be revised to pass compliance."
       },
       "telegram_message_id": 1368,
-      "sent_to_telegram_at": "2026-06-06T07:06:48.469215+00:00"
+      "sent_to_telegram_at": "2026-06-06T07:06:48.469215+00:00",
+      "posted_tweet_id": "2063286640177774812",
+      "posted_tweet_url": "https://x.com/MuneebNaseem/status/2063286640177774812",
+      "posted_at": "2026-06-06T15:47:23+00:00",
+      "attribution_method": "nitter_auto"
     },
     {
       "topic": "AI-powered app development",
