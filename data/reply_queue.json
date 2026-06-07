@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-07T08:58:15.262146+00:00",
+  "last_updated": "2026-06-07T11:41:40.778283+00:00",
   "replies": [
+    {
+      "tweet_id": "2063586244852961344",
+      "tweet_url": "https://x.com/dampedspring/status/2063586244852961344#m",
+      "tweet_author": "dampedspring",
+      "tweet_text": "Well said as usual\n\n\nPtuomov (@ptuomov)\n\nHOW TO ABANDON THE PRESENT VALUE FORMULA IN POLITE COMPANY\n\nWhile retail investors are free to completely abandon the present value formula whenever they so desire, professional sell-side research analysts do not have such freedom. The professional standards force those analysts to follow a set of complex rules and social conventions resembling a tea ceremony to do so. \n\nThe research analyst has a target price that has to be about 15% above the current pr",
+      "reply_text": "Analysts' median target price error has been 27% over the last 10\u202fyears, highlighting how the PV ritual inflates expectations.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-07T11:41:40.778283+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1409,
+      "sent_to_telegram_at": "2026-06-07T11:41:40.778283+00:00"
+    },
+    {
+      "tweet_id": "2063415679555145736",
+      "tweet_url": "https://x.com/awilkinson/status/2063415679555145736#m",
+      "tweet_author": "awilkinson",
+      "tweet_text": "I really like Codex (Mac app rocks, much more enjoyable than terminal + great connectivity between computers/sessions), BUT I find it's a sub-par designer compared to Opus 4.8.\n\nAnyone found a way to make it a better designer?",
+      "reply_text": "From the central bank side your focus on UI misses the bigger win: Codex\u2019s seamless session sync cuts settlement latency across desks; UI polish is secondary to that operational gain.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-07T11:41:40.778283+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb, with no compliance issues."
+      },
+      "telegram_message_id": 1407,
+      "sent_to_telegram_at": "2026-06-07T11:41:40.778283+00:00"
+    },
     {
       "tweet_id": "2063297170225209705",
       "tweet_url": "https://x.com/tylercowen/status/2063297170225209705#m",
