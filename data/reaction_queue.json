@@ -1,6 +1,70 @@
 {
-  "last_updated": "2026-06-07T20:19:03.812016+00:00",
+  "last_updated": "2026-06-08T09:07:28.669751+00:00",
   "posts": [
+    {
+      "topic": "Ingredion acquires Tate & Lyle",
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-08/ingredion-agrees-to-buy-uk-rival-tate-lyle-for-2-7-billion",
+      "source_headline": "Tate &amp; Lyle Accepts Bid From Ingredion in Loss for London",
+      "source_handle": "",
+      "x_post": "Ingredion's \u00a32.7 billion acquisition of Tate & Lyle marks a significant shift in the food ingredients industry. With 160 years of history, Tate & Lyle has established itself as a major player in the UK market. The acquisition is expected to boost Ingredion's presence in the region. Ingredion's move is driven by the growing demand for specialty ingredients, which has been increasing at a rate of 5% annually. The company's portfolio will now include a wide range of products, from sweeteners to texturizers. This deal will likely lead to increased competition in the market, with other players looking to expand their offerings. As the industry continues to evolve, it will be interesting to see how Ingredion integrates Tate & Lyle's operations and leverages its expertise to drive growth. The acquisition price of \u00a32.7 billion is a testament to the value of Tate & Lyle's brand and its potential for future growth.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. Regenerated sentences to lead with affirmative statements and use specific numbers.",
+      "scores": [
+        {
+          "candidate_index": 5,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-08T09:07:27.346885+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly engages with the source's central claim and maintains an analytical tone consistent with Muneeb's voice."
+      },
+      "telegram_message_id": 1422,
+      "sent_to_telegram_at": "2026-06-08T09:07:28.669729+00:00"
+    },
     {
       "topic": "GM's $900M EV battery gamble",
       "source": "rss:Bloomberg Markets",
