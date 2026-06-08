@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-07T18:36:48.437852+00:00",
+  "last_updated": "2026-06-08T09:17:10.612677+00:00",
   "replies": [
+    {
+      "tweet_id": "2063809469801464007",
+      "tweet_url": "https://x.com/fchollet/status/2063809469801464007#m",
+      "tweet_author": "fchollet",
+      "tweet_text": "I wrote my first neural networks in pure C, then in Matlab, then in NumPy, before eventually upgrading to Theano. Since then I have seen and tried pretty much every NN framework ever developed. Some are bad, some are good. The good ones understand API design principles.",
+      "reply_text": "You say good frameworks need solid API design, yet in enterprise AI the real edge comes from latency and cost efficiency, not a tidy Python interface.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-08T09:17:10.612677+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1427,
+      "sent_to_telegram_at": "2026-06-08T09:17:10.612677+00:00"
+    },
+    {
+      "tweet_id": "2063834171043406061",
+      "tweet_url": "https://x.com/tracyalloway/status/2063834171043406061#m",
+      "tweet_author": "tracyalloway",
+      "tweet_text": "Leveraged ETFs pegged to Asian AI/chip stocks grew from $11 billion at the start of the year to $65 billion, per Nomura.\n\nKorea approved something like 16 new leveraged ETFs the week before last *alone*.",
+      "reply_text": "Do you think the surge will force Korea\u2019s regulator to tighten margin requirements for these 16 new leveraged ETFs?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-08T09:17:10.612677+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1425,
+      "sent_to_telegram_at": "2026-06-08T09:17:10.612677+00:00"
+    },
     {
       "tweet_id": "2063628143945236652",
       "tweet_url": "https://x.com/TaviCosta/status/2063628143945236652#m",
