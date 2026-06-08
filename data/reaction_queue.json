@@ -1,6 +1,55 @@
 {
-  "last_updated": "2026-06-08T13:25:00.165875+00:00",
+  "last_updated": "2026-06-08T18:38:09.853780+00:00",
   "posts": [
+    {
+      "topic": "flying car innovation",
+      "source": "x:@lennysan",
+      "source_url": "https://x.com/lennysan/status/2063728824345669836#m",
+      "source_headline": "Tony Fadell's resume:\n\n+ Co-created the iPhone \u2192 $2.3 trillion in sales\n+ Created the iPod \u2192 saved Apple from bankruptcy\n+ Founded Nest \u2192 AI in your home 11 yea",
+      "source_handle": "lennysan",
+      "x_post": "Flying cars are not a novelty, they are a necessity. With the technology and regulatory landscape finally aligning, companies like Bending Spoons are poised to revolutionize the transportation industry. $2.3 trillion in sales from the iPhone and the success of the iPod are testaments to the power of innovative design and strategic risk-taking. Tony Fadell's approach to product development, which emphasizes opinion-based decisions and a focus on taste, is particularly relevant in the context of flying cars. As the demand for intelligent and efficient transportation solutions continues to grow, flying cars will become an essential part of our daily lives, eliminating the speed-freedom trade-off that limits every transportation technology. The next breakthrough consumer device is not just a product, but a paradigm shift in how we think about mobility and freedom. With the right vision and execution, flying cars can create a new era of transportation, one that is faster, more efficient, and more enjoyable.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing. Regenerated sentences to lead with affirmative statements and used verbs instead of nominalizations. Removed setup phrases and commits to a verdict.",
+      "scores": [
+        {
+          "candidate_index": 2,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-08T18:38:09.515009+00:00",
+      "status": "jury_rejected",
+      "jury": {
+        "relevance": 1,
+        "voice_match": 2,
+        "compliance": "FAIL",
+        "violations": [
+          "OFF-TOPIC PIVOT",
+          "NO SPECIFIC ANCHOR"
+        ],
+        "verdict": "REJECT",
+        "verdict_reason": "The reaction ignores the source and talks about an unrelated topic, specifically flying cars."
+      }
+    },
     {
       "topic": "SpaceX IPO",
       "source": "rss:Bloomberg Markets",
