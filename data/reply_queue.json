@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-08T09:17:10.612677+00:00",
+  "last_updated": "2026-06-08T13:59:17.135797+00:00",
   "replies": [
+    {
+      "tweet_id": "2063982419716505698",
+      "tweet_url": "https://x.com/TheStalwart/status/2063982419716505698#m",
+      "tweet_author": "TheStalwart",
+      "tweet_text": "A DATACENTER IS A BANK\n\nIn today\u2019s newsletter, I wrote some things I\u2019ve been thinking about since our chat with @iaindunning, and how maybe one day we\u2019ll have datacenter supervisors like we have bank supervisors who monitor things like depositor concentration etc",
+      "reply_text": "Q1\u202f2023, SVB sees a $2\u202fbn run on uninsured deposits, triggering a 48\u2011hour liquidity squeeze and prompting supervisors to treat its data\u2011center\u2011like assets as deposits. Regulatory lag repeats.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-08T13:59:17.135797+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1434,
+      "sent_to_telegram_at": "2026-06-08T13:59:17.135797+00:00"
+    },
     {
       "tweet_id": "2063809469801464007",
       "tweet_url": "https://x.com/fchollet/status/2063809469801464007#m",
