@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-08T19:51:05.924896+00:00",
+  "last_updated": "2026-06-09T08:26:10.216603+00:00",
   "replies": [
+    {
+      "tweet_id": "2064163571165008103",
+      "tweet_url": "https://x.com/KobeissiLetter/status/2064163571165008103#m",
+      "tweet_author": "KobeissiLetter",
+      "tweet_text": "Institutional investors are aggressively shorting the Japanese Yen even as Japan is attempting to intervene:\n\nCombined Yen short positions held by leveraged funds and asset managers are up to -$11 billion, the highest since July 2024.\n\nWe have now seen 3 consecutive weekly increases in short exposure, totaling -$5 billion.\n\nThis comes despite Japan\u2019s Ministry of Finance spending a record ~$74 billion over the past month to defend the currency from weakening.\n\nHowever, the Yen has weakened to ~16",
+      "reply_text": "You focus on the shorts, but from the BIS angle the surge creates the liquidity buffer they expected, letting the Ministry\u2019s $74bn spend act as a sterilised swap while Japanese exporters capture cheap yen funding.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-09T08:26:10.216603+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1451,
+      "sent_to_telegram_at": "2026-06-09T08:26:10.216603+00:00"
+    },
+    {
+      "tweet_id": "2064161223084585137",
+      "tweet_url": "https://x.com/pmarca/status/2064161223084585137#m",
+      "tweet_author": "pmarca",
+      "tweet_text": "Interesting.\n\n\nAli Yahya (@alive_)\n\nBarbell strategy for killing it in an age of superhuman AI:\n\nSimultaneously get as close to AND stay as far away from AI as humanly possible.\n\n1. Get close \u2014 play with AI models, use them to help you think, ask them to teach you about the world, get them to help you create, work with them to write code, understand what makes them tick, embed them into your everyday life, have fun.\n\n2. Stay far away \u2014 learn to tell stories, make eye contact, build a team, lead ",
+      "reply_text": "Your barbell idea leaves you half wired; full AI immersion builds the moat that scales profits.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-09T08:26:10.216603+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding confident and like Muneeb."
+      },
+      "telegram_message_id": 1449,
+      "sent_to_telegram_at": "2026-06-09T08:26:10.216603+00:00"
+    },
+    {
+      "tweet_id": "2064113675095679370",
+      "tweet_url": "https://x.com/TrungTPhan/status/2064113675095679370#m",
+      "tweet_author": "trungtphan",
+      "tweet_text": "Steve Jobs finding out that the new Siri AI features \u2014 16 years after he acquired the company \u2014 are a calendar reminder, photo finder and contact list search\n\n\n\n\nTrung Phan (@TrungTPhan)\n\nApple WWDC just demo\u2019d new Siri AI powered by Apple Intelligence (aka Gemini distillation).\n\nIt\u2019s supposed to be more conversational with on-screen visual intelligence and can integrate user context (photos, contacts, calendars).\n\nThe WWDC 2024 version was pure vapourware but this looks more legit because Siri ",
+      "reply_text": "You\u2019ve seen the demo, but Apple poured $15\u202fbillion into AI R&D in 2023, driving Siri\u2019s new context depth.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-09T08:26:10.216603+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1447,
+      "sent_to_telegram_at": "2026-06-09T08:26:10.216603+00:00"
+    },
     {
       "tweet_id": "2063982419716505698",
       "tweet_url": "https://x.com/TheStalwart/status/2063982419716505698#m",
