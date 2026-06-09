@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-09T13:10:23.646320+00:00",
+  "last_updated": "2026-06-09T19:05:42.794377+00:00",
   "replies": [
+    {
+      "tweet_id": "2064400101355761914",
+      "tweet_url": "https://x.com/shaneparrish/status/2064400101355761914#m",
+      "tweet_author": "shaneparrish",
+      "tweet_text": "\"You just got to be really conscious of the consequence and not get too deterministic about a single metric or a single variable and know what's important and what's on top.\"\n\n\nShane Parrish (@shaneparrish)\n\nMy conversation with @bgurley on thinking, making decisions, and the future\n\n0:00 Systems Thinking & Mental Models\n05:21 The Power of Knowing Industry Bedrock\n08:50 Traits in Founders\n11:44 Surprising AI Use \n13:13 The Future of AI \n23:04 Is Tesla Self-driving THAT good?\n24:15 Non-Consensus ",
+      "reply_text": "You see the same trap in Q4\u202f2023 when SVB\u2019s 48\u2011hour deposit run proves that a single liquidity ratio blinds banks to systemic run risk.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-09T19:05:42.794377+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 1469,
+      "sent_to_telegram_at": "2026-06-09T19:05:42.794377+00:00"
+    },
+    {
+      "tweet_id": "2064400177599742010",
+      "tweet_url": "https://x.com/mattyglesias/status/2064400177599742010#m",
+      "tweet_author": "MattYglesias",
+      "tweet_text": "Putting Anthropic's just-released Fable model to work on the toughest problem known to mankind, fixing the United Kingdom.",
+      "reply_text": "AI will never fix the UK without a fiscal reset and clear regulatory direction, no model can rewrite decades of policy missteps.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-09T19:05:42.794377+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 1467,
+      "sent_to_telegram_at": "2026-06-09T19:05:42.794377+00:00"
+    },
     {
       "tweet_id": "2064181079829807471",
       "tweet_url": "https://x.com/bgurley/status/2064181079829807471#m",
