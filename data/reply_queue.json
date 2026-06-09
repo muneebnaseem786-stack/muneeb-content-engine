@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-09T08:26:10.216603+00:00",
+  "last_updated": "2026-06-09T13:10:23.646320+00:00",
   "replies": [
+    {
+      "tweet_id": "2064181079829807471",
+      "tweet_url": "https://x.com/bgurley/status/2064181079829807471#m",
+      "tweet_author": "bgurley",
+      "tweet_text": "If someone is telling you, you are subject to a lock-up agreement, and your firm signed nothing with the lead underwriter, they are either lying or misinformed.  Lockups are a silly contract with underwriter (primarily to help engineer a secondary). Prove me wrong. I\u2019ll correct.",
+      "reply_text": "You ignore that lock\u2011ups are the market\u2019s brake; the 2023 SPAC surge showed secondary dumps spiking 30% when lock\u2011ups were waived.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-09T13:10:23.646320+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and analytical like Muneeb."
+      },
+      "telegram_message_id": 1460,
+      "sent_to_telegram_at": "2026-06-09T13:10:23.646320+00:00"
+    },
     {
       "tweet_id": "2064163571165008103",
       "tweet_url": "https://x.com/KobeissiLetter/status/2064163571165008103#m",
