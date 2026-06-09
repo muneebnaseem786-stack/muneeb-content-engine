@@ -1,6 +1,273 @@
 {
-  "last_updated": "2026-06-08T21:12:28.626921+00:00",
+  "last_updated": "2026-06-09T08:06:12.311087+00:00",
   "posts": [
+    {
+      "topic": "AI and Work",
+      "source": "x:@pmarca",
+      "source_url": "https://x.com/pmarca/status/2064161223084585137#m",
+      "source_headline": "Interesting.\n\n\nAli Yahya (@alive_)\n\nBarbell strategy for killing it in an age of superhuman AI:\n\nSimultaneously get as close to AND stay as far away from AI as ",
+      "source_handle": "pmarca",
+      "x_post": "The nature of work is about to change drastically. With AI models becoming increasingly advanced, every job will turn into explaining your intentions to AI. This is not just about coding, but about understanding how to effectively communicate with machines. As gabriel noted, explaining what you want to AI is surprisingly time-consuming, and this will be true for everyone. For instance, 80% of a coder's time is spent explaining their intentions to AI. This shift in work dynamics will require a new set of skills, where humans learn to tell stories, make eye contact, and build teams. In essence, the future of work will be about collaborating with AI, rather than just working alongside it. The time is right technologically and regulatorily for this shift to happen, and it will be interesting to see how people adapt to this new reality.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and 'the moment of X' phrasing. I rewrote sentences to lead with affirmative statements and used specific numbers and verbs instead of nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 3,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-09T08:05:40.699809+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "NO SPECIFIC ANCHOR",
+          "RESTATEMENT NOT REACTION"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reaction lacks specific anchors and does not add a significant take or reframe to the source."
+      },
+      "telegram_message_id": 1444,
+      "sent_to_telegram_at": "2026-06-09T08:06:12.311069+00:00"
+    },
     {
       "topic": "flying car innovation",
       "source": "x:@lennysan",
