@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-10T12:48:53.839510+00:00",
+  "last_updated": "2026-06-10T19:29:03.539650+00:00",
   "replies": [
+    {
+      "tweet_id": "2064744343743922189",
+      "tweet_url": "https://x.com/sundarpichai/status/2064744343743922189#m",
+      "tweet_author": "sundarpichai",
+      "tweet_text": "DiffusionGemma is an open, experimental model that brings our text diffusion research to Gemma 4. It\u2019s a racehorse \ud83c\udfc7achieving up to 4x faster inference by generating entire blocks of text simultaneously vs predicting token-by-token (word-by-word) output!\n\nVideo",
+      "reply_text": "You show 4x faster inference\u2014how does the blockwise generation affect token\u2011level coherence compared to traditional autoregressive models?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-10T19:29:03.539650+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1492,
+      "sent_to_telegram_at": "2026-06-10T19:29:03.539650+00:00"
+    },
+    {
+      "tweet_id": "2064760003571933531",
+      "tweet_url": "https://x.com/StevenLevy/status/2064760003571933531#m",
+      "tweet_author": "StevenLevy",
+      "tweet_text": "Seeking a great reader question for my WIRED/Backchannel newsletter. Just imagine how happy you will be to see me address your question with wit and candor, and maybe even a subtle eyeroll. Ask me anything!",
+      "reply_text": "From the regulator\u2019s view, your invitation is a data point that shows policymakers are being fed curated questions, and bond investors will parse your answers for hints on future rate moves.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-10T19:29:03.539650+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1490,
+      "sent_to_telegram_at": "2026-06-10T19:29:03.539650+00:00"
+    },
     {
       "tweet_id": "2064591012266131638",
       "tweet_url": "https://x.com/AnshelPfeffer/status/2064591012266131638#m",
