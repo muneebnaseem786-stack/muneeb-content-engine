@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-10T19:29:03.539650+00:00",
+  "last_updated": "2026-06-11T09:07:55.721623+00:00",
   "replies": [
+    {
+      "tweet_id": "2064648776242045061",
+      "tweet_url": "https://x.com/stratechery/status/2064648776242045061#m",
+      "tweet_author": "stratechery",
+      "tweet_text": "6-10-2026 ($)         \n\n\u2022Fable 5\n\u2022Anthropic Alignment\n\u2022AI Tiers\n\nstratechery.com/2026/fable-5\u2026",
+      "reply_text": "Anthropic poured $1.2\u202fB into alignment Q3-2026, a scale that eclipses most enterprise AI budgets.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-11T09:07:55.721623+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1503,
+      "sent_to_telegram_at": "2026-06-11T09:07:55.721623+00:00"
+    },
+    {
+      "tweet_id": "2064757450813968844",
+      "tweet_url": "https://x.com/morganhousel/status/2064757450813968844#m",
+      "tweet_author": "morganhousel",
+      "tweet_text": "Wild stat. \n\n\"France has roughly the same population as the U.K., but almost 50 percent more homes.\"\n\ntheatlantic.com/magazine/202\u2026",
+      "reply_text": "2020\u202fQ2, Chinese developers add $300bn of floor space while population growth stalls, and the debt strain sparks the Evergrande crisis. You see the same overcapacity risk.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-11T09:07:55.721623+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style while sounding like Muneeb."
+      },
+      "telegram_message_id": 1501,
+      "sent_to_telegram_at": "2026-06-11T09:07:55.721623+00:00"
+    },
     {
       "tweet_id": "2064744343743922189",
       "tweet_url": "https://x.com/sundarpichai/status/2064744343743922189#m",
