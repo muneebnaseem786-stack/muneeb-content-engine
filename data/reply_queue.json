@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-11T13:49:15.176576+00:00",
+  "last_updated": "2026-06-11T20:10:27.544589+00:00",
   "replies": [
+    {
+      "tweet_id": "2065121260464439497",
+      "tweet_url": "https://x.com/elonmusk/status/2065121260464439497#m",
+      "tweet_author": "elonmusk",
+      "tweet_text": "Great interview about how @CommunityNotes works!\n\nSuper helpful for truth-seeking.\n\n\nJay Baxter (@jaybaxter)\n\nMy interview from TED with @kcoleman and @audreyt just went live!\n\nTons of gold in here:\n-why we stuck with crazy principles like not having an override button\n-how AI and humans collaborate to write better/more notes than either on their own\n-how much impact community notes are making\n-why our algorithm is smarter than regular upvoting/downvoting\n-new ideas for finding common ground on ",
+      "reply_text": "You celebrate the AI\u2011human loop, but regulators see the missing override as a blind spot that could amplify misinformation and trigger market volatility, forcing central banks to step in.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-11T20:10:27.544589+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1521,
+      "sent_to_telegram_at": "2026-06-11T20:10:27.544589+00:00"
+    },
     {
       "tweet_id": "2064777216656097445",
       "tweet_url": "https://x.com/danshipper/status/2064777216656097445#m",
