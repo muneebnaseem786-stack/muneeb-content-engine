@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-11T09:07:55.721623+00:00",
+  "last_updated": "2026-06-11T13:49:15.176576+00:00",
   "replies": [
+    {
+      "tweet_id": "2064777216656097445",
+      "tweet_url": "https://x.com/danshipper/status/2064777216656097445#m",
+      "tweet_author": "danshipper",
+      "tweet_text": "I predicted this might happen on on @lennysan\u2019s pod last year \n\nHigher productivity from each individual employee with AI, makes it appealing to reshore certain jobs back to the US to be close to customers\n\n\nKaz Nejatian (@nejatian)\n\nI shared this note earlier today with the entire team at Opendoor. \n\nToday we began to say goodbye to our colleagues in India as we wind down our India operations.\n\nOur customers are in America, and that's where our operational work belongs.\n\n\n\n\n\n\u2014 https://nitter.ne",
+      "reply_text": "You highlight the US gain; from the RBI\u2019s ledger this looks like a $100\u202fM services outflow and added pressure on India\u2019s current\u2011account balance as a tech\u2011export source shrinks.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-11T13:49:15.176576+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1508,
+      "sent_to_telegram_at": "2026-06-11T13:49:15.176576+00:00"
+    },
     {
       "tweet_id": "2064648776242045061",
       "tweet_url": "https://x.com/stratechery/status/2064648776242045061#m",
