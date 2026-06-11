@@ -1,6 +1,141 @@
 {
   "posts": [
     {
+      "source": "x:@charliebilello",
+      "source_url": "https://x.com/charliebilello/status/2065092227223756804#m",
+      "source_headline": "Bitcoin (-30%) and Gold (-6%) are the two worst performing major assets so far in 2026. Something we haven't seen before in any calendar year. $GLD $BTC",
+      "source_handle": "charliebilello",
+      "image_url": "https://pbs.twimg.com/media/HKit6DIXsAAKTcT.png",
+      "topic": "Bitcoin and Gold",
+      "format": "single_tweet",
+      "x_post": "Bitcoin and Gold are the worst performing major assets in 2026, down 30% and 6% respectively. This is a divergence from their historical correlation. What's driving this split and will it continue?",
+      "soft_ban_flags": [],
+      "self_review_pass": "Passed the Reuters Test. No negations or hedges found. The post contains a specific comparison and a question that prompts further discussion.",
+      "scores": [
+        {
+          "candidate_index": 1,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-11T16:56:14.293004+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1515,
+      "sent_to_telegram_at": "2026-06-11T16:56:15.314656+00:00"
+    },
+    {
+      "source": "x:@charliebilello",
+      "source_url": "https://x.com/charliebilello/status/2065093232598340062#m",
+      "source_headline": "5 out of the 7 stocks in the Magnificent Seven have actually underperformed the S&amp;P 500 since the start of 2025, a very different picture than 2023-2024.\n\nO",
+      "source_handle": "charliebilello",
+      "image_url": "https://pbs.twimg.com/media/HKivM78XYAAfJOj.png",
+      "topic": "Magnificent Seven",
+      "format": "single_tweet",
+      "x_post": "5 out of 7 'Magnificent Seven' stocks have underperformed the S&P 500 since 2025. The narrative of unstoppable growth is fading. Only Google and Nvidia are still outperforming, and that won't last.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Passed the Reuters Test. No negations or hedges found. The post contains a specific comparison and a prediction.",
+      "scores": [
+        {
+          "candidate_index": 1,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-11T16:56:12.221962+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1512,
+      "sent_to_telegram_at": "2026-06-11T16:56:13.292825+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-11/spacex-ipo-said-to-draw-more-than-70-billion-in-retail-orders",
+      "source_headline": "SpaceX IPO Draws More Than $100 Billion in Retail Orders",
+      "source_handle": "",
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i9o5JTm55100/v1/1200x-1.jpg",
+      "topic": "SpaceX IPO",
+      "format": "single_tweet",
+      "x_post": "SpaceX's $100B in retail orders is a single trade dressed up as a market phenomenon. Strip out the hype and you have a valuation that's hard to justify. The IPO is a test of the market's appetite for growth over profits.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Passed the Reuters Test. No negations or hedges found. The post contains a specific opinion and a comparison to frame the event.",
+      "scores": [
+        {
+          "candidate_index": 1,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-11T16:56:10.164167+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 1510,
+      "sent_to_telegram_at": "2026-06-11T16:56:11.221813+00:00"
+    },
+    {
       "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/06/05/india-rbi-rate-gdp-inflation.html",
       "source_headline": "India's cenbank cuts growth outlook, raises inflation forecast as it keeps rates steady at 5.25%",
@@ -21031,5 +21166,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-06-05T08:45:02.606636+00:00"
+  "last_updated": "2026-06-11T16:56:16.314813+00:00"
 }
