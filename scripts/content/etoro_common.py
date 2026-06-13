@@ -43,11 +43,26 @@ def load_brain() -> dict:
         if published_log_path.exists()
         else "(no published log yet — first runs cannot rehash anything)"
     )
+
+    voice = (ETORO_DATA / "voice.md").read_text(encoding="utf-8")
+
+    # Mirror of Claude Code's persistent memory. The cloud runner cannot read
+    # that memory directly (it lives outside this repo), so the writing and
+    # strategy feedback is mirrored into data/etoro/learnings.md and folded into
+    # the voice context here. Every eToro routine injects {voice}, so this makes
+    # all of them read the learned rules before drafting. Keep learnings.md in
+    # sync whenever a new writing/voice/eToro lesson is added to memory.
+    learnings_path = ETORO_DATA / "learnings.md"
+    learnings = learnings_path.read_text(encoding="utf-8") if learnings_path.exists() else ""
+    if learnings:
+        voice = f"{voice}\n\n{learnings}"
+
     return {
         "portfolio": (ETORO_DATA / "portfolio.md").read_text(encoding="utf-8"),
-        "voice": (ETORO_DATA / "voice.md").read_text(encoding="utf-8"),
+        "voice": voice,
         "platform": (ETORO_DATA / "platform.md").read_text(encoding="utf-8"),
         "published_log": published_log,
+        "learnings": learnings,
     }
 
 
