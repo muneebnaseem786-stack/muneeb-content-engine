@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-13T11:46:09.060057+00:00",
+  "last_updated": "2026-06-13T18:02:45.665218+00:00",
   "replies": [
+    {
+      "tweet_id": "2065817861562786010",
+      "tweet_url": "https://x.com/chamath/status/2065817861562786010#m",
+      "tweet_author": "chamath",
+      "tweet_text": "Pod!!!!\n\n\nThe All-In Podcast (@theallinpod)\n\nLATE NIGHT DROP! \ud83d\udea8\n\nBig show. Core four are back.\n\n-- Anthropic's Fable Backlash\n\n-- Nationalizing AI, and the \"Capitalist Cucks\"\n\n-- Inflation Heats Up\n\n-- California\u2019s Broken Election System\n\n(0:00) Besties are back!\n\n(0:19) Anthropic gets massive backlash over secret Fable nerfing and privacy concerns\n\n(29:16) The AI regulatory capture trap, pragmatic safety solutions\n\n(37:59) Nationalizing AI: Trump/Sanders, justifications, and AI's \"Capitalist Cu",
+      "reply_text": "You flag the AI capture trap, how would a Fed\u2011style AI oversight board differ from the EU\u2019s AI Act in curbing private capture?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-13T18:02:45.665218+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1569,
+      "sent_to_telegram_at": "2026-06-13T18:02:45.665218+00:00"
+    },
+    {
+      "tweet_id": "2065601635137790440",
+      "tweet_url": "https://x.com/simonw/status/2065601635137790440#m",
+      "tweet_author": "simonw",
+      "tweet_text": "\ud83e\udd2f\n\n\nAnthropic (@AnthropicAI)\n\nThe US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees.\n\nThe net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance.\n\nAccess to all other Claude models is not affected.\n\nWe apologize for this disrupt",
+      "reply_text": "You\u2019re losing ~$215\u202fM in 2024 projected revenue from Fable\u202f5, about 18% of Anthropic\u2019s total AI services\u2014a hit that could reshape export\u2011control policy debates.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-13T18:02:45.665218+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1567,
+      "sent_to_telegram_at": "2026-06-13T18:02:45.665218+00:00"
+    },
     {
       "tweet_id": "2065623041430949913",
       "tweet_url": "https://x.com/TFTC21/status/2065623041430949913#m",
