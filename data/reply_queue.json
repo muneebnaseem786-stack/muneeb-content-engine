@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-12T18:57:25.995811+00:00",
+  "last_updated": "2026-06-13T08:15:22.083694+00:00",
   "replies": [
+    {
+      "tweet_id": "2065440684300026040",
+      "tweet_url": "https://x.com/LynAldenContact/status/2065440684300026040#m",
+      "tweet_author": "LynAldenContact",
+      "tweet_text": "The total barrel drawdown of the strategic petroleum reserve is still way lower than 2022, but the rate of drawdown in 2 months has hit a new record.\n\n\nJeff Weniger (@JeffWeniger)\n\n60 million barrels of oil have exited the US Strategic Petroleum Reserve in the last 8 weeks, exceeding the draws from the Gulf War, the 2000 winter supply scare, the 2011 Libya reaction and even the 2022 pace. With energy comprising 3.5% of the S&P 500, the typical investor has more in Amazon than they do this entire",
+      "reply_text": "From the Fed\u2019s balance sheet view your record SPR drawdown is a hidden stimulus, easing inflation pressure while supporting the yield curve and letting the central bank keep rates steady as markets breathe.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-13T08:15:22.083694+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, while also sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1548,
+      "sent_to_telegram_at": "2026-06-13T08:15:22.083694+00:00"
+    },
+    {
+      "tweet_id": "2065615598659449167",
+      "tweet_url": "https://x.com/kentcdodds/status/2065615598659449167#m",
+      "tweet_author": "kentcdodds",
+      "tweet_text": "Holy smokes. Who is making these decisions?\n\n\nAnthropic (@AnthropicAI)\n\nThe US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees.\n\nThe net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance.\n\nAccess to all other Claude models is no",
+      "reply_text": "Will the export restriction on Fable\u202f5 and Mythos\u202f5 push Anthropic to accelerate licensing Claude\u202f3 to US customers, or force them to rearchitect the models to fall under a different ECCN?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-13T08:15:22.083694+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and complies with all requirements."
+      },
+      "telegram_message_id": 1546,
+      "sent_to_telegram_at": "2026-06-13T08:15:22.083694+00:00"
+    },
+    {
+      "tweet_id": "2065501200510841312",
+      "tweet_url": "https://x.com/Codie_Sanchez/status/2065501200510841312#m",
+      "tweet_author": "codie_sanchez",
+      "tweet_text": "You will never make millions doing everything yourself.\n\n3 hires to buy back your time at every revenue stage:\n\nSub $1-2M \u2192 Virtual Assistant\n- replies to emails\n- books meetings\n- follows up with leads & customers\n\n$2M+ \u2192 In-person Executive Assistant\n- handles travel\n- lets people into the office\n- brings food & water in between meetings\n\n$10-20M \u2192 Chief of Staff \n- negotiates for you\n- pushes projects forward\n- takes meetings with other executives\n\nI waited way too long to hire a chief of sta",
+      "reply_text": "$12M revenue is the sweet spot where adding a Chief of Staff doubles deal velocity, accelerating growth.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-13T08:15:22.083694+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1544,
+      "sent_to_telegram_at": "2026-06-13T08:15:22.083694+00:00"
+    },
     {
       "tweet_id": "2065121260464439497",
       "tweet_url": "https://x.com/elonmusk/status/2065121260464439497#m",
