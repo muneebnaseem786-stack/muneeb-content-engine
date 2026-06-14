@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-14T11:48:31.051076+00:00",
+  "last_updated": "2026-06-14T18:07:23.955873+00:00",
   "replies": [
+    {
+      "tweet_id": "2066174054139097467",
+      "tweet_url": "https://x.com/RyanDetrick/status/2066174054139097467#m",
+      "tweet_author": "RyanDetrick",
+      "tweet_text": "The middle class is shrinking they keep saying.\n\nTrue, but it is because they are going to the upper middle class. That part conveniently gets left out. \n\nAlso, poor and lower middle class are much lower than 45 years ago. \n\nNice one from @awealthofcs on things getting better.",
+      "reply_text": "You note the shift. March\u202f2023. SVB deposit run drains $142\u202fbn in 36\u202fhours; Credit Suisse merges into UBS that weekend. Wealth moved at breakneck speed, echoing today\u2019s middle class rebuckets. The pressure is real.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-14T18:07:23.955873+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1586,
+      "sent_to_telegram_at": "2026-06-14T18:07:23.955873+00:00"
+    },
     {
       "tweet_id": "2065817861562786010",
       "tweet_url": "https://x.com/chamath/status/2065817861562786010#m",
