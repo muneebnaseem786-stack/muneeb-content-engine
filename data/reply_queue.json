@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-16T10:01:26.258237+00:00",
+  "last_updated": "2026-06-16T20:02:06.989762+00:00",
   "replies": [
+    {
+      "tweet_id": "2066957268768235833",
+      "tweet_url": "https://x.com/EricNewcomer/status/2066957268768235833#m",
+      "tweet_author": "EricNewcomer",
+      "tweet_text": "DATABRICKS CEO ALI GHODSI: A Costly AI Training Foray, Sidestepping the Model Wars &amp; the Push to Kill Tokenmaxxing Bloat newcomer.co/p/databricks-ceo\u2026 @alighodsi @databricks",
+      "reply_text": "From the bondholder side your AI spend looks like a runway extension \u2013 the extra compute locks in higher\u2011margin SaaS contracts and steadies cash\u2011flow, exactly what fixed\u2011income desks want in a low\u2011rate world.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-16T20:02:06.989762+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1616,
+      "sent_to_telegram_at": "2026-06-16T20:02:06.989762+00:00"
+    },
     {
       "tweet_id": "2066665810823672036",
       "tweet_url": "https://x.com/ByrneHobart/status/2066665810823672036#m",
