@@ -1,6 +1,29 @@
 {
-  "last_updated": "2026-06-15T20:19:41.995924+00:00",
+  "last_updated": "2026-06-16T10:01:26.258237+00:00",
   "replies": [
+    {
+      "tweet_id": "2066665810823672036",
+      "tweet_url": "https://x.com/ByrneHobart/status/2066665810823672036#m",
+      "tweet_author": "byrnehobart",
+      "tweet_text": "Amazon doesn't know it, but these are actually emails telling me which kid has been browsing with my account.",
+      "reply_text": "You\u2019re getting a glimpse of what happened in Q1\u202f2023 when SVB sees $42\u202fB deposits vanish as startups panic, exposing hidden account activity.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-16T10:01:26.258237+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "STARTS WITH A FILLER implied by tone, but not literally",
+          "LOSES THE TWEET'S SPECIFIC ANGLE"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply loosely relates to the original tweet but loses its specific angle and does not fully capture the historical parallel style as intended."
+      },
+      "telegram_message_id": 1606,
+      "sent_to_telegram_at": "2026-06-16T10:01:26.258237+00:00"
+    },
     {
       "tweet_id": "2066516915233988770",
       "tweet_url": "https://x.com/auren/status/2066516915233988770#m",
