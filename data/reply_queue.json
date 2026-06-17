@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-17T09:25:04.598471+00:00",
+  "last_updated": "2026-06-17T13:36:07.987829+00:00",
   "replies": [
+    {
+      "tweet_id": "2067141614829473793",
+      "tweet_url": "https://x.com/azeem/status/2067141614829473793#m",
+      "tweet_author": "azeem",
+      "tweet_text": "The challenge here is whether there is a large enough class of tasks opener at that price point. If the work you are doing needs 95% or more of Opus performance, this would unlock it.\n\n\nJUMPERZ (@jumperz)\n\nGLM 5.2 is here\u2026 and the performance/cost ratio looks absolutely ridiculous compared to GPT 5.5 and Opus \n\nGLM 5.2 feels like one of the first open models in a while that\u2019s actually aiming for the frontier..\n\n&gt; 1m context window\n&gt; MIT licensed open weights\n&gt; strong coding + agentic wo",
+      "reply_text": "You chase the cheap performance edge, but enterprises will still pick Opus for the compliance guarantees and support ecosystem, not just raw FLOPs.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-17T13:36:07.987829+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 1634,
+      "sent_to_telegram_at": "2026-06-17T13:36:07.987829+00:00"
+    },
+    {
+      "tweet_id": "2067183701130100997",
+      "tweet_url": "https://x.com/paulg/status/2067183701130100997#m",
+      "tweet_author": "paulg",
+      "tweet_text": "It sounds like we lost by the Iran war, in the sense that the deal we're getting now is worse than they were offering before we attacked. And if we lost by the war, we lost the war.",
+      "reply_text": "Your post underestimates the gap \u2013 the pre\u2011war offer was $12\u202fbn versus the $8\u202fbn you\u2019re seeing now, a 33% loss in potential cash.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-17T13:36:07.987829+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1632,
+      "sent_to_telegram_at": "2026-06-17T13:36:07.987829+00:00"
+    },
     {
       "tweet_id": "2066921736369766762",
       "tweet_url": "https://x.com/DrJimFan/status/2066921736369766762#m",
