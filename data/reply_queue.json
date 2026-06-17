@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-16T20:02:06.989762+00:00",
+  "last_updated": "2026-06-17T09:25:04.598471+00:00",
   "replies": [
+    {
+      "tweet_id": "2066921736369766762",
+      "tweet_url": "https://x.com/DrJimFan/status/2066921736369766762#m",
+      "tweet_author": "DrJimFan",
+      "tweet_text": "Today, we enable AutoResearch in the physical world for the first time! Introducing ENPIRE: we give 8 Codex agents a fleet of robots, an allocation of GPUs, and generous token budget. We set them free with a simple goal: solve the task as quickly as possible, keep the robots busy but stay safe, don't waste precious compute. Make no mistake.\n\nThen humans step aside and our watch begins. The robot fleet starts to come alive: they learn to look for visual clues, reset the scene, practice novel skil",
+      "reply_text": "You've turned robots into a compute\u2011hungry treadmill; the token budget will balloon faster than any ROI, and safety protocols become a liability, not a moat.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-17T09:25:04.598471+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and analytical like Muneeb."
+      },
+      "telegram_message_id": 1629,
+      "sent_to_telegram_at": "2026-06-17T09:25:04.598471+00:00"
+    },
+    {
+      "tweet_id": "2066850246353723530",
+      "tweet_url": "https://x.com/MichaelKantro/status/2066850246353723530#m",
+      "tweet_author": "MichaelKantro",
+      "tweet_text": "The bottom-up 2027 S&amp;P 500 EPS estimate is $393. Here is where the market would end the year assuming those estimates hold into year end and multiples rise 1 point, remain flat, or decline 1 point.",
+      "reply_text": "Q4\u202f2022. S&P\u202f500 forward PE slides ~2 points as Fed hikes bite, while EPS growth stalls. The index trims ~5% despite earnings holding. Your 2027 scenario echoes that shift.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-17T09:25:04.598471+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1627,
+      "sent_to_telegram_at": "2026-06-17T09:25:04.598471+00:00"
+    },
+    {
+      "tweet_id": "2067134005867155485",
+      "tweet_url": "https://x.com/robinhanson/status/2067134005867155485#m",
+      "tweet_author": "robinhanson",
+      "tweet_text": "In public policy, many positions that are the natural result of evidence &amp; reason are taboo. So to take public positions, one must learn to avoid certain thoughts, or know that one has thoughts one must not say. As LLMs take positions on everything, how do they navigate this?",
+      "reply_text": "From the central bank\u2019s desk, LLMs are a calibrated megaphone \u2013 they let regulators embed preferred framing into every policy note, turning what would be a taboo into a repeatable line before dissent even surfaces.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-17T09:25:04.598471+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1625,
+      "sent_to_telegram_at": "2026-06-17T09:25:04.598471+00:00"
+    },
     {
       "tweet_id": "2066957268768235833",
       "tweet_url": "https://x.com/EricNewcomer/status/2066957268768235833#m",
