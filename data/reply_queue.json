@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-17T13:36:07.987829+00:00",
+  "last_updated": "2026-06-17T19:16:57.130225+00:00",
   "replies": [
+    {
+      "tweet_id": "2067001771046891709",
+      "tweet_url": "https://x.com/joulee/status/2067001771046891709#m",
+      "tweet_author": "joulee",
+      "tweet_text": "Many managers I have talked to have debated whether the strongest future builders are senior folks (who have more experience / taste / seen-some-shit wisdom) vs younger folks (who are faster at adapting to new technology and are more digital native.)\n\nSo far, the oldies are winning.",
+      "reply_text": "Q1\u202f2023. UBS pays $3.2\u202fbn to absorb Credit\u202fSuisse, a legacy bank, after its 2022 crisis, while younger fintechs such as Revolut remain untouched. The old\u2011guard still consolidates power.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-17T19:16:57.130225+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1638,
+      "sent_to_telegram_at": "2026-06-17T19:16:57.130225+00:00"
+    },
     {
       "tweet_id": "2067141614829473793",
       "tweet_url": "https://x.com/azeem/status/2067141614829473793#m",
