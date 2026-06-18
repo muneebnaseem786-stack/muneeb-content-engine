@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-18T12:45:07.107398+00:00",
+  "last_updated": "2026-06-18T19:15:15.828699+00:00",
   "replies": [
+    {
+      "tweet_id": "2067427678529974740",
+      "tweet_url": "https://x.com/sama/status/2067427678529974740#m",
+      "tweet_author": "sama",
+      "tweet_text": "We offer no explanation as to why Noams are so good at AI; we attribute their success, as all else, to divine benevolence.\n\n\nNoam Brown (@polynoamial)\n\nI'm always thrilled to have more Noams at @OpenAI, but I'm especially thrilled to welcome @NoamShazeer!\n\n\n\n\u2014 https://nitter.net/polynoamial/status/2067402274662744465#m",
+      "reply_text": "From the capital markets view, each new Noam raises OpenAI\u2019s talent premium, tightening the talent\u2011cost spread and forcing rivals to burn more cash to stay competitive, which tightens bond spreads on AI\u2011focused issuances.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-18T19:15:15.828699+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1659,
+      "sent_to_telegram_at": "2026-06-18T19:15:15.828699+00:00"
+    },
     {
       "tweet_id": "2067584611484369270",
       "tweet_url": "https://x.com/patrick_oshag/status/2067584611484369270#m",
