@@ -1,6 +1,56 @@
 {
-  "last_updated": "2026-06-18T09:02:36.951898+00:00",
+  "last_updated": "2026-06-18T12:38:55.101476+00:00",
   "posts": [
+    {
+      "topic": "business scaling",
+      "source": "x:@patrick_oshag",
+      "source_url": "https://x.com/patrick_oshag/status/2067357912935149915#m",
+      "source_headline": "Kareem had an interesting idea: a death doula for companies.\n\nHe questions whether scaling every business is actually a good thing.\n\n\"People talk about this in ",
+      "source_handle": "patrick_oshag",
+      "x_post": "Kareem's idea of a death doula for companies is not just a thought experiment, but a necessary service in today's fast-paced business environment. 70% of small businesses fail within the first ten years, and scaling is often cited as a major reason. The fact that we incentivize all businesses to scale is a problem in itself. A death doula for companies would help business owners navigate the complexities of scaling and provide a safe space to discuss the consequences of growth. For instance, a restaurant that scales too quickly may lose its personal touch and compromise on quality. By acknowledging that not all businesses need to scale, we can create a more sustainable and diverse ecosystem. The current narrative around scaling is focused on growth at all costs, but a death doula for companies would offer a refreshing alternative. This shift in perspective would allow business owners to prioritize their values and goals over the pressure to constantly expand.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing. Regenerated sentence structures to prioritize affirmative statements and verbs over nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 2,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-18T12:38:52.925319+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "BANNED LLM SIGNATURES"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reaction contains banned LLM signatures, specifically 'navigate the complexities', which triggers a compliance failure."
+      },
+      "telegram_message_id": 1651,
+      "sent_to_telegram_at": "2026-06-18T12:38:55.101457+00:00"
+    },
     {
       "topic": "Colbert's strategic move on Late Show",
       "source": "x:@aakashgupta",
