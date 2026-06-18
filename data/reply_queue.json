@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-18T09:08:34.314962+00:00",
+  "last_updated": "2026-06-18T12:45:07.107398+00:00",
   "replies": [
+    {
+      "tweet_id": "2067584611484369270",
+      "tweet_url": "https://x.com/patrick_oshag/status/2067584611484369270#m",
+      "tweet_author": "patrick_oshag",
+      "tweet_text": "Man, we need a @DavidSHolz long form profile. \n\nWe\u2019d love to do it @colossusmag \n\nIf anyone can help us make this happen let me know! \n\nRegardless, such an exciting time to be alive. \n\nSo lucky we have so many visionaries building new things.",
+      "reply_text": "If you land Holz for a profile, could you probe how his Leap Motion AI tech will reshape real\u2011time payment settlement and what regulatory hurdle he sees as the biggest blocker?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-18T12:45:07.107398+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1654,
+      "sent_to_telegram_at": "2026-06-18T12:45:07.107398+00:00"
+    },
     {
       "tweet_id": "2067497390433599625",
       "tweet_url": "https://x.com/hubermanlab/status/2067497390433599625#m",
