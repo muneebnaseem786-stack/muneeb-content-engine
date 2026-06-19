@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-19T13:26:33.809359+00:00",
+  "last_updated": "2026-06-19T18:27:44.956255+00:00",
   "replies": [
+    {
+      "tweet_id": "2068007205102842238",
+      "tweet_url": "https://x.com/garrytan/status/2068007205102842238#m",
+      "tweet_author": "garrytan",
+      "tweet_text": "Tip: pick the worst thing you are afraid to show your board for your next board meeting and make it slide one (you can only do this with good boards btw)\n\nMake it a big deal you did that. Make it a habit.\n\n\nAlex Konrad (@alexrkonrad)\n\nSalespeople have a problem: they only spend 21% of their time actually selling to customers \ud83e\udd1d\n\n@mutinycorp CEO Jaleh Rezaei (@jalehr) thought she'd found a way to fix it. She worked with customers like Snowflake and Uber. Revenue reached 8-figures \ud83d\udcc8\n\nWhich makes wh",
+      "reply_text": "From a regulator\u2019s lens, your \u201cworst\u2011slide\u201d habit is exactly the forward\u2011looking stress signal they demand, turning board discomfort into a measurable reduction in surprise\u2011risk premiums.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-19T18:27:44.956255+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1695,
+      "sent_to_telegram_at": "2026-06-19T18:27:44.956255+00:00"
+    },
+    {
+      "tweet_id": "2067740880812052585",
+      "tweet_url": "https://x.com/lennysan/status/2067740880812052585#m",
+      "tweet_author": "lennysan",
+      "tweet_text": "Having Codex handle all the Google Cloud settings itself (using its in-app browser) is so awesome\n\nVideo",
+      "reply_text": "AI\u2011driven GCP auto\u2011config can shave ~1,200\u202fhrs annually from ops teams, slashing cloud\u2011admin spend by ~15%, that\u2019s why scaling fast becomes a cost\u2011neutral game\u2011changer.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-19T18:27:44.956255+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1693,
+      "sent_to_telegram_at": "2026-06-19T18:27:44.956255+00:00"
+    },
+    {
+      "tweet_id": "2067743992964685964",
+      "tweet_url": "https://x.com/iampaulgrewal/status/2067743992964685964#m",
+      "tweet_author": "iampaulgrewal",
+      "tweet_text": "No one loves a lawsuit challenging agency action more than me. But does anyone seriously think US investors are served by an effective monopolist looking to push all perps trading offshore?  Please.",
+      "reply_text": "You miss the point: a de\u2011facto monopoly in clearing is a systemic hazard, and forcing trades offshore only deepens the risk for US investors.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-19T18:27:44.956255+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1691,
+      "sent_to_telegram_at": "2026-06-19T18:27:44.956255+00:00"
+    },
     {
       "tweet_id": "2067960360619868364",
       "tweet_url": "https://x.com/packyM/status/2067960360619868364#m",
