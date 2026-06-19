@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-19T09:24:25.510015+00:00",
+  "last_updated": "2026-06-19T13:26:33.809359+00:00",
   "replies": [
+    {
+      "tweet_id": "2067960360619868364",
+      "tweet_url": "https://x.com/packyM/status/2067960360619868364#m",
+      "tweet_author": "packym",
+      "tweet_text": "Reindustrialize Dose is extra special.\n\nAt the first Reindustrialize 2 years ago, I moderated a panel on nuclear.\n\nIsaiah's company, Valar Atomics, went critical yesterday.\n\nTommy's company, Standard Nuclear, filed its S-1 to go public yesterday.\n\nA lot can happen in 2 years.\n\n\n\n\nPacky McCormick (@packyM)\n\n- Midjourney makes a scanner\n- Biohub + Berkeley make the invisible visible\n- Valar goes critical\n- Anduril wins USAF CCA Production Contract\n- Notes on Reindustrialized \n\n+ Science Breakthrou",
+      "reply_text": "From a bondholder perspective your wave of nuclear IPOs and criticality pushes the credit curve out, forcing investors to price longer\u2011dated, higher\u2011risk exposure against a backdrop of tightening sovereign yields.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-19T13:26:33.809359+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1685,
+      "sent_to_telegram_at": "2026-06-19T13:26:33.809359+00:00"
+    },
+    {
+      "tweet_id": "2067608402998558844",
+      "tweet_url": "https://x.com/biancoresearch/status/2067608402998558844#m",
+      "tweet_author": "biancoresearch",
+      "tweet_text": "Trump signed this in Versailles yesterday.\n\nLet\u2019s hope the \u201cMOU of Versailles\u201d is a better deal for the world than the \u201cTreaty of Versailles.\u201d\n\n\nMasoud Pezeshkian (@drpezeshkian)\n\n\u0627\u06cc\u0646 \u0645\u062a\u0646\u060c \u0628\u0627\u0632\u062a\u0627\u0628 \u0635\u062f\u0627\u06cc \u0645\u0644\u062a\u06cc \u0627\u0633\u062a \u06a9\u0647  \u0639\u0632\u062a \u0648 \u0627\u0633\u062a\u0642\u0644\u0627\u0644 \u062e\u0648\u062f \u0631\u0627 \u0628\u0627 \u0647\u06cc\u0686 \u062a\u0647\u062f\u06cc\u062f \u0648 \u0641\u0634\u0627\u0631\u06cc \u0645\u0639\u0627\u0645\u0644\u0647 \u0646\u06a9\u0631\u062f.\n\u0622\u0646\u0686\u0647 \u0627\u0645\u0631\u0648\u0632 \u0628\u0647 \u062b\u0628\u062a \u0631\u0633\u06cc\u062f\u060c \u0646\u062a\u06cc\u062c\u0647 \u0627\u0633\u062a\u0642\u0627\u0645\u062a \u0645\u0644\u06cc\u060c \u0639\u0642\u0644\u0627\u0646\u06cc\u062a \u0633\u06cc\u0627\u0633\u06cc \u0648 \u062f\u06cc\u067e\u0644\u0645\u0627\u0633\u06cc \u0645\u0633\u0626\u0648\u0644\u0627\u0646\u0647 \u0628\u0648\u062f.\n\n\n\n\n\n\n\n\u2014 https://nitter.net/drpezeshkian/status/2067577165604917494#m",
+      "reply_text": "You\u2019d recall the 1925 Treaty of Versailles imposed $33\u202fbillion in reparations, which drove hyperinflation in Germany and reshaped global finance.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-19T13:26:33.809359+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1683,
+      "sent_to_telegram_at": "2026-06-19T13:26:33.809359+00:00"
+    },
     {
       "tweet_id": "2067633644731019708",
       "tweet_url": "https://x.com/jchervinsky/status/2067633644731019708#m",
