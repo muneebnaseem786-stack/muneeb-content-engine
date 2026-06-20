@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-19T18:27:44.956255+00:00",
+  "last_updated": "2026-06-20T08:17:07.707521+00:00",
   "replies": [
+    {
+      "tweet_id": "2068151545774960874",
+      "tweet_url": "https://x.com/Trace_Cohen/status/2068151545774960874#m",
+      "tweet_author": "trace_cohen",
+      "tweet_text": "The VC power law in one chart: one investment can return the entire fund. The other 19 barely move the math\n\nvalueaddvc.com/blog/how-vent\u2026",
+      "reply_text": "0.3% of VC deals generate >50x returns, yet they deliver 90% of total fund gains; that concentration fuels the power law.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-20T08:17:07.707521+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 1703,
+      "sent_to_telegram_at": "2026-06-20T08:17:07.707521+00:00"
+    },
     {
       "tweet_id": "2068007205102842238",
       "tweet_url": "https://x.com/garrytan/status/2068007205102842238#m",
