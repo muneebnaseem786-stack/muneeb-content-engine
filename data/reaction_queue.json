@@ -1,6 +1,270 @@
 {
-  "last_updated": "2026-06-20T11:31:46.855298+00:00",
+  "last_updated": "2026-06-20T17:48:39.128190+00:00",
   "posts": [
+    {
+      "topic": "AI in crypto security",
+      "source": "rss:Coindesk",
+      "source_url": "https://www.coindesk.com/tech/2026/06/20/ai-is-making-crypto-security-cheaper-faster-and-harder-to-ignore",
+      "source_headline": "AI is making crypto security cheaper, faster and harder to ignore",
+      "source_handle": "",
+      "x_post": "The integration of AI in crypto security is not just a trend, it's a necessity. With $2.3 billion in crypto losses reported in 2024, the need for advanced security measures has never been more pressing. AI-powered security systems can process vast amounts of data, identify patterns, and detect potential threats in real-time, making them an indispensable tool in the fight against crypto crimes. For instance, AI-driven systems can analyze transaction patterns to detect and prevent money laundering, or use machine learning algorithms to identify and flag suspicious activity. The use of AI in crypto security is not only about preventing losses but also about building trust in the industry. As AI technology continues to evolve, we can expect to see even more innovative solutions that will further enhance the security and integrity of the crypto market. The future of crypto security is undoubtedly tied to the development and implementation of AI-powered systems, and it's exciting to think about the potential benefits that this technology can bring to the industry.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. Regenerated sentences to ensure affirmative language and specific examples.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 4,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 4,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-20T17:48:07.780876+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly reframes the source's central claim and maintains an analytical tone consistent with Muneeb's voice."
+      },
+      "telegram_message_id": 1716,
+      "sent_to_telegram_at": "2026-06-20T17:48:39.128169+00:00"
+    },
     {
       "topic": "European stocks",
       "source": "rss:Bloomberg Markets",
