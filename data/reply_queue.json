@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-20T11:49:48.804678+00:00",
+  "last_updated": "2026-06-20T18:04:01.789422+00:00",
   "replies": [
+    {
+      "tweet_id": "2068393860578070972",
+      "tweet_url": "https://x.com/jasonlk/status/2068393860578070972#m",
+      "tweet_author": "jasonlk",
+      "tweet_text": "A few years back, I had a portfolio company at @saastrfund that got an offer to buy it for well over $1B.\n\nMost of the investors were opposed.  To be clear, they didn\u2019t vote \u201cNo\u201d per se.  But they were opposed.\n\nWhy?  The company was doing well (hence the offer) and its competitor had raised at $2.5B+.  Of course they were worth even more!\n\nIn the end, after much debate, the founder took the deal.\n\nMore importantly, today their larger competitor is probably worth close to $0.  Certainly, their l",
+      "reply_text": "You see Q1\u202f2008. Bear\u202fStearns shareholders balk at a rescue, JPMorgan steps in at $1.2\u202fB. By Q4 the same cohort\u2019s rival, Lehman, evaporates to near zero. Timing matters.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-20T18:04:01.789422+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, while also sounding like Muneeb's voice."
+      },
+      "telegram_message_id": 1719,
+      "sent_to_telegram_at": "2026-06-20T18:04:01.789422+00:00"
+    },
     {
       "tweet_id": "2068039709126017356",
       "tweet_url": "https://x.com/AndrewYNg/status/2068039709126017356#m",
