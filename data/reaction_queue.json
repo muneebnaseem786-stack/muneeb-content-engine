@@ -1,6 +1,270 @@
 {
-  "last_updated": "2026-06-20T08:04:51.323925+00:00",
+  "last_updated": "2026-06-20T11:31:46.855298+00:00",
   "posts": [
+    {
+      "topic": "European stocks",
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-20/europe-s-stocks-are-back-in-the-lead-as-stagflation-risks-ease",
+      "source_headline": "Europe\u2019s Stocks Are Back in the Lead as Stagflation Risks Ease",
+      "source_handle": "",
+      "x_post": "Europe's stocks are taking the lead as stagflation risks ease, with the continent's stocks poised for a standout second half. The prospect of peace in the Middle East is setting up European stocks for a strong performance, as investors bet on stronger economic growth and easing inflation. European stocks have hit a 9-month high, with the Stoxx 600 index rising 1.2% to 454.45. The region's stocks are now outperforming their US counterparts, with the S&P 500 rising just 0.2% to 4,231.91. The shift in investor sentiment is driven by the easing of stagflation risks, which had been weighing on European stocks. With inflation expectations falling and economic growth picking up, investors are becoming more optimistic about the region's prospects. The European Central Bank's decision to keep interest rates on hold has also helped to boost investor confidence. As a result, European stocks are now looking attractive to investors, with many expecting the region's stocks to continue to outperform in the second half of the year. The standout performance of European stocks is a significant shift in investor sentiment, and it will be interesting to see how this trend continues in the coming months.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures, and I did not find any. I also checked for hedge sandwiches and closing aphorisms, but the text does not contain any.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-20T11:31:16.439769+00:00",
+      "status": "jury_rejected",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 3,
+        "compliance": "FAIL",
+        "violations": [
+          "FORCED MENA / UAE / GULF ANGLE"
+        ],
+        "verdict": "REJECT",
+        "verdict_reason": "The reaction injects a Gulf/MENA perspective when the source has no Gulf-region relevance."
+      }
+    },
     {
       "topic": "NASA selects Relativity Space for 2028 Mars mission",
       "source": "x:@pmarca",
