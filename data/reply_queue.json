@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-21T08:53:47.558878+00:00",
+  "last_updated": "2026-06-21T12:04:07.873650+00:00",
   "replies": [
+    {
+      "tweet_id": "2068645385157980427",
+      "tweet_url": "https://x.com/dampedspring/status/2068645385157980427#m",
+      "tweet_author": "dampedspring",
+      "tweet_text": "The perfect fintwit/Father's Day crossover post has now been written. \ud83e\udd23\n\n\nLee Roach (@leevalueroach)\n\nI have read approximately 3,000 10-Ks in my life. I have read my wife\u2019s emotional state correctly maybe 11 times. This is troubling because the skills should transfer. Both require you to look past the headline. Both require you to read the footnotes. Both require you to notice what was said last quarter that is not being said this quarter. \n\nI can spot a goodwill impairment from 40 pages away. ",
+      "reply_text": "Your footnote obsession will bankrupt your marriage faster than any goodwill write\u2011down.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-21T12:04:07.873650+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and like Muneeb."
+      },
+      "telegram_message_id": 1746,
+      "sent_to_telegram_at": "2026-06-21T12:04:07.873650+00:00"
+    },
+    {
+      "tweet_id": "2068517095818809770",
+      "tweet_url": "https://x.com/rauchg/status/2068517095818809770#m",
+      "tweet_author": "rauchg",
+      "tweet_text": "Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things.",
+      "reply_text": "Q1\u202f2023. SVB faces $150\u202fB withdrawal run in 36\u202fhours, shaking banking fundamentals. You feel the same shock as AI coding jumps the curve. The market recalibrates.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-21T12:04:07.873650+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb."
+      },
+      "telegram_message_id": 1744,
+      "sent_to_telegram_at": "2026-06-21T12:04:07.873650+00:00"
+    },
     {
       "tweet_id": "2068459240621031462",
       "tweet_url": "https://x.com/ianbremmer/status/2068459240621031462#m",
