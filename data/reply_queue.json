@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-20T18:04:01.789422+00:00",
+  "last_updated": "2026-06-21T08:53:47.558878+00:00",
   "replies": [
+    {
+      "tweet_id": "2068459240621031462",
+      "tweet_url": "https://x.com/ianbremmer/status/2068459240621031462#m",
+      "tweet_author": "IanBremmer",
+      "tweet_text": "seeing no evidence of the strait of hormuz being closed again, despite iranian govt statements to the contrary.",
+      "reply_text": "18.7\u202fmillion barrels per day flow through Hormuz \u2013 about $1.2\u202ftrillion of oil trade each year. A shutdown would instantly shock global energy markets.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-21T08:53:47.558878+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1728,
+      "sent_to_telegram_at": "2026-06-21T08:53:47.558878+00:00"
+    },
+    {
+      "tweet_id": "2068479476309151771",
+      "tweet_url": "https://x.com/ezraklein/status/2068479476309151771#m",
+      "tweet_author": "ezraklein",
+      "tweet_text": "Enough people have asked me about the Peter Thiel-Dialog story that I think it's worth saying what it is, or at least what I saw it to be. So:\n\n\u2013Dialog is a conference. I went once in 2018 and once in 2022. No one ever asked me to keep it or my presence a secret.\n\n\u2013My understanding was Thiel was one of its founders but no longer involved by the time I went. I never saw or talked to him in connection with Dialog. \n\n\u2013Nor did I see the other names I\u2019ve heard mentioned, like Ted Cruz or Elon Musk or",
+      "reply_text": "You miss the real driver: Dialog is a deep\u2011tech deal\u2011making engine, the Thiel name is just garnish.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-21T08:53:47.558878+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and like Muneeb wrote it."
+      },
+      "telegram_message_id": 1726,
+      "sent_to_telegram_at": "2026-06-21T08:53:47.558878+00:00"
+    },
     {
       "tweet_id": "2068393860578070972",
       "tweet_url": "https://x.com/jasonlk/status/2068393860578070972#m",
