@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-22T10:32:21.238805+00:00",
+  "last_updated": "2026-06-22T20:00:18.801699+00:00",
   "replies": [
+    {
+      "tweet_id": "2069126889566859724",
+      "tweet_url": "https://x.com/matt_levine/status/2069126889566859724#m",
+      "tweet_author": "matt_levine",
+      "tweet_text": "This newsletter is constantly evaluating ways to improve how we\u2019re engaging and earning the trust of our audience. bloomberg.com/opinion/newsle\u2026\n\nLink\n\n\n\nPoiymarket Has Some Fake Traders\n\nAlso SpaceX bonds, sports alt data, Stretch and selling high.\nbloomberg.com",
+      "reply_text": "You\u2019re chasing hype; fake\u2011trader scandals won\u2019t dent PoiyMarket, but SpaceX bonds will rewrite credit risk models.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-22T20:00:18.801699+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 1767,
+      "sent_to_telegram_at": "2026-06-22T20:00:18.801699+00:00"
+    },
     {
       "tweet_id": "2068997425868742899",
       "tweet_url": "https://x.com/jposhaughnessy/status/2068997425868742899#m",
