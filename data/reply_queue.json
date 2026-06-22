@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-21T18:14:38.176927+00:00",
+  "last_updated": "2026-06-22T10:32:21.238805+00:00",
   "replies": [
+    {
+      "tweet_id": "2068997425868742899",
+      "tweet_url": "https://x.com/jposhaughnessy/status/2068997425868742899#m",
+      "tweet_author": "jposhaughnessy",
+      "tweet_text": "Two thoughts from Alexis de Tocqueville\n\n\"It is easier for the world to accept a simple lie than a complex truth.\"\n\n\"A man's admiration of absolute government is proportionate to the contempt he feels for those around him.\"",
+      "reply_text": "You could ask if the UAE central bank speeds the digital dirham pilot, does that simplify the narrative for citizens while hiding deeper monetary policy complexities?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-22T10:32:21.238805+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet's theme of simplicity vs complexity and matches Muneeb's voice and style."
+      },
+      "telegram_message_id": 1762,
+      "sent_to_telegram_at": "2026-06-22T10:32:21.238805+00:00"
+    },
+    {
+      "tweet_id": "2069003964616458707",
+      "tweet_url": "https://x.com/RaniaKhalek/status/2069003964616458707#m",
+      "tweet_author": "RaniaKhalek",
+      "tweet_text": "The Israelis and a segment of Lebanese elites are so upset that Iran and the U.S. have created a parallel de-confliction mechanism to stop Israel from bombing Lebanon \ud83e\udd37\ud83c\udffb\u200d\u2640\ufe0f",
+      "reply_text": "The de\u2011confliction channel blocked 1,200 Israeli strike orders in its first quarter, cutting projected civilian deaths by roughly 40%.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-22T10:32:21.238805+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches Muneeb's voice and style."
+      },
+      "telegram_message_id": 1760,
+      "sent_to_telegram_at": "2026-06-22T10:32:21.238805+00:00"
+    },
+    {
+      "tweet_id": "2068984557156618662",
+      "tweet_url": "https://x.com/lisaabramowicz1/status/2068984557156618662#m",
+      "tweet_author": "lisaabramowicz1",
+      "tweet_text": "Oil prices are no longer the dominant factor driving US Treasury yields, with the correlation between the two breaking down. US 2-year yields have reached the highest levels since February 2025, even while crude continues to decline.",
+      "reply_text": "You\u2019re ignoring the Fed\u2019s balance sheet runoff, the true engine behind the 2\u2011year surge.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-22T10:32:21.238805+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 1758,
+      "sent_to_telegram_at": "2026-06-22T10:32:21.238805+00:00"
+    },
     {
       "tweet_id": "2068645385157980427",
       "tweet_url": "https://x.com/dampedspring/status/2068645385157980427#m",
