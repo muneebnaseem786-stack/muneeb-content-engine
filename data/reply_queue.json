@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-23T08:23:30.877651+00:00",
+  "last_updated": "2026-06-23T12:27:52.100277+00:00",
   "replies": [
+    {
+      "tweet_id": "2069341677459042422",
+      "tweet_url": "https://x.com/pakpakchicken/status/2069341677459042422#m",
+      "tweet_author": "pakpakchicken",
+      "tweet_text": "Premarket, everything nuking. \nGood to know I'm holding below NAV with no leverage.\nTime on my side. \n\nFew updates on $SATS \n\ud83d\udd38Ticker changing to $echo on 24th.\n\ud83d\udd38Feels like rebranding into the first profitable quarter moving forward. Highest expense was debt payment.\n\ud83d\udd38Most tax efficient way to deploy incoming profits will be buybacks to NAV.\n\ud83d\udd38 I think $20 billion should come in this week.\n\ud83d\udd38Lots of inaccurate NAV calculation out-there. All assuming management a monkey and don't know how to be more",
+      "reply_text": "You see $20\u202fbn arriving this week; how much of that is tied to the scheduled debt repayment versus new capital from the ticker change?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-23T12:27:52.100277+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1785,
+      "sent_to_telegram_at": "2026-06-23T12:27:52.100277+00:00"
+    },
+    {
+      "tweet_id": "2069080988097876084",
+      "tweet_url": "https://x.com/VitalikButerin/status/2069080988097876084#m",
+      "tweet_author": "VitalikButerin",
+      "tweet_text": "There have recently been claims that AI text analysis will make online anonymity untenable.\n\nSo let me cannibalize a piece of my own anonymity to do an experiment.\n\nAt some point this decade, I wrote a published document of medium importance to Ethereum - I estimate ~200 to 2000 documents in Ethereum are as or more important - not under my name.\n\nFind it.\n\n(I genuinely have no idea how easy or hard this is, will be very curious what comes out)",
+      "reply_text": "You see Q3\u202f2023. Silicon Valley Bank loses $175\u202fB of deposits in 36\u202fhours, proving hidden exposure evaporates when analytics expose it. Anonymity faces a similar exposure risk.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-23T12:27:52.100277+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1783,
+      "sent_to_telegram_at": "2026-06-23T12:27:52.100277+00:00"
+    },
     {
       "tweet_id": "2069070847491416222",
       "tweet_url": "https://x.com/collision/status/2069070847491416222#m",
