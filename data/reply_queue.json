@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-23T12:27:52.100277+00:00",
+  "last_updated": "2026-06-23T19:00:38.568699+00:00",
   "replies": [
+    {
+      "tweet_id": "2069460223006511598",
+      "tweet_url": "https://x.com/aakashgupta/status/2069460223006511598#m",
+      "tweet_author": "aakashgupta",
+      "tweet_text": "Spoc launches today into the four-tab handoff chain every GTM team pretends is a workflow.\n\nThe interesting part is the operating layer. One instruction moves across Apollo, Clay, Smartlead and HubSpot, then stages a campaign for you to review, edit, and approve. That matters because GTM execution breaks at the handoffs. Build the list, enrich it, remove existing customers, write the sequence, stage the follow-ups, repeat next week.\n\nFor example: \"go after Series B fintech RevOps leaders.\" Spoc ",
+      "reply_text": "How do you ensure Spoc reconciles duplicate detection when Apollo enriches a lead that HubSpot already flags as existing?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-23T19:00:38.568699+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb, with no compliance issues."
+      },
+      "telegram_message_id": 1794,
+      "sent_to_telegram_at": "2026-06-23T19:00:38.568699+00:00"
+    },
+    {
+      "tweet_id": "2069458103943270651",
+      "tweet_url": "https://x.com/nlw/status/2069458103943270651#m",
+      "tweet_author": "nlw",
+      "tweet_text": "How are you going to maximize your AI Pause?\n\n\nleo \ud83d\udc3e (@synthwavedd)\n\n\ud83d\udea8 SCOOP(s):\n\n- GPT-5.6 has been delayed and will no longer release this week. New target is ~mid-July.\n- DeepMind are not satisfied with the current state of 3.5 Pro and it will no longer launch this month.\n- Preparations for the launch of Bidi, OpenAI's new voice model, are underway in ChatGPT and we could see it available as soon as this week.\n- Claude Sonnet 5 is currently available for select enterprise customers under an E",
+      "reply_text": "From the regulator\u2019s lens the pause is the expected buffer - it lets supervisory frameworks catch up before the next wave of generative models hits the credit\u2011exposure curve.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-23T19:00:38.568699+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb Naseem."
+      },
+      "telegram_message_id": 1792,
+      "sent_to_telegram_at": "2026-06-23T19:00:38.568699+00:00"
+    },
     {
       "tweet_id": "2069341677459042422",
       "tweet_url": "https://x.com/pakpakchicken/status/2069341677459042422#m",
