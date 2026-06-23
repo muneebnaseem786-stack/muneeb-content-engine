@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-22T20:00:18.801699+00:00",
+  "last_updated": "2026-06-23T08:23:30.877651+00:00",
   "replies": [
+    {
+      "tweet_id": "2069070847491416222",
+      "tweet_url": "https://x.com/collision/status/2069070847491416222#m",
+      "tweet_author": "collision",
+      "tweet_text": "Delighted for @eileenomara to become Stripe\u2019s Vice Chair and @tybryson our Chief Revenue Officer.\n\nThe internet economy is entering a period of significant change. Eileen will work with policymakers, officials, and leaders at Stripe\u2019s customers and partners to advance entrepreneurship and increase economic dynamism globally.\n\n\nEileen O'Mara (@eileenomara)\n\nAfter seven extraordinary years building Stripe's go-to-market engine, I'm stepping into a new role: Vice Chair of @stripe. As Vice Chair, I'",
+      "reply_text": "You just added a leader who helped Stripe process $1.5\u202ftrillion in payments last year, a scale that accelerates global fintech adoption.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-23T08:23:30.877651+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1774,
+      "sent_to_telegram_at": "2026-06-23T08:23:30.877651+00:00"
+    },
     {
       "tweet_id": "2069126889566859724",
       "tweet_url": "https://x.com/matt_levine/status/2069126889566859724#m",
