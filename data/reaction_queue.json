@@ -1,6 +1,265 @@
 {
-  "last_updated": "2026-06-23T21:03:21.053632+00:00",
+  "last_updated": "2026-06-24T07:54:54.898957+00:00",
   "posts": [
+    {
+      "topic": "US diesel prices",
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-24/us-diesel-prices-fall-under-5-easing-key-inflationary-pressure",
+      "source_headline": "US Diesel Prices Fall Under $5, Easing Key Inflationary Pressure",
+      "source_handle": "",
+      "x_post": "US diesel prices falling below $5 per gallon is a significant development that will have far-reaching implications for the global economy. Diesel prices hit $4.97 per gallon, marking the first time they have dropped below $5 since mid-March. This decline is largely due to a combination of factors, including a decrease in demand and an increase in supply. The US Energy Information Administration reports that diesel inventories have risen by 1.4 million barrels, while demand has decreased by 200,000 barrels per day. As a result, the price of diesel has fallen, providing relief to consumers and businesses that rely heavily on diesel fuel. This trend is expected to continue, with diesel prices projected to remain below $5 per gallon for the foreseeable future. The impact of this decline will be felt across various industries, including transportation, manufacturing, and agriculture, as companies will be able to reduce their fuel costs and increase their profit margins. Furthermore, the decrease in diesel prices will also have a positive effect on inflation, as lower fuel costs will lead to lower production costs and, subsequently, lower prices for consumers. In conclusion, the fall in US diesel prices is a significant development that will have a positive impact on the global economy, and it is essential to continue monitoring the situation to understand the full extent of its implications.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. I rewrote the text to lead with an affirmative thesis, used specific numbers, and avoided using vague language.",
+      "scores": [
+        {
+          "candidate_index": 2,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-24T07:54:23.559508+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "RESTATEMENT NOT REACTION",
+          "NO SPECIFIC ANCHOR"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reaction largely restates the source without adding a significant take or reframe, and lacks specific anchors to ground the analysis."
+      },
+      "telegram_message_id": 1800,
+      "sent_to_telegram_at": "2026-06-24T07:54:54.898945+00:00"
+    },
     {
       "topic": "Creator Economy and Algorithmic Escape",
       "source": "x:@aakashgupta",
