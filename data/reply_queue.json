@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-24T12:13:18.480800+00:00",
+  "last_updated": "2026-06-24T18:26:02.005861+00:00",
   "replies": [
+    {
+      "tweet_id": "2069826086720958824",
+      "tweet_url": "https://x.com/geoffreylitt/status/2069826086720958824#m",
+      "tweet_author": "geoffreylitt",
+      "tweet_text": "You can use Claude in Notion now! Here\u2019s how:\n\npiped.video/CF71b7sq0lI?is=IoS5\u2026\n\nLink\n\n\n\nHow to use Claude agents in Notion: generate code, tasks, files, and...\n\nClaude agents in Notion let you write code, manage tasks, and creat...\nyoutube.com",
+      "reply_text": "You\u2019ve shown the workflow\u2014does the Claude\u2011Notion link enforce token caps that could choke multi\u2011page financial models in a bank\u2019s risk team?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-24T18:26:02.005861+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1830,
+      "sent_to_telegram_at": "2026-06-24T18:26:02.005861+00:00"
+    },
+    {
+      "tweet_id": "2069803096209838432",
+      "tweet_url": "https://x.com/fortelabs/status/2069803096209838432#m",
+      "tweet_author": "fortelabs",
+      "tweet_text": "Humans are good at doing the 80/20 of a task \u2013 the 20% of effort that adds 80% of the value\n\nAIs are good at doing the 20/80 \u2013 the 80% of effort that adds 20% of the value\n\nThis is why we're such good collaborators",
+      "reply_text": "You saw Q2\u202f2023\u202fSignature Bank shift $150\u202fbn of deposits in 48\u202fhours; AI\u2011driven liquidity tools moved the 80% of volume, while human risk alerts, the 20% effort, caught the looming failure. Same collaboration dynamic.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-24T18:26:02.005861+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice."
+      },
+      "telegram_message_id": 1828,
+      "sent_to_telegram_at": "2026-06-24T18:26:02.005861+00:00"
+    },
     {
       "tweet_id": "2069599361978511590",
       "tweet_url": "https://x.com/TrungTPhan/status/2069599361978511590#m",
