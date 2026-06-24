@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-24T08:18:13.660704+00:00",
+  "last_updated": "2026-06-24T12:13:18.480800+00:00",
   "replies": [
+    {
+      "tweet_id": "2069599361978511590",
+      "tweet_url": "https://x.com/TrungTPhan/status/2069599361978511590#m",
+      "tweet_author": "trungtphan",
+      "tweet_text": "The real test for Claude Tag is if it can fix the 27-step Slack Derangement Journey that everyone goes through: \n\n1. Wow, this is so much better than email.\n\n2. Real-time communication!\n\n3. Wow, you can send GIFs.\n\n4. I can just DM anyone and make new custom group chats. Amazing.\n\n5. Hahaha, there\u2019s a water cooler channel just for #memes. So funny.\n\n6. #announcements is an awesome way to get to know your colleagues.\n\n7. Can\u2019t believe the CEO just hopped in and started chatting in that Huddle.\n\n8",
+      "reply_text": "You think Claude can cure Slack overload, but the real leak is the chat\u2011first architecture\u2014not any LLM.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-24T12:13:18.480800+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding confident and analytical like Muneeb."
+      },
+      "telegram_message_id": 1818,
+      "sent_to_telegram_at": "2026-06-24T12:13:18.480800+00:00"
+    },
+    {
+      "tweet_id": "2069443678158921958",
+      "tweet_url": "https://x.com/RushDoshi/status/2069443678158921958#m",
+      "tweet_author": "RushDoshi",
+      "tweet_text": "\u201cA White House spokesperson told us that the Defense Department\u2019s 1260H procurement restrictions \u2018help ensure secure and reliable supply chains for U.S. military forces,\u2019 and added, \u2018Beijing\u2019s response only validates the assessment that Chinese suppliers are unreliable.\u2019\u201d\n\n\nJosh Rogin (@joshrogin)\n\nRead my new Washington Post Intelligence report with a free gift link:\n\nThe next phase in the U.S.-China economic war is here \n\nopen.substack.com/pub/joshro\u2026\n\nLink\n\n\n\nThe next phase in the U.S.-China ",
+      "reply_text": "You argue the 1260H restriction forces reliance on non\u2011Chinese suppliers, do you expect the shift toward Taiwanese chipmakers to lift semiconductor prices by at least 15% and spill over into fintech payment\u2011terminal costs?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-24T12:13:18.480800+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1816,
+      "sent_to_telegram_at": "2026-06-24T12:13:18.480800+00:00"
+    },
+    {
+      "tweet_id": "2069707877229687270",
+      "tweet_url": "https://x.com/Noahpinion/status/2069707877229687270#m",
+      "tweet_author": "noahpinion",
+      "tweet_text": "Even if America retains a lead in AI, it could lose the overall tech race to China.\n\nAmerica just does not yet understand the revolution in physical technology that has taken place since the 1990s. China DOES understand it.\n\nnoahpinion.blog/p/china-is-w\u2026\n\nLink\n\n\n\nChina is winning the other tech race\n\nThey understand the importance of the electric revolution. America, so far, does not.\nnoahpinion.blog",
+      "reply_text": "You\u2019re right about the electric revolution; China built 2.2\u202fmillion EVs in\u202f2023, three times US output, cementing its lead.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-24T12:13:18.480800+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1814,
+      "sent_to_telegram_at": "2026-06-24T12:13:18.480800+00:00"
+    },
     {
       "tweet_id": "2069346202265801153",
       "tweet_url": "https://x.com/bgurley/status/2069346202265801153#m",
