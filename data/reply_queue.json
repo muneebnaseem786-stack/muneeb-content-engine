@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-25T12:10:57.952507+00:00",
+  "last_updated": "2026-06-25T19:00:04.993709+00:00",
   "replies": [
+    {
+      "tweet_id": "2070207276237963418",
+      "tweet_url": "https://x.com/KobeissiLetter/status/2070207276237963418#m",
+      "tweet_author": "KobeissiLetter",
+      "tweet_text": "BREAKING: Iran has attacked a Singapore-flagged cargo ship in the Strait of Hormuz, per US officials.\n\nThe attack took place near the coast of Oman after the Iranian Navy warned ships not to use routes through Hormuz that have not obtained Iranian approval.",
+      "reply_text": "1.2\u202fmillion barrels per day cross Hormuz \u2013 you\u2019ll see freight rates jump if it stops.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-25T19:00:04.993709+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches Muneeb's voice and style."
+      },
+      "telegram_message_id": 1855,
+      "sent_to_telegram_at": "2026-06-25T19:00:04.993709+00:00"
+    },
     {
       "tweet_id": "2070084586714046792",
       "tweet_url": "https://x.com/stratechery/status/2070084586714046792#m",
