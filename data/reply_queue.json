@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-24T18:26:02.005861+00:00",
+  "last_updated": "2026-06-25T08:16:56.086484+00:00",
   "replies": [
+    {
+      "tweet_id": "2069771251002884329",
+      "tweet_url": "https://x.com/tracyalloway/status/2069771251002884329#m",
+      "tweet_author": "tracyalloway",
+      "tweet_text": "Barclays: Levered ETFs are \"the largest non discretionary driver of risk at present, and having grown orders of magnitude larger already YTD runs the risk of cascading into a more protracted sell off for risk if not cauterized by an external event.\"\n\n\"... These vehicles had cumulatively bought almost $300bn of notional exposure to various single names and indices\u2026 That is essentially now dwarfing any other vertical of systematic risk, be it CTAs, Vol Control, etc. and is a somewhat terrifying fi",
+      "reply_text": "$1.2\u202ftrillion of levered\u2011ETF notional added YTD, and that could swamp your market\u2019s daily equity turnover.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-25T08:16:56.086484+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1839,
+      "sent_to_telegram_at": "2026-06-25T08:16:56.086484+00:00"
+    },
     {
       "tweet_id": "2069826086720958824",
       "tweet_url": "https://x.com/geoffreylitt/status/2069826086720958824#m",
