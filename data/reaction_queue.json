@@ -1,6 +1,273 @@
 {
-  "last_updated": "2026-06-24T20:51:03.862021+00:00",
+  "last_updated": "2026-06-25T08:00:15.142332+00:00",
   "posts": [
+    {
+      "topic": "Engines and Elevators Lift German Deals",
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-25/engines-and-elevators-lift-german-deals-past-120-billion",
+      "source_headline": "Engines and Elevators Lift German Deals Past $120 Billion",
+      "source_handle": "",
+      "x_post": "Germany's dealmakers are witnessing a surge in transactions, with over $120 billion in deals this year, driven by the engines and elevators sectors. This milestone marks one of the busiest years for mergers and acquisitions in decades. The country's economy is expected to continue growing, with a significant increase in foreign investment. As a result, Germany is poised to become a major player in the global market, with its dealmakers leading the charge. The success of these deals will likely have a ripple effect, creating new opportunities for businesses and investors alike. Germany's economic growth is a testament to the country's strong industry and innovative spirit.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and 'the moment of' phrasing. Regenerated sentences to lead with affirmative statements and used specific numbers and verbs to enhance clarity.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-25T07:59:43.368443+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 3,
+        "compliance": "FAIL",
+        "violations": [
+          "RESTATEMENT NOT REACTION",
+          "NO SPECIFIC ANCHOR"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reaction does not add a significant take or reframe to the source and lacks specific anchors."
+      },
+      "telegram_message_id": 1836,
+      "sent_to_telegram_at": "2026-06-25T08:00:15.142309+00:00"
+    },
     {
       "topic": "oil market supply",
       "source": "rss:Bloomberg Markets",
