@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-25T11:52:53.441659+00:00",
+  "last_updated": "2026-06-25T18:22:42.795763+00:00",
   "posts": [
+    {
+      "topic": "General Intuition AI training",
+      "source": "rss:TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "source_headline": "General Intuition\u2019s $2.3B bet that video games can train AI agents for the real world",
+      "source_handle": "",
+      "x_post": "General Intuition's $2.3 billion valuation is not just a vote of confidence in the company's ability to train AI agents using video games, it is a testament to the potential of action data to create more human-like intuition in machines. With $320 million in new funding, General Intuition is scaling its efforts to develop AI that can learn from millions of hours of gameplay, with the goal of creating agents that can navigate the real world with ease. This approach has the potential to revolutionize industries such as robotics, healthcare, and finance, where complex decision-making is critical. By leveraging the power of video games to train AI, General Intuition is poised to make a significant impact on the future of artificial intelligence. The company's focus on action data and human intuition could lead to breakthroughs in areas such as natural language processing, computer vision, and decision-making. As General Intuition continues to push the boundaries of what is possible with AI, it will be exciting to see the real-world applications of its technology.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. Regenerated sentences to ensure affirmative framing and concrete language.",
+      "scores": [
+        {
+          "candidate_index": 2,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-25T18:22:41.349156+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly reframes the source's central claim and maintains an analytical tone consistent with Muneeb's voice."
+      },
+      "telegram_message_id": 1852,
+      "sent_to_telegram_at": "2026-06-25T18:22:42.795752+00:00"
+    },
     {
       "topic": "Iraq oil production",
       "source": "rss:Bloomberg Markets",
