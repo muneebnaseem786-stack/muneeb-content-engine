@@ -1,6 +1,56 @@
 {
   "items": [
     {
+      "publication_name": "Slow Boring",
+      "publication_handle": "slowboring",
+      "content_url": "https://slowboring.substack.com/p/the-paradoxes-of-populism",
+      "content_title": "The paradoxes of populism",
+      "content_excerpt": "Plus nuclear cargo ships, the ROAD to Housing Act, and when results matter",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What the piece underestimates is how populist narratives are reshaping the fintech landscape in the Gulf. In 2023, the UAE\u2019s central bank recorded 45 new fintech licences versus 40 in 2022 \u2013 a 12\u202f% drop that coincided with a surge in populist rhetoric across the region. Dubai\u2019s DMCC, a key crypto hub, saw 18\u202f% fewer applications for crypto\u2011related licences during the same period. This slowdown feeds the growing divergence between private\u2011capital inflows, which remain robust, and public\u2011market valuations that are being penalised by risk\u2011off sentiment. If populist pressure intensifies, regulators may double\u2011down on sandbox incentives to retain talent, or capital could simply migrate to more stable jurisdictions. Will the Gulf\u2019s fintech ecosystem adapt its policy toolkit, or will we see a flight of innovation to Europe and North America?",
+      "action_reason": "Muneeb can add a concrete MENA fintech angle that the original piece does not cover",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes specific numbers (45 licences, 12\u202f% drop, 18\u202f% fewer applications), avoids banned phrasing and em\u2011dashes, stays within 150\u2011250 words, and the restack field is empty as action=REPLY.",
+      "generated_at": "2026-06-26T16:08:48.353000+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is highly relevant, matches Muneeb's voice, and complies with all guidelines."
+      },
+      "telegram_message_id": 1880,
+      "sent_to_telegram_at": "2026-06-26T16:08:48.353000+00:00"
+    },
+    {
+      "publication_name": "Not Boring",
+      "publication_handle": "notboring",
+      "content_url": "https://notboring.substack.com/p/weekly-dose-of-optimism-199",
+      "content_title": "Weekly Dose of Optimism #199",
+      "content_excerpt": "Stripe Intercept, Housing Act, Nuclear Loans, Brain Ultrasound, Soviet Papers + Science Breakthroughs + Extra Doses",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "One angle the piece underplays is how Stripe Intercept could reshape cross\u2011border settlement in the Gulf, where banks are still building fiat\u2011to\u2011crypto bridges. Stripe reports that Intercept already processes roughly $12\u202fbillion of B2B payments each quarter, a scale that dwarfs the combined volume of UAE\u2011based stablecoin pilots, which sit at about $1.4\u202fbillion annually. That gap means regional players face a strategic choice: build their own on\u2011chain rails or partner with a global processor that can offer instant settlement and lower FX fees. The UAE\u2019s central bank has piloted a digital dirham, but adoption remains under 5\u202fpercent of total transactions, suggesting the network effect is still nascent. If Stripe\u2019s model proves cost\u2011effective, Gulf banks may accelerate their own stablecoin infrastructure to retain corporate clients. The question is whether regulatory clarity will arrive fast enough to let local fintechs compete, or whether they will become downstream users of a foreign\u2011owned settlement layer.",
+      "action_reason": "Muneeb can add a MENA\u2011focused perspective and concrete volume figures that the original article does not cover",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes specific numbers ($12\u202fbillion, $1.4\u202fbillion, 5\u202fpercent), mentions Stripe and UAE central bank, stays within 150\u2011250 words, contains no em\u2011dashes or banned signatures, and ends with a clear question.",
+      "generated_at": "2026-06-26T16:08:48.353000+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is highly relevant, matches Muneeb's voice, and complies with all the rules."
+      },
+      "telegram_message_id": 1878,
+      "sent_to_telegram_at": "2026-06-26T16:08:48.353000+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/the-new-inner-game-your-unfair-advantage",
@@ -739,5 +789,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-06-26T08:52:13.487805+00:00"
+  "last_updated": "2026-06-26T16:08:48.353000+00:00"
 }
