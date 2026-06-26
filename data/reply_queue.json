@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-26T08:25:17.793075+00:00",
+  "last_updated": "2026-06-26T12:06:05.156098+00:00",
   "replies": [
+    {
+      "tweet_id": "2070463022015852664",
+      "tweet_url": "https://x.com/TheStalwart/status/2070463022015852664#m",
+      "tweet_author": "TheStalwart",
+      "tweet_text": "NEW ODS LOTS;\n\nWhy the $200 oil call went wrong \n\n@tracyalloway and I talk to @Rory_Johnston about why his (and tbf many others\u2019) predictions of Hormuz closure disaster for the oil markets didn\u2019t pan out.\n\nopen.spotify.com/episode/1tI\u2026\n\nLink\n\n\n\nRory Johnston on Why His $200 Oil Prediction Didn&apos;t Turn Out Right\n\nOdd Lots \u00b7 Episode\nopen.spotify.com",
+      "reply_text": "You see the missed $200 call, but from the central bank\u2019s view the lower price eased inflation pressures and kept policy steady, which is the real win.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-26T12:06:05.156098+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1875,
+      "sent_to_telegram_at": "2026-06-26T12:06:05.156098+00:00"
+    },
+    {
+      "tweet_id": "2070158469173256231",
+      "tweet_url": "https://x.com/danshipper/status/2070158469173256231#m",
+      "tweet_author": "danshipper",
+      "tweet_text": "One of the smartest people i know, ex-One Medical, ex-Bridgewater founder backed by a16z is building a stealth NYC health-tech company.\n\nHe's doing AI-first medicine with physical clinics\n\nHiring staff+ engineers, physicians who ship product, and a Codex-native Chief of Staff/BizOps lead\n\nYou should email him if you want to work on something like this: every@rungravity.com",
+      "reply_text": "You think AI\u2011first clinics will monetize before regulators bite; the last AI hype in health burned billions without a patient base.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-26T12:06:05.156098+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned hot_take style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1873,
+      "sent_to_telegram_at": "2026-06-26T12:06:05.156098+00:00"
+    },
+    {
+      "tweet_id": "2070231565284638740",
+      "tweet_url": "https://x.com/JonErlichman/status/2070231565284638740#m",
+      "tweet_author": "JonErlichman",
+      "tweet_text": "20-year total returns:\n\nNvidia: +62,695%\nNetflix: +18,296%\nApple: +15,493%\nBooking: +15,125%\nAmazon: +12,385%\nMastercard: +11,546%\nAxon: +5,432%\nApplied Materials: +5,422%\nOld Dominion: +4,329%\nRoss Stores: +3,892%\nO'Reilly: +3,878%\nAlphabet: +3,296%\nIntuitive Surgical: +3,265%",
+      "reply_text": "Your list skips that Nvidia\u2019s market cap rose from $2\u202fB to $1.2\u202fT \u2013 a 60,000\u00d7 increase, underscoring extreme concentration risk.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-26T12:06:05.156098+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1871,
+      "sent_to_telegram_at": "2026-06-26T12:06:05.156098+00:00"
+    },
     {
       "tweet_id": "2070418689388958166",
       "tweet_url": "https://x.com/pmarca/status/2070418689388958166#m",
