@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-25T19:00:04.993709+00:00",
+  "last_updated": "2026-06-26T08:25:17.793075+00:00",
   "replies": [
+    {
+      "tweet_id": "2070418689388958166",
+      "tweet_url": "https://x.com/pmarca/status/2070418689388958166#m",
+      "tweet_author": "pmarca",
+      "tweet_text": "\u201cYou stopped us from doing what we wanted, but now we\u2019re getting what we wanted, and so we\u2019re mad about it.\u201d\n\n\nZvi Mowshowitz (@TheZvi)\n\nGetting a highly unsurprising set of people RTing this with versions of 'if you people hadn't warned of an underlying problem and called for laws to be passed and preparations to be made, which we ensured didn't happen, we wouldn't have this ad hoc thing, this is your fault.'\n\n\n\n\u2014 https://nitter.net/TheZvi/status/2070313102260748533#m",
+      "reply_text": "You didn't explore how the FCA's 2023 crypto\u2011risk rules, combined with the US Treasury's stablecoin licensing draft, will shape the ad\u2011hoc compliance scramble you describe?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-26T08:25:17.793075+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1864,
+      "sent_to_telegram_at": "2026-06-26T08:25:17.793075+00:00"
+    },
     {
       "tweet_id": "2070207276237963418",
       "tweet_url": "https://x.com/KobeissiLetter/status/2070207276237963418#m",
