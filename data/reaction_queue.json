@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-27T07:07:04.805903+00:00",
+  "last_updated": "2026-06-27T11:09:09.623986+00:00",
   "posts": [
+    {
+      "topic": "AI chip development",
+      "source": "x:@sama",
+      "source_url": "https://x.com/sama/status/2070614666288795703#m",
+      "source_headline": "team cooked, spicily\n\n\nOpenAI (@OpenAI)\n\nWe\u2019ve designed and built our first AI chip: Jalape\u00f1o.\n\nDesigned from the ground up by OpenAI and brought to production ",
+      "source_handle": "sama",
+      "x_post": "OpenAI's development of its first AI chip, Jalape\u00f1o, marks a significant milestone in the company's full-stack platform expansion. With $2.3 billion invested in AI research and development, OpenAI is poised to scale intelligence and expand access to AI technology. Jalape\u00f1o, designed from the ground up by OpenAI and brought to production with Broadcom, is purpose-built for the LLM workloads powering ChatGPT, Codex, and future agentic products. This move will help OpenAI serve more people and improve the overall AI ecosystem. The company's decision to build its own chip expands its capabilities from products to models to infrastructure, solidifying its position in the AI market. As the AI economy continues to grow, OpenAI's Jalape\u00f1o chip will play a crucial role in shaping the future of AI technology.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. Regenerated sentences to ensure affirmative restatements and specific, concrete language.",
+      "scores": [
+        {
+          "candidate_index": 1,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-27T11:08:37.960401+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly engages with the source's central claim and maintains Muneeb's analytical voice without any compliance issues."
+      },
+      "telegram_message_id": 1894,
+      "sent_to_telegram_at": "2026-06-27T11:09:09.623971+00:00"
+    },
     {
       "topic": "AI Chip Development",
       "source": "x:@paulg",
