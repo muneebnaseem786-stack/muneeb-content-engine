@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-27T07:42:56.442771+00:00",
+  "last_updated": "2026-06-27T11:18:29.216354+00:00",
   "replies": [
+    {
+      "tweet_id": "2070649154750284092",
+      "tweet_url": "https://x.com/TaviCosta/status/2070649154750284092#m",
+      "tweet_author": "TaviCosta",
+      "tweet_text": "Gold miners are sitting at nearly 40-year support.\n\nAct accordingly.\n\ntavicosta.substack.com/p/a-4\u2026",
+      "reply_text": "You see this in Q1\u202f2023 as SVB loses $209\u202fbn of deposits in days and gold\u2011linked ETFs rise 15%.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-27T11:18:29.216354+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb's voice."
+      },
+      "telegram_message_id": 1897,
+      "sent_to_telegram_at": "2026-06-27T11:18:29.216354+00:00"
+    },
     {
       "tweet_id": "2070544088299176035",
       "tweet_url": "https://x.com/ericbahn/status/2070544088299176035#m",
