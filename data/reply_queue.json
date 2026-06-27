@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-26T18:21:05.833219+00:00",
+  "last_updated": "2026-06-27T07:42:56.442771+00:00",
   "replies": [
+    {
+      "tweet_id": "2070544088299176035",
+      "tweet_url": "https://x.com/ericbahn/status/2070544088299176035#m",
+      "tweet_author": "EricBahn",
+      "tweet_text": "Been using Ploy.ai for several weeks now, it is freaking magic.\n\nLink\n\n\n\nPloy\n\nYour website should be working harder than you are.\nploy.ai\n\n\n\nbrryant (@bryantchou)\n\nAfter launching last week, we slurped over 14,000 sites,  sent over 20,000 growth reports, and gave every business a platform to turn their website into automated growth. Here's how ploy works \ud83d\udc47\n\nVideo\n  \n\n\n\n\n\n\u2014 https://nitter.net/bryantchou/status/2070516573954289857#m",
+      "reply_text": "You\u2019ve automated growth reports for 14k sites\u2014how does Ploy.ai handle real\u2011time payment\u2011gateway data to prevent checkout friction for merchants using Stripe or PayPal?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-06-27T07:42:56.442771+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1890,
+      "sent_to_telegram_at": "2026-06-27T07:42:56.442771+00:00"
+    },
     {
       "tweet_id": "2070463022015852664",
       "tweet_url": "https://x.com/TheStalwart/status/2070463022015852664#m",
