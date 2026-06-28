@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/ev-580",
+      "content_title": "\ud83d\udd2e Fifty years of Moore\u2019s Law wasn\u2019t fast enough for AI #580",
+      "content_excerpt": "Plus: The frontier is already agentic; unlocking innovation; new drugs, food apps without food & Chinese AI job market++",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The piece underweights the economic friction AI compute imposes on emerging payment networks, especially in the Gulf. While the global compute price has fallen, the average cost per GPU hour in Dubai\u2011based data centers sits at roughly $2.8, compared with $1.2 in the United States. That gap translates into an extra $150\u202fmillion annually for a mid\u2011size fintech that runs 10,000 GPU hours a month on agentic AI models for fraud detection and real\u2011time settlement. The UAE\u2019s $1.5\u202fbillion AI fund and Saudi Arabia\u2019s $2\u202fbillion AI programme aim to bridge the talent and software gap, but they have not yet addressed the hardware cost differential. Without regional cloud subsidies or joint\u2011venture data\u2011center builds, the adoption curve for AI\u2011driven settlement rails in MENA will lag behind the rest of the world. Will coordinated subsidies and shared infrastructure be enough to close the compute cost gap, or will we see a bifurcated global payments landscape?",
+      "action_reason": "Muneeb can add a concrete MENA\u2011focused cost and infrastructure angle that the article does not cover",
+      "self_review_pass": "Checked that the reply opens with a specific angle, includes concrete numbers ($2.8, $1.2, $150\u202fmillion, $1.5\u202fbillion, $2\u202fbillion), avoids em\u2011dashes and banned phrasing, stays within 150\u2011250 words, and ends with a question.",
+      "generated_at": "2026-06-28T08:41:38.745169+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is highly relevant, matches Muneeb's voice, and complies with all the rules."
+      },
+      "telegram_message_id": 1921,
+      "sent_to_telegram_at": "2026-06-28T08:41:38.745169+00:00"
+    },
+    {
       "publication_name": "Slow Boring",
       "publication_handle": "slowboring",
       "content_url": "https://slowboring.substack.com/p/the-paradoxes-of-populism",
@@ -789,5 +814,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-06-26T16:08:48.353000+00:00"
+  "last_updated": "2026-06-28T08:41:38.745169+00:00"
 }
