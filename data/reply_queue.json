@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-27T17:54:10.756107+00:00",
+  "last_updated": "2026-06-28T08:15:40.795669+00:00",
   "replies": [
+    {
+      "tweet_id": "2070907728722325759",
+      "tweet_url": "https://x.com/DiMartinoBooth/status/2070907728722325759#m",
+      "tweet_author": "DiMartinoBooth",
+      "tweet_text": "Read now from QI Research \u2014\nThe Weekly Quill \u2014\u00a0The Glass Delusion\n\nThe State of U.S. Household Balance Sheets\n\nna2.hubs.ly/H06krZ-0\n\n#dimartinobooth #kevinwarsh #economy #federalreserve",
+      "reply_text": "U.S. household net debt rose to $17.5\u202ftrillion in Q1\u202f2024, tightening credit buffers.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-28T08:15:40.795669+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1909,
+      "sent_to_telegram_at": "2026-06-28T08:15:40.795669+00:00"
+    },
     {
       "tweet_id": "2070907831646097501",
       "tweet_url": "https://x.com/mattyglesias/status/2070907831646097501#m",
