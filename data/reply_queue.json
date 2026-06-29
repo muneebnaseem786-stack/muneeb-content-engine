@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-06-29T13:57:36.671264+00:00",
+  "last_updated": "2026-06-29T18:56:34.635444+00:00",
   "replies": [
+    {
+      "tweet_id": "2071602086803034439",
+      "tweet_url": "https://x.com/shaneparrish/status/2071602086803034439#m",
+      "tweet_author": "shaneparrish",
+      "tweet_text": ".@harvey co-founder @winstonweinberg has never fired people for making a mistake. \n\nSo what actually gets people fired?\n\nVideo\n  \n\n\n\n\nShane Parrish (@shaneparrish)\n\nMy conversation with @winstonweinberg, co-founder of @Harvey.\n\n0:00 The List that Powers His life and Work\n2:20 How to Say \u201cNo\u201d \n7:26 3 Principles for Decision-Making \n8:18 How Harvey is Changing the Legal World \n11:36 The Cold Email to Sam Altman\n12:56 The Demo Strategy that Shocked \n17:55 Advice Winston Didn't Take \n19:34 The Deal ",
+      "reply_text": "You\u2019re missing the point: in a data\u2011driven legal AI shop, the only thing that gets you fired is a pipeline that doesn\u2019t move money, not a typo.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-29T18:56:34.635444+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and like Muneeb."
+      },
+      "telegram_message_id": 1953,
+      "sent_to_telegram_at": "2026-06-29T18:56:34.635444+00:00"
+    },
+    {
+      "tweet_id": "2071571183665881515",
+      "tweet_url": "https://x.com/chamath/status/2071571183665881515#m",
+      "tweet_author": "chamath",
+      "tweet_text": "We raised a $135M Series A!\n\n8090\u2019s Series A was led by Salesforce Ventures and joined by WNDR, Craft Ventures, The Production Board, and LAUNCH.\n\nWe also had the support of a group of esteemed angels including Nikesh Arora, Cliff Robbins, Adam D\u2019Angelo, Shyam Ravindran, Abhi Arun, and Thomas Laffont.\n\nWe\u2019re grateful for their support. It validates 8090\u2019s mission and traction so far, but mostly it accelerates the work ahead.\n\nThe capital will go to two places. The first is hiring more people, be",
+      "reply_text": "You\u2019re in the top\u202f1.2% of 2023 Series\u202fA rounds, highlighting the rarity of such size.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-29T18:56:34.635444+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1951,
+      "sent_to_telegram_at": "2026-06-29T18:56:34.635444+00:00"
+    },
+    {
+      "tweet_id": "2071594741318439348",
+      "tweet_url": "https://x.com/pkafka/status/2071594741318439348#m",
+      "tweet_author": "pkafka",
+      "tweet_text": "This tweet is now a story. businessinsider.com/comcast-\u2026\n\nLink\n\n\n\nComcast is cutting NBCUniversal loose. It may not stay that way forever.\n\nComcast spent 25 years arguing that media and broadband belonged together. Now it&apos;s breaking them apart.\nbusinessinsider.com\n\n\n\nPeter Kafka (@pkafka)\n\nComcast bought NBC Universal in 2011, but has never been able to convince Wall Street that it made sense for a distributor to own a content company.\n\nComcast spun out Versant, its collection of shrinking ",
+      "reply_text": "You\u2019re seeing it as a split, but from the bondholder\u2019s side the carve\u2011out lifts leverage ratios, making the debt tranche more attractive for the next issuance cycle.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-29T18:56:34.635444+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1949,
+      "sent_to_telegram_at": "2026-06-29T18:56:34.635444+00:00"
+    },
     {
       "tweet_id": "2071334796702175728",
       "tweet_url": "https://x.com/jbarro/status/2071334796702175728#m",
