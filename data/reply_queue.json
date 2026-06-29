@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-29T10:02:38.041301+00:00",
+  "last_updated": "2026-06-29T13:57:36.671264+00:00",
   "replies": [
+    {
+      "tweet_id": "2071334796702175728",
+      "tweet_url": "https://x.com/jbarro/status/2071334796702175728#m",
+      "tweet_author": "jbarro",
+      "tweet_text": "One of the most absurd European things is \u201cbusiness class\u201d seats that are exactly the same as economy seats\n\n\nGrady (@Gradycavapoo)\n\nAir France Business. Sipping champagne and minding my own business when I look up and see this. Absolutely not. No no no! Sir, your dogs have escaped the yard. @garyleff \ud83e\uddb6\ud83e\udd42\u2708\ufe0f\n\n\n\n\n\n\n\n\u2014 https://nitter.net/Gradycavapoo/status/2071319802199572812#m",
+      "reply_text": "You\u2019re seeing the same seat, but airlines charge $2,300 more per seat in business class; that premium drives profit margins.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-06-29T13:57:36.671264+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1940,
+      "sent_to_telegram_at": "2026-06-29T13:57:36.671264+00:00"
+    },
+    {
+      "tweet_id": "2071567212805083501",
+      "tweet_url": "https://x.com/sahilkapur/status/2071567212805083501#m",
+      "tweet_author": "sahilkapur",
+      "tweet_text": "Maine Senate poll\n(NYT/Press Herald/Siena \u2014 likely voters)\n\nPlatner 49%\nCollins 47%\n\nGeneric ballot: 53% D, 43% R\n\nPlatner favorables: 45/50\nCollins favorables: 48/51\n\nTrump approval: 39/60\n\nnytimes.com/interactive/2026\u2026",
+      "reply_text": "The 49\u201147 split masks the real market driver: a 45% favorability for Platner means a Democrat win is already priced in, pushing yields lower regardless of the generic ballot.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-06-29T13:57:36.671264+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1938,
+      "sent_to_telegram_at": "2026-06-29T13:57:36.671264+00:00"
+    },
     {
       "tweet_id": "2071379689290236372",
       "tweet_url": "https://x.com/TFTC21/status/2071379689290236372#m",
