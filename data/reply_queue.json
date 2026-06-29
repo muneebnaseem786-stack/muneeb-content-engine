@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-28T17:58:31.026071+00:00",
+  "last_updated": "2026-06-29T10:02:38.041301+00:00",
   "replies": [
+    {
+      "tweet_id": "2071379689290236372",
+      "tweet_url": "https://x.com/TFTC21/status/2071379689290236372#m",
+      "tweet_author": "TFTC21",
+      "tweet_text": "\"I've actually always seen open source as a red herring. When I see a new model come out, I don't care whether it's open source or not.\" \n\nDario Amodei dismissing open source AI.\n\nVideo",
+      "reply_text": "From the BIS view, the open\u2011source tide is the hidden lever that lets regulators audit model behavior and gauge systemic exposure, something the market\u2019s dismissals obscure.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-29T10:02:38.041301+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 1935,
+      "sent_to_telegram_at": "2026-06-29T10:02:38.041301+00:00"
+    },
     {
       "tweet_id": "2070907728722325759",
       "tweet_url": "https://x.com/DiMartinoBooth/status/2070907728722325759#m",
