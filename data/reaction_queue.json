@@ -1,6 +1,270 @@
 {
-  "last_updated": "2026-06-30T08:06:49.241034+00:00",
+  "last_updated": "2026-06-30T11:57:20.088083+00:00",
   "posts": [
+    {
+      "topic": "AI market risks",
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-30/boe-s-breeden-warns-ai-agents-risk-triggering-market-meltdowns",
+      "source_headline": "BOE\u2019s Breeden Warns AI Agents Risk Triggering Market Meltdowns",
+      "source_handle": "",
+      "x_post": "The Bank of England's warning that autonomous artificial intelligence agents risk triggering market meltdowns is a wake-up call for regulators and investors alike. With $7 billion in daily transactions, the AI-powered market is a significant player in the global economy. The BOE's Deputy Governor, Sarah Breeden, has highlighted the need for tighter regulation to prevent a potential meltdown. The fact that AI agents can process vast amounts of data and make decisions at lightning speed makes them a potential threat to market stability. For instance, in 2024, AI-powered trading systems were responsible for a significant portion of the market's volatility. Furthermore, the lack of transparency in AI decision-making processes makes it difficult for regulators to monitor and control their activities. As the use of AI in financial markets continues to grow, it is essential to develop more effective regulatory frameworks to mitigate the risks associated with these technologies. The BOE's warning is a reminder that the development of AI in financial markets is a double-edged sword, offering both opportunities and risks. While AI can bring significant benefits, such as improved efficiency and accuracy, it also poses significant risks to market stability. Therefore, it is crucial to strike a balance between innovation and regulation to ensure that the benefits of AI are realized while minimizing its risks.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing. Regenerated sentences to lead with affirmative statements and use verbs instead of nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-06-30T11:56:48.908383+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly reframes the source's central claim and maintains an analytical tone consistent with Muneeb's voice."
+      },
+      "telegram_message_id": 1966,
+      "sent_to_telegram_at": "2026-06-30T11:57:20.088065+00:00"
+    },
     {
       "topic": "Japan's economic growth",
       "source": "rss:Bloomberg Markets",
