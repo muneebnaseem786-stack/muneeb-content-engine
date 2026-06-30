@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-06-30T09:06:38.444996+00:00",
+  "last_updated": "2026-06-30T12:03:56.273388+00:00",
   "replies": [
+    {
+      "tweet_id": "2071878372150370747",
+      "tweet_url": "https://x.com/tylercowen/status/2071878372150370747#m",
+      "tweet_author": "TylerCowen",
+      "tweet_text": "What should I ask @DAcemogluMIT? Please leave your suggestions for podcast questions in the comments section of this blog post: marginalrevolution.com/margi\u2026\n\nLink\n\n\n\nWhat should I ask Daron Acemoglu? - Marginal REVOLUTION\n\nYes, I will be doing a Conversation with him.\u00a0 Obviously Acemoglu has published plenty, but likely this chat will focus on his recent writings and pronouncements on AI, and most of all his forthcom...\nmarginalrevolution.com",
+      "reply_text": "You could ask how AI risk models handle a shock like April\u202f2023. SVB collapses, $209\u202fB of deposits disappear, Fed injects liquidity, and the episode reshapes credit\u2011risk thinking.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-30T12:03:56.273388+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1971,
+      "sent_to_telegram_at": "2026-06-30T12:03:56.273388+00:00"
+    },
+    {
+      "tweet_id": "2071837940179935255",
+      "tweet_url": "https://x.com/kentcdodds/status/2071837940179935255#m",
+      "tweet_author": "kentcdodds",
+      "tweet_text": "MCP!\n\n\nDevelopers (@XDevelopers)\n\nAnnouncing the hosted X MCP.\n\nAgents now have access to the best real-time information source in the world.\n\nConnect Grok, Cursor, or any MCP-compatible AI tool to the X API without any setup!\n\nCheck it out here: docs.x.com/tools/mcp\n\nLink\n\n\n\nMCP servers for the X API and developer documentation - X\n\nConnect AI tools like Grok and Cursor to the X API and X developer docs through Model Context Protocol servers \u2014 hosted X MCP via xurl and docs search.\ndocs.x.com\n\n",
+      "reply_text": "From the regulator\u2019s view your open\u2011source MCP is the missing piece that lets central banks tap real\u2011time social\u2011media flow to calibrate monetary policy faster than any legacy data feed.",
+      "reply_style": "reframe",
+      "generated_at": "2026-06-30T12:03:56.273388+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style and voice, and complies with all requirements."
+      },
+      "telegram_message_id": 1969,
+      "sent_to_telegram_at": "2026-06-30T12:03:56.273388+00:00"
+    },
     {
       "tweet_id": "2071638390874030331",
       "tweet_url": "https://x.com/awilkinson/status/2071638390874030331#m",
