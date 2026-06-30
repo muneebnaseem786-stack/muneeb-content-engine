@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-06-30T12:03:56.273388+00:00",
+  "last_updated": "2026-06-30T18:27:24.897627+00:00",
   "replies": [
+    {
+      "tweet_id": "2071669936057966900",
+      "tweet_url": "https://x.com/rsg/status/2071669936057966900#m",
+      "tweet_author": "rsg",
+      "tweet_text": "\u201cFool me once, shame on you. Fool me twice shame on me\u201d\n\nGeorge Bush famously fumbled that quote, but it\u2019s a very useful operating principle for life\n\nYou want to be a trusting person. To remain open to new opportunities, and not become jaded. In both business and your personal life\n\nYou can\u2019t allow the one or two times you get burned close you off to the next great thing that may come your way\n\nIn business: I\u2019ve invested in a lot of startups over the years. Out of 200+ bets: I\u2019ve been outright ",
+      "reply_text": "You see the pattern, Q1\u202f2023, Silicon Valley Bank experiences a $150bn deposit run in 48\u202fhrs, collapses, yet VC dollars keep flowing to fresh founders.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-06-30T18:27:24.897627+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet's theme of learning from past experiences and presents a relevant historical parallel in a style consistent with Muneeb's voice."
+      },
+      "telegram_message_id": 1976,
+      "sent_to_telegram_at": "2026-06-30T18:27:24.897627+00:00"
+    },
     {
       "tweet_id": "2071878372150370747",
       "tweet_url": "https://x.com/tylercowen/status/2071878372150370747#m",
