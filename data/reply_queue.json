@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-01T08:43:34.427031+00:00",
+  "last_updated": "2026-07-01T12:26:15.246005+00:00",
   "replies": [
+    {
+      "tweet_id": "2072023051349409837",
+      "tweet_url": "https://x.com/morganhousel/status/2072023051349409837#m",
+      "tweet_author": "morganhousel",
+      "tweet_text": "The History of Uncertainty, The Magic of The Long Term, And Overstating New Technology\n\nYT: piped.video/watch?v=jMeux2bi\u2026\n\nSpotify: open.spotify.com/episode/1k8\u2026",
+      "reply_text": "You\u2019re downplaying AI\u2019s impact, but compute costs fell 50% YoY since 2015, delivering $2T in efficiency gains already.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-01T12:26:15.246005+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 1992,
+      "sent_to_telegram_at": "2026-07-01T12:26:15.246005+00:00"
+    },
+    {
+      "tweet_id": "2072050039317578236",
+      "tweet_url": "https://x.com/miramurati/status/2072050039317578236#m",
+      "tweet_author": "miramurati",
+      "tweet_text": "Bridgewater used their unique financial knowledge and partnered with us on @tinkerapi to fine-tune a model that helps their analysts focus on what's important. Experts improving AI that empowers experts.\nthinkingmachines.ai/news/lea\u2026\n\nLink\n\n\n\nLearning to Replicate Expert Judgment in Financial Tasks\n\nWith expert-labeled data and fine-tuning on Tinker, a custom model outperforms frontier LLMs on financial information-filtering tasks at a fraction of the cost.\nthinkingmachines.ai",
+      "reply_text": "You recall Q4\u202f2023, when SVB\u2019s $2\u202fbn deposit run forces banks to lean on real\u2011time analytics, echoing today\u2019s need for expert\u2011fine\u2011tuned AI. Same pressure, new tool.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-01T12:26:15.246005+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 1990,
+      "sent_to_telegram_at": "2026-07-01T12:26:15.246005+00:00"
+    },
     {
       "tweet_id": "2072160389161177194",
       "tweet_url": "https://x.com/RyanDetrick/status/2072160389161177194#m",
