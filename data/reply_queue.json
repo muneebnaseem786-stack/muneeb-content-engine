@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-02T12:01:24.954589+00:00",
+  "last_updated": "2026-07-02T18:22:42.956991+00:00",
   "replies": [
+    {
+      "tweet_id": "2072675181185617955",
+      "tweet_url": "https://x.com/Codie_Sanchez/status/2072675181185617955#m",
+      "tweet_author": "codie_sanchez",
+      "tweet_text": "How broke people buy: \n\u2192 \u201cWill I be able to afford this?\u201d\n\nHow rich people buy\n\u2192 \u201cWill this solve my problem?\u201d\n\nCompletely different sales conversation for the same exact product.",
+      "reply_text": "You note mindset shift; Q1\u202f2023 SVB sees $125\u202fbn withdrawn in days, forcing banks to ask \u201cCan we survive?\u201d while regulators ask \u201cWill the system hold?\u201d Liquidity decides.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-02T18:22:42.956991+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned historical_parallel style, and sounds like Muneeb's voice."
+      },
+      "telegram_message_id": 2032,
+      "sent_to_telegram_at": "2026-07-02T18:22:42.956991+00:00"
+    },
+    {
+      "tweet_id": "2072718671370182698",
+      "tweet_url": "https://x.com/charliebilello/status/2072718671370182698#m",
+      "tweet_author": "charliebilello",
+      "tweet_text": "US Unemployment Rate moved down to 4.2% in June, the lowest since June '25 &amp; well below the historical average of 5.7%. 57k jobs were added vs. 114k expected. April/May jobs were revised down 74k. YoY wage growth: +3.5%. No Fed move expected in July, Sep is 55% prob of a hike.",
+      "reply_text": "From the bondholder view, the 4.2% rate looks good but the 57\u202fk net gain and revised\u2011down hires signal slack that could keep inflation sticky, leaving yields vulnerable ahead of a probable September hike.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-02T18:22:42.956991+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2030,
+      "sent_to_telegram_at": "2026-07-02T18:22:42.956991+00:00"
+    },
+    {
+      "tweet_id": "2072709643617329531",
+      "tweet_url": "https://x.com/wolfejosh/status/2072709643617329531#m",
+      "tweet_author": "wolfejosh",
+      "tweet_text": "And this is why \ud83c\udde6\ud83c\uddea UAE is both (1) an amazing Arab Muslim country with amazing leadership \n\nAND (2) won\u2019t subsidize sending its own amazing Emiratis to UK \ud83c\uddec\ud83c\udde7for fear of being radicalized and coming back Islamists that will undermine UAE sovereignty\n\n\nAmjad Taha \u0623\u0645\u062c\u062f \u0637\u0647 (@amjadt25)\n\nThe BBC refused to cover this. The British Parliament refused to discuss it. Ask yourself why. This is an official Hamas video showing children in Gaza being armed and trained to become terrorists. They received aid f",
+      "reply_text": "You paint it as security, but it\u2019s a capital\u2011control move to keep the UAE\u2019s sovereign\u2011wealth brand untarnished.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-02T18:22:42.956991+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 2028,
+      "sent_to_telegram_at": "2026-07-02T18:22:42.956991+00:00"
+    },
     {
       "tweet_id": "2072515196350828903",
       "tweet_url": "https://x.com/RaoulGMI/status/2072515196350828903#m",
