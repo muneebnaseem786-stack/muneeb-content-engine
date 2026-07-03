@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-02T18:22:42.956991+00:00",
+  "last_updated": "2026-07-03T07:54:29.306516+00:00",
   "replies": [
+    {
+      "tweet_id": "2072844434509607231",
+      "tweet_url": "https://x.com/sweatystartup/status/2072844434509607231#m",
+      "tweet_author": "sweatystartup",
+      "tweet_text": "Your yearly reminder:\n\nWhole life insurance is an absolute scam. \n\nRun fast from anybody trying to sell it to you.",
+      "reply_text": "From the insurer\u2019s balance sheet, whole\u2011life policies lock in decades\u2011long premiums that fund long\u2011duration liabilities and keep solvency ratios high, a hidden stabiliser for the broader credit market.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-03T07:54:29.306516+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb Naseem."
+      },
+      "telegram_message_id": 2042,
+      "sent_to_telegram_at": "2026-07-03T07:54:29.306516+00:00"
+    },
+    {
+      "tweet_id": "2072829568344343011",
+      "tweet_url": "https://x.com/ByrneHobart/status/2072829568344343011#m",
+      "tweet_author": "byrnehobart",
+      "tweet_text": "The doomers live a few model releases ahead of us, the it's-a-bubble crowd is a few models behind, only moderate AI bulls are truly living in the moment.",
+      "reply_text": "You say moderate AI bulls have it right, yet the next correction will be owned by the doomers who already priced the slowdown.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-03T07:54:29.306516+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2040,
+      "sent_to_telegram_at": "2026-07-03T07:54:29.306516+00:00"
+    },
     {
       "tweet_id": "2072675181185617955",
       "tweet_url": "https://x.com/Codie_Sanchez/status/2072675181185617955#m",
