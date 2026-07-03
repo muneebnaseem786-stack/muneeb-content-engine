@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-07-03T11:46:26.946795+00:00",
+  "last_updated": "2026-07-03T17:46:12.815973+00:00",
   "posts": [
+    {
+      "topic": "EQT AI infrastructure investment",
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-03/canada-pension-plan-commits-1-75-billion-to-eqt-eqt-for-ai-infrastructure",
+      "source_headline": "CPP Invests $1.75 Billion in EQT\u2019s AI Buildout",
+      "source_handle": "",
+      "x_post": "Canada Pension Plan's $1.75 billion investment in EQT's AI buildout is roughly 10% of the total funds raised by EQT for this purpose. $1.75 billion is the number that highlights the scale of this investment. This investment is part of a larger trend where pension funds are increasingly looking to invest in AI and technology. The mechanism behind this trend is the growing recognition that AI has the potential to drive significant economic growth. EQT's AI infrastructure buildout is a strategic move to position the company for this growth. As AI continues to transform industries, investments like this will become more common, and pension funds will play a crucial role in funding this transformation. This tells us that the intersection of AI and institutional investment is an area to watch, and the $1.75 billion investment is just the beginning.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing. Regenerated sentence structures to ensure affirmative restatements and specific verb usage.",
+      "scores": [
+        {
+          "candidate_index": 2,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-03T17:46:11.522957+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly engages with the source's central claim and maintains Muneeb's analytical voice without any compliance issues."
+      },
+      "telegram_message_id": 2054,
+      "sent_to_telegram_at": "2026-07-03T17:46:12.815956+00:00"
+    },
     {
       "topic": "Adani Group Secures $15 Billion Capital",
       "source": "rss:Bloomberg Markets",
