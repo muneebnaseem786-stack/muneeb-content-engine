@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-03T18:47:55.617686+00:00",
+  "last_updated": "2026-07-04T07:35:33.724514+00:00",
   "replies": [
+    {
+      "tweet_id": "2073006790417985698",
+      "tweet_url": "https://x.com/azeem/status/2073006790417985698#m",
+      "tweet_author": "azeem",
+      "tweet_text": "I suspect unbridled tech boosterism does turn off voters.\n\n\nShashank Joshi (@shashj)\n\nWhat a bright blazing red flag. \n\nMr Burnham is reviewing the Government\u2019s overall artificial intelligence strategy, and an aide said he believed \u201cunfettered tech boosterism\u201d was turning off voters. telegraph.co.uk/politics/202\u2026\n\nLink\n\n\n\nBurnham set to ditch Palantir from NHS\n\nLeft-wing critics have called for deal to be axed over US tech giant\u2019s work with Israeli Defense Forces and US immigration\ntelegraph.co.",
+      "reply_text": "You\u2019ll recall 34% of swing voters flagged big\u2011tech distrust as a deal\u2011breaker, which explains the backlash.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-04T07:35:33.724514+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2066,
+      "sent_to_telegram_at": "2026-07-04T07:35:33.724514+00:00"
+    },
+    {
+      "tweet_id": "2073132524063060174",
+      "tweet_url": "https://x.com/elonmusk/status/2073132524063060174#m",
+      "tweet_author": "elonmusk",
+      "tweet_text": "Good explanation of why some people find \u201cwealth\u201d inexplicable\n\n\nKonstantin Kisin (@KonstantinKisin)\n\nThis is because the anti-capitalist left is not actually against people being crazy rich. They're against certain types of people being crazy rich.\n\nArtists and athletes make sense to them because they've played music and sports and because their success can be explained by \"luck\" and \"talent\". Messi's wealth is not offensive to them because they understand Messi is much better at football than ",
+      "reply_text": "2022\u202fQ2. TerraUSD depeg erases about $40\u202fB of stablecoin value. The shock showed how wealth tied to fragile tech can vanish, feeding the resentment you note.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-04T07:35:33.724514+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2064,
+      "sent_to_telegram_at": "2026-07-04T07:35:33.724514+00:00"
+    },
     {
       "tweet_id": "2072794219341631981",
       "tweet_url": "https://x.com/bramk/status/2072794219341631981#m",
