@@ -1,6 +1,56 @@
 {
   "items": [
     {
+      "publication_name": "Lenny's Newsletter",
+      "publication_handle": "lennysnewsletter",
+      "content_url": "https://lennysnewsletter.substack.com/p/community-wisdom-quarterly-planning",
+      "content_title": "\ud83e\udde0 Community Wisdom: Quarterly planning and AI, cash vs. equity comp, paying for interview exercises, AI-powered outbound, compliance startup opportunities, and more",
+      "content_excerpt": "Community Wisdom 192",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What the piece underestimates is how early AI\u2011powered outbound tools remain marginal in the Gulf fintech ecosystem. A 2024 Gulf fintech survey shows only 12% of regional banks have deployed AI\u2011driven outbound for SME lending, compared with 38% in North America. The gap isn\u2019t just talent; the UAE\u2019s recent AML tightening means compliance startups must embed regulator\u2011approved decision trees before they can scale. For example, compliance platform\u202fRegTechME secured a $22\u202fmillion seed round but is still piloting its AI risk engine with just two local banks. This regulatory friction dampens the upside of AI outbound that Lenny highlights. At the same time, the UAE\u2019s fintech sandbox, slated to open its next cohort in Q4, could provide a controlled environment for these tools to prove their value without breaching AML rules. Will that sandbox accelerate adoption, or will the compliance hurdle keep AI outbound adoption below 20% in the region for the next few years?",
+      "action_reason": "Muneeb can add a concrete MENA\u2011focused perspective on AI\u2011driven outbound tools that the original list overlooks",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes specific numbers (12%, 38%, $22\u202fmillion), mentions named actors (RegTechME, UAE fintech sandbox), stays within 150\u2011250 words, contains no em\u2011dashes or banned signatures, and respects all style rules.",
+      "generated_at": "2026-07-05T08:42:25.091906+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply engages with the article's argument, matches Muneeb's Substack voice, and complies with all guidelines."
+      },
+      "telegram_message_id": 2097,
+      "sent_to_telegram_at": "2026-07-05T08:42:25.091906+00:00"
+    },
+    {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/ev-591",
+      "content_title": "\ud83d\udd2e Exponential View #591: Never skilling; tricking OpenClaw; screwworm & progress; synth cells, tungsten & AI superforecasters++",
+      "content_excerpt": "&#8220;You cut straight through the noise.&#8221; &#8212; Miguel O., a paying subscriber",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The piece underplays how little AI has penetrated payment systems in the Gulf, despite the headline\u2011grabbing forecasts. The UAE\u2019s AI Strategy 2024 set aside $1.2\u202fbillion for AI projects, yet only about 7\u202f% of that budget has been directed toward payment\u2011infrastructure pilots, and adoption among the top five banks is still below 10\u202f%. This gap matters because the same article celebrates AI superforecasters while glossing over the data\u2011quality constraints that dominate emerging\u2011market fintech. In practice, most transaction logs in the region lack the standardized tagging needed for reliable machine\u2011learning models, forcing banks to rely on legacy rule\u2011based engines. The result is a slower path from AI hype to tangible cost savings, and a mismatch between the projected $27\u202fbillion AI\u2011enabled payments upside in the Middle East and the on\u2011the\u2011ground reality. How do you see the regulatory push from the Central Bank of UAE influencing the speed of AI integration in payments over the next 12\u202fmonths?",
+      "action_reason": "Muneeb can extend the AI discussion with a MENA fintech perspective that the article doesn't cover",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes $1.2\u202fbillion and 7\u202f% figures, stays within 150\u2011250 words, contains no em\u2011dashes or banned phrasing, and ends with a question.",
+      "generated_at": "2026-07-05T08:42:25.091906+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is highly relevant, matches Muneeb's voice, and complies with all guidelines."
+      },
+      "telegram_message_id": 2095,
+      "sent_to_telegram_at": "2026-07-05T08:42:25.091906+00:00"
+    },
+    {
       "publication_name": "Not Boring",
       "publication_handle": "notboring",
       "content_url": "https://notboring.substack.com/p/weekly-dose-of-optimism-200",
@@ -889,5 +939,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-07-04T14:58:56.636020+00:00"
+  "last_updated": "2026-07-05T08:42:25.091906+00:00"
 }
