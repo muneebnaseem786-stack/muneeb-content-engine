@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-04T17:54:53.492001+00:00",
+  "last_updated": "2026-07-05T07:51:32.680580+00:00",
   "replies": [
+    {
+      "tweet_id": "2073571813817229780",
+      "tweet_url": "https://x.com/jasonlk/status/2073571813817229780#m",
+      "tweet_author": "jasonlk",
+      "tweet_text": "Once you're in production, sometimes 20% of the job of your FDE is Therapist\n\nThat probably used to be true of CSMs, too\n\nUntil they became agents of endless upsells",
+      "reply_text": "You\u2019ll see that 70% of support tickets are non\u2011technical, inflating headcount without boosting revenue.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-05T07:51:32.680580+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 2092,
+      "sent_to_telegram_at": "2026-07-05T07:51:32.680580+00:00"
+    },
     {
       "tweet_id": "2073146167169622117",
       "tweet_url": "https://x.com/biancoresearch/status/2073146167169622117#m",
