@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-05T17:54:02.213166+00:00",
+  "last_updated": "2026-07-06T08:55:05.779382+00:00",
   "replies": [
+    {
+      "tweet_id": "2073971836787023984",
+      "tweet_url": "https://x.com/BretWeinstein/status/2073971836787023984#m",
+      "tweet_author": "BretWeinstein",
+      "tweet_text": "This is unAmerican, and very foolish. America and the West are the only viable answer. Let\u2019s go back to getting along. We were well on our way before dark forces stepped in and amped up the ancient circuitry you\u2019re now driven by\u2014assuming of course you\u2019re to be taken at your word. nitter.net/libertasredux/status/2\u2026",
+      "reply_text": "U.S. defense budget hit $842\u202fB in FY2024, 6% of GDP, that scale underpins the 'only viable answer' narrative.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-06T08:55:05.779382+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2118,
+      "sent_to_telegram_at": "2026-07-06T08:55:05.779382+00:00"
+    },
     {
       "tweet_id": "2073575065917280331",
       "tweet_url": "https://x.com/garrytan/status/2073575065917280331#m",
