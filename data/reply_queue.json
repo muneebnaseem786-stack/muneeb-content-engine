@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-06T13:36:54.318822+00:00",
+  "last_updated": "2026-07-06T18:49:23.069332+00:00",
   "replies": [
+    {
+      "tweet_id": "2074186673332822491",
+      "tweet_url": "https://x.com/patrick_oshag/status/2074186673332822491#m",
+      "tweet_author": "patrick_oshag",
+      "tweet_text": "Maybe on top of the traditional types of moats we need to add another: \u201cSTFU\u201d\n\nAn interesting essay for Colossus on the power of staying quiet in business\n\n\nColossus (@colossusmag)\n\nTo make big money in business, you usually have to do something no one else can do, or have something no one else can have.\n\nSteve Ross did neither. Nor did Wayne Huizenga, or the great bearded Mark Leonard.\n\nRoss started out renting his father-in-law's funeral parlor limousines at night. He added a rental car compan",
+      "reply_text": "From a bondholder\u2019s view, the \u2018STFU\u2019 moat is a warning flag, silence masks risk, pushes yields higher and forces tighter covenants.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-06T18:49:23.069332+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2130,
+      "sent_to_telegram_at": "2026-07-06T18:49:23.069332+00:00"
+    },
     {
       "tweet_id": "2074117802412142965",
       "tweet_url": "https://x.com/Trace_Cohen/status/2074117802412142965#m",
