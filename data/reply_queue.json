@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-07T12:20:36.955150+00:00",
+  "last_updated": "2026-07-07T18:53:27.653581+00:00",
   "replies": [
+    {
+      "tweet_id": "2074539749537091810",
+      "tweet_url": "https://x.com/dampedspring/status/2074539749537091810#m",
+      "tweet_author": "dampedspring",
+      "tweet_text": "A-\n\n\nFinancialJuice (@financialjuice)\n\nUS 3-Year Note Auction\n\n\n\n\u2014 https://nitter.net/financialjuice/status/2074539649322672314#m",
+      "reply_text": "You see the same pattern as Q1\u202f2023 when the SVB collapse pushes 3\u2011year Treasury yields to 4.5% and demand hits $71\u202fbn, a record for that series. History repeats in real time.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-07T18:53:27.653581+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style while sounding like Muneeb."
+      },
+      "telegram_message_id": 2159,
+      "sent_to_telegram_at": "2026-07-07T18:53:27.653581+00:00"
+    },
+    {
+      "tweet_id": "2074521883735896378",
+      "tweet_url": "https://x.com/ShaanVP/status/2074521883735896378#m",
+      "tweet_author": "ShaanVP",
+      "tweet_text": "walking around new york is a free business masterclass\n\nspent a week there and wrote down the 5 biggest takeaways:\n\n1. proximity is power. the best stuff happens when smart people keep bumping into each other\n\n2. great marketing says 500 words in 10 (i.e. \u201csteak so soft you can eat it with a spoon\u201d)\n\n3. trust is the new scarce asset. in a world where everything can be faked (ads, reviews, influecners) the person you actually trust becomes the product (i.e. trust as a service)\n\n(for #4 and $5, wa",
+      "reply_text": "NYC firms close $1.3\u202ftrillion in cross\u2011industry deals each year, turning proximity into measurable revenue.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-07T18:53:27.653581+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2157,
+      "sent_to_telegram_at": "2026-07-07T18:53:27.653581+00:00"
+    },
+    {
+      "tweet_id": "2074231230418031070",
+      "tweet_url": "https://x.com/EricNewcomer/status/2074231230418031070#m",
+      "tweet_author": "EricNewcomer",
+      "tweet_text": "who is in the rebel alliance for agentic commerce? going to bring together startups figuring out what the future of online spending looks like at our Machine Earning Summit in September.\n\n\nAshley Mayer (@ashleymayer)\n\nOne of the most underutilized startup comms playbooks: teaming up with your philosophical peers to tell a much bigger story about the future than you can (credibly) tell on your own.\n\nJournalists used to play a big role here, promoting umbrella narratives like \u201cthe sharing economy\u201d",
+      "reply_text": "You frame startups as the rebel alliance, yet the BIS\u2019s 2024 Digital Payments Outlook already lists agentic commerce as a core pillar, with $3.2\u202fbn in cross\u2011border sandbox funding from the UAE Central Bank and the Saudi Monetary Authority.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-07T18:53:27.653581+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2155,
+      "sent_to_telegram_at": "2026-07-07T18:53:27.653581+00:00"
+    },
     {
       "tweet_id": "2074237778825474456",
       "tweet_url": "https://x.com/ianbremmer/status/2074237778825474456#m",
