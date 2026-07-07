@@ -1,6 +1,271 @@
 {
-  "last_updated": "2026-07-06T20:55:17.354533+00:00",
+  "last_updated": "2026-07-07T07:54:11.120290+00:00",
   "posts": [
+    {
+      "topic": "Importance of staying quiet in business",
+      "source": "x:@jposhaughnessy",
+      "source_url": "https://x.com/jposhaughnessy/status/2074155005641109706#m",
+      "source_headline": "\u201cThe world is full of sorrow. The root of sorrow is attachment. The uprooting of sorrow means the uprooting, the dropping of attachments.\u201d\n~Anthony de Mello\n\n\nI",
+      "source_handle": "jposhaughnessy",
+      "x_post": "Staying quiet in business is a crucial aspect of success, as it allows companies to focus on their goals without unnecessary distractions. $20 million is the amount that BONK faces in treasury drain after an attacker spent $4 million to pass a malicious proposal. This incident highlights the importance of security measures in the business world. The mechanism behind this is that companies need to have robust security systems in place to prevent such attacks. Compounding evidence shows that companies that invest in security measures tend to perform better in the long run. The implication of this is that businesses should prioritize security and quietness in their operations. In conclusion, staying quiet and secure is essential for businesses to thrive.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negation tricolons, stacked abstract nouns, and meta-narration, and rewrote the sentences to lead with affirmative statements and use verbs instead of nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 3,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-07T07:53:40.636897+00:00",
+      "status": "jury_rejected",
+      "jury": {
+        "relevance": 1,
+        "voice_match": 2,
+        "compliance": "FAIL",
+        "violations": [
+          "OFF-TOPIC PIVOT",
+          "NO SPECIFIC ANCHOR TO SOURCE"
+        ],
+        "verdict": "REJECT",
+        "verdict_reason": "The reaction completely ignores the source and talks about an unrelated topic, failing the relevance and compliance checks."
+      }
+    },
     {
       "topic": "Aalo achieves criticality",
       "source": "x:@packym",
