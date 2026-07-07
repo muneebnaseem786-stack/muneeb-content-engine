@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-07T08:13:48.713318+00:00",
+  "last_updated": "2026-07-07T12:20:36.955150+00:00",
   "replies": [
+    {
+      "tweet_id": "2074237778825474456",
+      "tweet_url": "https://x.com/ianbremmer/status/2074237778825474456#m",
+      "tweet_author": "IanBremmer",
+      "tweet_text": "there are ways to handle disputed calls.\na call from the president isn\u2019t one of them.\n@gzeromedia\n\nVideo",
+      "reply_text": "If a presidential call bypasses your dispute workflow, does the underlying AML/KYC engine still generate a SAR, or is there a separate political\u2011risk flag you trigger?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-07T12:20:36.955150+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2148,
+      "sent_to_telegram_at": "2026-07-07T12:20:36.955150+00:00"
+    },
+    {
+      "tweet_id": "2074158762072355116",
+      "tweet_url": "https://x.com/jchervinsky/status/2074158762072355116#m",
+      "tweet_author": "jchervinsky",
+      "tweet_text": "I'm thrilled to have Anastasia on the @HyperliquidPC team as our Chief Communications Officer!\n\nAdvancing policy to move global finance onchain is as much a comms challenge as anything, and there's no one better than @itsgolovina to make it happen. Please give her a warm welcome!\n\n\nAnastasia Golovina (@itsgolovina)\n\nNews: I'm joining @HyperliquidPC as Chief Communications Officer.\n\nI've spent 8+ years in crypto, most recently at @chainlink, working with just about every kind of company the indus",
+      "reply_text": "From the BIS\u2019s view, your hire is a clear indicator that on\u2011chain liquidity will soon test traditional settlement frameworks\u2014exactly the kind of policy pressure they flagged after the 2023 CBDC pilots.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-07T12:20:36.955150+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2146,
+      "sent_to_telegram_at": "2026-07-07T12:20:36.955150+00:00"
+    },
     {
       "tweet_id": "2074200508189855943",
       "tweet_url": "https://x.com/matt_levine/status/2074200508189855943#m",
