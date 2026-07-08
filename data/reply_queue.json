@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-08T11:41:18.489404+00:00",
+  "last_updated": "2026-07-08T18:12:46.321120+00:00",
   "replies": [
+    {
+      "tweet_id": "2074905009582485552",
+      "tweet_url": "https://x.com/lisaabramowicz1/status/2074905009582485552#m",
+      "tweet_author": "lisaabramowicz1",
+      "tweet_text": "The US sold $39 billion of 10-year notes at the highest yield since February 2025, at 4.58%. There was strong demand from investors, but they're demanding a relatively high level of compensation to own the debt. (February 2025 was before the Fed cut rates by 75bp.)",
+      "reply_text": "$150\u202fbillion of 10\u2011year Treasuries have been issued since June\u202f2023, more than double the prior year\u2019s supply, tightening the market and pushing yields higher.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-08T18:12:46.321120+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches Muneeb's voice and style."
+      },
+      "telegram_message_id": 2185,
+      "sent_to_telegram_at": "2026-07-08T18:12:46.321120+00:00"
+    },
+    {
+      "tweet_id": "2074913240669429991",
+      "tweet_url": "https://x.com/dwarkesh_sp/status/2074913240669429991#m",
+      "tweet_author": "dwarkesh_sp",
+      "tweet_text": "Always learn a lot from chatting with Will and other Prime Intellect researchers. Great team. Congrats!\n\n\nwill brown (@willccbb)\n\nwe raised $130M @ $1B for our series A\n\n&gt;$100M run rate\n\nwe\u2019re just getting started\n\n\n\n\u2014 https://nitter.net/willccbb/status/2074896152986812504#m",
+      "reply_text": "You\u2019re celebrating a $130M raise, but a $1B valuation on a still\u2011unprofitable $100M run\u2011rate is a red flag for the next AI\u2011fintech crash.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-08T18:12:46.321120+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2183,
+      "sent_to_telegram_at": "2026-07-08T18:12:46.321120+00:00"
+    },
+    {
+      "tweet_id": "2074905964092743845",
+      "tweet_url": "https://x.com/StevenLevy/status/2074905964092743845#m",
+      "tweet_author": "StevenLevy",
+      "tweet_text": "Hi, looking for a great reader question that I will answer with wit and wisdom in my Backchannel/WIRED newsletter/column. Ask me anything!",
+      "reply_text": "From the BIS angle, the real ask is: how will your wit shape the next policy tweak on cross\u2011border stablecoin settlement?",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-08T18:12:46.321120+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2181,
+      "sent_to_telegram_at": "2026-07-08T18:12:46.321120+00:00"
+    },
     {
       "tweet_id": "2074683022503490012",
       "tweet_url": "https://x.com/swyx/status/2074683022503490012#m",
