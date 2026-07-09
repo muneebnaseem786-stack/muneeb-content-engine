@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-08T18:12:46.321120+00:00",
+  "last_updated": "2026-07-09T08:16:58.505788+00:00",
   "replies": [
+    {
+      "tweet_id": "2075098829842792596",
+      "tweet_url": "https://x.com/bgurley/status/2075098829842792596#m",
+      "tweet_author": "bgurley",
+      "tweet_text": "Excited for Solv partnership with Amazon. Let\u2019s move the healthcare world into the digital age!!\n\n\nHeather M. Fernandez (@heathermirj)\n\nStarting today, \"Powered by Solv\" is the only in-person urgent care option built directly into Amazon Health AI.\nNot near a One Medical office? Same- or next-day care shows up right in the chat, filtered by your insurance. Book without ever leaving the app.\n\n\n\n\n\n\u2014 https://nitter.net/heathermirj/status/2074919516270936348#m",
+      "reply_text": "From the insurers\u2019 side this partnership flips risk: every same\u2011day visit generated in\u2011chat becomes an immediate claim, tightening loss ratios and forcing faster adjudication cycles.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-09T08:16:58.505788+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2194,
+      "sent_to_telegram_at": "2026-07-09T08:16:58.505788+00:00"
+    },
     {
       "tweet_id": "2074905009582485552",
       "tweet_url": "https://x.com/lisaabramowicz1/status/2074905009582485552#m",
