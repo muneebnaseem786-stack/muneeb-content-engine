@@ -1,6 +1,89 @@
 {
-  "last_updated": "2026-07-08T20:25:00.821483+00:00",
+  "last_updated": "2026-07-09T07:50:30.378836+00:00",
   "posts": [
+    {
+      "topic": "academic integrity and AI",
+      "source": "x:@paulg",
+      "source_url": "https://x.com/paulg/status/2075031014628311236#m",
+      "source_headline": "A Brown professor gave his students a take-home midterm exam. After suspecting many cheated using AI, he made the final in-person. The orange dots are the midte",
+      "source_handle": "paulg",
+      "x_post": "A Brown professor's recent experiment reveals a startling truth about academic integrity in the age of AI. When students were given a take-home midterm exam, the professor suspected that many had cheated using AI tools. To verify this, the professor made the final exam in-person, and the results were telling. The orange dots representing the midterm scores were significantly higher than the gray dots representing the final scores, indicating that all but three students had likely cheated on the midterm. This incident highlights the pressing issue of academic dishonesty in the era of AI-generated content. With the ease of access to AI tools, students are increasingly tempted to cheat, and it is up to educators to find innovative ways to prevent this. One potential solution is to make exams in-person, as the Brown professor did, or to use AI-detection tools to identify cheating. Ultimately, it is crucial to address this issue to maintain the integrity of academic institutions. The fact that 97% of students cheated on the midterm is a wake-up call for educators to rethink their approach to assessments and academic integrity.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. Regenerated sentence structures to lead with affirmative statements and use verbs instead of nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 5,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 4,
+          "anchor_score": 3,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-09T07:50:28.806263+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "NO SPECIFIC ANCHOR",
+          "RESTATEMENT NOT REACTION"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reaction, while relevant, lacks a specific anchor and primarily restates the source without adding a substantial take or reframe."
+      },
+      "telegram_message_id": 2191,
+      "sent_to_telegram_at": "2026-07-09T07:50:30.378813+00:00"
+    },
     {
       "topic": "Russia diesel export ban",
       "source": "rss:Bloomberg Markets",
