@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-09T08:16:58.505788+00:00",
+  "last_updated": "2026-07-09T12:24:39.859735+00:00",
   "replies": [
+    {
+      "tweet_id": "2075188972121473526",
+      "tweet_url": "https://x.com/aakashgupta/status/2075188972121473526#m",
+      "tweet_author": "aakashgupta",
+      "tweet_text": "Sony gets paid once when a game disc sells. That disc then gets traded in, resold, and lent out, and the next two or three people who play it pay Sony $0. Ending physical media closes that loophole forever: every future player becomes a full-price customer.\n\nThat's the math underneath the announcement. The retailer cut is real, but the used market is the prize. A digital copy can never be resold, never lent, never traded in at GameStop. Sony converts a product with a secondhand life into a licen",
+      "reply_text": "You overlook that the U.S. used\u2011game market was $2.3\u202fB in\u202f2023, a revenue stream Sony would lose with full digital.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-09T12:24:39.859735+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2203,
+      "sent_to_telegram_at": "2026-07-09T12:24:39.859735+00:00"
+    },
+    {
+      "tweet_id": "2075158022373167202",
+      "tweet_url": "https://x.com/stratechery/status/2075158022373167202#m",
+      "tweet_author": "stratechery",
+      "tweet_text": "7-9-2026 ($)         \n\n\u2022Muse Image\n\u2022Grok 4.5\n\u2022Alex Karp on CNBC\n\nstratechery.com/2026/muse-im\u2026\n\nLink\n\n\n\nMuse Image, Grok 4.5, Alex Karp on CNBC\n\nThe batter for verifiable data is increasingly defining the AI race, from Meta to Grok to the frontier labs.\nstratechery.com",
+      "reply_text": "From the BIS perspective your data\u2011driven AI race is a lever to tighten AML monitoring; the same verifiable streams that power Muse and Grok now feed the central bank\u2019s real\u2011time risk models, shaping policy faster than any boardroom.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-09T12:24:39.859735+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2201,
+      "sent_to_telegram_at": "2026-07-09T12:24:39.859735+00:00"
+    },
     {
       "tweet_id": "2075098829842792596",
       "tweet_url": "https://x.com/bgurley/status/2075098829842792596#m",
