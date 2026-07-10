@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-10T08:14:51.589864+00:00",
+  "last_updated": "2026-07-10T12:18:08.571084+00:00",
   "replies": [
+    {
+      "tweet_id": "2075274909110976907",
+      "tweet_url": "https://x.com/stuartbuck1/status/2075274909110976907#m",
+      "tweet_author": "stuartbuck1",
+      "tweet_text": "Whoa, amazingly cool!\n\n\nCaleb Watney (@calebwatney)\n\nSome bittersweet news to announce today: \n\nI recently left @IFP to join @coeff_giving as Managing Director of Public Policy, where I'm building a new US AI policy team, overseeing the Abundance and Growth Fund alongside @mattsclancy, and managing CG's government affairs work.\n\nBuilding IFP has been the defining professional project of my life, and this was one of the hardest decisions I've ever made. In just four and a half years, our team bec",
+      "reply_text": "You\u2019re cheering a shift from creating AI solutions to chasing policy favors\u2014hardly a win for real innovation.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-10T12:18:08.571084+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned hot_take style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2235,
+      "sent_to_telegram_at": "2026-07-10T12:18:08.571084+00:00"
+    },
+    {
+      "tweet_id": "2075271586400403567",
+      "tweet_url": "https://x.com/AndrewYNg/status/2075271586400403567#m",
+      "tweet_author": "AndrewYNg",
+      "tweet_text": "Adam Thierer had written the landmark book on \"Permissionless Innovation.\" We get the best ideas when we don't have to ask the government in advance for permission to invent. Protecting open source AI is now a critical part of ensuring this.\n\n\nAdam Thierer (@AdamThierer)\n\nWe stand at a critical crossroads in the debate over AI governance in the United States, and it feels like we are inching closer to a very serious battle over whether or not open source models will even be allowed in an environ",
+      "reply_text": "Do you think a Treasury\u2011led export\u2011control framework on open\u2011source AI could force UAE fintechs to replace LLM\u2011driven AML tools with licensed alternatives?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-10T12:18:08.571084+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2233,
+      "sent_to_telegram_at": "2026-07-10T12:18:08.571084+00:00"
+    },
+    {
+      "tweet_id": "2075310956825968646",
+      "tweet_url": "https://x.com/JonErlichman/status/2075310956825968646#m",
+      "tweet_author": "JonErlichman",
+      "tweet_text": "9 common investing mistakes according to @Ritholtz: \n\n1) Trying to time market\u20282) Complex over simple\u20283) Politics over patience\u20284) Ignoring compounding\u20285) Survivorship bias\u20286) Panic selling\u20287) FOMO buying\u20288) Action bias\u20289) Anchoring to cost",
+      "reply_text": "May\u202f2022, Terra\u2019s UST stablecoin loses its peg, $30\u202fbn market cap evaporates in weeks. Investors chased yield then panic\u2011sold, echoing your #7 FOMO buying and #6 panic selling. That mirrors those mistakes.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-10T12:18:08.571084+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned historical_parallel style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2231,
+      "sent_to_telegram_at": "2026-07-10T12:18:08.571084+00:00"
+    },
     {
       "tweet_id": "2075293792048136572",
       "tweet_url": "https://x.com/sama/status/2075293792048136572#m",
