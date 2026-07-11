@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-11T10:52:34.472819+00:00",
+  "last_updated": "2026-07-11T17:45:11.767511+00:00",
   "replies": [
+    {
+      "tweet_id": "2075733582895530259",
+      "tweet_url": "https://x.com/TheStalwart/status/2075733582895530259#m",
+      "tweet_author": "TheStalwart",
+      "tweet_text": "Great charts from Karl\n\n\nKarl Schamotta (@Karl_Schamotta)\n\nOkay, cleaner version below. Took the bottom 50% decile out - negative housing net worth in that segment after 2008 distorts the picture. Quite clear that equity holdings at the top of the wealth distribution are skewing overall measures:\n\n\n\n\n\n\u2014 https://nitter.net/Karl_Schamotta/status/2075678090110341442#m",
+      "reply_text": "You highlight equity concentration at the top, how might that skew influence the Fed\u2019s asset\u2011backed lending capacity if a new housing correction hits the bottom decile again?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-11T17:45:11.767511+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2270,
+      "sent_to_telegram_at": "2026-07-11T17:45:11.767511+00:00"
+    },
     {
       "tweet_id": "2075646052951376196",
       "tweet_url": "https://x.com/fchollet/status/2075646052951376196#m",
