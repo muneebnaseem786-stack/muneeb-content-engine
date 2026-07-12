@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-12T07:24:20.173502+00:00",
+  "last_updated": "2026-07-12T11:03:26.821745+00:00",
   "replies": [
+    {
+      "tweet_id": "2076165161568620853",
+      "tweet_url": "https://x.com/KobeissiLetter/status/2076165161568620853#m",
+      "tweet_author": "KobeissiLetter",
+      "tweet_text": "BREAKING: Iran's Speaker of the Parliament releases a statement after Iran shuts down the Strait of Hormuz:\n\n\"The era of one-sided deals is over. We told you: keep your word or pay the price. Reality is knocking,\" he says.",
+      "reply_text": "You\u2019re treating a single choke point as a leverage lever, but oil markets have already priced in rerouting; the real price shock will hit insurers, not your \u201cprice\u201d threat.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-12T11:03:26.821745+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2286,
+      "sent_to_telegram_at": "2026-07-12T11:03:26.821745+00:00"
+    },
     {
       "tweet_id": "2076108386631114837",
       "tweet_url": "https://x.com/jonwu_/status/2076108386631114837#m",
