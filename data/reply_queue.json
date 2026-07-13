@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-13T12:24:58.966048+00:00",
+  "last_updated": "2026-07-13T18:26:08.852010+00:00",
   "replies": [
+    {
+      "tweet_id": "2076392994610229731",
+      "tweet_url": "https://x.com/bgmasters/status/2076392994610229731#m",
+      "tweet_author": "bgmasters",
+      "tweet_text": "Once when a donor asked, \u201cSenator Graham why are you helping Blake, given how much you two disagree on foreign policy?\u201d he replied with a grin:\n\n\u201cSo Blake\u2019s wrong about Ukraine... who gives a shit? We aren\u2019t here to talk about how correct I am all the time, we\u2019re here to talk about getting the Senate majority. Because I want to be chairman of my committees!\u201d\n\nLindsey was cheerful and determined and he understood that he played a team sport. May his memory be eternal.\n\nVideo",
+      "reply_text": "You think Graham\u2019s chairmanship might accelerate the Senate\u2019s push on the 2025 stablecoin framework, shifting the regulatory timeline?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-13T18:26:08.852010+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 2309,
+      "sent_to_telegram_at": "2026-07-13T18:26:08.852010+00:00"
+    },
     {
       "tweet_id": "2076088555433074805",
       "tweet_url": "https://x.com/packyM/status/2076088555433074805#m",
