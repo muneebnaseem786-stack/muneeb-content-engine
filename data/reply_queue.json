@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-14T07:02:33.634245+00:00",
+  "last_updated": "2026-07-14T11:16:23.119737+00:00",
   "replies": [
+    {
+      "tweet_id": "2076979730939556108",
+      "tweet_url": "https://x.com/mattyglesias/status/2076979730939556108#m",
+      "tweet_author": "MattYglesias",
+      "tweet_text": "One possible explanation for MAGA\u2019s lack of interest in immigration legislation \u2014 some thought leaders in this space have dropped belief in universal suffrage and classical liberalism and just want to murder their political opponents.\n\nslowboring.com/p/trump-hasnt\u2026",
+      "reply_text": "From the bond market\u2019s view the pause on immigration keeps labor tight, preserving wage growth and protecting real yields, exactly the environment investors in US Treasuries have been betting on.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-14T11:16:23.119737+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2324,
+      "sent_to_telegram_at": "2026-07-14T11:16:23.119737+00:00"
+    },
     {
       "tweet_id": "2076605871883174227",
       "tweet_url": "https://x.com/shaneparrish/status/2076605871883174227#m",
