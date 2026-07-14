@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-13T18:26:08.852010+00:00",
+  "last_updated": "2026-07-14T07:02:33.634245+00:00",
   "replies": [
+    {
+      "tweet_id": "2076605871883174227",
+      "tweet_url": "https://x.com/shaneparrish/status/2076605871883174227#m",
+      "tweet_author": "shaneparrish",
+      "tweet_text": "The hardest part of investing is doing nothing. \n\nA lot of people just can't stand inaction.\n\nNicolai Tangen, who runs the world's largest sovereign wealth funds ($2 trillion), has a rule he calls the \"inertia analysis.\"\n\nVideo",
+      "reply_text": "You cite Tangen\u2019s inertia analysis, if the fund sees a 12% quarterly dip, does the rule force a full\u2011stop on trades or just a pause while liquidity metrics reset?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-14T07:02:33.634245+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2317,
+      "sent_to_telegram_at": "2026-07-14T07:02:33.634245+00:00"
+    },
     {
       "tweet_id": "2076392994610229731",
       "tweet_url": "https://x.com/bgmasters/status/2076392994610229731#m",
