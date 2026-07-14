@@ -1,6 +1,272 @@
 {
-  "last_updated": "2026-07-14T11:00:47.409288+00:00",
+  "last_updated": "2026-07-14T17:28:08.639894+00:00",
   "posts": [
+    {
+      "topic": "firefly communication",
+      "source": "x:@aakashgupta",
+      "source_url": "https://x.com/aakashgupta/status/2076969706293190663#m",
+      "source_headline": "Green fireflies and amber fireflies are two different species, and they physically cannot answer each other.\n\nA firefly flash is a password. Color, flash length",
+      "source_handle": "aakashgupta",
+      "x_post": "Fireflies communicate through a complex system of flashes, with different species using distinct patterns to convey information. For example, the common Big Dipper firefly uses a specific sequence of flashes to attract mates, with a delay of about 2 seconds between pulses. This system is so precise that if a male firefly misses the timing by a beat, the female will reject him. Green fireflies and amber fireflies, two different species, have their own private communication systems, with the green species using a different flash pattern than the amber species. This means that when they are in the same meadow, they are not actually interacting with each other, despite appearances. In fact, the green species and the amber species are running parallel, private conversations, with each species using its own unique flash pattern to communicate with its own kind. The fireflies' use of flash patterns to communicate is a remarkable example of evolutionary adaptation, with each species developing its own unique language to convey information and attract mates. This complex system of communication is a key aspect of firefly behavior, and it plays a crucial role in their ability to survive and thrive in their environments.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures, and regenerated the text to use affirmative restatements and specific examples.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-14T17:27:36.983280+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "NO SPECIFIC ANCHOR"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reaction lacks a specific anchor, such as a number, named entity, date, or mechanism, which is required for compliance."
+      },
+      "telegram_message_id": 2326,
+      "sent_to_telegram_at": "2026-07-14T17:28:08.639872+00:00"
+    },
     {
       "topic": "Hormuz Tensions",
       "source": "rss:Bloomberg Markets",
