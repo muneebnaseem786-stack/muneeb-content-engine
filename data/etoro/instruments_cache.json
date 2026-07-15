@@ -1,0 +1,137 @@
+{
+ "1002": {
+  "symbol": "GOOG",
+  "name": "Alphabet",
+  "typeId": 5
+ },
+ "1003": {
+  "symbol": "META",
+  "name": "Meta Platforms Inc",
+  "typeId": 5
+ },
+ "1005": {
+  "symbol": "AMZN",
+  "name": "Amazon.com Inc",
+  "typeId": 5
+ },
+ "1111": {
+  "symbol": "TSLA",
+  "name": "Tesla Motors, Inc.",
+  "typeId": 5
+ },
+ "1137": {
+  "symbol": "NVDA",
+  "name": "NVIDIA Corporation",
+  "typeId": 5
+ },
+ "1155": {
+  "symbol": "BABA",
+  "name": "Alibaba-ADR",
+  "typeId": 5
+ },
+ "1832": {
+  "symbol": "AMD",
+  "name": "Advanced Micro Devices Inc",
+  "typeId": 5
+ },
+ "2481": {
+  "symbol": "CIFR",
+  "name": "Cipher Digital Inc",
+  "typeId": 5
+ },
+ "4148": {
+  "symbol": "SHOP",
+  "name": "Shopify Inc.",
+  "typeId": 5
+ },
+ "4481": {
+  "symbol": "TSM",
+  "name": "Taiwan Semiconductor Manufacturing Co Ltd - ADR",
+  "typeId": 5
+ },
+ "6168": {
+  "symbol": "COIN",
+  "name": "Coinbase Global Inc",
+  "typeId": 5
+ },
+ "7790": {
+  "symbol": "FUTU",
+  "name": "Futu Holdings Ltd-ADR",
+  "typeId": 5
+ },
+ "7991": {
+  "symbol": "PLTR",
+  "name": "Palantir Technologies Inc.",
+  "typeId": 5
+ },
+ "8859": {
+  "symbol": "OPEN",
+  "name": "Opendoor Technologies Inc",
+  "typeId": 5
+ },
+ "9255": {
+  "symbol": "SOFI",
+  "name": "SoFi Technologies Inc",
+  "typeId": 5
+ },
+ "9272": {
+  "symbol": "HOOD",
+  "name": "Robinhood Markets Inc.",
+  "typeId": 5
+ },
+ "9586": {
+  "symbol": "TE",
+  "name": "T1 Energy Inc",
+  "typeId": 5
+ },
+ "10660": {
+  "symbol": "EOSE",
+  "name": "Eos Energy Enterprises Inc",
+  "typeId": 5
+ },
+ "10736": {
+  "symbol": "IREN",
+  "name": "Iris Energy Ltd",
+  "typeId": 5
+ },
+ "10805": {
+  "symbol": "COPX",
+  "name": "Global X Copper Miners Etf",
+  "typeId": 6
+ },
+ "12209": {
+  "symbol": "GLXY",
+  "name": "Galaxy Digital",
+  "typeId": 5
+ },
+ "13582": {
+  "symbol": "BMNR",
+  "name": "Bitmine Immersion Technologies Inc",
+  "typeId": 5
+ },
+ "15618": {
+  "symbol": "SPCX",
+  "name": "Space Exploration Technologies Corp",
+  "typeId": 5
+ },
+ "15694": {
+  "symbol": "SIVE.ST",
+  "name": "Sivers Semiconductors AB",
+  "typeId": 5
+ },
+ "100000": {
+  "symbol": "BTC",
+  "name": "Bitcoin",
+  "typeId": 10
+ },
+ "100001": {
+  "symbol": "ETH",
+  "name": "Ethereum",
+  "typeId": 10
+ },
+ "100418": {
+  "symbol": "TAO",
+  "name": "Bittensor",
+  "typeId": 10
+ }
+}

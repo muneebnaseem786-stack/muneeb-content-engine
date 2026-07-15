@@ -28,6 +28,126 @@ ETORO_DATA = REPO_ROOT / "data" / "etoro"
 ARCHIVE_DIR = ETORO_DATA / "archive"
 
 
+# ── Live portfolio from the eToro public API ──────────────────────────────────
+
+ETORO_API_BASE = "https://public-api.etoro.com"
+ETORO_USERNAME = "muneebnaseem"
+INSTRUMENTS_CACHE = ETORO_DATA / "instruments_cache.json"
+
+
+def _etoro_api_get(path: str) -> dict:
+    import uuid
+
+    resp = requests.get(
+        ETORO_API_BASE + path,
+        headers={
+            "x-user-key": os.environ["ETORO_USER_KEY"],
+            "x-api-key": os.environ["ETORO_API_KEY"],
+            "x-request-id": str(uuid.uuid4()),
+            # default python UA is WAF-blocked (403)
+            "User-Agent": "curl/8.9.1",
+            "Accept": "application/json",
+        },
+        timeout=30,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
+def _instrument_names(ids) -> dict:
+    cache = {}
+    if INSTRUMENTS_CACHE.exists():
+        cache = json.loads(INSTRUMENTS_CACHE.read_text(encoding="utf-8"))
+    missing = [str(i) for i in ids if str(i) not in cache]
+    if missing:
+        data = _etoro_api_get(
+            "/api/v1/market-data/instruments?instrumentIds=" + ",".join(missing)
+        )
+        for d in data.get("instrumentDisplayDatas", []):
+            cache[str(d["instrumentID"])] = {
+                "symbol": d.get("symbolFull", ""),
+                "name": d.get("instrumentDisplayName", ""),
+            }
+        try:
+            INSTRUMENTS_CACHE.write_text(json.dumps(cache, indent=1), encoding="utf-8")
+        except OSError:
+            pass
+    return cache
+
+
+def fetch_live_portfolio() -> str:
+    """Live per-instrument portfolio snapshot from the eToro public API,
+    rendered as a markdown block for prompt injection. Returns "" when the
+    API keys are absent or any call fails, so callers can fall back to the
+    curated portfolio.md alone."""
+    if not (os.environ.get("ETORO_USER_KEY") and os.environ.get("ETORO_API_KEY")):
+        return ""
+    try:
+        pf = _etoro_api_get(f"/api/v1/user-info/people/{ETORO_USERNAME}/portfolio/live")
+        positions = pf.get("positions", [])
+        if not positions:
+            return ""
+
+        agg: dict = {}
+        for p in positions:
+            a = agg.setdefault(p["instrumentId"], {"inv": 0.0, "wOpen": 0.0, "wPnl": 0.0, "lots": 0})
+            w = p["investmentPct"]
+            a["inv"] += w
+            a["wOpen"] += p["openRate"] * w
+            a["wPnl"] += p["netProfit"] * w  # netProfit is percent per position
+            a["lots"] += 1
+
+        names = _instrument_names(agg.keys())
+        rates = {}
+        ids = list(agg.keys())
+        for i in range(0, len(ids), 100):
+            chunk = ",".join(str(x) for x in ids[i : i + 100])
+            data = _etoro_api_get("/api/v1/market-data/instruments/rates?instrumentIds=" + chunk)
+            for r in data.get("rates", []):
+                rates[r["instrumentID"]] = r.get("lastExecution") or r.get("bid")
+
+        rows = []
+        for iid, a in agg.items():
+            inv = a["inv"]
+            pnl = a["wPnl"] / inv if inv else 0.0
+            meta = names.get(str(iid), {})
+            rows.append({
+                "symbol": meta.get("symbol", str(iid)),
+                "inv": inv,
+                "pnl": pnl,
+                "open": a["wOpen"] / inv if inv else 0.0,
+                "last": rates.get(iid),
+                "lots": a["lots"],
+            })
+        rows.sort(key=lambda r: -r["inv"])
+        grown = [r["inv"] * (1 + r["pnl"] / 100) for r in rows]
+        total_grown = sum(grown) or 1.0
+
+        fetched = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+        lines = [
+            f"## LIVE PORTFOLIO SNAPSHOT (eToro API, fetched {fetched})",
+            "",
+            "This snapshot is AUTHORITATIVE for current position figures: invested %,",
+            "value %, P/L %, and prices. The curated sections above remain authoritative",
+            "for theses, stances, and internal levels. If a figure here conflicts with a",
+            "figure above, use this snapshot.",
+            "",
+            f"Open positions: {len(positions)} across {len(rows)} instruments.",
+            "",
+            "| Symbol | Invested % | Value % (est) | P/L % | Avg open | Last price | Lots |",
+            "|---|---|---|---|---|---|---|",
+        ]
+        for r, g in zip(rows, grown):
+            lines.append(
+                f"| {r['symbol']} | {r['inv']:.2f} | {100 * g / total_grown:.2f} | "
+                f"{r['pnl']:.1f} | {r['open']:.2f} | {r['last']} | {r['lots']} |"
+            )
+        return "\n".join(lines)
+    except Exception as e:
+        print(f"[etoro] live portfolio fetch failed ({e}); falling back to portfolio.md only")
+        return ""
+
+
 # ── Brain context ─────────────────────────────────────────────────────────────
 
 def load_brain() -> dict:
@@ -57,8 +177,13 @@ def load_brain() -> dict:
     if learnings:
         voice = f"{voice}\n\n{learnings}"
 
+    portfolio = (ETORO_DATA / "portfolio.md").read_text(encoding="utf-8")
+    live = fetch_live_portfolio()
+    if live:
+        portfolio = f"{portfolio}\n\n{live}"
+
     return {
-        "portfolio": (ETORO_DATA / "portfolio.md").read_text(encoding="utf-8"),
+        "portfolio": portfolio,
         "voice": voice,
         "platform": (ETORO_DATA / "platform.md").read_text(encoding="utf-8"),
         "published_log": published_log,
