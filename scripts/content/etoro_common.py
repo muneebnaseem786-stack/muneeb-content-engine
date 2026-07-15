@@ -181,6 +181,9 @@ def load_brain() -> dict:
     live = fetch_live_portfolio()
     if live:
         portfolio = f"{portfolio}\n\n{live}"
+        print(f"[etoro] live portfolio snapshot merged into brain ({len(live)} chars)")
+    else:
+        print("[etoro] no live snapshot (keys missing or API down) - portfolio.md only")
 
     return {
         "portfolio": portfolio,
