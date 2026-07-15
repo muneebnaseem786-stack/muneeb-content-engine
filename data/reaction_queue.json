@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-07-15T06:30:19.168063+00:00",
+  "last_updated": "2026-07-15T11:04:00.192836+00:00",
   "posts": [
+    {
+      "topic": "Stripe PayPal acquisition",
+      "source": "rss:Coindesk",
+      "source_url": "https://www.coindesk.com/business/2026/07/15/stripe-mounts-blockbuster-usd53-billion-bid-to-buy-paypal",
+      "source_headline": "Stripe mounts blockbuster $53 billion bid to buy PayPal",
+      "source_handle": "",
+      "x_post": "Stripe's $53 billion bid for PayPal is a structural shift in the payments landscape. $53 billion is the largest deal in the sector's history, eclipsing previous records. This acquisition is driven by the need for scale and integration in a rapidly changing market, where digital payments are becoming the norm. Stripe's move signals a new era of consolidation, as companies seek to expand their reach and capabilities. The implications are far-reaching, with potential repercussions for the entire fintech ecosystem. This deal reframes the payments industry, marking a significant turning point in the evolution of digital transactions.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, and stacked abstract nouns. Regenerated sentences to lead with affirmative statements and use verbs instead of nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 2,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-15T11:03:58.693511+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly reframes the source's central claim and maintains an analytical and specific tone, consistent with Muneeb's voice."
+      },
+      "telegram_message_id": 2346,
+      "sent_to_telegram_at": "2026-07-15T11:04:00.192819+00:00"
+    },
     {
       "topic": "Jurassic Park computers",
       "source": "rss:HN Frontpage",
