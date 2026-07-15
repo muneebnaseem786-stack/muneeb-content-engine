@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-15T11:19:33.015624+00:00",
+  "last_updated": "2026-07-15T18:00:38.018586+00:00",
   "replies": [
+    {
+      "tweet_id": "2077430322128720358",
+      "tweet_url": "https://x.com/kentcdodds/status/2077430322128720358#m",
+      "tweet_author": "kentcdodds",
+      "tweet_text": "I'm going to start calling this Kodying. \ud83e\udd13\ud83d\udc28\n\n\nKent C. Dodds \ud83c\udff9 (@kentcdodds)\n\nMy YouTube video process involves a github repo + notion + canva + transistor + youtube + kit.\n\n\ud83d\udc28 Kody brings all of these together into cursor so my agent can manage them all in a token efficient manner. It's powerful.\n\n\n\n\u2014 https://nitter.net/kentcdodds/status/2077240739004850610#m",
+      "reply_text": "From the SaaS providers\u2019 side, your Kodying stitches become a single point of lock\u2011in, turning each token\u2011efficient call into a downstream data\u2011feed they can monetize.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-15T18:00:38.018586+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 2356,
+      "sent_to_telegram_at": "2026-07-15T18:00:38.018586+00:00"
+    },
     {
       "tweet_id": "2077020569535430857",
       "tweet_url": "https://x.com/pkafka/status/2077020569535430857#m",
