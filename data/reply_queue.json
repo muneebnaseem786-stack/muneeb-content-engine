@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-15T18:00:38.018586+00:00",
+  "last_updated": "2026-07-16T07:14:06.453041+00:00",
   "replies": [
+    {
+      "tweet_id": "2077414142340988962",
+      "tweet_url": "https://x.com/DrJimFan/status/2077414142340988962#m",
+      "tweet_author": "DrJimFan",
+      "tweet_text": "We scaled a robot model natively to 8,000 timesteps of context, 5 minutes worth of muscle memory, with constant inference cost. Robot policies used to live their lives a few frames at a time (&lt; 0.1 sec), instantly forgetting what just happened. We pushed to 3 orders of magnitude beyond SOTA. \n\nIntroducing RoboTTT. Test-Time Training (\u201cTTT\u201d) carries a tiny model *inside* the model. Every incoming sensor reading triggers one gradient step on that tiny core, so the history keeps getting compress",
+      "reply_text": "You achieve 5\u2011minute memory with a tiny inner model, how does the gradient\u2011step latency per sensor reading compare to the robot\u2019s control loop frequency, and does it stay within hard\u2011real\u2011time bounds on typical edge CPUs?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-16T07:14:06.453041+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and complies with all requirements."
+      },
+      "telegram_message_id": 2367,
+      "sent_to_telegram_at": "2026-07-16T07:14:06.453041+00:00"
+    },
+    {
+      "tweet_id": "2077557264458637786",
+      "tweet_url": "https://x.com/sahilkapur/status/2077557264458637786#m",
+      "tweet_author": "sahilkapur",
+      "tweet_text": "These are the 103 House Democrats (plus Massie) who voted today to cut off U.S. funding for Israel. Everyone else voted no, present or didn\u2019t vote. Final vote: amendment failed 104-314.",
+      "reply_text": "You\u2019re seeing $14.3\u202fB in U.S. arms sales to Israel last FY, a figure that keeps the defense supply chain humming.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-16T07:14:06.453041+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2365,
+      "sent_to_telegram_at": "2026-07-16T07:14:06.453041+00:00"
+    },
     {
       "tweet_id": "2077430322128720358",
       "tweet_url": "https://x.com/kentcdodds/status/2077430322128720358#m",
