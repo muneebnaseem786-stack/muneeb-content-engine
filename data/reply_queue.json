@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-16T07:14:06.453041+00:00",
+  "last_updated": "2026-07-16T11:25:22.165441+00:00",
   "replies": [
+    {
+      "tweet_id": "2077523498860470661",
+      "tweet_url": "https://x.com/TFTC21/status/2077523498860470661#m",
+      "tweet_author": "TFTC21",
+      "tweet_text": "Anthropic, Blackstone, Goldman Sachs, and Hellman & Friedman just launched Ode, a $1.5 billion AI services firm that embeds engineers inside companies to build custom AI systems on top of their existing operations.\n\nNot a new model. Not a new chatbot. An implementation company. Walk into a business, map how it actually runs, and build the AI layer on top of it.\n\nThe CEO says it's \"pretty easy to imagine this as a trillion-dollar company someday.\" They currently have 100 engineers and demand alre",
+      "reply_text": "$500B enterprise AI spend in 2023, making your $1.5B fund a drop in the bucket.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-16T11:25:22.165441+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2378,
+      "sent_to_telegram_at": "2026-07-16T11:25:22.165441+00:00"
+    },
+    {
+      "tweet_id": "2077484285443846636",
+      "tweet_url": "https://x.com/MichaelKantro/status/2077484285443846636#m",
+      "tweet_author": "MichaelKantro",
+      "tweet_text": "You asked for a stock picker's market. I see three major themes that are driving down correlations: 1) AI; 2) Energy; and 3) rate-sensitives. On balance, one of these themes appears to be working every day. Joining @CNBC to talk macro and markets around 4:05pm ET.",
+      "reply_text": "You call AI the daily engine, but the energy crunch is the real correlation killer.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-16T11:25:22.165441+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2376,
+      "sent_to_telegram_at": "2026-07-16T11:25:22.165441+00:00"
+    },
+    {
+      "tweet_id": "2077393107243708839",
+      "tweet_url": "https://x.com/ScottAdamsSays/status/2077393107243708839#m",
+      "tweet_author": "ScottAdamsSays",
+      "tweet_text": "The Scott Adams School - 07/15/26 The Home Team &amp; Joel Pollack stops by. nitter.net/i/broadcasts/1OxwbbkAV\u2026\n\nLink\n\n\n\nScott Adams\n\nThe Scott Adams School - 07/15/26 The Home Team &amp; Joel Pollack stops by.\nhttps://nitter.net/i/broadcasts/1OxwbbkAVYgJB",
+      "reply_text": "You present the Home Team as the star, yet from the central bank\u2019s balance sheet the same talk just adds another forward\u2011guidance cue that will shape the policy curve this quarter.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-16T11:25:22.165441+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2374,
+      "sent_to_telegram_at": "2026-07-16T11:25:22.165441+00:00"
+    },
     {
       "tweet_id": "2077414142340988962",
       "tweet_url": "https://x.com/DrJimFan/status/2077414142340988962#m",
