@@ -1,6 +1,263 @@
 {
-  "last_updated": "2026-07-16T20:06:05.662472+00:00",
+  "last_updated": "2026-07-17T06:31:51.882502+00:00",
   "posts": [
+    {
+      "topic": "IPO valuation",
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-17/michael-burry-says-good-time-to-chase-hong-kong-stock-bargains",
+      "source_headline": "Michael Burry Says \u2018Good Time\u2019 to Chase Hong Kong Stock Bargains",
+      "source_handle": "",
+      "x_post": "Manipal Hospitals is seeking a lower valuation of about $8.3 billion in its planned initial public offering. This move indicates that the company is taking a more realistic approach to its valuation, considering the current market conditions. With 800 billion rupees on the table, Manipal Hospitals is still poised to make a significant impact in the market. The company's decision to lower its valuation is a strategic one, as it aims to attract more investors and ensure a successful IPO. This move also reflects the company's understanding of the current market trends and its willingness to adapt to changing circumstances. The $8.3 billion valuation is a testament to the company's growth and potential, and it will be interesting to see how the market responds to this development.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing, and found no issues. I also checked for closing aphorisms, stacked declaratives, and hedge sandwiches, and found no issues. The text is free of banned LLM signatures and openers.",
+      "scores": [
+        {
+          "candidate_index": 1,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 1,
+          "anchor_score": 2,
+          "shelf_life_score": 1,
+          "avg": 1.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-17T06:31:21.349317+00:00",
+      "status": "jury_rejected",
+      "jury": {
+        "relevance": 1,
+        "voice_match": 2,
+        "compliance": "FAIL",
+        "violations": [
+          "OFF-TOPIC PIVOT",
+          "NO SPECIFIC ANCHOR TO SOURCE"
+        ],
+        "verdict": "REJECT",
+        "verdict_reason": "The reaction post completely ignores the source and talks about an unrelated topic."
+      }
+    },
     {
       "topic": "Oil traders and Iran war escalation",
       "source": "rss:Bloomberg Markets",
