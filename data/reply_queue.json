@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-17T11:12:49.799473+00:00",
+  "last_updated": "2026-07-17T17:55:47.876398+00:00",
   "replies": [
+    {
+      "tweet_id": "2077960108466970842",
+      "tweet_url": "https://x.com/hubermanlab/status/2077960108466970842#m",
+      "tweet_author": "hubermanlab",
+      "tweet_text": "Awesome conversation w/@eglyman of @tryramp on @davidsenra podcast. And not incidentally, I love my Ramp card. (We use them at @scicomm \u2014 the company that produces David Senra Podcast, the PERFORM podcast with @DrAndyGalpin &amp; Huberman Lab podcast. Makes accounting so easy.\n\n\nDavid Senra (@davidsenra)\n\nMy conversation with Eric Glyman (@eglyman), co-founder of Ramp (@tryramp).\n\n0:00 Smarter Financial Infrastructure To Run Your Business\n4:01 The North Star Is Time And Money\n10:15 A Determined ",
+      "reply_text": "You praise the Ramp card for easy accounting; does its real-time spend visibility let the podcast shave days off cash\u2011flow forecasting versus a traditional corporate card?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-17T17:55:47.876398+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2416,
+      "sent_to_telegram_at": "2026-07-17T17:55:47.876398+00:00"
+    },
+    {
+      "tweet_id": "2078172110879436830",
+      "tweet_url": "https://x.com/nlw/status/2078172110879436830#m",
+      "tweet_author": "nlw",
+      "tweet_text": "A framework you can copy to let your people build apps and actually get value from them.\n\n\nAlex Lieberman (@businessbarista)\n\n\nArticle\n\n\n\nThe Citizen Developer SDLC\n\nIntroducing Tenex&apos;s Citizen Developer SDLC, a six-stage lifecycle that takes what non-technical employees build with AI from personal prototype to production the whole company can rely on.\nBy Alex\n\n\n\n\n\u2014 https://nitter.net/businessbarista/status/2078159105299038631#m",
+      "reply_text": "You think a six\u2011stage SDLC solves the hidden cost of shadow\u2011IT, but every citizen\u2011built app still needs central governance or you\u2019ll drown in compliance fires.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-17T17:55:47.876398+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 2414,
+      "sent_to_telegram_at": "2026-07-17T17:55:47.876398+00:00"
+    },
+    {
+      "tweet_id": "2077837547233828970",
+      "tweet_url": "https://x.com/JackFarley96/status/2077837547233828970#m",
+      "tweet_author": "JackFarley96",
+      "tweet_text": "AI bull case for Berkshire $BRK.A $BRK.B:\n\nA) Utility prints money\nB) Insurance gets more efficient\nC) Apple paid by models \"service revenue\"\nD) BNSF paid to host data centers on its land \ud83d\ude82\nE) Precision Cast Parts makes turbine blades\n\n\nPhil Rosen (@philrosenn)\n\nBerkshire Hathaway could be an under-appreciated AI winner even without Warren Buffett.\n\nInsurance business could ramp up with AI while the railroad business owns huge amounts of land for potential data center construction.\n\n @JackFarley",
+      "reply_text": "You note June\u202f2023. SVB\u2019s $175\u202fbillion deposit run collapses in days, showing even strong balance sheets can crumble when a niche model meets a tech shock. AI\u2011centric bets may face similar speed\u2011of\u2011event risk.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-17T17:55:47.876398+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2412,
+      "sent_to_telegram_at": "2026-07-17T17:55:47.876398+00:00"
+    },
     {
       "tweet_id": "2078053807695728761",
       "tweet_url": "https://x.com/shl/status/2078053807695728761#m",
