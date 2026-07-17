@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-17T07:08:18.899718+00:00",
+  "last_updated": "2026-07-17T11:12:49.799473+00:00",
   "replies": [
+    {
+      "tweet_id": "2078053807695728761",
+      "tweet_url": "https://x.com/shl/status/2078053807695728761#m",
+      "tweet_author": "shl",
+      "tweet_text": "Past: Customer support does support\n\nPresent: Engineers do support\n\nFuture: C suite does support",
+      "reply_text": "You think the C\u2011suite will field tickets? That\u2019s the death knell for product margins, leadership will be drowned in triage instead of strategy.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-17T11:12:49.799473+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2404,
+      "sent_to_telegram_at": "2026-07-17T11:12:49.799473+00:00"
+    },
+    {
+      "tweet_id": "2077768084471808090",
+      "tweet_url": "https://x.com/natfriedman/status/2077768084471808090#m",
+      "tweet_author": "natfriedman",
+      "tweet_text": "Vesuvius Challenge has been quietly making a lot of progress; we read a full scroll, developed a new unwrapping algorithm with a global spiral prior, and we just launched a new $1M grand prize for reading one of the scrolls we've scanned.\n\nThere are also 10 $50k prizes available for finding text in a scroll we haven't found text in before, plus monthly progress prizes.\n\nJoin the discord!\n\n\nVesuvius Challenge (@scrollprize)\n\nA new phase BEGINS! \ud83d\ude80\n\n\ud83c\udfc6 $1M Grand Prize\n\ud83d\udcb0 $2M+ in open prizes\n\ud83d\udc51 $20K aw",
+      "reply_text": "From the eventual prize\u2011winner\u2019s ledger, a $1\u202fM top award eclipses the ten $50\u202fk side pots, turning each newly decoded line into a high\u2011ROI asset and guaranteeing a surge of specialist teams chasing every fragment.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-17T11:12:49.799473+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2402,
+      "sent_to_telegram_at": "2026-07-17T11:12:49.799473+00:00"
+    },
+    {
+      "tweet_id": "2077723442166784206",
+      "tweet_url": "https://x.com/balajis/status/2077723442166784206#m",
+      "tweet_author": "balajis",
+      "tweet_text": "Should the global tech community continue investing in Malaysia?\n\nGiven recent events, I raise this question respectfully for the consideration of Prime Minister Yang Amat Berhormat Dato\u2019 Seri Anwar bin Ibrahim (@anwaribrahim), for the people of Malaysia, and for our friends in the Malaysian tech community. The answer will be of interest to anyone in global tech that\u2019s considering building, investing, or expanding in Malaysia, including executives at Google, Amazon, Apple, and Microsoft, founder",
+      "reply_text": "You flag Malaysia\u2019s appeal, does the 2025 Digital Economy Blueprint\u2019s 1.2% GDP sovereign fund allocation shift the risk calculus for a Google data center versus a regional fintech hub backed by Khazanah?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-17T11:12:49.799473+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2400,
+      "sent_to_telegram_at": "2026-07-17T11:12:49.799473+00:00"
+    },
     {
       "tweet_id": "2077782183087874139",
       "tweet_url": "https://x.com/RaoulGMI/status/2077782183087874139#m",
