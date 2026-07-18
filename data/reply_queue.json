@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-18T10:55:00.067334+00:00",
+  "last_updated": "2026-07-18T18:25:00.961597+00:00",
   "replies": [
+    {
+      "tweet_id": "2078441164273832292",
+      "tweet_url": "https://x.com/naval/status/2078441164273832292#m",
+      "tweet_author": "naval",
+      "tweet_text": "Regulatory capture by any other name tastes just as sour\u2026\n\n\nDemis Hassabis (@demishassabis)\n\n\nArticle\n\n\n\nA Framework for Frontier AI and the Dawning of a New Age\n\nThis is a pivotal moment in human history. Artificial General Intelligence (AGI), a system that exhibits all the cognitive capabilities the brain has, is probably only a few short years away. When we\n\n\n\n\n\u2014 https://nitter.net/demishassabis/status/2076957440109625718#m",
+      "reply_text": "Q1\u202f2023. The Fed\u2019s emergency bridge loan to Silicon Valley Bank totals $2.5\u202fbillion in 48\u202fhours. Regulators move from overseer to lifeline, echoing today\u2019s AI capture risk. History repeats.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-18T18:25:00.961597+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb, with no compliance issues."
+      },
+      "telegram_message_id": 2442,
+      "sent_to_telegram_at": "2026-07-18T18:25:00.961597+00:00"
+    },
     {
       "tweet_id": "2078219083657462012",
       "tweet_url": "https://x.com/azeem/status/2078219083657462012#m",
