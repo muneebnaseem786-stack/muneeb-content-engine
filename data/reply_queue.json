@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-18T06:52:20.841560+00:00",
+  "last_updated": "2026-07-18T10:55:00.067334+00:00",
   "replies": [
+    {
+      "tweet_id": "2078219083657462012",
+      "tweet_url": "https://x.com/azeem/status/2078219083657462012#m",
+      "tweet_author": "azeem",
+      "tweet_text": "To understand why Moonshot can release a model as strong as Kimi 3, you need to understand China\u2019s efficiency moat\n\nexponentialview.co/p/inside-\u2026\n\nLink\n\n\n\n\ud83d\udd2e\ud83c\udde8\ud83c\uddf3 Inside Chinese AI labs \u2013 American AI sanctions created its toughest competiton\n\nWe quantify China\u2019s efficiency moat and what it means for the future of AI\nexponentialview.co",
+      "reply_text": "Q2\u202f2023 SVB sees $45\u202fB deposit outflow in 48\u202fh after rate shock, wiping out its efficiency moat in days, a reminder that policy pressure can instantly neutralize a seemingly dominant AI lab advantage.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-18T10:55:00.067334+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 2437,
+      "sent_to_telegram_at": "2026-07-18T10:55:00.067334+00:00"
+    },
+    {
+      "tweet_id": "2078322928383607241",
+      "tweet_url": "https://x.com/TaviCosta/status/2078322928383607241#m",
+      "tweet_author": "TaviCosta",
+      "tweet_text": "Mind-blowing.\n\nWe\u2019re mining copper discoveries made over 30 years ago.\n\nNot to mention:\n\nOnly 5% of copper discoveries have been made in the last decade.\n\nsubstack.com/@tavicosta/note\u2026",
+      "reply_text": "If a Saudi\u2011UAE mining partnership channels $5bn into copper projects, could that push the share of discoveries in the last decade above the 5% you note?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-18T10:55:00.067334+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2435,
+      "sent_to_telegram_at": "2026-07-18T10:55:00.067334+00:00"
+    },
     {
       "tweet_id": "2078290764639953165",
       "tweet_url": "https://x.com/sweatystartup/status/2078290764639953165#m",
