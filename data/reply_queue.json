@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-18T18:25:00.961597+00:00",
+  "last_updated": "2026-07-19T07:20:57.854921+00:00",
   "replies": [
+    {
+      "tweet_id": "2078547132085112917",
+      "tweet_url": "https://x.com/Codie_Sanchez/status/2078547132085112917#m",
+      "tweet_author": "codie_sanchez",
+      "tweet_text": "There are only five levels of income:\n\nLevel 1 - you work\nLevel 2 - your team works\nLevel 3 - your systems work\nLevel 4 - your product works\nLevel 5 - your money works",
+      "reply_text": "You treat capital as the last tier, but allocation is the real Level\u202f5\u2014everything else is just a lever to make your money work.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-19T07:20:57.854921+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 2451,
+      "sent_to_telegram_at": "2026-07-19T07:20:57.854921+00:00"
+    },
+    {
+      "tweet_id": "2078462275497988199",
+      "tweet_url": "https://x.com/DavidSacks/status/2078462275497988199#m",
+      "tweet_author": "DavidSacks",
+      "tweet_text": "OH: \u201ci\u2019ve switched to Kimi from claude for a bunch of work. it\u2019s just so much more fun because it just does the thing instead of lecturing you\u201d\n\nWoke lobotomized models are the enemy of American competitiveness.",
+      "reply_text": "Q2\u202f2023. The SEC\u2019s $2\u202fbillion fine on Binance\u2019s U.S. unit curtails crypto innovation, echoing how heavy\u2011handed model censors can blunt U.S. tech edge. The pattern repeats.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-19T07:20:57.854921+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2449,
+      "sent_to_telegram_at": "2026-07-19T07:20:57.854921+00:00"
+    },
     {
       "tweet_id": "2078441164273832292",
       "tweet_url": "https://x.com/naval/status/2078441164273832292#m",
