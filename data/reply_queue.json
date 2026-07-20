@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-20T07:50:18.738972+00:00",
+  "last_updated": "2026-07-20T12:08:14.718507+00:00",
   "replies": [
+    {
+      "tweet_id": "2079026711153504319",
+      "tweet_url": "https://x.com/robinhanson/status/2079026711153504319#m",
+      "tweet_author": "robinhanson",
+      "tweet_text": "\u201csome people want to eat other people, and some other people want to be eaten. To object to this is not to be irrational but to recognize that there are things that people want that might bring them pleasure that are nonetheless bad for them and for those around them, even if others don\u2019t observe these transactions or behaviors directly\u201d \nHe never explains what exactly is bad about this. \nnationalreview.com/magazine/\u2026\n\nLink\n\n\n\nThe Myth of the Amoral Market | National Review\n\nA Nobel Prize\u2013winnin",
+      "reply_text": "You cite the myth of an amoral market, yet the 2008 crisis erased $22\u202ftrillion in global wealth, showing why unchecked market behavior can devastate societies.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-20T12:08:14.718507+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2481,
+      "sent_to_telegram_at": "2026-07-20T12:08:14.718507+00:00"
+    },
+    {
+      "tweet_id": "2079156121013817578",
+      "tweet_url": "https://x.com/RyanDetrick/status/2079156121013817578#m",
+      "tweet_author": "RyanDetrick",
+      "tweet_text": "Apple had what had to have been the least discussed or exciting new high in history last week.\n\nWell, now it is on the cusp of overtaking Nivida as the most valuable company in the world for the first time since May '25.\n\nWhen new highs happen and no one cares, I find that extremely bullish.",
+      "reply_text": "You spot the rally, but from the bond market side it\u2019s the cheap-rate environment doing the heavy lifting, 10-yr yields at 4% let Apple\u2019s cap hit $3 trillion while fixed income captures the spread premium.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-20T12:08:14.718507+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2479,
+      "sent_to_telegram_at": "2026-07-20T12:08:14.718507+00:00"
+    },
+    {
+      "tweet_id": "2079160830482956559",
+      "tweet_url": "https://x.com/tylercowen/status/2079160830482956559#m",
+      "tweet_author": "TylerCowen",
+      "tweet_text": "Emergent Ventures winners, 56th cohort: marginalrevolution.com/margi\u2026, Europeans on the move!\n\nLink\n\n\n\nEmergent Ventures winners, 56th cohort - Marginal REVOLUTION\n\nAudrey London, Los Angeles, to write a book on water in California. Seyi Oluwasanmi, London, to bring Brits to SF to learn tech. Thomas Haferlach, Berlin, payments and compute layer for the long tail...\nmarginalrevolution.com",
+      "reply_text": "If Thomas\u202fHaferlach\u2019s long\u2011tail payments stack scales, will it need a dedicated sandbox in the UAE to bridge EU fintech licences with the 2025 Dubai crypto\u2011settlement framework?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-20T12:08:14.718507+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb, with no compliance issues."
+      },
+      "telegram_message_id": 2477,
+      "sent_to_telegram_at": "2026-07-20T12:08:14.718507+00:00"
+    },
     {
       "tweet_id": "2078614540862828591",
       "tweet_url": "https://x.com/bramk/status/2078614540862828591#m",
