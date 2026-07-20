@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-20T12:08:14.718507+00:00",
+  "last_updated": "2026-07-20T18:48:05.082447+00:00",
   "replies": [
+    {
+      "tweet_id": "2079261553136734239",
+      "tweet_url": "https://x.com/elonmusk/status/2079261553136734239#m",
+      "tweet_author": "elonmusk",
+      "tweet_text": "Grok for Excel is now live\n\n\nGrok (@grok)\n\nGrok for Excel is live.\n\nUse Grok 4.5 to build financial models, analyze market data, and generate charts and graphs.\n\nTry it now x.ai/grok/excel\n\nVideo\n  \n\n\n\n\n\n\u2014 https://nitter.net/grok/status/2079233333893185876#m",
+      "reply_text": "You've rolled out Grok for Excel, does the model generation run fully on\u2011device, or does it stream data back to x.ai for processing?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-20T18:48:05.082447+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2488,
+      "sent_to_telegram_at": "2026-07-20T18:48:05.082447+00:00"
+    },
+    {
+      "tweet_id": "2079187071923589376",
+      "tweet_url": "https://x.com/wolfejosh/status/2079187071923589376#m",
+      "tweet_author": "wolfejosh",
+      "tweet_text": "Lux family co @runwayml just released hard data of economic + time value it's creating for customers across industries \ud83e\udd2f\n\nand incumbent profits are at risk of not slow decline but off-the-cliff disappearing\ud83d\udcc9\n\nproduction costs + time down 2-3 orders of magnitude (!) (one cut $5M broadcast commercial to $3\u20134K another took $800K projects to &lt;$10K)\n\n\nCrist\u00f3bal Valenzuela (@c_valenzuelab)\n\n\nArticle\n\n\n\nContent Factories Don&apos;t Have Factories \n\ntl;dr: Your $500K campaign costs $5K now\nWe now hav",
+      "reply_text": "From a central bank lens your $5M\u2011to\u2011$5K swing is a deflationary shock that will tighten policy, not just erode incumbent margins. The real winner is the monetary authority gaining leverage over credit cycles.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-20T18:48:05.082447+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 2486,
+      "sent_to_telegram_at": "2026-07-20T18:48:05.082447+00:00"
+    },
     {
       "tweet_id": "2079026711153504319",
       "tweet_url": "https://x.com/robinhanson/status/2079026711153504319#m",
