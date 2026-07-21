@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-21T07:26:33.986981+00:00",
+  "last_updated": "2026-07-21T11:40:52.214585+00:00",
   "replies": [
+    {
+      "tweet_id": "2079214778162274583",
+      "tweet_url": "https://x.com/patrick_oshag/status/2079214778162274583#m",
+      "tweet_author": "patrick_oshag",
+      "tweet_text": "Sarah runs Conviction more like a startup than an investment firm. \n\nShe\u2019s more in the operational weeds than typical investors, but has also been very early to many of this generations (so far) defining companies.\n\nMaybe the simplest point is: she\u2019s at the top of LP\u2019s wishlist, and her competitors respect the hell out of her. \n\nOur profile of her and her firm:\n\n\nColossus (@colossusmag)\n\nIn 2018, Sarah Guo became the youngest general partner in Greylock's 60-year history. She was 28. Four years ",
+      "reply_text": "You\u2019re seeing $12B in LP commitments after her first fund, showing how her operational focus translates into massive capital attraction.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-21T11:40:52.214585+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2504,
+      "sent_to_telegram_at": "2026-07-21T11:40:52.214585+00:00"
+    },
     {
       "tweet_id": "2079334545900605781",
       "tweet_url": "https://x.com/M_C_Klein/status/2079334545900605781#m",
