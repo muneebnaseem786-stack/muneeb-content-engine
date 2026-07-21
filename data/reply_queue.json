@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-21T11:40:52.214585+00:00",
+  "last_updated": "2026-07-21T18:07:41.758795+00:00",
   "replies": [
+    {
+      "tweet_id": "2079628731757535414",
+      "tweet_url": "https://x.com/BretWeinstein/status/2079628731757535414#m",
+      "tweet_author": "BretWeinstein",
+      "tweet_text": "Is the Charlie Kirk case more like Covid, where we will be able to have a rational public discussion about it in 5 years, or will it be more like JFK where it will take  decades?",
+      "reply_text": "You see it as a debate length, but for bondholders the credit spread widened immediately and will stay until the settlement hits the balance sheet, the market has already priced the decades\u2011long risk.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-21T18:07:41.758795+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2510,
+      "sent_to_telegram_at": "2026-07-21T18:07:41.758795+00:00"
+    },
+    {
+      "tweet_id": "2079549901042569562",
+      "tweet_url": "https://x.com/charliebilello/status/2079549901042569562#m",
+      "tweet_author": "charliebilello",
+      "tweet_text": "IBM's -25% decline in a single trading day last week was the biggest ever for the 115-year-old company and a 15-sigma event.\n\nThat basically means it should not have happened even once in the history of the universe.\n\nBut it did, and given enough time it will happen again, because financial markets don't follow a normal distribution.\n\n$IBM",
+      "reply_text": "Q1\u202f2023. SVB\u2019s stock drops ~60% in a single session after the deposit run, and Credit\u202fSwiss shares slide ~50% that week. Extreme moves keep proving markets are fat\u2011tailed.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-21T18:07:41.758795+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb."
+      },
+      "telegram_message_id": 2508,
+      "sent_to_telegram_at": "2026-07-21T18:07:41.758795+00:00"
+    },
     {
       "tweet_id": "2079214778162274583",
       "tweet_url": "https://x.com/patrick_oshag/status/2079214778162274583#m",
