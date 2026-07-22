@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-22T11:41:03.366429+00:00",
+  "last_updated": "2026-07-22T18:00:25.280791+00:00",
   "replies": [
+    {
+      "tweet_id": "2079635065743511624",
+      "tweet_url": "https://x.com/matt_levine/status/2079635065743511624#m",
+      "tweet_author": "matt_levine",
+      "tweet_text": "While not guaranteed, this newsletter could easily turn up gold, industry experts say. bloomberg.com/opinion/newsle\u2026\n\nLink\n\n\n\nLSE Will Trade 22.83 Hours a Day\n\nAlso BlackRock vs. BlackRock, the Warner ticking fee, Polymarket insider trading and data center gold mining.\nbloomberg.com",
+      "reply_text": "You flag LSE\u2019s 22.8\u2011hour day and Polymarket chatter. Q2\u202f2023 sees SVB\u2019s deposit run collapse in 36\u202fhours, and Credit Suisse folds into UBS that same weekend, real\u2011time pressure reshapes liquidity. History repeats.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-22T18:00:25.280791+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2537,
+      "sent_to_telegram_at": "2026-07-22T18:00:25.280791+00:00"
+    },
+    {
+      "tweet_id": "2079775327539339329",
+      "tweet_url": "https://x.com/swyx/status/2079775327539339329#m",
+      "tweet_author": "swyx",
+      "tweet_text": "at some point in your engineering career, a wizened graybeard is going to lecture you about the importance of independently separable control plane vs data plane.\n\nit is very important that you listen.\n\n(and then try to learn about the management plane as early as you can..)\n\n\nCognition (@cognition)\n\nIntroducing Devin Outposts: run Devin on any machine.\n\nYour Mac mini, a GPU box in your lab, a VM inside your private network, or a Kubernetes cluster next to your internal services.\n\n  \n\n\n\n\n\u2014 https",
+      "reply_text": "From a regulator\u2019s lens the separation you champion turns every Devin outpost into a controllable audit node, letting central banks monitor data\u2011plane activity without touching your control logic.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-22T18:00:25.280791+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2535,
+      "sent_to_telegram_at": "2026-07-22T18:00:25.280791+00:00"
+    },
+    {
+      "tweet_id": "2079970413484937261",
+      "tweet_url": "https://x.com/auren/status/2079970413484937261#m",
+      "tweet_author": "auren",
+      "tweet_text": "most underrated use of AI in writing is making it funnier. the funny line is never the first line, it's the 40th. \nlate night employs twelve people whose entire job is writing versions 1 through 39. that job is now a keyboard shortcut.",
+      "reply_text": "You can now spin out 1,200 joke variants per minute, cutting creative labor by\u202f>90%.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-22T18:00:25.280791+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2533,
+      "sent_to_telegram_at": "2026-07-22T18:00:25.280791+00:00"
+    },
     {
       "tweet_id": "2079610838143623371",
       "tweet_url": "https://x.com/karpathy/status/2079610838143623371#m",
