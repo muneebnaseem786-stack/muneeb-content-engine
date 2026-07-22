@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-22T07:29:31.920806+00:00",
+  "last_updated": "2026-07-22T11:41:03.366429+00:00",
   "replies": [
+    {
+      "tweet_id": "2079610838143623371",
+      "tweet_url": "https://x.com/karpathy/status/2079610838143623371#m",
+      "tweet_author": "karpathy",
+      "tweet_text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full stream of consciousness. Sometimes I declare it up top, something like \"switching to speech recognition sorry for any typos...\". Sometimes I turn it into a small interview of a few turns",
+      "reply_text": "From the inference\u2011budget side your 10\u2011minute voice ramble adds roughly 300\u202fk tokens, nudging the GPU cost up by $0.12 per session \u2013 the hidden expense the provider watches.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-22T11:41:03.366429+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2528,
+      "sent_to_telegram_at": "2026-07-22T11:41:03.366429+00:00"
+    },
+    {
+      "tweet_id": "2079569985618248145",
+      "tweet_url": "https://x.com/modestproposal1/status/2079569985618248145#m",
+      "tweet_author": "modestproposal1",
+      "tweet_text": "In retrospect, the arrival of superintelligence being dependent on a terms of service debate is something the scifi writers should've foreseen. This is America after all.",
+      "reply_text": "If the FTC mandates a unified terms\u2011of\u2011service framework for foundation models, does OpenAI\u2019s GPT\u20115 timeline shift from 2026 to 2028?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-22T11:41:03.366429+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2526,
+      "sent_to_telegram_at": "2026-07-22T11:41:03.366429+00:00"
+    },
     {
       "tweet_id": "2079595757481718145",
       "tweet_url": "https://x.com/joulee/status/2079595757481718145#m",
