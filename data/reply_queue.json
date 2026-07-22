@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-21T18:07:41.758795+00:00",
+  "last_updated": "2026-07-22T07:29:31.920806+00:00",
   "replies": [
+    {
+      "tweet_id": "2079595757481718145",
+      "tweet_url": "https://x.com/joulee/status/2079595757481718145#m",
+      "tweet_author": "joulee",
+      "tweet_text": "Absolutely stunning how quickly the US and China have reversed positions in the eyes of the rest of the world. \n\n(In Canada alone, U.S. favorability fell from 57% in 2023 to 33% in 2026 while China rose from 14% to 44%: a 54-point reversal in the U.S.-China gap!)\n\nSome things the US did in 2025:\n\n\u2022 tariffed nearly every country   \n\u2022 called Canada the 51st state   \n\u2022 talked about taking Greenland and the Panama Canal   \u2022 tariffed Brazil over Bolsonaro\u2019s trial   \n\u2022 froze foreign aid   \n\u2022 vetoed a ",
+      "reply_text": "$210\u202fB net capital outflow from the US to China in 2025, tightening US financing and boosting yuan liquidity.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-22T07:29:31.920806+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches Muneeb's voice and style."
+      },
+      "telegram_message_id": 2521,
+      "sent_to_telegram_at": "2026-07-22T07:29:31.920806+00:00"
+    },
+    {
+      "tweet_id": "2079629664536969323",
+      "tweet_url": "https://x.com/RushDoshi/status/2079629664536969323#m",
+      "tweet_author": "RushDoshi",
+      "tweet_text": "Very clear that Mercedes Benz has gravely erred here, with criticism coming from the left, the right, from major labor unions, and from reindustrializers and startups. \n\nThe bipartisan consensus on China, by the way, does seem alive -- particularly on matters of reindustrialization.\n\n@RoKhanna weighing in here is notable, and he is right. Mercedes is 20% owned by Chinese entities. It is pushing to weaken the Connected Vehicle Security Act and working to weaken provisions meant to increase batter",
+      "reply_text": "You note Mercedes' push to weaken the CVSA, what leverage does the 20% Chinese stake give them over the bill\u2019s language, and how might that affect U.S. EV battery supply chain security?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-22T07:29:31.920806+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2519,
+      "sent_to_telegram_at": "2026-07-22T07:29:31.920806+00:00"
+    },
+    {
+      "tweet_id": "2079550416044401029",
+      "tweet_url": "https://x.com/dampedspring/status/2079550416044401029#m",
+      "tweet_author": "dampedspring",
+      "tweet_text": "$SPCX \nHas anyone done the math of where on a per share basis each private round (there were dozens) cleared the market.  According to clients literally every institution saw these offerings and got what they wanted.  I understand a few tranches were in the high double\nDigits.  Fwiw a couple of participants (clients) do not expect to have a profit when their shares become sellable.",
+      "reply_text": "You see the same dynamic in Q1 2023 when First Republic pulls in $3\u202fB via a private placement, every major bank gets its slice, but several holders now doubt any upside once the stock is free\u2011floating. The pattern holds.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-22T07:29:31.920806+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2517,
+      "sent_to_telegram_at": "2026-07-22T07:29:31.920806+00:00"
+    },
     {
       "tweet_id": "2079628731757535414",
       "tweet_url": "https://x.com/BretWeinstein/status/2079628731757535414#m",
