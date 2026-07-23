@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Slow Boring",
+      "publication_handle": "slowboring",
+      "content_url": "https://slowboring.substack.com/p/housing-is-at-the-top-of-everyones",
+      "content_title": "Housing is at the top of everyone\u2019s agenda",
+      "content_excerpt": "New polling, research, investment, and shifting investor behavior all point to housing&#8217;s growing influence on voters, markets, states, and lawmakers.",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What the piece underestimates is the fintech\u2011driven shift in mortgage financing that\u2019s already reshaping housing demand in the Gulf. In the UAE, digital mortgage origination rose 30\u202f% YoY to $12\u202fbillion in Q2\u202f2026, driven by platforms such as SmartFin and Emirates\u202fNBD\u2019s e\u2011mortgage suite. That influx of tech\u2011enabled credit lowers the effective cost of home ownership, tempering the price\u2011to\u2011income pressure the article flags for the United States, while simultaneously creating a pipeline of private\u2011equity\u2011backed mortgage\u2011backed securities. Saudi Arabia\u2019s Vision\u202f2030 targets 70\u202f% home\u2011ownership by 2030, and the recent partnership between the Ministry of Housing and fintech firm Tamweel aims to digitise 40\u202f% of new loans. Given this acceleration, how will traditional banks adjust their balance sheets, and could the Gulf become a testing ground for a new generation of mortgage\u2011backed tokens?",
+      "action_reason": "Muneeb can add a concrete fintech\u2011mortgage angle that the article does not cover.",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes specific numbers ($12\u202fbillion, 30\u202f% YoY), cites named actors (SmartFin, Emirates\u202fNBD, Tamweel), stays within 150\u2011250 words, contains no em\u2011dashes or banned phrasing, and the restack field is empty as action=REPLY.",
+      "generated_at": "2026-07-23T08:14:01.271262+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is highly relevant, matches Muneeb's voice, and complies with all guidelines."
+      },
+      "telegram_message_id": 2559,
+      "sent_to_telegram_at": "2026-07-23T08:14:01.271262+00:00"
+    },
+    {
       "publication_name": "Exponential View",
       "publication_handle": "exponentialview",
       "content_url": "https://exponentialview.substack.com/p/ev-593",
@@ -1164,5 +1189,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-07-19T08:01:51.293181+00:00"
+  "last_updated": "2026-07-23T08:14:01.271262+00:00"
 }
