@@ -1,6 +1,141 @@
 {
   "posts": [
     {
+      "source": "x:@KobeissiLetter",
+      "source_url": "https://x.com/KobeissiLetter/status/2080126174991126689#m",
+      "source_headline": "BREAKING: US oil prices surge above $88/barrel as the Iran War continues to escalate.\n\nOil prices are now up +31% since July 2nd.",
+      "source_handle": "KobeissiLetter",
+      "image_url": "https://pbs.twimg.com/media/HN4XuKIXMAAP9km.jpg",
+      "topic": "Oil price rally amid Iran\u2011War risk premium",
+      "format": "single_tweet",
+      "x_post": "Oil\u2019s 31\u202f% surge since July\u202f2 is the steepest weekly climb since the 2022 spike, yet physical shipments have stayed flat. The rally is a pure risk premium that evaporates once the Red Sea threat eases, likely by month\u2011end.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011style wording. Move identified: Historical comparison. Includes specific number (31\u202f%). No negations, no hedging, no first\u2011person. Opinion present \u2013 rally is a temporary risk premium.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-23T07:33:49.965189+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 2555,
+      "sent_to_telegram_at": "2026-07-23T07:33:51.469853+00:00"
+    },
+    {
+      "source": "x:@JackFarley96",
+      "source_url": "https://x.com/JackFarley96/status/2080037991351746766#m",
+      "source_headline": "To put this in perspective, Google's CapEx in the next two quarters (Q3 &amp; Q4) will likely be higher than expectations were in January FOR THE ENTIRE YEAR.\n\n",
+      "source_handle": "JackFarley96",
+      "image_url": null,
+      "topic": "Alphabet raises capex guidance to $195\u2011205\u202fbn",
+      "format": "single_tweet",
+      "x_post": "Alphabet\u2019s new $195\u2011205\u202fbn capex guide eclipses the entire 2023 spend of most telecoms, reshaping Google into a utility\u2011scale builder rather than a software\u2011only shop. The jump alone exceeds the prior $180\u2011190\u202fbn range, a scale shift few analysts are pricing in.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011style phrasing. Move identified: Reframe analogy. Specific numbers ($195\u2011205\u202fbn, $180\u2011190\u202fbn, 2023 telecom capex ~ $30\u202fbn). No negations, no hedging, no first\u2011person. Opinion clear \u2013 Google is becoming a utility\u2011scale builder.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-23T07:33:47.898321+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 2553,
+      "sent_to_telegram_at": "2026-07-23T07:33:48.965012+00:00"
+    },
+    {
+      "source": "x:@charliebilello",
+      "source_url": "https://x.com/charliebilello/status/2080132394586141173#m",
+      "source_headline": "Google Q2 Revenues increased 24% YoY a new record high of $120 billion. Net Income increased 298% YoY to a record $112 billion, of which $98 billion (87%) came ",
+      "source_handle": "charliebilello",
+      "image_url": "https://pbs.twimg.com/media/HN4an3IWsAAG4M8.png",
+      "topic": "Google earnings \u2013 unrealized gains dominate net income",
+      "format": "single_tweet",
+      "x_post": "Google's $112\u202fbn net profit is 87\u202f% unrealized equity gains \u2013 it\u2019s acting less like a search engine and more like a venture fund. When 82\u202f% cloud growth fuels a $25\u202fbn top line, the balance sheet looks like a private\u2011equity play, not a digital\u2011ad business.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011style summary found. Move identified: Reframe analogy. Contains specific numbers (87\u202f%, $112\u202fbn, 82\u202f%, $25\u202fbn). No negations, no hedging, no first\u2011person. Opinion present \u2013 Google is a venture fund, not a search engine.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-23T07:33:45.428813+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 2550,
+      "sent_to_telegram_at": "2026-07-23T07:33:46.898148+00:00"
+    },
+    {
       "source": "x:@RyanDetrick",
       "source_url": "https://x.com/RyanDetrick/status/2071020089189577180#m",
       "source_headline": "Michael McDonough (@M_McDonough)\n\n*Hormuz Vessel Crossing Update, Back down to 24  \n\nThe pullback to 24 reflects renewed escalation: the U.S. conducted fresh st",
@@ -22948,5 +23083,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-06-28T08:22:31.830299+00:00"
+  "last_updated": "2026-07-23T07:33:52.470013+00:00"
 }
