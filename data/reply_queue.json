@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-22T18:00:25.280791+00:00",
+  "last_updated": "2026-07-23T07:26:52.203264+00:00",
   "replies": [
+    {
+      "tweet_id": "2079998277156757767",
+      "tweet_url": "https://x.com/elidourado/status/2079998277156757767#m",
+      "tweet_author": "elidourado",
+      "tweet_text": "Rux is correct!\n\n\nRuxandra Teslo \ud83e\uddec (@RuxandraTeslo)\n\nIn certain tech circles, it has become low-status to suggest that AGI won't automatically solve everything. I think models will continue to get smarter, but intelligence is often not the main bottleneck to physical world change. \n\nMore below \ud83d\udc47\n\nwritingruxandrabio.com/p/int\u2026\n\nSome points the article makes:\n\n1. Intelligence is often not the main bottleneck\n\nIncreasingly, when I talk to people at AI labs, I keep hearing the same thing: that worki",
+      "reply_text": "You note intelligence isn\u2019t the bottleneck; Q2 2023, SVB sees $175 B deposit outflow in days, triggers systemic panic. Credit Suisse logs $17 B loss that quarter, forces UBS merger. Data pipelines, not model smarts, drive outcomes.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-23T07:26:52.203264+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2548,
+      "sent_to_telegram_at": "2026-07-23T07:26:52.203264+00:00"
+    },
+    {
+      "tweet_id": "2080041658582798820",
+      "tweet_url": "https://x.com/paulg/status/2080041658582798820#m",
+      "tweet_author": "paulg",
+      "tweet_text": "Startups valued in the billions now do rounds in the hundreds of millions on safes. The unexpected versatility of this instrument shows what a good job Carolynn Levy did when she designed it.",
+      "reply_text": "From the bond market side, the flood of SAFE capital is a low\u2011cost liability that improves balance sheets and lets issuers shave interest spreads, a win for fixed\u2011income investors seeking higher yields in a low\u2011rate world.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-23T07:26:52.203264+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2546,
+      "sent_to_telegram_at": "2026-07-23T07:26:52.203264+00:00"
+    },
     {
       "tweet_id": "2079635065743511624",
       "tweet_url": "https://x.com/matt_levine/status/2079635065743511624#m",
