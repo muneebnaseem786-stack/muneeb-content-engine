@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-23T07:26:52.203264+00:00",
+  "last_updated": "2026-07-23T11:44:45.215601+00:00",
   "replies": [
+    {
+      "tweet_id": "2080058730305962164",
+      "tweet_url": "https://x.com/ianbremmer/status/2080058730305962164#m",
+      "tweet_author": "IanBremmer",
+      "tweet_text": "it\u2019s extraordinary that a president who won election\u2014twice\u2014promising no new wars has for nearly six months been completely consumed by a new war entirely of his choosing.",
+      "reply_text": "You\u2019re watching $500\u202fbn of extra Treasury debt added in six months, squeezing fiscal flexibility for other priorities.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-23T11:44:45.215601+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2564,
+      "sent_to_telegram_at": "2026-07-23T11:44:45.215601+00:00"
+    },
     {
       "tweet_id": "2079998277156757767",
       "tweet_url": "https://x.com/elidourado/status/2079998277156757767#m",
