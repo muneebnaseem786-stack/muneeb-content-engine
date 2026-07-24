@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-23T18:05:48.160138+00:00",
+  "last_updated": "2026-07-24T07:24:21.078973+00:00",
   "replies": [
+    {
+      "tweet_id": "2080366568534684040",
+      "tweet_url": "https://x.com/jasonlk/status/2080366568534684040#m",
+      "tweet_author": "jasonlk",
+      "tweet_text": "Replit lowers many prices by 30%-50% \n\nLove these guys\n\n(Meanwhile, Marketo adds no new features in 10 years and raises prices again 12% this year.  Goodbye!)\n\n\nReplit \u2815 (@Replit)\n\nYour apps get the new rates automatically, which match or beat industry benchmarks.\n\nPricing updates take effect for all users from your next monthly term. Check it out.\n\ndocs.replit.com/billing/aug-\u2026\n\nLink\n\n\n\nReplit Docs\n\nDocs for Replit, the fastest place to go from idea to app.\ndocs.replit.com\n\n\n\n\n\u2014 https://nitter.",
+      "reply_text": "From the cloud\u2011provider side the Replit cuts are a volume driver, more dev containers, more billable hours, whereas Marketo\u2019s price hike simply shifts cost within an already high\u2011margin SaaS, leaving the underlying infra spend flat.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-24T07:24:21.078973+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 2579,
+      "sent_to_telegram_at": "2026-07-24T07:24:21.078973+00:00"
+    },
+    {
+      "tweet_id": "2080489978300174576",
+      "tweet_url": "https://x.com/biancoresearch/status/2080489978300174576#m",
+      "tweet_author": "biancoresearch",
+      "tweet_text": "The repost details the biggest risk for a crude oil long position... and as the chart shows, the rally has stalled (for now).\n\n\n\n\nNeil Stone (@DrNeilStone)\n\nThe likelihood is that Trump will announce tomorrow  \n\n\"a massive planned attack on Iran has been called off at the last minute because they want a deal\"\n\nDeja vu\n\n\n\n\u2014 https://nitter.net/DrNeilStone/status/2080364364876431786#m",
+      "reply_text": "If the US calls off a strike on Iran tomorrow, does your risk assessment now hinge more on Saudi spare\u2011capacity decisions than on OPEC+ output cuts?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-24T07:24:21.078973+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 2577,
+      "sent_to_telegram_at": "2026-07-24T07:24:21.078973+00:00"
+    },
     {
       "tweet_id": "2080352913302397367",
       "tweet_url": "https://x.com/Trace_Cohen/status/2080352913302397367#m",
