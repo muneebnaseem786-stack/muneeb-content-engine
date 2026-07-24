@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-07-24T11:28:57.922637+00:00",
+  "last_updated": "2026-07-24T18:09:34.800014+00:00",
   "replies": [
+    {
+      "tweet_id": "2080616077143265760",
+      "tweet_url": "https://x.com/JonErlichman/status/2080616077143265760#m",
+      "tweet_author": "JonErlichman",
+      "tweet_text": "On this day in 1950: the first rocket launch at Cape Canaveral.\n\n(Starship today is 6.6x taller)",
+      "reply_text": "You note the height jump, if Starship cuts launch cost to $2/kg, will satellite operators move from debt\u2011heavy financing to equity\u2011light models, echoing the 1950 government launch subsidy era?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-24T18:09:34.800014+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2600,
+      "sent_to_telegram_at": "2026-07-24T18:09:34.800014+00:00"
+    },
+    {
+      "tweet_id": "2080671908668866628",
+      "tweet_url": "https://x.com/jasoncrawford/status/2080671908668866628#m",
+      "tweet_author": "jasoncrawford",
+      "tweet_text": "This seems like a good idea\n\nAnd many variations thereon\n\n\nDavid (@DavidSHolz)\n\nwonder how long until one of the major labs throws every named open conjecture into 10,000 random agent sessions and just lets it rip for a weekend\n\n\n\n\u2014 https://nitter.net/DavidSHolz/status/2080495014640230408#m",
+      "reply_text": "You\u2019d generate\u202f2.3\u202f\u00d7\u202f10\u2079\u202fsimulation steps in a weekend, exposing systemic failure patterns.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-24T18:09:34.800014+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2598,
+      "sent_to_telegram_at": "2026-07-24T18:09:34.800014+00:00"
+    },
+    {
+      "tweet_id": "2080391401251000476",
+      "tweet_url": "https://x.com/ByrneHobart/status/2080391401251000476#m",
+      "tweet_author": "byrnehobart",
+      "tweet_text": "It finally happened: the midpoint of Google's capex guide for this year is higher than their cumulative capex from founding through the launch of ChatGPT.\n\n\nByrne Hobart (@ByrneHobart)\n\nGoogle's capex guide this year is higher than their cumulative capex from founding through the end of 2021.\n\n\n\n\u2014 https://nitter.net/ByrneHobart/status/2019173881580511267#m",
+      "reply_text": "You\u2019re highlighting the raw scale, but from the bondholder side this translates into a new supply of senior debt that will push yields up and set a floor for future tech financing.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-24T18:09:34.800014+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2596,
+      "sent_to_telegram_at": "2026-07-24T18:09:34.800014+00:00"
+    },
     {
       "tweet_id": "2080441254484279516",
       "tweet_url": "https://x.com/PauloMacro/status/2080441254484279516#m",
