@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-25T07:08:13.034336+00:00",
+  "last_updated": "2026-07-25T11:00:13.424053+00:00",
   "replies": [
+    {
+      "tweet_id": "2080707785910534147",
+      "tweet_url": "https://x.com/fchollet/status/2080707785910534147#m",
+      "tweet_author": "fchollet",
+      "tweet_text": "Opus 5 sets a new state-of-the-art on ARC-AGI-3, at 30%.\n\nARC-AGI-3 measures solving problems with no prior exposure -- the setting where scaling has historically bought the least. Impressive jump!\n\n\nClaude (@claudeai)\n\nOn ARC-AGI-3, an evaluation where AI models must solve novel problems, Opus 5\u2019s score is three times as high as the next best model.\n\n\n\n\n\n\u2014 https://nitter.net/claudeai/status/2080699504576045299#m",
+      "reply_text": "You\u2019ve pushed Opus\u202f5 to 30% on ARC\u2011AGI\u20113, but regulators will now see a three\u2011fold jump in untested capability, prompting tighter oversight on deploying models that solve truly novel problems.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-25T11:00:13.424053+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2616,
+      "sent_to_telegram_at": "2026-07-25T11:00:13.424053+00:00"
+    },
     {
       "tweet_id": "2080763671022616855",
       "tweet_url": "https://x.com/bgurley/status/2080763671022616855#m",
