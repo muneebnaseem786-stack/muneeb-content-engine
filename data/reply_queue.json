@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-24T18:09:34.800014+00:00",
+  "last_updated": "2026-07-25T07:08:13.034336+00:00",
   "replies": [
+    {
+      "tweet_id": "2080763671022616855",
+      "tweet_url": "https://x.com/bgurley/status/2080763671022616855#m",
+      "tweet_author": "bgurley",
+      "tweet_text": "With these security/\u201cdanger\u201d claims from AI companies, we need a third party lab dedicated to independent reproducibility (and public disclosure). They create chaos with these blogs/press releases, but only they know what really happened. \n\nObviously this is much easier with open models (which is why open source software is demonstrably safer). But I think it could still work. \n\nYou shouldn\u2019t be allowed to declare \u201cdanger\u201d and create chaos if other people can\u2019t verify what you are claiming.",
+      "reply_text": "From a regulator\u2019s angle the \u201cdanger\u201d alerts you criticize are the early warning the central bank relies on to pre\u2011empt systemic AI\u2011driven shocks; waiting for a public lab would leave the financial system blind.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-25T07:08:13.034336+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2610,
+      "sent_to_telegram_at": "2026-07-25T07:08:13.034336+00:00"
+    },
+    {
+      "tweet_id": "2080700057892815114",
+      "tweet_url": "https://x.com/danshipper/status/2080700057892815114#m",
+      "tweet_author": "danshipper",
+      "tweet_text": "BREAKING: Claude Opus 5 is OUT NOW!\n\nAnd\u2026it\u2019s a hard model to love.\n\nWe\u2019ve spent the last week @every testing it across coding, writing, knowledge work, and our internal agent.\n\nIt argued with instructions, stopped before the work was finished, and generally didn\u2019t play well with our existing skills and plugins like Compound Engineering. Our first reaction was: What have they done to my boy?\n\nThen we deleted our existing skills and started from scratch.\n\nWithout the elaborate workflows we had bu",
+      "reply_text": "Q2 2022. TerraUSD depegs, $30bn evaporates, forcing developers to rebuild on new stablecoin designs. You feel the same reset.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-25T07:08:13.034336+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2608,
+      "sent_to_telegram_at": "2026-07-25T07:08:13.034336+00:00"
+    },
     {
       "tweet_id": "2080616077143265760",
       "tweet_url": "https://x.com/JonErlichman/status/2080616077143265760#m",
