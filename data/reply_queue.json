@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-25T11:00:13.424053+00:00",
+  "last_updated": "2026-07-25T17:47:42.800189+00:00",
   "replies": [
+    {
+      "tweet_id": "2081047912008872293",
+      "tweet_url": "https://x.com/rauchg/status/2081047912008872293#m",
+      "tweet_author": "rauchg",
+      "tweet_text": "Article\n\n\n\nAgents escaping containment\n\nAfter OpenAI reported that Hugging Face was hacked by AI agents powered by their models, people have (rightfully) raised cybersecurity and even existential worries. I&apos;m not worried, and I want to",
+      "reply_text": "You dismiss the breach, but a single rogue agent could trigger a $30B flash\u2011crash in crypto settlement pipelines.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-25T17:47:42.800189+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2621,
+      "sent_to_telegram_at": "2026-07-25T17:47:42.800189+00:00"
+    },
     {
       "tweet_id": "2080707785910534147",
       "tweet_url": "https://x.com/fchollet/status/2080707785910534147#m",
