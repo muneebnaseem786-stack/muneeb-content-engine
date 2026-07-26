@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-26T11:56:41.250830+00:00",
+  "last_updated": "2026-07-26T17:52:43.053399+00:00",
   "replies": [
+    {
+      "tweet_id": "2081432465881616495",
+      "tweet_url": "https://x.com/TheStalwart/status/2081432465881616495#m",
+      "tweet_author": "TheStalwart",
+      "tweet_text": "I suppose Anthropic could still sign the letter. Might be tempting to join the likes of IBM, Marianna Minerals, Denny\u2019s, A16Z and ServiceNow.\n\n\nScott Wessman (@scottew)\n\nBig fan of open models, but I have to say that the company that came away from yesterday's love-fest with the most aura was Anthropic \u00af\\_(\u30c4)_/\u00af\n\n\n\n\u2014 https://nitter.net/scottew/status/2081059546680934403#m",
+      "reply_text": "You see Anthropic potentially signing, does that lock its Azure compute discount tighter, or could a joint sign\u2011on force the cloud providers to standardize open\u2011model API pricing across IBM, ServiceNow and the rest?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-26T17:52:43.053399+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2639,
+      "sent_to_telegram_at": "2026-07-26T17:52:43.053399+00:00"
+    },
+    {
+      "tweet_id": "2081396796174282900",
+      "tweet_url": "https://x.com/sama/status/2081396796174282900#m",
+      "tweet_author": "sama",
+      "tweet_text": "chatgpt work is remarkable, and \"work\" undersells it.\n\nfrom my phone i sent:\n\n\"use all my chat history to figure out ideas for a long weekend trip with 8 friends, plan the best three options, make a full-stack site where the 9 of us can coordinate on what we would want to do in each place and decide where to go, and then after we get to group agreement make reservations. draft an email in my gmail i can send out to my friends when the site is ready.\"\n\nit...just worked.",
+      "reply_text": "Q2\u202f2022. Terra\u2019s algorithmic stablecoin depegs $45B in weeks, triggering a cascade of liquidations that reshaped crypto risk models. Your AI\u2011driven workflow shows similar speed, just remember speed can amplify shock.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-26T17:52:43.053399+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2637,
+      "sent_to_telegram_at": "2026-07-26T17:52:43.053399+00:00"
+    },
     {
       "tweet_id": "2081153980294648186",
       "tweet_url": "https://x.com/simonw/status/2081153980294648186#m",
