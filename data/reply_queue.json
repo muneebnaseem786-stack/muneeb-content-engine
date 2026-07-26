@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-26T08:11:53.243192+00:00",
+  "last_updated": "2026-07-26T11:56:41.250830+00:00",
   "replies": [
+    {
+      "tweet_id": "2081153980294648186",
+      "tweet_url": "https://x.com/simonw/status/2081153980294648186#m",
+      "tweet_author": "simonw",
+      "tweet_text": "Ruff 0.16.0 - @astral_sh's fast Python linter - came out a few days ago and increased the number of default-enabled rules from 59 to 413, which highlighted all sorts of problems across my projects (1618 in sqlite-utils alone) simonwillison.net/2026/Jul/2\u2026\n\nLink\n\nRuff v0.16.0\n\nAstral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing \u2026\nsimonwillison.net",
+      "reply_text": "From the QA side this is the early\u2011warning signal you asked for \u2013 more rules catch hidden bugs now, trim post\u2011release firefighting, and tighten compliance budgets.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-26T11:56:41.250830+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2632,
+      "sent_to_telegram_at": "2026-07-26T11:56:41.250830+00:00"
+    },
     {
       "tweet_id": "2081047912008872293",
       "tweet_url": "https://x.com/rauchg/status/2081047912008872293#m",
