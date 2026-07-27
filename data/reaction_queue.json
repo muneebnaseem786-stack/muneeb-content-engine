@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-07-26T20:14:23.680825+00:00",
+  "last_updated": "2026-07-27T07:48:51.976548+00:00",
   "posts": [
+    {
+      "topic": "turnaround at GE",
+      "source": "x:@trungtphan",
+      "source_url": "https://x.com/TrungTPhan/status/2081471291245072883#m",
+      "source_headline": "Larry Culp pulled off incredible turnaround at GE. The conglomerate had a market cap of $96B when he became CEO in 2018.\n\nAfter refocusing divisions and two spi",
+      "source_handle": "trungtphan",
+      "x_post": "Larry Culp's turnaround at GE is a masterclass in refocusing divisions and creating value through spin-offs. When he became CEO in 2018, the conglomerate had a market cap of $96 billion. Fast forward to today, and the three GE firms now have a combined market cap of $665 billion: GE Aerospace is worth $367 billion, GE Vernova is worth $270 billion, and GE Healthcare is worth $28 billion. This stunning transformation is a testament to Culp's leadership and vision. The key to GE's success lies in its ability to identify and prioritize its core strengths, and then spin off non-core divisions to create focused, high-growth companies. This approach has not only unlocked significant value for shareholders but also positioned GE for long-term success in a rapidly changing industrial landscape. As other companies look to replicate GE's success, they would do well to study Culp's playbook and consider how they can apply similar strategies to drive their own turnarounds.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. Regenerated sentences to ensure affirmative restatements and concrete anchors.",
+      "scores": [
+        {
+          "candidate_index": 7,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-27T07:48:50.367801+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly reframes the source's central claim and maintains an analytical tone consistent with Muneeb's voice."
+      },
+      "telegram_message_id": 2645,
+      "sent_to_telegram_at": "2026-07-27T07:48:51.976530+00:00"
+    },
     {
       "topic": "Tech earnings and AI spending",
       "source": "rss:Bloomberg Markets",
