@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-27T12:48:30.650674+00:00",
+  "last_updated": "2026-07-27T18:57:10.818964+00:00",
   "replies": [
+    {
+      "tweet_id": "2081787057874055479",
+      "tweet_url": "https://x.com/KobeissiLetter/status/2081787057874055479#m",
+      "tweet_author": "KobeissiLetter",
+      "tweet_text": "BREKAING: China now accounts for ~28% of global manufacturing, more than any other country or economic bloc.\n\nThis percentage has more than tripled since 2004.\n\nBy comparison, US factories account for ~17% of global manufacturing value added, or 11 percentage points less than China.\n\nIn 2004, the US proportion stood at ~22%, more than double China's.\n\nMeanwhile, the Eurozone economy represents ~15% of world manufacturing, while Japan accounts for just ~5%.\n\nChina has become a critical component ",
+      "reply_text": "2023 Q1 SVB deposit run drains roughly $210\u202fbn in days, triggering a cascade of bank rescues. The speed mirrors how China\u2019s manufacturing surge reshapes global supply chains.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-27T18:57:10.818964+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb's voice."
+      },
+      "telegram_message_id": 2670,
+      "sent_to_telegram_at": "2026-07-27T18:57:10.818964+00:00"
+    },
+    {
+      "tweet_id": "2081678157116047387",
+      "tweet_url": "https://x.com/lisaabramowicz1/status/2081678157116047387#m",
+      "tweet_author": "lisaabramowicz1",
+      "tweet_text": "Over the past year, 43% of hyperscaler debt supply consisted of bonds with maturities exceeding 10 yrs: BofA. By comparison, longer bonds made up 24% of M&amp;A debt deals &amp; 23% of other non-financial issuance. Spreads on the tech debt have steadily widened bloomberg.com/news/articles/\u2026",
+      "reply_text": "You\u2019re seeing widening spreads, but those 10\u2011yr hyperscaler bonds are a premium of confidence, when rates settle they\u2019ll compress and beat the shorter\u2011dated tech debt.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-27T18:57:10.818964+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and analytical like Muneeb."
+      },
+      "telegram_message_id": 2668,
+      "sent_to_telegram_at": "2026-07-27T18:57:10.818964+00:00"
+    },
     {
       "tweet_id": "2081384528640201183",
       "tweet_url": "https://x.com/packyM/status/2081384528640201183#m",
