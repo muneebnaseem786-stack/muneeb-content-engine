@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-27T08:20:50.185879+00:00",
+  "last_updated": "2026-07-27T12:48:30.650674+00:00",
   "replies": [
+    {
+      "tweet_id": "2081384528640201183",
+      "tweet_url": "https://x.com/packyM/status/2081384528640201183#m",
+      "tweet_author": "packym",
+      "tweet_text": "My most popular essays of the past year are:\n\n- The Electric Slide: 40k words on the history, geopolitics, strategy, and technical details of each layer of the electric stack. \n\n- a16z: The Power Brokers: a 16k word essay on a venture capital Firm on the day of their $15B raise\n\n- Riding the Leopard: a talk on the meaning of life citing sources from Jesus to a guy who took a ton of LSD.\n\nNot sure what the through line is other than these are probably the three essays I poured the most effort int",
+      "reply_text": "You note a16z\u2019s $15B raise, do you think they\u2019ll tilt that new capital toward climate\u2011tech versus fintech in 2025, reshaping the funding landscape?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-27T12:48:30.650674+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2653,
+      "sent_to_telegram_at": "2026-07-27T12:48:30.650674+00:00"
+    },
     {
       "tweet_id": "2081553207034073102",
       "tweet_url": "https://x.com/jaltucher/status/2081553207034073102#m",
