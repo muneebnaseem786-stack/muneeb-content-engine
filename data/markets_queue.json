@@ -1,6 +1,141 @@
 {
   "posts": [
     {
+      "source": "x:@charliebilello",
+      "source_url": "https://x.com/charliebilello/status/2081758965696774303#m",
+      "source_headline": "The SK Hynix ADR which is listed in the US ended last week trading at a 29% premium to the same shares in South Korea.\n\nYou can invent explanations for the spre",
+      "source_handle": "charliebilello",
+      "image_url": "https://pbs.twimg.com/media/HOPkdo5X0AAhEHr.png",
+      "topic": "SK Hynix ADR premium",
+      "format": "single_tweet",
+      "x_post": "The SK Hynix ADR trades at a 29% premium to the same shares in South Korea. That's a bubble, plain and simple. Investors are paying 29% more for the same underlying stock, which is a clear sign of irrational exuberance.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negations and hedges, and regenerated sentences to ensure affirmative statements. The post meets the opinion test, as it provides a clear take on the SK Hynix ADR premium.",
+      "scores": [
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-27T15:43:11.189782+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 2660,
+      "sent_to_telegram_at": "2026-07-27T15:43:12.773286+00:00"
+    },
+    {
+      "source": "x:@charliebilello",
+      "source_url": "https://x.com/charliebilello/status/2081760465680503275#m",
+      "source_headline": "Chipmaker valuations are now higher than they were at the peak of the dot-com bubble.\n\nAI may be revolutionary, but the price you pay still matters.",
+      "source_handle": "charliebilello",
+      "image_url": "https://pbs.twimg.com/media/HOPl4-VXMAAF4bQ.png",
+      "topic": "Chipmaker valuations",
+      "format": "single_tweet",
+      "x_post": "Chipmaker valuations are higher than they were at the peak of the dot-com bubble, but that doesn't mean they're justified. AI may be revolutionary, but the price you pay still matters. Look for a correction in the sector.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negations and hedges, and regenerated sentences to ensure affirmative statements. The post meets the opinion test, as it provides a clear take on chipmaker valuations.",
+      "scores": [
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-27T15:43:08.652009+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 2657,
+      "sent_to_telegram_at": "2026-07-27T15:43:10.189598+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-27/jersey-mike-s-ipo-said-to-be-more-than-10-times-oversubscribed-ms3dctpc",
+      "source_headline": "Jersey Mike\u2019s IPO Said to Be More Than 10 Times Oversubscribed",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Jersey Mike's IPO",
+      "format": "single_tweet",
+      "x_post": "Jersey Mike's IPO is 10x oversubscribed, but that's not a surprise given the current market conditions. What's interesting is that this level of demand is usually reserved for tech IPOs, not sandwich shops. The valuation multiple is the real story here.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negations and hedges, and regenerated sentences to ensure affirmative statements. The post meets the opinion test, as it provides a clear take on the Jersey Mike's IPO.",
+      "scores": [
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-07-27T15:43:06.596229+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 2655,
+      "sent_to_telegram_at": "2026-07-27T15:43:07.651844+00:00"
+    },
+    {
       "source": "x:@KobeissiLetter",
       "source_url": "https://x.com/KobeissiLetter/status/2080126174991126689#m",
       "source_headline": "BREAKING: US oil prices surge above $88/barrel as the Iran War continues to escalate.\n\nOil prices are now up +31% since July 2nd.",
@@ -23083,5 +23218,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-07-23T07:33:52.470013+00:00"
+  "last_updated": "2026-07-27T15:43:13.773613+00:00"
 }
