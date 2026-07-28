@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-28T07:32:16.876127+00:00",
+  "last_updated": "2026-07-28T11:49:27.758175+00:00",
   "replies": [
+    {
+      "tweet_id": "2081843772166705275",
+      "tweet_url": "https://x.com/ericbahn/status/2081843772166705275#m",
+      "tweet_author": "EricBahn",
+      "tweet_text": "My one-shot prompt begins, thanks again @mattshumer_!\n\n\n\n\nMatt Shumer (@mattshumer_)\n\nPrompt:\n\nI want you to build a first-person shooter at the level of the most recent Call of Duty games. It should be utterly perfect, visually beautiful, with every single thing done at AAA quality\u2014from textures to physics to anything you could think of.\n\nFan out sub-agents and have sub-agents tackle each one individually so that the game is utterly perfect. You should /loop on each item and have a separate sub",
+      "reply_text": "A modern AAA shooter costs about $140\u202fmillion to develop, which is roughly 28\u202ftimes the $5\u202fmillion compute budget needed to train a comparable AI model.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-28T11:49:27.758175+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2693,
+      "sent_to_telegram_at": "2026-07-28T11:49:27.758175+00:00"
+    },
+    {
+      "tweet_id": "2082059858925277600",
+      "tweet_url": "https://x.com/saifedean/status/2082059858925277600#m",
+      "tweet_author": "saifedean",
+      "tweet_text": "Four talks from Rothbard's centenary celebration last month in Porto:\nAmmous: Rothbard on Palestine\nHoppe: Hurdles, Obstacles, and Surprises on the Road to Rothbardianism\nKinsella: Rothbard's Greatest Hits\nDe Mombynes: Rothbard &amp; Bitcoin.\n\nVideo",
+      "reply_text": "You\u2019re turning Rothbard into a crypto saint, but his anti\u2011state theory ignores the inevitable rise of state\u2011backed digital money.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-28T11:49:27.758175+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2691,
+      "sent_to_telegram_at": "2026-07-28T11:49:27.758175+00:00"
+    },
     {
       "tweet_id": "2081787106062746002",
       "tweet_url": "https://x.com/AndrewYNg/status/2081787106062746002#m",
