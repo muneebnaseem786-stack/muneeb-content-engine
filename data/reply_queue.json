@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-28T11:49:27.758175+00:00",
+  "last_updated": "2026-07-28T18:06:54.280296+00:00",
   "replies": [
+    {
+      "tweet_id": "2082123886418657582",
+      "tweet_url": "https://x.com/TrungTPhan/status/2082123886418657582#m",
+      "tweet_author": "trungtphan",
+      "tweet_text": "always enjoyed the 100 Serbian Dinar note with Nikola Tesla, an alternating current electric plant and formula for magnetic flux density (T = Wb/m\u00b2)\n\n\n\n\nTrung Phan (@TrungTPhan)\n\nEuropean Central Bank (ECB) designing new Euro note. People voting on two themes:\n\n\u25ab\ufe0fCultural figures (Maria Callas, Beethoven, Marie Curie, Cervantes, da Vinci, von Suttner)\n\u25ab\ufe0fBirds and Rivers (Kingfisher, Stork, other birds never heard of)\n\nFinal decision by end 2026 and will take a few years to circulate new design.\n",
+      "reply_text": "Q1\u202f2023, the ECB injects \u20ac200\u202fbn via pandemic\u2011era purchases, shifting euro perception; your design vote mirrors that power of visual signaling.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-28T18:06:54.280296+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb's voice."
+      },
+      "telegram_message_id": 2700,
+      "sent_to_telegram_at": "2026-07-28T18:06:54.280296+00:00"
+    },
+    {
+      "tweet_id": "2082077924438728733",
+      "tweet_url": "https://x.com/shaneparrish/status/2082077924438728733#m",
+      "tweet_author": "shaneparrish",
+      "tweet_text": "After months of detailed research, I'm finally releasing the Outliers episode on John D. Rockefeller. \n\nA few observations:\n\nI think JDR had high morals (he believed he was doing the right thing) but questionable ethics (by today's standard). In fairness, his behavior looks rather tame compared to Carnegie/Frick. \n\nJDR built a monopoly by targeting the best/most strategic portions of the value chain in the industries in which he competed. He was the OG of vertically integrated. \n\nPeople often th",
+      "reply_text": "You note Rockefeller's vertical integration; how did his control over rail transport compare to contemporaries' use of emerging telegraph networks for price coordination?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-28T18:06:54.280296+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2698,
+      "sent_to_telegram_at": "2026-07-28T18:06:54.280296+00:00"
+    },
     {
       "tweet_id": "2081843772166705275",
       "tweet_url": "https://x.com/ericbahn/status/2081843772166705275#m",
