@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-27T18:57:10.818964+00:00",
+  "last_updated": "2026-07-28T07:32:16.876127+00:00",
   "replies": [
+    {
+      "tweet_id": "2081787106062746002",
+      "tweet_url": "https://x.com/AndrewYNg/status/2081787106062746002#m",
+      "tweet_author": "AndrewYNg",
+      "tweet_text": "Good move by @JensenHuang. The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. \n\nLets stop believing the PR that closed models are safer. - that's just regulatory capture.\n\n\nJensen Huang (@JensenHuang)\n\nAttackers have frontier AI. Defenders need a frontier AI ecosystem\u2014the best open and closed models, force-multiplied by a global community.\n\nDuring the Hugging Face incident, closed AI blocked essential f",
+      "reply_text": "From the regulator\u2019s side you\u2019re missing that closed stacks provide auditability and let central banks monitor systemic AI exposure, which keeps bond\u2011holder risk premiums low.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-28T07:32:16.876127+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style and voice, and complies with all requirements."
+      },
+      "telegram_message_id": 2679,
+      "sent_to_telegram_at": "2026-07-28T07:32:16.876127+00:00"
+    },
     {
       "tweet_id": "2081787057874055479",
       "tweet_url": "https://x.com/KobeissiLetter/status/2081787057874055479#m",
