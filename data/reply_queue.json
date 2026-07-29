@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-29T11:52:47.635878+00:00",
+  "last_updated": "2026-07-29T18:02:12.867339+00:00",
   "replies": [
+    {
+      "tweet_id": "2082502008133587225",
+      "tweet_url": "https://x.com/mattyglesias/status/2082502008133587225#m",
+      "tweet_author": "MattYglesias",
+      "tweet_text": "Across the past ten years of advocacy for Medicare for All, we\u2019ve gotten more political clout for M4A proponents than ever before but seem to be *further* from a situation where it\u2019s easy to envision broad-based tax increases to pay for more public services (this is bad).",
+      "reply_text": "$1.3\u202ftrillion average annual deficit increase since 2015. That erodes the fiscal headroom needed for broad\u2011based tax hikes.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-29T18:02:12.867339+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2726,
+      "sent_to_telegram_at": "2026-07-29T18:02:12.867339+00:00"
+    },
     {
       "tweet_id": "2082430874197295457",
       "tweet_url": "https://x.com/DiMartinoBooth/status/2082430874197295457#m",
