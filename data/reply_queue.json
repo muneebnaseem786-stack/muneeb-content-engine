@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-29T07:36:08.082193+00:00",
+  "last_updated": "2026-07-29T11:52:47.635878+00:00",
   "replies": [
+    {
+      "tweet_id": "2082430874197295457",
+      "tweet_url": "https://x.com/DiMartinoBooth/status/2082430874197295457#m",
+      "tweet_author": "DiMartinoBooth",
+      "tweet_text": "Bring it @chigrl\n\n\nTracy Shuchart (\ud835\udc9e\ud835\udcbd\ud835\udcbe ) (@chigrl)\n\nHUGE FOMC line up today on @NTLiveMedia\n\nWe have the always amazing @DiMartinoBooth\nup at 8:00 AM ET joining us for the Morning Gap Macro Show panel  \n\nAt 8:30 AM ET we have special guest @josephwang\n\nWe start early in the afternoon at 1:45 PM ET with\n@PipCzar joining us for the rate decision.\npiped.video/live/W0FnLNRj2qU\u2026\n\n\n\n\n\n\u2014 https://nitter.net/chigrl/status/2082430352593740189#m",
+      "reply_text": "You hype the panel, yet the BIS sees the Fed\u2019s rate path as already baked into sovereign yields, giving central banks a quiet victory.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-29T11:52:47.635878+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2721,
+      "sent_to_telegram_at": "2026-07-29T11:52:47.635878+00:00"
+    },
     {
       "tweet_id": "2082279394970607797",
       "tweet_url": "https://x.com/jbarro/status/2082279394970607797#m",
