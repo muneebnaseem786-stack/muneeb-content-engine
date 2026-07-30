@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-29T18:02:12.867339+00:00",
+  "last_updated": "2026-07-30T07:25:50.939214+00:00",
   "replies": [
+    {
+      "tweet_id": "2082450820818153798",
+      "tweet_url": "https://x.com/tracyalloway/status/2082450820818153798#m",
+      "tweet_author": "tracyalloway",
+      "tweet_text": "But seriously, just like XIV, you could see the problems with Korean leveraged single-stock ETFs coming a mile away. \nbloomberg.com/news/newslette\u2026",
+      "reply_text": "You see the same risk that surfaced in June\u202f2023 when Credit\u202fSwiss required a $17\u202fbn UBS rescue after its leveraged exposures collapsed. The market punishes hidden leverage fast. That lesson repeats.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-07-30T07:25:50.939214+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2736,
+      "sent_to_telegram_at": "2026-07-30T07:25:50.939214+00:00"
+    },
+    {
+      "tweet_id": "2082565206564127092",
+      "tweet_url": "https://x.com/LynAldenContact/status/2082565206564127092#m",
+      "tweet_author": "LynAldenContact",
+      "tweet_text": "Bond bulls don\u2019t make arguments for why deflation is coming anymore. \n\nThey just look at Warsh like this now.",
+      "reply_text": "If the Fed trims its balance sheet to $5\u202ftrillion by 2027, how would you expect the Warsh spread to shift when core CPI holds under 2% for a full year?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-30T07:25:50.939214+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb, with no compliance issues."
+      },
+      "telegram_message_id": 2734,
+      "sent_to_telegram_at": "2026-07-30T07:25:50.939214+00:00"
+    },
     {
       "tweet_id": "2082502008133587225",
       "tweet_url": "https://x.com/mattyglesias/status/2082502008133587225#m",
