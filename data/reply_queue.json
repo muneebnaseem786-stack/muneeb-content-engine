@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-30T11:45:14.889418+00:00",
+  "last_updated": "2026-07-30T18:08:28.141340+00:00",
   "replies": [
+    {
+      "tweet_id": "2082886925988598138",
+      "tweet_url": "https://x.com/miramurati/status/2082886925988598138#m",
+      "tweet_author": "miramurati",
+      "tweet_text": "Inkling-Small is comparable to Inkling at a quarter the size. Weights are open, fine-tunable on Tinker today. Look forward to seeing what people make with it.\n\n\nThinking Machines (@thinkymachines)\n\nToday, we are releasing Inkling-Small.\n\nInkling-Small achieves comparable performance to Inkling at a quarter of its size. It features 276B total parameters, 12B active. We are making the full weights available.\n\nthinkingmachines.ai/news/ink\u2026\n\nFine-tune it on Tinker today, or chat with it in text, ima",
+      "reply_text": "You assume a quarter the parameters gives you the same value, but the extra compute overhead will swamp any performance parity.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-07-30T18:08:28.141340+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned hot_take style, sounding confident and analytical like Muneeb."
+      },
+      "telegram_message_id": 2750,
+      "sent_to_telegram_at": "2026-07-30T18:08:28.141340+00:00"
+    },
+    {
+      "tweet_id": "2082861565796360369",
+      "tweet_url": "https://x.com/fortelabs/status/2082861565796360369#m",
+      "tweet_author": "fortelabs",
+      "tweet_text": "What's the best website you've seen that was designed and built using AI tools, by a non-technical person?\n\n(We're trying to see if we could build our new website ourselves)",
+      "reply_text": "If you pick Durable.co\u2019s AI builder instead of Wix ADI, how will you ensure GDPR\u2011ready data capture for future payment onboarding?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-07-30T18:08:28.141340+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2748,
+      "sent_to_telegram_at": "2026-07-30T18:08:28.141340+00:00"
+    },
     {
       "tweet_id": "2082473716974248004",
       "tweet_url": "https://x.com/pkafka/status/2082473716974248004#m",
