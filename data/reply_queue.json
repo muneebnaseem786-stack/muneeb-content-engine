@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-30T07:25:50.939214+00:00",
+  "last_updated": "2026-07-30T11:45:14.889418+00:00",
   "replies": [
+    {
+      "tweet_id": "2082473716974248004",
+      "tweet_url": "https://x.com/pkafka/status/2082473716974248004#m",
+      "tweet_author": "pkafka",
+      "tweet_text": "Always great to speak w/ Bloomberg's @Lucas_Shaw. Discussed in Channels today; Why it will be hard to settle the California v Paramount suit - and why the Ellisons aren't worried about the fall elections; Netflix struggling to move the growth needle; why Comcast ditched media.",
+      "reply_text": "From the bondholder side the protracted California\u2011Paramount fight actually protects cash\u2011flow coverage, and Comcast\u2019s media exit lifts leverage ratios, while Netflix\u2019s slower subscriber gains keep debt\u2011service risk modest.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-30T11:45:14.889418+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2743,
+      "sent_to_telegram_at": "2026-07-30T11:45:14.889418+00:00"
+    },
+    {
+      "tweet_id": "2082773082679480718",
+      "tweet_url": "https://x.com/Noahpinion/status/2082773082679480718#m",
+      "tweet_author": "noahpinion",
+      "tweet_text": "The crash in Korean stocks means that the \"AI bubble\" story might be returning:\n\nnoahpinion.blog/p/why-did-so\u2026\n\nLink\n\n\n\nWhy did South Korean stocks just crash?\n\nThe AI boom creates a lot of uncertainty.\nnoahpinion.blog",
+      "reply_text": "You just saw $30bn wiped from AI\u2011related market cap, tightening funding for AI startups.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-07-30T11:45:14.889418+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, with no compliance issues."
+      },
+      "telegram_message_id": 2741,
+      "sent_to_telegram_at": "2026-07-30T11:45:14.889418+00:00"
+    },
     {
       "tweet_id": "2082450820818153798",
       "tweet_url": "https://x.com/tracyalloway/status/2082450820818153798#m",
