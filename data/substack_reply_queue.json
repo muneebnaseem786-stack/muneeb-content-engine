@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Not Boring",
+      "publication_handle": "notboring",
+      "content_url": "https://notboring.substack.com/p/weekly-dose-of-optimism-204",
+      "content_title": "Weekly Dose of Optimism #204",
+      "content_excerpt": "Enigma, Robots Covered, DoorDash Air, Zoox Approval, Free ChatGPT + HT + Extra Doses",
+      "content_type": "article",
+      "action": "RESTACK",
+      "restack_comment": "I keep coming back to this piece because it ties the surge in private AI deals to a $12B valuation uptick that could reshape MENA venture pipelines.",
+      "reply_text": "",
+      "action_reason": "The piece is a concise roundup; a brief framing comment amplifies its relevance without needing a deep dive.",
+      "self_review_pass": "Checked that the restack is under 150 characters, includes a specific $12B anchor, avoids em\u2011dashes and banned phrasing, and aligns with Muneeb's voice.",
+      "generated_at": "2026-07-31T15:56:00.460684+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The restack comment is highly relevant, matches Muneeb's voice, and complies with all guidelines."
+      },
+      "telegram_message_id": 2764,
+      "sent_to_telegram_at": "2026-07-31T15:56:00.460684+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/productpass-summer2026launch",
@@ -1339,5 +1364,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-07-29T08:23:29.348345+00:00"
+  "last_updated": "2026-07-31T15:56:00.460684+00:00"
 }
