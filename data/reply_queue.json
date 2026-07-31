@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-07-30T18:08:28.141340+00:00",
+  "last_updated": "2026-07-31T07:43:51.160960+00:00",
   "replies": [
+    {
+      "tweet_id": "2082856673170121171",
+      "tweet_url": "https://x.com/lennysan/status/2082856673170121171#m",
+      "tweet_author": "lennysan",
+      "tweet_text": "This is really good @arcade_demo \ud83d\udc4f\ud83d\udc4c\n\n\nCaroline Clark (@carolinedclark)\n\nOur designer @AleksFaure said I shouldn't have shared with just one prompt. Here's his version, again built with our AI agent. It goes to show how powerful AI video can be!\n\nVideo\n  \n\n\n\n\n\n\u2014 https://nitter.net/carolinedclark/status/2082850250449113286#m",
+      "reply_text": "You showcase AI video\u2019s creative punch, while the regulator\u2019s desk fills with policy briefs on synthetic media safeguards and the bandwidth costs that will hit operators\u2019 balance sheets.",
+      "reply_style": "reframe",
+      "generated_at": "2026-07-31T07:43:51.160960+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2758,
+      "sent_to_telegram_at": "2026-07-31T07:43:51.160960+00:00"
+    },
     {
       "tweet_id": "2082886925988598138",
       "tweet_url": "https://x.com/miramurati/status/2082886925988598138#m",
