@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-02T07:26:20.310623+00:00",
+  "last_updated": "2026-08-02T11:10:19.872301+00:00",
   "replies": [
+    {
+      "tweet_id": "2083725046250689020",
+      "tweet_url": "https://x.com/kentcdodds/status/2083725046250689020#m",
+      "tweet_author": "kentcdodds",
+      "tweet_text": "Notice the prompts you repeat with an agent. @benmvp says turn those into skills so you stop retyping the same guidance.\n\nVideo",
+      "reply_text": "When you convert recurring prompts into reusable skills, do you see the agent\u2019s context window shrinking enough to cut token costs by, say, 30%?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-02T11:10:19.872301+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2820,
+      "sent_to_telegram_at": "2026-08-02T11:10:19.872301+00:00"
+    },
     {
       "tweet_id": "2083632877301121482",
       "tweet_url": "https://x.com/TFTC21/status/2083632877301121482#m",
