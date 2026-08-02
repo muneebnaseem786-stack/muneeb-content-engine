@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-01T17:50:31.314366+00:00",
+  "last_updated": "2026-08-02T07:26:20.310623+00:00",
   "replies": [
+    {
+      "tweet_id": "2083632877301121482",
+      "tweet_url": "https://x.com/TFTC21/status/2083632877301121482#m",
+      "tweet_author": "TFTC21",
+      "tweet_text": "Galaxy Research is tracking the Coldcard hack in real time. \n\nThey've identified three waves of sweeps so far: 1,367 BTC (~$88.6M) drained from 4,585 addresses.\n\nThe first wave hit 1,196 addresses in a 41-minute window, all paying an identical 30 sat/vB fee. Automated key scanning, not owners moving funds.\n\nGalaxy notes \"the loss profile is dominated by sub-1 BTC addresses in count, but by larger addresses in value. This appears to be the shape of individual self-custody, not institutional holdi",
+      "reply_text": "From a central\u2011bank perspective the sweep proves that a thin\u2011fee, high\u2011velocity layer can pull fragmented retail keys into sizable buckets, supplying the liquidity foundation needed for sovereign CBDC pilots.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-02T07:26:20.310623+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 2809,
+      "sent_to_telegram_at": "2026-08-02T07:26:20.310623+00:00"
+    },
     {
       "tweet_id": "2083357501270188176",
       "tweet_url": "https://x.com/jdcmedlock/status/2083357501270188176#m",
