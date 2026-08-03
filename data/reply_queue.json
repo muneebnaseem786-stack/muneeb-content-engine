@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-02T17:51:05.131682+00:00",
+  "last_updated": "2026-08-03T08:18:54.127214+00:00",
   "replies": [
+    {
+      "tweet_id": "2084181385502175741",
+      "tweet_url": "https://x.com/bramk/status/2084181385502175741#m",
+      "tweet_author": "bramk",
+      "tweet_text": "Hey @Rob1Ham! How about the idea of creating a public repo that is an open source security audit prompt/llm instruction anyone can use to audit any open source code?\n\nSo someone can say:\n\n\u201cUse (github link) to audit (@FoundationHQ github link)\u201d.\n\nIt can include how to use, standard questions, simplifation of explanation, etc. \n\nSo anyone can (attempt to) verify any device or wallet they want to use.",
+      "reply_text": "You suggest an open audit repo. Q1\u202f2023, SVB sees $2.2\u202fbn deposit run; regulators then require real\u2011time risk dashboards. A shared LLM prompt could provide that same live transparency.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-08-03T08:18:54.127214+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style while sounding like Muneeb."
+      },
+      "telegram_message_id": 2835,
+      "sent_to_telegram_at": "2026-08-03T08:18:54.127214+00:00"
+    },
     {
       "tweet_id": "2083725046250689020",
       "tweet_url": "https://x.com/kentcdodds/status/2083725046250689020#m",
