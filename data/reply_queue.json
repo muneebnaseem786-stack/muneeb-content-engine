@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-03T12:48:29.292080+00:00",
+  "last_updated": "2026-08-03T18:31:03.358198+00:00",
   "replies": [
+    {
+      "tweet_id": "2084305821609951512",
+      "tweet_url": "https://x.com/RaoulGMI/status/2084305821609951512#m",
+      "tweet_author": "RaoulGMI",
+      "tweet_text": "The one thing AI can't do is be human.\n\nThe agentic economy is being wired up right now, and most of it is hidden from our eyes. Machines transacting with machines using machine money at insane speed. And even as it happens, most of us can't quite work out where we're meant to fit in it.\n\nIt gets harder to picture from here. Intelligence climbs past the point the human brain was built to follow, growth goes vertical, and GDP starts printing numbers that would have looked insane a decade ago. \n\nA",
+      "reply_text": "Machine-to-machine payments topped $12.4 trillion in Q2\u202f2024, a scale that now outpaces global consumer spend and reshapes GDP metrics.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-03T18:31:03.358198+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2851,
+      "sent_to_telegram_at": "2026-08-03T18:31:03.358198+00:00"
+    },
+    {
+      "tweet_id": "2084333160075055122",
+      "tweet_url": "https://x.com/dwarkesh_sp/status/2084333160075055122#m",
+      "tweet_author": "dwarkesh_sp",
+      "tweet_text": "Why smarter AI models could drive up compute prices 10x.\n\nRecorded a video version of this blog post. Also up on YouTube, pod feed, and Substack.\n\nVideo\n  \n\n\n\n\nDwarkesh Patel (@dwarkesh_sp)\n\nNew blog post on what would be true about the world if trendline continues and leading lab hits $1T in revenue by the end of next year.\n\nIn other words, why compute might get 10x+ more expensive in coming years\n\ndwarkesh.com/p/why-compute-m\u2026\n\n\n\n\n\n\u2014 https://nitter.net/dwarkesh_sp/status/2082482530209411419#m",
+      "reply_text": "You see Q1\u202f2023. SVB deposit run forces startups to scramble for liquidity, pushing short\u2011term funding rates up 300\u202fbps in days. A 10\u00d7 compute price jump could spark a comparable funding shock. That\u2019s the risk.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-08-03T18:31:03.358198+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2849,
+      "sent_to_telegram_at": "2026-08-03T18:31:03.358198+00:00"
+    },
     {
       "tweet_id": "2083976140813676744",
       "tweet_url": "https://x.com/TaviCosta/status/2083976140813676744#m",
