@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-03T08:18:54.127214+00:00",
+  "last_updated": "2026-08-03T12:48:29.292080+00:00",
   "replies": [
+    {
+      "tweet_id": "2083976140813676744",
+      "tweet_url": "https://x.com/TaviCosta/status/2083976140813676744#m",
+      "tweet_author": "TaviCosta",
+      "tweet_text": "It\u2019s all fun and games until mortgage rates start surging.\n\nThey\u2019re now approaching 7%.\n\nYou see what\u2019s happening with the US government stepping in to support the Japanese yen?\n\nThe Treasury market is next.\n\ntavicosta.substack.com/p/the\u2026",
+      "reply_text": "Q2\u202f2023. SVB\u2019s deposit run collapses in 36\u202fhours, and Treasury volatility spikes in Q4\u202f2022 after the Fed\u2019s rapid hikes. History shows a rate shock can cascade through credit markets.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-08-03T12:48:29.292080+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb's voice."
+      },
+      "telegram_message_id": 2843,
+      "sent_to_telegram_at": "2026-08-03T12:48:29.292080+00:00"
+    },
     {
       "tweet_id": "2084181385502175741",
       "tweet_url": "https://x.com/bramk/status/2084181385502175741#m",
