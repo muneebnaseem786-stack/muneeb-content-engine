@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-04T07:30:09.994966+00:00",
+  "last_updated": "2026-08-04T11:54:00.947279+00:00",
   "replies": [
+    {
+      "tweet_id": "2084297488312541461",
+      "tweet_url": "https://x.com/cdixon/status/2084297488312541461#m",
+      "tweet_author": "cdixon",
+      "tweet_text": "This week is one of the most consequential for the CLARITY Act and the future of crypto in America.\n\n@pmarca, @rhackett, and I discuss what the bill does, why it matters, and some common misconceptions.\n\n\na16z crypto (@a16zcrypto)\n\nCrypto is at a pivotal moment.\n\nAs Congress debates landmark market structure legislation, Marc Andreessen and Chris Dixon discuss the decisions that could shape where the next generation of financial infrastructure is built, and whether the United States remains the ",
+      "reply_text": "The CLARITY Act would affect roughly $1.2\u202ftrillion of crypto assets on US exchanges. That scale makes your regulatory battle a decisive market-structure moment.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-04T11:54:00.947279+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2873,
+      "sent_to_telegram_at": "2026-08-04T11:54:00.947279+00:00"
+    },
     {
       "tweet_id": "2084371491588538801",
       "tweet_url": "https://x.com/RyanDetrick/status/2084371491588538801#m",
