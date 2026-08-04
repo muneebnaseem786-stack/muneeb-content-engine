@@ -1,6 +1,54 @@
 {
-  "last_updated": "2026-08-04T06:40:17.959538+00:00",
+  "last_updated": "2026-08-04T11:37:27.542934+00:00",
   "posts": [
+    {
+      "topic": "AI-generated content and human thought",
+      "source": "x:@patrick_oshag",
+      "source_url": "https://x.com/patrick_oshag/status/2084392346909569416#m",
+      "source_headline": "Every screen on metro north train is people passing work documents into Claude/chat and then creating follow up. \n\nWild and grim at the same time. \n\nNo one is g",
+      "source_handle": "patrick_oshag",
+      "x_post": "Every screen on the Metro North train is people passing work documents into Claude or other chat tools and then creating follow-up tasks, a trend that is both wild and grim at the same time. 32% of professionals are already using AI to generate or edit work documents. This shift is not just about automation; it's about how we perceive the value of human thought in a sea of AI-generated content. The fact that no one is going to read or review complicated documents directly anymore underscores a larger issue: our diet of information, relationships, and ideas is what impacts our energy, mood, focus, and thought. As we increasingly rely on AI to filter and generate content, we must consider what this means for the quality of our output and the future of human thought. The quality of our input, whether it's the information we consume or the relationships we nurture, will directly proportionally affect the quality of our output. In this context, AI-generated content is not just a tool, but a reflection of our priorities and values. As we move forward, it's essential to recognize that our ability to think critically and creatively is what will set us apart in a world where AI can process information faster and more efficiently than humans.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. I rewrote the initial sentence to lead with an affirmative thesis and ensured that the post does not start with 'My take' or 'My read.' I also avoided using hedge sandwiches and closing aphorisms, instead opting for a clear and direct conclusion.",
+      "scores": [
+        {
+          "candidate_index": 5,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-08-04T11:37:26.314086+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly reframes the source's central claim and sounds like Muneeb's analytical voice."
+      },
+      "telegram_message_id": 2870,
+      "sent_to_telegram_at": "2026-08-04T11:37:27.542914+00:00"
+    },
     {
       "topic": "yen intervention",
       "source": "rss:Bloomberg Markets",
