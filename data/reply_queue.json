@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-04T11:54:00.947279+00:00",
+  "last_updated": "2026-08-04T18:20:53.380037+00:00",
   "replies": [
+    {
+      "tweet_id": "2084400350262341866",
+      "tweet_url": "https://x.com/EricNewcomer/status/2084400350262341866#m",
+      "tweet_author": "EricNewcomer",
+      "tweet_text": "Here's my conversation with @PimDeWitte, one of the most thoughtful voices in AI piped.video/watch?v=zsgnonEe\u2026\n\nLink\n\n\n\nHe Trained AI on a Billion Game Clips. Now It Beats Him.\n\nHow can billions of video game clips train AI to control robots? Ge...\nyoutube.com",
+      "reply_text": "You\u2019ve shown game footage can teach a robot to act, but how does the simulation\u2011to\u2011real\u2011world gap in physics fidelity affect the policy transfer when the model moves from pixels to motor torques?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-04T18:20:53.380037+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2880,
+      "sent_to_telegram_at": "2026-08-04T18:20:53.380037+00:00"
+    },
     {
       "tweet_id": "2084297488312541461",
       "tweet_url": "https://x.com/cdixon/status/2084297488312541461#m",
