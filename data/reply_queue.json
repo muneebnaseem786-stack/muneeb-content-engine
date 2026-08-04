@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-08-03T18:31:03.358198+00:00",
+  "last_updated": "2026-08-04T07:30:09.994966+00:00",
   "replies": [
+    {
+      "tweet_id": "2084371491588538801",
+      "tweet_url": "https://x.com/RyanDetrick/status/2084371491588538801#m",
+      "tweet_author": "RyanDetrick",
+      "tweet_text": "The last all-time high for the S&amp;P 500 was on June 2. \n\nAs we've noted many times, the stock market has never peaked for the year in June and 2026 wasn't going to be the first. One small gain tomorrow and we are back at ATHs. \n\n\ud83d\udc02 \ud83e\udd47 \ud83d\udcaa",
+      "reply_text": "You missed that the S&P\u2019s 2022 June dip erased $1.2\u202fT in market cap, showing June rallies are historically short\u2011lived.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-04T07:30:09.994966+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2864,
+      "sent_to_telegram_at": "2026-08-04T07:30:09.994966+00:00"
+    },
+    {
+      "tweet_id": "2084424796016955569",
+      "tweet_url": "https://x.com/pmarca/status/2084424796016955569#m",
+      "tweet_author": "pmarca",
+      "tweet_text": "Congress has a generational opportunity to pass policy that will keep the US the global leader in both technology and finance. Pass CLARITY. \ud83c\uddfa\ud83c\uddf8\n\n\na16z crypto (@a16zcrypto)\n\nCrypto is at a pivotal moment.\n\nAs Congress debates landmark market structure legislation, Marc Andreessen and Chris Dixon discuss the decisions that could shape where the next generation of financial infrastructure is built, and whether the United States remains the global leader in crypto innovation:\n\n00:00 Intro\n05:31 From",
+      "reply_text": "You highlight CLARITY, will its definition of \u201cdigital asset\u201d give the SEC jurisdiction over DeFi protocols that operate without a central token issuer, or will it leave them in a regulatory gray zone?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-04T07:30:09.994966+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2862,
+      "sent_to_telegram_at": "2026-08-04T07:30:09.994966+00:00"
+    },
+    {
+      "tweet_id": "2084379669021761774",
+      "tweet_url": "https://x.com/stuartbuck1/status/2084379669021761774#m",
+      "tweet_author": "stuartbuck1",
+      "tweet_text": "For a while I have been frustrated that with so many thousands of emails per year, it is far too easy to miss out on opportunities to follow up with scheduling a meeting, or getting feedback, or following up on an introduction, etc. \n\nYesterday, I had Claude Code create a tool that does this for me within Gmail (and integrates with Google Calendar and Github). github.com/stuartbuck/gmail-\u2026\n\nWhen I ran it over the past year's emails (which took 16 hours as it is very thorough and cross-checks aga",
+      "reply_text": "You\u2019re turning 16\u202fh of inbox triage into instant alerts; recall Q1\u202f2023, SVB deposit run takes 36\u202fh and regulators scramble in real time. Timing decides outcomes.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-08-04T07:30:09.994966+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style while sounding like Muneeb."
+      },
+      "telegram_message_id": 2860,
+      "sent_to_telegram_at": "2026-08-04T07:30:09.994966+00:00"
+    },
     {
       "tweet_id": "2084305821609951512",
       "tweet_url": "https://x.com/RaoulGMI/status/2084305821609951512#m",
