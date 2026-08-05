@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-04T18:20:53.380037+00:00",
+  "last_updated": "2026-08-05T07:30:51.081416+00:00",
   "replies": [
+    {
+      "tweet_id": "2084902475639955943",
+      "tweet_url": "https://x.com/aakashgupta/status/2084902475639955943#m",
+      "tweet_author": "aakashgupta",
+      "tweet_text": "Doing nothing is the hardest trade in finance, and your brain is the reason. The investor who bought the S&P at the March 2000 peak waited 13 years just to break even. This chart makes it look easy because it hides what \"nothing\" actually required.\n\nIt required sitting through a 49% crash from 2000 to 2002. Then a 57% crash from 2007 to 2009, when the index bottomed at 666 and every credible voice on TV said the financial system was ending. Then a 34% drop in 33 days during Covid. Then a 25% gri",
+      "reply_text": "Your point mirrors Q1\u202f2023 when SVB\u2019s deposit run evaporates $150\u202fB in hours, forcing a rapid FDIC takeover. A pause that cost billions.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-08-05T07:30:51.081416+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style, sounding like Muneeb wrote it."
+      },
+      "telegram_message_id": 2890,
+      "sent_to_telegram_at": "2026-08-05T07:30:51.081416+00:00"
+    },
+    {
+      "tweet_id": "2084580106614260000",
+      "tweet_url": "https://x.com/stratechery/status/2084580106614260000#m",
+      "tweet_author": "stratechery",
+      "tweet_text": "8-4-2026 ($)         \n\n\u2022Microsoft Earnings\n\u2022Microsoft vs. Meta\n\u2022The Efficiency Payoff\n\nstratechery.com/2026/microso\u2026\n\nLink\n\n\n\nMicrosoft Earnings, Microsoft vs. Meta, The Efficiency Payoff\n\nMicrosoft\u2019s earnings were compelling because they showed a clarity of strategy, lower costs, and a tangibility of application. The reason why is scarier.\nstratechery.com",
+      "reply_text": "Microsoft\u2019s AI\u2011infused cloud revenue surged 42% YoY, powering the margin lift you highlighted.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-05T07:30:51.081416+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2888,
+      "sent_to_telegram_at": "2026-08-05T07:30:51.081416+00:00"
+    },
     {
       "tweet_id": "2084400350262341866",
       "tweet_url": "https://x.com/EricNewcomer/status/2084400350262341866#m",
