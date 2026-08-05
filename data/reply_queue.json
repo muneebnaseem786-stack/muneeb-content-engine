@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-05T07:30:51.081416+00:00",
+  "last_updated": "2026-08-05T11:49:59.002786+00:00",
   "replies": [
+    {
+      "tweet_id": "2084965140043092315",
+      "tweet_url": "https://x.com/JackFarley96/status/2084965140043092315#m",
+      "tweet_author": "JackFarley96",
+      "tweet_text": "Agree\n\n\nJared Dillian (@dailydirtnap)\n\nMichael, the price action of the last four days, which consists of an impulsive move higher with zero downticks, is not suggestive of that.\n\n\n\n\u2014 https://nitter.net/dailydirtnap/status/2084806892681875488#m",
+      "reply_text": "Are you tracking the CME E\u2011mini S&P futures for the same zero\u2011downtick run, and does that make a breakout above the 21\u2011day EMA more likely than a false rally?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-05T11:49:59.002786+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2897,
+      "sent_to_telegram_at": "2026-08-05T11:49:59.002786+00:00"
+    },
     {
       "tweet_id": "2084902475639955943",
       "tweet_url": "https://x.com/aakashgupta/status/2084902475639955943#m",
