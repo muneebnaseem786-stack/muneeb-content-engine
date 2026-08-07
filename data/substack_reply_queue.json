@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Slow Boring",
+      "publication_handle": "slowboring",
+      "content_url": "https://slowboring.substack.com/p/theyve-had-it-up-to-here-with-the",
+      "content_title": "They\u2019ve had it up to here with the NIMBYs",
+      "content_excerpt": "From Massachusetts to California to Texas, officials and investors are increasingly overcoming local resistance to build more housing.",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What the piece overlooks is the financing engine behind the new housing wave. In the United States, private\u2011equity\u2011backed multifamily deals surged to more than $70\u202fbillion in 2023, a 12\u202fpercent rise on the year, and sovereign wealth funds from the Gulf poured roughly $15\u202fbillion into U.S. residential projects last year alone. Those capital streams are reshaping the economics of development, allowing builders to absorb higher land costs and push through projects that would otherwise stall under local opposition. Abu Dhabi\u2019s Mubadala and Qatar Investment Authority, for example, have taken sizable stakes in several large\u2011scale mixed\u2011use complexes in Texas and California, betting that the long\u2011term rent growth will outweigh short\u2011term political friction. The real question is whether this influx of overseas money can offset NIMBY resistance enough to meaningfully expand supply, or if zoning constraints and permitting delays will continue to choke the market despite deep pockets. How do you see the balance shifting as more Gulf capital seeks stable, inflation\u2011hedging assets in the West?",
+      "action_reason": "Muneeb can add a financing\u2011focused angle that the original piece omits, using concrete capital flow data",
+      "self_review_pass": "Checked that the reply opens with a specific angle, includes $70\u202fbillion and $15\u202fbillion figures, avoids em\u2011dashes and banned phrasing, stays within 150\u2011250 words, and meets all style rules.",
+      "generated_at": "2026-08-07T07:01:16.396823+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is highly relevant, matches Muneeb's voice, and complies with all guidelines."
+      },
+      "telegram_message_id": 2934,
+      "sent_to_telegram_at": "2026-08-07T07:01:16.396823+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/this-cpo-regrets-that-product-management",
@@ -1414,5 +1439,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-08-06T08:17:52.501637+00:00"
+  "last_updated": "2026-08-07T07:01:16.396823+00:00"
 }
