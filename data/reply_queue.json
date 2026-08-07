@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-07T10:40:49.665572+00:00",
+  "last_updated": "2026-08-07T17:38:24.949685+00:00",
   "replies": [
+    {
+      "tweet_id": "2085689957033693195",
+      "tweet_url": "https://x.com/AnshelPfeffer/status/2085689957033693195#m",
+      "tweet_author": "AnshelPfeffer",
+      "tweet_text": "I filled in for @LeviYonit this week on the Unholy podcast with @Freedland - we talked Trump, Gaza, Bibi and kiddush wine \npiped.video/zd2Id6wd8n0?si=kDEx\u2026\n\nLink\n\n\n\nTrump moves on Gaza, Netanyahu moves on his opponents\n\nWith Yonit away, Jonathan is joined by Anshel Pfeffer, Israel corre...\nyoutube.com",
+      "reply_text": "You flag Trump\u2019s Gaza pivot, does that signal a shift in the Treasury\u2019s approach to sanctioning Iran-linked groups that back Hamas?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-07T17:38:24.949685+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2947,
+      "sent_to_telegram_at": "2026-08-07T17:38:24.949685+00:00"
+    },
     {
       "tweet_id": "2085481189406630156",
       "tweet_url": "https://x.com/wolfejosh/status/2085481189406630156#m",
