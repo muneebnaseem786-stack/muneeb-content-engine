@@ -1,6 +1,48 @@
 {
-  "last_updated": "2026-08-07T17:38:24.949685+00:00",
+  "last_updated": "2026-08-08T05:33:49.771595+00:00",
   "replies": [
+    {
+      "tweet_id": "2085708606356197734",
+      "tweet_url": "https://x.com/jchervinsky/status/2085708606356197734#m",
+      "tweet_author": "jchervinsky",
+      "tweet_text": "The path to regulated onchain markets for perpetual futures in America runs through the agriculture industry. It's the CFTC's primary constituent and the one U.S. derivatives markets were first designed for.\n\nThe CFTC's AAC meeting last week showed we have a lot of work ahead:\n\n\nHyperliquid Policy Center (@HyperliquidPC)\n\n\nArticle\n\n\n\nHPC Files Statement in Connection with CFTC Agricultural Advisory Committee Meeting\n\nAmerican derivatives markets began with agriculture. Futures trading grew out o",
+      "reply_text": "You see the path through agriculture, does the CFTC plan to mandate that on\u2011chain perpetuals reference USDA\u202fWASDE data for price discovery, or will it lean on CME\u2019s existing delivery grades?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-08T05:33:49.771595+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2957,
+      "sent_to_telegram_at": "2026-08-08T05:33:49.771595+00:00"
+    },
+    {
+      "tweet_id": "2085912446523625716",
+      "tweet_url": "https://x.com/paulg/status/2085912446523625716#m",
+      "tweet_author": "paulg",
+      "tweet_text": "I did office hours today with Assil Halimi of Apollo Atomics. Very, very impressive company. It really brought home what an opportunity we missed by ignoring nuclear power for 40 years. The answer was right there.",
+      "reply_text": "You recall March\u202f2023. SVB faces a $2.2\u202ftrillion deposit run in 48\u202fhours; Credit\u202fSuisse merges into UBS that weekend, ending the myth of orderly bailouts. Missed signals cost more than missed reactors.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-08-08T05:33:49.771595+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "ENDS WITH A QUESTION when style is NOT 'sharper_question'"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply does not end with a flat statement as required by the historical_parallel style."
+      },
+      "telegram_message_id": 2955,
+      "sent_to_telegram_at": "2026-08-08T05:33:49.771595+00:00"
+    },
     {
       "tweet_id": "2085689957033693195",
       "tweet_url": "https://x.com/AnshelPfeffer/status/2085689957033693195#m",
