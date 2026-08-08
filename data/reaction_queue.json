@@ -1,6 +1,271 @@
 {
-  "last_updated": "2026-08-08T09:51:31.838597+00:00",
+  "last_updated": "2026-08-08T16:48:40.964623+00:00",
   "posts": [
+    {
+      "topic": "Brazil's central bank crypto transfer delay",
+      "source": "rss:HN Frontpage",
+      "source_url": "https://social.treehouse.systems/@mgorny/117058483039362779",
+      "source_headline": "Gentoo bugzilla closed due AI bot scraper overload",
+      "source_handle": "",
+      "x_post": "Brazil's central bank is taking a significant step to regulate crypto transfers. By ordering exchanges to delay large crypto transfers abroad, the central bank is essentially putting a speed bump on the flow of cryptocurrency out of the country. This move is likely a response to the growing popularity of crypto in Brazil, with $2.3 billion in crypto transactions taking place in the country in 2024. The delay will give authorities time to scrutinize transactions and ensure they are not being used for illicit purposes. This increased scrutiny is part of a broader trend of governments worldwide taking a closer look at crypto transactions. For instance, the US has been cracking down on unregistered crypto exchanges, and the EU has implemented stricter regulations on crypto transactions. The implication of this trend is that crypto is becoming increasingly mainstream, and governments are taking steps to ensure it is used responsibly. The delay on large crypto transfers in Brazil is just one example of this trend, and it will be interesting to see how it plays out in the coming months.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. I found no instances of these and did not need to regenerate any sentences.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-08-08T16:48:10.316105+00:00",
+      "status": "jury_rejected",
+      "jury": {
+        "relevance": 1,
+        "voice_match": 2,
+        "compliance": "FAIL",
+        "violations": [
+          "OFF-TOPIC PIVOT",
+          "NO SPECIFIC ANCHOR TO SOURCE"
+        ],
+        "verdict": "REJECT",
+        "verdict_reason": "The reaction completely ignores the source and talks about an unrelated topic."
+      }
+    },
     {
       "topic": "Open-source AI models and frontier lab profitability",
       "source": "x:@naval",
