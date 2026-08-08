@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-08T05:33:49.771595+00:00",
+  "last_updated": "2026-08-08T11:01:05.182981+00:00",
   "replies": [
+    {
+      "tweet_id": "2086011520559792457",
+      "tweet_url": "https://x.com/naval/status/2086011520559792457#m",
+      "tweet_author": "naval",
+      "tweet_text": "Open-source AI models do not threaten frontier lab profitability.\n\nThe most valuable sectors of the economy - investing, product development, war, cybersecurity, even scientific discovery - are adversarial and competitive in nature.\n\nYou pay to win, or someone else will.",
+      "reply_text": "You overlook that compute costs fell ~60% since 2020, letting anyone spin up frontier\u2011lab\u2011scale models and erode your pricing power.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-08-08T11:01:05.182981+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2964,
+      "sent_to_telegram_at": "2026-08-08T11:01:05.182981+00:00"
+    },
     {
       "tweet_id": "2085708606356197734",
       "tweet_url": "https://x.com/jchervinsky/status/2085708606356197734#m",
