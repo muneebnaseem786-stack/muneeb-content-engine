@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-08-09T10:21:41.828444+00:00",
+  "last_updated": "2026-08-09T17:20:42.383765+00:00",
   "replies": [
+    {
+      "tweet_id": "2086408786927833237",
+      "tweet_url": "https://x.com/dampedspring/status/2086408786927833237#m",
+      "tweet_author": "dampedspring",
+      "tweet_text": "Nothing good is happening to my account here as far as I can tell. \n\n500k followers now with 250K net adds in 3 months.   2000\nVerified user increases or 5%.  Flat impressions.  Every follow is a bot.  Anyone else experiencing this? Genuinely think it makes my account less credible",
+      "reply_text": "From the platform\u2019s revenue perspective, your 500\u202fk followers and 250\u202fk net adds in three months feed a larger ad inventory, even if some follows are bots, so your bottom line improves despite flat impressions.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-09T17:20:42.383765+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style, sounding like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2999,
+      "sent_to_telegram_at": "2026-08-09T17:20:42.383765+00:00"
+    },
+    {
+      "tweet_id": "2086484597609800159",
+      "tweet_url": "https://x.com/jasonlk/status/2086484597609800159#m",
+      "tweet_author": "jasonlk",
+      "tweet_text": "Our agent 10K bought a piece of software this week from a vendor we had never heard of. No search, no demo, no shortlist, no competitor ever in the deal.\n\nAmelia was rebuilding our sponsor pages. The agent said we had no heat mapping installed, that Microsoft Clarity is free with a good API, and to sign up and tell it when she was logged in. It worked in 60 seconds. She did zero research of her own.\n\nNeither of us had heard of Microsoft Clarity before that day.\n\nSomewhere there's a heat mapping ",
+      "reply_text": "You bypassed a vendor shortlist, how do you plan to validate Clarity\u2019s data privacy compliance for UAE\u2011based user data?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-09T17:20:42.383765+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 2997,
+      "sent_to_telegram_at": "2026-08-09T17:20:42.383765+00:00"
+    },
+    {
+      "tweet_id": "2086444661447504033",
+      "tweet_url": "https://x.com/ianbremmer/status/2086444661447504033#m",
+      "tweet_author": "IanBremmer",
+      "tweet_text": "china giving cuba solar: 41 new solar parks in the last year, now 10% of cuba\u2019s energy up from 3% in january.\n\nwsj.com/world/china/cuba-chi\u2026\n\nLink\n\n\n\nCuba Is Low on Oil. Now, It\u2019s Counting on Solar, With China\u2019s Help.\n\nThe turn toward renewable energy has helped the island weather increased pressure from the U.S.\nwsj.com",
+      "reply_text": "You\u2019re missing the debt hook, China\u2019s panels come with financing that ties Cuba to Beijing for decades, turning green hype into a strategic liability.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-08-09T17:20:42.383765+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned hot_take style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2995,
+      "sent_to_telegram_at": "2026-08-09T17:20:42.383765+00:00"
+    },
     {
       "tweet_id": "2086101532890538192",
       "tweet_url": "https://x.com/fchollet/status/2086101532890538192#m",
