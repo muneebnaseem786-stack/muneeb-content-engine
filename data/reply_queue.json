@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-09T06:21:49.383957+00:00",
+  "last_updated": "2026-08-09T10:21:41.828444+00:00",
   "replies": [
+    {
+      "tweet_id": "2086101532890538192",
+      "tweet_url": "https://x.com/fchollet/status/2086101532890538192#m",
+      "tweet_author": "fchollet",
+      "tweet_text": "In hindsight, this was a pretty good investment thesis. GPUs, CPUs, memory, datacenter suppliers, etc. And the thesis is still intact.\n\n\nFran\u00e7ois Chollet (@fchollet)\n\nThe most reliably predictable trend of the next 100 years: every year, humanity will use significantly more computing power than the previous year.\n\nSomeone should start an ETF based on that thesis (it's not just $NVDA and $AMD, it's cloud services, the data center industry, nuclear power...)\n\n\n\n\u2014 https://nitter.net/fchollet/status",
+      "reply_text": "You overlook the imminent silicon fab capacity crunch and the energy ceiling, compute growth will stall by 2027, making an ETF on perpetual expansion a trap.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-08-09T10:21:41.828444+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 2986,
+      "sent_to_telegram_at": "2026-08-09T10:21:41.828444+00:00"
+    },
+    {
+      "tweet_id": "2086390371727085626",
+      "tweet_url": "https://x.com/Trace_Cohen/status/2086390371727085626#m",
+      "tweet_author": "trace_cohen",
+      "tweet_text": "OpenAI Acquires Presentation Startup NextSlide valueaddvc.com/pulse/openai-\u2026\n\nLink\n\n\n\nOpenAI Acquires Presentation Startup NextSlide\n\nOpenAI acquired NextSlide, a startup that turns notes and documents into AI-generated slide decks, folding founder Ahmed Beshry&apos;s team into ChatGPT&apos;s productivity push.\nvalueaddvc.com",
+      "reply_text": "95% cut in deck\u2011building time, slashing a typical 10\u2011hour weekly effort.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-09T10:21:41.828444+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches Muneeb's voice and style."
+      },
+      "telegram_message_id": 2984,
+      "sent_to_telegram_at": "2026-08-09T10:21:41.828444+00:00"
+    },
     {
       "tweet_id": "2085995879966921177",
       "tweet_url": "https://x.com/swyx/status/2085995879966921177#m",
