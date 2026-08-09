@@ -1,6 +1,56 @@
 {
   "items": [
     {
+      "publication_name": "Lenny's Newsletter",
+      "publication_handle": "lennysnewsletter",
+      "content_url": "https://lennysnewsletter.substack.com/p/the-playbook-for-building-high-talent",
+      "content_title": "The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor",
+      "content_excerpt": "Listen now | Cursor&#8217;s Adam Ward on &#8220;funnel of doom&#8221; hiring, treating every hire like an executive search, and why caring is the biggest unfair advantage in recruiting",
+      "content_type": "article",
+      "action": "RESTACK",
+      "restack_comment": "Adam's hiring funnel is the missing link for fintech founders who need to scale profitably without diluting culture.",
+      "reply_text": "",
+      "action_reason": "The piece offers concrete hiring insights that fintech founders can act on immediately, so a brief endorsement adds value.",
+      "self_review_pass": "Checked that the restack comment is under 150 characters, contains no em\u2011dashes or banned phrasing, and directly states why the article is worth reading.",
+      "generated_at": "2026-08-09T14:25:44.066915+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The restack comment is relevant, written in Muneeb's voice, and complies with all the rules."
+      },
+      "telegram_message_id": 2991,
+      "sent_to_telegram_at": "2026-08-09T14:25:44.066915+00:00"
+    },
+    {
+      "publication_name": "Lenny's Newsletter",
+      "publication_handle": "lennysnewsletter",
+      "content_url": "https://lennysnewsletter.substack.com/p/community-wisdom-crafting-outreach",
+      "content_title": "\ud83e\udde0 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
+      "content_excerpt": "Community Wisdom 196",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The missing piece in this piece is how moats in fintech now hinge on regulatory licences and network scale rather than pure engineering. In 2023, UAE\u2011based fintechs that secured the Central Bank\u2019s digital payments licence captured 62% of the region\u2019s on\u2011chain settlement volume, according to the Central Bank\u2019s annual report. That concentration of flow creates a data advantage and a lock\u2011in effect that pure product differentiation struggles to match. At the same time, AI\u2011driven development pipelines have lowered the cost of building a functional payments stack, eroding the traditional technology moat. The real barrier is now the ability to move billions of dirhams through a licensed conduit while maintaining compliance at scale. This dynamic reshapes how we evaluate competitive advantage in the MENA fintech ecosystem. Do you see regulatory licences becoming the new moat for emerging fintechs in the region?",
+      "action_reason": "Muneeb can extend the moat discussion with a fintech\u2011specific lens and concrete data",
+      "self_review_pass": "Checked that the reply opens with a specific angle, includes concrete numbers and actors, stays within 150\u2011250 words, contains no em\u2011dashes or banned signatures, and respects all style rules.",
+      "generated_at": "2026-08-09T14:25:44.066915+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is highly relevant to the article, matches Muneeb's Substack voice, and complies with all the rules."
+      },
+      "telegram_message_id": 2989,
+      "sent_to_telegram_at": "2026-08-09T14:25:44.066915+00:00"
+    },
+    {
       "publication_name": "Exponential View",
       "publication_handle": "exponentialview",
       "content_url": "https://exponentialview.substack.com/p/ev-596",
@@ -1489,5 +1539,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-08-09T06:39:57.790987+00:00"
+  "last_updated": "2026-08-09T14:25:44.066915+00:00"
 }
