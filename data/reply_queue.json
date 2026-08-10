@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-08-09T17:20:42.383765+00:00",
+  "last_updated": "2026-08-10T06:05:20.702654+00:00",
   "replies": [
+    {
+      "tweet_id": "2086521731133649137",
+      "tweet_url": "https://x.com/rauchg/status/2086521731133649137#m",
+      "tweet_author": "rauchg",
+      "tweet_text": "Hermes + Vercel = \ud83d\udda4\n\n\nVercel Developers (@vercel_dev)\n\nHermes Agent can run using Vercel AI Gateway and Vercel Sandbox.\n\nUse your AI Gateway key for inference to reach every model with full observability on spend, and Sandbox to run each command in an isolated microVM of its own.\n\nvercel.com/changelog/vercel-\u2026\n\nLink\n\n\n\nVercel AI Gateway and Vercel Sandbox now available on Hermes Agent - Vercel\n\nHermes, the NousResearch coding agent, now routes model requests through Vercel AI Gateway and can run",
+      "reply_text": "What incremental latency per command do you see when Hermes runs in a Vercel Sandbox microVM versus a traditional container, and how does that affect real\u2011time fintech transaction processing?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-10T06:05:20.702654+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 3012,
+      "sent_to_telegram_at": "2026-08-10T06:05:20.702654+00:00"
+    },
+    {
+      "tweet_id": "2086568727940677768",
+      "tweet_url": "https://x.com/geoffreylitt/status/2086568727940677768#m",
+      "tweet_author": "geoffreylitt",
+      "tweet_text": "Hm, is PDF the ideal format for agents submitting complex forms?\n\nBecause you can review a draft a lot more easily than with a web form",
+      "reply_text": "You see PDFs as convenient, but from the central bank\u2019s desk they\u2019re a data silo that stalls automated risk checks.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-10T06:05:20.702654+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 3010,
+      "sent_to_telegram_at": "2026-08-10T06:05:20.702654+00:00"
+    },
+    {
+      "tweet_id": "2086604364656107964",
+      "tweet_url": "https://x.com/simonw/status/2086604364656107964#m",
+      "tweet_author": "simonw",
+      "tweet_text": "Just noticed the Claude Opus 5 system prompt includes details of the Fable export control situation, in case people ask about it despite it being outside the model's knowledge cut-off platform.claude.com/docs/en/\u2026",
+      "reply_text": "You\u2019ve turned the model into a legal liability, embedding export\u2011control details invites regulator scrutiny the moment anyone queries it.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-08-10T06:05:20.702654+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 3008,
+      "sent_to_telegram_at": "2026-08-10T06:05:20.702654+00:00"
+    },
     {
       "tweet_id": "2086408786927833237",
       "tweet_url": "https://x.com/dampedspring/status/2086408786927833237#m",
