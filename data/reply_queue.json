@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-10T10:56:14.222826+00:00",
+  "last_updated": "2026-08-10T17:42:19.095016+00:00",
   "replies": [
+    {
+      "tweet_id": "2086865648131432558",
+      "tweet_url": "https://x.com/nlw/status/2086865648131432558#m",
+      "tweet_author": "nlw",
+      "tweet_text": "\"I do not understand why anyone who believes that AI will eliminate most jobs and much of humanity's relevance would rush to build that future.\" \n\n-@finkd \n\n\ud83d\udc46\ud83d\udc46\ud83d\udc46\ud83d\udc46\ud83d\udc46",
+      "reply_text": "You see AI wiping out jobs, how do you explain the 45% surge in AI\u2011related hiring at Nvidia, Microsoft and OpenAI over the past year?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-10T17:42:19.095016+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 3022,
+      "sent_to_telegram_at": "2026-08-10T17:42:19.095016+00:00"
+    },
     {
       "tweet_id": "2086461021288325600",
       "tweet_url": "https://x.com/PauloMacro/status/2086461021288325600#m",
