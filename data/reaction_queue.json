@@ -1,6 +1,270 @@
 {
-  "last_updated": "2026-08-11T05:23:49.980613+00:00",
+  "last_updated": "2026-08-11T10:13:02.226173+00:00",
   "posts": [
+    {
+      "topic": "TPG Lotte Rental acquisition",
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-11/tpg-agrees-to-buy-south-korea-s-lotte-rental-for-925-million",
+      "source_headline": "TPG Agrees to Buy South Korea\u2019s Lotte Rental for $925 Million",
+      "source_handle": "",
+      "x_post": "TPG's $925 million acquisition of Lotte Rental is not just a significant investment in South Korea's largest car-rental company, but a strategic move to expand its presence in the Asian market. With 1.31 trillion won invested, TPG is gaining a 61.2% stake in the company, marking a major milestone in the private equity firm's Asian expansion plans. This deal is a testament to the growing demand for car-rental services in South Korea, driven by increasing tourism and a rising middle class. The acquisition also highlights TPG's ability to navigate complex regulatory environments, having revived the sale of Lotte Rental after an earlier takeover was blocked by regulators. As TPG continues to grow its portfolio in Asia, this deal is likely to have a ripple effect on the region's car-rental industry, driving consolidation and innovation. With TPG's investment, Lotte Rental is poised to become an even more formidable player in the market, leveraging its expanded resources to enhance customer experience and stay ahead of the competition.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing. Regenerated sentences to lead with affirmative statements and use verbs instead of nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-08-11T10:12:31.113026+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reaction directly reframes the source's central claim and sounds like Muneeb's analytical voice."
+      },
+      "telegram_message_id": 3037,
+      "sent_to_telegram_at": "2026-08-11T10:13:02.226155+00:00"
+    },
     {
       "topic": "Nvidia's funding plan",
       "source": "rss:Bloomberg Markets",
