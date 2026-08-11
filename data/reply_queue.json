@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-10T17:42:19.095016+00:00",
+  "last_updated": "2026-08-11T05:45:18.007811+00:00",
   "replies": [
+    {
+      "tweet_id": "2086860354995339539",
+      "tweet_url": "https://x.com/jposhaughnessy/status/2086860354995339539#m",
+      "tweet_author": "jposhaughnessy",
+      "tweet_text": "This looks interesting\n\n\nBrian Chau (@brianchau57)\n\nI am automating investigative journalism at Effort.News\n\nWe're breaking five stories today based on verifiable financial data which everyone missed for years.\n\nThis is what I\u2019ve been working on. \ud83e\uddf5\n\n\n\n\n\n\u2014 https://nitter.net/brianchau57/status/2086803587699745170#m",
+      "reply_text": "Do you see UAE\u2019s open banking sandbox feeding the same data pipelines you used for the five stories, or will regulatory limits force a different source mix?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-11T05:45:18.007811+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 3033,
+      "sent_to_telegram_at": "2026-08-11T05:45:18.007811+00:00"
+    },
+    {
+      "tweet_id": "2086943450956451909",
+      "tweet_url": "https://x.com/Codie_Sanchez/status/2086943450956451909#m",
+      "tweet_author": "codie_sanchez",
+      "tweet_text": "The simplest path I know to get rich....\n\n1. Buy a small business.\n2. Use outside $ or seller financing.\n3. Add a website, social, reviews.\n4. Raise your prices.\n5. Add a subscription option.\n6. Offer more services to same clients.\n7. Buy a competitor and repeat.\n\nSell your business for 2-3x more in 3 years.",
+      "reply_text": "2022\u202fQ4, Silver Lake buys a fragmented fintech payments stack for $2.1\u202fB, then wrestles with tighter rates and regulator scrutiny. Your roll\u2011up plan rides the same capital\u2011cheap wave.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-08-11T05:45:18.007811+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned historical_parallel style while sounding like Muneeb."
+      },
+      "telegram_message_id": 3031,
+      "sent_to_telegram_at": "2026-08-11T05:45:18.007811+00:00"
+    },
     {
       "tweet_id": "2086865648131432558",
       "tweet_url": "https://x.com/nlw/status/2086865648131432558#m",
