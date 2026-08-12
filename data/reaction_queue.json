@@ -1,6 +1,56 @@
 {
-  "last_updated": "2026-08-11T20:01:44.291675+00:00",
+  "last_updated": "2026-08-12T05:49:12.091956+00:00",
   "posts": [
+    {
+      "topic": "SaaS companies and AI",
+      "source": "x:@patrick_oshag",
+      "source_url": "https://x.com/patrick_oshag/status/2087280944407273704#m",
+      "source_headline": "Eric's message to SaaS CEOs navigating the shift to AI. \n\nEvery day you hit your pre-AI plan, you're destroying value:\n\n\"One of the big messages to these SaaS c",
+      "source_handle": "patrick_oshag",
+      "x_post": "The notion that SaaS companies must adapt to AI is not just a suggestion, it's a necessity. Every day a SaaS company hits its pre-AI plan, it's actively destroying value. This is because the old playbook of relentless execution against a predetermined plan no longer applies in an AI-driven landscape. The shift to AI requires a fundamental transformation in how these companies operate, from their product development to their customer engagement. For instance, AI can automate many routine tasks, freeing up resources for more strategic initiatives. However, this also means that the traditional metrics of success, such as daily active users or revenue growth, may no longer be sufficient. SaaS companies must now prioritize AI-centric metrics, such as model accuracy or data quality, to truly measure their performance. The companies that fail to make this transition will find themselves left behind, as their competitors leverage AI to innovate and disrupt the market. Ultimately, the future of SaaS companies depends on their ability to embrace AI and redefine their value proposition in this new era.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing. Regenerated sentence structures to lead with affirmative statements and use verbs instead of nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 6,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-08-12T05:49:10.731203+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 4,
+        "compliance": "FAIL",
+        "violations": [
+          "BANNED LLM SIGNATURES"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reaction contains banned LLM signatures, such as 'redefine their value proposition', which indicates a need for revision to better match Muneeb's voice and style."
+      },
+      "telegram_message_id": 3054,
+      "sent_to_telegram_at": "2026-08-12T05:49:12.091942+00:00"
+    },
     {
       "topic": "AI development and investment",
       "source": "x:@lennysan",
