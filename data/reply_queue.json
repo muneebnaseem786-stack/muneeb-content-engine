@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-12T06:07:14.276387+00:00",
+  "last_updated": "2026-08-12T10:49:08.871479+00:00",
   "replies": [
+    {
+      "tweet_id": "2087294242691350956",
+      "tweet_url": "https://x.com/JonErlichman/status/2087294242691350956#m",
+      "tweet_author": "JonErlichman",
+      "tweet_text": "Stocks this year:\n\nSandisk: +441%\u2028Rackspace: +372%\u2028Dell: +250%\u2028Micron: +203%\u2028Seagate: +199%\u2028Intel: +164%\u2028Western Digital: +155%\u2028Marvell: +149%\u2028Arm: +145%\u2028Blackberry: +142%\u2028Nebius: +130%\u2028HP Enterprise: +126%\u2028AMD: +122%\u2028Palo Alto Net: +108%\u2028Applied Materials: +105%",
+      "reply_text": "You cite 441% for Sandisk, are you factoring the recent NVMe pricing power and its AI\u2011memory partnership with Nvidia, or is the rally mostly a market\u2011sentiment swing?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-12T10:49:08.871479+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 3066,
+      "sent_to_telegram_at": "2026-08-12T10:49:08.871479+00:00"
+    },
+    {
+      "tweet_id": "2087337751880380822",
+      "tweet_url": "https://x.com/KobeissiLetter/status/2087337751880380822#m",
+      "tweet_author": "KobeissiLetter",
+      "tweet_text": "BREAKING: President Trump's capital gains tax cut discussions include \"indexing\" capital gains for inflation BEFORE taxes are calculated.\n\nThis would mean that taxes would be applied on gains adjusted for inflation.\n\nFor example, if you purchased a stock for $100,000 and sold it 5 years later for $200,000.\n\nUnder the current system, you would owe capital gains taxes on the full $100,000 gain.\n\nBut, if cumulative inflation over those 5 years was 20%, your inflation-adjusted cost basis would rise ",
+      "reply_text": "You\u2019re looking at the hidden winner: indexed CG tax cuts lower the inflation premium on long\u2011dated bonds, letting issuers tap cheaper capital and keeping Treasury yields on a flatter curve.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-12T10:49:08.871479+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 3064,
+      "sent_to_telegram_at": "2026-08-12T10:49:08.871479+00:00"
+    },
     {
       "tweet_id": "2087185631810117977",
       "tweet_url": "https://x.com/jaltucher/status/2087185631810117977#m",
