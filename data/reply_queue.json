@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-08-12T17:48:45.963993+00:00",
+  "last_updated": "2026-08-13T06:08:46.107633+00:00",
   "replies": [
+    {
+      "tweet_id": "2087688494994923831",
+      "tweet_url": "https://x.com/biancoresearch/status/2087688494994923831#m",
+      "tweet_author": "biancoresearch",
+      "tweet_text": "As I like to say, \"Never take your interest rate advice from real estate people.\u201d\n\n They only know one thing \u2026 rates HAVE TO go lower, and the appropriate rate is 0% to 1%.\n\n Oh yeah, the President is a real estate guy. Remind me what he thinks about interest rates???\n\n\nHunterbrook (@hntrbrkmedia)\n\nNEW: America's largest mortgage lender made a giant $27.5 billion bet that interest rates would go down.\u2028\nThe bet failed. Last week $UWMC suspended its dividend and signed an emergency rescue with the",
+      "reply_text": "The Fed has lifted rates by 525\u202fbps since March\u202f2022 \u2013 the steepest tightening in four decades, making a 0\u20111% target implausible.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-13T06:08:46.107633+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches Muneeb's voice and style."
+      },
+      "telegram_message_id": 3083,
+      "sent_to_telegram_at": "2026-08-13T06:08:46.107633+00:00"
+    },
+    {
+      "tweet_id": "2087580735657881876",
+      "tweet_url": "https://x.com/packyM/status/2087580735657881876#m",
+      "tweet_author": "packym",
+      "tweet_text": "Since Chapter 2, Base has... \n- built Base Core \n- 5x'd monthly installs\n- launched battery-less offering\n- entered Illinois\n- raised &gt;$2B\n- powered up the Capability Cannon\n\nWhat's next? \n\n\"One is bringing the power to the compute, and two is bringing the compute to the power.\"\n\n\n\n\nPacky McCormick (@packyM)\n\nLast week, Base Power Company announced that it had raised $1B at $13B and launched Base Core.\n\nThe perfect opportunity to write Chapter 3 of the Book of Base. \n\nThis one is about bringi",
+      "reply_text": "From the bondholder\u2019s view your rapid scaling tightens the cash\u2011flow profile, but the new compute\u2011power loop raises duration risk on the debt, the upside is clear, the hidden liability is the latency in monetising the compute side.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-13T06:08:46.107633+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 3081,
+      "sent_to_telegram_at": "2026-08-13T06:08:46.107633+00:00"
+    },
+    {
+      "tweet_id": "2087583851380125752",
+      "tweet_url": "https://x.com/M_C_Klein/status/2087583851380125752#m",
+      "tweet_author": "M_C_Klein",
+      "tweet_text": "Should have subscribed to The Overshoot ft.com/content/20f44f32-6566\u2026\n\nLink\n\n\n\nHow a bad trade pushed a US mortgage giant into a $2bn lifeline\n\nBillionaire finance executive and Phoenix Suns owner Mat Ishbia forged a last-minute deal with Oaktree\nft.com",
+      "reply_text": "The bad trade is a red herring; the Fed\u2019s rate\u2011cycle gamble over\u2011leveraged mortgage lenders, making Oaktree\u2019s lifeline the inevitable next chapter of systemic credit risk.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-08-13T06:08:46.107633+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches Muneeb's voice and style."
+      },
+      "telegram_message_id": 3079,
+      "sent_to_telegram_at": "2026-08-13T06:08:46.107633+00:00"
+    },
     {
       "tweet_id": "2087294242691350956",
       "tweet_url": "https://x.com/JonErlichman/status/2087294242691350956#m",
