@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-13T10:50:36.845912+00:00",
+  "last_updated": "2026-08-13T17:47:52.240769+00:00",
   "replies": [
+    {
+      "tweet_id": "2087954820837622156",
+      "tweet_url": "https://x.com/TheStalwart/status/2087954820837622156#m",
+      "tweet_author": "TheStalwart",
+      "tweet_text": "All well and true, but I don\u2019t think it changes much, in terms of our reasoning on or regulation of the industry. People some times complain that, for example, individuals can\u2019t easily access hedge funds. But the ones that truly, unambiguously, outperform don\u2019t want your money.\n\n\nChris Josephs (@Chrisjjosephs)\n\nThe idea that every American will put their money into an ETF and forget about it will never happen\n\nPeople crave risk and pay a premium to feel it\n\nFor many, that premium is underperform",
+      "reply_text": "Only 4% of hedge funds have outperformed the MSCI World index net of fees since 2015; that scarcity drives the premium barrier you mention.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-13T17:47:52.240769+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 3101,
+      "sent_to_telegram_at": "2026-08-13T17:47:52.240769+00:00"
+    },
+    {
+      "tweet_id": "2087790403424600436",
+      "tweet_url": "https://x.com/chamath/status/2087790403424600436#m",
+      "tweet_author": "chamath",
+      "tweet_text": "Every year Gallup measures how many people report to a single manager across the American workforce.\n\nThe number jumped from 11 to 12 in a single year, the fastest move in the decade they have been tracking it. \n\nThe driver can be heard on every restructuring call: companies are cutting middle management roles and distributing the remaining employees across fewer remaining managers.\n\nGallup's own data says engagement peaks when a manager has eight or nine direct reports. Because that is roughly ",
+      "reply_text": "You point to span, and Q4\u202f2022, Terra\u2019s UST depeg wipes $45\u202fbn as governance collapses into a handful of core developers. Concentration drives failure.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-08-13T17:47:52.240769+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "REVISE",
+        "verdict_reason": "The reply is loosely related to the original tweet but loses its specific angle, thus requiring revision to better match the assigned style and voice."
+      },
+      "telegram_message_id": 3099,
+      "sent_to_telegram_at": "2026-08-13T17:47:52.240769+00:00"
+    },
     {
       "tweet_id": "2087703765918818486",
       "tweet_url": "https://x.com/ByrneHobart/status/2087703765918818486#m",
