@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-13T06:08:46.107633+00:00",
+  "last_updated": "2026-08-13T10:50:36.845912+00:00",
   "replies": [
+    {
+      "tweet_id": "2087703765918818486",
+      "tweet_url": "https://x.com/ByrneHobart/status/2087703765918818486#m",
+      "tweet_author": "byrnehobart",
+      "tweet_text": "To put the length and importance of his tenure in context, this is the guy who came up with the 30 under 30 list.\n\n\nThe New York Times (@nytimes)\n\nThe top editor of Forbes, Randall Lane, was fired last month after the company discovered that he had received a payment of about $6 million from the founder of a firm that does business with the magazine, according to people familiar with the decision. nyti.ms/4xXqVjB\n\nLink\n\n\n\nForbes Fired Top Editor After Discovering He Received Secret $6 Million Pa",
+      "reply_text": "You\u2019re focused on the scandal, but the paying founder\u2019s fund sees the $6\u202fM as a hedge that preserves Forbes\u2019 brand equity, keeping its media\u2011related bonds attractive to investors.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-13T10:50:36.845912+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 3092,
+      "sent_to_telegram_at": "2026-08-13T10:50:36.845912+00:00"
+    },
+    {
+      "tweet_id": "2087625178293604438",
+      "tweet_url": "https://x.com/garrytan/status/2087625178293604438#m",
+      "tweet_author": "garrytan",
+      "tweet_text": "We are gonna be markdown skill-maxxing from here\n\nThank you @illscience for a fun conversation\n\n\na16z (@a16z)\n\nGarry Tan on YC, First Principles Thinking, and Progress in the Age of AI\n\nSilicon Valley's advantage is that it gives weird, ambitious outsiders permission to try, find one another, and become insiders through building. Garry Tan learned this firsthand throughout his career at companies like Microsoft, Palantir, and YC.\n\nAI may now extend the power of Silicon Valley much further. Garry",
+      "reply_text": "You\u2019re seeing $45\u202fB of AI VC funding in 2023, a three\u2011fold rise that powers the skill\u2011maxxing you describe.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-13T10:50:36.845912+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 4,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is relevant, matches the voice, and complies with all rules."
+      },
+      "telegram_message_id": 3090,
+      "sent_to_telegram_at": "2026-08-13T10:50:36.845912+00:00"
+    },
     {
       "tweet_id": "2087688494994923831",
       "tweet_url": "https://x.com/biancoresearch/status/2087688494994923831#m",
