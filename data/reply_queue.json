@@ -1,6 +1,66 @@
 {
-  "last_updated": "2026-08-14T10:46:42.360178+00:00",
+  "last_updated": "2026-08-14T17:43:29.957683+00:00",
   "replies": [
+    {
+      "tweet_id": "2088292712562778518",
+      "tweet_url": "https://x.com/mattyglesias/status/2088292712562778518#m",
+      "tweet_author": "MattYglesias",
+      "tweet_text": "I'm still waiting for some kind of \"Six for Twenty-Six\" agenda  \n\nslowboring.com/p/history-oft\u2026",
+      "reply_text": "You\u2019re waiting for a Six\u2011for\u2011Twenty\u2011Six move, but the central bank is already using the 2026 curve to lock in cheap funding for its balance\u2011sheet runoff, handing long\u2011dated bondholders a windfall.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-14T17:43:29.957683+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 3131,
+      "sent_to_telegram_at": "2026-08-14T17:43:29.957683+00:00"
+    },
+    {
+      "tweet_id": "2088314614178320665",
+      "tweet_url": "https://x.com/Noahpinion/status/2088314614178320665#m",
+      "tweet_author": "noahpinion",
+      "tweet_text": "People think SF tech parties are a bunch of AI people standing around talking about AI. No. That was 2022. SF tech parties are now a bunch of AI people standing around desperately hoping to talk about anything BUT AI.",
+      "reply_text": "Are VC firms like Andreessen Horowitz now steering AI founders toward non\u2011AI product narratives to keep fundraising momentum?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-14T17:43:29.957683+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 3129,
+      "sent_to_telegram_at": "2026-08-14T17:43:29.957683+00:00"
+    },
+    {
+      "tweet_id": "2088135985905189014",
+      "tweet_url": "https://x.com/saifedean/status/2088135985905189014#m",
+      "tweet_author": "saifedean",
+      "tweet_text": "3 years into Milei\u2019s supposed anti-inflationist crusade, CPI rises 2.1% in a single month, totalling a 33.8% rise over the past year. \n\nreuters.com/world/americas/a\u2026\n\nLink\n\n\n\nArgentina monthly inflation rises in July to 2.1%\n\nArgentina&apos;s monthly inflation rate \u200bwas 2.1% in July, slightly \u200cabove the level recorded in June, while the 12-month figure also slightly sped \u200bup, data from national \u200bstatistics agency INDEC showed...\nreuters.com",
+      "reply_text": "You see 2.1% monthly as a disaster, yet it\u2019s the first time annual inflation fell below 40% since 2020 \u2013 Milei\u2019s radical reforms are finally breaking the hyper\u2011inflation spiral.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-08-14T17:43:29.957683+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned hot_take style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 3127,
+      "sent_to_telegram_at": "2026-08-14T17:43:29.957683+00:00"
+    },
     {
       "tweet_id": "2088040579087446166",
       "tweet_url": "https://x.com/lennysan/status/2088040579087446166#m",
