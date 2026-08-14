@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-14T06:07:31.604129+00:00",
+  "last_updated": "2026-08-14T10:46:42.360178+00:00",
   "replies": [
+    {
+      "tweet_id": "2088040579087446166",
+      "tweet_url": "https://x.com/lennysan/status/2088040579087446166#m",
+      "tweet_author": "lennysan",
+      "tweet_text": "Visiting the dentist is such an interesting way to track AI adoption over time. 6 months ago, zero AI. Today, AI is analyzing my x-rays and transcribing the conversation. Wonder what 6 months from now will look like.",
+      "reply_text": "You see AI as a convenience, but it\u2019s the first cost\u2011cutting lever that will drive dental fees lower within a year.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-08-14T10:46:42.360178+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet and matches the assigned style and voice of Muneeb."
+      },
+      "telegram_message_id": 3120,
+      "sent_to_telegram_at": "2026-08-14T10:46:42.360178+00:00"
+    },
+    {
+      "tweet_id": "2088077866659459143",
+      "tweet_url": "https://x.com/robinhanson/status/2088077866659459143#m",
+      "tweet_author": "robinhanson",
+      "tweet_text": "\"found no significant gender gap in self-reported feelings of loneliness \u2026 one group that is drastically lonelier than everyone else \u2026 poor people\" slate.com/life/2026/08/men-l\u2026\n\nLink\n\n\n\nThere Is No Male Loneliness Crisis. What\u2019s Actually Happening Is So Much Darker.\n\nThe data tells a different story.\nslate.com",
+      "reply_text": "You point to poverty as the loneliness driver; from the central bank\u2019s lens that translates into weaker consumption forecasts and a tighter policy bias, which is the real market mover here.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-14T10:46:42.360178+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb, with no compliance issues."
+      },
+      "telegram_message_id": 3118,
+      "sent_to_telegram_at": "2026-08-14T10:46:42.360178+00:00"
+    },
     {
       "tweet_id": "2088025162860179925",
       "tweet_url": "https://x.com/shl/status/2088025162860179925#m",
