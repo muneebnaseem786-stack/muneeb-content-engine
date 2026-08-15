@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-15T10:11:09.431056+00:00",
+  "last_updated": "2026-08-15T17:10:34.031228+00:00",
   "replies": [
+    {
+      "tweet_id": "2088413141436977465",
+      "tweet_url": "https://x.com/iampaulgrewal/status/2088413141436977465#m",
+      "tweet_author": "iampaulgrewal",
+      "tweet_text": "After decades of futility I've learned to hedge my @Browns pain by trading against their success.  Because I do so through event contracts, the contracts market - not a book betting against me - sets the prices. And I can exit my position at any time I feel orange and brown hope like I can in a traditional financial market.  Market structure matters.",
+      "reply_text": "From the exchange\u2019s view, your short bet supplies the opposite side that lets the market price Browns\u2019 odds in real time and fuels $1.3\u202fbn of 2023 NFL futures volume, generating fee income that keeps the contract book liquid.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-15T17:10:34.031228+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 3157,
+      "sent_to_telegram_at": "2026-08-15T17:10:34.031228+00:00"
+    },
+    {
+      "tweet_id": "2088373058750796263",
+      "tweet_url": "https://x.com/RushDoshi/status/2088373058750796263#m",
+      "tweet_author": "RushDoshi",
+      "tweet_text": "RT @NewLeftEViews: I don't quite understand some of the pushback to the China squeeze argument. That's not to say that none of it is legiti\u2026",
+      "reply_text": "You\u2019re missing that China still commands $3\u202ftrillion of foreign reserves and can inject liquidity at will; the squeeze is a narrative, the real threat is a policy U\u2011turn that would shock markets.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-08-15T17:10:34.031228+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 3155,
+      "sent_to_telegram_at": "2026-08-15T17:10:34.031228+00:00"
+    },
     {
       "tweet_id": "2088484672418291836",
       "tweet_url": "https://x.com/DiMartinoBooth/status/2088484672418291836#m",
