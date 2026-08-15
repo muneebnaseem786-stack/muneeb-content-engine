@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-15T05:57:42.317336+00:00",
+  "last_updated": "2026-08-15T10:11:09.431056+00:00",
   "replies": [
+    {
+      "tweet_id": "2088484672418291836",
+      "tweet_url": "https://x.com/DiMartinoBooth/status/2088484672418291836#m",
+      "tweet_author": "DiMartinoBooth",
+      "tweet_text": "Permits are tomorrow\u2019s construction employment.\n\n\nEndGame Macro (@onechancefreedm)\n\nWhen Boston Construction Starts Cracking The Cycle Is Already Late\n\nI\u2019m in the Boston area and I keep hearing the same thing from people working directly in construction. Work is slowing, layoffs are beginning, and the pipeline ahead looks noticeably weaker. One person with a very good view of upcoming projects told me conditions are already becoming recessionary.\n\nThat is anecdotal, but it lines up with the broa",
+      "reply_text": "You see Q1\u202f2023. Silicon Valley Bank collapses, wiping $2\u202ftrillion of deposits in days. The credit crunch now echoes your Boston slowdown. Credit squeezes ripple through real\u2011estate.",
+      "reply_style": "historical_parallel",
+      "generated_at": "2026-08-15T10:11:09.431056+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned historical_parallel style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 3150,
+      "sent_to_telegram_at": "2026-08-15T10:11:09.431056+00:00"
+    },
+    {
+      "tweet_id": "2088416370363105680",
+      "tweet_url": "https://x.com/hubermanlab/status/2088416370363105680#m",
+      "tweet_author": "hubermanlab",
+      "tweet_text": "One thing is certain about @davidsenra podcast and @scicomm \u2014 guests get the chance to say what they want and need to say and it\u2019s not contorted. No tap dance, no trap doors.\n\n\na16z (@a16z)\n\nTravis Kalanick says new media is why he's back after eight years of silence:\n\n\"The media landscape 10 years ago, 90% of what was said was very negative. Business had become politics, and we didn't know it... If it bleeds, it leads, right?\"\n\n\"Now the media landscape is like, 'yeah, you don't have to talk to ",
+      "reply_text": "You celebrate the freer podcast floor, but the BIS sees that very openness feeding faster sentiment\u2011driven flows into sovereign bonds. Since\u202f2021, on\u2011chain media mentions of rate cuts rose\u202f40% and 10\u2011yr yield swings widened\u202f25%.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-15T10:11:09.431056+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 3148,
+      "sent_to_telegram_at": "2026-08-15T10:11:09.431056+00:00"
+    },
     {
       "tweet_id": "2088292712562778518",
       "tweet_url": "https://x.com/mattyglesias/status/2088292712562778518#m",
