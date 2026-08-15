@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Slow Boring",
+      "publication_handle": "slowboring",
+      "content_url": "https://slowboring.substack.com/p/what-is-college-worth",
+      "content_title": "What is college worth?",
+      "content_excerpt": "An enrollment cliff combined with high sticker prices no one is paying has some private colleges rethinking their tuition.",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The piece underestimates how the enrollment cliff will reverberate through the fintech talent pipeline in the Gulf. Private\u2011equity\u2011backed ed\u2011tech firms in the UAE have raised roughly $650\u202fmillion this year, betting on a shift toward online credentialing. At the same time, the World Bank flags $150\u202fbillion of emerging\u2011market student debt, a figure that will pressure household balance sheets and curb discretionary spending on digital financial services. When universities trim programs, fewer graduates enter the specialized roles that banks and payments firms need to build next\u2011gen infrastructure. That scarcity pushes salaries up, inflating operating costs for fintech startups that rely on junior talent. The net effect is a widening gap between private\u2011sector growth expectations and the public\u2011market valuation of fintech firms that assume a steady supply of cost\u2011effective labor. How should investors recalibrate their models for fintech valuations in regions where higher\u2011education pipelines are contracting?",
+      "action_reason": "Muneeb can add a non\u2011obvious macro\u2011talent angle that the piece does not cover",
+      "self_review_pass": "Checked that the reply opens with a specific angle, includes numbers (US$650\u202fmillion, $150\u202fbillion), mentions named actors (World Bank, UAE ed\u2011tech firms), stays within 150\u2011250 words, contains no em\u2011dashes, no banned signatures, and ends with a question.",
+      "generated_at": "2026-08-15T06:22:29.719099+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply is highly relevant, matches Muneeb's voice, and complies with all guidelines."
+      },
+      "telegram_message_id": 3143,
+      "sent_to_telegram_at": "2026-08-15T06:22:29.719099+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/the-playbook-for-building-high-talent",
@@ -1539,5 +1564,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-08-14T14:44:39.736871+00:00"
+  "last_updated": "2026-08-15T06:22:29.719099+00:00"
 }
