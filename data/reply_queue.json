@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-16T10:11:18.879240+00:00",
+  "last_updated": "2026-08-16T17:09:54.885414+00:00",
   "replies": [
+    {
+      "tweet_id": "2088971737656414650",
+      "tweet_url": "https://x.com/TFTC21/status/2088971737656414650#m",
+      "tweet_author": "TFTC21",
+      "tweet_text": "Consumer confidence is cratering across every generation.  \n\nGen X and Boomers are sitting at ~78-80 on the Consumer Confidence Index, down ~40% from 2021 highs and the lowest readings in 5+ years.  \n\nOnly Gen Z and Millennials are still above 100, and even they're well below where they were a few years ago.",
+      "reply_text": "From the central bank\u2019s view the 78-80 reading is the tailwind they needed to keep policy tight and preserve real yields for bondholders, while the still-above-100 scores in Gen Z Millennials let the BIS justify a longer-duration buffer.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-16T17:09:54.885414+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it, with no compliance issues."
+      },
+      "telegram_message_id": 3182,
+      "sent_to_telegram_at": "2026-08-16T17:09:54.885414+00:00"
+    },
+    {
+      "tweet_id": "2089029342617854163",
+      "tweet_url": "https://x.com/TrungTPhan/status/2089029342617854163#m",
+      "tweet_author": "trungtphan",
+      "tweet_text": "Paypal hit peak market cap of $356B on July 23rd, 2021. On par with Mastercard and more valuable than Bank of America, Wells Fargo, Morgan Stanley, Citi, Amex or Goldman Sachs.\n\nPYPL since declined by 85% to $53B, worth less than all those firms and Stripe may acquire it. Wild.\n\n\n\n\nThe Wall Street Journal (@WSJ)\n\nBreaking: PayPal is in talks to sell itself to a group that includes Stripe and private-equity firm Advent International on.wsj.com/4xHa2ZZ\n\nLink\n\n\n\nExclusive | Stripe, Advent in Talks ",
+      "reply_text": "$0.41 EPS in FY2023 versus $3.15 in FY2021 - an 87% plunge, driving the $300B market\u2011cap loss.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-16T17:09:54.885414+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 5,
+        "voice_match": 5,
+        "compliance": "PASS",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "The reply directly engages with the original tweet, matches the assigned style, and sounds like Muneeb wrote it."
+      },
+      "telegram_message_id": 3180,
+      "sent_to_telegram_at": "2026-08-16T17:09:54.885414+00:00"
+    },
     {
       "tweet_id": "2088864389096980515",
       "tweet_url": "https://x.com/RaniaKhalek/status/2088864389096980515#m",
