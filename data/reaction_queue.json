@@ -1,6 +1,272 @@
 {
-  "last_updated": "2026-08-16T04:49:31.348723+00:00",
+  "last_updated": "2026-08-16T09:40:19.361126+00:00",
   "posts": [
+    {
+      "topic": "India LPG production",
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-08-16/india-readies-big-lpg-output-boost-as-hormuz-uncertainty-lingers",
+      "source_headline": "India Readies Big LPG Output Boost as Hormuz Uncertainty Lingers",
+      "source_handle": "",
+      "x_post": "India is on the cusp of a major LPG production boost, with state companies and private refiners preparing to increase output. 90% of the country's LPG imports come through the Strait of Hormuz, and the recent Iran war has prolonged uncertainty over this key waterway. As a result, India has directed its state companies and private refiners to prepare for a sharp increase in cooking gas production, seeking to bolster domestic supplies. This move is expected to have a significant impact on the country's energy sector, with the potential to reduce its reliance on imports and increase energy security. The production boost is also likely to have a positive impact on the economy, with the potential to create new jobs and stimulate economic growth. With India's LPG demand expected to continue growing, this production boost is a crucial step towards meeting the country's energy needs and reducing its dependence on imports.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and other banned LLM signatures. Regenerated sentences to lead with affirmative statements and use verbs instead of nominalizations.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 5,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 5,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-08-16T09:39:48.157102+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 4,
+        "voice_match": 3,
+        "compliance": "FAIL",
+        "violations": [
+          "RESTATEMENT NOT REACTION"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reaction primarily restates the source without adding a significant take or reframe."
+      },
+      "telegram_message_id": 3170,
+      "sent_to_telegram_at": "2026-08-16T09:40:19.361108+00:00"
+    },
     {
       "topic": "Government sponsored study on alcohol",
       "source": "rss:HN Frontpage",
