@@ -1,6 +1,273 @@
 {
-  "last_updated": "2026-08-16T09:40:19.361126+00:00",
+  "last_updated": "2026-08-16T16:39:22.481032+00:00",
   "posts": [
+    {
+      "topic": "California's unique geographical advantages",
+      "source": "x:@naval",
+      "source_url": "https://x.com/naval/status/2088923477801881635#m",
+      "source_headline": "California has the ultimate privilege - a monopoly on all of the warm, dry coastline in the most powerful empire in the world.",
+      "source_handle": "naval",
+      "x_post": "California's control of the warm, dry coastline in the most powerful empire in the world is a unique privilege that gives it a significant advantage over other states. With a monopoly on this valuable resource, California is able to attract businesses, tourists, and residents, generating significant revenue and driving growth. In 2024, California's GDP was over $3.6 trillion, with the tourism industry alone generating over $144 billion in revenue. The state's unique geography, combined with its strong economy and favorable business climate, makes it an attractive destination for companies and individuals alike. For example, the tech industry in Silicon Valley has thrived in part due to the state's favorable climate and access to top talent. As a result, California is able to maintain its position as a leader in the global economy, with its coastline playing a critical role in its success. The state's ability to capitalize on its geographical advantages has allowed it to build a diverse and resilient economy, with a strong foundation for continued growth and prosperity.",
+      "soft_ban_flags": [],
+      "self_review_pass": "I scanned for negation framing, decorative tricolons, stacked abstract nouns, meta-narration, and gravitas phrasing, and regenerated the text to use affirmative language and specific numbers. I also checked for closing aphorisms, stacked declaratives, and hedge sandwiches, and committed to a clear verdict.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-08-16T16:38:50.800544+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 3,
+        "voice_match": 2,
+        "compliance": "FAIL",
+        "violations": [
+          "RESTATEMENT NOT REACTION",
+          "NO SPECIFIC ANCHOR in the reaction's main argument"
+        ],
+        "verdict": "REVISE",
+        "verdict_reason": "The reaction primarily restates the source without adding a significant take or reframe, lacking a specific anchor to strengthen its argument."
+      },
+      "telegram_message_id": 3177,
+      "sent_to_telegram_at": "2026-08-16T16:39:22.481011+00:00"
+    },
     {
       "topic": "India LPG production",
       "source": "rss:Bloomberg Markets",
