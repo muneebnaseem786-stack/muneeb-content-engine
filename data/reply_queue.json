@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-17T05:25:01.038344+00:00",
+  "last_updated": "2026-08-17T11:01:20.791664+00:00",
   "replies": [
+    {
+      "tweet_id": "2088989712631410811",
+      "tweet_url": "https://x.com/ScottAdamsSays/status/2088989712631410811#m",
+      "tweet_author": "ScottAdamsSays",
+      "tweet_text": "\"EXTRA CREDIT\" Episode from The Scott Adams School.\n@ZiaErica @drdrew @BJdichter \n\nRecorded live at ScottAdams.Locals.com July 30th, 2026\n\nVideo",
+      "reply_text": "You\u2019re running the live extra\u2011credit session, will you pilot a stablecoin\u2011based tip system for contributors, and if so, will you use the UAE Central Bank\u2019s sandbox?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-17T11:01:20.791664+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3194,
+      "sent_to_telegram_at": "2026-08-17T11:01:20.791664+00:00"
+    },
     {
       "tweet_id": "2088995690567671968",
       "tweet_url": "https://x.com/VitalikButerin/status/2088995690567671968#m",
