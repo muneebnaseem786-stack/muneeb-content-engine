@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-18T06:00:29.249748+00:00",
+  "last_updated": "2026-08-18T10:16:05.033824+00:00",
   "replies": [
+    {
+      "tweet_id": "2089457258912452824",
+      "tweet_url": "https://x.com/fortelabs/status/2089457258912452824#m",
+      "tweet_author": "fortelabs",
+      "tweet_text": "AI is growing faster than any technology we've seen, and it's already reshaping which work matters and which doesn't\n\nMost people trying to learn it get stuck in one of two places: \n1. ignoring the noise because it's overwhelming\n2. chasing every new tool without building anything that lasts\n\nBoth paths lead to the same place: frustration, fragmentation, and the nagging sense that you're falling behind\n\nThere's a third option: build one system, grounded in what you already know, that keeps compo",
+      "reply_text": "From the central bank view, the AI churn you call noise is the data pipeline they need to calibrate real\u2011time credit models; the endless tool chase fuels the fintech sandbox that yields $12B in pilot deployments this year.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-18T10:16:05.033824+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3213,
+      "sent_to_telegram_at": "2026-08-18T10:16:05.033824+00:00"
+    },
+    {
+      "tweet_id": "2089506058842550369",
+      "tweet_url": "https://x.com/azeem/status/2089506058842550369#m",
+      "tweet_author": "azeem",
+      "tweet_text": "The AI economy is real and substantial. \n\n$110 billion in revenues in a sector that didn't exist four years ago. \n\nAnd it's growing 3x faster than the internet, the mobile phone and cloud computing. \n\nHere's an 8-minute Q&A about the state of the AI economy\n\ncc @erikbryn @ClementDelangue @levie @GavinSBaker  @pmarca  @Noahpinion\n\nVideo",
+      "reply_text": "You cite $110\u202fB in AI revenue, how will sovereign wealth funds such as ADQ or the Public Investment Fund shape the next wave of AI infrastructure financing?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-18T10:16:05.033824+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3211,
+      "sent_to_telegram_at": "2026-08-18T10:16:05.033824+00:00"
+    },
     {
       "tweet_id": "2089380218012373140",
       "tweet_url": "https://x.com/auren/status/2089380218012373140#m",
