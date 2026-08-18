@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-18T10:16:05.033824+00:00",
+  "last_updated": "2026-08-18T17:16:38.708145+00:00",
   "replies": [
+    {
+      "tweet_id": "2089706336967688362",
+      "tweet_url": "https://x.com/jonwu_/status/2089706336967688362#m",
+      "tweet_author": "JonWu_",
+      "tweet_text": "i would take a waymo to the moon\ni would make waymo my child's godparent\ni would have waymo eulogize me\ni would enter an eternal soulbond with a waymo\n\n\nThe San Francisco Standard (@sfstandard)\n\nWould you take a Waymo to Sea Ranch?\n\nCalifornia just approved the company\u2019s expanded service area, which includes the East Bay and Sonoma County \u2014 including rural areas with narrow two-lane highways.\n\nRead more: sf.news/4csMe3X\n\n\n\n\n\n\u2014 https://nitter.net/sfstandard/status/2089413206254956949#m",
+      "reply_text": "From the insurer\u2019s perspective, the new rural corridors add a risk premium that could erode Waymo\u2019s unit economics. Actuarial models show 20\u201130% higher loss cost on two-lane highways versus urban routes.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-18T17:16:38.708145+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3218,
+      "sent_to_telegram_at": "2026-08-18T17:16:38.708145+00:00"
+    },
+    {
+      "tweet_id": "2089758522678657212",
+      "tweet_url": "https://x.com/sama/status/2089758522678657212#m",
+      "tweet_author": "sama",
+      "tweet_text": "excited to work together on this. thank you jensen!\n\n\nJensen Huang (@JensenHuang)\n\n\nArticle\n\n\n\nSecuring the Infrastructure of Intelligence\n\nLand, power and shell: The next critical resource for AI factories.\n\nAI factories are the defining infrastructure of the AI era\u2014where compute transforms energy and data into intelligence that powers\n\n\n\n\n\u2014 https://nitter.net/JensenHuang/status/2089331487342829862#m",
+      "reply_text": "400\u202fMWh of AI training power was consumed in 2023, forcing operators to secure long\u2011term renewable contracts.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-18T17:16:38.708145+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3216,
+      "sent_to_telegram_at": "2026-08-18T17:16:38.708145+00:00"
+    },
     {
       "tweet_id": "2089457258912452824",
       "tweet_url": "https://x.com/fortelabs/status/2089457258912452824#m",
