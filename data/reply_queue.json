@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-19T05:19:05.524931+00:00",
+  "last_updated": "2026-08-19T10:16:36.384662+00:00",
   "replies": [
+    {
+      "tweet_id": "2089771488903561423",
+      "tweet_url": "https://x.com/tracyalloway/status/2089771488903561423#m",
+      "tweet_author": "tracyalloway",
+      "tweet_text": "I think a lot of people still don't understand the scale of debt issuance by the hyperscalers. They're on pace to be as sizeable in the IG bond market as the big banks within a few years",
+      "reply_text": "If AWS, Azure and Google each reach $10bn annual IG issuance by 2027, how will that reshape banks' capital allocation under Basel\u202fIV and affect their funding cost advantage?",
+      "reply_style": "sharper_question",
+      "generated_at": "2026-08-19T10:16:36.384662+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3228,
+      "sent_to_telegram_at": "2026-08-19T10:16:36.384662+00:00"
+    },
     {
       "tweet_id": "2089886431007342944",
       "tweet_url": "https://x.com/kentcdodds/status/2089886431007342944#m",
