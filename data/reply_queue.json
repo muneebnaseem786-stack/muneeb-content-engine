@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-08-19T10:16:36.384662+00:00",
+  "last_updated": "2026-08-19T17:58:01.458162+00:00",
   "replies": [
+    {
+      "tweet_id": "2090091187411865891",
+      "tweet_url": "https://x.com/TaviCosta/status/2090091187411865891#m",
+      "tweet_author": "TaviCosta",
+      "tweet_text": "And just as the Treasury doubles its debt buybacks\u2026..\n\nNone of us own enough gold.\n\ntavicosta.substack.com/p/a-m\u2026\n\nH/t @conksresearch",
+      "reply_text": "From the BIS angle the Treasury\u2019s buybacks jumping to $60bn in Q2\u202f2024 just thin the supply, letting sovereigns lock in lower yields while the real beneficiary is the global bond market, which now sees tighter spreads and higher demand.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-19T17:58:01.458162+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3233,
+      "sent_to_telegram_at": "2026-08-19T17:58:01.458162+00:00"
+    },
+    {
+      "tweet_id": "2090074581771907327",
+      "tweet_url": "https://x.com/JackFarley96/status/2090074581771907327#m",
+      "tweet_author": "JackFarley96",
+      "tweet_text": "I was interviewed about my views on semis, AI ROIC, copper, and silver, and also various single stock longs and shorts on @philrosenn\u2019s show - check it out!!\n\n\nPhil Rosen (@philrosenn)\n\nHyperscalers burning billions in cash is extremely bullish for semiconductor stocks over the next 12 months. \n\nI sat down with @JackFarley96 to go through his new model portfolio and high-conviction trade ideas, the short trades he likes right now, the risks in AI pricing power, and what comes next for hyperscale",
+      "reply_text": "You\u2019re betting on hyperscalers\u2019 cash burn to lift semis, but their AI spend caps out at $150B this year, the upside is already priced in.",
+      "reply_style": "hot_take",
+      "generated_at": "2026-08-19T17:58:01.458162+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3231,
+      "sent_to_telegram_at": "2026-08-19T17:58:01.458162+00:00"
+    },
     {
       "tweet_id": "2089771488903561423",
       "tweet_url": "https://x.com/tracyalloway/status/2089771488903561423#m",
