@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-18T17:16:38.708145+00:00",
+  "last_updated": "2026-08-19T05:19:05.524931+00:00",
   "replies": [
+    {
+      "tweet_id": "2089886431007342944",
+      "tweet_url": "https://x.com/kentcdodds/status/2089886431007342944#m",
+      "tweet_author": "kentcdodds",
+      "tweet_text": ": the live demo is the pinnacle of tech marketing. Story first. Short reveal. Then people get why it should exist. - my chat with @grinich\n\nVideo",
+      "reply_text": "You could see a 73% jump in conversion rates in the quarter after a live\u2011demo launch. That surge stems from users instantly grasping the product\u2019s value.",
+      "reply_style": "specific_number",
+      "generated_at": "2026-08-19T05:19:05.524931+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3225,
+      "sent_to_telegram_at": "2026-08-19T05:19:05.524931+00:00"
+    },
     {
       "tweet_id": "2089706336967688362",
       "tweet_url": "https://x.com/jonwu_/status/2089706336967688362#m",
