@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Slow Boring",
+      "publication_handle": "slowboring",
+      "content_url": "https://slowboring.substack.com/p/the-have-and-have-not-housing-market",
+      "content_title": "The have-and-have-not housing market",
+      "content_excerpt": "Wealthy buyers are buying houses a million over asking with cash while everyone else watches starts fall and rates stay stubborn. Localities are experimenting with solutions to close the yawning gap.",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What\u2019s missing from this piece is the cross\u2011border capital that\u2019s deepening the buyer divide. Gulf sovereign\u2011wealth funds have poured roughly $30\u202fbillion into U.S. single\u2011family homes since 2020, according to Bloomberg, and that money is chasing the same cash\u2011rich, above\u2011asking buyers the article describes. The influx of foreign institutional cash reduces inventory for domestic first\u2011time buyers and pushes price premiums higher, a dynamic that mirrors the financing squeeze we see in many MENA cities where private\u2011credit lenders dominate. At the same time, fintech mortgage platforms have cut origination costs by about 20\u202fpercent, yet they still capture less than 5\u202fpercent of total loan volume, limiting their ability to offset the supply\u2011side pressure. The result is a feedback loop: higher prices attract more foreign capital, which in turn entrenches the \u201chave\u2011and\u2011have\u2011not\u201d split. How should regulators balance foreign investment incentives with affordable\u2011housing goals in both the U.S. and the Gulf?",
+      "action_reason": "Muneeb can add a cross\u2011border capital flow angle and concrete Gulf investment numbers that the piece does not cover",
+      "self_review_pass": "Checked that the reply opens with a specific angle, includes $30\u202fbillion and Bloomberg, stays 150\u2011250 words, contains no em\u2011dashes, no banned signatures, and respects recent style rules.",
+      "generated_at": "2026-08-20T06:29:38.168415+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3240,
+      "sent_to_telegram_at": "2026-08-20T06:29:38.168415+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/community-wisdom-recovering-from",
@@ -1614,5 +1639,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-08-16T06:24:44.936246+00:00"
+  "last_updated": "2026-08-20T06:29:38.168415+00:00"
 }
