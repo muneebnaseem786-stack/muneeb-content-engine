@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-08-19T17:58:01.458162+00:00",
+  "last_updated": "2026-08-20T10:55:04.890640+00:00",
   "replies": [
+    {
+      "tweet_id": "2090133049291788434",
+      "tweet_url": "https://x.com/EricNewcomer/status/2090133049291788434#m",
+      "tweet_author": "EricNewcomer",
+      "tweet_text": "Here's Stripe's letter to investors explaining its acquisition of OpenRouter (LEAKED)",
+      "reply_text": "You spot a Stripe win, but regulators get a single API to monitor cross\u2011border flows, and bondholders see a tighter cash\u2011cycle that boosts debt coverage. The real beneficiary is the oversight engine, not just the acquirer.",
+      "reply_style": "reframe",
+      "generated_at": "2026-08-20T10:55:04.890640+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3243,
+      "sent_to_telegram_at": "2026-08-20T10:55:04.890640+00:00"
+    },
     {
       "tweet_id": "2090091187411865891",
       "tweet_url": "https://x.com/TaviCosta/status/2090091187411865891#m",
