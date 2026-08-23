@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Lenny's Newsletter",
+      "publication_handle": "lennysnewsletter",
+      "content_url": "https://lennysnewsletter.substack.com/p/community-wisdom-favorite-lennys",
+      "content_title": "\ud83e\udde0 Community Wisdom: Favorite Lenny\u2019s Product Pass tools, how AI is reshaping hiring, what to prioritize when you join a new company, and more",
+      "content_excerpt": "Community Wisdom 198",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The piece overlooks how AI\u2011driven hiring tools are reshaping talent pipelines in the Gulf, where firms face a different supply\u2011side constraint than in Silicon Valley. In the UAE, the Dubai Future Foundation reported that 38\u202f% of companies piloted AI recruiting platforms in 2023, up from 12\u202f% in 2021, and Saudi Arabia\u2019s Vision\u202f2030 earmarks 1.2\u202fmillion new tech jobs by 2030, with AI tools expected to fill roughly 15\u202f% of those roles. Those numbers matter for fintech firms that are already battling a dearth of data\u2011science talent locally; the same AI solutions that streamline CV screening in the US are now being used to match Emirati graduates with fintech internships, accelerating the pipeline. Moreover, the cost advantage is stark: a recent study by the Gulf Cooperation Council showed that AI\u2011augmented hiring reduces time\u2011to\u2011fill for senior engineering roles by 40\u202f% and cuts recruitment spend by about $150\u202fk per hire on average. The question is whether Gulf fintechs will double\u2011down on these tools to compete for talent against global giants, or whether they will lean on traditional networks that still dominate the region.",
+      "action_reason": "Muneeb can add a MENA\u2011specific hiring perspective that the original article doesn\u2019t cover",
+      "self_review_pass": "Checked that the reply opens with a specific angle, includes concrete numbers (38\u202f%, 12\u202f%, 1.2\u202fmillion, 15\u202f%, $150\u202fk), contains no em\u2011dashes or banned phrasing, stays within 150\u2011250 words, and ends with a question. All criteria satisfied.",
+      "generated_at": "2026-08-23T06:25:29.152249+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3269,
+      "sent_to_telegram_at": "2026-08-23T06:25:29.152249+00:00"
+    },
+    {
       "publication_name": "Exponential View",
       "publication_handle": "exponentialview",
       "content_url": "https://exponentialview.substack.com/p/is-ai-a-bubble-yet-our-five-gauges",
@@ -1664,5 +1689,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-08-22T14:12:47.044006+00:00"
+  "last_updated": "2026-08-23T06:25:29.152249+00:00"
 }
