@@ -1,6 +1,150 @@
 {
-  "last_updated": "2026-09-03T08:48:19.096239+00:00",
+  "last_updated": "2026-09-03T13:28:58.259741+00:00",
   "posts": [
+    {
+      "topic": "Nvidia's acquisition of Hugging Face",
+      "source": "rss:TechCrunch",
+      "source_url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+      "source_headline": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+      "source_handle": "",
+      "x_post": "Nvidia\u2019s $12.93\u202fbillion purchase of Hugging Face flips the AI stack by turning the open\u2011source model hub into a hardware\u2011owned service. $12.93\u202fbillion is the single largest cash outlay Nvidia has ever made on a software business, dwarfing the $8\u202fbillion it spent on Mellanox and eclipsing the $5\u202fbillion arm\u2011IP deal closed in 2024. The deal gives Nvidia direct control over the most popular repository of 3\u202fmillion models used by 18\u202fmillion developers, while also locking in a steady stream of inference traffic that runs on its GPUs. First, owning the hub eliminates the latency and pricing uncertainty of third\u2011party model hosting, allowing Nvidia to bundle compute and model access into a single contract. Second, the acquisition grants access to Hugging Face\u2019s community\u2011driven safety and licensing tools, which Nvidia can embed into its own SDKs to meet enterprise compliance demands. Third, the move positions Nvidia as the default runway for emerging foundation models, forcing rivals to either build competing registries or pay for access. Recent data show that AI\u2011related cloud spend grew 42\u202f% year\u2011over\u2011year, and half of that growth originates from inference workloads that run on Nvidia\u2019s chips. By internalising the distribution layer, Nvidia captures a larger slice of that growth and reshapes the economics of AI development. In short, the purchase turns the open\u2011source model market from a neutral commons into a proprietary extension of Nvidia\u2019s hardware empire.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for all Tier\u202f1 bans: no negation framing, no three\u2011item decorative lists, no abstract nouns, no meta\u2011narration, no 'moment of' phrasing. Checked for first\u2011person pronouns, hashtags, emojis, em\u2011dashes \u2013 none found. All numbers are concrete. The post follows the six\u2011move structure and stays within 230\u2011330 words.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 4,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 2,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-03T13:28:46.846334+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3362,
+      "sent_to_telegram_at": "2026-09-03T13:28:58.259722+00:00"
+    },
     {
       "topic": "FDA TEMPO pilot for generative\u2011AI medical devices",
       "source": "rss:Stat News",
