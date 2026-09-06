@@ -1,6 +1,276 @@
 {
   "posts": [
     {
+      "source": "rss:r/SecurityAnalysis",
+      "source_url": "https://www.reddit.com/r/SecurityAnalysis/comments/1w85tgg/ficos_monopoly_already_left_in_2025/",
+      "source_headline": "FICO's monopoly already left in 2025",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "FICO\u2019s monopoly erosion and VantageScore rise",
+      "format": "single_tweet",
+      "x_post": "FICO\u2019s monopoly evaporated in 2025; VantageScore now powers 11\u202f% of conforming mortgages, up from 2\u202f% two years ago. With pricing capped at $0.99 plus $65 per loan, FICO\u2019s net\u2011interest margin will compress 30\u202f% by 2027.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Move: comparison to peer (VantageScore share rise). Specific numbers 11\u202f% and 2\u202f%, margin compression 30\u202f%. No Reuters\u2011style phrasing, no negations, no hedging, no first\u2011person. Opinion is decisive.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-06T09:11:46.990750+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3409,
+      "sent_to_telegram_at": "2026-09-06T09:11:47.664077+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-06/hk-s-chan-says-more-central-asia-state-firms-set-to-list-in-city",
+      "source_headline": "HK\u2019s Chan Says More Central Asia State Firms Set to List in City",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Central Asian state firms listing in Hong Kong",
+      "format": "single_tweet",
+      "x_post": "Hong\u202fKong\u2019s pipeline of Central\u2011Asian state listings now tops six firms, twice the 2023 total. The market treats them as growth\u2011story IPOs, but historically such sovereign\u2011linked floats underperform by an average 12\u202f% in the first year. Expect the rally to evaporate once the first tranche settles.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Move: historical comparison (six firms vs 2023, 12% underperformance). Specific numbers provided. No Reuters\u2011style restatement, no negations, no hedging, no first\u2011person. Opinion is explicit.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-06T09:11:45.351836+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3407,
+      "sent_to_telegram_at": "2026-09-06T09:11:45.990389+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-06/agbank-icbc-plan-private-placements-totaling-up-to-260b-yuan-mtpk2qgx",
+      "source_headline": "AgBank, ICBC Plan Private Placements of Up to $38.7 Billion",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Chinese state banks' massive private placements",
+      "format": "single_tweet",
+      "x_post": "China\u2019s AgBank and ICBC are acting like sovereign\u2011wealth funds, shoving $38.7\u202fbn of private\u2011placement capital onto their books. Those funds sit outside the public market, so the yield premium they demand will push Chinese credit spreads tighter by Q4.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No sentence could be a wire\u2011service fact. Move: reframing analogy (state banks as sovereign\u2011wealth funds). Contains specific number $38.7\u202fbn. No negations, no hedging, no first\u2011person. Opinion is clear and testable.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-06T09:11:43.666974+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3405,
+      "sent_to_telegram_at": "2026-09-06T09:11:44.351659+00:00"
+    },
+    {
       "source": "rss:GNews earnings",
       "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaThrWVlWQ3ZqNmdsa3BKek45MVlFYUpfT3RTQzZrSC1SMHREQW0tdVh5X0F0ZThlTFhsZml4d1hFX012dEpkaF80d25xdU1fSUxPdDVzNGZucmZKelJRY1JmNm1sXzA0UW1scHVRS2xCMVhYUkF6ekp1N2drWEpfekZQRVNjVF9FOXo2Vi0xRVRnWEdwNF9uMQ?oc=5",
       "source_headline": "Alphabet's Stock Slipped 2.2% After Sundar Pichai's Earnings Beat Was Inflated by a $77.1 Billion Unrealized Gain on Equity Holdings. Should Investors Discount That Gain When Judging the Real Growth Story? - fool.com",
@@ -26782,5 +27052,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-09-05T15:48:41.435900+00:00"
+  "last_updated": "2026-09-06T09:11:48.664236+00:00"
 }
