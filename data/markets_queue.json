@@ -2,6 +2,600 @@
   "posts": [
     {
       "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/09/11/ecb-nagel-energy-prices-further-interest-rate-hikes.html",
+      "source_headline": "Further European rate hikes 'very much dependent' on energy costs, Bundesbank chief tells CNBC",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "ECB rate hike linked to energy prices",
+      "format": "single_tweet",
+      "x_post": "Nagel\u2019s warning that energy prices drive the next ECB hike ignores history \u2013 every time oil breached $100\u202f/\u202fbbl since 2008, the policy rate jumped above 3\u202f%. With Brent locked at $108, the next move is already priced in.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Each sentence offers a historical comparison, not a newswire recap. Move identified: historical comparison. Numbers used ( $100, $108, 3\u202f%). No negation, no hedging, no first\u2011person.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-11T09:22:56.672916+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3493,
+      "sent_to_telegram_at": "2026-09-11T09:22:57.361458+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-11/mufg-prices-1-3-billion-perpetual-at1-bond-amid-strong-demand",
+      "source_headline": "MUFG Prices $1.3 Billion Perpetual AT1 Bond Amid Strong Demand",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "MUFG AT1 bond pricing",
+      "format": "single_tweet",
+      "x_post": "MUFG\u2019s \u00a5200\u202fbn AT1 priced at a 7.8\u202f% spread turns the instrument into a high\u2011yield play, not a bank safety net. At that coupon the issue behaves like an industrial junk bond, stripping the \u2018regulatory buffer\u2019 label away.",
+      "soft_ban_flags": [],
+      "self_review_pass": "All sentences are opinion\u2011driven, not wire\u2011report style. Move: reframing analogy. Specific numbers (\u00a5200\u202fbn, 7.8\u202f%). No negation, no hedging, no first\u2011person.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-11T09:22:55.005790+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3491,
+      "sent_to_telegram_at": "2026-09-11T09:22:55.672771+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2026-09-11/iea-cuts-its-forecast-for-oil-demand-video",
+      "source_headline": "IEA Cuts Its Forecast for Oil Demand",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "IEA cuts oil demand forecast",
+      "format": "single_tweet",
+      "x_post": "IEA\u2019s latest demand downgrade \u2013 1.5\u202fm bpd less than a month ago \u2013 is a false alarm for crude. OPEC+ still holds ~6\u202fm bpd of spare capacity and inventories sit 30\u202fm barrels below the 5\u2011year average. The market will re\u2011price the supply crunch by week\u2011end.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No sentence could be written by Reuters as\u2011is. Move identified: contrarian thesis with evidence. Contains specific numbers (1.5\u202fm bpd, 6\u202fm bpd, 30\u202fm barrels). No negation, no hedging, no first\u2011person.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-11T09:22:53.356919+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3489,
+      "sent_to_telegram_at": "2026-09-11T09:22:54.005609+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/09/10/ecb-interest-rate-hike-lagarde-iran.html",
       "source_headline": "An ECB rate hike is \u2018all but certain\u2019 \u2014 but investors divided on what comes next",
       "source_handle": "",
@@ -30157,5 +30751,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-09-10T09:24:52.825749+00:00"
+  "last_updated": "2026-09-11T09:22:58.361601+00:00"
 }
