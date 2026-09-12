@@ -1,0 +1,58 @@
+# eToro End-of-Week Recap ,  2026-09-12
+
+## Week's Market Data
+- $SPX500: weekly close 7,656.98, week move -0.8%, intraweek path: The S&P 500 broke a four-day losing streak on Friday, September 11, by gaining 0.9%. This implies a decline during Tuesday, Wednesday, and Thursday of the week.
+- $NDX: weekly close 26,333.04, week move -0.7%, intraweek path: The Nasdaq Composite also rebounded 1% on Friday, September 11, after experiencing declines for four consecutive days prior.
+- $BTC: Traded near $77,247 as of Saturday, September 12. Bitcoin spent the week consolidating below the $80,000 mark, with initial attempts to push above it earlier in the month proving difficult.
+- $ETH: Traded near $2,441 on Friday, September 11, consolidating after failing to break the $2,500-$2,560 resistance zone. The asset's price was stable around $2,500 at the start of the week but saw slight declines later. Ethereum's 7-day performance as of September 7 was positive at 3.15%, with some sources indicating a weekly rally around 4% for the September 7-11 period, driven by institutional ETF inflows.
+- Marquee event of the week: The European Central Bank's interest rate hike on Thursday, coupled with the critical US inflation data released on Thursday and Friday, which ultimately led to a strong market rebound on Friday, September 11, after days of pressure.
+
+## Held Names That Reported This Week
+None of our direct portfolio holdings reported earnings this week. However, major AI-related companies Oracle ($ORCL) and Adobe ($ADBE) released their results after market close on Thursday, September 10, offering important read-across for our AI compute cluster.
+
+## Major Events (Past 5 Trading Days)
+1.  **US Labor Day Holiday:** US markets were closed on Monday, September 7, for the Labor Day holiday.
+2.  **ECB Interest Rate Hike:** On Thursday, September 10, the European Central Bank (ECB) raised its three key interest rates by 25 basis points. This decision was made in response to persistent inflation pressures, partly stemming from the ongoing Middle East conflict. The deposit facility rate increased to 2.50%, with main refinancing operations at 2.65% and marginal lending facility at 2.90%, effective September 16, 2026.
+3.  **US August Inflation Data:** Key US inflation reports for August were released, with the Producer Price Index (PPI) on Thursday, September 10, and the Consumer Price Index (CPI) on Friday, September 11. Headline CPI rose 0.4% month-over-month, aligning with consensus, resulting in a 3.4% year-over-year increase. Core CPI, which excludes volatile food and energy prices, increased 0.3% month-over-month, slightly higher than forecast.
+4.  **Major AI-Related Earnings:** Oracle ($ORCL) and Adobe ($ADBE) reported their quarterly earnings after the market closed on Thursday, September 10. Oracle surpassed expectations, which led to its stock rising over 6%, driven by strong cloud infrastructure revenue. Adobe's guidance for the current quarter was in line with estimates, and its stock saw a 4% decline.
+5.  **Geopolitical Tensions:** Ongoing Middle East conflicts, particularly involving Iran and impacting the Strait of Hormuz, continued to contribute to elevated oil prices and broader inflation concerns throughout the week.
+
+## Draft Saturday Post
+
+Hi Everyone,
+
+The trading week that just closed was a dynamic one, starting with a US market holiday on Monday and ending with a significant rebound on Friday, September 11. Both the $SPX500 and $NDX faced selling pressure earlier in the week, snapping a four-day losing streak to finish Friday up 0.9% and 1% respectively. However, the overall week saw the $SPX500 down 0.8% to 7,656.98 and the $NDX down 0.7% to 26,333.04.
+
+The major market events of the week centered on central bank actions and inflation data. On Thursday, September 10, the European Central Bank raised its key interest rates by 25 basis points, citing persistent inflation pressures, partly due to the Middle East conflict. In the US, August PPI came on Thursday, followed by CPI on Friday. While headline CPI was in line with expectations, core CPI printed slightly hotter than anticipated. Markets initially reacted with caution, but the Friday rebound suggests some relief that the inflation prints were not significantly worse than feared, easing some of the immediate rate hike concerns ahead of the Federal Reserve's meeting next week.
+
+Within our portfolio, the week was a testament to underlying conviction through market volatility. Our AI compute cluster likely saw some intraweek pressure given the broader market declines, but names like Oracle and Adobe reporting strong, albeit mixed, results offered some positive read-through on the AI infrastructure and monetization fronts. Conversely, our crypto-related holdings, including $BTC and $ETH, spent the week consolidating, with Bitcoin staying below $80,000 and Ethereum facing resistance around $2,500. Both assets had a strong August, and this consolidation might be a natural pause as the market digests recent gains and macroeconomic signals. I view this as a healthy reset, and our long-term thesis for crypto as a foundational compute primitive remains unchanged.
+
+Overall, our portfolio experienced a [USER CONFIRM: slightly negative/flat/positive] week, broadly tracking the market's initial cautious sentiment before Friday's recovery. We remain positioned in our high-conviction AI compute and crypto clusters, weathering short-term macro headwinds while focusing on the long-term compounding potential. I will continue to monitor the market's reaction to next week's Fed meeting.
+
+## Notes for User
+- Placeholders to confirm before posting: The overall portfolio performance (e.g., "slightly negative/flat/positive" or an approximate percentage).
+- Suggested posting window: Saturday afternoon UAE or Sunday morning UAE.
+
+## Sources
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5ackgvpxaNnTdMIJYrSv7rD-9IPa3LAYWXUHqIN1DO3xrZaTLdbsrqhAbLAOpVpF2XBW4LjXvcnzUTif0e4VvNSgAsvXTV2pId4T5N_ElaQbV_YYRu971e2vwVAKB5squTYxcG7nytPBOzNem
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN2TZ2a2HmKk3d1ToHvGQRMpliXZRYAiL6165WJDu5cUfCVGWPwyZg2S9KQFLmw6XiIP2kAU2iQcSceYkF06izVZM2vdEE0dfEFLE5DpM5tPDpdnWnBk1C-CAEmRzW8bBgCTd2uzfUh4TZ-ttOqm03XFJN9Bt6L_pzWJtT9Yzrni-hROx-B9_Lp24-khWtlpqC_2oLqBfotCAd83pXfZvooQwdJ0bZCk8JbUK-l6JrF84VPcyKVBEokcUuVjE=
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2uOEJ0FgUAsw10806-9GRpCX68Kh_HIul6HYpEvcxiL9YwJna5b_kwktGCUVjE35zj_gsor4YegQh1dTsAiQIy5Lz4rhBJTldz84kqGNBh6aK0i2HHJvpqdn3_Z-q3PzTkJSEOfzWPNP7QkfQuYOTrX-k7_P5eKrIavN1bD90
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvxkHpyeputzpZBLDU5b4vakfbj920-bzABnoqQVLeBtKZ2w2KeAFtbT2XvIv-Z5IymDkTx-6txH7W6f4-NCwIzXwMLcrT-Zfkigl2A2Fd_9NriXO9KqlsO3L8uy7PurDL3E148wX96mvw1XA3hkiFZynwYgtbxqoWWDqSuM0c2KFlWKgHM4io9eLpvHXQBw==
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0xlcgtmes37B0vZJAgcloktvv4rK2AOWGT_QMVKQq3kKiIh8Sdo5ycLXgmVMyZRGhMcg0Hcsu-ZrdPEfIwk6nNPl-cu12DLT-SGgYdddTKbprdtkke3yKh-7e3wcWm1MqREV_1-ExMzENf1sviWexKCT7IxGOZBqzN6t2BYAm_25v2Ov52zo=
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxRgvZVNNRRy4lZYgM1ybQfXVQsqh52r8D6ojkCNTCNh6rPY54Jd0S1U71ypstw5k5uE9QbZUXifGWKJgjUSysKKMHtE7mTGKknrTXrNV2oNGARkL21U-geXxX-QzNyaEyqgVpZVWoGEavkaln6oyOvmHQKNXhKceDUFk5C2hCp1SaoJQi4WYXzeFLZNVEo4leNkmscTxwCUBs320X1FIM5quMrLYQhNBfkBcC_hT4vhF16G8M7W2JJZTqzVmxXl2FEz0rjgfdgNZ9hlrJ
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEExVaTRqyGgskc-uwVG0Y8fwiwbgPCac09_GWBO1SFPJ1JEeF4aLxoUQtMmOKblG5HfHisrdv4jo2J0krBVQKdi-O8jnl6oiZ7Tl750e4VvNSgAsvXTV2pId4T5N_ElaQbV_YYRu971e2vwVAKB5squTYxcG7nytPBOzNem
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-xfrj3mSaZL_QtD3OEmDuQUocE5W5VAkDY-tW8qRmMMfz3w45tWEVfBbU4f8_5WjjhXp6IK8sSDcibNrVgMAb7wHB36EGVLyofI1XooDmimXmxyAK1IxOb7UqmkaZHeUen8pvCP-7gwc3EuqHYZibqLOwedTr9D9JHf00miP3fa_LhAXx
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVhAlg7bkll85wq9qw39_j-zyrdj79vJo2qV-Ul-zYc4JsTGkMfUkZdu6WK5P1dWpNF259pXZvFQkr6LEJxUEvUVowOZ0PNFb1p-u4pGZGh-K0rnmMp87_AZrOohhakzzJaL87phh0-jRQzK7G7nytPBOzNem
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUGG5fzAwOLbnUJt9TjIz2vJq0H2fS80KosUp30XxmzOnJvSSaHN0-w1IDK8Wa-HPBoBh6jOAl4g2Ru5L7HjA3SgmKzuR1ccKjHMmalgJ7Qo2I4IYdqtKvFbrFZEOcgwi523SQpbZTNltce6oEfJUEA01C1SAw8ANGhLmIj39pfqIHFQX0tjJirGDnxJA_L45CtiYidyd2MjqTX1S_DxPFukVNi-lFLNL-wU2_CCYtwsIoCJxQ2f5-QoFW9dxv93-N5Q1leyT7eVQ983Q5BxYVNG4=
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_hD2HIWbRWrk7LjQPMWR3ZK0fas3MkETOLeTgXYDkyV2Atn21oLwxY9uoRvL0w0_m0fKOV_C1NeCU3UC_UfiI7pzUaYd52sxPPZNfG-TEnqUenA6IbekQgAUIBNZ2PxEE4wBj0JRa_BT3kOiqF0h9_-iUjvPLFk_ETy0-1YqNBgHwe-ZF
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDYl8DoBC14JKV75VxWkL-E7Gg4NMjluMH2Isj3LvZX_hRdQQTkpjdevYxfRTrvP4g583udwuEWpsLRVuKZ-D84riz6Gpf-00zVqlRraiKK-iR8409suUmMeqnMifozFlOYRHu7KEJQQTgdW3V3_ajHp2F9vidgw1t8tPVg2VuCLDjoKTAe1w27fvWAw==
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd-C5McdQo7NLg3suCVE9pYu5htGS0_i5E59aFepReQynpAHtB3S-MeCvl6_oqTr_25oT1tTMuA8i1ibmz_sbxgoXYfPSgV_-89RHbJ_XDPtz3ocEibeWIDNFpDc4R-3Akm5RzMv4jKVtN0VUuxcHsWmZnh5NPOy3S5ACbfhlbvMjGWLPfoLxPmD7PTJDMHVTolz-rlQ==
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_bnhPpwiGTiYQn5-AN7UbItGc8N9zHl8jw4my2baCLgkNR129sXcoza32PoxgT9sDq8YOiV80sqLkSTvIgY9fTMx7p1lq_fH3K2JG37G7nytPBOzNem
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg8uIQ5QdKsz_e1FJ31EakRpmb7fAeCuskz5LWS-iU8a2qnipPfJwHFpaKiav67zlIvRrJ7OJOXIFa_pkg4cq5yMoWtH5abbcfbw8Iw1hCfDftr2MuzLAZc9L0ENYG2Rx0TX9H2Sd7m-gq7xLSGRpk3Bl6zLzvPLxIK3PbnorqjMKRu8x29wL8sGFYkih2xynww_N7ePG7kiAVaa8Yp7o3IHOlPtIoxQ==
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgyUY5X9VrhCUJJ7cmCPt_uF0p7JzHve1ShORLYlBc12RO5wnUs3cjp6vQtZ2zbPyq9oFCL0UKSZbQ5RHdJ9-D_ol8ldJX_CZEeZbklS_74F9bdqjtwBLyTUa8U_g_GohffLyglmY_H-ptUgX8VIEARUWahY5J6LwXAJ-KW5AwE9jcbLrKUY2rYkI9yX0clZG9_Nsn0y52Nlnk2NWvhokm10Ob06IyaSchLcXVhkxqVg==
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOsp22729EXJel6b7QpzObRpOCmEGKoVgJ16GtpiofOc1zNkmEV60DVD02aVPmJIyQ_RdeOCX0lQTZxbDgM-xwo8ef9YPznhPOKcMlomtDrKtVHo-8-iRpsUAey8ca0b0ArOnjTVpbMoCI
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiaAz-N1rF6EoyFR3TGA1fNxOudtiXxqy31kgZRWxUZTZeiO2_tccl-LQhdvZL51u5D_LlRLDyMV8kalMFfKDxJJyA3MJoXRmfZDHLrdNbw-olFRWM8WJrS9jdadam6B1MUbLFAJVyz2NB3LclGyAJUAoSC7Q62AZEg31lxLrXC_m5EYd50B2IDYmsT8X1g7lcPTE5PPU=
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqDwBbwSHIWcVSMKenCtHLyb3S4kxMyny2RUb2MJjhbzzxlcfg4h9s-nRfjSQoxbEN_ap1UhhgtVMwTxXgfUI_70JcR1qNiK5KEXekoGhNUF1Jbo50wR2xD7_ZUxYy-l6JVQhirktZHqZYt9TiWW1jx3IjU3C2mMeWIZEHMydgcn6pgS2FdGY4RvV4r0==
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVevM7CINp5qv_PHs6TON9mBDGjKQkvJFqDr4s8MB0bMAz9O2QlcggviaiZP8sDdV_aQ9i3n7MbNHgdqHfyHBCUvqC2eknY_ofRuh4m2vqwI85j-6tt6lKrsFW31rp6l3Feg3m0faeyTVdGN_gGQE50OqwlyvMBQgxkkmpWka_wKrM9gp0QCxsAQjrFmWoWj-f5UN-sjCQJJb_2sT_
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMVC51pnNPwSEmWpkVaZFdy_qbavAXheqBuGT_rgVM5c5_inbitcNq6PQXBvOC2Qt9oAvmKOiy9B4IYRY8ExRmwiI5SUl9ezdL2JLaY7eo-G7NiBrSJQcFRZcSih554fVWDps-
+- https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRUhqZa0TmyMbsmugOmtXij_UGNUGBQXOSRCw75bITZXsz29R74y1mhGI5f_Cr2qkH0V7dknhCsmSCEafgGGTjheBOQTbAdNJWyXOBqniC9T87f52TLZAf-TWKErlFX3Eg1EwmWnb8vp6tIGJqPjSdSoiKE9dH5QJCjEfVVD3ZwONK8aL4apcwBPAqKI5nw2qe9bei006N
