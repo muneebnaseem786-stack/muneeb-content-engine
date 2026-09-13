@@ -1,6 +1,141 @@
 {
   "posts": [
     {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2026-09-13/iran-seeks-gulf-support-for-hormuz-plan-video",
+      "source_headline": "Iran Seeks Gulf Support for Hormuz Plan",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Iran Hormuz plan",
+      "format": "single_tweet",
+      "x_post": "Oil\u2019s 4% rally on Hormuz risk premium is the wrong trade. Since 2019 every scare has reversed in under two weeks because the global tanker fleet can reroute roughly 3.2\u202fmillion bpd of cargo. The market will price out the premium by next week.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Contains a clear contrarian opinion, specific numbers (4%, under two weeks, 3.2\u202fmillion bpd). Move: Contrarian thesis with evidence. No Reuters\u2011style language, no negation, no hedging, no first\u2011person. Passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-13T16:51:30.455975+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3518,
+      "sent_to_telegram_at": "2026-09-13T16:51:31.248589+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-13/noel-tata-faces-biggest-crisis-yet-with-regulator-s-ipo-order",
+      "source_headline": "Noel Tata Faces Biggest Crisis Yet With Regulator\u2019s IPO Order",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Tata Sons IPO order",
+      "format": "single_tweet",
+      "x_post": "Regulator\u2011mandated IPO for Tata\u202fSons is a hidden catalyst, a value\u2011unlock rather than a death knell. The holding company controls 86% of Tata\u202fMotors, which trades at 0.4\u00d7 book, implying a $12\u202fbillion upside if the stake is forced to the market. The $185\u202fbillion conglomerate will soon be priced by the market, not by the boardroom.",
+      "soft_ban_flags": [],
+      "self_review_pass": "All sentences are opinionated with concrete data (86%, 0.4\u00d7 book, $12\u202fbillion, $185\u202fbillion). Move: Contrarian thesis with evidence. No Reuters\u2011style restatement, no negation, no hedging, no first\u2011person. Passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-13T16:51:28.436060+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3516,
+      "sent_to_telegram_at": "2026-09-13T16:51:29.455640+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2026-09-13/refining-bottleneck-sends-diesel-to-record-high-video",
+      "source_headline": "Refining Bottleneck Sends Diesel to Record High",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Diesel price record",
+      "format": "single_tweet",
+      "x_post": "Diesel at $5.20/gal is a risk premium that will evaporate within weeks. U.S. refiners are already running at 98% capacity and sit on 460\u202fmillion barrels of crude inventory \u2013 enough for four weeks of extra diesel runs. The market\u2019s bet on a sustained price rally is the wrong trade.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No sentence could be a wire report; each contains a specific number and opinion. Move identified: Contrarian thesis with evidence. Contains specific numbers ($5.20, 98%, 460\u202fmillion barrels). No negation phrasing, no hedging, no first\u2011person. Passed all checks.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-13T16:51:26.570381+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3514,
+      "sent_to_telegram_at": "2026-09-13T16:51:27.435862+00:00"
+    },
+    {
       "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/09/11/ecb-nagel-energy-prices-further-interest-rate-hikes.html",
       "source_headline": "Further European rate hikes 'very much dependent' on energy costs, Bundesbank chief tells CNBC",
@@ -30751,5 +30886,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-09-11T09:22:58.361601+00:00"
+  "last_updated": "2026-09-13T16:51:32.248709+00:00"
 }
