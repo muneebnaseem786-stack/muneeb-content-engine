@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/monday-data-14-09-2026",
+      "content_title": "\ud83d\udcc8 Anthropic\u2019s $517 billion shopping list",
+      "content_excerpt": "Plus: $300 billion chip subsidies, no jobs; a learning slump; AI decodes bio++",
+      "content_type": "article",
+      "action": "RESTACK",
+      "restack_comment": "I keep coming back to the $517bn AI spend target - it signals a scale shift that will reshape enterprise software investments globally.",
+      "reply_text": "",
+      "action_reason": "The piece already makes a strong, data\u2011driven point; a concise restack lets Muneeb amplify the scale insight without needing a separate angle.",
+      "self_review_pass": "Checked that the restack is under 150 characters, contains no em\u2011dashes, and follows Muneeb's first\u2011person, analytical voice. No banned signatures detected.",
+      "generated_at": "2026-09-14T11:19:08.160707+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3531,
+      "sent_to_telegram_at": "2026-09-14T11:19:08.160707+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/how-we-built-grok-bot-in-a-month",
@@ -1989,5 +2014,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-09-13T10:50:23.665290+00:00"
+  "last_updated": "2026-09-14T11:19:08.160707+00:00"
 }
