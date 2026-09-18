@@ -2,6 +2,600 @@
   "posts": [
     {
       "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
+      "source_headline": "Why Japan\u2019s markets flipped the usual script after central bank rate hike",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Japan market flip after rate hike",
+      "format": "single_tweet",
+      "x_post": "The Nikkei\u2019s 1.5% pop on a \u00a5157/$ yen and a falling 10\u2011yr JGB yield is the first time since the 1998 rate\u2011hike cycle that equities rise while bonds retreat. History tells us the next leg will be a steep equity rally, not a correction.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Sentence structure is original, not a news wire. Move identified: Historical comparison. Includes specific numbers (1.5%, \u00a5157, 1998). No negations, no hedging, no first\u2011person. Clear opinion (next leg will be a rally).",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-18T09:24:31.779271+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3594,
+      "sent_to_telegram_at": "2026-09-18T09:24:32.653145+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html",
+      "source_headline": "Bank of Japan raises interest rates to 31-year high, flags concerns over inflation",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "BOJ 31\u2011year\u2011high rate reframe",
+      "format": "single_tweet",
+      "x_post": "Japan\u2019s 1.25% policy rate is an emerging\u2011market number, not a safe\u2011haven one. With the 10\u2011yr JGB at 0.6% and the USD\u2011JPY hovering above 157, carry\u2011seeking funds are swapping bonds for equities \u2013 the Nikkei\u2019s 1.5% gain is the logical next step.",
+      "soft_ban_flags": [],
+      "self_review_pass": "All sentences are opinionated and not a wire copy. Move identified: Reframing analogy. Specific numbers (1.25%, 0.6%, 157, 1.5%). No negation framing, no hedging, no first\u2011person.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-18T09:24:30.000671+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3592,
+      "sent_to_telegram_at": "2026-09-18T09:24:30.779107+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-18/boj-split-vote-sends-bearish-signal-on-yen-strategists-say",
+      "source_headline": "Strategists Say Ueda\u2019s Less-Hawkish Comments Weighed on Yen",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "BOJ less\u2011hawkish comments and yen slide",
+      "format": "single_tweet",
+      "x_post": "The yen\u2019s slide past \u00a5158/$ is a pricing error, not a policy shift. BOJ just lifted its policy rate to 1.25% \u2013 still the highest among G\u201110 central banks \u2013 while core CPI sits under 2%. Expect a corrective rally by month\u2011end.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No sentence could be written as a straight news wire. Move identified: Contrarian thesis with evidence. Contains specific numbers (\u00a5158, 1.25%). No negations, no hedging, no first\u2011person. Opinion (pricing error) is clear.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-18T09:24:27.916451+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3590,
+      "sent_to_telegram_at": "2026-09-18T09:24:29.000499+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/09/17/diesel-gas-prices-oil-us-economy.html",
       "source_headline": "How record diesel prices will rip through the U.S. economy. Trucks, rails are only the start",
       "source_handle": "",
@@ -34450,5 +35044,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-09-17T17:29:40.487607+00:00"
+  "last_updated": "2026-09-18T09:24:33.653303+00:00"
 }
