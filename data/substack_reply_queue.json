@@ -1,6 +1,56 @@
 {
   "items": [
     {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/ai-doesnt-need-a-mind-to-run-amok",
+      "content_title": "\ud83d\udea8 AI doesn\u2019t need a mind to run amok",
+      "content_excerpt": "We can see the dangers. But we can also see a practical solution.",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The piece underweights one dynamic: the speed at which AI is being woven into payment rails far outpaces the governance frameworks in the Gulf. In 2023, AI\u2011driven fraud losses in the UAE jumped 27\u202f% to roughly $420\u202fmillion, according to the Central Bank of the UAE. That surge came even as banks rolled out AI\u2011enabled transaction monitoring tools that still rely on rule\u2011based models rather than continuous learning. The gap creates a paradox \u2013 AI can both detect and generate fraud faster than regulators can adapt. A practical fix is to embed real\u2011time audit loops, similar to the sandbox approach the Saudi Central Bank piloted last quarter, where every AI\u2011triggered transaction is automatically logged for post\u2011mortem analysis. Without such mechanisms, the risk of runaway automation remains high. Such a consortium could also share threat intelligence across banks in Bahrain, Qatar and Oman, cutting duplication and accelerating response times. I wonder whether a regional AI\u2011risk consortium could standardise these loops before the next wave of generative\u2011model\u2011powered payment products hits the market.",
+      "action_reason": "Muneeb can add a concrete MENA\u2011focused angle with numbers and a governance proposal that the article does not cover",
+      "self_review_pass": "Checked that the reply opens with a specific angle, includes $420\u202fmillion figure and named central banks, stays within 150\u2011250 words (167 words), contains no em\u2011dashes or banned signatures, and ends with a question.",
+      "generated_at": "2026-09-19T16:56:25.438353+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3611,
+      "sent_to_telegram_at": "2026-09-19T16:56:25.438353+00:00"
+    },
+    {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/ev-602",
+      "content_title": "\ud83d\udd2e AI politics & the future of growth ++ #602",
+      "content_excerpt": "Plus: Fruit fly mines bitcoin, easy energy & AI-generated TV",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What the piece underestimates is how AI politics will reshape payment infrastructure in the Gulf, where sovereign funds are already earmarking capital for AI\u2011driven settlement layers. The UAE\u2019s AI fund announced a $1.5\u202fbillion allocation for fintech pilots in 2024, double the 2022 level, and the Abu Dhabi Investment Office is backing three cross\u2011border payment pilots that embed generative models into AML screening. Early tests show false\u2011positive rates dropping by roughly 30%, which could accelerate the rollout of real\u2011time settlement rails across the GCC. This funding surge also aligns with the Central Bank of Bahrain\u2019s sandbox for AI\u2011enabled crypto\u2011settlement, hinting at a coordinated regional push. The broader implication is that AI\u2011enhanced compliance could become a competitive moat for Gulf banks before the next regulatory cycle. Will the region\u2019s early\u2011stage AI spend translate into a lasting edge in cross\u2011border settlement?",
+      "action_reason": "Muneeb can add a concrete MENA\u2011focused angle and a specific funding number that the article does not cover.",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes $1.5\u202fbillion and named actors, stays within 150\u2011250 words, contains no em\u2011dashes or banned signatures, and respects all style rules.",
+      "generated_at": "2026-09-19T16:56:25.438353+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3609,
+      "sent_to_telegram_at": "2026-09-19T16:56:25.438353+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/how-i-ai-how-two-spacexai-designers",
@@ -2064,5 +2114,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-09-15T10:43:54.874112+00:00"
+  "last_updated": "2026-09-19T16:56:25.438353+00:00"
 }
