@@ -2,6 +2,600 @@
   "posts": [
     {
       "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-24/cybersecurity-stocks-are-so-hot-investors-question-staying-power",
+      "source_headline": "Cybersecurity Stocks Are So Hot Investors Question Staying Power",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Cybersecurity Valuation Surge",
+      "format": "single_tweet",
+      "x_post": "Cybersecurity stocks have surged 85% YTD, dwarfing the Nasdaq\u2019s 45% gain, yet the sector now trades at a 30\u00d7 price\u2011to\u2011sales \u2013 a multiple not seen since the 2018 ransomware wave. The rally is a speculative AI\u2011risk bubble and a 20% pull\u2011back will hit within weeks.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Provides a contrarian thesis with a historical benchmark. Move: historical comparison. Numbers (85%, 45%, 30\u00d7, 2018, 20%). No Reuters\u2011type phrasing, no negations, no hedging, no first\u2011person. Opinion is decisive.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-24T09:43:53.314744+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3687,
+      "sent_to_telegram_at": "2026-09-24T09:43:54.035632+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-24/ambani-s-reliance-plans-up-to-1-billion-in-local-currency-bonds",
+      "source_headline": "Ambani\u2019s Reliance Plans Up to $1 Billion in Local Currency Bonds",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Reliance Bond Issue",
+      "format": "single_tweet",
+      "x_post": "Reliance\u2019s 100\u202fbn\u2011rupee bond, priced at a 7.5% coupon, sits just 150\u202fbp above India\u2019s 10\u2011yr sovereign yield, effectively making the issue a quasi\u2011government loan. That blurs the sovereign\u2011corporate divide and forces investors to treat Indian corporates as extensions of the state.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Each sentence offers a fresh angle; Reuters wouldn\u2019t frame the bond as a quasi\u2011government loan. Move: comparison to sovereign. Specific numbers (100\u202fbn, 7.5%, 150\u202fbp). No negations, no hedging, no first\u2011person. Opinion present and clear.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-24T09:43:51.626171+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3685,
+      "sent_to_telegram_at": "2026-09-24T09:43:52.314555+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
+      "source_headline": "30-year Treasury yield hits highest level since 2004",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "30\u2011yr Treasury Yield Spike",
+      "format": "single_tweet",
+      "x_post": "30\u2011year Treasury yield at 4.3% \u2013 its highest since 2004 and double the 2022 peak \u2013 has turned the long bond into the market\u2019s new real\u2011rate benchmark. With the 10\u2011year stuck around 3.9%, any strategy still anchored to the 10\u2011year is already out of sync.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No sentence could be a wire story; each line adds a unique take. Move identified: historical comparison. Contains specific numbers (4.3%, 2004, 2022, 3.9%). No negations, no hedging, no first\u2011person. Opinion test passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 2,
+          "avg": 1.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 3,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-24T09:43:49.887879+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3683,
+      "sent_to_telegram_at": "2026-09-24T09:43:50.626013+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
       "source_url": "https://www.bloomberg.com/news/videos/2026-09-23/uk-economic-growth-cooled-pmi-data-show-video",
       "source_headline": "UK Economic Growth Cooled, PMI Data Show",
       "source_handle": "",
@@ -39202,5 +39796,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-09-23T09:46:33.472369+00:00"
+  "last_updated": "2026-09-24T09:43:55.035815+00:00"
 }
