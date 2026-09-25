@@ -2,6 +2,600 @@
   "posts": [
     {
       "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-25/why-high-yields-on-us-treasury-bonds-government-debt-look-like-the-new-normal",
+      "source_headline": "Why High Yields on US Treasury Bonds, Government Debt Look Like the New Normal",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Historic 10\u2011yr yield baseline",
+      "format": "single_tweet",
+      "x_post": "Ten\u2011year yields at 5.2\u202f% are the highest level since the 2007\u201108 crisis, yet the market treats them as the new baseline. Back then the 5\u2011% zone sparked a wave of refinancing and a 30\u2011bp rally in high\u2011yield spreads; today spreads sit 150\u202fbps tighter, meaning the risk premium is being priced out.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No sentence could be lifted verbatim by Reuters. Move: historical comparison. Includes precise figures (5.2\u202f%, 30\u202fbp, 150\u202fbp). No negation, no hedging, no first\u2011person. Opinion that risk premium is being priced out is explicit.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-25T10:01:24.289803+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3699,
+      "sent_to_telegram_at": "2026-09-25T10:01:25.227789+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/newsletters/2026-09-25/this-is-a-world-many-bond-investors-have-never-seen-before",
+      "source_headline": "This Is a World Many Bond Investors Have Never Seen Before",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "5% Treasury ceiling myth",
+      "format": "single_tweet",
+      "x_post": "The 5\u202f% Treasury ceiling is actually a floor for credit spreads, not a cap on risk\u2011free rates. Real yields have already risen to 2.2% after the latest CPI surprise, leaving only a 2.8% premium for the next tranche of corporate debt and forcing spreads to compress, not widen.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Checked against wire\u2011style language \u2013 original phrasing is opinionated. Move: contrarian thesis with evidence. Specific numbers (5\u202f%, 2.2%, 2.8%). No negations, no hedging, no first\u2011person. Opinion that spreads will compress is clear.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-25T10:01:22.294199+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3697,
+      "sent_to_telegram_at": "2026-09-25T10:01:23.289639+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-25/banks-tap-billions-in-boe-repo-cash-to-profit-on-bond-trades",
+      "source_headline": "Banks Tap Billions in BOE Repo Cash to Profit on Bond Trades",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "BOE repo arbitrage",
+      "format": "single_tweet",
+      "x_post": "London banks are pocketing a near\u20115\u2011percentage\u2011point carry by borrowing \u00a32.3\u202fbn overnight in BOE repo at 0.2% and buying 10\u2011year Treasuries that now yield 5.1%. The BoE\u2019s announced repo\u2011window shrinkage will wipe that spread in weeks, turning today\u2019s windfall into a flash\u2011crash for balance\u2011sheet returns.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for Reuters\u2011style phrasing \u2013 none found. One\u2011move test: divergence between repo rate and Treasury yield. Contains specific numbers (\u00a32.3bn, 0.2%, 5.1%). No negations, no hedging, no first\u2011person. Opinion (trade will evaporate) is explicit.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-25T10:01:20.308172+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3695,
+      "sent_to_telegram_at": "2026-09-25T10:01:21.294055+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
       "source_url": "https://www.bloomberg.com/news/articles/2026-09-24/cybersecurity-stocks-are-so-hot-investors-question-staying-power",
       "source_headline": "Cybersecurity Stocks Are So Hot Investors Question Staying Power",
       "source_handle": "",
@@ -39796,5 +40390,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-09-24T09:43:55.035815+00:00"
+  "last_updated": "2026-09-25T10:01:26.227933+00:00"
 }
