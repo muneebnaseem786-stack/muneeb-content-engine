@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "rss:GNews earnings",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdDZadWdrSjJwaDZ1U1pMYm5KSGZ4SU1GZDVLOTQzRl9HTXM3M1VxYzlfNWhFalVTYmFSaXJJRDVLeFR5dGJDVzRRZXJmdFkzTV9BRWE2SGdmZmhPTXYzVFYyQnBpVFhQcU1SY2VXbmJFY3VKTmlPM0dkNG56TjQ3aUJDRms4ZmFTTzNmUEQ2OHJOUDFOXzBmX3V3WFRFakJCUUkzeFEwUHNTTzVfOFVOcjVsSUNfcWxvaV9Mb204SHlrS1N2NVJKQzhpMNIB0AFBVV95cUxNaThQTFlSUktlWno3bklzTEQ5eVNOcHh4d25XSlVEZ0RsNXh4MDQ0T2JKdWZTUUlJb2JSUHNJdEdLVDZtcEdEY052c0JtenNlbndUS24tUXU1aWR4QnA5S3JKRUdrSWpRZldzWS00QUIxTXViRUhvRFpkV0xBX2JuOXFIc1FzTy1RREZ4bTFadnRUT2JOWGdWd0lEZ2FNNF9OSExrRjRRZmN1ZHBJWkxYTklEcjdSYm9maTdjc1U1Q05MMFhsU19VUHAzWUFqZ1h6?oc=5",
+      "source_headline": "Uranium Energy (UEC) Could Be 65% Undervalued After Mixed Quarterly Results - simplywall.st",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Uranium Energy appears 65% undervalued",
+      "format": "single_tweet",
+      "x_post": "Uranium Energy trading at a 65\u202f% discount to its intrinsic model makes it the deepest value play in the nuclear sector. While Cameco trades within 5\u202f% of its DCF, UEC\u2019s market cap sits at $450\u202fm against a $1.2\u202fbn fair value. Capital inflows into uranium will force the gap to close, and the stock should breach $12 per share by Q3\u202f2027.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Sentences combine a bold valuation claim, precise numbers, and a concrete price forecast. No neutral wire\u2011style language, no negations, no hedges. Move identified: Comparison to peer (Cameco) with historical valuation gap.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-30T10:55:38.141884+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3771,
+      "sent_to_telegram_at": "2026-09-30T10:55:39.199245+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-30/tullow-oil-shares-slump-after-loss-of-crucial-ghana-tax-dispute",
+      "source_headline": "Tullow Oil Shares Drop 50% After Loss of Ghana Tax Dispute",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Tullow Oil 50% share drop after Ghana tax loss",
+      "format": "single_tweet",
+      "x_post": "Tullow\u2019s 50\u202f% plunge after losing the Ghana tax case turns the stock into a high\u2011beta junior, a cash\u2011generating producer in name only. Ghana fields deliver roughly 70\u202f% of its output, so the arbitration loss wipes out the majority of its revenue stream. Investors will demand a 30\u202f% discount to the pre\u2011loss price, pushing the valuation below $200\u202fm by year\u2011end.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Each sentence delivers a distinct opinion, specific percentages, and a price target. No Reuters\u2011type neutral reporting. No negation or hedging language. Move identified: Reframing analogy (oil junior vs producer).",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-30T10:55:36.095247+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3769,
+      "sent_to_telegram_at": "2026-09-30T10:55:37.141688+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2026-09-30/the-pulse-9-30-2026-video",
+      "source_headline": "OpenAI Seeks $30 Billion at $1.4 Trillion Valuation",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "OpenAI $30bn raise at $1.4tn valuation",
+      "format": "single_tweet",
+      "x_post": "OpenAI\u2019s $30\u202fbn raise at a $1.4\u202ftn price tag is a pricing error, a milestone in overvaluation. The deal values the company at 2\u202f% of global GDP, yet the core engine\u2014GPT\u20114\u2014costs under $1\u202fbn to run at current scale. History shows AI unicorns that double\u2011down above $1\u202ftn tumble within twelve months; a corrective re\u2011rating will hit by Q1\u202f2027.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Checked for Reuters\u2011style phrasing \u2013 each sentence adds a contrarian angle, a specific number, and a forward\u2011looking claim. No negation phrasing found. Eliminated hedging; all verbs are definitive. Move identified: Contrarian thesis with evidence.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-09-30T10:55:34.002906+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3767,
+      "sent_to_telegram_at": "2026-09-30T10:55:35.095084+00:00"
+    },
+    {
       "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/09/29/consumer-optimism-slides-sharply-as-fears-escalate-over-rising-prices-and-jobs.html",
       "source_headline": "Consumer optimism slides to lowest since 2014 as fears escalate over rising prices and jobs",
@@ -42766,5 +43360,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-09-29T18:29:11.789320+00:00"
+  "last_updated": "2026-09-30T10:55:40.199438+00:00"
 }
