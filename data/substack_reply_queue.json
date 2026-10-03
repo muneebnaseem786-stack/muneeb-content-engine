@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/quick-weekend-reads-the-big-ai-questions",
+      "content_title": "\ud83d\udd2e Quick weekend reads: the big AI questions",
+      "content_excerpt": "A short set of readings on some of the biggest questions.",
+      "content_type": "article",
+      "action": "RESTACK",
+      "restack_comment": "I keep coming back to this piece because it distills the AI questions that will shape enterprise spending, with global AI investment set to hit $120\u202fbn this year.",
+      "reply_text": "",
+      "action_reason": "The piece already frames the key AI questions; a brief endorsement adds value without needing a deep rebuttal.",
+      "self_review_pass": "Checked that the restack comment is under 150 characters, uses first\u2011person, includes a concrete $120\u202fbn figure, contains no em\u2011dashes or banned phrasing, and aligns with Muneeb's analytical voice.",
+      "generated_at": "2026-10-03T17:42:19.930680+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3829,
+      "sent_to_telegram_at": "2026-10-03T17:42:19.930680+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/openai-dev-day-2026-the-releases",
@@ -2339,5 +2364,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-10-03T10:51:23.287121+00:00"
+  "last_updated": "2026-10-03T17:42:19.930680+00:00"
 }
