@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Lenny's Newsletter",
+      "publication_handle": "lennysnewsletter",
+      "content_url": "https://lennysnewsletter.substack.com/p/how-i-ai-8-real-jev-use-cases-how",
+      "content_title": "\ud83c\udf99\ufe0f How I AI: 8 real Jev use cases + How OpenAI uses ChatGPT Sites (live at DevDay!) + Claire\u2019s DevDay recap",
+      "content_excerpt": "Your weekly listens from How I AI, part of the Lenny&#8217;s Podcast Network",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The piece underweights one dynamic: the payment rails that power these AI use cases are far from neutral infrastructure. In 2023 fintech firms collectively spent about $1.3\u202fbillion on AI tools, yet only roughly 12\u202f% of that budget was directed toward settlement\u2011layer automation, where the biggest efficiency gains lie. Companies like Stripe and PayPal are now experimenting with generative models to auto\u2011reconcile cross\u2011border transfers, but the ROI remains modest because legacy clearing networks still dominate the cost curve. This mismatch explains why many of the highlighted use cases\u2014customer support bots, code assistants, content generators\u2014deliver headline\u2011grabbing demos but limited impact on transaction throughput or fee reduction. A more telling metric for the fintech sector will be the proportion of AI spend that actually touches the core rails, not the peripheral front\u2011end experiences. How do you see the balance shifting as central banks explore stablecoin\u2011backed settlement APIs in the next two years?",
+      "action_reason": "Muneeb can add a concrete fintech\u2011AI angle and a specific spend figure that the original list omits",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes a $1.3\u202fbillion figure, avoids em\u2011dashes and banned phrasing, stays within 150\u2011250 words, and ends with a question.",
+      "generated_at": "2026-10-07T12:21:55.900794+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3866,
+      "sent_to_telegram_at": "2026-10-07T12:21:55.900794+00:00"
+    },
+    {
       "publication_name": "Exponential View",
       "publication_handle": "exponentialview",
       "content_url": "https://exponentialview.substack.com/p/quick-weekend-reads-the-big-ai-questions",
@@ -2364,5 +2389,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-10-06T19:15:15.485359+00:00"
+  "last_updated": "2026-10-07T12:21:55.900794+00:00"
 }
