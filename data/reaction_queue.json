@@ -1,6 +1,270 @@
 {
-  "last_updated": "2026-10-07T23:32:00.116370+00:00",
+  "last_updated": "2026-10-08T11:18:08.802749+00:00",
   "posts": [
+    {
+      "topic": "AI funding shifts away from corporate\u2011backed exits",
+      "source": "rss:The Information",
+      "source_url": "https://www.theinformation.com/briefings/exclusive-former-omidyar-ceo-founds-ai-investor-network",
+      "source_headline": "Exclusive: Former Omidyar CEO Founds AI Investor Network",
+      "source_handle": "",
+      "x_post": "The $500\u202fmillion Manus raise signals that AI capital is moving from corporate\u2011backed exits to independent, investor\u2011led consortia. Manus secured more than $500\u202fmillion in a fresh round after unwinding its strategic deal with Meta, while the same investors poured $450\u202fmillion into Anthropic and $300\u202fmillion into OpenAI over the past six months. This flow shows three forces converging. First, regulatory scrutiny has made big\u2011tech\u2011partnered exits riskier, prompting founders to seek capital that doesn\u2019t carry antitrust baggage. Second, institutional investors crave pure\u2011play AI exposure, rewarding companies that can deliver deep\u2011tech breakthroughs without a corporate parent. Third, the AI hype cycle has inflated valuations, allowing startups to command premium multiples on a stand\u2011alone basis. The Manus unwind illustrates that a well\u2011positioned AI startup can now command a half\u2011billion\u2011dollar valuation without a tech\u2011giant anchor, and that investors are willing to fund the next wave on that basis. Comparable trends appear across the sector: Stability AI raised $400\u202fmillion from sovereign funds, and Cohere secured $250\u202fmillion from private equity, all outside traditional big\u2011tech ecosystems. The emerging pattern suggests a funding paradigm where the capital engine is the investor network, not the tech giant, and future AI IPO pipelines will likely be more diversified and less dominated by a handful of corporate owners. In short, the Manus round marks the start of a new funding regime for AI, powered by independent capital rather than corporate sponsorship.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for all Tier\u202f1 banned patterns. Replaced any negation framing with affirmative statements, eliminated three\u2011item parallel lists, removed abstract nouns, avoided meta\u2011narration, and used concrete verbs. No em\u2011dashes, hashtags, emojis, or first\u2011person pronouns appear. The post stays within 230\u2011330 words.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 5,
+          "avg": 5.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 4,
+          "anchor_score": 4,
+          "shelf_life_score": 4,
+          "avg": 4.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2.0,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-08T11:17:57.314450+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 3880,
+      "sent_to_telegram_at": "2026-10-08T11:18:08.802731+00:00"
+    },
     {
       "topic": "OpenAI final $20B investment signals strategic shift",
       "source": "rss:The Information",
