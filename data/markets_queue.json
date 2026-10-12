@@ -1,6 +1,141 @@
 {
   "posts": [
     {
+      "source": "rss:Money Stuff",
+      "source_url": "https://www.bloomberg.com/opinion/newsletters/2026-10-12/don-t-bet-against-the-sports-bets",
+      "source_headline": "Don\u2019t Bet Against the Sports Bets",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Sports betting cash\u2011cow",
+      "format": "single_tweet",
+      "x_post": "Sports\u2011betting generates $7\u202fbn of annualized revenue and runs on a 95% gross margin, a cash\u2011flow profile that resembles a utility more than a casino. Yet analysts still price it with a 15\u00d7 earnings multiple, the same as high\u2011growth tech. The market is undervaluing a near\u2011cash\u2011cow \u2013 the upside is priced in.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Uses reframing analogy (utility vs casino) with concrete figures ($7\u202fbn, 95% margin, 15\u00d7 multiple). No Reuters\u2011style restatement, no negation, no hedging, no first\u2011person. Opinion is explicit that the sector is undervalued.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-12T21:35:07.614365+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3946,
+      "sent_to_telegram_at": "2026-10-12T21:35:08.250154+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
+      "source_headline": "Earnings beats are now the norm. What the stock market needs to keep rallying",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Earnings beats now norm",
+      "format": "single_tweet",
+      "x_post": "S&P\u202f500 earnings beat rate hit 94% this quarter, up from 70% a year ago \u2013 the market now treats a beat as a given. With beats baked in, the rally now needs top\u2011line growth; look to firms that can add >10% YoY revenue on top of margin expansion. Those are the true catalysts.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Lead sentence reframes the beat rate as a market mispricing. Specific numbers (94%, 70%, >10%). No Reuters\u2011style summary, no negations, no hedging. Clear opinion that growth, not beats, will drive the rally.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-12T21:35:05.941113+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3944,
+      "sent_to_telegram_at": "2026-10-12T21:35:06.614009+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-12/albertsons-seeks-more-than-9-billion-over-busted-kroger-deal",
+      "source_headline": "Albertsons Seeks More Than $9 Billion for Busted Kroger Deal",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Albertsons\u2011Kroger $9bn demand",
+      "format": "single_tweet",
+      "x_post": "Albertsons demanding >$9\u202fbn for a dead Kroger merger is a dead\u2011hand premium that only makes sense if hidden synergies exist. That price is about 30% of Kroger\u2019s FY23 EBITDA, yet the market already discounts Kroger 12% to its pre\u2011deal price. Expect a settlement under $7\u202fbn once the FTC signal clears.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011style restatement. Lead sentence is a contrarian take. Contains specific numbers ($9\u202fbn, 30% of EBITDA, 12% discount, $7\u202fbn). No negation phrases, no hedging words, no first\u2011person. Opinion is clear and testable.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-12T21:35:04.229502+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 3942,
+      "sent_to_telegram_at": "2026-10-12T21:35:04.940952+00:00"
+    },
+    {
       "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html",
       "source_headline": "AI is automating coding. So why are software developer job postings on the rise?",
@@ -49300,5 +49435,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-10-11T17:55:39.040382+00:00"
+  "last_updated": "2026-10-12T21:35:09.250304+00:00"
 }
