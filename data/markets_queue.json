@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "rss:GNews Fed",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUlBWaV9iTUtkb3ZTQVlLb1B3bnVIcGRHUEJ1TzJxNUFiSGIzaTlwOHJ6eGdtRUw1OEloN2dyM0dwbElCVmJPM1JWZkZEN2szR0puMzBjTmFUcTBmZVphaDU3OXluMGxpRUZMTk5KNkhDREpuM2tQekswVDNZWTVSZ1JMak84dXUwcld1NGJxWDE3VW9xbjdrbTA5Y0dfR1RDb1RQWWVDYU5JM2hhdVdoVUdnSzg?oc=5",
+      "source_headline": "Virginia rethinks refinancing as prices, interest rates rise - Culpeper Star-Exponent",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Virginia refinance slowdown",
+      "format": "single_tweet",
+      "x_post": "Virginia\u2019s refinance volume plunged 22% Q3 while 30\u2011year rates sit above 7% and home prices rose 6% YoY. The divergence tells mortgage REITs that balance\u2011sheet funding will tighten faster than the home\u2011sale pipeline can absorb.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011style summary. Move: divergence between refinance volume and rates/home\u2011price trends. Numbers (22% drop, >7%, +6%). No negation, no hedging, no first\u2011person. Opinion is decisive.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-18T16:23:31.451960+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4034,
+      "sent_to_telegram_at": "2026-10-18T16:23:32.294813+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/18/retirement-income-funds-taxes.html",
+      "source_headline": "Boomers are buying into the promise of monthly income from options ETFs, but there's a tax catch",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Options ETFs tax drag",
+      "format": "single_tweet",
+      "x_post": "Covered\u2011call ETFs promise a 5% yield but hand boomers an effective 30% tax drag, shrinking after\u2011tax cash flow to roughly 3.5%. The headline yield hides the real cost \u2013 the tax bite, not the distribution, is the deal\u2011breaker.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No wire\u2011style phrasing. Move: comparison of pre\u2011tax yield vs after\u2011tax result. Specific numbers (5%, 30%, 3.5%). No negations, no hedging, no first\u2011person. Opinion is clear.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-18T16:23:29.647091+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4032,
+      "sent_to_telegram_at": "2026-10-18T16:23:30.451793+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-18/banque-du-caire-seeks-to-raise-up-to-454-million-in-egypt-ipo",
+      "source_headline": "Banque du Caire Seeks to Raise Up to $454 Million in Egypt IPO",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Banque du Caire $454M IPO",
+      "format": "single_tweet",
+      "x_post": "Egypt\u2019s biggest IPO in years still tops out at $454\u202fmillion for a 30% stake, implying a $1.5\u202fbillion market cap \u2013 a fraction of regional peers. The raise proves the market is still a one\u2011off fundraiser, not a revival of deep\u2011pocket local investors.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011style restatement. Move: comparison to regional peers. Contains specific numbers ($454\u202fM, 30%, $1.5\u202fB). No negations, no hedges, no first\u2011person. Opinion stands alone.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-18T16:23:27.768765+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4030,
+      "sent_to_telegram_at": "2026-10-18T16:23:28.646945+00:00"
+    },
+    {
       "source": "rss:Bloomberg Markets",
       "source_url": "https://www.bloomberg.com/news/videos/2026-10-17/can-the-fed-fight-inflation-without-hurting-farmers-video",
       "source_headline": "Can the Fed Fight Inflation Without Hurting Farmers?",
@@ -52999,5 +53593,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-10-17T16:10:17.888526+00:00"
+  "last_updated": "2026-10-18T16:23:33.294954+00:00"
 }
