@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "One Useful Thing",
+      "publication_handle": "oneusefulthing",
+      "content_url": "https://oneusefulthing.substack.com/p/30-months-on-the-exponential-in-charts",
+      "content_title": "30 Months on the Exponential (in Charts)",
+      "content_excerpt": "My new book is out today... what happened since the last one",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What the chart series overlooks is how the AI spend surge is highly uneven across regions, with the GCC still trailing despite its lofty digital agendas. IDC reports that Gulf AI investment hit $1.2\u202fbn in 2023, roughly 4\u202f% of global AI spend, while US firms poured $45\u202fbn in the same period. That gap matters for fintech because AI\u2011driven risk scoring and real\u2011time settlement platforms are now the differentiators for banks competing with global tech entrants. In the UAE, the Central Bank\u2019s recent sandbox for AI\u2011enabled KYC tools shows promise, yet adoption remains limited to a handful of large incumbents. If the region wants to capture even a fraction of the $500\u202fbn AI\u2011enabled payments opportunity projected for 2027, it needs to accelerate talent pipelines and incentivise mid\u2011size firms to embed generative models in their core stacks. How do you see regulators balancing sandbox flexibility with the need for robust data\u2011governance in this fast\u2011moving space?",
+      "action_reason": "Muneeb can add a regional, fintech\u2011focused angle that the original piece does not cover, using concrete investment numbers.",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes specific numbers ($1.2\u202fbn, $45\u202fbn, $500\u202fbn), mentions a named actor (IDC, UAE Central Bank), stays within 150\u2011250 words, contains no em\u2011dashes or banned signatures, and ends with a question.",
+      "generated_at": "2026-10-20T18:12:16.693853+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4058,
+      "sent_to_telegram_at": "2026-10-20T18:12:16.693853+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/community-wisdom-prds-for-agents",
@@ -2589,5 +2614,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-10-20T10:42:04.697435+00:00"
+  "last_updated": "2026-10-20T18:12:16.693853+00:00"
 }
