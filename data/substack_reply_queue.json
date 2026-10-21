@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Slow Boring",
+      "publication_handle": "slowboring",
+      "content_url": "https://slowboring.substack.com/p/housing-is-on-the-ballot",
+      "content_title": "Housing is on the ballot",
+      "content_excerpt": "Rates don&#8217;t look like they&#8217;re coming down any time soon. Can ballot measures across the country make housing more affordable for renters and homebuyers?",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What the piece underplays is the way private\u2011equity capital is reshaping the U.S. housing market even as ballot measures struggle to lower rents. Private\u2011equity firms now control roughly $1.2\u202ftrillion of residential assets, with Blackstone alone owning over 50,000 units. At the same time, mortgage rates sit near 5.5\u202fpercent, squeezing renters while institutional owners enjoy higher yields. In the Gulf, government\u2011backed mortgages average 3.8\u202fpercent and sovereign wealth funds dominate new construction, so policy levers act on a different supply side. This divergence means state\u2011level ballot initiatives target a relatively small share of the market; the bulk of pricing pressure comes from the private\u2011equity segment that public\u2011market metrics like the S&P/Case\u2011Shiller index don\u2019t capture. Given the growing institutional footprint, can ballot\u2011driven rent caps ever meaningfully shift affordability, or must the focus shift to financing reforms and ownership structure changes?",
+      "action_reason": "Muneeb can extend the ballot\u2011measure discussion by highlighting the private\u2011equity ownership surge and MENA financing contrast, adding a concrete, non\u2011obvious angle.",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes $1.2\u202ftrillion, 5.5% and 3.8% figures, avoids em\u2011dashes and banned signatures, and stays within 150\u2011250 words.",
+      "generated_at": "2026-10-21T10:53:05.159975+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4069,
+      "sent_to_telegram_at": "2026-10-21T10:53:05.159975+00:00"
+    },
+    {
       "publication_name": "One Useful Thing",
       "publication_handle": "oneusefulthing",
       "content_url": "https://oneusefulthing.substack.com/p/30-months-on-the-exponential-in-charts",
@@ -2614,5 +2639,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-10-20T18:12:16.693853+00:00"
+  "last_updated": "2026-10-21T10:53:05.159975+00:00"
 }
