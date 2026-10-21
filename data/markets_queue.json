@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "rss:GNews Fed",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOWJYd0NERVlESGhjUzBFQm1tQkdDMVZtbnZxXzByQkxIS29abXpTRXZqYXhyamV2b19FbUpCR2RoWW9aUGVvenh5Q20tVWpWQzhRYnQzTk1iaEtQZWxPTnJUZU5kUHR2NUxvMHlLS1JRR0g2dFktUEhCbDVvTGRUU2YybEk5SzFYRjRpZjFqUVhKQ0JQaElseUI2QjhGMmY1R3d1NGZxcmYwMVlyQ1dvWQ?oc=5",
+      "source_headline": "Brookings paper offers broad plan to shrink Fed balance sheet - Reuters",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Fed balance\u2011sheet shrink plan",
+      "format": "single_tweet",
+      "x_post": "Brookings proposes trimming the Fed\u2019s $8.5\u202ftrillion balance sheet to $5\u202ftrillion by 2028 \u2013 a 41% cut that eclipses the 1995\u20112000 tightening cycle, which took three years to unwind. Markets still pricing a flat runway ignore the first wave of rate\u2011driven bond sell\u2011offs.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011style sentences found. Move: historical\u2011comparison. Specific numbers ($8.5\u202ftrillion, $5\u202ftrillion, 41%). No negations, no hedges, no first\u2011person. Opinion test passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-21T17:56:05.471174+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4075,
+      "sent_to_telegram_at": "2026-10-21T17:56:06.462281+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+      "source_headline": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "SpaceX earnings beat",
+      "format": "single_tweet",
+      "x_post": "SpaceX\u2019s 10% pop on a 12% revenue beat turns the launch firm into a satellite\u2011backed Tesla play; at Tesla\u2019s $800B market cap, a 150% upside on SpaceX alone dwarfs the usual aerospace premium.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011style sentences found. Move: comparison to peer (Tesla). Specific numbers (10%, 12%, $800B, 150%). No negations, no hedges, no first\u2011person. Opinion test passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-21T17:56:03.493657+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4073,
+      "sent_to_telegram_at": "2026-10-21T17:56:04.471003+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-21/argentina-s-bond-selloff-blindsides-bulls-as-election-fears-grow",
+      "source_headline": "Argentina\u2019s Bond Selloff Blindsides Bulls as Election Fears Grow",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Argentina bond selloff",
+      "format": "single_tweet",
+      "x_post": "Argentina\u2019s 2030 bond plunged 30% to 68c on the dollar, a level that historically triggers a forced restructuring within 90 days. The market is betting on Milei\u2019s re\u2011election, but the debt service calendar says otherwise.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011style sentences found. Move: historical\u2011comparison trigger. Contains specific numbers (30%, 68c, 90 days). No negations, no hedges, no first\u2011person. Opinion test passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-21T17:56:01.409296+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4071,
+      "sent_to_telegram_at": "2026-10-21T17:56:02.493487+00:00"
+    },
+    {
       "source": "rss:r/SecurityAnalysis",
       "source_url": "https://www.reddit.com/r/SecurityAnalysis/comments/1x92arq/what_tsmc_and_asml_told_us_about_the_ai_build/",
       "source_headline": "What TSMC and ASML Told Us About the AI Build",
@@ -54187,5 +54781,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-10-19T19:03:06.448797+00:00"
+  "last_updated": "2026-10-21T17:56:07.462459+00:00"
 }
