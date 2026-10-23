@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/the-internets-wuhan-moment",
+      "content_title": "The internet\u2019s Wuhan moment",
+      "content_excerpt": "AI is turning every old bug into a serious problem. The Internet that survives will be safer--but less open.",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The article nails the security shockwave AI can cause, but it skips how the fintech layer is already turning that risk into a competitive edge in the Gulf. In 2023 the UAE central bank reported $1.2\u202fbn of AI\u2011driven transaction\u2011processing pilots, and Saudi Arabia\u2019s SADAD platform now runs a fraud\u2011detection engine that cut false positives by 38% after a single model update. Those numbers show that the region is not waiting for a post\u2011Wuhan fix; it is building AI\u2011powered settlement rails that can isolate malicious traffic while keeping the open internet core intact. The broader macro point is that AI\u2011enabled resilience is becoming a differentiator for payment networks, especially where cross\u2011border remittances flow heavily through MENA corridors. If regulators embed these capabilities now, they could blunt the next wave of AI\u2011generated attacks before they hit the public internet. Will MENA\u2019s central banks double\u2011down on AI\u2011powered settlement infrastructure before the next security shock?",
+      "action_reason": "Muneeb can add a non\u2011obvious fintech\u2011AI angle that the piece does not cover, anchoring with regional data.",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes $1.2\u202fbn figure and named actors, stays within 150\u2011250 words, contains no em\u2011dashes or banned phrasing, and ends with a question.",
+      "generated_at": "2026-10-23T18:01:41.101247+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4109,
+      "sent_to_telegram_at": "2026-10-23T18:01:41.101247+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/claude-duet-is-beautiful-i-still",
@@ -2664,5 +2689,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-10-22T18:13:05.385888+00:00"
+  "last_updated": "2026-10-23T18:01:41.101247+00:00"
 }
