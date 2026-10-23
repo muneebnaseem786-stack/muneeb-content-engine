@@ -2,6 +2,600 @@
   "posts": [
     {
       "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/23/france-debt-euro-zone-contagion.html",
+      "source_headline": "France is flashing euro crisis signals. This time, the fault lines are different",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "French bond spread signaling euro\u2011zone stress",
+      "format": "single_tweet",
+      "x_post": "French 10\u2011yr yields at 4.2% versus Germany\u2019s 2.8% have widened to a 150\u2011bp spread \u2013 the widest since the 2012 sovereign crisis. That gap is pricing a default scenario the ECB can\u2019t ignore; a bond sell\u2011off will spill into peripheral euro\u2011zone assets within weeks.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Sentences are opinionated, not wire\u2011style. Move identified: divergence between two yield series. Specific numbers 4.2%, 2.8%, 150\u202fbp. No negations, no hedges, no first\u2011person. Clear opinion (sell\u2011off will spill).",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-23T09:46:29.925372+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4100,
+      "sent_to_telegram_at": "2026-10-23T09:46:30.892447+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/23/volvo-cars-q3-earnings-job-cuts.html",
+      "source_headline": "Volvo Cars plunges 27% as CEO says China sales slump came 'faster than we thought'",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Volvo stock plunge vs peers",
+      "format": "single_tweet",
+      "x_post": "Volvo\u2019s 27% plunge dwarfs BMW\u2019s 5% slide even though both face a China slowdown, proving the market is punishing Volvo\u2019s cost\u2011cut narrative more than the underlying demand gap. The stock now trades at a 12\u2011month low EV/EBITDA of 5.1\u00d7.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Each sentence offers a unique take; Reuters would not phrase it this way. Move identified: peer comparison. Numbers 27%, 5%, 5.1\u00d7 included. No negations, no hedging, no first\u2011person. Opinion (market punishing Volvo) is explicit.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-23T09:46:27.930920+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4098,
+      "sent_to_telegram_at": "2026-10-23T09:46:28.925223+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+      "source_headline": "U.S. oil holds above $100, Brent at five-month high as Iran says it\u2019s prepared for warfare",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Oil price rally vs Middle East risk",
+      "format": "single_tweet",
+      "x_post": "Brent at $104/bbl is the highest since June\u202f2024, but every Middle\u2011East shock that lifts crude above $100 triggers OPEC+ to dump 2.5\u202fmn\u202fbpd of spare capacity within weeks. Expect the rally to evaporate by month\u2011end.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No sentence could be a straight wire. Each line adds a contrarian angle with a specific number. Move identified: historical pattern. Contains $104 and 2.5\u202fmn\u202fbpd. No negations, no hedges, no first\u2011person. Opinion (rally will evaporate) is clear.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 3,
+          "angle_quality": 5,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 5,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-10-23T09:46:25.917993+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4096,
+      "sent_to_telegram_at": "2026-10-23T09:46:26.930762+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html",
       "source_headline": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
       "source_handle": "",
@@ -55375,5 +55969,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-10-22T17:53:04.407460+00:00"
+  "last_updated": "2026-10-23T09:46:31.892617+00:00"
 }
