@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "rss:GNews Fed",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GbU1Udkd3eUd4Rzd4UTcwcDhmV1dkSnYyTUx2UkJDM25BczdOSVBVU25YXy1jM1d6Y0gxVkgtMlF0VWcxZnkxNHFEcXN3MHE1QUxMQnVtNWN2Y1JxdE5RU09IWXA5MURWMnZhWA?oc=5",
+      "source_headline": "US Federal Reserve Officials Justify Interest Rate Hikes Amid Persistent Inflation Concerns - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Fed\u2019s aggressive tightening \u2013 overkill",
+      "format": "single_tweet",
+      "x_post": "The Fed\u2019s seventh hike in 12\u202fmonths \u2013 a pace unseen since 1994 \u2013 is a policy over\u2011kill. Inflation is already edging below 3\u202f% and the labour market is softening; the aggressive tightening will tip the US into a shallow recession by Q2.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Contrarian thesis move with a concrete data point (7 hikes, 1994). No Reuters\u2011style summary, no negations, no hedging language, no first\u2011person. All criteria satisfied.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-01T18:18:15.151291+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4226,
+      "sent_to_telegram_at": "2026-11-01T18:18:16.108294+00:00"
+    },
+    {
+      "source": "rss:GNews earnings",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONDdDVXNLTzRjcFNzTlFlVkRCVm9Vc1RXY0lPMXJHc0xVbUJQcWx4cU1JeFphR0Q4SWMtMFdsV3ExeTlTN3JkVzFrQXdzTXdXaTB5WHBDalVUX19HUmowQlgxT3pkb1RWT0Rmd21lbnJrc0R1LU1IeTZYcWk0NFJoRXhwbzBYRU91THk3eVBRZzdRM09hdDVMV1cyZ1A0ODZ1R1MtQ3RUZERlOFRnUnZBM3M3Xzk1cHM3RjdmRHc3dw?oc=5",
+      "source_headline": "Cameco Q3 2026 slides highlight nuclear growth amid earnings miss - Investing.com",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Cameco nuclear tailwind despite earnings miss",
+      "format": "single_tweet",
+      "x_post": "Cameco\u2019s Q3 miss masks a 15\u202f% YTD uranium\u2011price rally and a 30\u202f% jump in announced nuclear capacity since 2022 \u2013 the strongest secular tailwind in a decade. The market still prices Cameco as a cyclical miner; the upside from the nuclear renaissance is already baked into the next 12\u2011month run\u2011rate.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Opinion\u2011driven, historical\u2011comparison move. Specific numbers (15\u202f%, 30\u202f%). No Reuters\u2011style phrasing, no negations, no hedges, no first\u2011person. Passes all checks.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-01T18:18:13.172071+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4224,
+      "sent_to_telegram_at": "2026-11-01T18:18:14.151147+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+      "source_headline": "Why AI is boosting Meta's ad business while hurting Google search",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Meta AI ad surge vs Google search slowdown",
+      "format": "single_tweet",
+      "x_post": "Meta\u2019s AI\u2011fuelled ad surge is already outpacing Google\u2019s search growth \u2013 the gap is the widest since 2021 at 6.2\u202fpp. While Wall Street still paints Google as the undisputed ad king, the AI tide is turning the battlefield into a Meta\u2011first arena. Expect Google\u2019s ad\u2011revenue CAGR to fall below 3\u202f% this year.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No sentence could be a straight wire; each contains opinion. Move used: comparison to peer. Contains specific number (6.2\u202fpp, 3\u202f%). No negations, no hedging, no first\u2011person. All checks passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 3.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-01T18:18:11.270976+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4222,
+      "sent_to_telegram_at": "2026-11-01T18:18:12.171924+00:00"
+    },
+    {
       "source": "rss:GNews macro data",
       "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVEM5aXhjLXcxQWlUUS0wQmtDSG80TGIydUNZSkxfTnF3LVRfWEFDNnAzLXBWY3hyaHJXdTlSWndRaGNkS0Z0MnY5bEh2R3VFV0xGNV9fdVprLXVUdGp5UnRXTlVQMlM5SHVhalNuNmZBRHNOQ2NsbjN2WWNVdERtaUdEY2JzYXBnM19GRl8zZ0FDTDFLWW50ZA?oc=5",
       "source_headline": "Why China Blocked a Gas Price Hike When Inflation Was Almost Zero - Vocal",
@@ -59902,5 +60496,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-10-31T10:45:32.858472+00:00"
+  "last_updated": "2026-11-01T18:18:17.108433+00:00"
 }
