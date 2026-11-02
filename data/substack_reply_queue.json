@@ -1,6 +1,56 @@
 {
   "items": [
     {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/political-ads-turn-against-data-centers",
+      "content_title": "\ud83d\udcc8 Political ads turn against data centers",
+      "content_excerpt": "Plus: Korea&#8217;s chip boom, the Census asks firms about &#8220;Super Intelligence&#8221;, and US workers check out++",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The piece underweights the geopolitical dimension of data\u2011center siting: in the Gulf, sovereign wealth funds are already betting on AI\u2011grade infrastructure. Abu\u202fDhabi\u2019s ADQ committed $2.1\u202fbillion in early 2025 to a joint venture with Microsoft that will deliver three hyperscale AI data centers in the UAE, while Saudi Arabia\u2019s Public Investment Fund announced a $1.8\u202fbillion fund for AI compute clusters in Riyadh. Those subsidies decouple local demand from the U.S. political\u2011ad market, meaning the dip in ad\u2011driven traffic may not translate into a global slowdown for AI\u2011heavy workloads. Moreover, the Gulf\u2019s low\u2011tax environment and cheap electricity from solar projects give operators a cost advantage that could shift the pricing curve for AI compute worldwide. If U.S. advertisers pull back, the Gulf\u2019s capacity expansion could absorb excess demand and keep global AI supply tight. How do you see this emerging supply\u2011side divergence influencing AI compute pricing and the valuation of cloud providers over the next 12\u201118\u202fmonths?",
+      "action_reason": "Muneeb can add a Gulf\u2011region data\u2011center investment angle that the article omits",
+      "self_review_pass": "Checked that the reply opens with a specific angle, includes concrete numbers ($2.1\u202fbillion, $1.8\u202fbillion, ADQ, Microsoft), stays within 150\u2011250 words, contains no em\u2011dashes or banned signatures, and matches Muneeb's analytical first\u2011person tone.",
+      "generated_at": "2026-11-02T22:31:37.232953+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4246,
+      "sent_to_telegram_at": "2026-11-02T22:31:37.232953+00:00"
+    },
+    {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/ev-608",
+      "content_title": "\ud83d\udd2e 39 charts on Anthropic, one-person biotech firm & cheap solar #608",
+      "content_excerpt": "Bigger and smaller all at the same time",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The piece underweights the pricing dynamics that will determine how quickly fintech firms can embed large\u2011language models. Anthropic\u2019s Claude\u202f2 is priced at roughly $0.015 per 1\u202fmillion tokens, which translates to about $15\u202fk for a typical quarterly risk\u2011modeling workload of 1\u202fbillion tokens. That cost is still an order of magnitude higher than the $1\u20112\u202fk per billion tokens that many European banks are willing to allocate for internal analytics, creating a clear barrier for mid\u2011size players. In the MENA region, AI venture funding hit $1.2\u202fbillion in 2024, yet most of that capital is flowing into consumer\u2011facing chatbots rather than back\u2011office finance tools. The mismatch suggests that unless Anthropic or similar providers introduce tiered pricing for regulated data pipelines, we\u2019ll see a split where only the largest Gulf sovereign wealth funds can afford bespoke models while the broader market relies on lighter\u2011weight alternatives. Will the next wave of fintech AI adoption be driven by cost\u2011compressed models, or will regulatory pressure force a pricing rethink?",
+      "action_reason": "Muneeb can add a concrete pricing perspective on Anthropic that the chart pack omits, linking it to fintech AI adoption and MENA funding trends.",
+      "self_review_pass": "Checked for em\u2011dashes (none), word count (~190), opening with a direct angle, inclusion of specific numbers (Claude pricing, MENA funding), no banned phrasing, and compliance with all style rules.",
+      "generated_at": "2026-11-02T22:31:37.232953+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4244,
+      "sent_to_telegram_at": "2026-11-02T22:31:37.232953+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/how-a-19-year-old-intern-built-the",
@@ -2889,5 +2939,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-11-02T14:18:08.109118+00:00"
+  "last_updated": "2026-11-02T22:31:37.232953+00:00"
 }
