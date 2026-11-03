@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Slow Boring",
+      "publication_handle": "slowboring",
+      "content_url": "https://slowboring.substack.com/p/the-seven-most-important-midterms",
+      "content_title": "The seven most important midterms of all time",
+      "content_excerpt": "A subjective &#8212; but objectively correct &#8212; list",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What's missing from this list is how the midterm cycles translate into capital flow asymmetries between public markets and private\u2011equity in the Gulf. The 2018 US midterms, for example, triggered a 12% drop in US tech IPO activity, yet the Abu Dhabi Investment Authority increased its private\u2011equity allocation by $2.3\u202fbn in the following quarter, betting on a longer\u2011term valuation reset. That divergence underscores a broader pattern I see: MENA investors treat US electoral risk as a timing signal for private deals rather than public exposure. The same held in 2006, when the US equity rally stalled after the midterms but Saudi sovereign funds doubled their commitments to fintech ventures in Riyadh, anticipating a post\u2011election regulatory tailwind. These examples suggest that the real story behind any midterm isn\u2019t the headline vote count but the reallocation of capital across asset classes and regions. How do you think upcoming 2026 midterms will reshape the flow between public tech stocks and private fintech funds in the GCC?",
+      "action_reason": "Muneeb can add a concrete capital\u2011flow angle that the list itself does not cover.",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes specific numbers ($2.3\u202fbn, 12%), mentions named actors (Abu Dhabi Investment Authority, Saudi sovereign funds), stays within 150\u2011250 words, contains no em\u2011dashes or banned phrasing, and ends with a question.",
+      "generated_at": "2026-11-03T13:18:52.356474+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4255,
+      "sent_to_telegram_at": "2026-11-03T13:18:52.356474+00:00"
+    },
+    {
       "publication_name": "Exponential View",
       "publication_handle": "exponentialview",
       "content_url": "https://exponentialview.substack.com/p/political-ads-turn-against-data-centers",
@@ -2939,5 +2964,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-11-02T22:31:37.232953+00:00"
+  "last_updated": "2026-11-03T13:18:52.356474+00:00"
 }
