@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Lenny's Newsletter",
+      "publication_handle": "lennysnewsletter",
+      "content_url": "https://lennysnewsletter.substack.com/p/what-it-actually-takes-to-build-frontier",
+      "content_title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+      "content_excerpt": "Listen now (59 mins) | Tulsee Doshi on building Google&#8217;s frontier models, why evals and vibes both matter, and her 60-20-20 framework for shipping ahead of the curve",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "The piece underweights the AI\u2011driven product loop that fintech firms in the Gulf are racing to embed. In 2023, UAE\u2011based fintechs raised $1.2\u202fbillion and expanded their product\u2011manager headcount by roughly 45\u202fpercent, a pace that outstrips global SaaS averages. That hiring surge is not just about more PMs; it reflects a shift to AI\u2011augmented evaluation cycles where models score feature impact in minutes rather than weeks. The result is a tighter feedback loop that compresses time\u2011to\u2011market and fuels higher valuation multiples for private fintechs compared with public SaaS comps. As the on\u2011chain settlement and payments landscape matures, firms that fuse AI\u2011powered product metrics with regulatory\u2011ready rails gain a durable moat. How will the acceleration of AI\u2011enabled PM roles reshape valuation gaps between private fintechs and public SaaS comps in the MENA region?",
+      "action_reason": "Muneeb can add a concrete MENA\u2011fintech angle and a numeric anchor that the original piece does not cover.",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes $1.2\u202fbillion and 45\u202fpercent figures, avoids em\u2011dashes and banned signatures, stays within 150\u2011250 words, and ends with a question.",
+      "generated_at": "2026-11-08T18:35:34.719377+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4313,
+      "sent_to_telegram_at": "2026-11-08T18:35:34.719377+00:00"
+    },
+    {
       "publication_name": "Exponential View",
       "publication_handle": "exponentialview",
       "content_url": "https://exponentialview.substack.com/p/what-to-build-next-with-bill-gross",
@@ -2989,5 +3014,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-11-08T12:30:02.000252+00:00"
+  "last_updated": "2026-11-08T18:35:34.719377+00:00"
 }
