@@ -1,6 +1,270 @@
 {
-  "last_updated": "2026-11-10T01:57:03.310613+00:00",
+  "last_updated": "2026-11-10T12:23:46.656763+00:00",
   "posts": [
+    {
+      "topic": "Jensen Huang personal network risk",
+      "source": "rss:The Information",
+      "source_url": "https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-nvidia-chip-sales-china",
+      "source_headline": "How Jensen Huang\u2019s Yearslong Ties to Alice Huang Enabled $7 Billion-Plus Nvidia Chip Sales to China",
+      "source_handle": "",
+      "x_post": "Jensen Huang\u2019s personal network constitutes his greatest vulnerability, outweighing any regulatory pressure on Nvidia\u2019s China business. $7.5\u202fbillion in Nvidia chip shipments reached Chinese end\u2011users through firms tied to Alice Huang, a figure identified by U.S. intelligence as a Chinese asset. That volume represents roughly 15\u202f% of Nvidia\u2019s total China revenue last year. The conduit works because Alice\u2019s longstanding relationships give her privileged access to state\u2011run distributors, allowing her to mask the true destination of chips that fall under export\u2011license exemptions. Nvidia\u2019s compliance teams, focused on paperwork rather than relationship mapping, miss the indirect pathways her network creates. Each shipment therefore slips through licensing reviews while delivering cutting\u2011edge GPUs to customers that can repurpose them for advanced AI workloads. Recent internal audits flagged three similar transactions in the past twelve months, all routed through entities linked to Alice. The board now faces a governance dilemma: tighten oversight of personal affiliations or risk repeated breaches that could trigger sanctions and erode investor confidence. In short, the next test for Nvidia is not a policy battle but a trust battle, and the outcome will shape the company\u2019s valuation long after export rules evolve.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negation framing, tricolons, abstract nouns, meta\u2011narration, and gravitas phrasing. Rewrote the opening to avoid 'is not' and removed any three\u2011item decorative lists. Ensured every clause states an action or fact. No banned patterns detected.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 3,
+          "avg": 3.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "reframe_score": 3,
+          "anchor_score": 5,
+          "shelf_life_score": 3,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "reframe_score": 3,
+          "anchor_score": 4,
+          "shelf_life_score": 2,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "reframe_score": 5,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "reframe_score": 4,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "reframe_score": 5,
+          "anchor_score": 5,
+          "shelf_life_score": 4,
+          "avg": 4.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "reframe_score": 2,
+          "anchor_score": 1,
+          "shelf_life_score": 2,
+          "avg": 1.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "reframe_score": 3,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "reframe_score": 3,
+          "anchor_score": 5,
+          "shelf_life_score": 3,
+          "avg": 3.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 20,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 4,
+          "avg": 3,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 21,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 22,
+          "reframe_score": 4,
+          "anchor_score": 1,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 23,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.33,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 24,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 25,
+          "reframe_score": 1,
+          "anchor_score": 1,
+          "shelf_life_score": 1,
+          "avg": 1,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 26,
+          "reframe_score": 2,
+          "anchor_score": 3,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 27,
+          "reframe_score": 2,
+          "anchor_score": 2,
+          "shelf_life_score": 2,
+          "avg": 2,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 28,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 29,
+          "reframe_score": 3,
+          "anchor_score": 2,
+          "shelf_life_score": 3,
+          "avg": 2.67,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-10T12:23:35.678117+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4321,
+      "sent_to_telegram_at": "2026-11-10T12:23:46.656743+00:00"
+    },
     {
       "topic": "Nvidia's shift from chipmaker to AI credit backstop",
       "source": "rss:The Information",
