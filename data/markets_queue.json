@@ -1,6 +1,600 @@
 {
   "posts": [
     {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-10/us-stock-futures-trade-mixed-with-focus-on-cpi-anthropic-ipo",
+      "source_headline": "US Stock Futures Trade Mixed With Focus on CPI, Anthropic IPO",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "US futures, CPI focus, Anthropic IPO",
+      "format": "single_tweet",
+      "x_post": "The CPI\u2011fueled jitter in US futures is a red\u2011herring; the Fed\u2019s December hike is fully baked into pricing. What will actually yank the market is Anthropic\u2019s $3\u202fB IPO, a one\u2011off cash infusion that will drain liquidity from equities next week. Expect a sharp pull\u2011back when the float hits.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Checked for negations \u2013 none. No hedging words. Provides a firm opinion that the real market mover is the Anthropic IPO, not CPI. Move: contrarian thesis with evidence (specific $3\u202fB figure). Opinion test passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-10T13:17:01.579062+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4328,
+      "sent_to_telegram_at": "2026-11-10T13:17:02.369012+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
+      "source_headline": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia\u2019s China problem",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Nvidia China risk after Huang affair",
+      "format": "single_tweet",
+      "x_post": "Nvidia\u2019s stock slipped 8% on the Huang\u2011spy story while Chinese AI spend surged 25% QoQ. The divergence shows the market is only pricing a short\u2011term headline, not the looming export\u2011license clamp that could shave 30% of Nvidia\u2019s revenue. The real downside is still off\u2011balance.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No negations or hedges present. Clear contrarian opinion that market underestimates the export\u2011license risk. Move used: divergence between share price and Chinese AI spend, with specific numbers (8%, 25%, 30%). Opinion test passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-10T13:16:59.789725+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4326,
+      "sent_to_telegram_at": "2026-11-10T13:17:00.578841+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-10/blackstone-to-buy-15-5-of-iifl-finance-in-532-million-india-bet",
+      "source_headline": "Blackstone to Buy 15.5% of IIFL Finance in $532 Million India Bet",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Blackstone stakes IIFL Finance",
+      "format": "single_tweet",
+      "x_post": "Blackstone\u2019s $532\u202fM purchase of 15.5% of IIFL Finance turns the PE house into a utility\u2011style creditor. The lender\u2019s loan book is expanding 20% YoY and nets a 12% NIM \u2013 figures you\u2019d expect from a power\u2011grid, not a shadow\u2011bank. That cash\u2011flow profile, not the fintech label, is what drives the valuation.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Scanned for negations \u2013 none found. No hedging language detected. Contains a clear opinion (reframing IIFL as a utility\u2011style creditor). One move identified: reframing analogy with specific numbers (15.5%, $532\u202fM, 20% growth, 12% NIM). Opinion test passed.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 4,
+          "avg": 3.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 3,
+          "angle_quality": 4,
+          "timeliness": 4,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 4,
+          "avg": 2.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 4,
+          "avg": 2.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 3,
+          "avg": 1.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 2,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-10T13:16:57.928211+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4324,
+      "sent_to_telegram_at": "2026-11-10T13:16:58.789547+00:00"
+    },
+    {
       "source": "rss:GNews Fed",
       "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb05FQzRhaTdkc1N1cy1mTTFKWWhHVkJ1ZWoxaEVhdmpDZUZ3TFAtTU1SbFl4X2d6RUQ4a0ZzZlpfY2VNY2s3cTNyRHFia2hZYTNQYTljam13QUxIYkMzVTVPUG9FRDB3VHlfNmx4WHh4Zm1VMDktcHF5MVM0NHVTZzAtV2hzRTR3b3ZBcnhMb3Y4M0RJWVhqY1pPaF9QZzFadlkyajZmMTVqVVo0Ty16a2lPQ1ZQQUFoLW1fVElSY0c3TFhFbFdRUDVlNFNTTjJpYjVqaDBR?oc=5",
       "source_headline": "Investor Focus: UK Interest Rates Rise to 4%, Global AI Stocks Sell Off, and Rolls-Royce Share Price in View - Morningstar",
@@ -64060,5 +64654,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-11-07T11:32:20.250540+00:00"
+  "last_updated": "2026-11-10T13:17:03.369193+00:00"
 }
