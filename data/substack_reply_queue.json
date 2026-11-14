@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Not Boring",
+      "publication_handle": "notboring",
+      "content_url": "https://notboring.substack.com/p/weekly-dose-of-optimism-219",
+      "content_title": "Weekly Dose of Optimism #219",
+      "content_excerpt": "AlphaGenome 2, Unnatural Products x Argenx, Path, SpaceX Solar, Voyager 1, LSD + Extra Doses",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What this roundup understates is the widening gap between private AI valuations and the public market reality. In Q2\u202f2026 private AI unicorns pulled in $12.4\u202fbn of capital at a median pre\u2011money multiple of 45\u202f\u00d7 revenue, while the public AI index trades around 12\u202f\u00d7. That premium reflects a flood of optimism rather than sustainable cash\u2011flow expectations. Even in the Gulf, Mubadala Ventures recently backed two AI startups at roughly 30\u202f\u00d7 revenue \u2013 a clear premium to regional norms and a signal that capital is chasing hype. The mechanism is simple: low\u2011interest financing and a race to claim the next \u201cAI breakthrough\u201d inflate deal terms, but the underlying economics remain untested. As public comps compress, the pressure on private rounds will increase, potentially forcing a valuation correction. Will the next funding wave adjust multiples or will we see a broader pull\u2011back that reshapes the private AI landscape?",
+      "action_reason": "Muneeb can add a contrarian view on private AI valuations versus public comps, grounding it with recent funding multiples and a MENA example.",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes specific numbers ( $12.4\u202fbn, 45\u00d7, 12\u00d7, 30\u00d7 ), cites Mubadala Ventures, avoids em\u2011dashes and banned signatures, and falls within 150\u2011250 words.",
+      "generated_at": "2026-11-14T18:54:32.032761+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4397,
+      "sent_to_telegram_at": "2026-11-14T18:54:32.032761+00:00"
+    },
+    {
       "publication_name": "Exponential View",
       "publication_handle": "exponentialview",
       "content_url": "https://exponentialview.substack.com/p/what-does-it-cost-to-make-a-worker",
@@ -3089,5 +3114,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-11-14T12:45:00.258325+00:00"
+  "last_updated": "2026-11-14T18:54:32.032761+00:00"
 }
