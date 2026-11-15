@@ -2,6 +2,600 @@
   "posts": [
     {
       "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+      "source_headline": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Social Security payroll tax hike",
+      "format": "single_tweet",
+      "x_post": "Mid\u2011term Democrats want to lift the employee payroll tax from 6.2% to 7.5% for incomes above $400\u202fk, pushing total payroll tax on high earners above 15% for the first time since 2008. That hidden surcharge will erode take\u2011home pay faster than recent inflation\u2011adjusted wage gains. Expect hiring to slow at firms with thin margins.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Historical comparison move (first time since 2008). Includes specific rates 6.2% \u2192 7.5% and 15% threshold. No wire\u2011service phrasing. No negation. No hedging verbs. No first\u2011person pronouns.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.333333333333333,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-15T19:16:24.931849+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4408,
+      "sent_to_telegram_at": "2026-11-15T19:16:25.683622+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+      "source_headline": "Bessent calls for \u2018dramatic shakeup\u2019 at Nvidia, urges outside CEO",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Nvidia board shakeup",
+      "format": "single_tweet",
+      "x_post": "Bessent\u2019s demand for an outsider at Nvidia ignores the fact the company already commands a $1.2\u202ftn market cap\u2014larger than the top five U.S. chipmakers combined. When a board replaces a founder\u2011CEO, the stock typically slides 12% in the next quarter. Expect Nvidia to tumble once a replacement is named.",
+      "soft_ban_flags": [],
+      "self_review_pass": "Opinion\u2011driven comparison move (outside\u2011CEO demand vs market cap size). Specific number $1.2\u202ftn and 12% slide. No Reuters\u2011style restatement. No negation. No hedging language. No first\u2011person.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.333333333333333,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-15T19:16:23.200741+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4406,
+      "sent_to_telegram_at": "2026-11-15T19:16:23.931695+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/features/2026-11-15/anthropic-s-ipo-makes-dario-amodei-the-new-face-of-the-ai-boom",
+      "source_headline": "Anthropic\u2019s IPO Makes Dario Amodei the New Face of the AI Boom",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Anthropic IPO",
+      "format": "single_tweet",
+      "x_post": "Anthropic\u2019s $30\u202fbn valuation turns the startup into an industrial\u2011scale AI play, not a boutique lab. Its $5\u202fbn cash pile equals the combined market cap of the top ten U.S. cloud providers. If the hype fades, this will be the biggest post\u2011IPO loss since the dot\u2011com bust.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No sentence could be a wire\u2011service summary. Move used: reframing analogy. Contains specific numbers $30\u202fbn and $5\u202fbn. No negation phrasing detected. No hedging words (could, may, might) found. No first\u2011person pronouns.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 1,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 3,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 4,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 5,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.333333333333333,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 7,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 8,
+          "news_value": 4,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 4.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 9,
+          "news_value": 2,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 10,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 11,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 12,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 13,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 14,
+          "news_value": 1,
+          "angle_quality": 1,
+          "timeliness": 5,
+          "avg": 2.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 15,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 16,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 17,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 18,
+          "news_value": 3,
+          "angle_quality": 2,
+          "timeliness": 5,
+          "avg": 3.3333333333333335,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 19,
+          "news_value": 3,
+          "angle_quality": 3,
+          "timeliness": 5,
+          "avg": 3.6666666666666665,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-15T19:16:21.370220+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4404,
+      "sent_to_telegram_at": "2026-11-15T19:16:22.200586+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
       "source_url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
       "source_headline": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
       "source_handle": "",
@@ -68218,5 +68812,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-11-14T18:40:34.435596+00:00"
+  "last_updated": "2026-11-15T19:16:26.683762+00:00"
 }
