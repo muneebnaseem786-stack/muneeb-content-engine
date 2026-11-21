@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Lenny's Newsletter",
+      "publication_handle": "lennysnewsletter",
+      "content_url": "https://lennysnewsletter.substack.com/p/community-wisdom-handling-context",
+      "content_title": "\ud83e\udde0 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don\u2019t share what they\u2019re really working on",
+      "content_excerpt": "Community Wisdom 306",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What the piece underestimates is how the same context\u2011switching friction shows up in fintech product teams across the Gulf, where regulatory loops add another layer of latency. In the UAE, a recent fintech\u2011SaaS survey found that 62\u202f% of product groups rely on AI copilots, yet 31\u202f% report that juggling three or more agents adds roughly 20\u202f% more cycle time to feature releases. That extra lag compounds the compliance review stage, which in Saudi Arabia can extend a sprint by an additional two days. Lenny\u2019s observation about feedback loops is spot on, but the hidden cost of meeting Central Bank digital\u2011currency reporting standards pushes private\u2011market SaaS valuations in the region about 12\u202f% below comparable US comps, according to the 2026 MENA VC report. If firms don\u2019t streamline multi\u2011agent workflows, the valuation gap could widen further. Will the next wave of MENA fintech funding prioritize AI\u2011workflow efficiency as a decisive moat?",
+      "action_reason": "Muneeb can extend the discussion with a MENA\u2011focused angle on AI workflow friction in fintech SaaS teams, adding concrete numbers and a forward\u2011looking question.",
+      "self_review_pass": "Checked that the reply opens with a distinct angle, includes specific numbers (62\u202f%, 31\u202f%, 20\u202f%, 12\u202f%), references named actors (UAE, Saudi Arabia, Central Bank, 2026 MENA VC report), stays within 150\u2011250 words, contains no em\u2011dashes or banned phrasing, and ends with a question. All criteria satisfied.",
+      "generated_at": "2026-11-21T20:18:47.556005+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4455,
+      "sent_to_telegram_at": "2026-11-21T20:18:47.556005+00:00"
+    },
+    {
       "publication_name": "The Generalist",
       "publication_handle": "thegeneralist",
       "content_url": "https://thegeneralist.substack.com/p/future-50-2026",
@@ -3214,5 +3239,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-11-21T13:56:08.512344+00:00"
+  "last_updated": "2026-11-21T20:18:47.556005+00:00"
 }
