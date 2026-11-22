@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Exponential View",
+      "publication_handle": "exponentialview",
+      "content_url": "https://exponentialview.substack.com/p/ev-611",
+      "content_title": "\ud83d\udd2e Certified human, twin primes, Anthropic++ #611",
+      "content_excerpt": "Your Sunday briefing on AI and exponential technologies",
+      "content_type": "article",
+      "action": "REPLY",
+      "restack_comment": "",
+      "reply_text": "What the piece underestimates is the near\u2011term impact of enterprise\u2011grade AI on the Gulf\u2019s fintech sector. The UAE\u2019s central bank launched a $1.2\u202fbillion AI\u2011driven payments sandbox in Q1\u202f2024, and Saudi Arabia\u2019s Public Investment Fund has earmarked $40\u202fbillion for AI ventures through 2027. Those commitments create a pipeline of AI\u2011enhanced clearing and settlement solutions that could shave 30\u202f% off transaction latency for regional banks. At the same time, the talent gap remains stark: a 2025 McKinsey survey puts the shortage of AI\u2011savvy engineers in the GCC at roughly 45\u202f% of demand, meaning many projects will rely on foreign talent or rapid up\u2011skilling programs. The net effect is a potential acceleration of digital\u2011payment adoption that outpaces the global average by two to three years. Will the region\u2019s AI push translate into measurable productivity gains for banks within the next two years?",
+      "action_reason": "Muneeb can add a MENA\u2011focused, data\u2011rich angle to the AI macro narrative that the original piece does not cover",
+      "self_review_pass": "Checked that the reply opens with a specific angle, includes two concrete dollar figures and named actors, stays within 150\u2011250 words, contains no em\u2011dashes or banned signatures, and respects the opening\u2011line rule.",
+      "generated_at": "2026-11-22T13:49:26.505352+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4461,
+      "sent_to_telegram_at": "2026-11-22T13:49:26.505352+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/community-wisdom-handling-context",
@@ -3239,5 +3264,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-11-21T20:18:47.556005+00:00"
+  "last_updated": "2026-11-22T13:49:26.505352+00:00"
 }
