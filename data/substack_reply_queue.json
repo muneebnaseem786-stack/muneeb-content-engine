@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Lenny's Newsletter",
+      "publication_handle": "lennysnewsletter",
+      "content_url": "https://lennysnewsletter.substack.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+      "content_title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+      "content_excerpt": "Watch now (32 mins) | &#127897;&#65039; My late-2026 How I AI bench: GPT-6.2 disappointed me, Opus 5.5 is my least annoying daily driver, and Gemini 4 Neon is now my top pick",
+      "content_type": "article",
+      "action": "RESTACK",
+      "restack_comment": "I keep returning to this benchmark because it shows the gap closing between specialized models and generalist LLMs, a trend reshaping fintech AI.",
+      "reply_text": "",
+      "action_reason": "The article\u2019s benchmark insight is concise and aligns with Muneeb\u2019s AI\u2011enterprise focus, needing only a brief framing comment.",
+      "self_review_pass": "Checked that the restack comment is under 150 characters, contains no em\u2011dashes, and stays within Muneeb\u2019s voice. All banned signatures are absent.",
+      "generated_at": "2026-11-26T22:42:23.429982+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4497,
+      "sent_to_telegram_at": "2026-11-26T22:42:23.429982+00:00"
+    },
+    {
       "publication_name": "Exponential View",
       "publication_handle": "exponentialview",
       "content_url": "https://exponentialview.substack.com/p/ev-611",
@@ -3264,5 +3289,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-11-26T16:03:54.492354+00:00"
+  "last_updated": "2026-11-26T22:42:23.429982+00:00"
 }
