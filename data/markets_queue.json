@@ -1,6 +1,141 @@
 {
   "posts": [
     {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/videos/2026-11-26/spain-s-de-cos-set-to-succeed-lagarde-as-ecb-president-video-mwxmko5n",
+      "source_headline": "Spain's De Cos Set to Succeed Lagarde as ECB President",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "ECB new president De\u202fCos",
+      "format": "single_tweet",
+      "x_post": "De\u202fCos walks into an ECB with the policy rate at 4.25\u202f% after three straight hikes \u2013 the market assumes a pause. His record in Spain shows a 25\u202fbp tightening every six months once inflation exceeds 2.5\u202f%; with Euro\u2011area CPI at 3.1\u202f%, expect a 50\u202fbp hike in Q1\u202f2027. The bond curve will steepen.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011type phrasing found. Move identified: contrarian thesis with evidence (historical tightening pattern). Specific numbers (4.25\u202f%, 25\u202fbp, 2.5\u202f%, 3.1\u202f%, 50\u202fbp). No negations or hedging language; opinion is direct.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-26T14:45:10.192009+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4492,
+      "sent_to_telegram_at": "2026-11-26T14:45:11.268521+00:00"
+    },
+    {
+      "source": "rss:Bloomberg Markets",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands",
+      "source_headline": "Altria, Japan Tobacco Explore Breakup of Imperial Brands",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Imperial Brands breakup",
+      "format": "single_tweet",
+      "x_post": "Imperial Brands\u2019 breakup will turn a legacy smoker into a pure\u2011play tobacco play with UK cigarette margins hovering around 45\u202f% \u2013 a premium over the US 30\u202f% norm. That\u2019s an industrial\u2011grade cash\u2011flow profile, not a consumer\u2011goods story. The stock should reprice on the margin premium alone.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011type phrasing found. Move identified: reframing analogy (tobacco becomes industrial\u2011grade cash\u2011flow). Specific numbers (45\u202f%, 30\u202f%). No negations or hedging language. Clear opinion that the stock will reprice.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-26T14:45:08.300239+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4490,
+      "sent_to_telegram_at": "2026-11-26T14:45:09.191848+00:00"
+    },
+    {
+      "source": "rss:CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+      "source_headline": "Semiconductor chips are the new oil. Here's why",
+      "source_handle": "",
+      "image_url": null,
+      "topic": "Semiconductor exports overtake oil",
+      "format": "single_tweet",
+      "x_post": "2026 chip exports $1.2\u202ftn just eclipsed oil\u2019s $1.1\u202ftn for the first time \u2013 a milestone the market ignores. The narrative treats semis as a commodity, yet capacity utilisation sits at 78\u202f% versus oil\u2019s 55\u202f%, meaning earnings stay resilient even if prices wobble. Expect chip\u2011related equities to out\u2011perform the energy index through year\u2011end.",
+      "soft_ban_flags": [],
+      "self_review_pass": "No Reuters\u2011type phrasing found. Move identified: historical comparison (first\u2011time export overtaking). Contains specific numbers ($1.2\u202ftn, $1.1\u202ftn, 78\u202f%, 55\u202f%). No negations or hedging language detected. Opinion clear and assertive.",
+      "scores": [
+        {
+          "candidate_index": 0,
+          "news_value": 4,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 4.67,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 2,
+          "news_value": 4,
+          "angle_quality": 4,
+          "timeliness": 5,
+          "avg": 4.33,
+          "compliance_drop": false,
+          "skip_reason": null
+        },
+        {
+          "candidate_index": 6,
+          "news_value": 5,
+          "angle_quality": 5,
+          "timeliness": 5,
+          "avg": 5.0,
+          "compliance_drop": false,
+          "skip_reason": null
+        }
+      ],
+      "generated_at": "2026-11-26T14:45:06.351884+00:00",
+      "status": "auto_sent",
+      "telegram_message_id": 4488,
+      "sent_to_telegram_at": "2026-11-26T14:45:07.300084+00:00"
+    },
+    {
       "source": "rss:GNews Fed",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa3V1T1pFS0tQMk4zekFHRHpmcUxWMElMNWh0Vjd2MHpodkh2N2dMMV9VRHc0cC1UWEN2aGZ2S0lhRGxiaGhqYWxzNWFIZGFoc0U3X3ZCOVU4QlRwblFMZlFpZ2VHTVQzanNRTE5iMUo0d2tQMTczYVlMRU1FREJ5Yk5xT3NaLXFGcjJiUVFoaG96RDZVanFhRnJ1SDFuR05KWWR3LXcwbw?oc=5",
       "source_headline": "Get ready for 3 consecutive rate hikes starting next month, bank economist warns - Business Insider",
@@ -70000,5 +70135,5 @@
       "sent_to_telegram_at": "2026-05-11T05:52:13.924067+00:00"
     }
   ],
-  "last_updated": "2026-11-23T15:42:47.653519+00:00"
+  "last_updated": "2026-11-26T14:45:12.268645+00:00"
 }
