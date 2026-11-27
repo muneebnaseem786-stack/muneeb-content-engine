@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "publication_name": "Not Boring",
+      "publication_handle": "notboring",
+      "content_url": "https://notboring.substack.com/p/weekly-dose-of-optimism-221",
+      "content_title": "Weekly Dose of Optimism #221",
+      "content_excerpt": "Riemann and quantum gravity, Elonverse Bonus, BAAJA, Hadrian SF, Capable, Pig Kidney + Extra Doses",
+      "content_type": "article",
+      "action": "RESTACK",
+      "restack_comment": "I keep coming back to this piece because it ties AI\u2011enabled private market tools to a $12\u202fbillion valuation surge in MENA fintech.",
+      "reply_text": "",
+      "action_reason": "The piece already presents a clear insight; a concise framing lets Muneeb amplify the point without a deep add.",
+      "self_review_pass": "Checked that the restack comment is under 150 characters, starts with first\u2011person, includes a concrete $12\u202fbillion figure, contains no em\u2011dashes or banned signatures, and aligns with Muneeb's voice and pillar.",
+      "generated_at": "2026-11-27T15:52:53.231648+00:00",
+      "status": "auto_sent",
+      "jury": {
+        "relevance": 0,
+        "voice_match": 0,
+        "compliance": "UNKNOWN",
+        "violations": [],
+        "verdict": "PASS",
+        "verdict_reason": "jury_error: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions"
+      },
+      "telegram_message_id": 4504,
+      "sent_to_telegram_at": "2026-11-27T15:52:53.231648+00:00"
+    },
+    {
       "publication_name": "Lenny's Newsletter",
       "publication_handle": "lennysnewsletter",
       "content_url": "https://lennysnewsletter.substack.com/p/gemini-4-neon-beat-gpt-62-and-claude",
@@ -3289,5 +3314,5 @@
       "sent_to_telegram_at": "2026-05-10T10:27:18.427313+00:00"
     }
   ],
-  "last_updated": "2026-11-26T22:42:23.429982+00:00"
+  "last_updated": "2026-11-27T15:52:53.231648+00:00"
 }
